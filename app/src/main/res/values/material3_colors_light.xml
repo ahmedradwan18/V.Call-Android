@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="signal_light_colorPrimary">#2C58C3</color>
-    <color name="signal_light_colorPrimaryContainer">#D2DFFB</color>
+    <color name="signal_light_colorPrimary">#03787E</color>
+    <color name="signal_light_colorPrimaryContainer">#BBEAED</color>
     <color name="signal_light_colorSecondary">#586071</color>
-    <color name="signal_light_colorSecondaryContainer">#DCE5F9</color>
+    <color name="signal_light_colorSecondaryContainer">#FFF1E3</color>
     <color name="signal_light_colorSurface">#FBFCFF</color>
     <color name="signal_light_colorSurfaceVariant">#E7EBF3</color>
     <color name="signal_light_colorBackground">#FBFCFF</color>

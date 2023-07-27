@@ -187,7 +187,7 @@
 
     <color name="voice_note_player_view_background">@color/signal_colorSurface1</color>
 
-    <color name="num_pad_key_background">#dce5f9</color>
+    <color name="num_pad_key_background">#FFF1E3</color>
 
     <color name="top_toast_background_color">@color/core_white</color>
 
