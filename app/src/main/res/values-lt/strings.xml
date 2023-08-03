@@ -24,28 +24,28 @@
     <string name="save">Įrašyti</string>
     <string name="note_to_self">Priminimas sau</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">Orai</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">Užrašai</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">Naujienos</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">Bangos</string>
 
     <!-- AlbumThumbnailView -->
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Signal yra atnaujinama…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">V.Call yra atnaujinama…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Jūs dar nesate nustatę slaptafrazės!</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">Išjungti slaptafrazę?</string>
-    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tai visiems laikams atrakins Signal ir žinučių pranešimus.</string>
+    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tai visiems laikams atrakins V.Call ir žinučių pranešimus.</string>
     <string name="ApplicationPreferencesActivity_disable">Išjungti</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Išjungti Signal žinutes ir skambučius?</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Išjunkite Signal žinutes ir skambučius išsiregistruodami iš serverio. Norėdami vėl jais naudotis, jūs turėsite iš naujo užregistruoti savo telefono numerį.</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Išjungti V.Call žinutes ir skambučius?</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Išjunkite V.Call žinutes ir skambučius išsiregistruodami iš serverio. Norėdami vėl jais naudotis, jūs turėsite iš naujo užregistruoti savo telefono numerį.</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Klaida prisijungiant prie serverio!</string>
     <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">PIN kodai yra reikalingi registracijos užraktui. Norėdami išjungti PIN kodus, iš pradžių, išjunkite registracijos užraktą.</string>
     <string name="ApplicationPreferencesActivity_pin_created">PIN kodas sukurtas.</string>
@@ -81,15 +81,15 @@
     <string name="AttachmentKeyboard_file">Failas</string>
     <string name="AttachmentKeyboard_contact">Adresatas</string>
     <string name="AttachmentKeyboard_location">Vieta</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal reikia leidimo rodyti jūsų nuotraukas ir vaizdo įrašus.</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">V.Call reikia leidimo rodyti jūsų nuotraukas ir vaizdo įrašus.</string>
     <string name="AttachmentKeyboard_give_access">Suteikti prieigą</string>
     <string name="AttachmentKeyboard_payment">Mokėjimas</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nerasta programėlė medijos pasirinkimui.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, Signal reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Norint pridėti kontaktinę informaciją, Signal reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Norint pridėti vietą, Signal reikia vietos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Vietą“.</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, V.Call reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Norint pridėti kontaktinę informaciją, V.Call reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Norint pridėti vietą, V.Call reikia vietos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Vietą“.</string>
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s neįjungė Mokėjimų </string>
     <!-- Alert dialog description to send the recipient a request to activate payments -->
@@ -158,16 +158,16 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">Jūs daugiau nebegausite žinučių ar atnaujinimų iš šios grupės, o nariai nebegalės vėl pridėti jūsų į šią grupę.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">Grupės nariai nebegalės vėl pridėti jūsų į šią grupę.</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">Grupės nariai galės ir vėl jus pridėti į šią grupę.</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a V.Call contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">Galėsite vieni kitiems rašyti žinutes bei skambinti, o jūsų vardas ir nuotrauka bus bendrinami su naudotoju.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">Galėsite vienas kitam siųsti žinutes.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">Užblokuoti žmonės negalės tau skambinti ar siųsti žinučių.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">Užblokuoti žmonės negalės tau siųsti žinučių.</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
+    <!-- Message shown on block dialog when blocking the V.Call release notes recipient -->
     <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Blokuoti ir nebegauti „Signal“ atnaujinimų bei naujienų.</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
-    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Pratęsti ir gauti Signal atnaujinimus bei naujienas.</string>
+    <!-- Message shown on unblock dialog when unblocking the V.Call release notes recipient -->
+    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Pratęsti ir gauti V.Call atnaujinimus bei naujienas.</string>
     <string name="BlockUnblockDialog_unblock_s">Atblokuoti %1$s?</string>
     <string name="BlockUnblockDialog_block">Užblokuoti</string>
     <string name="BlockUnblockDialog_block_and_leave">Užblokuoti ir išeiti</string>
@@ -194,8 +194,8 @@
 
     <!-- CameraContacts -->
     <string name="CameraContacts_recent_contacts">Paskiausi adresatai</string>
-    <string name="CameraContacts_signal_contacts">Signal adresatai</string>
-    <string name="CameraContacts_signal_groups">Signal grupės</string>
+    <string name="CameraContacts_signal_contacts">V.Call adresatai</string>
+    <string name="CameraContacts_signal_groups">V.Call grupės</string>
     <!-- A warning shown in a toast when  -->
     <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
         <item quantity="one">Gali bendrinti ne daugiau kaip %1$d pokalbyje.</item>
@@ -203,18 +203,18 @@
         <item quantity="many">Gali bendrinti ne daugiau kaip %1$d pokalbio.</item>
         <item quantity="other">Gali bendrinti ne daugiau kaip %1$d pokalbių.</item>
     </plurals>
-    <string name="CameraContacts_select_signal_recipients">Pasirinkti Signal gavėjus</string>
-    <string name="CameraContacts_no_signal_contacts">Nėra Signal adresatų</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">Galite naudoti kameros mygtuką tik tam, kad siųstumėte nuotraukas Signal adresatams. </string>
+    <string name="CameraContacts_select_signal_recipients">Pasirinkti V.Call gavėjus</string>
+    <string name="CameraContacts_no_signal_contacts">Nėra V.Call adresatų</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">Galite naudoti kameros mygtuką tik tam, kad siųstumėte nuotraukas V.Call adresatams. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">Nerandate ieškomo žmogaus?</string>
-    <string name="CameraContacts_invite_a_contact_to_join_signal">Pakvieskite adresatą prisijungti prie Signal</string>
+    <string name="CameraContacts_invite_a_contact_to_join_signal">Pakvieskite adresatą prisijungti prie V.Call</string>
     <string name="CameraContacts__menu_search">Ieškoti</string>
 
     <!-- Censorship Circumvention Megaphone -->
     <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">Išjungti cenzūravimo apėjimą?</string>
     <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Geresniam patyrimui, dabar galite prisijungti tiesiogiai prie Signal paslaugos.</string>
+    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Geresniam patyrimui, dabar galite prisijungti tiesiogiai prie V.Call paslaugos.</string>
     <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off">Išjungti</string>
     <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -226,7 +226,7 @@
     <string name="ClearProfileActivity_remove_group_photo">Šalinti grupės nuotrauką?</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Atnaujinti Signal</string>
+    <string name="ClientDeprecatedActivity_update_signal">Atnaujinti V.Call</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Ši programėlės versija daugiau nebepalaikoma. Norėdami ir toliau siųsti bei gauti žinutes, atnaujinkite programėlę iki naujausios versijos.</string>
     <string name="ClientDeprecatedActivity_update">Atnaujinti</string>
     <string name="ClientDeprecatedActivity_dont_update">Neatnaujinti</string>
@@ -241,7 +241,7 @@
     <string name="CommunicationActions_cancel">Atsisakyti</string>
     <string name="CommunicationActions_call">Skambinti</string>
     <string name="CommunicationActions_insecure_call">Nesaugus skambutis</string>
-    <string name="CommunicationActions_carrier_charges_may_apply">Gali būti taikomi mobiliojo ryšio tinklo operatoriaus mokesčiai. Numeris, kuriuo skambinate, nėra registruotas Signal. Šis skambutis bus inicijuotas per jūsų mobiliojo ryšio tinklo operatorių, o ne per internetą.</string>
+    <string name="CommunicationActions_carrier_charges_may_apply">Gali būti taikomi mobiliojo ryšio tinklo operatoriaus mokesčiai. Numeris, kuriuo skambinate, nėra registruotas V.Call. Šis skambutis bus inicijuotas per jūsų mobiliojo ryšio tinklo operatorių, o ne per internetą.</string>
     <string name="CommunicationActions_cant_join_call">Negalima prisijungti prie skambučio</string>
     <string name="CommunicationActions_this_call_link_is_no_longer_valid">Ši skambučio nuoroda nebegalioja.</string>
 
@@ -267,7 +267,7 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Žinutė %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Signal skambutis %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">V.Call skambutis %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -300,7 +300,7 @@
     <string name="ConversationItem_click_to_approve_unencrypted">Siuntimas nepavyko, bakstelėkite, norėdami sugrįžti nesaugaus surogato</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Sugrįžti prie nešifruotų SMS naudojimo?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Sugrįžti prie nešifruotų MMS naudojimo?</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ši žinutė <b>nebus</b> užšifruota, nes gavėjas daugiau nebėra Signal naudotojas.\n\nSiųsti neapsaugotą žinutę?</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ši žinutė <b>nebus</b> užšifruota, nes gavėjas daugiau nebėra V.Call naudotojas.\n\nSiųsti neapsaugotą žinutę?</string>
     <string name="ConversationItem_unable_to_open_media">Nepavyksta rasti programėlės, galinčios atverti šią mediją.</string>
     <string name="ConversationItem_copied_text">%1$s nukopijuota</string>
     <string name="ConversationItem_from_s">nuo %1$s</string>
@@ -357,8 +357,8 @@
     <string name="ConversationActivity_transport_insecure_sms_with_sim">Nesaugi SMS (%1$s)</string>
     <string name="ConversationActivity_transport_insecure_mms">Nesaugi MMS</string>
     <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-    <string name="ConversationActivity_transport_signal">Signal žinutė</string>
-    <string name="ConversationActivity_lets_switch_to_signal">Bendraukime per Signal %1$s</string>
+    <string name="ConversationActivity_transport_signal">V.Call žinutė</string>
+    <string name="ConversationActivity_lets_switch_to_signal">Bendraukime per V.Call %1$s</string>
     <string name="ConversationActivity_specify_recipient">Pasirinkite adresatą</string>
     <string name="ConversationActivity_unblock">Atblokuoti</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Priedas viršija jūsų siunčiamos žinutės tipui leidžiamą dydį.</string>
@@ -373,18 +373,18 @@
     <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Jūsų prašymas prisijungti prie grupės buvo išsiųstas grupės administratoriui. Jums bus pranešta, kai jis atliks tam tikrus veiksmus.</string>
     <string name="ConversationActivity_cancel_request">Panaikinti prašymą</string>
 
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Norėdami siųsti garso žinutes, leiskite Signal prieigą prie mikrofono.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Norint siųsti garso žinutes, Signal reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Norint skambinti %1$s, programai Signal reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Norėdami fotografuoti ir filmuoti vaizdo įrašus, leiskite Signal prieigą prie kameros.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Norint fotografuoti, Signal reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Norint fotografuoti ar filmuoti, Signal reikalinga prieiga prie kameros</string>
+    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Norėdami siųsti garso žinutes, leiskite V.Call prieigą prie mikrofono.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Norint siųsti garso žinutes, V.Call reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Norint skambinti %1$s, programai V.Call reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Norėdami fotografuoti ir filmuoti vaizdo įrašus, leiskite V.Call prieigą prie kameros.</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Norint fotografuoti, V.Call reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Norint fotografuoti ar filmuoti, V.Call reikalinga prieiga prie kameros</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Norėdami įrašinėti vaizdo įrašus su garsu, įjunkite prieigą prie mikrofono.</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Norint įrašinėti vaizdo įrašus, Signal reikia mikrofono leidimo, tačiau jis buvo uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Norint įrašinėti vaizdo įrašus, Signal reikalingas mikrofono leidimas.</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Norint įrašinėti vaizdo įrašus, V.Call reikia mikrofono leidimo, tačiau jis buvo uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Norint įrašinėti vaizdo įrašus, V.Call reikalingas mikrofono leidimas.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal negali siųsti SMS/MMS žinučių, nes ji nėra jūsų numatytoji SMS programėlė. Ar norėtumėte tai pakeisti savo „Android“ nustatymuose?</string>
+    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">V.Call negali siųsti SMS/MMS žinučių, nes ji nėra jūsų numatytoji SMS programėlė. Ar norėtumėte tai pakeisti savo „Android“ nustatymuose?</string>
     <string name="ConversationActivity_yes">Taip</string>
     <string name="ConversationActivity_no">Ne</string>
     <string name="ConversationActivity_search_position">%1$d iš %2$d</string>
@@ -400,7 +400,7 @@
     <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Tu išeisi iš šios grupės ir ji bus ištrinta iš visų tavo įrenginių.</string>
     <string name="ConversationActivity_delete">Ištrinti</string>
     <string name="ConversationActivity_delete_and_leave">Ištrinti ir išeiti</string>
-    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Norint skambinti %1$s, Signal reikia prieigos prie jūsų mikrofono</string>
+    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Norint skambinti %1$s, V.Call reikia prieigos prie jūsų mikrofono</string>
 
 
     <string name="ConversationActivity_join">Prisijungti</string>
@@ -421,7 +421,7 @@
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">SMS žinutės programėlėje „Signal“ nebepalaikomos. Pakviesk %1$s į „Signal“ ir pratęsk pokalbį čia.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">Pakviesti į Signal</string>
+    <string name="ConversationActivity__invite_to_signal">Pakviesti į V.Call</string>
     <!-- Snackbar message shown after dismissing the full screen sms export megaphone indicating we\'ll do it again soon -->
     <string name="ConversationActivity__you_will_be_reminded_again_soon">Netrukus gausi dar vieną priminimą.</string>
 
@@ -501,12 +501,12 @@
     <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d grupės nariai(-ių) turi tokį patį vardą.</string>
     <string name="ConversationFragment__tap_to_review">Bakstelėkite norėdami peržiūrėti</string>
     <string name="ConversationFragment__review_requests_carefully">Atidžiai peržiūrėkite prašymus</string>
-    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal rado kitą adresatą tokiu pačiu vardu.</string>
+    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">V.Call rado kitą adresatą tokiu pačiu vardu.</string>
     <string name="ConversationFragment_contact_us">Susisiekite su mumis</string>
     <string name="ConversationFragment_verify">Patvirtinti</string>
     <string name="ConversationFragment_not_now">Ne dabar</string>
     <string name="ConversationFragment_your_safety_number_with_s_changed">Jūsų saugumo numeris su %1$s pasikeitė</string>
-    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Jūsų saugumo numeris su %1$s pasikeitė, greičiausiai, dėl to, kad adresatas iš naujo įdiegė Signal arba pasikeitė įrenginį. Norėdami patvirtinti naują saugumo numerį, bakstelėkite „Patvirtinti“. Tai nėra privaloma.</string>
+    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Jūsų saugumo numeris su %1$s pasikeitė, greičiausiai, dėl to, kad adresatas iš naujo įdiegė V.Call arba pasikeitė įrenginį. Norėdami patvirtinti naują saugumo numerį, bakstelėkite „Patvirtinti“. Tai nėra privaloma.</string>
     <!-- Message shown to indicate which notification profile is on/active -->
     <string name="ConversationFragment__s_on">%1$s įjungtas</string>
     <!-- Dialog title for block group link join requests -->
@@ -520,7 +520,7 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Užblokuotas</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Atnaujinti Signal</string>
+    <string name="ConversationFragment__update_build">Atnaujinti V.Call</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
     <string name="ConversationFragment__reregister_signal">Iš naujo registruoti „Signal“</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
@@ -681,7 +681,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Išbandyti savo atsarginės kopijos slaptafrazę ir patikrinti ar ji sutampa</string>
     <string name="BackupsPreferenceFragment__turn_on">Įjungti</string>
     <string name="BackupsPreferenceFragment__turn_off">Išjungti</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Norėdami atkurti atsarginę kopiją, įsidiekite naują Signal kopiją. Atverkite programėlę ir bakstelėkite ant „Atkurti atsarginę kopiją“, o tuomet nustatykite atsarginės kopijos failo vietą. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Norėdami atkurti atsarginę kopiją, įsidiekite naują V.Call kopiją. Atverkite programėlę ir bakstelėkite ant „Atkurti atsarginę kopiją“, o tuomet nustatykite atsarginės kopijos failo vietą. %1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">Sužinoti daugiau</string>
     <string name="BackupsPreferenceFragment__in_progress">Vykdoma…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -689,7 +689,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">Jau %1$d…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">Jau %1$s%%…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Norint daryti atsargines kopijas, Signal reikia išorinės saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Norint daryti atsargines kopijas, V.Call reikia išorinės saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
 
 
     <!-- CustomDefaultPreference -->
@@ -756,7 +756,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Pokalbio seansas atnaujintas</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal programėlė naudoja ištisinį šifravimą ir jai kartais gali tekti atnaujinti jūsų pokalbio seansą. Tai neįtakoja jūsų pokalbio saugumo, bet gali būti, kad praleidote ir negavote žinutės nuo šio adresato, todėl galite jo paprašyti, kad išsiųstų žinutę dar kartą.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">V.Call programėlė naudoja ištisinį šifravimą ir jai kartais gali tekti atnaujinti jūsų pokalbio seansą. Tai neįtakoja jūsų pokalbio saugumo, bet gali būti, kad praleidote ir negavote žinutės nuo šio adresato, todėl galite jo paprašyti, kad išsiųstų žinutę dar kartą.</string>
 
     <!-- DeviceListActivity -->
     <string name="DeviceListActivity_unlink_s">Atsieti „%1$s“?</string>
@@ -778,10 +778,10 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Optimizuoti trūkstamoms „Play“ paslaugoms</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Šis įrenginys nepalaiko „Play“ paslaugų. Bakstelėkite, norėdami išjungti sistemos baterijos optimizavimus, kurie neleidžia Signal gauti žinučių tol, kol įrenginys yra neaktyvus.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Šis įrenginys nepalaiko „Play“ paslaugų. Bakstelėkite, norėdami išjungti sistemos baterijos optimizavimus, kurie neleidžia V.Call gauti žinučių tol, kol įrenginys yra neaktyvus.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Ši Signal versija nebegalioja. Norėdami siųsti ir gauti žinutes, atnaujinkite programėlę dabar.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Ši V.Call versija nebegalioja. Norėdami siųsti ir gauti žinutes, atnaujinkite programėlę dabar.</string>
     <string name="ExpiredBuildReminder_update_now">Atnaujinti dabar</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
@@ -794,8 +794,8 @@
     <string name="PendingGroupJoinRequestsReminder_view">Rodyti</string>
 
     <!-- GcmRefreshJob -->
-    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Ilgalaikė Signal susisiekimo triktis!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal nepavyko prisiregistruoti prie „Google Play“ paslaugų. Signal žinutės ir skambučiai buvo išjungti, prašome pabandyti iš naujo registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
+    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Ilgalaikė V.Call susisiekimo triktis!</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">V.Call nepavyko prisiregistruoti prie „Google Play“ paslaugų. V.Call žinutės ir skambučiai buvo išjungti, prašome pabandyti iš naujo registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
 
 
     <!-- GiphyActivity -->
@@ -1029,8 +1029,8 @@
     </plurals>
 
     <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Jūs neturite teisių to daryti</string>
-    <string name="ManageGroupActivity_not_capable">Kažkas iš jūsų pridėtų asmenų nepalaiko naujų grupių ir turi atsinaujinti Signal</string>
-    <string name="ManageGroupActivity_not_announcement_capable">Kažkas iš jūsų pridėtų žmonių nepalaiko skelbimų grupių ir turi atsinaujinti Signal programėlę</string>
+    <string name="ManageGroupActivity_not_capable">Kažkas iš jūsų pridėtų asmenų nepalaiko naujų grupių ir turi atsinaujinti V.Call</string>
+    <string name="ManageGroupActivity_not_announcement_capable">Kažkas iš jūsų pridėtų žmonių nepalaiko skelbimų grupių ir turi atsinaujinti V.Call programėlę</string>
     <string name="ManageGroupActivity_failed_to_update_the_group">Nepavyko atnaujinti grupės</string>
     <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Jūs nesate šios grupės narys</string>
     <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Nepavyko atnaujinti grupės, vėliau bandykite dar kartą</string>
@@ -1042,7 +1042,7 @@
     <string name="ManageGroupActivity_legacy_group_upgrade">Tai yra pasenusi grupė. Norėdami naudoti tokias ypatybes kaip @paminėjimai ir administratoriai,</string>
     <string name="ManageGroupActivity_legacy_group_too_large">Ši pasenusi grupė negali būti naujinta į naująją grupę, nes yra per didelė. Didžiausias grupės dydis yra %1$d.</string>
     <string name="ManageGroupActivity_upgrade_this_group">naujinkite šią grupę.</string>
-    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Tai yra nesaugi MMS grupė. Norėdami kalbėtis privačiai, pakvieskite savo adresatus į Signal.</string>
+    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Tai yra nesaugi MMS grupė. Norėdami kalbėtis privačiai, pakvieskite savo adresatus į V.Call.</string>
     <string name="ManageGroupActivity_invite_now">Pakviesti dabar</string>
     <string name="ManageGroupActivity_more">daugiau</string>
     <string name="ManageGroupActivity_add_group_description">Pridėti grupės aprašą…</string>
@@ -1159,9 +1159,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Atnaujinkite Signal norėdami naudoti grupių nuorodas</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Jūsų naudojama Signal versija nepalaiko šios grupės nuorodos. Norėdami prisijungti prie šios grupės per nuorodą, atnaujinkite Signal iki naujausios versijos.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Atnaujinti Signal</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Atnaujinkite V.Call norėdami naudoti grupių nuorodas</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Jūsų naudojama V.Call versija nepalaiko šios grupės nuorodos. Norėdami prisijungti prie šios grupės per nuorodą, atnaujinkite V.Call iki naujausios versijos.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Atnaujinti V.Call</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Grupės nuoroda negalioja</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1192,7 +1192,7 @@
 
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Spaudžiant žinutė įrašinėjama, o atleidus išsiunčiama</string>
-    <!-- Message shown if the user tries to switch a conversation from Signal to SMS -->
+    <!-- Message shown if the user tries to switch a conversation from V.Call to SMS -->
     <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">SMS žinutės programėlėje „Signal“ nebepalaikomos.</string>
     <!-- When editing a message, label shown above the text input field in the composer -->
     <string name="InputPanel_edit_message">Redaguoti žinutę</string>
@@ -1205,7 +1205,7 @@
     <string name="InviteActivity_cancel">Atsisakyti</string>
     <string name="InviteActivity_sending">Siunčiama…</string>
     <string name="InviteActivity_invitations_sent">Pakvietimai išsiųsti!</string>
-    <string name="InviteActivity_invite_to_signal">Pakviesti į Signal</string>
+    <string name="InviteActivity_invite_to_signal">Pakviesti į V.Call</string>
     <string name="InviteActivity_send_sms">Siųsti SMS žinutę (%1$d)</string>
     <plurals name="InviteActivity_send_sms_invites">
         <item quantity="one">Siųsti %1$d SMS pakvietimą?</item>
@@ -1213,7 +1213,7 @@
         <item quantity="many">Siųsti %1$d SMS pakvietimų?</item>
         <item quantity="other">Siųsti %1$d SMS pakvietimų?</item>
     </plurals>
-    <string name="InviteActivity_lets_switch_to_signal">Bendraukime per Signal: %1$s</string>
+    <string name="InviteActivity_lets_switch_to_signal">Bendraukime per V.Call: %1$s</string>
     <string name="InviteActivity_no_app_to_share_to">Atrodo, kad neturite programėlių su kuriomis bendrinti.</string>
 
     <!-- LearnMoreTextView -->
@@ -1295,7 +1295,7 @@
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">Priminti vėliau</string>
-    <string name="Megaphones_verify_your_signal_pin">Patvirtinkite savo Signal PIN kodą</string>
+    <string name="Megaphones_verify_your_signal_pin">Patvirtinkite savo V.Call PIN kodą</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Retkarčiais, tam kad prisimintumėte savo PIN kodą, prašysime jūsų jį patvirtinti.</string>
     <string name="Megaphones_verify_pin">Patvirtinti PIN kodą</string>
     <string name="Megaphones_get_started">Darbo pradžia</string>
@@ -1309,10 +1309,10 @@
     <string name="MessageQuotesBottomSheet_replies">Atsakymai</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Užmezgiamas Signal skambutis</string>
+    <string name="NotificationBarManager__establishing_signal_call">Užmezgiamas V.Call skambutis</string>
     <!-- Temporary notification shown when starting the calling service -->
     <string name="NotificationBarManager__starting_signal_call_service">Pradedama tekti „Signal“ skambučių paslauga</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Stabdoma Signal skambučių paslauga</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Stabdoma V.Call skambučių paslauga</string>
     <string name="NotificationBarManager__decline_call">Atmesti skambutį</string>
     <string name="NotificationBarManager__answer_call">Atsiliepti į skambutį</string>
     <string name="NotificationBarManager__end_call">Baigti skambutį</string>
@@ -1342,7 +1342,7 @@
 
     <!-- MessageRecord -->
     <string name="MessageRecord_unknown">Nežinoma</string>
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Gauta žinutė buvo užšifruota, naudojant seną Signal versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Gauta žinutė buvo užšifruota, naudojant seną V.Call versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
     <string name="MessageRecord_left_group">Jūs išėjote iš grupės.</string>
     <string name="MessageRecord_you_updated_group">Jūs atnaujinote grupę.</string>
     <string name="MessageRecord_the_group_was_updated">Grupė buvo atnaujinta.</string>
@@ -1369,7 +1369,7 @@
     <!-- Call update formatter string to place the update message next to a time stamp. e.g., \'Incoming voice call · 11:11am\' -->
     <string name="MessageRecord_call_message_with_date">%1$s · %2$s</string>
     <string name="MessageRecord_s_updated_group">%1$s atnaujino grupę.</string>
-    <string name="MessageRecord_s_joined_signal">%1$s atėjo į Signal!</string>
+    <string name="MessageRecord_s_joined_signal">%1$s atėjo į V.Call!</string>
     <string name="MessageRecord_you_disabled_disappearing_messages">Jūs išjungėte išnykstančias žinutes.</string>
     <string name="MessageRecord_s_disabled_disappearing_messages">%1$s išjungė išnykstančias žinutes.</string>
     <string name="MessageRecord_you_set_disappearing_message_time_to_s">Jūs nustatėte išnykstančių žinučių laikmatį į %1$s.</string>
@@ -1634,7 +1634,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">Leisti, kad %1$s siųstų tau žinutes, ir bendrinti su šiuo žmogumi savo vardą bei nuotrauką? Anksčiau tu pašalinai šį asmenį.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">Ar norite leisti, kad %1$s rašytų jums žinutes, ir bendrinti savo vardą bei nuotrauką su šiuo naudotoju? Naudotojas nežinos, kad matėte jo žinutę tol, kol nesutiksite.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a V.Call user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">Ar nori leisti, kad %1$s rašytų tau žinutes, ir bendrinti savo vardą bei nuotrauką su šiuo žmogumi? Negausi žinučių, kol neatblokuosi.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">Ar nori leisti, kad %1$s siųstų tau žinutes? Negausi žinučių, kol neatblokuosi.</string>
@@ -1700,15 +1700,15 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">Neteisingas QR kodas.</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Atleiskite, jūs jau turite per daug susietų įrenginių, pabandykite kai kuriuos pašalinti</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Atleiskite, tai nėra teisingas įrenginio nuorodos QR kodas.</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">Susieti Signal įrenginį?</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Atrodo, kad bandote susieti Signal įrenginį, naudodami trečiųjų šalių skenerį. Jūsų saugumui, dar kartą nuskenuokite kodą, naudodami Signal.</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">Susieti V.Call įrenginį?</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Atrodo, kad bandote susieti V.Call įrenginį, naudodami trečiųjų šalių skenerį. Jūsų saugumui, dar kartą nuskenuokite kodą, naudodami V.Call.</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Norint skenuoti QR kodą, Signal reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Norint skenuoti QR kodą, V.Call reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nepavyksta nuskenuoti QR kodo be kameros leidimo</string>
 
     <!-- OutdatedBuildReminder -->
     <string name="OutdatedBuildReminder_update_now">Atnaujinti dabar</string>
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Šiandien nustos galioti ši Signal versija. Atnaujinkite Signal iki naujausios versijos.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Šiandien nustos galioti ši V.Call versija. Atnaujinkite V.Call iki naujausios versijos.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
         <item quantity="one">Ši „Signal“ versija nustos galioti rytoj. Atnaujink „Signal“ į naujausią versiją.</item>
         <item quantity="few">Ši „Signal“ versija nustos galioti po %1$d dienų. Atnaujink „Signal“ į naujausią versiją.</item>
@@ -1718,11 +1718,11 @@
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Įveskite slaptafrazę</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Signal piktograma</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">V.Call piktograma</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Pateikti slaptafrazę</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Neteisinga slaptafrazė!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Atrakinti Signal</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal „Android“ - Ekrano užraktas</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Atrakinti V.Call</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">V.Call „Android“ - Ekrano užraktas</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Žemėlapis</string>
@@ -1749,13 +1749,13 @@
         <item quantity="many">Jums liko %1$d bandymų. Jei išnaudosite visus bandymus, galėsite susikurti naują PIN kodą. Galėsite registruotis ir naudotis savo paskyra, bet prarasite kai kuriuos įrašytus nustatymus, kaip pavyzdžiui, profilio informaciją.</item>
         <item quantity="other">Jums liko %1$d bandymas. Jei išnaudosite visus bandymus, galėsite susikurti naują PIN kodą. Galėsite registruotis ir naudotis savo paskyra, bet prarasite kai kuriuos įrašytus nustatymus, kaip pavyzdžiui, profilio informaciją.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal Registracija - Reikia pagalbos su PIN kodu „Android“ įrenginyje</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">V.Call Registracija - Reikia pagalbos su PIN kodu „Android“ įrenginyje</string>
     <!-- Button label to prompt the user to switch between an alphanumeric and numeric-only keyboards -->
     <string name="PinRestoreEntryFragment_switch_keyboard">Perjungti klaviatūrą</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">Susikurti PIN kodą</string>
-    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Jums nebeliko PIN kodo spėjimų, bet vis dar galite gauti prieigą prie savo Signal paskyros, susikurdami naują PIN kodą. Siekiant apsaugoti jūsų privatumą, saugumo sumetimais jūsų paskyra bus atkurta be įrašytos profilio informacijos ir įrašytų nustatymų.</string>
+    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Jums nebeliko PIN kodo spėjimų, bet vis dar galite gauti prieigą prie savo V.Call paskyros, susikurdami naują PIN kodą. Siekiant apsaugoti jūsų privatumą, saugumo sumetimais jūsų paskyra bus atkurta be įrašytos profilio informacijos ir įrašytų nustatymų.</string>
     <string name="PinRestoreLockedFragment_create_new_pin">Sukurti naują PIN kodą</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
 
@@ -1793,7 +1793,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Patvirtinkite norėdami tęsti susirašinėjimą</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Siekdami neleisti brukalo Signal programėlėje, prašome jūsų užbaigti patvirtinimą.</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Siekdami neleisti brukalo V.Call programėlėje, prašome jūsų užbaigti patvirtinimą.</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Po patvirtinimo galėsite tęsti susirašinėjimą. Visos pristabdytos žinutės bus automatiškai išsiųstos.</string>
 
     <!-- Recipient -->
@@ -1826,8 +1826,8 @@
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Bakstelėkite čia norėdami įjungti savo vaizdą</string>
-    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Norint skambinti %1$s, Signal reikia prieigos prie jūsų kameros</string>
-    <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Norint skambinti %1$s, V.Call reikia prieigos prie jūsų kameros</string>
+    <string name="WebRtcCallActivity__signal_s">V.Call %1$s</string>
     <string name="WebRtcCallActivity__calling">Skambinama…</string>
     <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">Grupė yra per didelė, kad būtų skambinama dalyviams.</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
@@ -1843,7 +1843,7 @@
 
     <!-- WebRtcCallView -->
     <string name="WebRtcCallView__signal_call">„Signal“ skambutis</string>
-    <string name="WebRtcCallView__signal_video_call">Signal vaizdo skambutis</string>
+    <string name="WebRtcCallView__signal_video_call">V.Call vaizdo skambutis</string>
     <string name="WebRtcCallView__start_call">Pradėti skambutį</string>
     <string name="WebRtcCallView__join_call">Prisijungti prie skambučio</string>
     <string name="WebRtcCallView__call_is_full">Skambutis yra pilnas</string>
@@ -1853,13 +1853,13 @@
     <string name="WebRtcCallView__joining">Prisijungiama…</string>
     <string name="WebRtcCallView__disconnected">Atsijungta</string>
 
-    <string name="WebRtcCallView__signal_will_ring_s">Signal skambins naudotojui %1$s</string>
-    <string name="WebRtcCallView__signal_will_ring_s_and_s">Signal skambins naudotojams %1$s ir %2$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s">V.Call skambins naudotojui %1$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s_and_s">V.Call skambins naudotojams %1$s ir %2$s</string>
     <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-        <item quantity="one">Signal skambins naudotojams %1$s, %2$s ir dar %3$d žmogui</item>
-        <item quantity="few">Signal skambins naudotojams %1$s, %2$s ir dar %3$d žmonėms</item>
-        <item quantity="many">Signal skambins naudotojams %1$s, %2$s ir dar %3$d žmonių</item>
-        <item quantity="other">Signal skambins naudotojams %1$s, %2$s ir dar %3$d žmogui</item>
+        <item quantity="one">V.Call skambins naudotojams %1$s, %2$s ir dar %3$d žmogui</item>
+        <item quantity="few">V.Call skambins naudotojams %1$s, %2$s ir dar %3$d žmonėms</item>
+        <item quantity="many">V.Call skambins naudotojams %1$s, %2$s ir dar %3$d žmonių</item>
+        <item quantity="other">V.Call skambins naudotojams %1$s, %2$s ir dar %3$d žmogui</item>
     </plurals>
 
     <string name="WebRtcCallView__s_will_be_notified">%1$s gaus pranešimą</string>
@@ -1977,13 +1977,13 @@
     <string name="RegistrationActivity_is_your_phone_number_above_correct">Ar jūsų telefono numeris aukščiau yra teisingas?</string>
     <string name="RegistrationActivity_edit_number">Taisyti numerį</string>
     <string name="RegistrationActivity_missing_google_play_services">Trūksta „Google Play“ paslaugų</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">Šiame įrenginyje nėra „Google Play“ paslaugų. Jūs vis tiek galite naudoti Signal, tačiau tokia konfigūracija gali sąlygoti mažesnį patikimumą ir našumą.\n\nJeigu jūs nesate pažengęs naudotojas, nenaudojate atsarginių dalių „Android“ ROM ar manote, jog matote tai per klaidą, tuomet pagalbai ir nesklandumų šalinimui susisiekite su support@signal.org.</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">Šiame įrenginyje nėra „Google Play“ paslaugų. Jūs vis tiek galite naudoti V.Call, tačiau tokia konfigūracija gali sąlygoti mažesnį patikimumą ir našumą.\n\nJeigu jūs nesate pažengęs naudotojas, nenaudojate atsarginių dalių „Android“ ROM ar manote, jog matote tai per klaidą, tuomet pagalbai ir nesklandumų šalinimui susisiekite su support@signal.org.</string>
     <string name="RegistrationActivity_i_understand">Aš suprantu</string>
     <string name="RegistrationActivity_play_services_error">„Play“ paslaugų klaida</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">„Google Play“ paslaugos yra atnaujinamos arba laikinai neprieinamos. Prašome bandyti dar kartą.</string>
     <string name="RegistrationActivity_terms_and_privacy">Sąlygos ir Privatumo politika</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal programėlei reikia leidimo gauti prieigą prie jūsų adresatų ir medijos, kad padėtų jums susisiekti su draugais ir siųsti žinutes. Jūsų adresatai yra išsiunčiami naudojant Signal privatų adresatų atradimą, o tai reiškia, kad adresatai yra šifruoti ištisiniu būdu ir niekada nebus matomi Signal paslaugai.</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal programėlei reikia leidimo gauti prieigą prie jūsų adresatų, kad padėtų jums susisiekti su draugais. Jūsų adresatai yra išsiunčiami naudojant Signal privatų adresatų atradimą, o tai reiškia, kad adresatai yra šifruoti ištisiniu būdu ir niekada nebus matomi Signal paslaugai.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">V.Call programėlei reikia leidimo gauti prieigą prie jūsų adresatų ir medijos, kad padėtų jums susisiekti su draugais ir siųsti žinutes. Jūsų adresatai yra išsiunčiami naudojant V.Call privatų adresatų atradimą, o tai reiškia, kad adresatai yra šifruoti ištisiniu būdu ir niekada nebus matomi V.Call paslaugai.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">V.Call programėlei reikia leidimo gauti prieigą prie jūsų adresatų, kad padėtų jums susisiekti su draugais. Jūsų adresatai yra išsiunčiami naudojant V.Call privatų adresatų atradimą, o tai reiškia, kad adresatai yra šifruoti ištisiniu būdu ir niekada nebus matomi V.Call paslaugai.</string>
     <string name="RegistrationActivity_rate_limited_to_service">Atlikote per daug bandymų užregistruoti šį numerį. Vėliau bandykite dar kartą.</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">Atlikai per daug bandymų užregistruoti šį numerį. Pabandyk už %1$s.</string>
@@ -1996,7 +1996,7 @@
     <string name="RegistrationActivity_unable_to_request_verification_code">Nepavyko paprašyti patvirtinimo kodo. Patikrink tinklo ryšį ir bandyk dar kartą.</string>
     <string name="RegistrationActivity_non_standard_number_format">Nestandartinis numerio formatas</string>
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">Atrodo, kad jūsų įvestas numeris (%1$s) yra nestandartinio formato.\n\nAr turėjote omenyje %2$s?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Signal „Android“ - Telefono numerio formatas</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">V.Call „Android“ - Telefono numerio formatas</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">Užklausta skambučio</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -2046,7 +2046,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Įjungti registracijos užraktą?</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Išjungti registracijos užraktą?</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Jeigu registruodamiesi su Signal, vėl užmiršite savo Signal PIN kodą, tuomet 7 dienoms būsite užblokuoti nuo savo paskyros.</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Jeigu registruodamiesi su V.Call, vėl užmiršite savo V.Call PIN kodą, tuomet 7 dienoms būsite užblokuoti nuo savo paskyros.</string>
     <string name="RegistrationLockV2Dialog_turn_on">Įjungti</string>
     <string name="RegistrationLockV2Dialog_turn_off">Išjungti</string>
 
@@ -2072,19 +2072,19 @@
 
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">Pridėti į adresatus</string>
-    <string name="SharedContactDetailsActivity_invite_to_signal">Pakviesti į Signal</string>
-    <string name="SharedContactDetailsActivity_signal_message">Signal žinutė</string>
-    <string name="SharedContactDetailsActivity_signal_call">Signal skambutis</string>
+    <string name="SharedContactDetailsActivity_invite_to_signal">Pakviesti į V.Call</string>
+    <string name="SharedContactDetailsActivity_signal_message">V.Call žinutė</string>
+    <string name="SharedContactDetailsActivity_signal_call">V.Call skambutis</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Pridėti į adresatus</string>
-    <string name="SharedContactView_invite_to_signal">Pakviesti į Signal</string>
-    <string name="SharedContactView_message">Signal žinutė</string>
+    <string name="SharedContactView_invite_to_signal">Pakviesti į V.Call</string>
+    <string name="SharedContactView_message">V.Call žinutė</string>
 
-    <!-- SignalBottomActionBar -->
+    <!-- V.CallBottomActionBar -->
     <string name="SignalBottomActionBar_more">Daugiau</string>
 
-    <!-- SignalPinReminders -->
+    <!-- V.CallPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">PIN kodas sėkmingai patvirtintas. Vėliau priminsime jums dar kartą.</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">PIN kodas sėkmingai patvirtintas. Rytoj priminsime jums dar kartą.</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">PIN kodas sėkmingai patvirtintas. Po kelių dienų priminsime jums dar kartą.</string>
@@ -2108,7 +2108,7 @@
     <string name="SmsMessageRecord_secure_session_reset">Jūs atstatėte saugųjį seansą.</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%1$s atstatė saugųjį seansą.</string>
     <string name="SmsMessageRecord_duplicate_message">Dviguba žinutė.</string>
-    <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Šios žinutės nepavyko apdoroti, nes ji buvo išsiųsta, naudojant naujesnę Signal versiją. Kai atsinaujinsite programėlę, galite paprašyti adresato, kad išsiųstų jums šią žinutę dar kartą.</string>
+    <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Šios žinutės nepavyko apdoroti, nes ji buvo išsiųsta, naudojant naujesnę V.Call versiją. Kai atsinaujinsite programėlę, galite paprašyti adresato, kad išsiųstų jums šią žinutę dar kartą.</string>
     <string name="SmsMessageRecord_error_handling_incoming_message">Klaida, apdorojant gaunamą žinutę.</string>
 
     <!-- StickerManagementActivity -->
@@ -2117,7 +2117,7 @@
     <!-- StickerManagementAdapter -->
     <string name="StickerManagementAdapter_installed_stickers">Įdiegti lipdukai</string>
     <string name="StickerManagementAdapter_stickers_you_received">Jūsų gauti lipdukai</string>
-    <string name="StickerManagementAdapter_signal_artist_series">Signal menininkų serija</string>
+    <string name="StickerManagementAdapter_signal_artist_series">V.Call menininkų serija</string>
     <string name="StickerManagementAdapter_no_stickers_installed">Nėra jokių įdiegtų lipdukų</string>
     <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Čia bus rodomi lipdukai iš gaunamų žinučių</string>
     <string name="StickerManagementAdapter_untitled">Be pavadinimo</string>
@@ -2154,8 +2154,8 @@
     <string name="SupportEmailUtil_filter">Filtras:</string>
     <string name="SupportEmailUtil_device_info">Įrenginio informacija:</string>
     <string name="SupportEmailUtil_android_version">„Android“ versija:</string>
-    <string name="SupportEmailUtil_signal_version">Signal versija:</string>
-    <string name="SupportEmailUtil_signal_package">Signal paketas:</string>
+    <string name="SupportEmailUtil_signal_version">V.Call versija:</string>
+    <string name="SupportEmailUtil_signal_package">V.Call paketas:</string>
     <string name="SupportEmailUtil_registration_lock">Registracijos užraktas:</string>
     <string name="SupportEmailUtil_locale">Lokalė:</string>
 
@@ -2179,7 +2179,7 @@
     <string name="ThreadRecord_you_activated_payments">Tu įjungei Mokėjimus</string>
     <!-- Displayed in the notification when the recipient can accept payments -->
     <string name="ThreadRecord_can_accept_payments">%1$s dabar gali priimti Mokėjimus</string>
-    <string name="ThreadRecord_s_is_on_signal">%1$s atėjo į Signal!</string>
+    <string name="ThreadRecord_s_is_on_signal">%1$s atėjo į V.Call!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Išnykstančios žinutės išjungtos</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Išnykstančių žinučių laikas nustatytas į %1$s</string>
     <string name="ThreadRecord_safety_number_changed">Saugumo numeris pasikeitė</string>
@@ -2217,8 +2217,8 @@
     <string name="ThreadRecord_s_belongs_to_s">%1$s priklauso %2$s</string>
 
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Signal atnaujinimas</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Yra prieinama nauja Signal versija, bakstelėkite norėdami atnaujinti</string>
+    <string name="UpdateApkReadyListener_Signal_update">V.Call atnaujinimas</string>
+    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Yra prieinama nauja V.Call versija, bakstelėkite norėdami atnaujinti</string>
 
     <!-- UntrustedSendDialog -->
     <string name="UntrustedSendDialog_send_message">Siųsti žinutę?</string>
@@ -2253,10 +2253,10 @@
     <string name="UsernameEditFragment__done">Atlikta</string>
 
     <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-        <item quantity="one">%1$d adresatas naudoja Signal!</item>
-        <item quantity="few">%1$d adresatai naudoja Signal!</item>
-        <item quantity="many">%1$d adresatų naudoja Signal!</item>
-        <item quantity="other">%1$d adresatas naudoja Signal!</item>
+        <item quantity="one">%1$d adresatas naudoja V.Call!</item>
+        <item quantity="few">%1$d adresatai naudoja V.Call!</item>
+        <item quantity="many">%1$d adresatų naudoja V.Call!</item>
+        <item quantity="other">%1$d adresatas naudoja V.Call!</item>
     </plurals>
 
     <!-- UsernameShareBottomSheet -->
@@ -2264,14 +2264,14 @@
     <string name="UsernameShareBottomSheet__copy_or_share_a_username_link">Kopijuoti arba bendrinti naudotojo vardo nuorodą</string>
 
     <!-- VerifyIdentityActivity -->
-    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Jūsų adresatas naudoja seną Signal versiją. Prieš patvirtindami savo saugumo numerį, paprašykite, kad jis atnaujintų programėlę.</string>
-    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Jūsų adresatas naudoja naujesnę Signal versiją su nesuderinamu QR kodo formatu. Norėdami palyginti, atsinaujinkite programėlę.</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Jūsų adresatas naudoja seną V.Call versiją. Prieš patvirtindami savo saugumo numerį, paprašykite, kad jis atnaujintų programėlę.</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Jūsų adresatas naudoja naujesnę V.Call versiją su nesuderinamu QR kodo formatu. Norėdami palyginti, atsinaujinkite programėlę.</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Nuskenuotas QR kodas nėra teisingai formatuotas saugumo numerio patvirtinimo kodas. Prašome bandyti skenuoti dar kartą.</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">Dalintis saugumo numeriu per…</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">Mūsų Signal saugumo numeris:</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">Mūsų V.Call saugumo numeris:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Atrodo, kad neturite programėlių su kuriomis dalintis.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Iškarpinėje palyginimui nebuvo rasta jokio saugumo numerio</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Norint skenuoti QR kodą, Signal reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Norint skenuoti QR kodą, V.Call reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Nepavyksta nuskenuoti QR kodo be kameros leidimo</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Norėdami matyti naudotojo %1$s saugumo numerį, iš pradžių, turite apsikeisti su juo žinutėmis.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -2307,14 +2307,14 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Prilieskite, kad atvertumėte.</string>
-    <string name="KeyCachingService_passphrase_cached">Signal yra atrakinta</string>
-    <string name="KeyCachingService_lock">Užrakinti Signal</string>
+    <string name="KeyCachingService_passphrase_cached">V.Call yra atrakinta</string>
+    <string name="KeyCachingService_lock">Užrakinti V.Call</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Jūs</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Nepalaikomas medijos tipas</string>
     <string name="MediaPreviewActivity_draft">Juodraštis</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Norint įrašyti į išorinę saugyklą, Signal reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Norint įrašyti į išorinę saugyklą, V.Call reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nepavyksta įrašyti į išorinę saugyklą be leidimų</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Ištrinti žinutę?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Tai visiems laikams ištrins šią žinutę.</string>
@@ -2363,14 +2363,14 @@
     <string name="MessageNotifier_failed_to_deliver_message">Nepavyko pristatyti žinutės.</string>
     <string name="MessageNotifier_error_delivering_message">Klaida, pristatant žinutę.</string>
     <string name="MessageNotifier_message_delivery_paused">Žinučių pristatymas pristabdytas.</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Patvirtinkite, norėdami tęsti susirašinėjimą per Signal.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Patvirtinkite, norėdami tęsti susirašinėjimą per V.Call.</string>
     <string name="MessageNotifier_mark_all_as_read">Žymėti visas kaip skaitytas</string>
     <string name="MessageNotifier_mark_read">Žymėti kaip skaitytą</string>
     <string name="MessageNotifier_turn_off_these_notifications">Išjungti šiuos pranešimus</string>
     <string name="MessageNotifier_view_once_photo">Vienkartinės peržiūros nuotrauka</string>
     <string name="MessageNotifier_view_once_video">Vienkartinės peržiūros vaizdo įrašas</string>
     <string name="MessageNotifier_reply">Atsakyti</string>
-    <string name="MessageNotifier_signal_message">Signal žinutė</string>
+    <string name="MessageNotifier_signal_message">V.Call žinutė</string>
     <string name="MessageNotifier_unsecured_sms">Neapsaugota SMS</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Adresatas</string>
@@ -2386,7 +2386,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">Sureagavo į tavo lipduką %1$s.</string>
     <string name="MessageNotifier_this_message_was_deleted">Ši žinutė buvo ištrinta.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Išjungti pranešimus apie tai, kad adresatai prisijungė prie Signal? Galėsite ir vėl įjungti šiuos pranešimus, perėję į Signal &gt; Nustatymai &gt; Pranešimai.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Išjungti pranešimus apie tai, kad adresatai prisijungė prie V.Call? Galėsite ir vėl įjungti šiuos pranešimus, perėję į V.Call &gt; Nustatymai &gt; Pranešimai.</string>
 
     <!-- Notification Channels -->
     <string name="NotificationChannel_channel_messages">Žinutės</string>
@@ -2399,7 +2399,7 @@
     <string name="NotificationChannel_group_chats">Pokalbiai</string>
     <string name="NotificationChannel_missing_display_name">Nežinoma</string>
     <string name="NotificationChannel_voice_notes">Balso pastabos</string>
-    <string name="NotificationChannel_contact_joined_signal">Adresatas prisijungė prie Signal</string>
+    <string name="NotificationChannel_contact_joined_signal">Adresatas prisijungė prie V.Call</string>
     <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Nėra prieinamos veiklos, kad būtų atverti pranešimų kanalo nustatymai.</string>
     <!-- Notification channel name for showing persistent background connection on devices without push notifications -->
     <string name="NotificationChannel_background_connection">Foninis ryšys</string>
@@ -2413,7 +2413,7 @@
     <!-- ProfileEditNameFragment -->
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Spartusis atsakymas neprieinamas, kai Signal yra užrakinta!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Spartusis atsakymas neprieinamas, kai V.Call yra užrakinta!</string>
     <string name="QuickResponseService_problem_sending_message">Problemos siunčiant žinutę!</string>
 
     <!-- A small toast notification to let the user know their image/video/audio was downloaded and saved to their device, accessible in other apps. -->
@@ -2468,10 +2468,10 @@
     <!-- Banner button to update now -->
 
     <!-- WebRtcCallActivity -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Norėdami atsiliepti, suteikite Signal prieigą prie mikrofono.</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Norėdami atsiliepti, suteikite V.Call prieigą prie mikrofono.</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">Kad atsilieptum į vaizdo skambutį, suteik „Signal“ prieigą prie mikrofono ir kameros.</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Norint skambinti ar gauti skambučius, Signal reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Norint skambinti ar gauti skambučius, V.Call reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Atsiliepta susietame įrenginyje.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">Atmesta susietame įrenginyje.</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">Užimta susietame įrenginyje.</string>
@@ -2514,7 +2514,7 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">Pakartokite naują slaptafrazę</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">Pakviesti į Signal</string>
+    <string name="contact_selection_activity__invite_to_signal">Pakviesti į V.Call</string>
     <string name="contact_selection_activity__new_group">Nauja grupė</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">Atnaujinti kontaktus</string>
@@ -2536,15 +2536,15 @@
     <string name="SingleContactSelectionActivity_contact_photo">Adresato nuotrauka</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Norint rodyti jūsų adresatus, Signal reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Norint rodyti jūsų adresatus, V.Call reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Klaida gaunant adresatus, patikrinkite tinklo ryšį</string>
     <string name="ContactSelectionListFragment_username_not_found">Naudotojo vardas nerastas</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"„%1$s“ nėra Signal naudotojas. Patikrinkite naudotojo vardą ir bandykite dar kartą."</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"„%1$s“ nėra V.Call naudotojas. Patikrinkite naudotojo vardą ir bandykite dar kartą."</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Jums nereikia pridėti save į grupę</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">Pasiektas didžiausias grupės dydis</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal grupėse gali būti daugiausiai %1$d narių.</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">V.Call grupėse gali būti daugiausiai %1$d narių.</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">Pasiekta rekomenduojamo narių skaičiaus riba</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal grupės geriausiai veikia, kai jose yra %1$d ar mažiau narių. Pridėjus daugiau narių, žinučių išsiuntimas ir gavimas bus uždelsiamas.</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">V.Call grupės geriausiai veikia, kai jose yra %1$d ar mažiau narių. Pridėjus daugiau narių, žinučių išsiuntimas ir gavimas bus uždelsiamas.</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="one">%1$d narys</item>
         <item quantity="few">%1$d nariai</item>
@@ -2553,7 +2553,7 @@
     </plurals>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Norint rodyti jūsų adresatus, Signal reikia prieigos prie jų.</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Norint rodyti jūsų adresatus, V.Call reikia prieigos prie jų.</string>
     <string name="contact_selection_list_fragment__show_contacts">Rodyti adresatus</string>
 
     <!-- contact_selection_list_item -->
@@ -2572,7 +2572,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">Signal žinutė</string>
+    <string name="conversation_activity__type_message_push">V.Call žinutė</string>
     <string name="conversation_activity__type_message_sms_insecure">Neapsaugota SMS</string>
     <string name="conversation_activity__type_message_mms_insecure">Neapsaugota MMS</string>
     <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -2586,7 +2586,7 @@
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Perjungti sparčiosios kameros priedų stalčių</string>
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Įrašyti ir siųsti garso įrašo priedą</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Užrakinti garso įrašo priedo įrašymą</string>
-    <string name="conversation_activity__enable_signal_for_sms">Naudoti Signal SMS žinutėms</string>
+    <string name="conversation_activity__enable_signal_for_sms">Naudoti V.Call SMS žinutėms</string>
     <string name="conversation_activity__message_could_not_be_sent">Nepavyko išsiųsti žinutės. Patikrinkite savo ryšį ir bandykite dar kartą.</string>
 
     <!-- conversation_input_panel -->
@@ -2667,7 +2667,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">Burbulai yra „Android“ ypatybė, kurią Signal pokalbiams galite išjungti.</string>
+    <string name="BubbleOptOutTooltip__description">Burbulai yra „Android“ ypatybė, kurią V.Call pokalbiams galite išjungti.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Ne dabar</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -2766,9 +2766,9 @@
     <string name="IdentityUtil_unverified_banner_two">Jūsų saugumo numeriai su %1$s ir %2$s yra daugiau nebepatvirtinti</string>
     <string name="IdentityUtil_unverified_banner_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s yra daugiau nebepatvirtinti</string>
 
-    <string name="IdentityUtil_unverified_dialog_one">Jūsų saugumo numeris su %1$s pasikeitė ir yra daugiau nebepatvirtintas. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad %1$s iš naujo įdiegė Signal.</string>
-    <string name="IdentityUtil_unverified_dialog_two">Jūsų saugumo numeriai su %1$s ir %2$s daugiau nebėra patvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie adresatai iš naujo įdiegė Signal.</string>
-    <string name="IdentityUtil_unverified_dialog_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s daugiau nebėra patvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie adresatai iš naujo įdiegė Signal.</string>
+    <string name="IdentityUtil_unverified_dialog_one">Jūsų saugumo numeris su %1$s pasikeitė ir yra daugiau nebepatvirtintas. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad %1$s iš naujo įdiegė V.Call.</string>
+    <string name="IdentityUtil_unverified_dialog_two">Jūsų saugumo numeriai su %1$s ir %2$s daugiau nebėra patvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie adresatai iš naujo įdiegė V.Call.</string>
+    <string name="IdentityUtil_unverified_dialog_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s daugiau nebėra patvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie adresatai iš naujo įdiegė V.Call.</string>
 
     <string name="IdentityUtil_untrusted_dialog_one">Jūsų saugumo numeris su %1$s ką tik pasikeitė.</string>
     <string name="IdentityUtil_untrusted_dialog_two">Jūsų saugumo numeriai su %1$s ir %2$s ką tik pasikeitė.</string>
@@ -2788,7 +2788,7 @@
     <string name="giphy_fragment__nothing_found">Nieko nerasta</string>
 
     <!-- database_migration_activity -->
-    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Ar norėtumėte importuoti savo esamas tekstines žinutes į užšifruotą Signal duomenų bazę?</string>
+    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Ar norėtumėte importuoti savo esamas tekstines žinutes į užšifruotą V.Call duomenų bazę?</string>
     <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Numatytoji sistemos duomenų bazė jokiu būdu nebus pakeista ar modifikuota.</string>
     <string name="database_migration_activity__skip">Praleisti</string>
     <string name="database_migration_activity__import">Importuoti</string>
@@ -2825,7 +2825,7 @@
     <string name="prompt_passphrase_activity__unlock">Atrakinti</string>
 
     <!-- prompt_mms_activity -->
-    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Tam, kad pristatytų mediją ir grupės žinutes per jūsų belaidį tiekėją, Signal reikalauja MMS nustatymų. Jūsų įrenginys nepadaro šios informacijos prieinamos, kas, dažniausiai, pasitvirtina užrakintiems įrenginiams ir ribotoms konfigūracijoms.</string>
+    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Tam, kad pristatytų mediją ir grupės žinutes per jūsų belaidį tiekėją, V.Call reikalauja MMS nustatymų. Jūsų įrenginys nepadaro šios informacijos prieinamos, kas, dažniausiai, pasitvirtina užrakintiems įrenginiams ir ribotoms konfigūracijoms.</string>
     <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Norėdami siųsti mediją ir grupės žinutes, bakstelėkite „Gerai“ ir užbaikite užklaustus nustatymus. Įprastai, jūsų tiekėjo MMS nustatymus galima rasti, ieškant „jūsų tiekėjas APN“. Jums reikės tai atlikti tik vieną kartą.</string>
 
     <!-- BadDecryptLearnMoreDialog -->
@@ -2954,7 +2954,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">Palaikymo informacija</string>
-    <string name="HelpFragment__signal_android_support_request">Signal „Android“ palaikymo užklausa</string>
+    <string name="HelpFragment__signal_android_support_request">V.Call „Android“ palaikymo užklausa</string>
     <string name="HelpFragment__debug_log">Derinimo žurnalas:</string>
     <string name="HelpFragment__could_not_upload_logs">Nepavyko atnaujinti žurnalų</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Kaip įmanoma išsamiau aprašykite problemą, kad lengviau ją suprastume.</string>
@@ -3040,7 +3040,7 @@
     <string name="preferences__enable_passphrase">Įjungti ekrano užrakinimą slaptafraze</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Užrakinti ekraną ir pranešimus, naudojant slaptafrazę</string>
     <string name="preferences__screen_security">Ekrano saugumas</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatiškai užrakinti Signal po nurodyto neveiklumo laiko intervalo</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatiškai užrakinti V.Call po nurodyto neveiklumo laiko intervalo</string>
     <string name="preferences__inactivity_timeout_passphrase">Slaptafrazė po neveiklumui skirto laiko</string>
     <string name="preferences__inactivity_timeout_interval">Neveiklumui skirtas laiko intervalas</string>
     <string name="preferences__notifications">Pranešimai</string>
@@ -3074,7 +3074,7 @@
     <string name="preferences__help">Pagalba</string>
     <string name="preferences__advanced">Išplėstiniai</string>
     <string name="preferences__donate_to_signal">Paremk „Signal“</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <!-- Preference label for making one-time donations to V.Call -->
     <string name="preferences__privacy">Privatumas</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Istorijos</string>
@@ -3126,13 +3126,13 @@
     <string name="preferences__graphic_illustrating_where_the_replacement_app_icon_will_be_visible">Vaizdas, iliustruojantis, kur bus matoma pakeista programėlės piktograma.</string>
     <string name="preferences__disable_pin">Išjungti PIN kodą</string>
     <string name="preferences__enable_pin">Įjungti PIN kodą</string>
-    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Jei išjungsite PIN kodą, tuomet registruodamiesi iš naujo Signal programėlėje, prarasite visus duomenis, nebent rankiniu būdu pasidarysite atsarginę kopiją ir ją atkursite. Tol, kol PIN kodas yra išjungtas, negalėsite įjungti Registracijos užrakto.</string>
-    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Signal programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Signal iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
+    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Jei išjungsite PIN kodą, tuomet registruodamiesi iš naujo V.Call programėlėje, prarasite visus duomenis, nebent rankiniu būdu pasidarysite atsarginę kopiją ir ją atkursite. Tol, kol PIN kodas yra išjungtas, negalėsite įjungti Registracijos užrakto.</string>
+    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma V.Call programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus V.Call iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
     <string name="preferences__system_default">Sistemos numatytoji</string>
     <string name="preferences__language">Kalba</string>
-    <string name="preferences__signal_messages_and_calls">Signal žinutės ir skambučiai</string>
+    <string name="preferences__signal_messages_and_calls">V.Call žinutės ir skambučiai</string>
     <string name="preferences__advanced_pin_settings">Išplėstiniai PIN kodo nustatymai</string>
-    <string name="preferences__free_private_messages_and_calls">Nemokamos privačios žinutės ir skambučiai Signal naudotojams</string>
+    <string name="preferences__free_private_messages_and_calls">Nemokamos privačios žinutės ir skambučiai V.Call naudotojams</string>
     <string name="preferences__submit_debug_log">Pateikti derinimo žurnalą</string>
     <string name="preferences__delete_account">Ištrinti paskyrą</string>
     <string name="preferences__support_wifi_calling">„Wi-Fi skambučių“ suderinamumo veiksena</string>
@@ -3178,7 +3178,7 @@
     <string name="preferences_storage__s_messages">%1$s žinučių</string>
     <string name="preferences_storage__custom">Tinkintai</string>
     <string name="preferences_advanced__use_system_emoji">Naudoti sistemos šypsenėles</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Retransliuoti visus skambučius per Signal serverį, kad būtų išvengta jūsų IP adreso atskleidimo jūsų adresatui. Įjungus, pablogės skambučių kokybė.</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Retransliuoti visus skambučius per V.Call serverį, kad būtų išvengta jūsų IP adreso atskleidimo jūsų adresatui. Įjungus, pablogės skambučių kokybė.</string>
     <string name="preferences_advanced__always_relay_calls">Visada retransliuoti skambučius</string>
     <string name="preferences_app_protection__who_can">Kas gali…</string>
     <!-- Privacy settings payments section title -->
@@ -3199,13 +3199,13 @@
     <string name="preferences_communication__category_censorship_circumvention">Cenzūravimo apėjimas</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Cenzūravimo apėjimas</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Jei įjungta, Signal bandys apeiti cenzūravimą. Neįjunkite šios ypatybės, nebent esate vietoje, kurioje Signal yra cenzūruojama.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Jei įjungta, V.Call bandys apeiti cenzūravimą. Neįjunkite šios ypatybės, nebent esate vietoje, kurioje V.Call yra cenzūruojama.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Cenzūravimo apėjimas buvo aktyvuotas pagal jūsų paskyros telefono numerį.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">Jūs esate rankiniu būdu išjungę cenzūros apėjimą.</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
-    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Cenzūravimo apėjimas nėra būtinas; jūs jau esate prisijungę prie Signal paslaugos.</string>
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the V.Call service -->
+    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Cenzūravimo apėjimas nėra būtinas; jūs jau esate prisijungę prie V.Call paslaugos.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">Cenzūravimo apėjimas gali būti aktyvuotas tik prisijungus prie interneto.</string>
     <string name="preferences_communication__category_sealed_sender">Užantspauduotas siuntėjas</string>
@@ -3218,7 +3218,7 @@
     <string name="preferences_off">Išjungta</string>
     <string name="preferences_on">Įjungta</string>
     <string name="preferences_proxy_address">Įgaliotojo serverio adresas</string>
-    <string name="preferences_only_use_a_proxy_if">Naudokite įgaliotąjį serverį tik tuo atveju, jei negalite prisijungti prie Signal naudodamiesi mobiliaisiais duomenimis ar belaidžiu (Wi-Fi) tinklu.</string>
+    <string name="preferences_only_use_a_proxy_if">Naudokite įgaliotąjį serverį tik tuo atveju, jei negalite prisijungti prie V.Call naudodamiesi mobiliaisiais duomenimis ar belaidžiu (Wi-Fi) tinklu.</string>
     <string name="preferences_share">Bendrinti</string>
     <string name="preferences_save">Įrašyti</string>
     <string name="preferences_connecting_to_proxy">Jungiamasi prie įgaliotojo serverio…</string>
@@ -3278,7 +3278,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Mokėjimai yra neprieinami jūsų regione.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">Nepavyko įjungti mokėjimų. Vėliau bandykite dar kartą.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">Pasyvinti mokėjimus?</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Pasyvinę mokėjimus, negalėsite Signal programėlėje siųsti ar gauti „MobileCoin“ valiutą.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Pasyvinę mokėjimus, negalėsite V.Call programėlėje siųsti ar gauti „MobileCoin“ valiutą.</string>
     <string name="PaymentsHomeFragment__deactivate">Pasyvinti</string>
     <string name="PaymentsHomeFragment__continue">Tęsti</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">Šiuo metu likutis neprieinamas.</string>
@@ -3286,10 +3286,10 @@
     <string name="PaymentsHomeFragment__payment_failed">Mokėjimas patyrė nesėkmę</string>
     <string name="PaymentsHomeFragment__details">Išsamesnė informacija</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate </string>
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Galite naudoti Signal, kad siųstumėte ir gautumėte „MobileCoin“ valiutą. Visiems mokėjimams taikomos sąlygos, aprėpiančios naudojimąsi „MobileCoins“ valiuta ir „MobileCoin“ pinigine. Tai yra beta ypatybė, todėl galite susidurti su kai kuriomis problemomis, o jūsų prarastų mokėjimų ir likučių negalima bus atkurti. </string> -->
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Galite naudoti V.Call, kad siųstumėte ir gautumėte „MobileCoin“ valiutą. Visiems mokėjimams taikomos sąlygos, aprėpiančios naudojimąsi „MobileCoins“ valiuta ir „MobileCoin“ pinigine. Tai yra beta ypatybė, todėl galite susidurti su kai kuriomis problemomis, o jūsų prarastų mokėjimų ir likučių negalima bus atkurti. </string> -->
     <string name="PaymentsHomeFragment__activate">Aktyvuoti</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">Rodyti „MobileCoin“ sąlygas</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Mokėjimai Signal programėlėje daugiau nebeprieinami. Jūs vis dar galite pervesti lėšas į valiutos keitimo punktą, bet nebegalite siųsti ir gauti mokėjimų ar pridėti lėšų.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Mokėjimai V.Call programėlėje daugiau nebeprieinami. Jūs vis dar galite pervesti lėšas į valiutos keitimo punktą, bet nebegalite siųsti ir gauti mokėjimų ar pridėti lėšų.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -3370,10 +3370,10 @@
     <string name="PaymentsTransferFragment__next">Kitas</string>
     <string name="PaymentsTransferFragment__invalid_address">Neteisingas adresas</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Patikrinkite piniginės, į kurią bandote pervesti, adresą ir bandykite dar kartą.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Negalite pervesti į savo asmeninės Signal piniginės adresą. Įveskite piniginės adresą iš paskyros, kuri yra palaikomame valiutos keitimo punkte.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Norint nuskenuoti QR kodą, Signal reikia prieigos prie kameros.</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Norint nuskenuoti QR kodą, Signal reikia kameros leidimo. Pereikite į Nustatymus, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Norint nuskenuoti QR kodą, Signal reikia prieigos prie kameros.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Negalite pervesti į savo asmeninės V.Call piniginės adresą. Įveskite piniginės adresą iš paskyros, kuri yra palaikomame valiutos keitimo punkte.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Norint nuskenuoti QR kodą, V.Call reikia prieigos prie kameros.</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Norint nuskenuoti QR kodą, V.Call reikia kameros leidimo. Pereikite į Nustatymus, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Norint nuskenuoti QR kodą, V.Call reikia prieigos prie kameros.</string>
     <string name="PaymentsTransferFragment__settings">Nustatymai</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -3456,8 +3456,8 @@
     <string name="conversation_callable_insecure__menu_call">Skambinti</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">Signal skambutis</string>
-    <string name="conversation_callable_secure__menu_video">Signal vaizdo skambutis</string>
+    <string name="conversation_callable_secure__menu_call">V.Call skambutis</string>
+    <string name="conversation_callable_secure__menu_video">V.Call vaizdo skambutis</string>
 
     <!-- conversation_context -->
 
@@ -3583,10 +3583,10 @@
 
     <!-- reminder_header -->
     <string name="reminder_header_sms_import_title">Importuoti sistemos SMS</string>
-    <string name="reminder_header_sms_import_text">Bakstelėkite, kad nukopijuotumėte savo telefono SMS į Signal šifruotą duomenų bazę.</string>
-    <string name="reminder_header_push_title">Įjungti Signal skambučius ir žinutes</string>
+    <string name="reminder_header_sms_import_text">Bakstelėkite, kad nukopijuotumėte savo telefono SMS į V.Call šifruotą duomenų bazę.</string>
+    <string name="reminder_header_push_title">Įjungti V.Call skambučius ir žinutes</string>
     <string name="reminder_header_push_text">Atnaujinkite savo bendravimo patyrimą.</string>
-    <string name="reminder_header_service_outage_text">Signal patiria techninius nesklandumus. Mes sunkiai dirbame, kad kaip įmanoma greičiau atkurtume paslaugą.</string>
+    <string name="reminder_header_service_outage_text">V.Call patiria techninius nesklandumus. Mes sunkiai dirbame, kad kaip įmanoma greičiau atkurtume paslaugą.</string>
     <string name="reminder_header_progress">%1$d%%</string>
     <!-- Body text of a banner that will show at the top of the chat list when we temporarily cannot process the user\'s contacts -->
     <string name="reminder_cds_warning_body">„Signal“ privačių adresatų aptikimo paslauga laikinai negali apdoroti tavo telefono adresatų.</string>
@@ -3620,16 +3620,16 @@
     <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Tavo įžvalgų procentinė dalis yra apskaičiuojama remiantis per pastarąsias %1$d d. išsiunčiamų žinučių, kurios neišnyko ir nebuvo ištrintos, skaičiumi.</string>
     <!-- Label for a button that, when pressed, will begin a chat with a person whose name is showed on the screen. -->
     <string name="InsightsDashboardFragment__start_a_conversation">Pradėti pokalbį</string>
-    <string name="InsightsDashboardFragment__invite_your_contacts">Nuo šiol, pakvietę daugiau adresatų naudotis Signal, bendraukite saugiai ir įjunkite naujas ypatybes, kurios viršija nešifruotų SMS žinučių apribojimus.</string>
+    <string name="InsightsDashboardFragment__invite_your_contacts">Nuo šiol, pakvietę daugiau adresatų naudotis V.Call, bendraukite saugiai ir įjunkite naujas ypatybes, kurios viršija nešifruotų SMS žinučių apribojimus.</string>
     <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Ši statistika buvo sugeneruota jūsų įrenginyje ir ją galite matyti tik jūs. Ji niekada nėra niekur persiunčiama.</string>
     <string name="InsightsDashboardFragment__encrypted_messages">Šifruotos žinutės</string>
     <string name="InsightsDashboardFragment__cancel">Atsisakyti</string>
     <string name="InsightsDashboardFragment__send">Siųsti</string>
     <string name="InsightsModalFragment__title">Pristatome įžvalgas</string>
-    <string name="InsightsModalFragment__description">Sužinokite kiek iš jūsų išsiunčiamų žinučių buvo išsiųsta saugiai, o tuomet greitai pakvieskite naujus adresatus, kad padidintumėte savo Signal procentinę dalį.</string>
+    <string name="InsightsModalFragment__description">Sužinokite kiek iš jūsų išsiunčiamų žinučių buvo išsiųsta saugiai, o tuomet greitai pakvieskite naujus adresatus, kad padidintumėte savo V.Call procentinę dalį.</string>
     <string name="InsightsModalFragment__view_insights">Rodyti įžvalgas</string>
 
-    <string name="FirstInviteReminder__title">Pakviesti į Signal</string>
+    <string name="FirstInviteReminder__title">Pakviesti į V.Call</string>
     <string name="FirstInviteReminder__description">Jūs galėtumėte %1$d%% padidinti siunčiamų šifruotų žinučių skaičių</string>
     <string name="SecondInviteReminder__title">Paremk savo naudojamą „Signal“</string>
     <string name="SecondInviteReminder__description">Pakviesti %1$s</string>
@@ -3678,7 +3678,7 @@
 
     <!-- KbsSplashFragment -->
     <string name="KbsSplashFragment__introducing_pins">Pristatome PIN kodus</string>
-    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Signal programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Signal iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
+    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma V.Call programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus V.Call iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
     <string name="KbsSplashFragment__learn_more">Sužinoti daugiau</string>
   <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
     <string name="KbsSplashFragment__registration_lock_equals_pin">Registracijos užraktas = PIN kodas</string>
@@ -3689,7 +3689,7 @@
     <string name="KbsSplashFragment__disable_pin">Išjungti PIN kodą</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">Įveskite savo Signal PIN kodą</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">Įveskite savo V.Call PIN kodą</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Tam, kad įsimintumėte savo PIN kodą, mes periodiškai prašysime jį įvesti. Bėgant laikui, mes tai darysime rečiau.</string>
     <string name="KbsReminderDialog__skip">Praleisti</string>
     <string name="KbsReminderDialog__submit">Pateikti</string>
@@ -3715,7 +3715,7 @@
     <string name="RegistrationLockFragment__incorrect_pin">Neteisingas PIN</string>
     <string name="RegistrationLockFragment__forgot_your_pin">Užmiršote savo PIN kodą?</string>
     <string name="RegistrationLockFragment__not_many_tries_left">Liko tik keli bandymai!</string>
-    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal registracija - Reikia pagalbos su PIN kodu „Android“ įrenginyje (v2 PIN)</string>
+    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">V.Call registracija - Reikia pagalbos su PIN kodu „Android“ įrenginyje (v2 PIN)</string>
 
     <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
         <item quantity="one">Siekiant užtikrinti privatumą ir saugumą, PIN kodo atkurti negalima. Jei pamirši savo PIN kodą, po %1$d dienos neveiklumo galėsi jį iš naujo patvirtinti SMS žinute. Tokiu atveju tavo paskyra bus išvalyta ir visas jos turinys ištrintas.</item>
@@ -3757,21 +3757,21 @@
 
     <!-- KBS Megaphone -->
     <string name="KbsMegaphone__create_a_pin">Susikurkite PIN kodą</string>
-    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Signal.</string>
+    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma V.Call.</string>
     <string name="KbsMegaphone__create_pin">Susikurti PIN kodą</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
+    <!-- Displayed in a notification when a V.Call voice call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_voice_call">Gaunamasis „Signal“ balso skambutis</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
+    <!-- Displayed in a notification when a V.Call video call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_video_call">Gaunamasis „Signal“ vaizdo skambutis</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Gaunamasis Signal grupės skambutis</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
+    <!-- Displayed in a notification when a V.Call group call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Gaunamasis V.Call grupės skambutis</string>
+    <!-- Displayed in a notification when a V.Call voice call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_voice_call">Vykstantis „Signal“ balso skambutis</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
+    <!-- Displayed in a notification when a V.Call video call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_video_call">Vykstantis „Signal“ vaizdo skambutis</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
+    <!-- Displayed in a notification when a V.Call group call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_group_call">Vykstantis „Signal“ grupės skambutis</string>
 
     <!-- transport_selection_list_item -->
@@ -3779,11 +3779,11 @@
     <string name="ConversationListFragment_loading">Įkeliama…</string>
     <string name="CallNotificationBuilder_connecting">Jungiamasi…</string>
     <string name="Permissions_permission_required">Reikalingas leidimas</string>
-    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Norint siųsti SMS žinutes, Signal reikia SMS leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „SMS“.</string>
+    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Norint siųsti SMS žinutes, V.Call reikia SMS leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „SMS“.</string>
     <string name="Permissions_continue">Tęsti</string>
     <string name="Permissions_not_now">Ne dabar</string>
     <string name="conversation_activity__enable_signal_messages">ĮJUNGTI SIGNAL ŽINUTES</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">Perkeliama Signal duomenų bazė</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">Perkeliama V.Call duomenų bazė</string>
     <string name="PushDecryptJob_new_locked_message">Nauja užrakinta žinutė</string>
     <string name="PushDecryptJob_unlock_to_view_pending_messages">Atrakinkite, norėdami matyti laukiančias žinutes</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Atsarginės kopijos slaptafrazė</string>
@@ -3824,7 +3824,7 @@
     <string name="BackupDialog_verify">Patvirtinti</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">Jūs sėkmingai įvedėte savo atsarginės kopijos slaptafrazę</string>
     <string name="BackupDialog_passphrase_was_not_correct">Slaptafrazė buvo neteisinga</string>
-    <string name="LocalBackupJob_creating_signal_backup">Daroma Signal atsarginė kopija…</string>
+    <string name="LocalBackupJob_creating_signal_backup">Daroma V.Call atsarginė kopija…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
     <string name="LocalBackupJob_verifying_signal_backup">Tvirtinama „Signal“ atsarginė kopija…</string>
     <string name="LocalBackupJobApi29_backup_failed">Atsarginė kopija nepavyko</string>
@@ -3841,8 +3841,8 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Skambinti man (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Siųsti kodą iš naujo (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">Susisiekti su Signal palaikymu</string>
-    <string name="RegistrationActivity_code_support_subject">Signal registracija - Patvirtinimo kodas, skirtas „Android“</string>
+    <string name="RegistrationActivity_contact_signal_support">Susisiekti su V.Call palaikymu</string>
+    <string name="RegistrationActivity_code_support_subject">V.Call registracija - Patvirtinimo kodas, skirtas „Android“</string>
     <string name="RegistrationActivity_incorrect_code">Neteisingas kodas</string>
     <string name="BackupUtil_never">Niekada</string>
     <string name="BackupUtil_unknown">Nežinoma</string>
@@ -3864,18 +3864,18 @@
     <string name="PhoneNumberPrivacy_my_contacts">Mano adresatai</string>
     <string name="PhoneNumberPrivacy_nobody">Niekas</string>
     <string name="PhoneNumberPrivacy_everyone_see_description">Jūsų telefono numeris bus matomas visiems žmonėms, kuriems rašysite žinutes ir grupėms, kuriose rašysite žinutes.</string>
-    <string name="PhoneNumberPrivacy_everyone_find_description">Bet kuris žmogus, turintis jūsų telefono numerį savo adresatuose, matys jus kaip Signal adresatą. Kiti žmonės galės rasti jus paieškoje.</string>
+    <string name="PhoneNumberPrivacy_everyone_find_description">Bet kuris žmogus, turintis jūsų telefono numerį savo adresatuose, matys jus kaip V.Call adresatą. Kiti žmonės galės rasti jus paieškoje.</string>
     <string name="preferences_app_protection__screen_lock">Ekrano užraktas</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Užrakinti prieigą prie Signal, naudojant „Android“ ekrano užraktą ar piršto atspaudą</string>
+    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Užrakinti prieigą prie V.Call, naudojant „Android“ ekrano užraktą ar piršto atspaudą</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Ekrano užraktas suveiks po</string>
-    <string name="preferences_app_protection__signal_pin">Signal PIN kodas</string>
+    <string name="preferences_app_protection__signal_pin">V.Call PIN kodas</string>
     <string name="preferences_app_protection__create_a_pin">Sukurti PIN kodą</string>
     <string name="preferences_app_protection__change_your_pin">Keisti PIN kodą</string>
     <string name="preferences_app_protection__pin_reminders">PIN kodo priminimai</string>
     <string name="preferences_app_protection__turn_off">Išjungti</string>
     <string name="preferences_app_protection__confirm_pin">Patvirtinkite PIN</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">Patvirtinkite savo Signal PIN kodą</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Įsiminkite arba laikykite savo PIN kodą saugioje vietoje, nes jo neįmanoma atkurti. Jei užmiršite savo PIN kodą, galite prarasti duomenis, kai iš naujo registruosite savo Signal paskyrą.</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">Patvirtinkite savo V.Call PIN kodą</string>
+    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Įsiminkite arba laikykite savo PIN kodą saugioje vietoje, nes jo neįmanoma atkurti. Jei užmiršite savo PIN kodą, galite prarasti duomenis, kai iš naujo registruosite savo V.Call paskyrą.</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">Neteisingas PIN kodas. Bandykite dar kartą.</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">Nepavyko įjungti registracijos užrakto.</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">Nepavyko išjungti registracijos užrakto.</string>
@@ -3888,14 +3888,14 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Atlikote per daug bandymų. Vėliau bandykite dar kartą.</string>
     <string name="RegistrationActivity_error_connecting_to_service">Klaida, jungiantis prie paslaugos</string>
     <string name="preferences_chats__backups">Atsarginės kopijos</string>
-    <string name="prompt_passphrase_activity__signal_is_locked">Signal yra užrakinta</string>
+    <string name="prompt_passphrase_activity__signal_is_locked">V.Call yra užrakinta</string>
     <string name="prompt_passphrase_activity__tap_to_unlock">BAKSTELĖKITE, NORĖDAMI ATRAKINTI</string>
     <string name="Recipient_unknown">Nežinoma</string>
 
     <!-- Option in settings that will take use to re-register if they are no longer registered -->
     <string name="preferences_account_reregister">Iš naujo registruoti paskyrą</string>
     <!-- Option in settings that will take user to our website or playstore to update their expired build -->
-    <string name="preferences_account_update_signal">Atnaujinti Signal</string>
+    <string name="preferences_account_update_signal">Atnaujinti V.Call</string>
     <!-- Option in settings shown when user is no longer registered or expired client that will WIPE ALL THEIR DATA -->
     <string name="preferences_account_delete_all_data">Ištrinti visus duomenis</string>
     <!-- Title for confirmation dialog confirming user wants to delete all their data -->
@@ -3911,7 +3911,7 @@
 
     <!-- TransferOrRestoreFragment -->
     <string name="TransferOrRestoreFragment__transfer_or_restore_account">Perkelti ar atkurti paskyrą</string>
-    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Jeigu Signal paskyrą jau esate užregistravę anksčiau, galite perkelti ar atkurti savo paskyrą ir žinutes</string>
+    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Jeigu V.Call paskyrą jau esate užregistravę anksčiau, galite perkelti ar atkurti savo paskyrą ir žinutes</string>
     <string name="TransferOrRestoreFragment__transfer_from_android_device">Perkelti iš „Android“ įrenginio</string>
     <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Perkelkite savo paskyrą ir žinutes iš senojo „Android“ įrenginio. Jums reikės prieigos prie senojo telefono.</string>
     <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Jums reikia prieigos prie savo senojo įrenginio.</string>
@@ -3919,7 +3919,7 @@
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Atkurkite savo žinutes iš vietinės atsarginės kopijos. Jeigu neatkursite dabar, vėliau to padaryti nebegalėsite.</string>
 
     <!-- NewDeviceTransferInstructionsFragment -->
-    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Savo senajame „Android“ telefone atverkite Signal</string>
+    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Savo senajame „Android“ telefone atverkite V.Call</string>
     <string name="NewDeviceTransferInstructions__continue">Tęsti</string>
     <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
     <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Viršutiniame kairiajame kampe bakstelėkite ant savo profilio nuotraukos, kad būtų atverti Nustatymai</string>
@@ -3932,19 +3932,19 @@
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Ruošiamasi prisijungti prie senojo „Android“ įrenginio…</string>
     <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Dar minutėlę, netrukus turėtų būti paruošta</string>
     <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Laukiama, kol prisijungs senasis „Android“ įrenginys…</string>
-    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal yra reikalingas įrenginio vietos leidimas tam, kad galėtų atrasti ir prisijungti prie jūsų senojo „Android“ įrenginio.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal reikia įjungtų vietos paslaugų, kad galėtų atrasti ir prisijungti prie jūsų senojo „Android“ įrenginio.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal reikia įjungto belaidžio (Wi-Fi) ryšio, kad atrastų ir prisijungtų prie jūsų senojo „Android“ įrenginio. Belaidis (Wi-Fi) ryšys turi būti įjungtas, tačiau įrenginys neprivalo būti prisijungęs prie belaidžio (Wi-Fi) tinklo.</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Atleiskite, atrodo, kad šis įrenginys nepalaiko „Wi-Fi Direct“. Signal naudoja „Wi-Fi Direct“, kad atrastų ir prisijungtų prie jūsų senojo „Android“ įrenginio. Norėdami atkurti savo paskyrą iš senojo „Android“ įrenginio, vis dar galite atkurti atsarginę kopiją.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">V.Call yra reikalingas įrenginio vietos leidimas tam, kad galėtų atrasti ir prisijungti prie jūsų senojo „Android“ įrenginio.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">V.Call reikia įjungtų vietos paslaugų, kad galėtų atrasti ir prisijungti prie jūsų senojo „Android“ įrenginio.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">V.Call reikia įjungto belaidžio (Wi-Fi) ryšio, kad atrastų ir prisijungtų prie jūsų senojo „Android“ įrenginio. Belaidis (Wi-Fi) ryšys turi būti įjungtas, tačiau įrenginys neprivalo būti prisijungęs prie belaidžio (Wi-Fi) tinklo.</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Atleiskite, atrodo, kad šis įrenginys nepalaiko „Wi-Fi Direct“. V.Call naudoja „Wi-Fi Direct“, kad atrastų ir prisijungtų prie jūsų senojo „Android“ įrenginio. Norėdami atkurti savo paskyrą iš senojo „Android“ įrenginio, vis dar galite atkurti atsarginę kopiją.</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">Atkurti atsarginę kopiją</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Atsirado netikėta klaida, bandant prisijungti prie jūsų senojo „Android“ įrenginio.</string>
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Ieškoma naujojo „Android“ įrenginio…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal yra reikalingas įrenginio vietos leidimas tam, kad galėtų atrasti ir prisijungti prie jūsų naujojo „Android“ įrenginio.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal reikia įjungtų vietos paslaugų, kad galėtų atrasti ir prisijungti prie jūsų naujojo „Android“ įrenginio.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal reikia įjungto belaidžio (Wi-Fi) ryšio, kad atrastų ir prisijungtų prie jūsų naujojo „Android“ įrenginio. Belaidis (Wi-Fi) ryšys turi būti įjungtas, tačiau įrenginys neprivalo būti prisijungęs prie belaidžio (Wi-Fi) tinklo.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Atleiskite, atrodo, kad šis įrenginys nepalaiko „Wi-Fi Direct“. Signal naudoja „Wi-Fi Direct“, kad atrastų ir prisijungtų prie jūsų naujojo „Android“ įrenginio. Norėdami atkurti savo paskyrą naujajame „Android“ įrenginyje, vis dar galite padaryti atsarginę kopiją.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">V.Call yra reikalingas įrenginio vietos leidimas tam, kad galėtų atrasti ir prisijungti prie jūsų naujojo „Android“ įrenginio.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">V.Call reikia įjungtų vietos paslaugų, kad galėtų atrasti ir prisijungti prie jūsų naujojo „Android“ įrenginio.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">V.Call reikia įjungto belaidžio (Wi-Fi) ryšio, kad atrastų ir prisijungtų prie jūsų naujojo „Android“ įrenginio. Belaidis (Wi-Fi) ryšys turi būti įjungtas, tačiau įrenginys neprivalo būti prisijungęs prie belaidžio (Wi-Fi) tinklo.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Atleiskite, atrodo, kad šis įrenginys nepalaiko „Wi-Fi Direct“. V.Call naudoja „Wi-Fi Direct“, kad atrastų ir prisijungtų prie jūsų naujojo „Android“ įrenginio. Norėdami atkurti savo paskyrą naujajame „Android“ įrenginyje, vis dar galite padaryti atsarginę kopiją.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Daryti atsarginę kopiją</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Atsirado netikėta klaida, bandant prisijungti prie jūsų naujojo „Android“ įrenginio.</string>
 
@@ -3979,13 +3979,13 @@
     <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Kitame įrenginyje bakstelėkite „Tęsti“…</string>
 
     <!-- NewDeviceTransferFragment -->
-    <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Negalima perkelti iš naujesnių Signal versijų</string>
+    <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Negalima perkelti iš naujesnių V.Call versijų</string>
     <!-- Error message indicating that we could not finish the user\'s device transfer. Displayed in a toast at the bottom of the screen. -->
     <string name="NewDeviceTransfer__failure_foreign_key">Perkelti duomenys buvo netinkamai suformuoti</string>
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Duomenų perkėlimas</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Laikykite įrenginius vieną šalia kito. Neišjunkite įrenginių ir palikite Signal atvertą. Perkėlimai yra šifruoti ištisiniu būdu.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Laikykite įrenginius vieną šalia kito. Neišjunkite įrenginių ir palikite V.Call atvertą. Perkėlimai yra šifruoti ištisiniu būdu.</string>
     <string name="DeviceTransfer__d_messages_so_far">Jau %1$d žinučių…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">Jau %1$s%% žinučių…</string>
@@ -3999,7 +3999,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Perkelti paskyrą</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Savo naujajame „Android“ įrenginyje atsisiųskite Signal</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Savo naujajame „Android“ įrenginyje atsisiųskite V.Call</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Bakstelėkite ant „Perkelti ar atkurti paskyrą“"</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -4008,7 +4008,7 @@
 
     <!-- OldDeviceTransferComplete -->
     <string name="OldDeviceTransferComplete__go_to_your_new_device">Pereikite prie savo naujojo įrenginio</string>
-    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Jūsų Signal duomenys perkelti į naująjį įrenginį. Norėdami užbaigti perkėlimo procesą, privalote tęsti registraciją naujajame įrenginyje.</string>
+    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Jūsų V.Call duomenys perkelti į naująjį įrenginį. Norėdami užbaigti perkėlimo procesą, privalote tęsti registraciją naujajame įrenginyje.</string>
     <string name="OldDeviceTransferComplete__close">Užverti</string>
 
     <!-- NewDeviceTransferComplete -->
@@ -4028,7 +4028,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Užbaikite registraciją savo naujajame įrenginyje</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Jūsų Signal paskyra perkelta į naująjį įrenginį, bet norėdami tęsti, privalote jame užbaigti registraciją. Signal šiame įrenginyje bus neveikli.</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Jūsų V.Call paskyra perkelta į naująjį įrenginį, bet norėdami tęsti, privalote jame užbaigti registraciją. V.Call šiame įrenginyje bus neveikli.</string>
     <string name="OldDeviceTransferLockedDialog__done">Atlikta</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Atsisakyti ir aktyvuoti šį įrenginį</string>
 
@@ -4066,13 +4066,13 @@
     <string name="GroupsLearnMore_what_are_legacy_groups">Kas yra pasenusios grupės?</string>
     <string name="GroupsLearnMore_paragraph_1">Pasenusios grupės – tai grupės, kurios yra nesuderinamos su naujųjų grupių ypatybėmis, tokiomis kaip administratoriai ir išsamesni grupių atnaujinimai.</string>
     <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Ar galiu naujinti pasenusią grupę?</string>
-    <string name="GroupsLearnMore_paragraph_2">Pasenusios grupės negali būti naujintos į naująsias grupes, bet galite sukurti naująją grupę su tais pačiais nariais, jeigu jie naudoja naujausią Signal versiją.</string>
-    <string name="GroupsLearnMore_paragraph_3">Ateityje Signal pateiks būdą kaip naujinti pasenusias grupes į naująsias.</string>
+    <string name="GroupsLearnMore_paragraph_2">Pasenusios grupės negali būti naujintos į naująsias grupes, bet galite sukurti naująją grupę su tais pačiais nariais, jeigu jie naudoja naujausią V.Call versiją.</string>
+    <string name="GroupsLearnMore_paragraph_3">Ateityje V.Call pateiks būdą kaip naujinti pasenusias grupes į naująsias.</string>
 
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Kiekvienas, turintis šią nuorodą, gali peržiūrėti grupės pavadinimą ir nuotrauką bei gali prašyti prisijungti prie grupės. Bendrinkite nuorodą su žmonėmis, kuriais pasitikite.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Kiekvienas, turintis šią nuorodą, gali peržiūrėti grupės pavadinimą ir nuotrauką bei gali prisijungti prie grupės. Bendrinkite nuorodą su žmonėmis, kuriais pasitikite.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Bendrinti per Signal</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Bendrinti per V.Call</string>
     <string name="GroupLinkBottomSheet_copy">Kopijuoti</string>
     <string name="GroupLinkBottomSheet_qr_code">QR kodas</string>
     <string name="GroupLinkBottomSheet_share">Bendrinti</string>
@@ -4242,7 +4242,7 @@
     <string name="payment_info_card_about_mobilecoin">Apie „MobileCoin“</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">„MobileCoin“ yra nauja į privatumą orientuota skaitmeninė valiuta.</string>
     <string name="payment_info_card_adding_funds">Lėšų pridėjimas</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">Galite pridėti lėšas, skirtas naudoti Signal programėlėje, išsiųsdami „MobileCoin“ valiutą į savo piniginės adresą.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">Galite pridėti lėšas, skirtas naudoti V.Call programėlėje, išsiųsdami „MobileCoin“ valiutą į savo piniginės adresą.</string>
     <string name="payment_info_card_cashing_out">Pinigų išgryninimas</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">„MobileCoin“ valiutą bet kuriuo metu galite išgryninti valiutos keitimo punktuose, kurie palaiko „MobileCoin“. Tiesiog, atlikite pervedimą į savo sąskaitą tame valiutos keitimo punkte.</string>
     <string name="payment_info_card_hide_this_card">Slėpti šią kortelę?</string>
@@ -4380,7 +4380,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">Paskyra</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">Bėgant laikui, jūsų bus klausiama vis rečiau</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">Norint vėl registruoti jūsų telefono numerį su Signal, reikalauti jūsų Signal PIN kodo</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">Norint vėl registruoti jūsų telefono numerį su V.Call, reikalauti jūsų V.Call PIN kodo</string>
     <string name="AccountSettingsFragment__change_phone_number">Keisti telefono numerį</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">Tavo paskyros duomenys</string>
@@ -4457,7 +4457,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Taisyti numerį</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Signal numerio keitimas - Reikia pagalbos su „Android“ PIN kodu (v2 PIN kodas)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">V.Call numerio keitimas - Reikia pagalbos su „Android“ PIN kodu (v2 PIN kodas)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN kodai nesutampa</string>
@@ -4512,7 +4512,7 @@
     <string name="NotificationsSettingsFragment__messages">Žinutės</string>
     <string name="NotificationsSettingsFragment__calls">Skambučiai</string>
     <string name="NotificationsSettingsFragment__notify_when">Pranešti, kai…</string>
-    <string name="NotificationsSettingsFragment__contact_joins_signal">Adresatas prisijungia prie Signal</string>
+    <string name="NotificationsSettingsFragment__contact_joins_signal">Adresatas prisijungia prie V.Call</string>
     <!-- Notification preference header -->
     <string name="NotificationsSettingsFragment__notification_profiles">Pranešimų profiliai</string>
     <!-- Notification preference option header -->
@@ -4533,7 +4533,7 @@
     <string name="PrivacySettingsFragment__disappearing_messages">Išnykstančios žinutės</string>
     <string name="PrivacySettingsFragment__app_security">Programėlės saugumas</string>
     <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">Blokuoti ekrano kopijas paskiausiųjų sąraše ir programėlėje</string>
-    <string name="PrivacySettingsFragment__signal_message_and_calls">Signal žinutės ir skambučiai, visada retransliuoti skambučius ir užantspauduotas siuntėjas</string>
+    <string name="PrivacySettingsFragment__signal_message_and_calls">V.Call žinutės ir skambučiai, visada retransliuoti skambučius ir užantspauduotas siuntėjas</string>
     <string name="PrivacySettingsFragment__default_timer_for_new_changes">Numatytasis laikmatis naujuose pokalbiuose</string>
     <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">Nustatyti numatytąjį išnykstančių žinučių laikmatį visiems jūsų pradedamiems naujiems pokalbiams.</string>
     <!-- Summary for stories preference to launch into story privacy settings -->
@@ -4578,10 +4578,10 @@
     <string name="HelpSettingsFragment__contact_us">Susisiekite su mumis</string>
     <string name="HelpSettingsFragment__version">Versija</string>
     <string name="HelpSettingsFragment__debug_log">Derinimo žurnalas</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the V.Call app-->
     <string name="HelpSettingsFragment__licenses">Licencijos</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Sąlygos ir Privatumo politika</string>
-    <string name="HelpFragment__copyright_signal_messenger">Autorių teisės Signal pokalbių programėlė</string>
+    <string name="HelpFragment__copyright_signal_messenger">Autorių teisės V.Call pokalbių programėlė</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Licencijuota pagal GNU AGPLv3</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -4958,7 +4958,7 @@
     <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">Jei turi daugiau nei vieną ženklelį, gali kurį nors pasirinkti kaip pagrindinį, matomą kitiems tavo profilyje.</string>
 
     <string name="BecomeASustainerFragment__get_badges">Gauk ženklelių savo profiliui už paramą „Signal“.</string>
-    <string name="BecomeASustainerFragment__signal_is_a_non_profit">Signal yra pelno nesiekianti organizacija, kuri neturi reklamuotojų ar investuotojų ir, kuri yra palaikoma tik tokių žmonių, kaip jūs.</string>
+    <string name="BecomeASustainerFragment__signal_is_a_non_profit">V.Call yra pelno nesiekianti organizacija, kuri neturi reklamuotojų ar investuotojų ir, kuri yra palaikoma tik tokių žmonių, kaip jūs.</string>
 
     <!-- Button label for creating a donation -->
     <string name="ManageDonationsFragment__donate_to_signal">Paremk „Signal“</string>
@@ -4990,7 +4990,7 @@
     <string name="MySupportPreference__please_contact_support">Susisiekite su palaikymu.</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Atnaujinti Signal</string>
+    <string name="UpdateSignalExpiredDialog__title">Atnaujinti V.Call</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
     <string name="UpdateSignalExpiredDialog__message">Ši „Signal“ versija nebegalioja. Atnaujink programėlę dabar ir naudokis toliau.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
@@ -5031,7 +5031,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Pereiti į „Google Pay“</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">Nepavyksta apdoroti prenumeratos mokėjimo</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Mums iškilo sunkumų atsiimant jūsų Signal rėmėjo mokėjimą. Įsitikinkite, kad jūsų mokėjimo būdas yra atnaujintas, o jeigu jis pasenęs, atnaujinkite jį „Google Pay“ sistemoje. Po kelių dienų Signal vėl pabandys apdoroti mokėjimą.</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Mums iškilo sunkumų atsiimant jūsų V.Call rėmėjo mokėjimą. Įsitikinkite, kad jūsų mokėjimo būdas yra atnaujintas, o jeigu jis pasenęs, atnaujinkite jį „Google Pay“ sistemoje. Po kelių dienų V.Call vėl pabandys apdoroti mokėjimą.</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">Daugiau neberodyti</string>
 
     <string name="Subscription__contact_support">Susisiekti su palaikymu</string>
@@ -5269,8 +5269,8 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Nepavyko atverti parinkiklio.</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
-    <string name="ReleaseNotes__signal_release_notes_and_news">Signal laidos informacija ir naujienos</string>
+    <!-- Description shown for the V.Call Release Notes channel -->
+    <string name="ReleaseNotes__signal_release_notes_and_news">V.Call laidos informacija ir naujienos</string>
 
     <!-- Donation receipts activity title -->
     <string name="DonationReceiptListFragment__all_activity">Visa veikla</string>
@@ -5297,7 +5297,7 @@
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">Suma</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Dėkojame, kad remiate Signal. Jūsų įnašas padės skatinti misiją kurti atvirojo kodo privatumo technologiją, kuri apsaugo žodžio laisvę ir įgalina saugų bendravimą milijonams žmonių visame pasaulyje. Jei gyvenate Jungtinėse Valstijose, išsaugokite šį kvitą, kad turėtumėte jį savo mokestinių duomenų reikmėms. Signal technologijų fondas yra Jungtinėse Valstijose įsteigta, pagal vidaus mokesčių kodekso 501c3 sekciją neapmokestinama, pelno nesiekianti organizacija. Mūsų federalinis mokesčių ID yra 82–4506840.</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Dėkojame, kad remiate V.Call. Jūsų įnašas padės skatinti misiją kurti atvirojo kodo privatumo technologiją, kuri apsaugo žodžio laisvę ir įgalina saugų bendravimą milijonams žmonių visame pasaulyje. Jei gyvenate Jungtinėse Valstijose, išsaugokite šį kvitą, kad turėtumėte jį savo mokestinių duomenų reikmėms. V.Call technologijų fondas yra Jungtinėse Valstijose įsteigta, pagal vidaus mokesčių kodekso 501c3 sekciją neapmokestinama, pelno nesiekianti organizacija. Mūsų federalinis mokesčių ID yra 82–4506840.</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5484,17 +5484,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">Leisti atsakymus ir reakcijas</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">Leisti žmonėms, kurie gali žiūrėti tavo istoriją, reaguoti ir atsakyti</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
+    <!-- V.Call connections bolded text in the V.Call Connections sheet -->
     <string name="SignalConnectionsBottomSheet___signal_connections">„Signal“ kontaktai</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
     <string name="SignalConnectionsBottomSheet__signal_connections_are_people">„Signal“ kontaktai – tai žmonės, pasitikėjimą kuriais išreiškėte kuriuo nors iš šių veiksmų:</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <!-- V.Call connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">Pradėjai pokalbį</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- V.Call connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">Priimdami iš jų žinutės užklausą</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- V.Call connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">Turėdami juos savo sistemos adresatų sąraše</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the V.Call connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"Tavo kontaktai gali matyti tavo vardą ir nuotrauką bei žiūrėti tavo istorijos įrašus, nebent ją paslėpsi."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">Pridėti žiūrovą</string>
@@ -5934,7 +5934,7 @@
     <string name="ExportingSmsMessagesFragment__you_need_approximately_s_to_export_your_messages_ensure_you_have_enough_space_before_continuing">Tau reikia maždaug %1$s eksportuoti žinutėms. Prieš tęsiant rekomenduojame įsitikinti, kad vietos užtenka.</string>
     <!-- Alert dialog button to continue with exporting sms after seeing the lack of storage warning -->
     <string name="ExportingSmsMessagesFragment__continue_anyway">Vis tiek tęsti</string>
-    <!-- Dialog text shown when Signal isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
+    <!-- Dialog text shown when V.Call isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
     <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">Programėlei „Signal“ reikia leidimo eksportuoti tavo SMS žinutes.</string>
 
     <!-- ChooseANewDefaultSmsAppFragment -->
@@ -6367,7 +6367,7 @@
     <string name="CreateCallLinkBottomSheetDialogFragment__add_call_name">Pridėti skambučio pavadinimą</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">Patvirtinti visus narius</string>
-    <!-- Row label to share the link via Signal -->
+    <!-- Row label to share the link via V.Call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Bendrinti nuorodą per „Signal“</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Kopijuoti nuorodą</string>

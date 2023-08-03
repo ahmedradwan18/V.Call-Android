@@ -23,10 +23,21 @@
             app:destination="@id/callLogFragment" />
     </fragment>
 
+
+
+
+
+
+
+
     <fragment
         android:id="@+id/conversationListArchiveFragment"
         android:name="org.thoughtcrime.securesms.conversationlist.ConversationListArchiveFragment"
         android:label="conversation_list_archive_fragment" />
+
+
+
+
 
     <fragment
         android:id="@+id/storiesLandingFragment"
@@ -36,6 +47,10 @@
             android:id="@+id/action_storiesLandingFragment_to_callLogFragment"
             app:destination="@id/callLogFragment" />
     </fragment>
+
+
+
+
 
     <fragment
         android:id="@+id/callLogFragment"
@@ -48,6 +63,11 @@
             android:id="@+id/action_callLogFragment_to_createCallLinkBottomSheet"
             app:destination="@id/createCallLinkBottomSheet" />
     </fragment>
+
+
+
+
+
 
     <dialog
         android:id="@+id/createCallLinkBottomSheet"

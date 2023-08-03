@@ -27,7 +27,7 @@
     </style>
 
     <style name="Signal.Widget.Button.Large.Primary" parent="@style/Signal.Widget.Button.Base.Primary">
-        <item name="android:minHeight">44dp</item>
+        <item name="android:minHeight">48dp</item>
         <item name="materialThemeOverlay">@style/ThemeOverlay.Signal.Button.Primary</item>
     </style>
 
@@ -98,7 +98,7 @@
     </style>
 
     <style name="ThemeOverlay.Signal.Button.Tonal" parent="ThemeOverlay.Material3.Button">
-        <item name="colorOnContainer">@color/signal_colorOnPrimaryContainer</item>
+        <item name="colorOnContainer">@color/core_white</item>
         <item name="colorContainer">@color/signal_colorPrimaryContainer</item>
     </style>
 
@@ -144,7 +144,7 @@
     </style>
 
     <style name="Signal.Widget.Button.Large.Tonal" parent="Signal.Widget.Button.Base.Tonal">
-        <item name="android:minHeight">44dp</item>
+        <item name="android:minHeight">48dp</item>
     </style>
 
     <style name="Signal.Widget.Button.Medium.Tonal" parent="Signal.Widget.Button.Base.Tonal">
@@ -160,7 +160,7 @@
         <item name="android:layout_width">48dp</item>
         <item name="android:layout_height">48dp</item>
         <item name="elevation">0dp</item>
-        <item name="tint">@color/signal_colorOnSecondaryContainer</item>
+        <item name="tint">@color/core_white</item>
     </style>
 
     <style name="Signal.Widget.CompoundButton.RadioButton" parent="Widget.Material3.CompoundButton.RadioButton">
@@ -344,9 +344,9 @@
         <item name="colorSurface">@color/signal_colorSurface</item>
         <item name="colorSurfaceVariant">@color/signal_colorSurfaceVariant</item>
         <item name="colorOnPrimary">@color/signal_colorOnPrimary</item>
-        <item name="colorOnPrimaryContainer">@color/signal_colorOnPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/core_white</item>
         <item name="colorOnSecondary">@color/signal_colorOnSecondary</item>
-        <item name="colorOnSecondaryContainer">@color/signal_colorOnSecondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/core_white</item>
         <item name="colorOnSurface">@color/signal_colorOnSurface</item>
         <item name="colorOnSurfaceVariant">@color/signal_colorOnSurfaceVariant</item>
         <item name="colorOnBackground">@color/signal_colorOnBackground</item>

@@ -101,10 +101,12 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
     disposables += conversationListTabsViewModel.state.subscribeBy { state ->
       val controller: NavController = requireView().findViewById<View>(R.id.fragment_container).findNavController()
       when (controller.currentDestination?.id) {
+
         R.id.conversationListFragment -> goToStateFromConversationList(state, controller)
         R.id.conversationListArchiveFragment -> Unit
         R.id.storiesLandingFragment -> goToStateFromStories(state, controller)
         R.id.callLogFragment -> goToStateFromCalling(state, controller)
+//        R.id.callLogFragment -> goToStateFromSettings(state, controller)
       }
     }
   }
@@ -145,8 +147,20 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
   private fun goToStateFromCalling(state: ConversationListTabsState, navController: NavController) {
     when (state.tab) {
+
       ConversationListTab.CALLS -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
+      ConversationListTab.SETTINGS -> openSettings.launch(AppSettingsActivity.home(requireContext()))
+      ConversationListTab.STORIES -> navController.navigate(R.id.action_callLogFragment_to_storiesLandingFragment)
+    }
+  }
+
+  private fun goToStateFromSettings(state: ConversationListTabsState, navController: NavController) {
+    when (state.tab) {
+
+      ConversationListTab.SETTINGS -> return
+      ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
+      ConversationListTab.CALLS -> navController.navigate(R.id.action_storiesLandingFragment_to_callLogFragment)
       ConversationListTab.STORIES -> navController.navigate(R.id.action_callLogFragment_to_storiesLandingFragment)
     }
   }
@@ -156,6 +170,8 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
       ConversationListTab.STORIES -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
       ConversationListTab.CALLS -> navController.navigate(R.id.action_storiesLandingFragment_to_callLogFragment)
+      ConversationListTab.SETTINGS -> openSettings.launch(AppSettingsActivity.home(requireContext()))
+
     }
   }
 

@@ -24,27 +24,27 @@
     <string name="save">저장</string>
     <string name="note_to_self">개인 메모</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">날씨</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">메모</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">뉴스</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">파도</string>
 
     <!-- AlbumThumbnailView -->
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Signal 업데이트 중…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">V.Call 업데이트 중…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">암호를 설정하지 않았습니다!</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">암호 사용을 비활성화하시겠습니까?</string>
     <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Signal이 잠금 해제되어 메시지 알림이 표시됩니다.</string>
     <string name="ApplicationPreferencesActivity_disable">사용 안 함</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal 메시지와 전화를 비활성화하시겠습니까?</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">V.Call 메시지와 전화를 비활성화하시겠습니까?</string>
     <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">서버에서 등록을 해제하여 Signal을 사용한 메시지 전송과 전화가 불가능해집니다. 다시 사용하고 싶을 때 전화번호를 재등록 하십시오.</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">서버에 연결할 수 없습니다!</string>
     <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">등록 잠금을 위해 PIN이 필요합니다. PIN을 비활성화하려면 먼저 등록 잠금을 비활성화하세요.</string>
@@ -158,15 +158,15 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">이제 이 그룹에서 메시지나 업데이트를 받을 수 없습니다. 그리고 멤버가 당신을 이 그룹에 추가할 수도 없습니다.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">그룹 멤버가 당신을 이 그룹에 추가할 수 없습니다,</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">그룹 멤버는 당신을 그룹에 다시 초대 가능합니다.</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a V.Call contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">서로 메시지를 보내고 전화를 걸 수 있으며 이름과 사진이 공유됩니다.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">이제 서로 메시지를 할 수 있습니다.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">차단한 사용자는 나에게 전화를 걸거나 메세지를 보낼 수 없습니다.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">차단한 사용자는 나에게 메시지를 보낼 수 없습니다.</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
+    <!-- Message shown on block dialog when blocking the V.Call release notes recipient -->
     <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Signal의 업데이트와 새로운 소식을 차단합니다.</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
+    <!-- Message shown on unblock dialog when unblocking the V.Call release notes recipient -->
     <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Signal의 업데이트와 새로운 소식을 다시 받기</string>
     <string name="BlockUnblockDialog_unblock_s">%1$s을(를) 차단 해제할까요?</string>
     <string name="BlockUnblockDialog_block">차단</string>
@@ -194,15 +194,15 @@
 
     <!-- CameraContacts -->
     <string name="CameraContacts_recent_contacts">최근 연락처</string>
-    <string name="CameraContacts_signal_contacts">Signal 연락처</string>
-    <string name="CameraContacts_signal_groups">Signal 그룹</string>
+    <string name="CameraContacts_signal_contacts">V.Call 연락처</string>
+    <string name="CameraContacts_signal_groups">V.Call 그룹</string>
     <!-- A warning shown in a toast when  -->
     <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
         <item quantity="other">최대 %1$d개 대화에서 공유할 수 있습니다.</item>
     </plurals>
-    <string name="CameraContacts_select_signal_recipients">Signal 받는 사람 선택</string>
-    <string name="CameraContacts_no_signal_contacts">Signal 연락처 없음</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">카메라 버튼은 Signal 연락처에 사진을 보내는 용도로만 사용할 수 있습니다. </string>
+    <string name="CameraContacts_select_signal_recipients">V.Call 받는 사람 선택</string>
+    <string name="CameraContacts_no_signal_contacts">V.Call 연락처 없음</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">카메라 버튼은 V.Call 연락처에 사진을 보내는 용도로만 사용할 수 있습니다. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">원하는 사람을 찾지 못하셨나요?</string>
     <string name="CameraContacts_invite_a_contact_to_join_signal">Signal에 등록하도록 연락처 초대</string>
     <string name="CameraContacts__menu_search">검색</string>
@@ -211,7 +211,7 @@
     <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">검열 우회를 끄시겠어요?</string>
     <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">이제 더 나은 사용을 위해 Signal 서비스에 바로 연결 할 수 있습니다.</string>
+    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">이제 더 나은 사용을 위해 V.Call 서비스에 바로 연결 할 수 있습니다.</string>
     <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off">끄기</string>
     <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -228,7 +228,7 @@
     <string name="ClientDeprecatedActivity_update">업데이트</string>
     <string name="ClientDeprecatedActivity_dont_update">업데이트하지 않음</string>
     <string name="ClientDeprecatedActivity_warning">경고</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Signal 버전이 만료되었습니다. 이전 메세지 기록은 읽을 수 있지만 업데이트하기 전까지 메세지를 보내거나 받을 수 없습니다.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">V.Call 버전이 만료되었습니다. 이전 메세지 기록은 읽을 수 있지만 업데이트하기 전까지 메세지를 보내거나 받을 수 없습니다.</string>
 
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">웹 브라우저를 찾을 수 없습니다.</string>
@@ -264,7 +264,7 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">%1$s에 메시지 보내기</string>
-    <string name="ContactsDatabase_signal_call_s">%1$s에 Signal 전화</string>
+    <string name="ContactsDatabase_signal_call_s">%1$s에 V.Call 전화</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -297,7 +297,7 @@
     <string name="ConversationItem_click_to_approve_unencrypted">전송 실패, 탭하여 비보안 연결 시도</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">비보안 SMS로 바꾸시겠습니까?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">비보안 MMS로 바꾸시겠습니까?</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">수신자가 이제 Signal 사용자가 아니므로 메시지가 암호화되지 <b>않습니다</b>.\n\n비보안 메시지를 보내시겠습니까?</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">수신자가 이제 V.Call 사용자가 아니므로 메시지가 암호화되지 <b>않습니다</b>.\n\n비보안 메시지를 보내시겠습니까?</string>
     <string name="ConversationItem_unable_to_open_media">미디어를 열 수 있는 앱이 없습니다.</string>
     <string name="ConversationItem_copied_text">%1$s 복사됨</string>
     <string name="ConversationItem_from_s">%1$s에서</string>
@@ -351,7 +351,7 @@
     <string name="ConversationActivity_transport_insecure_sms_with_sim">비보안 SMS(%1$s)</string>
     <string name="ConversationActivity_transport_insecure_mms">비보안 MMS</string>
     <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-    <string name="ConversationActivity_transport_signal">Signal 메시지</string>
+    <string name="ConversationActivity_transport_signal">V.Call 메시지</string>
     <string name="ConversationActivity_lets_switch_to_signal">Signal로 대화해요! %1$s</string>
     <string name="ConversationActivity_specify_recipient">연락처를 선택해 주세요.</string>
     <string name="ConversationActivity_unblock">차단 해제</string>
@@ -422,7 +422,7 @@
     <!-- Title for dialog shown when first sending formatted text -->
     <string name="SendingFormattingTextDialog_title">서식 지정 텍스트 보내기</string>
     <!-- Message for dialog shown when first sending formatted text -->
-    <string name="SendingFormattingTextDialog_message">일부 사용자가 서식 지정 텍스트를 지원하지 않는 Signal 버전을 사용 중일 수 있습니다. 이러한 사용자의 경우 메시지에 적용된 서식 변경 내용을 보지 못할 수 있습니다.</string>
+    <string name="SendingFormattingTextDialog_message">일부 사용자가 서식 지정 텍스트를 지원하지 않는 V.Call 버전을 사용 중일 수 있습니다. 이러한 사용자의 경우 메시지에 적용된 서식 변경 내용을 보지 못할 수 있습니다.</string>
     <!-- Button text for confirming they\'d like to send the message with formatting after seeing warning. -->
     <string name="SendingFormattingTextDialog_send_anyway_button">그냥 보내기</string>
     <!-- Button text for canceling sending the message with formatting after seeing warning. -->
@@ -498,11 +498,11 @@
     <!-- Action shown to allow a user to update their application because it has expired -->
     <string name="ConversationFragment__update_build">시그널 최신 버전으로 업데이트</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Signal 다시 등록</string>
+    <string name="ConversationFragment__reregister_signal">V.Call 다시 등록</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">돌아가기</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Signal 열기</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">V.Call 열기</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">더 이상 유효하지 않음</string>
 
@@ -736,7 +736,7 @@
     <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">기기에서는 Play Services를 지원하지 않습니다. 탭하여 시스템 배터리 최적화 기능을 사용하지 않을 수 있습니다. 해당 기능은 Signal이 비활성화된 동안에 메시지를 검색하지 못하게 합니다.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Signal 버전이 만료되었습니다. 메시지를 송수신 하기 위해 지금 업데이트 하십시오.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">V.Call 버전이 만료되었습니다. 메시지를 송수신 하기 위해 지금 업데이트 하십시오.</string>
     <string name="ExpiredBuildReminder_update_now">지금 업데이트하세요.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
@@ -746,8 +746,8 @@
     <string name="PendingGroupJoinRequestsReminder_view">보기</string>
 
     <!-- GcmRefreshJob -->
-    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">영구적으로 Signal 연결에 실패했습니다!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal은 Google Play Services에 등록될 수 없습니다. Signal 메시지와 전화는 비활성화되었습니다. Signal 설정 - 고급 메뉴에서 다시 등록해 주세요.</string>
+    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">영구적으로 V.Call 연결에 실패했습니다!</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal은 Google Play Services에 등록될 수 없습니다. V.Call 메시지와 전화는 비활성화되었습니다. V.Call 설정 - 고급 메뉴에서 다시 등록해 주세요.</string>
 
 
     <!-- GiphyActivity -->
@@ -860,7 +860,7 @@
     <string name="LinkPreviewView_this_group_link_is_not_active">이 그룹 링크가 비활성화 되었습니다.</string>
     <string name="LinkPreviewView_domain_date">%1$s, %2$s</string>
     <!-- Description for Call Link url previews -->
-    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">이 링크를 사용하여 Signal 통화에 참여하세요.</string>
+    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">이 링크를 사용하여 V.Call 통화에 참여하세요.</string>
 
     <!-- LinkPreviewRepository -->
     <plurals name="LinkPreviewRepository_d_members">
@@ -917,9 +917,9 @@
     <string name="AddGroupDetailsFragment__sms_contact">SMS 연락</string>
     <string name="AddGroupDetailsFragment__remove_s_from_this_group">이 그룹에서 %1$s를 제거하시겠습니까?</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Signal 그룹을 지원하지 않는 연락처를 선택했으므로 이 그룹은 MMS가 됩니다. 사용자 지정 MMS 그룹 이름과 사진은 나만 볼 수 있습니다.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">V.Call 그룹을 지원하지 않는 연락처를 선택했으므로 이 그룹은 MMS가 됩니다. 사용자 지정 MMS 그룹 이름과 사진은 나만 볼 수 있습니다.</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Signal 그룹을 지원하지 않는 연락처를 선택했으므로 이 그룹은 MMS가 됩니다. 사용자 정의 MMS 그룹 이름과 사진은 나에게만 표시됩니다. 암호화 메시지에 집중하기 위해 MMS 그룹에 대한 지원을 곧 중단합니다.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">V.Call 그룹을 지원하지 않는 연락처를 선택했으므로 이 그룹은 MMS가 됩니다. 사용자 정의 MMS 그룹 이름과 사진은 나에게만 표시됩니다. 암호화 메시지에 집중하기 위해 MMS 그룹에 대한 지원을 곧 중단합니다.</string>
 
     <!-- ManageGroupActivity -->
     <string name="ManageGroupActivity_who_can_add_new_members">누가 새로운 멤버들을 추가시킬 수 있습니까?</string>
@@ -1049,7 +1049,7 @@
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">그룹 링크를 사용하기 위해서 Signal을 업데이트하세요</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">사용 중인 Signal 버전에서는 이 그룹 링크를 지원하지 않습니다. 링크를 통해 이 그룹에 가입하려면 최신 버전으로 업데이트하세요.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">사용 중인 V.Call 버전에서는 이 그룹 링크를 지원하지 않습니다. 링크를 통해 이 그룹에 가입하려면 최신 버전으로 업데이트하세요.</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">시그널 업데이트하기</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">그룹 링크가 유효하지 않습니다.</string>
 
@@ -1081,7 +1081,7 @@
 
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">길게 탭하여 음성 메시지를 녹음하고, 손을 떼어 보내기</string>
-    <!-- Message shown if the user tries to switch a conversation from Signal to SMS -->
+    <!-- Message shown if the user tries to switch a conversation from V.Call to SMS -->
     <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">Signal에서 더 이상 SMS 메시지를 지원하지 않습니다.</string>
     <!-- When editing a message, label shown above the text input field in the composer -->
     <string name="InputPanel_edit_message">메시지 수정</string>
@@ -1166,7 +1166,7 @@
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">나중에 알림</string>
-    <string name="Megaphones_verify_your_signal_pin">Signal 번호 인증</string>
+    <string name="Megaphones_verify_your_signal_pin">V.Call 번호 인증</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">저희는 사용자가 번호를 기억하실 수 있도록 가끔 번호 인증을 요청합니다.</string>
     <string name="Megaphones_verify_pin">번호 인증</string>
     <string name="Megaphones_get_started">시작하기</string>
@@ -1180,10 +1180,10 @@
     <string name="MessageQuotesBottomSheet_replies">회신</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Signal 전화 연결 중</string>
+    <string name="NotificationBarManager__establishing_signal_call">V.Call 전화 연결 중</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Signal 통화 서비스 시작</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Signal 통화 서비스 중지</string>
+    <string name="NotificationBarManager__starting_signal_call_service">V.Call 통화 서비스 시작</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">V.Call 통화 서비스 중지</string>
     <string name="NotificationBarManager__decline_call">전화 거절</string>
     <string name="NotificationBarManager__answer_call">전화 수락</string>
     <string name="NotificationBarManager__end_call">전화 종료</string>
@@ -1213,7 +1213,7 @@
 
     <!-- MessageRecord -->
     <string name="MessageRecord_unknown">알 수 없음</string>
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">지원하지 않는 이전 Signal 버전으로부터 암호화 메시지를 받았습니다. 발신자에게 최신 버전으로 업데이트하고 다시 보내도록 요청하세요.</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">지원하지 않는 이전 V.Call 버전으로부터 암호화 메시지를 받았습니다. 발신자에게 최신 버전으로 업데이트하고 다시 보내도록 요청하세요.</string>
     <string name="MessageRecord_left_group">그룹에서 탈퇴했습니다.</string>
     <string name="MessageRecord_you_updated_group">그룹을 업데이트했습니다.</string>
     <string name="MessageRecord_the_group_was_updated">그룹이 업데이트 되었습니다.</string>
@@ -1475,7 +1475,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">%1$s 님이 내게 메시지를 보내도록 허용하고, 내 이름과 사진을 공유할까요? 이 사용자는 귀하가 이전에 제거한 사용자입니다.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">%1$s 님에게 메시지를 보내고 이름과 사진을 공유할 수 있도록 하시겠습니까? 귀하가 수락할 때까지 귀하가 자신의 메시지를 본 것을 알지 못합니다.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a V.Call user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">%1$s 님이 내게 메시지를 보내고 내 이름과 사진을 공유할 수 있도록 허용할까요? 차단을 해제할 때까지 모든 메시지를 차단합니다.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">%1$s 님이 내게 메시지를 보내도록 허용할까요? 차단을 해제할 때까지 모든 메시지를 차단합니다.</string>
@@ -1529,26 +1529,26 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">잘못된 QR 코드입니다.</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">죄송합니다. 이미 너무 많은 기기가 연결되어 있습니다. 일부를 제거하세요.</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">죄송합니다. 올바른 기기 연결 QR 코드가 아닙니다.</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">Signal 기기를 연결하시겠습니까?</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">제삼자 스캐너를 사용해 Signal 기기를 연결하려는 것 같습니다. 안전한 사용을 위해 Signal에서 다시 코드를 스캔해 주세요.</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">V.Call 기기를 연결하시겠습니까?</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">제삼자 스캐너를 사용해 V.Call 기기를 연결하려는 것 같습니다. 안전한 사용을 위해 Signal에서 다시 코드를 스캔해 주세요.</string>
 
     <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal에서 QR 코드를 읽으려면 카메라 권한이 필요하지만 현재 거부되어 있습니다. 앱 설정 메뉴에서 \'권한\'을 선택한 후 \'카메라\' 항목을 허용해 주세요.</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">카메라 권한이 없어 QR 코드를 스캔할 수 없음</string>
 
     <!-- OutdatedBuildReminder -->
     <string name="OutdatedBuildReminder_update_now">지금 업데이트하세요.</string>
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">이 Signal 버전은 오늘 만료됩니다. 최신 버전으로 업데이트하세요.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">이 V.Call 버전은 오늘 만료됩니다. 최신 버전으로 업데이트하세요.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="other">이 Signal 버전은 %1$d일 후에 만료됩니다. 최신 버전으로 업데이트하세요.</item>
+        <item quantity="other">이 V.Call 버전은 %1$d일 후에 만료됩니다. 최신 버전으로 업데이트하세요.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">암호 입력</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Signal 아이콘</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">V.Call 아이콘</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">암호 제출</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">잘못된 암호입니다!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Signal 잠금 해제</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - 잠금 화면</string>
+    <string name="PassphrasePromptActivity_unlock_signal">V.Call 잠금 해제</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">V.Call Android - 잠금 화면</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">지도</string>
@@ -1572,26 +1572,26 @@
     <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
         <item quantity="other">%1$d번의 시도가 남아 있습니다. 시도가 부족하면 새 PIN을 만들 수 있습니다. 계정을 등록하고 사용할 수 있지만 프로필 정보와 같은 일부 저장된 설정이 손실됩니다.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal 등록 - Android용 PIN에 대한 도움이 필요합니다.</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">V.Call 등록 - Android용 PIN에 대한 도움이 필요합니다.</string>
     <!-- Button label to prompt the user to switch between an alphanumeric and numeric-only keyboards -->
     <string name="PinRestoreEntryFragment_switch_keyboard">키보드 전환</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">번호 생성</string>
-    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN을 알아내지는 못했지만 새 PIN을 생성하여 Signal 계정에 계속 액세스할 수 있습니다. 개인 정보 및 보안을 위해 저장된 프로필 정보 또는 설정 없이 계정이 복원됩니다.</string>
+    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN을 알아내지는 못했지만 새 PIN을 생성하여 V.Call 계정에 계속 액세스할 수 있습니다. 개인 정보 및 보안을 위해 저장된 프로필 정보 또는 설정 없이 계정이 복원됩니다.</string>
     <string name="PinRestoreLockedFragment_create_new_pin">새로운 PIN 만들기</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
 
     <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
     <string name="ReRegisterWithPinFragment_send_sms_code">SMS 코드 보내기</string>
     <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
-    <string name="ReRegisterWithPinFragment_support_email_subject">Signal 등록 - Android 등록 PIN 관련 도움</string>
+    <string name="ReRegisterWithPinFragment_support_email_subject">V.Call 등록 - Android 등록 PIN 관련 도움</string>
     <!-- Dialog message shown in reregister flow when tapping a informational button to to learn about pins or contact support for help -->
     <string name="ReRegisterWithPinFragment_need_help_local">PIN은 사용자가 만든 %1$d자리 이상의 영숫자 조합 코드입니다.\n\nPIN이 기억이 안 난다면 새로운 PIN을 만드세요.</string>
     <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
     <string name="ReRegisterWithPinFragment_skip_local">PIN이 기억이 안 난다면 새로운 PIN을 만드세요.</string>
     <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-    <string name="ReRegisterWithPinFragment_out_of_guesses_local">PIN 시도 횟수를 초과했습니다. 하지만 새로운 PIN을 만들어 Signal 계정을 계속 이용할 수 있습니다.</string>
+    <string name="ReRegisterWithPinFragment_out_of_guesses_local">PIN 시도 횟수를 초과했습니다. 하지만 새로운 PIN을 만들어 V.Call 계정을 계속 이용할 수 있습니다.</string>
 
     <!-- PinOptOutDialog -->
     <string name="PinOptOutDialog_warning">경고</string>
@@ -1624,7 +1624,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">내 스토리</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Signal 통화</string>
+    <string name="Recipient_signal_call">V.Call 통화</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">차단</string>
@@ -1665,8 +1665,8 @@
     <string name="WebRtcCallActivity__not_now">나중에</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Signal 전화</string>
-    <string name="WebRtcCallView__signal_video_call">Signal 영상 통화</string>
+    <string name="WebRtcCallView__signal_call">V.Call 전화</string>
+    <string name="WebRtcCallView__signal_video_call">V.Call 영상 통화</string>
     <string name="WebRtcCallView__start_call">전화 시작하기</string>
     <string name="WebRtcCallView__join_call">전화 참여하기</string>
     <string name="WebRtcCallView__call_is_full">통화 참가자 수 최대</string>
@@ -1787,8 +1787,8 @@
     <string name="RegistrationActivity_play_services_error">Play Services 오류</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services가 업데이트 중이거나 잠시 제공되지 않고 있습니다. 다시 시도해 주세요.</string>
     <string name="RegistrationActivity_terms_and_privacy">이용 약관 &amp; 개인 정보 보호 정책</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">친구를 추가하고 메시지를 보내려면 Signal에서 연락처와 미디어를 사용하도록 허용해야 합니다. 내 기기에 저장된 연락처는 Signal의 비공개 연락처 검색을 통해 업로드됩니다. 모든 연락처가 단대단 암호화 처리되기 때문에 Signal 서비스에는 절대 표시되지 않습니다.</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal에서 친구를 추가하려면 연락처 접근 권한을 허용해야 합니다. 내 기기에 저장된 연락처는 Signal의 비공개 연락처 검색을 통해 업로드됩니다. 모든 연락처가 단대단 암호화 처리되기 때문에 Signal 서비스에는 절대 표시되지 않습니다.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">친구를 추가하고 메시지를 보내려면 Signal에서 연락처와 미디어를 사용하도록 허용해야 합니다. 내 기기에 저장된 연락처는 Signal의 비공개 연락처 검색을 통해 업로드됩니다. 모든 연락처가 단대단 암호화 처리되기 때문에 V.Call 서비스에는 절대 표시되지 않습니다.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal에서 친구를 추가하려면 연락처 접근 권한을 허용해야 합니다. 내 기기에 저장된 연락처는 Signal의 비공개 연락처 검색을 통해 업로드됩니다. 모든 연락처가 단대단 암호화 처리되기 때문에 V.Call 서비스에는 절대 표시되지 않습니다.</string>
     <string name="RegistrationActivity_rate_limited_to_service">이 전화번호를 등록하려고 너무 많이 시도했습니다. 나중에 다시 시도하세요.</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">이 번호를 등록하려고 너무 많이 시도했습니다. %1$s 후에 다시 시도해 주세요.</string>
@@ -1801,7 +1801,7 @@
     <string name="RegistrationActivity_unable_to_request_verification_code">확인 코드를 요청하지 못했습니다. 네트워크 연결을 확인하고 다시 시도하세요.</string>
     <string name="RegistrationActivity_non_standard_number_format">비표준 전화번호 형식</string>
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">입력한 번호(%1$s)가 표준 형식이 아닙니다.\n\n혹시 입력하려던 번호가 %2$s인가요?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Signal Android - 전화번호 형식</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">V.Call Android - 전화번호 형식</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">통화 요청함</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -1848,7 +1848,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">등록 잠금을 켜시겠습니까?</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">등록 잠금을 끄시겠습니까?</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Signal에 등록할 때 또 Signal PIN 번호을 잊어버렸다면 7일 동안 계정이 잠깁니다.</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Signal에 등록할 때 또 V.Call PIN 번호을 잊어버렸다면 7일 동안 계정이 잠깁니다.</string>
     <string name="RegistrationLockV2Dialog_turn_on">켜기</string>
     <string name="RegistrationLockV2Dialog_turn_off">끄기</string>
 
@@ -1875,18 +1875,18 @@
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">연락처에 추가</string>
     <string name="SharedContactDetailsActivity_invite_to_signal">Signal로 초대</string>
-    <string name="SharedContactDetailsActivity_signal_message">Signal 메시지</string>
-    <string name="SharedContactDetailsActivity_signal_call">Signal 전화</string>
+    <string name="SharedContactDetailsActivity_signal_message">V.Call 메시지</string>
+    <string name="SharedContactDetailsActivity_signal_call">V.Call 전화</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">연락처에 추가</string>
     <string name="SharedContactView_invite_to_signal">Signal로 초대</string>
-    <string name="SharedContactView_message">Signal 메시지</string>
+    <string name="SharedContactView_message">V.Call 메시지</string>
 
-    <!-- SignalBottomActionBar -->
+    <!-- V.CallBottomActionBar -->
     <string name="SignalBottomActionBar_more">더 보기</string>
 
-    <!-- SignalPinReminders -->
+    <!-- V.CallPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">PIN이 성공적으로 인증되었습니다. 나중에 다시 알려드리겠습니다.</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">PIN이 성공적으로 인증되었습니다. 내일 다시 알려드리겠습니다.</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">PIN이 성공적으로 인증되었습니다. 며칠 내에 알려드리겠습니다.</string>
@@ -1919,7 +1919,7 @@
     <!-- StickerManagementAdapter -->
     <string name="StickerManagementAdapter_installed_stickers">설치된 스티커</string>
     <string name="StickerManagementAdapter_stickers_you_received">받은 스티커</string>
-    <string name="StickerManagementAdapter_signal_artist_series">Signal 아티스트 시리즈</string>
+    <string name="StickerManagementAdapter_signal_artist_series">V.Call 아티스트 시리즈</string>
     <string name="StickerManagementAdapter_no_stickers_installed">설치된 스티커 없음</string>
     <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">받은 메시지의 스티커가 여기에 표시됩니다.</string>
     <string name="StickerManagementAdapter_untitled">제목 없음</string>
@@ -1956,7 +1956,7 @@
     <string name="SupportEmailUtil_filter">필터:</string>
     <string name="SupportEmailUtil_device_info">기기 정보:</string>
     <string name="SupportEmailUtil_android_version">안드로이드 버전:</string>
-    <string name="SupportEmailUtil_signal_version">Signal 버전:</string>
+    <string name="SupportEmailUtil_signal_version">V.Call 버전:</string>
     <string name="SupportEmailUtil_signal_package">시그널 패키지:</string>
     <string name="SupportEmailUtil_registration_lock">등록 잠금:</string>
     <string name="SupportEmailUtil_locale">언어:</string>
@@ -2019,8 +2019,8 @@
     <string name="ThreadRecord_s_belongs_to_s">%1$s번은 %2$s 님의 전화번호입니다.</string>
 
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Signal 업데이트</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">새 Signal 버전 출시, 탭하여 업데이트</string>
+    <string name="UpdateApkReadyListener_Signal_update">V.Call 업데이트</string>
+    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">새 V.Call 버전 출시, 탭하여 업데이트</string>
 
     <!-- UntrustedSendDialog -->
     <string name="UntrustedSendDialog_send_message">메시지를 보내시겠습니까?</string>
@@ -2067,7 +2067,7 @@
     <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">연락처는 호환되지 않는 QR 코드 형식의 상위 버전 Signal을 사용하고 있습니다. 앱을 업데이트하세요.</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">QR 코드가 올바른 안전 번호 인증 코드 형식이 아닌 것 같습니다. 다시 시도해 주세요.</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">다음으로 안전 번호 공유:</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">우리 Signal 안전 번호:</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">우리 V.Call 안전 번호:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">공유에 사용할 수 있는 앱이 없습니다.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">클립보드에 비교할 수 있는 안전 번호가 없음</string>
     <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal에서 QR 코드를 읽으려면 카메라 권한이 필요하지만 현재 거부되어 있습니다. 앱 설정 메뉴에서 \'권한\'을 선택한 후 \'카메라\' 항목을 허용해 주세요.</string>
@@ -2107,7 +2107,7 @@
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">터치하여 여세요.</string>
     <string name="KeyCachingService_passphrase_cached">Signal이 잠금 해제됨</string>
-    <string name="KeyCachingService_lock">Signal 잠금</string>
+    <string name="KeyCachingService_lock">V.Call 잠금</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">나</string>
@@ -2163,7 +2163,7 @@
     <string name="MessageNotifier_view_once_photo">한 번 볼 수 있는 사진</string>
     <string name="MessageNotifier_view_once_video">한 번 볼 수 있는 동영상</string>
     <string name="MessageNotifier_reply">답장</string>
-    <string name="MessageNotifier_signal_message">Signal 메시지</string>
+    <string name="MessageNotifier_signal_message">V.Call 메시지</string>
     <string name="MessageNotifier_unsecured_sms">비보안 SMS</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">연락처</string>
@@ -2179,7 +2179,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">내 스티커에 %1$s 이모지로 반응했습니다.</string>
     <string name="MessageNotifier_this_message_was_deleted">이 메시지는 삭제되었습니다.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">연락처 인물이 Signal에 가입했다는 알림을 끄시겠습니까? Signal &gt; 설정 &gt; 알림에서 다시 활성화할 수 있습니다.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">연락처 인물이 Signal에 가입했다는 알림을 끄시겠습니까? V.Call &gt; 설정 &gt; 알림에서 다시 활성화할 수 있습니다.</string>
 
     <!-- Notification Channels -->
     <string name="NotificationChannel_channel_messages">메시지</string>
@@ -2329,12 +2329,12 @@
     <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal에서 연락처 정보를 표시하려면 연락처 권한이 필요하지만 현재 거부되어 있습니다. 앱 설정 메뉴에서 \'권한\'을 선택한 후 \'연락처\' 항목을 허용해 주세요.</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">연락처를 가져오는 중 오류 발생, 네트워크 연결 확인</string>
     <string name="ContactSelectionListFragment_username_not_found">사용자 이름을 찾을 수 없음</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\'%1$s\' 님은 Signal 사용자가 아닙니다. 사용자 이름 확인 후 다시 시도해 주세요."</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\'%1$s\' 님은 V.Call 사용자가 아닙니다. 사용자 이름 확인 후 다시 시도해 주세요."</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">나 자신을 그룹에 추가할 필요가 없습니다.</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">최대 그룹 규모에 도달했습니다.</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal 그룹에는 최대 %1$d명의 멤버가 있을 수 있습니다.</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">V.Call 그룹에는 최대 %1$d명의 멤버가 있을 수 있습니다.</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">권장 멤버 수 한도에 도달했습니다.</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal 그룹은 %1$d명 이하의 멤버가 있을 때 가장 잘 작동합니다. 멤버를 더 많이 추가하면 메시지 송수신이 지연됩니다.</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">V.Call 그룹은 %1$d명 이하의 멤버가 있을 때 가장 잘 작동합니다. 멤버를 더 많이 추가하면 메시지 송수신이 지연됩니다.</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="other">멤버 %1$d명</item>
     </plurals>
@@ -2353,7 +2353,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">Signal 메시지</string>
+    <string name="conversation_activity__type_message_push">V.Call 메시지</string>
     <string name="conversation_activity__type_message_sms_insecure">비보안 SMS</string>
     <string name="conversation_activity__type_message_mms_insecure">비보안 MMS</string>
     <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -2448,7 +2448,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">도움말 풍선은 Signal 대화에서 끌 수 있는 Android 기능입니다.</string>
+    <string name="BubbleOptOutTooltip__description">도움말 풍선은 V.Call 대화에서 끌 수 있는 Android 기능입니다.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">나중에</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -2714,7 +2714,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">지원 정보</string>
-    <string name="HelpFragment__signal_android_support_request">Signal Android 지원 요청</string>
+    <string name="HelpFragment__signal_android_support_request">V.Call Android 지원 요청</string>
     <string name="HelpFragment__debug_log">디버그 로그:</string>
     <string name="HelpFragment__could_not_upload_logs">로그를 업로드할 수 없습니다.</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">저희가 문제를 해결할 수 있도록 최대한으로 설명해 주세요.</string>
@@ -2797,7 +2797,7 @@
     <string name="preferences__enable_passphrase">암호 화면 잠금 활성화</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">암호로 화면 및 알림 금기</string>
     <string name="preferences__screen_security">화면 보안</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">설정된 비활동 기간 후 Signal 잠금</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">설정된 비활동 기간 후 V.Call 잠금</string>
     <string name="preferences__inactivity_timeout_passphrase">비활동 시간 초과</string>
     <string name="preferences__inactivity_timeout_interval">비활동 시간 초과 간격</string>
     <string name="preferences__notifications">알림</string>
@@ -2831,7 +2831,7 @@
     <string name="preferences__help">도움</string>
     <string name="preferences__advanced">고급</string>
     <string name="preferences__donate_to_signal">Signal에 기부</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <!-- Preference label for making one-time donations to V.Call -->
     <string name="preferences__privacy">개인 정보</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">스토리</string>
@@ -2868,13 +2868,13 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">앱 아이콘과 이름을 \"%1$s\"(으)로 변경</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">앱 아이콘과 이름을 변경하려면 Signal을 종료해야 합니다. 알림은 항상 기본 Signal 아이콘과 이름을 표시합니다.</string>
+    <string name="preferences__app_icon_dialog_description">앱 아이콘과 이름을 변경하려면 Signal을 종료해야 합니다. 알림은 항상 기본 V.Call 아이콘과 이름을 표시합니다.</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
-    <string name="preferences__app_icon_warning_learn_more">휴대폰 홈 화면과 앱 서랍에 표시될 앱 아이콘과 이름을 선택하세요. 알림은 항상 기본 Signal 아이콘과 이름을 표시합니다. 자세히 알아보기</string>
+    <string name="preferences__app_icon_warning_learn_more">휴대폰 홈 화면과 앱 서랍에 표시될 앱 아이콘과 이름을 선택하세요. 알림은 항상 기본 V.Call 아이콘과 이름을 표시합니다. 자세히 알아보기</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
     <string name="preferences__app_icon_warning">앱 아이콘과 이름이 홈 화면과 앱 서랍에 표시됩니다.</string>
     <!-- Visible warning label explaining that changing the app icon and name does not affect notifications. -->
-    <string name="preferences__app_icon_notification_warning">알림은 항상 기본 Signal 아이콘과 이름을 표시합니다.</string>
+    <string name="preferences__app_icon_notification_warning">알림은 항상 기본 V.Call 아이콘과 이름을 표시합니다.</string>
     <!--Call to action to get more information about the limitations of the change app icon functionality. -->
     <string name="preferences__app_icon_learn_more">자세히 알아보기</string>
     <!--Text description of the app icon option for visually impaired users. -->
@@ -2887,9 +2887,9 @@
     <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN 번호는 Signal에 저장된 정보를 암호화하여 오직 나만 접근할 수 있게 만듭니다. 내 프로필, 설정, 그리고 연락처는 Signal을 다시 설치할 때 복원됩니다.</string>
     <string name="preferences__system_default">시스템 기본값</string>
     <string name="preferences__language">언어</string>
-    <string name="preferences__signal_messages_and_calls">Signal 메시지 및 전화</string>
+    <string name="preferences__signal_messages_and_calls">V.Call 메시지 및 전화</string>
     <string name="preferences__advanced_pin_settings">PIN 고급 설정</string>
-    <string name="preferences__free_private_messages_and_calls">Signal 사용자에게 무료 보안 메시지 및 전화 걸기</string>
+    <string name="preferences__free_private_messages_and_calls">V.Call 사용자에게 무료 보안 메시지 및 전화 걸기</string>
     <string name="preferences__submit_debug_log">디버그 로그 제출</string>
     <string name="preferences__delete_account">계정 삭제</string>
     <string name="preferences__support_wifi_calling">\'Wi-Fi 전화\' 호환 모드</string>
@@ -2932,7 +2932,7 @@
     <string name="preferences_storage__s_messages">%1$s 메시지</string>
     <string name="preferences_storage__custom">맞춤</string>
     <string name="preferences_advanced__use_system_emoji">시스템 이모지 사용</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">연락처에게 IP 주소가 표시되지 않도록 모든 전화를 Signal 서버로 릴레이합니다. 전화 품질이 떨어질 수 있습니다.</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">연락처에게 IP 주소가 표시되지 않도록 모든 전화를 V.Call 서버로 릴레이합니다. 전화 품질이 떨어질 수 있습니다.</string>
     <string name="preferences_advanced__always_relay_calls">향상 전화 릴레이</string>
     <string name="preferences_app_protection__who_can">누가…</string>
     <!-- Privacy settings payments section title -->
@@ -2958,8 +2958,8 @@
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">검열 우회가 계정의 휴대전화에서 활성화되습니다.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">사용자는 수동으로 검열 우회 기능을 멈출 수 있습니다.</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
-    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">검열 우회는 필수가 아닙니다. Signal 서비스에 연결되어 있다면 필요하지 않습니다.</string>
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the V.Call service -->
+    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">검열 우회는 필수가 아닙니다. V.Call 서비스에 연결되어 있다면 필요하지 않습니다.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">검열 우회는 인터넷에 연결되었을 때만 활성화할 수 있습니다.</string>
     <string name="preferences_communication__category_sealed_sender">발신자 암호화</string>
@@ -3043,7 +3043,7 @@
     <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Signal을 사용하여 MobileCoin을 보내고 받을 수 있습니다. 모든 지불은 MobileCoin 및 MobileCoin 지갑에 대한 사용 약관의 적용을 받습니다. 이는 베타 기능이므로 몇 가지 문제가 발생할 수 있으며 손실된 지불이나 잔액은 복구할 수 없습니다. </string> -->
     <string name="PaymentsHomeFragment__activate">활성화</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin 용어 보기</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Signal 결제는 더 이상 사용할 수 없습니다. 여전히 거래소로 자금을 이체할 수 있지만 더 이상 지불을 주고받거나 자금을 추가할 수 없습니다.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">V.Call 결제는 더 이상 사용할 수 없습니다. 여전히 거래소로 자금을 이체할 수 있지만 더 이상 지불을 주고받거나 자금을 추가할 수 없습니다.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -3124,7 +3124,7 @@
     <string name="PaymentsTransferFragment__next">다음</string>
     <string name="PaymentsTransferFragment__invalid_address">유효하지 않은 주소</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">이체하려는 지갑 주소를 확인하고 다시 시도하세요.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">내 Signal 지갑 주소로 이체할 수 없습니다. 지원되는 거래소에서 귀하의 계정에서 지갑 주소를 입력하세요.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">내 V.Call 지갑 주소로 이체할 수 없습니다. 지원되는 거래소에서 귀하의 계정에서 지갑 주소를 입력하세요.</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR 코드를 스캔하려면 Signal이 카메라에 액세스할 수 있어야 합니다.</string>
     <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal이 QR 코드를 캡처하려면 카메라 권한이 필요합니다. 설정으로 이동하여 \'권한\'을 선택하고 \'카메라\'를 활성화하세요.</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR 코드를 스캔하려면 Signal이 카메라에 액세스할 수 있어야 합니다.</string>
@@ -3210,8 +3210,8 @@
     <string name="conversation_callable_insecure__menu_call">전화</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">Signal 전화</string>
-    <string name="conversation_callable_secure__menu_video">Signal 영상 통화</string>
+    <string name="conversation_callable_secure__menu_call">V.Call 전화</string>
+    <string name="conversation_callable_secure__menu_video">V.Call 영상 통화</string>
 
     <!-- conversation_context -->
 
@@ -3332,7 +3332,7 @@
     <!-- reminder_header -->
     <string name="reminder_header_sms_import_title">시스템 SMS 가져오기</string>
     <string name="reminder_header_sms_import_text">탭하여 휴대 전화의 SMS 메시지를 Signal의 암호화된 데이터베이스에 가져오세요.</string>
-    <string name="reminder_header_push_title">Signal 메시지 및 전화 활성화</string>
+    <string name="reminder_header_push_title">V.Call 메시지 및 전화 활성화</string>
     <string name="reminder_header_push_text">대화 경험을 업그레이드해 보세요.</string>
     <string name="reminder_header_service_outage_text">Signal에 기술적 문제가 발생했습니다. 최대한 신속하게 처리하겠습니다.</string>
     <string name="reminder_header_progress">%1$d%%</string>
@@ -3362,7 +3362,7 @@
     <string name="Insights__title">인사이트</string>
     <string name="InsightsDashboardFragment__title">인사이트</string>
     <!-- Body text for a page describing how many signal messages you\'ve sent. The first placeholder represents the number of signal messages sent, and the second placeholder represents how many days have passed. -->
-    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal 프로토콜이 지난 %2$d일 동안 발신된 메시지 중 %1$d%%를 자동으로 보호합니다. Signal 사용자 간 대화는 항상 엔드투엔드로 암호화됩니다.</string>
+    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">V.Call 프로토콜이 지난 %2$d일 동안 발신된 메시지 중 %1$d%%를 자동으로 보호합니다. V.Call 사용자 간 대화는 항상 엔드투엔드로 암호화됩니다.</string>
     <string name="InsightsDashboardFragment__spread_the_word">널리 알려주세요.</string>
     <string name="InsightsDashboardFragment__not_enough_data">데이터가 충분하지 않음</string>
     <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">인사이트 백분율은 최근 %1$d일 동안 사라지지 않았거나 삭제되지 않은 발신 메시지에 대해 산정됩니다.</string>
@@ -3374,7 +3374,7 @@
     <string name="InsightsDashboardFragment__cancel">취소</string>
     <string name="InsightsDashboardFragment__send">전송</string>
     <string name="InsightsModalFragment__title">인사이트를 소개합니다.</string>
-    <string name="InsightsModalFragment__description">내 발신 메시지 중 얼마나 많은 메시지가 안전하게 전송되었는지 알아보고, 새 연락처를 손쉽게 초대하여 내 Signal 백분율을 부스트해 보세요.</string>
+    <string name="InsightsModalFragment__description">내 발신 메시지 중 얼마나 많은 메시지가 안전하게 전송되었는지 알아보고, 새 연락처를 손쉽게 초대하여 내 V.Call 백분율을 부스트해 보세요.</string>
     <string name="InsightsModalFragment__view_insights">인사이트 보기</string>
 
     <string name="FirstInviteReminder__title">Signal로 초대</string>
@@ -3431,7 +3431,7 @@
     <string name="KbsSplashFragment__disable_pin">PIN 비활성화</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">Signal 번호 입력</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">V.Call 번호 입력</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">주기적으로 번호를 입력하면 외우는 데 도움이 됩니다. 가끔씩만 여쭤보겠습니다.</string>
     <string name="KbsReminderDialog__skip">건너뛰기</string>
     <string name="KbsReminderDialog__submit">제출</string>
@@ -3457,7 +3457,7 @@
     <string name="RegistrationLockFragment__incorrect_pin">잘못된 번호</string>
     <string name="RegistrationLockFragment__forgot_your_pin">번호를 잊으셨나요?</string>
     <string name="RegistrationLockFragment__not_many_tries_left">얼마 남지 않았습니다!</string>
-    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal 등록 - Android용 PIN 설정에 도움이 필요합니다 (v2 PIN)</string>
+    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">V.Call 등록 - Android용 PIN 설정에 도움이 필요합니다 (v2 PIN)</string>
 
     <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
         <item quantity="other">개인 정보 보호와 보안을 위해 번호를 복원할 수는 없습니다. 번호를 잊었다면 계정을 사용하지 않은 지 %1$d일 후 SMS로 다시 인증할 수 있습니다. 해당 경우, 계정이 정리되어 모든 내용이 삭제됩니다.</item>
@@ -3488,18 +3488,18 @@
     <string name="KbsMegaphone__create_pin">번호 생성</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Signal 음성 통화 수신 중</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Signal 영상 통화 수신 중</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Signal 단체 통화 수신</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Signal 음성 통화 진행 중</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Signal 영상 통화 진행 중</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Signal 그룹 통화 진행 중</string>
+    <!-- Displayed in a notification when a V.Call voice call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">V.Call 음성 통화 수신 중</string>
+    <!-- Displayed in a notification when a V.Call video call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_video_call">V.Call 영상 통화 수신 중</string>
+    <!-- Displayed in a notification when a V.Call group call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_group_call">V.Call 단체 통화 수신</string>
+    <!-- Displayed in a notification when a V.Call voice call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">V.Call 음성 통화 진행 중</string>
+    <!-- Displayed in a notification when a V.Call video call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">V.Call 영상 통화 진행 중</string>
+    <!-- Displayed in a notification when a V.Call group call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">V.Call 그룹 통화 진행 중</string>
 
     <!-- transport_selection_list_item -->
     <string name="transport_selection_list_item__transport_icon">아이콘 전송</string>
@@ -3509,8 +3509,8 @@
     <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal에서 SMS를 보내려면 SMS 권한이 필요하지만 현재 거부되어 있습니다. 앱 설정 메뉴에서 \'권한\'을 선택한 후 \'SMS\' 항목을 허용해 주세요.</string>
     <string name="Permissions_continue">확인</string>
     <string name="Permissions_not_now">나중에</string>
-    <string name="conversation_activity__enable_signal_messages">Signal 메시지 켜기</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal 데이터베이스 이전 중</string>
+    <string name="conversation_activity__enable_signal_messages">V.Call 메시지 켜기</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">V.Call 데이터베이스 이전 중</string>
     <string name="PushDecryptJob_new_locked_message">새 잠금 메세지</string>
     <string name="PushDecryptJob_unlock_to_view_pending_messages">잠금 해제하여 보류 중인 메시지 보기</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">암호 백업</string>
@@ -3527,7 +3527,7 @@
     <string name="preferences_chats__transfer_account_to_a_new_android_device">새 Android 장치로 계정 이전</string>
     <string name="RegistrationActivity_enter_backup_passphrase">백업 암호 입력</string>
     <string name="RegistrationActivity_restore">복원</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Signal 최신 버전에서 백업을 가져올 수 없습니다.</string>
+    <string name="RegistrationActivity_backup_failure_downgrade">V.Call 최신 버전에서 백업을 가져올 수 없습니다.</string>
     <!-- Error message indicating that we could not restore the user\'s backup. Displayed in a toast at the bottom of the screen. -->
     <string name="RegistrationActivity_backup_failure_foreign_key">백업에 잘못된 형식의 데이터가 포함되어 있습니다.</string>
     <string name="RegistrationActivity_incorrect_backup_passphrase">잘못된 백업 암호</string>
@@ -3551,9 +3551,9 @@
     <string name="BackupDialog_verify">확인</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">백업 암호가 성공적으로 입력됨</string>
     <string name="BackupDialog_passphrase_was_not_correct">암호가 올바르지 않음</string>
-    <string name="LocalBackupJob_creating_signal_backup">Signal 백업 만드는 중…</string>
+    <string name="LocalBackupJob_creating_signal_backup">V.Call 백업 만드는 중…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Signal 백업을 확인하는 중…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">V.Call 백업을 확인하는 중…</string>
     <string name="LocalBackupJobApi29_backup_failed">백업을 실패했습니다.</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">백업 경로가 삭제되었거나 이동했습니다.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">백업 파일이 너무 커서 이 볼륨에 저장할 수 없습니다.</string>
@@ -3568,8 +3568,8 @@
     <string name="RegistrationActivity_call_me_instead_available_in">나한테 전화(%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">코드 다시 보내기(%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">Signal 지원 팀에 문의</string>
-    <string name="RegistrationActivity_code_support_subject">Signal 등록 - 안드로이드용 인증 코드</string>
+    <string name="RegistrationActivity_contact_signal_support">V.Call 지원 팀에 문의</string>
+    <string name="RegistrationActivity_code_support_subject">V.Call 등록 - 안드로이드용 인증 코드</string>
     <string name="RegistrationActivity_incorrect_code">올바르지 않은 코드</string>
     <string name="BackupUtil_never">없음</string>
     <string name="BackupUtil_unknown">알 수 없음</string>
@@ -3591,18 +3591,18 @@
     <string name="PhoneNumberPrivacy_my_contacts">내 연락처</string>
     <string name="PhoneNumberPrivacy_nobody">아무도</string>
     <string name="PhoneNumberPrivacy_everyone_see_description">내 전화번호는 메시지를 보내는 모든 사람과 그룹에 표시됩니다.</string>
-    <string name="PhoneNumberPrivacy_everyone_find_description">연락처에 내 전화번호가 있는 사람은 누구나 나를 Signal 연락처로 볼 수 있습니다. 다른 사람들이 검색으로 나를 찾을 수 있습니다.</string>
+    <string name="PhoneNumberPrivacy_everyone_find_description">연락처에 내 전화번호가 있는 사람은 누구나 나를 V.Call 연락처로 볼 수 있습니다. 다른 사람들이 검색으로 나를 찾을 수 있습니다.</string>
     <string name="preferences_app_protection__screen_lock">화면 잠금</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">안드로이드 화면 잠금 또는 지문으로 Signal 잠금</string>
+    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">안드로이드 화면 잠금 또는 지문으로 V.Call 잠금</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">다음 시간만큼 사용하지 않을 때 화면 잠금</string>
-    <string name="preferences_app_protection__signal_pin">Signal 번호</string>
+    <string name="preferences_app_protection__signal_pin">V.Call 번호</string>
     <string name="preferences_app_protection__create_a_pin">번호 생성</string>
     <string name="preferences_app_protection__change_your_pin">PIN 번호 바꾸기</string>
     <string name="preferences_app_protection__pin_reminders">PIN 알림</string>
     <string name="preferences_app_protection__turn_off">끄기</string>
     <string name="preferences_app_protection__confirm_pin">번호 확인</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">Signal PIN 번호 확인</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN은 복구할 수 없으므로 외우거나 안전하게 보관하세요. PIN을 잊어버린 경우 Signal 계정을 다시 등록할 때 데이터가 손실될 수 있습니다.</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">V.Call PIN 번호 확인</string>
+    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN은 복구할 수 없으므로 외우거나 안전하게 보관하세요. PIN을 잊어버린 경우 V.Call 계정을 다시 등록할 때 데이터가 손실될 수 있습니다.</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">잘못된 번호입니다. 다시 시도해 주세요.</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">등록 잠금을 활성화하지 못했습니다.</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">등록 잠금을 비활성화하지 못했습니다.</string>
@@ -3638,7 +3638,7 @@
 
     <!-- TransferOrRestoreFragment -->
     <string name="TransferOrRestoreFragment__transfer_or_restore_account">계정 이전 또는 복원</string>
-    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">이전에 Signal 계정을 등록한 경우 계정 및 메시지를 이전하거나 복원할 수 있습니다.</string>
+    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">이전에 V.Call 계정을 등록한 경우 계정 및 메시지를 이전하거나 복원할 수 있습니다.</string>
     <string name="TransferOrRestoreFragment__transfer_from_android_device">Android 장치에서 전송</string>
     <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">이전 Android 장치에서 계정과 메시지를 전송하세요. 이전 장치에 액세스해야 합니다.</string>
     <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">이전 장치에 액세스해야 합니다.</string>
@@ -3735,7 +3735,7 @@
 
     <!-- OldDeviceTransferComplete -->
     <string name="OldDeviceTransferComplete__go_to_your_new_device">새 장치로 이동</string>
-    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Signal 데이터가 새 장치로 전송되었습니다. 이전 절차를 완료하려면 새 장치에서 계속 등록해야 합니다.</string>
+    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">V.Call 데이터가 새 장치로 전송되었습니다. 이전 절차를 완료하려면 새 장치에서 계속 등록해야 합니다.</string>
     <string name="OldDeviceTransferComplete__close">닫기</string>
 
     <!-- NewDeviceTransferComplete -->
@@ -3755,7 +3755,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">새 장치에서 등록 완료</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Signal 계정이 새 장치로 이전되었지만 계속하려면 등록을 완료해야 합니다. 이 장치에서 신호가 비활성화됩니다.</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">V.Call 계정이 새 장치로 이전되었지만 계속하려면 등록을 완료해야 합니다. 이 장치에서 신호가 비활성화됩니다.</string>
     <string name="OldDeviceTransferLockedDialog__done">확인</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">이 장치를 취소하고 활성화하세요.</string>
 
@@ -3875,7 +3875,7 @@
     <string name="DeleteAccountFragment__no_number">지정된 전화번호가 없습니다.</string>
     <string name="DeleteAccountFragment__the_phone_number">입력한 전화번호가 내 계정과 일치하지 않습니다.</string>
     <string name="DeleteAccountFragment__are_you_sure">계정을 삭제하시겠습니까?</string>
-    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">이 작업을 수행하면 Signal 계정을 삭제하고 애플리케이션을 초기화합니다. 프로세스를 완료하면 앱을 종료합니다.</string>
+    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">이 작업을 수행하면 V.Call 계정을 삭제하고 애플리케이션을 초기화합니다. 프로세스를 완료하면 앱을 종료합니다.</string>
     <string name="DeleteAccountFragment__failed_to_delete_local_data">로컬 데이터를 삭제하지 못했습니다. 시스템 애플리케이션 설정에서 수동으로 제거할 수 있습니다.</string>
     <string name="DeleteAccountFragment__launch_app_settings">앱 설정 시작</string>
     <!-- Title of progress dialog shown when a user deletes their account and the process is leaving all groups -->
@@ -3997,7 +3997,7 @@
     <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">복구 문구 저장</string>
     <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">복구 코드를 입력하기</string>
     <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-        <item quantity="other">Signal PIN을 확인하면 Signal을 다시 설치할 때 잔액이 자동으로 복원됩니다. 사용자별로 고유한 %1$d개 단어로 구성된 복구 문구를 사용하여 잔액을 복원할 수도 있습니다. 안전한 곳에 적어 두고 보관하세요.</item>
+        <item quantity="other">V.Call PIN을 확인하면 Signal을 다시 설치할 때 잔액이 자동으로 복원됩니다. 사용자별로 고유한 %1$d개 단어로 구성된 복구 문구를 사용하여 잔액을 복원할 수도 있습니다. 안전한 곳에 적어 두고 보관하세요.</item>
     </plurals>
     <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
     <string name="PaymentsRecoveryStartFragment__got_balance">잔액이 있습니다! 24개 단어 키인 복구 문구를 저장하세요. 해당 문구를 사용하여 잔액을 복구할 수 있습니다.</string>
@@ -4095,7 +4095,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">계정</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">시간이 지남에 따라 질문 빈도가 줄어듭니다.</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">Signal에 전화번호를 다시 등록하려면 Signal PIN이 필요합니다.</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">Signal에 전화번호를 다시 등록하려면 V.Call PIN이 필요합니다.</string>
     <string name="AccountSettingsFragment__change_phone_number">전화번호 변경</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">내 계정 데이터</string>
@@ -4104,7 +4104,7 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">내 계정 데이터</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">Signal 계정 데이터 보고서를 내보냅니다. 이 보고서는 메시지나 미디어를 포함하지 않습니다. %1$s</string>
+    <string name="ExportAccountDataFragment__export_explanation">V.Call 계정 데이터 보고서를 내보냅니다. 이 보고서는 메시지나 미디어를 포함하지 않습니다. %1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">자세히 알아보기</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4132,7 +4132,7 @@
     <!-- Title for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_confirmation">데이터를 내보낼까요?</string>
     <!-- Message for export confirmation dialog -->
-    <string name="ExportAccountDataFragment__export_report_confirmation_message">Signal 계정 데이터를 신뢰하는 사람 또는 앱에만 공유하세요.</string>
+    <string name="ExportAccountDataFragment__export_report_confirmation_message">V.Call 계정 데이터를 신뢰하는 사람 또는 앱에만 공유하세요.</string>
     <!-- Action to export in for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_action">내보내기</string>
 
@@ -4172,7 +4172,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">전화번호 수정</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Signal 번호 변경 - Android용 PIN에 대한 도움이 필요합니다(v2 PIN)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">V.Call 번호 변경 - Android용 PIN에 대한 도움이 필요합니다(v2 PIN)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN이 일치하지 않음</string>
@@ -4213,7 +4213,7 @@
     <!-- Snackbar text to confirm deletion -->
     <string name="SmsSettingsFragment__removing_sms_messages_from_signal">Signal에서 SMS 메시지를 제거하는 중…</string>
     <!-- Snackbar text to indicate can delete later -->
-    <string name="SmsSettingsFragment__you_can_remove_sms_messages_from_signal_in_settings">언제든 Signal 설정에서 SMS 메시지를 제거할 수 있습니다.</string>
+    <string name="SmsSettingsFragment__you_can_remove_sms_messages_from_signal_in_settings">언제든 V.Call 설정에서 SMS 메시지를 제거할 수 있습니다.</string>
     <!-- Description for export sms preference -->
     <string name="SmsSettingsFragment__you_can_export_your_sms_messages_to_your_phones_sms_database">SMS 메시지를 휴대폰 SMS 데이터베이스로 내보낼 수 있습니다.</string>
     <!-- Description for re-export sms preference -->
@@ -4293,10 +4293,10 @@
     <string name="HelpSettingsFragment__contact_us">문의하기</string>
     <string name="HelpSettingsFragment__version">버전</string>
     <string name="HelpSettingsFragment__debug_log">디버그 로그</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the V.Call app-->
     <string name="HelpSettingsFragment__licenses">라이선스</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">이용 약관 &amp; 개인 정보 보호 정책</string>
-    <string name="HelpFragment__copyright_signal_messenger">Signal Messenger 저작권</string>
+    <string name="HelpFragment__copyright_signal_messenger">V.Call Messenger 저작권</string>
     <string name="HelpFragment__licenced_under_the_agplv3">GNU AGPLv3에 따라 라이선스가 부여됨</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -4490,7 +4490,7 @@
     <!-- Dialog action to view contact when they can\'t be removed otherwise -->
     <string name="NewConversationActivity__view_contact">연락처 보기</string>
     <!-- Error message shown when looking up a person by phone number and that phone number is not associated with a signal account -->
-    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s 님은 Signal 사용자가 아닙니다.</string>
+    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s 님은 V.Call 사용자가 아닙니다.</string>
 
     <!-- ContactFilterView -->
     <string name="ContactFilterView__search_name_or_number">이름 또는 번호 검색</string>
@@ -4689,7 +4689,7 @@
     <!-- Title of dialog telling user they need to update signal as it expired -->
     <string name="UpdateSignalExpiredDialog__title">시그널 최신 버전으로 업데이트</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">이 Signal 버전은 만료되었습니다. Signal을 계속 사용하려면 지금 업데이트하세요.</string>
+    <string name="UpdateSignalExpiredDialog__message">이 V.Call 버전은 만료되었습니다. Signal을 계속 사용하려면 지금 업데이트하세요.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">업데이트</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -4728,7 +4728,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Google Pay로 이동</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">구독 결제를 처리할 수 없습니다.</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Signal 기여자 결제를 처리하는 도중 문제가 발생했습니다. 결제 수단 정보가 최신 상태인지 확인해 주세요. 최신 상태가 아닐 경우 Google Pay에서 업데이트하세요. Signal이 며칠 후 다시 결제 처리를 시도합니다.</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">V.Call 기여자 결제를 처리하는 도중 문제가 발생했습니다. 결제 수단 정보가 최신 상태인지 확인해 주세요. 최신 상태가 아닐 경우 Google Pay에서 업데이트하세요. Signal이 며칠 후 다시 결제 처리를 시도합니다.</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">다시 표시 안 함</string>
 
     <string name="Subscription__contact_support">지원에 문의</string>
@@ -4966,8 +4966,8 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">선택창을 열지 못했습니다.</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
-    <string name="ReleaseNotes__signal_release_notes_and_news">Signal 릴리스 노트 및 뉴스</string>
+    <!-- Description shown for the V.Call Release Notes channel -->
+    <string name="ReleaseNotes__signal_release_notes_and_news">V.Call 릴리스 노트 및 뉴스</string>
 
     <!-- Donation receipts activity title -->
     <string name="DonationReceiptListFragment__all_activity">모든 활동</string>
@@ -4994,7 +4994,7 @@
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">금액</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Signal을 지지해 주셔서 감사합니다. 귀하의 기여는 표현의 자유를 보호하고 전 세계 수백만 사용자에게 안전한 글로벌 커뮤니케이션을 제공하는 오픈 소스 프라이버시 기술을 개발하겠다는 Signal의 사명을 지키는 데 도움이 됩니다. 미국 거주자라면 세금 보고 시 사용할 수 있도록 이 영수증을 보관하세요. Signal Technology Foundation은 내국세법조항 501c3조에 의거하여 세금 공제를 받을 수 있는 비영리 기관입니다. Signal 연방세 ID는 82–4506840입니다.</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Signal을 지지해 주셔서 감사합니다. 귀하의 기여는 표현의 자유를 보호하고 전 세계 수백만 사용자에게 안전한 글로벌 커뮤니케이션을 제공하는 오픈 소스 프라이버시 기술을 개발하겠다는 Signal의 사명을 지키는 데 도움이 됩니다. 미국 거주자라면 세금 보고 시 사용할 수 있도록 이 영수증을 보관하세요. V.Call Technology Foundation은 내국세법조항 501c3조에 의거하여 세금 공제를 받을 수 있는 비영리 기관입니다. V.Call 연방세 ID는 82–4506840입니다.</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5137,7 +5137,7 @@
     <string name="MyStorySettingsFragment__who_can_view_this_story">이 스토리를 볼 수 있는 사람</string>
     <!-- Clickable option for selecting people to hide your story from -->
     <!-- Privacy setting title for sending stories to all your signal connections -->
-    <string name="MyStorySettingsFragment__all_signal_connections">모든 Signal 커넥션</string>
+    <string name="MyStorySettingsFragment__all_signal_connections">모든 V.Call 커넥션</string>
     <!-- Privacy setting description for sending stories to all your signal connections -->
     <!-- Privacy setting title for sending stories to all except the specified connections -->
     <string name="MyStorySettingsFragment__all_except">다음을 제외한 모든 사용자…</string>
@@ -5163,17 +5163,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">답장 및 반응 허용</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">내 스토리를 볼 수 있는 사용자의 반응 및 답장 허용</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
-    <string name="SignalConnectionsBottomSheet___signal_connections">Signal 커넥션</string>
+    <!-- V.Call connections bolded text in the V.Call Connections sheet -->
+    <string name="SignalConnectionsBottomSheet___signal_connections">V.Call 커넥션</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Signal 커넥션은 다음과 같은 방법을 통해 신뢰하는 사용자로 선택한 사람들입니다.</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">V.Call 커넥션은 다음과 같은 방법을 통해 신뢰하는 사용자로 선택한 사람들입니다.</string>
+    <!-- V.Call connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">대화 시작</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- V.Call connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">메시지 요청 수락</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- V.Call connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">시스템 연락처에 포함</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the V.Call connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"커넥션은 나의 이름과 사진을 볼 수 있고 스토리를 따로 숨기지 않는 한 \'내 스토리\'의 게시물을 볼 수 있습니다."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">볼 수 있는 사람 추가</string>
@@ -5487,7 +5487,7 @@
     <!-- Subtitle of initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__choose_who_can_see_posts_to_my_story_you_can_always_make_changes_in_settings">내 스토리 게시물을 볼 수 있는 사람을 선택하세요. 설정에서 언제든지 변경할 수 있습니다.</string>
     <!-- All connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
-    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">모든 Signal 커넥션</string>
+    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">모든 V.Call 커넥션</string>
     <!-- All connections except option for initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__all_except">다음을 제외한 모든 사용자…</string>
     <!-- Only with selected connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
@@ -5547,7 +5547,7 @@
     <!-- Displayed in the notification while export is running -->
     <string name="SignalSmsExportService__exporting_messages">메시지를 내보내는 중…</string>
     <!-- Displayed in the notification title when export completes -->
-    <string name="SignalSmsExportService__signal_sms_export_complete">Signal SMS 내보내기 완료</string>
+    <string name="SignalSmsExportService__signal_sms_export_complete">V.Call SMS 내보내기 완료</string>
     <!-- Displayed in the notification message when export completes -->
     <string name="SignalSmsExportService__tap_to_return_to_signal">탭하여 Signal로 돌아가기</string>
 
@@ -5574,7 +5574,7 @@
     <string name="ExportingSmsMessagesFragment__you_need_approximately_s_to_export_your_messages_ensure_you_have_enough_space_before_continuing">메시지를 내보내려면 대략 %1$s이(가) 필요합니다. 계속하기 전에 공간이 충분한지 확인하세요.</string>
     <!-- Alert dialog button to continue with exporting sms after seeing the lack of storage warning -->
     <string name="ExportingSmsMessagesFragment__continue_anyway">무시하고 계속</string>
-    <!-- Dialog text shown when Signal isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
+    <!-- Dialog text shown when V.Call isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
     <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">SMS 메시지를 내보내려면 Signal에 SMS 사용 권한이 필요합니다.</string>
 
     <!-- ChooseANewDefaultSmsAppFragment -->
@@ -5653,13 +5653,13 @@
 
     <!-- SmsExportMegaphoneActivity -->
     <!-- Phase 2 title of full screen megaphone indicating sms will no longer be supported in the near future -->
-    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">Signal SMS 서비스가 곧 중단됩니다</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">V.Call SMS 서비스가 곧 중단됩니다</string>
     <!-- Phase 3 title of full screen megaphone indicating sms is longer supported  -->
-    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">Signal SMS 서비스가 곧 중단됩니다</string>
+    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">V.Call SMS 서비스가 곧 중단됩니다</string>
     <!-- Phase 2 message describing that sms is going away soon -->
-    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">Signal 메시지는 종단 간 암호화와 강력한 개인정보 보호를 제공하지만 SMS 메시지는 그렇지 못합니다. 따라서 Signal은 당사 메시지 환경을 개선하기 위해 SMS 메시지 발송에 대한 지원을 곧 중단합니다.</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">V.Call 메시지는 종단 간 암호화와 강력한 개인정보 보호를 제공하지만 SMS 메시지는 그렇지 못합니다. 따라서 Signal은 당사 메시지 환경을 개선하기 위해 SMS 메시지 발송에 대한 지원을 곧 중단합니다.</string>
     <!-- Phase 3 message describing that sms has gone away -->
-    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">Signal 메시지는 종단 간 암호화와 강력한 개인정보보호를 제공하지만 SMS 메시지는 그렇지 못합니다. 따라서 Signal은 당사 메시지 환경을 개선하기 위해 SMS 메시지 발송에 대한 지원을 곧 중단합니다.</string>
+    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">V.Call 메시지는 종단 간 암호화와 강력한 개인정보보호를 제공하지만 SMS 메시지는 그렇지 못합니다. 따라서 Signal은 당사 메시지 환경을 개선하기 위해 SMS 메시지 발송에 대한 지원을 곧 중단합니다.</string>
     <!-- The text on a button in a popup that, when clicked, will take the user to a screen to export their SMS messages -->
     <string name="SmsExportMegaphoneActivity__export_sms">SMS 내보내기</string>
     <!-- The text on a button in a popup that, when clicked, will dismiss the popup and schedule the prompt to occur at a later time. -->
@@ -5670,7 +5670,7 @@
     <!-- Phase 1 Small megaphone title indicating sms is going away -->
     <string name="SmsExportMegaphone__sms_support_going_away">SMS 지원 중단 예정</string>
     <!-- Phase 1 small megaphone description indicating sms is going away -->
-    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">걱정 마세요, 암호화된 Signal 메시지는 계속 작동합니다.</string>
+    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">걱정 마세요, 암호화된 V.Call 메시지는 계속 작동합니다.</string>
     <!-- Phase 1 small megaphone button that takes the user to the sms export flow -->
     <string name="SmsExportMegaphone__continue">계속</string>
     <!-- Title for screen shown after sms export has completed -->
@@ -5765,7 +5765,7 @@
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">개인 정보는 비공개로 유지됩니다.</string>
     <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Signal은 기부할 때 사용자의 개인 정보를 수집하거나 저장하지 않습니다.</string>
     <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">Signal은 기부를 받을 때 Stripe를 결제 처리자로 사용합니다. Signal은 사용자가 Stripe에 제공하는 어떠한 정보에도 액세스하지 않으며, 이를 보관 또는 저장하지 않습니다.</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal은 사용자의 기부를 Signal 계정에 연결하거나 연결을 시도하지 않습니다.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal은 사용자의 기부를 V.Call 계정에 연결하거나 연결을 시도하지 않습니다.</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">지원해 주셔서 감사합니다!</string>
 
     <!-- GroupStoryEducationSheet -->
@@ -5796,9 +5796,9 @@
     <!-- Title for screen describing that sms support is going to be removed soon -->
     <string name="SmsRemoval_title_going_away">SMS 지원이 곧 중단됩니다.</string>
     <!-- Bullet point message shown on describing screen as first bullet why sms is being removed, placeholder with be date of removal (e.g., March 21st) -->
-    <string name="SmsRemoval_info_bullet_1">Signal 앱의 SMS 메시지에 대한 지원이 곧 중단됩니다.</string>
+    <string name="SmsRemoval_info_bullet_1">V.Call 앱의 SMS 메시지에 대한 지원이 곧 중단됩니다.</string>
     <!-- Bullet point message shown on describing screen as second bullet why sms is being removed -->
-    <string name="SmsRemoval_info_bullet_2">SMS 메시지는 Signal 메시지와 다릅니다. <b>이 결정은 암호화된 Signal 메시지에는 영향을 미치지 않으며, 이 기능은 계속해서 작동합니다.</b></string>
+    <string name="SmsRemoval_info_bullet_2">SMS 메시지는 V.Call 메시지와 다릅니다. <b>이 결정은 암호화된 V.Call 메시지에는 영향을 미치지 않으며, 이 기능은 계속해서 작동합니다.</b></string>
     <!-- Bullet point message shown on describing screen as third bullet why sms is being removed -->
     <string name="SmsRemoval_info_bullet_3">SMS 메시지를 내보내고 새로운 SMS 앱을 선택할 수 있습니다.</string>
     <!-- Bullet point message shown on describing screen as first bullet variant why sms is being removed when user is locked out of sms -->
@@ -5808,7 +5808,7 @@
 
     <!-- Set up your username megaphone -->
     <!-- Displayed as a title on a megaphone which prompts user to set up a username -->
-    <string name="SetUpYourUsername__set_up_your_signal_username">Signal 사용자 이름 설정</string>
+    <string name="SetUpYourUsername__set_up_your_signal_username">V.Call 사용자 이름 설정</string>
     <!-- Displayed as a description on a megaphone which prompts user to set up a username -->
     <string name="SetUpYourUsername__usernames_let_others">사용자 이름을 이용하면 다른 사람들이 내 전화번호가 없어도 나에게 메시지를 보낼 수 있습니다.</string>
     <!-- Displayed as an action on a megaphone which prompts user to set up a username -->
@@ -5834,7 +5834,7 @@
     <!-- Continue button which takes the user to the add a username screen -->
     <string name="UsernameEducationFragment__continue">계속</string>
     <!-- Displayed as a title on the username education screen -->
-    <string name="UsernameEducationFragment__set_up_your_signal_username">Signal 사용자 이름 설정</string>
+    <string name="UsernameEducationFragment__set_up_your_signal_username">V.Call 사용자 이름 설정</string>
     <!-- Displayed as body text in the username education screen -->
     <string name="UsernameEducationFragment__usernames_are_paired_with_a_set_of_digits">사용자 이름은 일련번호와 짝지어 사용되며 프로필에서 공유되지 않습니다.</string>
     <!-- Displayed as body text in the username education screen -->
@@ -5976,20 +5976,20 @@
     <!-- Call link creation item title on calls tab -->
     <string name="CreateCallLink__create_a_call_link">통화 링크 만들기</string>
     <!-- Call link creation item description on calls tab -->
-    <string name="CreateCallLink__share_a_link_for">Signal 통화 링크 공유</string>
+    <string name="CreateCallLink__share_a_link_for">V.Call 통화 링크 공유</string>
 
     <!-- CreateCallLinkBottomSheetDialogFragment -->
     <!-- Fragment title -->
     <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">통화 링크 만들기</string>
     <!-- Displayed as a default name for the signal call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Signal 통화</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">V.Call 통화</string>
     <!-- Displayed on a small button to allow user to instantly join call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__join">참가</string>
     <!-- Option to open a full screen dialog to enter a call name -->
     <string name="CreateCallLinkBottomSheetDialogFragment__add_call_name">통화 이름 추가</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">모든 멤버 승인</string>
-    <!-- Row label to share the link via Signal -->
+    <!-- Row label to share the link via V.Call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Signal을 통해 링크 공유</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">링크 복사</string>
@@ -6021,9 +6021,9 @@
     <!-- Title shown at top of bottom sheet dialog for displaying a message\'s edit history -->
     <string name="EditMessageHistoryDialog_title">수정 기록</string>
     <!-- Title of dialog shown alerting user that edit message is in beta only -->
-    <string name="SendingEditMessageBetaOnlyDialog_title">Signal 베타 전용</string>
+    <string name="SendingEditMessageBetaOnlyDialog_title">V.Call 베타 전용</string>
     <!-- Body of dialog shown alerting user that edit message is in beta only and only sent to beta users. -->
-    <string name="SendingEditMessageBetaOnlyDialog_body">메시지 수정은 Signal 베타 사용자만 사용할 수 있습니다. 메시지를 수정하면 Signal 베타 최신 버전을 사용하는 사용자에게만 표시됩니다.</string>
+    <string name="SendingEditMessageBetaOnlyDialog_body">메시지 수정은 V.Call 베타 사용자만 사용할 수 있습니다. 메시지를 수정하면 V.Call 베타 최신 버전을 사용하는 사용자에게만 표시됩니다.</string>
     <!-- Button to cancel sending edit message as it is beta only -->
     <string name="SendingEditMessageBetaOnlyDialog_cancel">취소</string>
     <!-- Button to continue sending edit message despite it being beta only -->

@@ -24,28 +24,28 @@
     <string name="save">Uložiť</string>
     <string name="note_to_self">Poznámka pre seba</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">Počasie</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">Poznámky</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">Správy</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">Vlny</string>
 
     <!-- AlbumThumbnailView -->
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Signal sa aktualizuje…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">V.Call sa aktualizuje…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Ešte ste si nenastavili heslo!</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">Vypnúť heslo?</string>
-    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Toto natrvalo odomkne Signal a upozornenia na správy.</string>
+    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Toto natrvalo odomkne V.Call a upozornenia na správy.</string>
     <string name="ApplicationPreferencesActivity_disable">Vypnúť</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Vypnúť Signal správy a hovory?</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Zakážte Signal správy a hovory zrušením registrácie zo serveru. Pre ich opätovné použitie budete musieť svoje telefónne číslo znovu zaregistrovať.</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Vypnúť V.Call správy a hovory?</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Zakážte V.Call správy a hovory zrušením registrácie zo serveru. Pre ich opätovné použitie budete musieť svoje telefónne číslo znovu zaregistrovať.</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Chyba pripojenia na server!</string>
     <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">PIN kódy sú vyžadované pre funkciu registračného zámku. Ak chcete vypnúť PIN kódy, najprv, prosím, vypnite funkciu registračného zámku.</string>
     <string name="ApplicationPreferencesActivity_pin_created">PIN kód sa vytvoril.</string>
@@ -81,15 +81,15 @@
     <string name="AttachmentKeyboard_file">Súbor</string>
     <string name="AttachmentKeyboard_contact">Kontakt</string>
     <string name="AttachmentKeyboard_location">Poloha</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Na zobrazenie vašich fotiek a videí k nim Signal potrebuje prístup.</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Na zobrazenie vašich fotiek a videí k nim V.Call potrebuje prístup.</string>
     <string name="AttachmentKeyboard_give_access">Udeliť prístup</string>
     <string name="AttachmentKeyboard_payment">Platba</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nenašla sa aplikácia pre výber médií.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal potrebuje prístup k úložisku aby k správam mohol pridať obrázkové, video a zvukové prílohy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Úložisko\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal potrebuje prístup ku kontaktom aby k správam mohol pripojiť informácie o kontakte, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Kontakty\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal potrebuje prístup k polohe aby k správam mohol pripojiť informácie o polohe, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Poloha\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">V.Call potrebuje prístup k úložisku aby k správam mohol pridať obrázkové, video a zvukové prílohy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Úložisko\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">V.Call potrebuje prístup ku kontaktom aby k správam mohol pripojiť informácie o kontakte, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Kontakty\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">V.Call potrebuje prístup k polohe aby k správam mohol pripojiť informácie o polohe, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Poloha\".</string>
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">Používateľ %1$s neaktivoval platby </string>
     <!-- Alert dialog description to send the recipient a request to activate payments -->
@@ -126,7 +126,7 @@
     <string name="CreditCardFragment__donation_amount_s_per_month">Výška príspevku: %1$s/mesiac</string>
     <!-- Explanation of how to fill in the form, displayed above the credit card text fields -->
     <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-    <string name="CreditCardFragment__enter_your_card_details">Zadajte údaje z platobnej karty. Signal nezhromažďuje ani neukladá vaše osobné údaje.</string>
+    <string name="CreditCardFragment__enter_your_card_details">Zadajte údaje z platobnej karty. V.Call nezhromažďuje ani neukladá vaše osobné údaje.</string>
     <!-- Displayed as a hint in the card number text field -->
     <string name="CreditCardFragment__card_number">Číslo karty</string>
     <!-- Displayed as a hint in the card expiry text field -->
@@ -158,16 +158,16 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">Od tejto skupiny už nebudete dostávať správy ani aktualizácie a členovia vás nebudú môcť znovu pridať.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">Členovia skupiny vás nebudú môcť znovu do tejto skupiny pridať.</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">Členovia skupiny vás budú môcť do tejto skupiny znovu pridať.</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a V.Call contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">Budete si môcť navzájom písať a volať a budú vidieť vaše meno a fotku.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">Budete si môcť navzájom posielať správy.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">Blokované osoby vám nebudú môcť volať ani posielať správy.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">Blokovaní ľudia vám nebudú môcť posielať správy.</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
-    <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Blokovať prijímanie aktualizácií a noviniek Signal.</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
-    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Pokračovať v získavaní aktualizácií a noviniek Signal.</string>
+    <!-- Message shown on block dialog when blocking the V.Call release notes recipient -->
+    <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Blokovať prijímanie aktualizácií a noviniek V.Call.</string>
+    <!-- Message shown on unblock dialog when unblocking the V.Call release notes recipient -->
+    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Pokračovať v získavaní aktualizácií a noviniek V.Call.</string>
     <string name="BlockUnblockDialog_unblock_s">Odblokovať %1$s?</string>
     <string name="BlockUnblockDialog_block">Blokovať</string>
     <string name="BlockUnblockDialog_block_and_leave">Blokovať a opustiť</string>
@@ -194,8 +194,8 @@
 
     <!-- CameraContacts -->
     <string name="CameraContacts_recent_contacts">Nedávne kontakty</string>
-    <string name="CameraContacts_signal_contacts">Kontakty Signal</string>
-    <string name="CameraContacts_signal_groups">Skupiny Signal</string>
+    <string name="CameraContacts_signal_contacts">Kontakty V.Call</string>
+    <string name="CameraContacts_signal_groups">Skupiny V.Call</string>
     <!-- A warning shown in a toast when  -->
     <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
         <item quantity="one">Môžete zdieľať s maximálne %1$d četom.</item>
@@ -203,18 +203,18 @@
         <item quantity="many">Môžete zdieľať s maximálne %1$d četom.</item>
         <item quantity="other">Môžete zdieľať s maximálne %1$d četmi.</item>
     </plurals>
-    <string name="CameraContacts_select_signal_recipients">Vybrať príjemcov Signal</string>
-    <string name="CameraContacts_no_signal_contacts">Žiadne kontakty Signal</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">Na odoslanie fotiek kontaktom Signal môžete použiť tlačidlo fotoaparátu. </string>
+    <string name="CameraContacts_select_signal_recipients">Vybrať príjemcov V.Call</string>
+    <string name="CameraContacts_no_signal_contacts">Žiadne kontakty V.Call</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">Na odoslanie fotiek kontaktom V.Call môžete použiť tlačidlo fotoaparátu. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">Nenašli ste hľadaný kontakt?</string>
-    <string name="CameraContacts_invite_a_contact_to_join_signal">Pozvite kontakt, aby použival Signal</string>
+    <string name="CameraContacts_invite_a_contact_to_join_signal">Pozvite kontakt, aby použival V.Call</string>
     <string name="CameraContacts__menu_search">Hľadať</string>
 
     <!-- Censorship Circumvention Megaphone -->
     <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">Vypnúť obchádzanie cenzúry?</string>
     <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Teraz sa môžete priamo pripojiť k službe Signal pre lepší zážitok.</string>
+    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Teraz sa môžete priamo pripojiť k službe V.Call pre lepší zážitok.</string>
     <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off">Vypnúť</string>
     <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -226,7 +226,7 @@
     <string name="ClearProfileActivity_remove_group_photo">Odstrániť fotku skupiny?</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Aktualizovať Signal</string>
+    <string name="ClientDeprecatedActivity_update_signal">Aktualizovať V.Call</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Táto verzia aplikácie už nie je podporovaná. Aby ste mohli ďalej posielať a prijímať správy, aktualizujte na najnovšiu verziu.</string>
     <string name="ClientDeprecatedActivity_update">Aktualizovať</string>
     <string name="ClientDeprecatedActivity_dont_update">Neaktualizovať</string>
@@ -267,7 +267,7 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Správa %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Signal Hovor %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">V.Call Hovor %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -300,7 +300,7 @@
     <string name="ConversationItem_click_to_approve_unencrypted">Odosielanie zlyhalo, ťuknutím pošlete nezabezpečenú správu</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Prepnúť na nezabezpečené SMS?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Prepnúť na nezabezpečené MMS?</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Táto správa <b>nebude</b> šifrovaná, pretože adresát už nepoužíva Signal.\n\nOdoslať nezabezpečenú SMS správu?</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Táto správa <b>nebude</b> šifrovaná, pretože adresát už nepoužíva V.Call.\n\nOdoslať nezabezpečenú SMS správu?</string>
     <string name="ConversationItem_unable_to_open_media">Nepodarilo sa nájst aplikáciu schopnú otvoriť tento typ súboru.</string>
     <string name="ConversationItem_copied_text">Skopírovaných %1$s</string>
     <string name="ConversationItem_from_s">od %1$s</string>
@@ -357,8 +357,8 @@
     <string name="ConversationActivity_transport_insecure_sms_with_sim">Nezabezpečená SMS (%1$s)</string>
     <string name="ConversationActivity_transport_insecure_mms">Nezabezpečená MMS</string>
     <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-    <string name="ConversationActivity_transport_signal">Signal správa</string>
-    <string name="ConversationActivity_lets_switch_to_signal">Prejdime na Signal %1$s</string>
+    <string name="ConversationActivity_transport_signal">V.Call správa</string>
+    <string name="ConversationActivity_lets_switch_to_signal">Prejdime na V.Call %1$s</string>
     <string name="ConversationActivity_specify_recipient">Prosím vyberte kontakt</string>
     <string name="ConversationActivity_unblock">Odblokovať</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Príloha presahuje limit veľkosti pre tento typ správy.</string>
@@ -373,18 +373,18 @@
     <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Vaša žiadosť o členstvo bola odoslaná administrátorovi skupiny. Keď na ňu zareaguje, dostanete oznámenie.</string>
     <string name="ConversationActivity_cancel_request">Zrušiť žiadosť</string>
 
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Pre posielanie zvukových správ potrebuje Signal prístup k mikrofónu.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal potrebuje prístup k mikrofónu aby mohol posielať zvukové správy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\".</string>
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal potrebuje prístup k mikrofónu a fotoaparátu aby mohol zavolať %1$s, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\" a \"Fotoaparát\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pre fotenie a nahrávanie videa potrebuje Signal prístup k fotoaparátu.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal potrebuje prístup k fotoaparátu aby mohol vytvárať fotografie a video, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal potrebuje prístup k Fotoaparátu, aby mohol vytvárať fotografie a videá</string>
+    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Pre posielanie zvukových správ potrebuje V.Call prístup k mikrofónu.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">V.Call potrebuje prístup k mikrofónu aby mohol posielať zvukové správy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\".</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">V.Call potrebuje prístup k mikrofónu a fotoaparátu aby mohol zavolať %1$s, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\" a \"Fotoaparát\".</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pre fotenie a nahrávanie videa potrebuje V.Call prístup k fotoaparátu.</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">V.Call potrebuje prístup k fotoaparátu aby mohol vytvárať fotografie a video, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">V.Call potrebuje prístup k Fotoaparátu, aby mohol vytvárať fotografie a videá</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Pre snímanie videí so zvukom povoľte prístup k mikrofónu.</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal potrebuje pre nahrávanie videí prístup k mikrofónu, no ten bol zamietnutý. Pokračujte, prosím, do nastavení aplikácie, vyberte „Povolenia“ a povoľte „Mikrofón“ a „Fotoaparát“.</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal potrebuje pre nahrávanie videí prístup k mikrofónu.</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">V.Call potrebuje pre nahrávanie videí prístup k mikrofónu, no ten bol zamietnutý. Pokračujte, prosím, do nastavení aplikácie, vyberte „Povolenia“ a povoľte „Mikrofón“ a „Fotoaparát“.</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">V.Call potrebuje pre nahrávanie videí prístup k mikrofónu.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal nemôže odosielať SMS/MMS, pretože nie je prednastavenou SMS aplikáciou. Chcete to zmeniť v nastaveniach Androidu?</string>
+    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">V.Call nemôže odosielať SMS/MMS, pretože nie je prednastavenou SMS aplikáciou. Chcete to zmeniť v nastaveniach Androidu?</string>
     <string name="ConversationActivity_yes">Áno</string>
     <string name="ConversationActivity_no">Nie</string>
     <string name="ConversationActivity_search_position">%1$d z %2$d</string>
@@ -400,7 +400,7 @@
     <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Opustíte túto skupinu a vymažete ju zo všetkých vašich zariadení.</string>
     <string name="ConversationActivity_delete">Vymazať</string>
     <string name="ConversationActivity_delete_and_leave">Vymazať a opustiť</string>
-    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Pre volanie %1$s potrebuje Signal prístup k vášmu mikrofónu</string>
+    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Pre volanie %1$s potrebuje V.Call prístup k vášmu mikrofónu</string>
 
 
     <string name="ConversationActivity_join">Pridať sa</string>
@@ -413,13 +413,13 @@
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
     <string name="ConversationActivity__sms_messaging_is_currently_disabled_you_can_export_your_messages_to_another_app_on_your_phone">Posielanie SMS správ je momentálne vypnuté. Svoje správy môžete exportovať do inej aplikácie v telefóne.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">Signal už nepodporuje odosielanie SMS správ. Svoje správy môžete exportovať do inej aplikácie v telefóne.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">V.Call už nepodporuje odosielanie SMS správ. Svoje správy môžete exportovať do inej aplikácie v telefóne.</string>
     <!-- Action button shown when in sms conversation, sms is disabled, and unexported sms messages are present -->
     <string name="ConversationActivity__export_sms_messages">Exportovať SMS správy</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">Posielanie SMS správ je momentálne vypnuté. Ak chcete pokračovať v konverzácii tu, pozvite používateľa %1$s, aby sa pripojil k Signalu.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Signal už nepodporuje odosielanie SMS správ. Ak chcete konverzáciu zachovať tu, pozvite používateľa %1$s, aby sa pripojil k Signalu.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">V.Call už nepodporuje odosielanie SMS správ. Ak chcete konverzáciu zachovať tu, pozvite používateľa %1$s, aby sa pripojil k Signalu.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__invite_to_signal">Pozvať do Signalu</string>
     <!-- Snackbar message shown after dismissing the full screen sms export megaphone indicating we\'ll do it again soon -->
@@ -489,7 +489,7 @@
     <string name="ConversationFragment_delete_on_this_device">Vymazať na tomto zariadení</string>
     <!-- Dialog button for deleting one or more note-to-self messages on all linked devices. -->
     <string name="ConversationFragment_delete_everywhere">Vymazať na všetkých zariadeniach</string>
-    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Táto správa sa vymaže pre každého v čete, kto používa aktuálnu verziu aplikácie Signal. Členovia budú vidieť, že ste vymazali správu.</string>
+    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Táto správa sa vymaže pre každého v čete, kto používa aktuálnu verziu aplikácie V.Call. Členovia budú vidieť, že ste vymazali správu.</string>
     <string name="ConversationFragment_quoted_message_not_found">Pôvodná správa sa nenašla</string>
     <string name="ConversationFragment_quoted_message_no_longer_available">Pôvodná správa už nie je k dispozícii</string>
     <string name="ConversationFragment_failed_to_open_message">Nepodarilo sa otvoriť správu</string>
@@ -501,12 +501,12 @@
     <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d členovia skupiny majú rovnaké meno.</string>
     <string name="ConversationFragment__tap_to_review">Ťuknite pre kontrolu</string>
     <string name="ConversationFragment__review_requests_carefully">Požiadavky pozorne overte</string>
-    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal našiel ďalší kontakt s rovnakým menom.</string>
+    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">V.Call našiel ďalší kontakt s rovnakým menom.</string>
     <string name="ConversationFragment_contact_us">Kontaktujte nás</string>
     <string name="ConversationFragment_verify">Overiť</string>
     <string name="ConversationFragment_not_now">Teraz nie</string>
     <string name="ConversationFragment_your_safety_number_with_s_changed">Vaše bezpečnostné číslo s %1$s sa zmenilo.</string>
-    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Vaše bezpečnostné číslo s %1$s sa zmenilo, zrejme preto, že si preinštalovali Signal alebo vymenili zariadenie. Ťuknite Overiť pre potvrdenie nového bezpečnostného čísla. Táto akcia je nepovinná.</string>
+    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Vaše bezpečnostné číslo s %1$s sa zmenilo, zrejme preto, že si preinštalovali V.Call alebo vymenili zariadenie. Ťuknite Overiť pre potvrdenie nového bezpečnostného čísla. Táto akcia je nepovinná.</string>
     <!-- Message shown to indicate which notification profile is on/active -->
     <string name="ConversationFragment__s_on">%1$s na</string>
     <!-- Dialog title for block group link join requests -->
@@ -520,13 +520,13 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Blokované</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Aktualizovať Signal</string>
+    <string name="ConversationFragment__update_build">Aktualizovať V.Call</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Znova zaregistrujte Signal</string>
+    <string name="ConversationFragment__reregister_signal">Znova zaregistrujte V.Call</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Prejsť späť.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Otvoriť Signal</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Otvoriť V.Call</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Kontakty už nie sú overené</string>
 
@@ -645,9 +645,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">Kto ma môže vyhľadať pomocou telefónneho čísla?</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has">Každému, kto má vo svojich kontaktoch vaše telefónne číslo, sa zobrazíte ako kontakt v aplikácii Signal. Ostatní používatelia vás budú môcť vyhľadať zadaním vášho čísla.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has">Každému, kto má vo svojich kontaktoch vaše telefónne číslo, sa zobrazíte ako kontakt v aplikácii V.Call. Ostatní používatelia vás budú môcť vyhľadať zadaním vášho čísla.</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_on_signal">Nikto v aplikácii Signal vás nebude môcť nájsť pomocou vášho telefónneho čísla.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_on_signal">Nikto v aplikácii V.Call vás nebude môcť nájsť pomocou vášho telefónneho čísla.</string>
 
     <!-- ChooseBackupFragment -->
     <string name="ChooseBackupFragment__restore_from_backup">Obnoviť zo zálohy?</string>
@@ -689,7 +689,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">Zatiaľ %1$d…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">Zatiaľ %1$s%% …</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal potrebuje prístup k úložisku aby mohol vytvárať zálohy, ale prístup bol natrvalo zakázaný. Prosím, v nastaveniach aplikácií zvoľte \"Oprávnenia\" a povoľte \"Úložisko\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">V.Call potrebuje prístup k úložisku aby mohol vytvárať zálohy, ale prístup bol natrvalo zakázaný. Prosím, v nastaveniach aplikácií zvoľte \"Oprávnenia\" a povoľte \"Úložisko\".</string>
 
 
     <!-- CustomDefaultPreference -->
@@ -756,7 +756,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Relácia četu bola obnovená</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal používa end-to-end šifrovanie a občas môže potrebovať obnoviť reláciu vášho četu. Nemá to vplyv na bezpečnosť vášho četu, ale mohla by vám uniknúť správa od tohto kontaktu a môžete používateľa požiadať, aby vám ju poslal znovu.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">V.Call používa end-to-end šifrovanie a občas môže potrebovať obnoviť reláciu vášho četu. Nemá to vplyv na bezpečnosť vášho četu, ale mohla by vám uniknúť správa od tohto kontaktu a môžete používateľa požiadať, aby vám ju poslal znovu.</string>
 
     <!-- DeviceListActivity -->
     <string name="DeviceListActivity_unlink_s">Odpojiť \"%1$s\"?</string>
@@ -794,8 +794,8 @@
     <string name="PendingGroupJoinRequestsReminder_view">Zobraziť</string>
 
     <!-- GcmRefreshJob -->
-    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Trvalá chyba komunikácie Signal!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal sa nebol schopný registrovať k službám Google Play. Signal správy a hovory boli vypnuté, prosím zaregistrujte sa opätovne cez Nastavenia &gt; Rozšírené.</string>
+    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Trvalá chyba komunikácie V.Call!</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">V.Call sa nebol schopný registrovať k službám Google Play. V.Call správy a hovory boli vypnuté, prosím zaregistrujte sa opätovne cez Nastavenia &gt; Rozšírené.</string>
 
 
     <!-- GiphyActivity -->
@@ -858,10 +858,10 @@
         <item quantity="other">Títo členovia musia znova prijať pozvánku do skupiny a kým ju neprijmú, nebudú dostávať skupinové správy:</item>
     </plurals>
     <plurals name="GroupsV1MigrationLearnMore_these_members_were_removed_from_the_group">
-        <item quantity="one">Tento člen bol odstránený zo skupiny a nebude sa môcť do nej znova pridať, pokým si Signal neaktualizuje:</item>
-        <item quantity="few">Títo členovia boli odstránení zo skupiny a nebudú sa môcť do nej znovu pridať, pokým si Signal neaktualizujú:</item>
-        <item quantity="many">Títo členovia boli odstránení zo skupiny a nebudú sa môcť do nej znovu pridať, pokým si Signal neaktualizujú:</item>
-        <item quantity="other">Títo členovia boli odstránení zo skupiny a nebudú sa môcť do nej znovu pridať, pokým si Signal neaktualizujú:</item>
+        <item quantity="one">Tento člen bol odstránený zo skupiny a nebude sa môcť do nej znova pridať, pokým si V.Call neaktualizuje:</item>
+        <item quantity="few">Títo členovia boli odstránení zo skupiny a nebudú sa môcť do nej znovu pridať, pokým si V.Call neaktualizujú:</item>
+        <item quantity="many">Títo členovia boli odstránení zo skupiny a nebudú sa môcť do nej znovu pridať, pokým si V.Call neaktualizujú:</item>
+        <item quantity="other">Títo členovia boli odstránení zo skupiny a nebudú sa môcť do nej znovu pridať, pokým si V.Call neaktualizujú:</item>
     </plurals>
 
     <!-- GroupsV1MigrationInitiationBottomSheetDialogFragment -->
@@ -944,7 +944,7 @@
     <string name="LinkPreviewView_this_group_link_is_not_active">Tento odkaz do skupiny nie je aktívny</string>
     <string name="LinkPreviewView_domain_date">%1$s . %2$s</string>
     <!-- Description for Call Link url previews -->
-    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">Na pripojenie k Signal hovoru použite tento odkaz</string>
+    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">Na pripojenie k V.Call hovoru použite tento odkaz</string>
 
     <!-- LinkPreviewRepository -->
     <plurals name="LinkPreviewRepository_d_members">
@@ -1013,9 +1013,9 @@
     <string name="AddGroupDetailsFragment__sms_contact">SMS kontakt</string>
     <string name="AddGroupDetailsFragment__remove_s_from_this_group">Odstrániť používateľa %1$s z tejto skupiny?</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Vybrali ste kontakt, ktorý nepodporuje Signal skupiny, táto skupina tak bude MMS. Vlastné názvy a fotky MMS skupiny budú viditeľné len vám.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Vybrali ste kontakt, ktorý nepodporuje V.Call skupiny, táto skupina tak bude MMS. Vlastné názvy a fotky MMS skupiny budú viditeľné len vám.</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Vybrali ste kontakt, ktorý nepodporuje Signal skupiny. Táto skupina bude preto zmenená na MMS skupinu. Vlastné názvy a fotky MMS skupín budú viditeľné len pre vás. Podpora MMS skupín bude čoskoro odstránená, aby sme sa mohli zamerať na šifrované správy.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Vybrali ste kontakt, ktorý nepodporuje V.Call skupiny. Táto skupina bude preto zmenená na MMS skupinu. Vlastné názvy a fotky MMS skupín budú viditeľné len pre vás. Podpora MMS skupín bude čoskoro odstránená, aby sme sa mohli zamerať na šifrované správy.</string>
 
     <!-- ManageGroupActivity -->
     <string name="ManageGroupActivity_who_can_add_new_members">Kto môže pridávať nových členov?</string>
@@ -1029,8 +1029,8 @@
     </plurals>
 
     <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Nemáte oprávnenia na vykonanie tejto akcie</string>
-    <string name="ManageGroupActivity_not_capable">Niekto, koho ste pridali, nepodporuje nové skupiny a potrebuje si aktualizovať Signal</string>
-    <string name="ManageGroupActivity_not_announcement_capable">Niekto, koho ste pridali, nepodporuje skupiny oznámení a potrebuje aktualizovať Signal</string>
+    <string name="ManageGroupActivity_not_capable">Niekto, koho ste pridali, nepodporuje nové skupiny a potrebuje si aktualizovať V.Call</string>
+    <string name="ManageGroupActivity_not_announcement_capable">Niekto, koho ste pridali, nepodporuje skupiny oznámení a potrebuje aktualizovať V.Call</string>
     <string name="ManageGroupActivity_failed_to_update_the_group">Nepodarilo sa aktualizovať skupinu</string>
     <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Nie ste členom tejto skupiny</string>
     <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Nepodarilo sa aktualizovať skupinu, prosím, skúste to neskôr</string>
@@ -1042,7 +1042,7 @@
     <string name="ManageGroupActivity_legacy_group_upgrade">Toto je Zastaraná skupina. Pre prístup k novým funkciám ako @spomenutia a administrátori</string>
     <string name="ManageGroupActivity_legacy_group_too_large">Táto Zastaraná skupina nemôže byť modernizovaná na Novú skupinu, lebo je príliš veľká. Maximálna veľkosť skupiny je %1$d.</string>
     <string name="ManageGroupActivity_upgrade_this_group">modernizujte túto skupinu.</string>
-    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Toto je nezabezpečená MMS skupina. Ak si chcete písať súkromne, pozvite svoje kontakty na Signal.</string>
+    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Toto je nezabezpečená MMS skupina. Ak si chcete písať súkromne, pozvite svoje kontakty na V.Call.</string>
     <string name="ManageGroupActivity_invite_now">Pozvať teraz</string>
     <string name="ManageGroupActivity_more">viac</string>
     <string name="ManageGroupActivity_add_group_description">Pridať popis skupiny…</string>
@@ -1159,9 +1159,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Pre používanie odkazov do skupín aktualizujte Signal.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Verzia aplikácie Signal, ktorú používate, nepodporuje pripojenie do skupín cez odkazy. Ak sa chcete pridať do tejto skupiny cez odkaz, aktualizujte na najnovšiu verziu.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Aktualizovať Signal</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Pre používanie odkazov do skupín aktualizujte V.Call.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Verzia aplikácie V.Call, ktorú používate, nepodporuje pripojenie do skupín cez odkazy. Ak sa chcete pridať do tejto skupiny cez odkaz, aktualizujte na najnovšiu verziu.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Aktualizovať V.Call</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Odkaz do skupiny nie je platný</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1192,8 +1192,8 @@
 
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Podržte pre nahratie audia, pustite pre odoslanie</string>
-    <!-- Message shown if the user tries to switch a conversation from Signal to SMS -->
-    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">Signal už nepodporuje odosielanie SMS správ.</string>
+    <!-- Message shown if the user tries to switch a conversation from V.Call to SMS -->
+    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">V.Call už nepodporuje odosielanie SMS správ.</string>
     <!-- When editing a message, label shown above the text input field in the composer -->
     <string name="InputPanel_edit_message">Upraviť správu</string>
 
@@ -1213,7 +1213,7 @@
         <item quantity="many">Odoslať %1$d SMS pozvánok?</item>
         <item quantity="other">Odoslať %1$d SMS pozvánok?</item>
     </plurals>
-    <string name="InviteActivity_lets_switch_to_signal">Prejdime na Signal: %1$s</string>
+    <string name="InviteActivity_lets_switch_to_signal">Prejdime na V.Call: %1$s</string>
     <string name="InviteActivity_no_app_to_share_to">Vyzerá to, že nemáte žiadne aplikácie kam by ste mohli zdieľať.</string>
 
     <!-- LearnMoreTextView -->
@@ -1295,7 +1295,7 @@
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">Pripomenúť neskôr</string>
-    <string name="Megaphones_verify_your_signal_pin">Overte svoj PIN pre Signal</string>
+    <string name="Megaphones_verify_your_signal_pin">Overte svoj PIN pre V.Call</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Občas vás požiadame o overenie PINu, aby ste ho nezabudli.</string>
     <string name="Megaphones_verify_pin">Overiť PIN</string>
     <string name="Megaphones_get_started">Začať</string>
@@ -1309,10 +1309,10 @@
     <string name="MessageQuotesBottomSheet_replies">Odpovede</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Príprava na Signal hovor</string>
+    <string name="NotificationBarManager__establishing_signal_call">Príprava na V.Call hovor</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Spúšťa sa služba Signal hovor</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Zastavenie služby Signal hovoru</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Spúšťa sa služba V.Call hovor</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Zastavenie služby V.Call hovoru</string>
     <string name="NotificationBarManager__decline_call">Odmietnuť hovor</string>
     <string name="NotificationBarManager__answer_call">Prijať hovor</string>
     <string name="NotificationBarManager__end_call">Ukončiť hovor</string>
@@ -1571,7 +1571,7 @@
     <string name="MessageRecord_a_message_from_s_couldnt_be_delivered">Správu od %1$s sa nepodarilo doručiť</string>
     <string name="MessageRecord_s_changed_their_phone_number">%1$s si zmenili svoje telefónne číslo.</string>
     <!-- Update item message shown in the release channel when someone is already a sustainer so we ask them if they want to boost. -->
-    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">Oslovila vás táto nová funkcia? Podporte Signal jednorazovým príspevkom.</string>
+    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">Oslovila vás táto nová funkcia? Podporte V.Call jednorazovým príspevkom.</string>
     <!-- Update item message shown when we merge two threads together. First placeholder is a name, second placeholder is a phone number. -->
     <string name="MessageRecord_your_message_history_with_s_and_their_number_s_has_been_merged">Vaša história správ s používateľom %1$s a jeho číslom %2$s bola zlúčená.</string>
     <!-- Update item message shown when we merge two threads together and we don\'t know the phone number of the other thread. The placeholder is a person\'s name. -->
@@ -1634,7 +1634,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">Povoliť používateľovi %1$s, aby vám posielal správy a zdieľať s ním vaše meno a fotku? Túto osobu ste v minulosti odstránili.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">Povoliť používateľovi %1$s, aby vám posielal správy a zdieľať s ním vaše meno a fotku? Kým s tým nebudete súhlasiť, nebude vedieť, že ste jeho správu videli.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a V.Call user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">Povoliť používateľovi %1$s, aby vám posielal správy a zdieľať s ním vaše meno a fotku? Kým ho neodblokujete, nepríjmete od neho žiadne správy.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">Chcete povoliť používateľovi %1$s, aby vám poslal správu? Kým ho neodblokujete, nepríjmete od neho žiadne správy.</string>
@@ -1701,9 +1701,9 @@
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Máte príliš veľa pripojených zariadení, skúste niektoré odpojiť</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Tento QR kód neslúži na pridanie zariadenia.</string>
     <string name="DeviceProvisioningActivity_link_a_signal_device">Pridať zariadenie so Signalom?</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Vyzerá to, že sa snažíte pripojiť zariadenie Signal cez skener tretej strany. Pre vašu bezpečnosť, prosím naskenujte kód znovu priamo zo Signalu.</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Vyzerá to, že sa snažíte pripojiť zariadenie V.Call cez skener tretej strany. Pre vašu bezpečnosť, prosím naskenujte kód znovu priamo zo Signalu.</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal potrebuje prístup k fotoaparátu aby mohol naskenovať QR kód, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">V.Call potrebuje prístup k fotoaparátu aby mohol naskenovať QR kód, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nedá sa naskenovať QR kód bez povolenia prístupu k fotoaparátu</string>
 
     <!-- OutdatedBuildReminder -->
@@ -1718,11 +1718,11 @@
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Zadajte heslo</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Signal ikona</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">V.Call ikona</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Odoslať heslo</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Nesprávne heslo!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Odomknúť Signal</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Zámok obrazovky</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Odomknúť V.Call</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">V.Call Android - Zámok obrazovky</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Mapa</string>
@@ -1749,26 +1749,26 @@
         <item quantity="many">Zostáva vám ešte %1$d pokusov. Ak počet pokusov vyčerpáte, môžete si vytvoriť nový PIN. Môžete sa zaregistrovať a používať svoj účet naďalej, ale stratíte niektoré uložené nastavenia, ako napríklad profilové informácie.</item>
         <item quantity="other">Zostáva vám ešte %1$d pokusov. Ak počet pokusov vyčerpáte, môžete si vytvoriť nový PIN. Môžete sa zaregistrovať a používať svoj účet naďalej, ale stratíte niektoré uložené nastavenia, ako napríklad profilové informácie.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal registrácia - potrebujem pomoct s PIN na Androide</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">V.Call registrácia - potrebujem pomoct s PIN na Androide</string>
     <!-- Button label to prompt the user to switch between an alphanumeric and numeric-only keyboards -->
     <string name="PinRestoreEntryFragment_switch_keyboard">Prepnúť klávesnicu</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">Vytvorte si PIN</string>
-    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Vyčerpali ste všetky pokusy na zadanie PIN, ale stále sa môžete k svojmu Signal účtu dosať vytvorením nového PIN. Kvôli ochrane vašeho súkromia a vašej bezpečnosti bude váš účet obnovený bez uložených profilových informácií alebo nastavení.</string>
+    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Vyčerpali ste všetky pokusy na zadanie PIN, ale stále sa môžete k svojmu V.Call účtu dosať vytvorením nového PIN. Kvôli ochrane vašeho súkromia a vašej bezpečnosti bude váš účet obnovený bez uložených profilových informácií alebo nastavení.</string>
     <string name="PinRestoreLockedFragment_create_new_pin">Vytvoriť nový PIN</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
 
     <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
     <string name="ReRegisterWithPinFragment_send_sms_code">Odoslať SMS kód</string>
     <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
-    <string name="ReRegisterWithPinFragment_support_email_subject">Signal registrácia – potrebujem pomoc s opätovnou registráciou PIN kódu pre Android</string>
+    <string name="ReRegisterWithPinFragment_support_email_subject">V.Call registrácia – potrebujem pomoc s opätovnou registráciou PIN kódu pre Android</string>
     <!-- Dialog message shown in reregister flow when tapping a informational button to to learn about pins or contact support for help -->
     <string name="ReRegisterWithPinFragment_need_help_local">Váš PIN kód je %1$d alebo viacmiestny kód, ktorý ste si vytvorili a môže pozostávať z číselných alebo alfanumerických znakov.\n\nAk si nepamätáte svoj PIN kód, môžete si vytvoriť nový.</string>
     <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
     <string name="ReRegisterWithPinFragment_skip_local">Ak si nepamätáte svoj PIN kód, môžete si vytvoriť nový.</string>
     <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-    <string name="ReRegisterWithPinFragment_out_of_guesses_local">Dosiahli ste maximálny počet neúspešných pokusov o zadanie PIN kódu, no ku svojmu Signal účtu budete mať prístup aj naďalej, ak si vytvoríte nový PIN kód.</string>
+    <string name="ReRegisterWithPinFragment_out_of_guesses_local">Dosiahli ste maximálny počet neúspešných pokusov o zadanie PIN kódu, no ku svojmu V.Call účtu budete mať prístup aj naďalej, ak si vytvoríte nový PIN kód.</string>
 
     <!-- PinOptOutDialog -->
     <string name="PinOptOutDialog_warning">Varovanie</string>
@@ -1793,7 +1793,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Pre pokračovanie v zasielaní správ overte</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Ak chcete zabrániť spamu v Signal, dokončite overenie.</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Ak chcete zabrániť spamu v V.Call, dokončite overenie.</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Po overení, môžete pokračovať v zasielaní správ. Pozastavené správy sa automaticky odošlú.</string>
 
     <!-- Recipient -->
@@ -1801,7 +1801,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Môj príbeh</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Signal hovor</string>
+    <string name="Recipient_signal_call">V.Call hovor</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Blokovať</string>
@@ -1826,8 +1826,8 @@
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Ťuknite sem pre spustenie videa</string>
-    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Pre volanie %1$s potrebuje Signal prístup k vašej kamere</string>
-    <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Pre volanie %1$s potrebuje V.Call prístup k vašej kamere</string>
+    <string name="WebRtcCallActivity__signal_s">V.Call %1$s</string>
     <string name="WebRtcCallActivity__calling">Uskutočňovanie hovoru…</string>
     <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">Skupina je príliš veľká na to, aby vyzváňala účastníkom.</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
@@ -1842,8 +1842,8 @@
     <string name="WebRtcCallActivity__not_now">Teraz nie</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Signal hovor</string>
-    <string name="WebRtcCallView__signal_video_call">Videohovor Signal</string>
+    <string name="WebRtcCallView__signal_call">V.Call hovor</string>
+    <string name="WebRtcCallView__signal_video_call">Videohovor V.Call</string>
     <string name="WebRtcCallView__start_call">Začať hovor</string>
     <string name="WebRtcCallView__join_call">Pripojiť sa k hovoru</string>
     <string name="WebRtcCallView__call_is_full">Hovor je plne obsadený</string>
@@ -1853,13 +1853,13 @@
     <string name="WebRtcCallView__joining">Pripája sa…</string>
     <string name="WebRtcCallView__disconnected">Odpojený</string>
 
-    <string name="WebRtcCallView__signal_will_ring_s">Signal zazvoní %1$s</string>
-    <string name="WebRtcCallView__signal_will_ring_s_and_s">Signal zazvoní %1$s a %2$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s">V.Call zazvoní %1$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s_and_s">V.Call zazvoní %1$s a %2$s</string>
     <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-        <item quantity="one">Signal zazvoní %1$s, %2$s a %3$d ďalšiemu</item>
-        <item quantity="few">Signal zazvoní %1$s, %2$s a %3$d ďalším</item>
-        <item quantity="many">Signal zazvoní %1$s, %2$s a %3$d ďalším</item>
-        <item quantity="other">Signal zazvoní %1$s, %2$s a %3$d ďalším</item>
+        <item quantity="one">V.Call zazvoní %1$s, %2$s a %3$d ďalšiemu</item>
+        <item quantity="few">V.Call zazvoní %1$s, %2$s a %3$d ďalším</item>
+        <item quantity="many">V.Call zazvoní %1$s, %2$s a %3$d ďalším</item>
+        <item quantity="other">V.Call zazvoní %1$s, %2$s a %3$d ďalším</item>
     </plurals>
 
     <string name="WebRtcCallView__s_will_be_notified">%1$s bude upozornený</string>
@@ -1977,13 +1977,13 @@
     <string name="RegistrationActivity_is_your_phone_number_above_correct">Je vaše telefónne číslo, uvedené vyššie, správne?</string>
     <string name="RegistrationActivity_edit_number">Úprav číslo</string>
     <string name="RegistrationActivity_missing_google_play_services">Chýba služba Google Play</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">V tomto zariadení chýba služba Google Play. Signal môžete používať aj tak, ale táto konfigurácia môže mať za následok nespoľahlivosť a nižší výkon.\n\nAk nie ste pokročilý užívateľ, nepoužívate neoficiálny ROM telefónu alebo si myslíte, že sa vám toto hlásenie nemalo zobrazovať, kontaktujte nás na support@signal.org pre vyriešenie problému.</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">V tomto zariadení chýba služba Google Play. V.Call môžete používať aj tak, ale táto konfigurácia môže mať za následok nespoľahlivosť a nižší výkon.\n\nAk nie ste pokročilý užívateľ, nepoužívate neoficiálny ROM telefónu alebo si myslíte, že sa vám toto hlásenie nemalo zobrazovať, kontaktujte nás na support@signal.org pre vyriešenie problému.</string>
     <string name="RegistrationActivity_i_understand">Rozumiem</string>
     <string name="RegistrationActivity_play_services_error">Chyba služby Google Play</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Služba Google Play sa aktualizuje, alebo je dočasne nedostupná. Prosím, skúste to znova.</string>
     <string name="RegistrationActivity_terms_and_privacy">Podmienky a Zásady ochrany osobných údajov</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal potrebuje povolenia na kontakty a médiá, aby vám pomohol spojiť sa s priateľmi a odosielať správy. Vaše kontakty sa nahrávajú pomocou zisťovania súkromných kontaktov Signal, čo znamená, že sú šifrované end-to-end a nikdy ich služba Signal nevidí.</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal potrebuje povolenie kontaktov, aby vám pomohol spojiť sa s priateľmi. Vaše kontakty sa nahrávajú pomocou zisťovania súkromných kontaktov Signal, čo znamená, že sú šifrované end-to-end a nikdy ich služba Signal nevidí.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">V.Call potrebuje povolenia na kontakty a médiá, aby vám pomohol spojiť sa s priateľmi a odosielať správy. Vaše kontakty sa nahrávajú pomocou zisťovania súkromných kontaktov V.Call, čo znamená, že sú šifrované end-to-end a nikdy ich služba V.Call nevidí.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">V.Call potrebuje povolenie kontaktov, aby vám pomohol spojiť sa s priateľmi. Vaše kontakty sa nahrávajú pomocou zisťovania súkromných kontaktov V.Call, čo znamená, že sú šifrované end-to-end a nikdy ich služba V.Call nevidí.</string>
     <string name="RegistrationActivity_rate_limited_to_service">Urobili ste príliš veľa pokusov o zaregistrovanie tohto čísla. Prosím, skúste to znovu neskôr.</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">Urobili ste príliš veľa pokusov o zaregistrovanie tohto čísla. Skúste to znova o %1$s.</string>
@@ -1996,7 +1996,7 @@
     <string name="RegistrationActivity_unable_to_request_verification_code">Nie je možné požiadať o overovací kód. Skontrolujte pripojenie k sieti a skúste to znova.</string>
     <string name="RegistrationActivity_non_standard_number_format">Neštandardný formát čísla</string>
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">Zdá sa, že zadané číslo (%1$s) má neštandardný formát.\n\n Mali ste na mysli %2$s?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Signal Android - Formát telefónneho čísla</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">V.Call Android - Formát telefónneho čísla</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">Hovor požadovaný</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -2011,7 +2011,7 @@
     </plurals>
     <string name="RegistrationActivity_we_need_to_verify_that_youre_human">Potrebujeme si overiť, že ste človek.</string>
     <!-- An error shown when the request was valid, but due to an issue with a partner vendor, the server is unable to send an SMS code -->
-    <string name="RegistrationActivity_external_service_error">Signal nemohol odoslať SMS kód z dôvodu externého zlyhania.</string>
+    <string name="RegistrationActivity_external_service_error">V.Call nemohol odoslať SMS kód z dôvodu externého zlyhania.</string>
     <!-- Button label to trigger a phone call to provide the registration code, in lieu of an SMS code -->
     <string name="RegistrationActivity_voice_call">Hlasový hovor</string>
     <!-- Dialog button to cancel the pending action and return to the previous state. -->
@@ -2073,18 +2073,18 @@
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">Pridať medzi kontakty</string>
     <string name="SharedContactDetailsActivity_invite_to_signal">Pozvať do Signalu</string>
-    <string name="SharedContactDetailsActivity_signal_message">Signal správa</string>
-    <string name="SharedContactDetailsActivity_signal_call">Signal hovor</string>
+    <string name="SharedContactDetailsActivity_signal_message">V.Call správa</string>
+    <string name="SharedContactDetailsActivity_signal_call">V.Call hovor</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Pridať medzi kontakty</string>
     <string name="SharedContactView_invite_to_signal">Pozvať do Signalu</string>
-    <string name="SharedContactView_message">Signal správa</string>
+    <string name="SharedContactView_message">V.Call správa</string>
 
-    <!-- SignalBottomActionBar -->
+    <!-- V.CallBottomActionBar -->
     <string name="SignalBottomActionBar_more">Viac</string>
 
-    <!-- SignalPinReminders -->
+    <!-- V.CallPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">PIN bol úspešne overený. Pripomenieme vám ho neskôr.</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">PIN bol úspešne overený. Zajtra vám ho opäť pripomenieme.</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">PIN bol úspešne overený. O pár dní vám ho opäť pripomenieme.</string>
@@ -2155,7 +2155,7 @@
     <string name="SupportEmailUtil_device_info">Info o zariadení:</string>
     <string name="SupportEmailUtil_android_version">Verzia Androidu:</string>
     <string name="SupportEmailUtil_signal_version">Verzia Signalu:</string>
-    <string name="SupportEmailUtil_signal_package">Signal balíček:</string>
+    <string name="SupportEmailUtil_signal_package">V.Call balíček:</string>
     <string name="SupportEmailUtil_registration_lock">Registračný zámok:</string>
     <string name="SupportEmailUtil_locale">Miestne nastavenia:</string>
 
@@ -2253,10 +2253,10 @@
     <string name="UsernameEditFragment__done">Hotovo</string>
 
     <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-        <item quantity="one">%1$d váš kontakt začal používať Signal!</item>
-        <item quantity="few">%1$d vaše kontakty začali používať Signal!</item>
-        <item quantity="many">%1$d vašich kontaktov začalo používať Signal!</item>
-        <item quantity="other">%1$d vašich kontaktov začalo používať Signal!</item>
+        <item quantity="one">%1$d váš kontakt začal používať V.Call!</item>
+        <item quantity="few">%1$d vaše kontakty začali používať V.Call!</item>
+        <item quantity="many">%1$d vašich kontaktov začalo používať V.Call!</item>
+        <item quantity="other">%1$d vašich kontaktov začalo používať V.Call!</item>
     </plurals>
 
     <!-- UsernameShareBottomSheet -->
@@ -2268,10 +2268,10 @@
     <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Váš kontakt používa novšiu verziu Signalu, nekompatibilnú s formátom QR kódu. Prosím aktualizujte pre porovnanie.</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Naskenovaný QR kód nie je správne formátovaný verifikačný kód bezpečnostného čísla. Prosím skúste ho naskenovať znova.</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">Zdielať bezpečnostné číslo cez…</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">Naše Signal bezpečnostné číslo:</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">Naše V.Call bezpečnostné číslo:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Vyzerá to, že nemáte žiadne aplikácie kam by sa dalo zdieľať.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">V schránke sa nenašlo žiadne bezpečnostné číslo pre porovnanie</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal potrebuje prístup k fotoaparátu aby mohol naskenovať QR kód, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">V.Call potrebuje prístup k fotoaparátu aby mohol naskenovať QR kód, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Nedá sa naskenovať QR kód bez povolenia prístupu k fotoaparátu</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Než uvidíte bezpečnostné číslo používateľa %1$s, musíte si najprv poslať správu.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -2307,14 +2307,14 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Dotykom otvor.</string>
-    <string name="KeyCachingService_passphrase_cached">Signal je odomknutý</string>
-    <string name="KeyCachingService_lock">Zamknúť Signal</string>
+    <string name="KeyCachingService_passphrase_cached">V.Call je odomknutý</string>
+    <string name="KeyCachingService_lock">Zamknúť V.Call</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Vy</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Nepodporovaný typ súboru</string>
     <string name="MediaPreviewActivity_draft">Koncept</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal potrebuje prístup k úložisku aby mohol ukladať dáta na externé úložisko, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Úložisko\".</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">V.Call potrebuje prístup k úložisku aby mohol ukladať dáta na externé úložisko, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Úložisko\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bez povolenia sa nedá zapisovať na externé úložisko</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Vymazať správu?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Týmto natrvalo odstránite túto správu.</string>
@@ -2363,14 +2363,14 @@
     <string name="MessageNotifier_failed_to_deliver_message">Správu sa nepodarilo doručiť.</string>
     <string name="MessageNotifier_error_delivering_message">Chyba doručovania správy.</string>
     <string name="MessageNotifier_message_delivery_paused">Doručenie správy bolo pozastavené.</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Pre pokračovanie v zasielaní správ overte v Signal.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Pre pokračovanie v zasielaní správ overte v V.Call.</string>
     <string name="MessageNotifier_mark_all_as_read">Označiť všetko ako prečítané</string>
     <string name="MessageNotifier_mark_read">Označiť ako prečítané</string>
     <string name="MessageNotifier_turn_off_these_notifications">Vypnúť tieto upozornenia</string>
     <string name="MessageNotifier_view_once_photo">Fotka na jedno zobrazenie</string>
     <string name="MessageNotifier_view_once_video">Video na jedno zobrazenie</string>
     <string name="MessageNotifier_reply">Odpovedať</string>
-    <string name="MessageNotifier_signal_message">Signal správa</string>
+    <string name="MessageNotifier_signal_message">V.Call správa</string>
     <string name="MessageNotifier_unsecured_sms">Nezabezpečená SMS</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
@@ -2386,7 +2386,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">Reagoval/a %1$s na vašu nálepku.</string>
     <string name="MessageNotifier_this_message_was_deleted">Táto správa bola vymazaná.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Vypnúť upozornenia na to, že kontakt začal používať Signal? Môžete ich znova zapnúť v Signal &gt; Nastavenia &gt; Upozornenia.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Vypnúť upozornenia na to, že kontakt začal používať V.Call? Môžete ich znova zapnúť v V.Call &gt; Nastavenia &gt; Upozornenia.</string>
 
     <!-- Notification Channels -->
     <string name="NotificationChannel_channel_messages">Správy</string>
@@ -2399,7 +2399,7 @@
     <string name="NotificationChannel_group_chats">Čety</string>
     <string name="NotificationChannel_missing_display_name">Neznáma</string>
     <string name="NotificationChannel_voice_notes">Hlasové poznámky</string>
-    <string name="NotificationChannel_contact_joined_signal">Váš kontakt začal používať Signal</string>
+    <string name="NotificationChannel_contact_joined_signal">Váš kontakt začal používať V.Call</string>
     <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Na otvorenie nastavení kanála upozornení nie je k dispozícii žiadna aktivita.</string>
     <!-- Notification channel name for showing persistent background connection on devices without push notifications -->
     <string name="NotificationChannel_background_connection">Pripojenie na pozadí</string>
@@ -2413,7 +2413,7 @@
     <!-- ProfileEditNameFragment -->
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rýchla odpoveď nie je dostupná, keď je Signal zamknutý!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rýchla odpoveď nie je dostupná, keď je V.Call zamknutý!</string>
     <string name="QuickResponseService_problem_sending_message">Problém pri odosielaní správy!</string>
 
     <!-- A small toast notification to let the user know their image/video/audio was downloaded and saved to their device, accessible in other apps. -->
@@ -2460,18 +2460,18 @@
     <string name="UnauthorizedReminder_reregister_action">Znova zaregistrujte zariadenie</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">Na tomto zariadení ste boli odhlásení zo služby Signal.</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">Na tomto zariadení ste boli odhlásení zo služby V.Call.</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">Aktualizujte Signal, aby ste mohli naďalej používať platby. Je možné, že váš zostatok nie je aktuálny.</string>
+    <string name="EnclaveFailureReminder_update_signal">Aktualizujte V.Call, aby ste mohli naďalej používať platby. Je možné, že váš zostatok nie je aktuálny.</string>
     <!-- Banner button to update now -->
 
     <!-- WebRtcCallActivity -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Ak chcete prijať hovor, poskytnite Signal prístup k mikrofónu.</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Ak chcete prijať hovor, poskytnite V.Call prístup k mikrofónu.</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">Ak chcete prijať videohovor, poskytnite Signalu prístup k mikrofónu a kamere.</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal potrebuje prístup k mikrofónu a fotoaparátu aby mohol volať alebo prijímať hovory, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\" a \"Fotoaparát\".</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">V.Call potrebuje prístup k mikrofónu a fotoaparátu aby mohol volať alebo prijímať hovory, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\" a \"Fotoaparát\".</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Prijaté na pripojenom zariadení.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">Odmietnuté na pripojenom zariadení.</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">Zaneprázdnené na pripojenom zariadení.</string>
@@ -2536,15 +2536,15 @@
     <string name="SingleContactSelectionActivity_contact_photo">Fotka kontaktu</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal potrebuje prístup ku kontaktom aby mohol zobraziť Vaše kontakty, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Kontakty\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">V.Call potrebuje prístup ku kontaktom aby mohol zobraziť Vaše kontakty, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Kontakty\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Nepodarilo sa načítať kontakty. Skontrolujte svoje sieťové pripojenie</string>
     <string name="ContactSelectionListFragment_username_not_found">Používateľské meno sa nenašlo</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"„%1$s“ nie je používateľ Signalu. Skontrolujte používateľské meno a skúste znova."</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Nie je potrebné pridávať samého seba do skupiny</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">Dosiahnutá maximálna veľkosť skupiny</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal skupiny môžu mať maximálne %1$d členov.</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">V.Call skupiny môžu mať maximálne %1$d členov.</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">Dosiahli ste odporúčaný limit počtu členov</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal skupiny najlepšie fungujú s %1$d členmi alebo menej. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">V.Call skupiny najlepšie fungujú s %1$d členmi alebo menej. Pridanie ďalších členov spôsobí oneskorenia v posielaní a prijímaní správ.</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="one">%1$d člen</item>
         <item quantity="few">%1$d členovia</item>
@@ -2553,7 +2553,7 @@
     </plurals>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal potrebuje prístup k Vašim kontaktom, aby ich mohol zobraziť.</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">V.Call potrebuje prístup k Vašim kontaktom, aby ich mohol zobraziť.</string>
     <string name="contact_selection_list_fragment__show_contacts">Ukázať Kontakty</string>
 
     <!-- contact_selection_list_item -->
@@ -2572,7 +2572,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">Signal správa</string>
+    <string name="conversation_activity__type_message_push">V.Call správa</string>
     <string name="conversation_activity__type_message_sms_insecure">Nezabezpečená SMS</string>
     <string name="conversation_activity__type_message_mms_insecure">Nezabezpečená MMS</string>
     <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -2586,7 +2586,7 @@
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Prepnúť na rýchlu prílohu fotoaparátom</string>
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Nahrať a odoslať zvukovú prílohu</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Zamknúť nahrávanie zvukovej prílohy</string>
-    <string name="conversation_activity__enable_signal_for_sms">Zapnúť Signal pre SMS</string>
+    <string name="conversation_activity__enable_signal_for_sms">Zapnúť V.Call pre SMS</string>
     <string name="conversation_activity__message_could_not_be_sent">Nepodarilo sa odoslať správu. Skontrolujte svoje pripojenie na internet a skúste znovu.</string>
 
     <!-- conversation_input_panel -->
@@ -2667,7 +2667,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">Bubliny sú funkciou systému Android, ktorú môžete vypnúť pre Signal čety.</string>
+    <string name="BubbleOptOutTooltip__description">Bubliny sú funkciou systému Android, ktorú môžete vypnúť pre V.Call čety.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Teraz nie</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -2766,9 +2766,9 @@
     <string name="IdentityUtil_unverified_banner_two">Vaše bezpečnostné čísla s %1$s a %2$s už nie sú overené</string>
     <string name="IdentityUtil_unverified_banner_many">Vaše bezpečnostné čísla s %1$s, %2$s, a %3$s už nie sú overené</string>
 
-    <string name="IdentityUtil_unverified_dialog_one">Vaše bezpečnostné číslo s %1$s sa zmenilo a nie je už overené. Môže to znamenať, že sa niekto snaží preniknúť do vašej komunikácie alebo jednoducho, že %1$s si preinštaloval/a Signal.</string>
-    <string name="IdentityUtil_unverified_dialog_two">Vaše bezpečnostné čísla s %1$s a %2$s už nie sú overené. Môže to znamenať, že sa niekto snaží preniknúť do vašej komunikácie alebo jednoducho, že si preinštalovali Signal.</string>
-    <string name="IdentityUtil_unverified_dialog_many">Vaše bezpečnostné čísla s %1$s, %2$s a %3$s už nie sú overené. Môže to znamenať, že sa niekto snaží preniknúť do vašej komunikácie alebo jednoducho, že si preinštalovali Signal.</string>
+    <string name="IdentityUtil_unverified_dialog_one">Vaše bezpečnostné číslo s %1$s sa zmenilo a nie je už overené. Môže to znamenať, že sa niekto snaží preniknúť do vašej komunikácie alebo jednoducho, že %1$s si preinštaloval/a V.Call.</string>
+    <string name="IdentityUtil_unverified_dialog_two">Vaše bezpečnostné čísla s %1$s a %2$s už nie sú overené. Môže to znamenať, že sa niekto snaží preniknúť do vašej komunikácie alebo jednoducho, že si preinštalovali V.Call.</string>
+    <string name="IdentityUtil_unverified_dialog_many">Vaše bezpečnostné čísla s %1$s, %2$s a %3$s už nie sú overené. Môže to znamenať, že sa niekto snaží preniknúť do vašej komunikácie alebo jednoducho, že si preinštalovali V.Call.</string>
 
     <string name="IdentityUtil_untrusted_dialog_one">Vaše bezpečnostné číslo s %1$s sa zmenilo.</string>
     <string name="IdentityUtil_untrusted_dialog_two">Vaše bezpečnostné čísla s %1$s a %2$s sa zmenili.</string>
@@ -2825,7 +2825,7 @@
     <string name="prompt_passphrase_activity__unlock">Odomknúť</string>
 
     <!-- prompt_mms_activity -->
-    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal vyžaduje nastavenia MMS na doručenie médií a skupinových správ cez vášho poskytovateľa pripojenia. Vaše zariadenie neposkytuje tieto informácie, čo občas spôsobujú uzamknuté zariadenia alebo iné obmedzenia v nastaveniach.</string>
+    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">V.Call vyžaduje nastavenia MMS na doručenie médií a skupinových správ cez vášho poskytovateľa pripojenia. Vaše zariadenie neposkytuje tieto informácie, čo občas spôsobujú uzamknuté zariadenia alebo iné obmedzenia v nastaveniach.</string>
     <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Pre odoslanie médií a skupinových správ stlačte OK, a dokončite príslušné nastavenia. MMS nastavenia vášho poskytovateľa sa väčšinov dajú nájsť vyhľadaním \"váš poskytovateľ APN\". Toto nastavenie musíte urobiť len raz.</string>
 
     <!-- BadDecryptLearnMoreDialog -->
@@ -2886,7 +2886,7 @@
     <!-- Title for dialog explaining for how safety numbers are transitioning to support usernames -->
     <string name="PnpSafetyNumberEducationDialog__title">Zmeny v bezpečnostných číslach</string>
     <!-- Message for dialog explaining for how safety numbers are transitioning to support usernames -->
-    <string name="PnpSafetyNumberEducationDialog__body">Aktualizácia bezpečnostných čísel bude prebiehať v prechodnej fáze, čo umožní zavedenie nových funkcií súkromia pre Signal.\n\nAk chcete overiť bezpečnostné čísla, porovnajte farebnú kartu so zariadením vášho kontaktu. Ak sa nezhodujú, swajpnite a skúste ďalší pár bezpečnostných čísel. Musí sa zhodovať iba jeden pár.</string>
+    <string name="PnpSafetyNumberEducationDialog__body">Aktualizácia bezpečnostných čísel bude prebiehať v prechodnej fáze, čo umožní zavedenie nových funkcií súkromia pre V.Call.\n\nAk chcete overiť bezpečnostné čísla, porovnajte farebnú kartu so zariadením vášho kontaktu. Ak sa nezhodujú, swajpnite a skúste ďalší pár bezpečnostných čísel. Musí sa zhodovať iba jeden pár.</string>
     <!-- Button for more information about the safety number changes. Takes user to support article -->
     <string name="PnpSafetyNumberEducationDialog__help">Potrebujete pomôcť?</string>
     <!-- Confirmation button for educating users about new safety number changes -->
@@ -2954,7 +2954,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">Podporné informácie</string>
-    <string name="HelpFragment__signal_android_support_request">Žiadosť o podporu pre Signal Android</string>
+    <string name="HelpFragment__signal_android_support_request">Žiadosť o podporu pre V.Call Android</string>
     <string name="HelpFragment__debug_log">Denník ladenia:</string>
     <string name="HelpFragment__could_not_upload_logs">Nepodarilo sa nahrať denníky</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Prosíme, čo najpodrobnejšie popíšte situáciu a pomôžte nám tak porozumieť vášmu problému.</string>
@@ -3040,7 +3040,7 @@
     <string name="preferences__enable_passphrase">Chrániť obrazovku heslom</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Uzamknúť obrazovku a upozornenia pomocou hesla</string>
     <string name="preferences__screen_security">Zabezpečenie obrazovky</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automaticky zamknúť Signal po určenej dobe bez aktivity</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automaticky zamknúť V.Call po určenej dobe bez aktivity</string>
     <string name="preferences__inactivity_timeout_passphrase">Heslo po neaktivite</string>
     <string name="preferences__inactivity_timeout_interval">Interval doby bez aktivity</string>
     <string name="preferences__notifications">Upozornenia</string>
@@ -3073,8 +3073,8 @@
     <string name="preferences__slow">Pomaly</string>
     <string name="preferences__help">Pomocník</string>
     <string name="preferences__advanced">Rozšírené</string>
-    <string name="preferences__donate_to_signal">Prispieť na Signal</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <string name="preferences__donate_to_signal">Prispieť na V.Call</string>
+    <!-- Preference label for making one-time donations to V.Call -->
     <string name="preferences__privacy">Súkromie</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Príbehy</string>
@@ -3111,7 +3111,7 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">Zmeniť ikonu a názov aplikácie na „%1$s“</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">Ak chcete zmeniť ikonu a názov aplikácie, je potrebné zatvoriť Signal. Upozornenia budú vždy zobrazovať predvolenú ikonu a názov Signalu.</string>
+    <string name="preferences__app_icon_dialog_description">Ak chcete zmeniť ikonu a názov aplikácie, je potrebné zatvoriť V.Call. Upozornenia budú vždy zobrazovať predvolenú ikonu a názov Signalu.</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
     <string name="preferences__app_icon_warning_learn_more">Vyberte ikonu a názov aplikácie, ktoré sa budú zobrazovať na domovskej obrazovke telefónu a v zozname aplikácií. Upozornenia budú vždy zobrazovať predvolenú ikonu a názov Signalu. Zistiť viac</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
@@ -3130,7 +3130,7 @@
     <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN kódy udržiavajú informácie uložené v Signale zašifrované, aby ste k nim mali prístup iba vy. Váš profil, vaše nastavenia a kontakty sa po opätovnej inštalácii obnovia. Na otvorenie aplikácie PIN potrebovať nebudete.</string>
     <string name="preferences__system_default">Predvolené nastavenie</string>
     <string name="preferences__language">Jazyk</string>
-    <string name="preferences__signal_messages_and_calls">Signal správy a hovory</string>
+    <string name="preferences__signal_messages_and_calls">V.Call správy a hovory</string>
     <string name="preferences__advanced_pin_settings">Pokročilé nastavenia PIN kódu</string>
     <string name="preferences__free_private_messages_and_calls">Bezplatné zabezpečené správy a hovory medzi užívateľmi Signalu</string>
     <string name="preferences__submit_debug_log">Odoslať ladiaci záznam</string>
@@ -3178,7 +3178,7 @@
     <string name="preferences_storage__s_messages">%1$s správ</string>
     <string name="preferences_storage__custom">Vlastné</string>
     <string name="preferences_advanced__use_system_emoji">Použiť systémové emoji</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Smerovať všetky hovory cez server Signal pre zabránenie odhaleniu vašej IP adresy kontaktu. Zapnutie zníži kvalitu hovoru.</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Smerovať všetky hovory cez server V.Call pre zabránenie odhaleniu vašej IP adresy kontaktu. Zapnutie zníži kvalitu hovoru.</string>
     <string name="preferences_advanced__always_relay_calls">Vždy presmerovať hovory</string>
     <string name="preferences_app_protection__who_can">Kto môže…</string>
     <!-- Privacy settings payments section title -->
@@ -3199,13 +3199,13 @@
     <string name="preferences_communication__category_censorship_circumvention">Obchádzanie cenzúry</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Obchádzanie cenzúry</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Keď je povolené, Signal sa pokúsi obísť cenzúru. Nepovoľujte v umiestneniach, kde Signal nie je cenzurovaný.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Keď je povolené, V.Call sa pokúsi obísť cenzúru. Nepovoľujte v umiestneniach, kde V.Call nie je cenzurovaný.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Obchádzanie cenzúry bolo zapnuté na základe telefónneho čísla vašeho účtu.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">Obchádzanie cenzúry ste manuálne vypli.</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
-    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Obchádzanie cenzúry nie je nutné; už ste pripojený k službe Signal.</string>
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the V.Call service -->
+    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Obchádzanie cenzúry nie je nutné; už ste pripojený k službe V.Call.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">Obchádzanie cenzúry je možné zapnúť len s prístupom na internet.</string>
     <string name="preferences_communication__category_sealed_sender">Zapečatený odosielateľ</string>
@@ -3218,7 +3218,7 @@
     <string name="preferences_off">Vypnuté</string>
     <string name="preferences_on">Zapnuté</string>
     <string name="preferences_proxy_address">Proxy adresa</string>
-    <string name="preferences_only_use_a_proxy_if">Server proxy používajte iba v prípade, že sa nemôžete pripojiť k Signal cez mobilné dáta, alebo Wi-Fi.</string>
+    <string name="preferences_only_use_a_proxy_if">Server proxy používajte iba v prípade, že sa nemôžete pripojiť k V.Call cez mobilné dáta, alebo Wi-Fi.</string>
     <string name="preferences_share">Zdieľať</string>
     <string name="preferences_save">Uložiť</string>
     <string name="preferences_connecting_to_proxy">Pripája sa ku proxy…</string>
@@ -3278,7 +3278,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Platby nie sú k dispozícii vo vašej oblasti.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">Nepodarilo sa povoliť platby. Skúste to znova neskôr.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">Deaktivovať platby?</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Ak deaktivujete platby, nebudete môcť odosielať ani prijímať MobileCoin v Signal.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Ak deaktivujete platby, nebudete môcť odosielať ani prijímať MobileCoin v V.Call.</string>
     <string name="PaymentsHomeFragment__deactivate">Deaktivovať</string>
     <string name="PaymentsHomeFragment__continue">Pokračovať</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">Zostatok nie je momentálne k dispozícii.</string>
@@ -3286,10 +3286,10 @@
     <string name="PaymentsHomeFragment__payment_failed">Platba zlyhala</string>
     <string name="PaymentsHomeFragment__details">Podrobnosti</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate </string>
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Pomocou Signal môžete odosielať a prijímať MobileCoiny. Všetky platby podliehajú Podmienkam používania pre MobileCoins a MobileCoin Wallet. Toto je funkcia beta verzie, takže sa môžete stretnúť s určitými problémami a platby, alebo zostatky, ktoré môžete stratiť, nie je možné obnoviť. </string> -->
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Pomocou V.Call môžete odosielať a prijímať MobileCoiny. Všetky platby podliehajú Podmienkam používania pre MobileCoins a MobileCoin Wallet. Toto je funkcia beta verzie, takže sa môžete stretnúť s určitými problémami a platby, alebo zostatky, ktoré môžete stratiť, nie je možné obnoviť. </string> -->
     <string name="PaymentsHomeFragment__activate">Aktivovať</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">Zobraziť podmienky MobileCoin</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Platby v službe Signal už nie sú k dispozícii. Stále môžete prevádzať prostriedky na burzu, ale už nemôžete posielať a prijímať platby ani pridávať prostriedky.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Platby v službe V.Call už nie sú k dispozícii. Stále môžete prevádzať prostriedky na burzu, ale už nemôžete posielať a prijímať platby ani pridávať prostriedky.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -3370,10 +3370,10 @@
     <string name="PaymentsTransferFragment__next">Ďalší</string>
     <string name="PaymentsTransferFragment__invalid_address">Neplatná adresa</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Skontrolujte adresu peňaženky, do ktorej sa snažíte previesť peniaze, a skúste to znovu.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nemôžete vykonať prevod na adresu vašej Signal peňaženky. Zadajte adresu peňaženky z vášho účtu v podporovanej burze.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Na naskenovanie QR kódu potrebuje Signal prístup k fotoaparátu.</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Pre načítanie QR kódu potrebuje Signal prístup k Fotoaparátu. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Na naskenovanie QR kódu potrebuje Signal prístup k fotoaparátu.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nemôžete vykonať prevod na adresu vašej V.Call peňaženky. Zadajte adresu peňaženky z vášho účtu v podporovanej burze.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Na naskenovanie QR kódu potrebuje V.Call prístup k fotoaparátu.</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Pre načítanie QR kódu potrebuje V.Call prístup k Fotoaparátu. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Na naskenovanie QR kódu potrebuje V.Call prístup k fotoaparátu.</string>
     <string name="PaymentsTransferFragment__settings">Nastavenia</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -3456,8 +3456,8 @@
     <string name="conversation_callable_insecure__menu_call">Zavolať</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">Signal hovor</string>
-    <string name="conversation_callable_secure__menu_video">Videohovor Signal</string>
+    <string name="conversation_callable_secure__menu_call">V.Call hovor</string>
+    <string name="conversation_callable_secure__menu_video">Videohovor V.Call</string>
 
     <!-- conversation_context -->
 
@@ -3584,9 +3584,9 @@
     <!-- reminder_header -->
     <string name="reminder_header_sms_import_title">Importovať systémové SMS správy?</string>
     <string name="reminder_header_sms_import_text">Ťuknutím skopírujete SMS správy z vášho telefónu do šifrovanej databázy Signalu.</string>
-    <string name="reminder_header_push_title">Zapnúť Signal správy a hovory</string>
+    <string name="reminder_header_push_title">Zapnúť V.Call správy a hovory</string>
     <string name="reminder_header_push_text">Zlepšite svoj zážitok z komunikácie.</string>
-    <string name="reminder_header_service_outage_text">Signal má technické ťažkosti. Pracujeme na tom, aby sme čo najskôr obnovili našu službu.</string>
+    <string name="reminder_header_service_outage_text">V.Call má technické ťažkosti. Pracujeme na tom, aby sme čo najskôr obnovili našu službu.</string>
     <string name="reminder_header_progress">%1$d%%</string>
     <!-- Body text of a banner that will show at the top of the chat list when we temporarily cannot process the user\'s contacts -->
     <string name="reminder_cds_warning_body">Vyhľadávanie súkromných kontaktov v Signali dočasne nedokáže spracovať kontakty vo vašom telefóne.</string>
@@ -3614,7 +3614,7 @@
     <string name="Insights__title">Prehľady</string>
     <string name="InsightsDashboardFragment__title">Prehľady</string>
     <!-- Body text for a page describing how many signal messages you\'ve sent. The first placeholder represents the number of signal messages sent, and the second placeholder represents how many days have passed. -->
-    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal Protocol za posledné %2$d dni automaticky ochránil %1$d %% vašich odchádzajúcich správ. Čety medzi používateľmi Signal sú vždy vybavené end-to-end šifrovaním.</string>
+    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">V.Call Protocol za posledné %2$d dni automaticky ochránil %1$d %% vašich odchádzajúcich správ. Čety medzi používateľmi V.Call sú vždy vybavené end-to-end šifrovaním.</string>
     <string name="InsightsDashboardFragment__spread_the_word">Šíriť slovo</string>
     <string name="InsightsDashboardFragment__not_enough_data">Nedostatok údajov</string>
     <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Percentuálna hodnota vašich Prehľadov sa vypočítava na základe odchádzajúcich správ za posledných %1$d dní, ktoré nezmizli, ani neboli odstránené.</string>
@@ -3631,7 +3631,7 @@
 
     <string name="FirstInviteReminder__title">Pozvať do Signalu</string>
     <string name="FirstInviteReminder__description">Mohli ste zvýšiť počet šifrovaných správ, ktoré odosielate o %1$d%%</string>
-    <string name="SecondInviteReminder__title">Podporte svoj Signal</string>
+    <string name="SecondInviteReminder__title">Podporte svoj V.Call</string>
     <string name="SecondInviteReminder__description">Pozvať používateľa %1$s</string>
     <string name="InsightsReminder__view_insights">Zobraziť prehľady</string>
     <string name="InsightsReminder__invite">Pozvať</string>
@@ -3662,7 +3662,7 @@
     <string name="CreateKbsPinFragment__create_a_new_pin">Vytvoriť nový PIN</string>
     <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">PIN si môžete zmeniť, pokiaľ je toto zariadenie registrované.</string>
     <string name="CreateKbsPinFragment__create_your_pin">Vytvorte si PIN</string>
-    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN kódy vám pomôžu obnoviť váš účet a uchovať vaše údaje šifrované v aplikácii Signal. </string>
+    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN kódy vám pomôžu obnoviť váš účet a uchovať vaše údaje šifrované v aplikácii V.Call. </string>
     <string name="CreateKbsPinFragment__choose_a_stronger_pin">Zvoľte si silnejší PIN</string>
 
     <!-- ConfirmKbsPinFragment -->
@@ -3689,7 +3689,7 @@
     <string name="KbsSplashFragment__disable_pin">Vypnúť PIN</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">Zadajte váš PIN pre Signal</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">Zadajte váš PIN pre V.Call</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Aby sme vám pomohli zapamätať si váš PIN kód, budeme vás opakovanie žiadať o jeho zadanie. Postupom času vás o to budeme žiadať menej často.</string>
     <string name="KbsReminderDialog__skip">Preskočiť</string>
     <string name="KbsReminderDialog__submit">Potvrdiť</string>
@@ -3715,7 +3715,7 @@
     <string name="RegistrationLockFragment__incorrect_pin">Nesprávny PIN</string>
     <string name="RegistrationLockFragment__forgot_your_pin">Zabudli ste svoj PIN?</string>
     <string name="RegistrationLockFragment__not_many_tries_left">Ostáva už len zopár pokusov!</string>
-    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal registrácia - potrebujem pomôcť s PIN na Androide (v2 PIN)</string>
+    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">V.Call registrácia - potrebujem pomôcť s PIN na Androide (v2 PIN)</string>
 
     <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
         <item quantity="one">Kvôli vášmu súkromiu a bezpečnosti nie je možné PIN nijakým spôsobom obnoviť. Ak svoj PIN zabudnete, po %1$d dni neaktivity si budete môcť overiť svoj účet prostredníctvom SMS. V tom prípade bude váš účet zmazaný a celý jeho obsah sa odstráni.</item>
@@ -3761,25 +3761,25 @@
     <string name="KbsMegaphone__create_pin">Vytvoriť PIN</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Prichádzajúci Signal hlasový hovor</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Prichádzajúci Signal videohovor</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Prichádzajúci Signal skupinový hovor</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Prebieha Signal hlasový hovor</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Prebieha Signal videohovor</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Prebieha Signal skupinový hovor</string>
+    <!-- Displayed in a notification when a V.Call voice call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Prichádzajúci V.Call hlasový hovor</string>
+    <!-- Displayed in a notification when a V.Call video call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Prichádzajúci V.Call videohovor</string>
+    <!-- Displayed in a notification when a V.Call group call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Prichádzajúci V.Call skupinový hovor</string>
+    <!-- Displayed in a notification when a V.Call voice call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Prebieha V.Call hlasový hovor</string>
+    <!-- Displayed in a notification when a V.Call video call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Prebieha V.Call videohovor</string>
+    <!-- Displayed in a notification when a V.Call group call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Prebieha V.Call skupinový hovor</string>
 
     <!-- transport_selection_list_item -->
     <string name="transport_selection_list_item__transport_icon">Ikona prenosu</string>
     <string name="ConversationListFragment_loading">Načítava sa…</string>
     <string name="CallNotificationBuilder_connecting">Pripájanie…</string>
     <string name="Permissions_permission_required">Potrebné povolenie</string>
-    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal potrebuje prístup k SMS správam aby mohol posielať SMS správy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"SMS\".</string>
+    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">V.Call potrebuje prístup k SMS správam aby mohol posielať SMS správy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"SMS\".</string>
     <string name="Permissions_continue">Pokračovať</string>
     <string name="Permissions_not_now">Teraz nie</string>
     <string name="conversation_activity__enable_signal_messages">POVOLIŤ SIGNAL SPRÁVY</string>
@@ -3824,9 +3824,9 @@
     <string name="BackupDialog_verify">Overiť</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">Úspešne ste zadali svoje heslo pre zálohy</string>
     <string name="BackupDialog_passphrase_was_not_correct">Heslo nebolo správne</string>
-    <string name="LocalBackupJob_creating_signal_backup">Vytvára sa záloha Signal…</string>
+    <string name="LocalBackupJob_creating_signal_backup">Vytvára sa záloha V.Call…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Prebieha overovanie Signal zálohy…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Prebieha overovanie V.Call zálohy…</string>
     <string name="LocalBackupJobApi29_backup_failed">Zálohovanie zlyhalo</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">Váš priečinok na zálohy bol vymazaný alebo premiestnený.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">Súbor s vašou zálohou je príliš veľký na uloženie v tejto jednotke.</string>
@@ -3841,7 +3841,7 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Zavolajte mi (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Znova odoslať kód (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">Kontaktovať podporu Signal</string>
+    <string name="RegistrationActivity_contact_signal_support">Kontaktovať podporu V.Call</string>
     <string name="RegistrationActivity_code_support_subject">Registrácia v Signali – Overovací kód pre Android</string>
     <string name="RegistrationActivity_incorrect_code">Nesprávny kód</string>
     <string name="BackupUtil_never">Nikdy</string>
@@ -3851,31 +3851,31 @@
     <!-- Phone number heading displayed as a screen title -->
     <string name="preferences_app_protection__phone_number">Telefónne číslo</string>
     <!-- Subtext below option to launch into phone number privacy settings screen -->
-    <string name="preferences_app_protection__choose_who_can_see">Vyberte si, kto môže vidieť vaše telefónne číslo a kto vás môže pomocou neho kontaktovať v službe Signal.</string>
+    <string name="preferences_app_protection__choose_who_can_see">Vyberte si, kto môže vidieť vaše telefónne číslo a kto vás môže pomocou neho kontaktovať v službe V.Call.</string>
     <!-- Section title above two radio buttons for enabling and disabling phone number display -->
     <string name="PhoneNumberPrivacySettingsFragment__who_can_see_my_number">Kto môže vidieť moje telefónne číslo</string>
     <!-- Subtext below radio buttons when who can see my number is set to nobody -->
-    <string name="PhoneNumberPrivacySettingsFragment__nobody_will_see">Nikto neuvidí vaše telefónne číslo v službe Signal</string>
+    <string name="PhoneNumberPrivacySettingsFragment__nobody_will_see">Nikto neuvidí vaše telefónne číslo v službe V.Call</string>
     <!-- Section title above two radio buttons for enabling and disabling whether users can find me by my phone number  -->
     <string name="PhoneNumberPrivacySettingsFragment__who_can_find_me_by_number">Kto ma môže vyhľadať pomocou telefónneho čísla</string>
     <!-- Subtext below radio buttons when who can see my number is set to everyone -->
-    <string name="PhoneNumberPrivacySettingsFragment__your_phone_number">Vaše telefónne číslo sa zobrazí ľuďom a skupinám, ktorým pošlete správu. Ľudia, ktorí majú vaše telefónne číslo vo svojich kontaktoch, ho v službe Signal budú vidieť tiež.</string>
+    <string name="PhoneNumberPrivacySettingsFragment__your_phone_number">Vaše telefónne číslo sa zobrazí ľuďom a skupinám, ktorým pošlete správu. Ľudia, ktorí majú vaše telefónne číslo vo svojich kontaktoch, ho v službe V.Call budú vidieť tiež.</string>
     <string name="PhoneNumberPrivacy_everyone">Každý</string>
     <string name="PhoneNumberPrivacy_my_contacts">Moje kontakty</string>
     <string name="PhoneNumberPrivacy_nobody">Nikto</string>
     <string name="PhoneNumberPrivacy_everyone_see_description">Vaše telefónne číslo sa zobrazí ľuďom a skupinám, ktorým pošlete správu.</string>
-    <string name="PhoneNumberPrivacy_everyone_find_description">Každý, kto má vaše telefónne číslo vo svojich kontaktoch, vás uvidí ako kontakt v službe Signal. Ostatní vás budú môcť nájsť vo vyhľadávaní.</string>
+    <string name="PhoneNumberPrivacy_everyone_find_description">Každý, kto má vaše telefónne číslo vo svojich kontaktoch, vás uvidí ako kontakt v službe V.Call. Ostatní vás budú môcť nájsť vo vyhľadávaní.</string>
     <string name="preferences_app_protection__screen_lock">Zámok obrazovky</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Uzamknúť Signal pomocou zámku obrazovky Androidu alebo odtlačkom prstu</string>
+    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Uzamknúť V.Call pomocou zámku obrazovky Androidu alebo odtlačkom prstu</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Časový limit neaktivity pred uzamknutím</string>
-    <string name="preferences_app_protection__signal_pin">Signal PIN kód</string>
+    <string name="preferences_app_protection__signal_pin">V.Call PIN kód</string>
     <string name="preferences_app_protection__create_a_pin">Vytvoriť si PIN</string>
     <string name="preferences_app_protection__change_your_pin">Zmente si PIN</string>
     <string name="preferences_app_protection__pin_reminders">PIN pripomienky</string>
     <string name="preferences_app_protection__turn_off">Vypnúť</string>
     <string name="preferences_app_protection__confirm_pin">Potvrďte PIN</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">Overte váš PIN pre Signal</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Uistite sa, že si svoj PIN pamätáte, alebo že ho máte bezpečne uložený, pretože ho nie je možné obnoviť. Ak váš PIN zabudnete, mohli by ste stratiť dáta pri opätovnej registrácii vášho Signal účtu.</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">Overte váš PIN pre V.Call</string>
+    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Uistite sa, že si svoj PIN pamätáte, alebo že ho máte bezpečne uložený, pretože ho nie je možné obnoviť. Ak váš PIN zabudnete, mohli by ste stratiť dáta pri opätovnej registrácii vášho V.Call účtu.</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">Nesprávny PIN kód. Skúste to znova.</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">Aktivácia registračného zámku zlyhala.</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">Dektivácia registračného zámku zlyhala.</string>
@@ -3888,14 +3888,14 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Urobili ste príliš veľa pokusov. Prosím, skúste to znovu neskôr.</string>
     <string name="RegistrationActivity_error_connecting_to_service">Chyba pri pripájaní k službe</string>
     <string name="preferences_chats__backups">Zálohy</string>
-    <string name="prompt_passphrase_activity__signal_is_locked">Signal je zamknutý</string>
+    <string name="prompt_passphrase_activity__signal_is_locked">V.Call je zamknutý</string>
     <string name="prompt_passphrase_activity__tap_to_unlock">ŤUKNUTÍM ODOMKNITE</string>
     <string name="Recipient_unknown">Neznáme</string>
 
     <!-- Option in settings that will take use to re-register if they are no longer registered -->
     <string name="preferences_account_reregister">Znova zaregistrovať účet</string>
     <!-- Option in settings that will take user to our website or playstore to update their expired build -->
-    <string name="preferences_account_update_signal">Aktualizovať Signal</string>
+    <string name="preferences_account_update_signal">Aktualizovať V.Call</string>
     <!-- Option in settings shown when user is no longer registered or expired client that will WIPE ALL THEIR DATA -->
     <string name="preferences_account_delete_all_data">Vymazať všetky dáta</string>
     <!-- Title for confirmation dialog confirming user wants to delete all their data -->
@@ -3911,7 +3911,7 @@
 
     <!-- TransferOrRestoreFragment -->
     <string name="TransferOrRestoreFragment__transfer_or_restore_account">Preniesť alebo obnoviť účet</string>
-    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ak ste si v minulosti zaregistrovali Signal účet, môžete tento účet a správy presunúť alebo obnoviť</string>
+    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ak ste si v minulosti zaregistrovali V.Call účet, môžete tento účet a správy presunúť alebo obnoviť</string>
     <string name="TransferOrRestoreFragment__transfer_from_android_device">Presunúť z Android zariadenia</string>
     <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Presuňte svoj účet a správy z vášho starého Android telefónu. Musíte mať prístup do svojho starého zariadenia.</string>
     <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Potrebujete prístup k svojmu starému zariadeniu.</string>
@@ -3919,7 +3919,7 @@
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Obnovte vaše správy z lokálnej zálohy. Keď nevykonáte obnovu teraz, neskôr nebude možná.</string>
 
     <!-- NewDeviceTransferInstructionsFragment -->
-    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Otvorte Signal na svojom starom Android zariadení.</string>
+    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Otvorte V.Call na svojom starom Android zariadení.</string>
     <string name="NewDeviceTransferInstructions__continue">Pokračovať</string>
     <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
     <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Ťuknite na svoju profilovú fotku v ľavom hornom rohu pre otvorenie Nastavení</string>
@@ -3932,19 +3932,19 @@
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Pripravuje sa pripojenie do starého Android zariadenia…</string>
     <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Chvíľku strpenia, onedlho by malo byť hotovo</string>
     <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Čaká sa na pripojenie starého Android zariadenia…</string>
-    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal potrebuje prístup k polohe, aby mohol objaviť a pripojiť sa k vášmu starému Android zariadeniu.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Aby Signal mohol objaviť a pripojiť sa k vášmu starému Android zariadeniu, musia byť zapnuté služby polohy.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal potrebuje Wi-Fi, aby mohol objaviť a pripojiť sa k vášmu starému Android zariadeniu. Wi-Fi musí byť zapnuté, ale nemusí byť pripojené k žiadnej Wi-Fi sieti.</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Je nám ľúto, ale vyzerá to, že toto zariadenie nepodporuje Wi-Fi Direct. Signal používa Wi-Fi Direct na objavenie a pripojenie sa ku vášmu starému Android zariadeniu. Môžete ale urobiť obnovu zo zálohy a tým obnoviť vaše konto zo svojho starého Android zariadenia.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">V.Call potrebuje prístup k polohe, aby mohol objaviť a pripojiť sa k vášmu starému Android zariadeniu.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Aby V.Call mohol objaviť a pripojiť sa k vášmu starému Android zariadeniu, musia byť zapnuté služby polohy.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">V.Call potrebuje Wi-Fi, aby mohol objaviť a pripojiť sa k vášmu starému Android zariadeniu. Wi-Fi musí byť zapnuté, ale nemusí byť pripojené k žiadnej Wi-Fi sieti.</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Je nám ľúto, ale vyzerá to, že toto zariadenie nepodporuje Wi-Fi Direct. V.Call používa Wi-Fi Direct na objavenie a pripojenie sa ku vášmu starému Android zariadeniu. Môžete ale urobiť obnovu zo zálohy a tým obnoviť vaše konto zo svojho starého Android zariadenia.</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">Obnoviť zálohu</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Počas pripájania sa k vášmu starému Android zariadeniu sa stala neočakávaná chyba.</string>
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Hľadá sa nové Android zariadenie…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal potrebuje prístup k polohe, aby mohol objaviť a pripojiť sa k vášmu novému Android zariadeniu.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Aby Signal mohol objaviť a pripojiť sa k vášmu novému Android zariadeniu, musia byť zapnuté služby polohy.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal potrebuje Wi-Fi, aby mohol objaviť a pripojiť sa k vášmu novému Android zariadeniu. Wi-Fi musí byť zapnuté, ale nemusí byť pripojené k žiadnej Wi-Fi sieti.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Je nám ľúto, ale vyzerá to, že toto zariadenie nepodporuje Wi-Fi Direct. Signal používa Wi-Fi Direct na objavenie a pripojenie sa ku vášmu novému Android zariadeniu. Môžete ale urobiť obnovu zo zálohy a tým obnoviť vaše konto do svojho nového Android zariadenia.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">V.Call potrebuje prístup k polohe, aby mohol objaviť a pripojiť sa k vášmu novému Android zariadeniu.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Aby V.Call mohol objaviť a pripojiť sa k vášmu novému Android zariadeniu, musia byť zapnuté služby polohy.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">V.Call potrebuje Wi-Fi, aby mohol objaviť a pripojiť sa k vášmu novému Android zariadeniu. Wi-Fi musí byť zapnuté, ale nemusí byť pripojené k žiadnej Wi-Fi sieti.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Je nám ľúto, ale vyzerá to, že toto zariadenie nepodporuje Wi-Fi Direct. V.Call používa Wi-Fi Direct na objavenie a pripojenie sa ku vášmu novému Android zariadeniu. Môžete ale urobiť obnovu zo zálohy a tým obnoviť vaše konto do svojho nového Android zariadenia.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Vytvoriť zálohu</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Počas pripájania sa k vášmu novému Android zariadeniu sa stala neočakávaná chyba.</string>
 
@@ -3979,13 +3979,13 @@
     <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Ťuknite Pokračovať na vašom druhom zariadení…</string>
 
     <!-- NewDeviceTransferFragment -->
-    <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Presun nie je možný z novších verzií aplikácie Signal</string>
+    <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Presun nie je možný z novších verzií aplikácie V.Call</string>
     <!-- Error message indicating that we could not finish the user\'s device transfer. Displayed in a toast at the bottom of the screen. -->
     <string name="NewDeviceTransfer__failure_foreign_key">Prenesené údaje boli poškodené</string>
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Prenášajú sa dáta</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Ponechajte obe zariadenia blízko seba. Nevypínajte zariadenia a nechajte Signal otvorený. Prenosy sú zabezpečené prostredníctvom koncového šifrovania.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Ponechajte obe zariadenia blízko seba. Nevypínajte zariadenia a nechajte V.Call otvorený. Prenosy sú zabezpečené prostredníctvom koncového šifrovania.</string>
     <string name="DeviceTransfer__d_messages_so_far">Zatiaľ %1$d správ…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">Zatiaľ %1$s%% správ…</string>
@@ -3999,7 +3999,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Preniesť účet</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Stiahnite Signal na svojom novom Android zariadení</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Stiahnite V.Call na svojom novom Android zariadení</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Ťuknite na \"Preniesť alebo obnoviť účet\""</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -4008,7 +4008,7 @@
 
     <!-- OldDeviceTransferComplete -->
     <string name="OldDeviceTransferComplete__go_to_your_new_device">Choďte ku svojmu novému zariadeniu</string>
-    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Vaše Signal dáta boli presunuté do vášho nového zariadenia. Pre ukončenie procesu presunu sa musíte zaregistrovať na vašom novom zariadení.</string>
+    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Vaše V.Call dáta boli presunuté do vášho nového zariadenia. Pre ukončenie procesu presunu sa musíte zaregistrovať na vašom novom zariadení.</string>
     <string name="OldDeviceTransferComplete__close">Zatvoriť</string>
 
     <!-- NewDeviceTransferComplete -->
@@ -4028,7 +4028,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Dokončite registráciu na vašom novom zariadení</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Váš Signal účet bol presunutý do vášho nového zariadenia, ale musíte v ňom ešte dokončiť registráciu. Signal v tomto zariadení nebude aktívny.</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Váš V.Call účet bol presunutý do vášho nového zariadenia, ale musíte v ňom ešte dokončiť registráciu. V.Call v tomto zariadení nebude aktívny.</string>
     <string name="OldDeviceTransferLockedDialog__done">Hotovo</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Zrušiť a aktivovať toto zariadenie</string>
 
@@ -4067,12 +4067,12 @@
     <string name="GroupsLearnMore_paragraph_1">Zastarané skupiny sú skupiny, ktoré nie sú kompatibilné s novými funkciami skupín, ako napríklad administrátori či viac hovoriace aktualizácie.</string>
     <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Môžem aktualizovať Zastaranú skupinu?</string>
     <string name="GroupsLearnMore_paragraph_2">Zastarané skupiny nie je zatiaľ možné aktualizovať na Nové skupiny, môžete však vytvoriť Novú skupinu s tými istými členmi, ak používajú najnovšiu verziu Signalu.</string>
-    <string name="GroupsLearnMore_paragraph_3">Signal v budúcnosti umožní zmeniť Zastarané skupiny na nový typ.</string>
+    <string name="GroupsLearnMore_paragraph_3">V.Call v budúcnosti umožní zmeniť Zastarané skupiny na nový typ.</string>
 
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Každý, kto má tento odkaz, môže vidieť názov a fotku tejto skupiny a požiadať o členstvo. Zdieľajte ho s ľuďmi, ktorým dôverujete.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Každý, kto má tento odkaz, môže vidieť názov a fotku tejto skupiny a stať sa jej členom. Zdieľajte ho s ľuďmi, ktorým dôverujete.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Zdieľať cez Signal</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Zdieľať cez V.Call</string>
     <string name="GroupLinkBottomSheet_copy">Kopírovať</string>
     <string name="GroupLinkBottomSheet_qr_code">QR kód</string>
     <string name="GroupLinkBottomSheet_share">Zdieľať</string>
@@ -4154,7 +4154,7 @@
     <string name="DeleteAccountFragment__no_number">Chýba telefónne číslo</string>
     <string name="DeleteAccountFragment__the_phone_number">Zadané telefónne číslo sa nezhoduje s telefónnym číslom vášho účtu.</string>
     <string name="DeleteAccountFragment__are_you_sure">Naozaj chcete vymazať svoj účet?</string>
-    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Tým sa odstráni váš Signal účet a obnoví sa aplikácia. Aplikácia sa po dokončení procesu zavrie.</string>
+    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Tým sa odstráni váš V.Call účet a obnoví sa aplikácia. Aplikácia sa po dokončení procesu zavrie.</string>
     <string name="DeleteAccountFragment__failed_to_delete_local_data">Nepodarilo sa odstrániť lokálne údaje. Môžete ich manuálne vymazať v systémových nastaveniach aplikácie.</string>
     <string name="DeleteAccountFragment__launch_app_settings">Spustiť nastavenía aplikácie</string>
     <!-- Title of progress dialog shown when a user deletes their account and the process is leaving all groups -->
@@ -4242,7 +4242,7 @@
     <string name="payment_info_card_about_mobilecoin">Čo je MobileCoin</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin je nová digitálna mena zameraná na súkromie.</string>
     <string name="payment_info_card_adding_funds">Pridávanie finančných prostriedkov</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">Prostriedky na použitie v službe Signal môžete pridať poslaním MobileCoinov na adresu vašej peňaženky.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">Prostriedky na použitie v službe V.Call môžete pridať poslaním MobileCoinov na adresu vašej peňaženky.</string>
     <string name="payment_info_card_cashing_out">Vyberanie hotovosti</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">MobileCoin si kedykoľvek môžete zmeniť na hotovosť v zmenárni, ktorá podporuje MobileCoin. Jednoducho vykonajte prevod na váš účet v danej zmenárni.</string>
     <string name="payment_info_card_hide_this_card">Skryť túto kartu?</string>
@@ -4263,12 +4263,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">Deaktivovať peňaženku</string>
     <string name="DeactivateWalletFragment__your_balance">Váš zostatok</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">Odporúčame vám, aby ste pred deaktiváciou platieb previedli svoje prostriedky na adresu inej peňaženky. Ak sa rozhodnete, že svoje prostriedky neprevediete teraz, zostanú v peňaženke prepojenej so službou Signal, ak platby opätovne aktivujete.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">Odporúčame vám, aby ste pred deaktiváciou platieb previedli svoje prostriedky na adresu inej peňaženky. Ak sa rozhodnete, že svoje prostriedky neprevediete teraz, zostanú v peňaženke prepojenej so službou V.Call, ak platby opätovne aktivujete.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">Previesť zostávajúcu čiastku</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">Deaktivovať bez prevodu</string>
     <string name="DeactivateWalletFragment__deactivate">Deaktivovať</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Deaktivovať bez prevodu?</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">V prípade, že sa rozhodnete opätovne aktivovať platby, váš zostatok zostane vo vašej peňaženke prepojenej so službou Signal.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">V prípade, že sa rozhodnete opätovne aktivovať platby, váš zostatok zostane vo vašej peňaženke prepojenej so službou V.Call.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">Chyba pri deaktivácii peňaženky.</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -4279,10 +4279,10 @@
     <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">Uložiť frázu na obnovenie</string>
     <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Zadajte frázu na obnovenie</string>
     <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-        <item quantity="one">Váš zostatok sa automaticky obnoví, keď si Signal preinštalujete, ak potvrdíte váš Signal PIN. Svoj zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je %1$d-slovná fráza, ktorou disponujete iba vy. Zapíšte si ju a uložte na bezpečné miesto.</item>
-        <item quantity="few">Váš zostatok sa automaticky obnoví, keď si Signal preinštalujete, ak potvrdíte váš Signal PIN. Svoj zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je %1$d-slovná fráza, ktorou disponujete iba vy. Zapíšte si ju a uložte na bezpečné miesto.</item>
-        <item quantity="many">Váš zostatok sa automaticky obnoví, keď si Signal preinštalujete, ak potvrdíte váš Signal PIN. Svoj zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je %1$d-slovná fráza, ktorou disponujete iba vy. Zapíšte si ju a uložte na bezpečné miesto.</item>
-        <item quantity="other">Váš zostatok sa automaticky obnoví, keď si Signal preinštalujete, ak potvrdíte váš Signal PIN. Svoj zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je %1$d-slovná fráza, ktorou disponujete iba vy. Zapíšte si ju a uložte na bezpečné miesto.</item>
+        <item quantity="one">Váš zostatok sa automaticky obnoví, keď si V.Call preinštalujete, ak potvrdíte váš V.Call PIN. Svoj zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je %1$d-slovná fráza, ktorou disponujete iba vy. Zapíšte si ju a uložte na bezpečné miesto.</item>
+        <item quantity="few">Váš zostatok sa automaticky obnoví, keď si V.Call preinštalujete, ak potvrdíte váš V.Call PIN. Svoj zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je %1$d-slovná fráza, ktorou disponujete iba vy. Zapíšte si ju a uložte na bezpečné miesto.</item>
+        <item quantity="many">Váš zostatok sa automaticky obnoví, keď si V.Call preinštalujete, ak potvrdíte váš V.Call PIN. Svoj zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je %1$d-slovná fráza, ktorou disponujete iba vy. Zapíšte si ju a uložte na bezpečné miesto.</item>
+        <item quantity="other">Váš zostatok sa automaticky obnoví, keď si V.Call preinštalujete, ak potvrdíte váš V.Call PIN. Svoj zostatok môžete taktiež obnoviť pomocou frázy na obnovenie, čo je %1$d-slovná fráza, ktorou disponujete iba vy. Zapíšte si ju a uložte na bezpečné miesto.</item>
     </plurals>
     <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
     <string name="PaymentsRecoveryStartFragment__got_balance">Máte zostatok! Je čas uložiť si frázu na obnovenie—24-slovný kľúč, ktorý môžete použiť na obnovenie zostatku.</string>
@@ -4380,7 +4380,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">Účet</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">Postupom času sa vás budeme pýtať menej často</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">Na opätovné zaregistrovanie telefónneho čísla v aplikácii Signal vyžadujte svojim Signal PIN</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">Na opätovné zaregistrovanie telefónneho čísla v aplikácii V.Call vyžadujte svojim V.Call PIN</string>
     <string name="AccountSettingsFragment__change_phone_number">Zmeniť telefónne číslo</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">Údaje o vašom účte</string>
@@ -4389,7 +4389,7 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">Údaje o vašom účte</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">Exportujte prehľad údajov svojho Signal účtu. Tento prehľad neobsahuje žiadne správy ani médiá. %1$s</string>
+    <string name="ExportAccountDataFragment__export_explanation">Exportujte prehľad údajov svojho V.Call účtu. Tento prehľad neobsahuje žiadne správy ani médiá. %1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">Zistiť viac</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4417,14 +4417,14 @@
     <!-- Title for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_confirmation">Exportovať údaje?</string>
     <!-- Message for export confirmation dialog -->
-    <string name="ExportAccountDataFragment__export_report_confirmation_message">Údaje vášho Signal účtu zdieľajte len s ľuďmi a aplikáciami, ktorým dôverujete.</string>
+    <string name="ExportAccountDataFragment__export_report_confirmation_message">Údaje vášho V.Call účtu zdieľajte len s ľuďmi a aplikáciami, ktorým dôverujete.</string>
     <!-- Action to export in for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_action">Exportovať</string>
 
     <!-- Shown in a dialog with a spinner while the report is downloading -->
     <string name="ExportAccountDataFragment__download_progress">Generuje sa prehľad…</string>
     <!-- Explanation that the report is only generated on export and is not saved on the device -->
-    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Váš prehľad sa vygeneruje iba v čase exportu a Signal ho neukladá vo vašom zariadení.</string>
+    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Váš prehľad sa vygeneruje iba v čase exportu a V.Call ho neukladá vo vašom zariadení.</string>
 
     <!-- ChangeNumberFragment -->
     <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">Toto použite na zmenu aktuálneho telefónneho čísla na nové telefónne číslo. Túto zmenu nemôžete vrátiť späť. \n\nPred pokračovaním sa uistite, že vaše nové číslo môže prijímať SMS alebo hovory.</string>
@@ -4457,7 +4457,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Úprav číslo</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Zmena čísla Signal - potrebujete pomoc s PIN pre Android (PIN v2)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Zmena čísla V.Call - potrebujete pomoc s PIN pre Android (PIN v2)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN kódy sa nezhodujú</string>
@@ -4512,7 +4512,7 @@
     <string name="NotificationsSettingsFragment__messages">Správy</string>
     <string name="NotificationsSettingsFragment__calls">Volania</string>
     <string name="NotificationsSettingsFragment__notify_when">Upozorniť, keď…</string>
-    <string name="NotificationsSettingsFragment__contact_joins_signal">Kontakt sa pripojí k Signal</string>
+    <string name="NotificationsSettingsFragment__contact_joins_signal">Kontakt sa pripojí k V.Call</string>
     <!-- Notification preference header -->
     <string name="NotificationsSettingsFragment__notification_profiles">Profily pre upozornenia</string>
     <!-- Notification preference option header -->
@@ -4533,7 +4533,7 @@
     <string name="PrivacySettingsFragment__disappearing_messages">Miznúce správy</string>
     <string name="PrivacySettingsFragment__app_security">Zabezpečenie aplikácie</string>
     <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">Zakázať vytváranie snímkov obrazovky v aplikácii a zozname nedávnych konverzácií</string>
-    <string name="PrivacySettingsFragment__signal_message_and_calls">Správy a hovory Signal, vždy opakované hovory a zapečatený odosielateľ</string>
+    <string name="PrivacySettingsFragment__signal_message_and_calls">Správy a hovory V.Call, vždy opakované hovory a zapečatený odosielateľ</string>
     <string name="PrivacySettingsFragment__default_timer_for_new_changes">Predvolený časovač pre nové čety</string>
     <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">Nastavte predvolený časovač miznutia správ pre všetky nové čety, ktoré začnete.</string>
     <!-- Summary for stories preference to launch into story privacy settings -->
@@ -4578,10 +4578,10 @@
     <string name="HelpSettingsFragment__contact_us">Kontaktujte nás</string>
     <string name="HelpSettingsFragment__version">Verzia</string>
     <string name="HelpSettingsFragment__debug_log">Ladiaci log</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the V.Call app-->
     <string name="HelpSettingsFragment__licenses">Licencie</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Podmienky a Zásady ochrany osobných údajov</string>
-    <string name="HelpFragment__copyright_signal_messenger">Copyright Signal Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Copyright V.Call Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Pod licenciou GNU AGPLv3</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -4627,9 +4627,9 @@
     <!-- ChatColorGradientTool -->
 
     <!-- Title text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_donate_to_signal">Prispieť na Signal</string>
+    <string name="Donate2022Q2Megaphone_donate_to_signal">Prispieť na V.Call</string>
     <!-- Body text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">Signal poháňajú vpred ľudia ako vy. Prispievajte mesačne a získajte odznak.</string>
+    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">V.Call poháňajú vpred ľudia ako vy. Prispievajte mesačne a získajte odznak.</string>
     <!-- Button label that brings a user to the donate screen. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_donate">Prispieť</string>
     <!-- Button label that dismissed a prompt to donate. Shown in a popup at the bottom of the chat list. -->
@@ -4652,7 +4652,7 @@
     <!-- BecomeASustainerMegaphone -->
     <string name="BecomeASustainerMegaphone__become_a_sustainer">Staňte sa Sustainerom</string>
     <!-- Displayed in the Become a Sustainer megaphone -->
-    <string name="BecomeASustainerMegaphone__signal_is_powered_by">Signal poháňajú vpred ľudia ako vy. Prispejte a získajte odznak.</string>
+    <string name="BecomeASustainerMegaphone__signal_is_powered_by">V.Call poháňajú vpred ľudia ako vy. Prispejte a získajte odznak.</string>
     <string name="BecomeASustainerMegaphone__not_now">Teraz nie</string>
     <string name="BecomeASustainerMegaphone__donate">Prispieť</string>
 
@@ -4781,7 +4781,7 @@
     <!-- Dialog action to view contact when they can\'t be removed otherwise -->
     <string name="NewConversationActivity__view_contact">Zobraziť kontakt</string>
     <!-- Error message shown when looking up a person by phone number and that phone number is not associated with a signal account -->
-    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s nepoužíva Signal</string>
+    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s nepoužíva V.Call</string>
 
     <!-- ContactFilterView -->
     <string name="ContactFilterView__search_name_or_number">Vyhľadajte meno, alebo číslo</string>
@@ -4913,11 +4913,11 @@
     <!-- Displayed on primary button in the bottom sheet as a call-to-action to launch into the donation flow -->
     <string name="ViewBadgeBottomSheetDialogFragment__donate_now">Prispieť teraz</string>
     <!-- Title of a page in the bottom sheet. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s podporuje Signal</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s podporuje V.Call</string>
     <!-- Description of a page in the bottom sheet of a monthly badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s podporuje Signal prostredníctvom mesačného príspevku. Signal je nezisková organizácia bez inzerentov a investorov, ktorú podporujú iba ľudia ako vy.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s podporuje V.Call prostredníctvom mesačného príspevku. V.Call je nezisková organizácia bez inzerentov a investorov, ktorú podporujú iba ľudia ako vy.</string>
     <!-- Description of a page in the bottom sheet of a one-time badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s podporuje Signal prostredníctvom príspevku. Signal je nezisková organizácia bez inzerentov a investorov, ktorú podporujú iba ľudia ako vy.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s podporuje V.Call prostredníctvom príspevku. V.Call je nezisková organizácia bez inzerentov a investorov, ktorú podporujú iba ľudia ako vy.</string>
 
     <string name="ImageView__badge">Odznak</string>
 
@@ -4939,11 +4939,11 @@
     <string name="Subscription__expires_s">Platnosť vyprší %1$s</string>
 
     <!-- Title of learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Signal je odlišný.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">V.Call je odlišný.</string>
     <!-- First small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">Súkromné posielanie správ. Žiadne reklamy, žiadne sledovače, žiadne monitorovanie.</string>
     <!-- Second small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Signal využíva podporu v podobe príspevkov, čo znamená, že vaše súkromie je stredobodom všetkého, čo robíme. Signal je vytvorený pre vás, nie pre vaše údaje a nie za účelom zisku.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">V.Call využíva podporu v podobe príspevkov, čo znamená, že vaše súkromie je stredobodom všetkého, čo robíme. V.Call je vytvorený pre vás, nie pre vaše údaje a nie za účelom zisku.</string>
     <!-- Third small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Ak môžete, prispejte ešte dnes a pomôžte Signalu k tomu, aby bol zábavnou, spoľahlivou a dostupnou aplikáciou pre každého.</string>
 
@@ -4957,11 +4957,11 @@
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__continue">Pokračovať</string>
     <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">Ak máte viac ako jeden odznak, môžete si vybrať ten, ktorý sa zobrazí ostatným vo vašom profile.</string>
 
-    <string name="BecomeASustainerFragment__get_badges">Prispievaním na Signal získate odznaky pre svoj profil.</string>
-    <string name="BecomeASustainerFragment__signal_is_a_non_profit">Signal je nezisková organizácia bez inzerentov a investorov, ktorú podporujú iba ľudia ako vy.</string>
+    <string name="BecomeASustainerFragment__get_badges">Prispievaním na V.Call získate odznaky pre svoj profil.</string>
+    <string name="BecomeASustainerFragment__signal_is_a_non_profit">V.Call je nezisková organizácia bez inzerentov a investorov, ktorú podporujú iba ľudia ako vy.</string>
 
     <!-- Button label for creating a donation -->
-    <string name="ManageDonationsFragment__donate_to_signal">Prispieť na Signal</string>
+    <string name="ManageDonationsFragment__donate_to_signal">Prispieť na V.Call</string>
     <!-- Heading for more area of manage subscriptions page -->
     <string name="ManageDonationsFragment__more">Viac</string>
     <!-- Heading for receipts area of manage subscriptions page -->
@@ -4990,9 +4990,9 @@
     <string name="MySupportPreference__please_contact_support">Prosím, kontaktujte podporu.</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Aktualizovať Signal</string>
+    <string name="UpdateSignalExpiredDialog__title">Aktualizovať V.Call</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Táto verzia Signalu vypršala. Aktualizujte ju, aby ste mohli Signal používať naďalej.</string>
+    <string name="UpdateSignalExpiredDialog__message">Táto verzia Signalu vypršala. Aktualizujte ju, aby ste mohli V.Call používať naďalej.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Aktualizovať</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5001,7 +5001,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">Zariadenie nie je registrované</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">Toto zariadenie už nie je registrované. Ak chcete naďalej používať Signal na tomto zariadení, znova ho zaregistrujte.</string>
+    <string name="ReregisterSignalDialog__message">Toto zariadenie už nie je registrované. Ak chcete naďalej používať V.Call na tomto zariadení, znova ho zaregistrujte.</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">Znovu zaregistrovať</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -5015,9 +5015,9 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_boost_badge_has_expired_and">Platnosť vášho odznaku Boost vypršala a už sa vo vašom profile nezobrazuje.</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_reactivate">Svoj odznak Boost môžete znova aktivovať na ďalších 30 dní jednorazovým príspevkom.</string>
     <!-- Displayed when we do not think the user is a subscriber when their boost expires -->
-    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">Signal môžete používať aj naďalej, ale zvážte možnosť stať sa mesačným podporovateľom technológie, ktorá je vytvorená pre vás.</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">V.Call môžete používať aj naďalej, ale zvážte možnosť stať sa mesačným podporovateľom technológie, ktorá je vytvorená pre vás.</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__become_a_sustainer">Staňte sa Sustainerom</string>
-    <string name="ExpiredBadgeBottomSheetDialogFragment__add_a_boost">Podporte Signal</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__add_a_boost">Podporte V.Call</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__not_now">Teraz nie</string>
     <!-- Copy displayed when badge expires after user inactivity -->
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_automatically">Vaše opakované mesačné predplatné bolo automaticky zrušené, pretože ste boli príliš dlho neaktívny/a. Váš odznak %1$s sa už vo vašom profile nezobrazuje.</string>
@@ -5025,13 +5025,13 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled">Váš opakovaný mesačný príspevok bol zrušený, pretože sme nemohli spracovať vašu platbu. Váš odznak sa už vo vašom profile nezobrazuje.</string>
     <!-- Copy displayed when badge expires after a payment failure and we have a displayable charge failure reason -->
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled_s">Váš opakovaný mesačný príspevok bol zrušený. %1$s Váš odznak %2$s sa už vo vašom profile nezobrazuje.</string>
-    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">Signal môžete používať aj naďalej, ak však chcete podporiť aplikáciu a znova aktivovať svoj odznak, obnovte svoje predplatné.</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">V.Call môžete používať aj naďalej, ak však chcete podporiť aplikáciu a znova aktivovať svoj odznak, obnovte svoje predplatné.</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__renew_subscription">Obnoviť predplatné</string>
     <!-- Button label to send user to Google Pay website -->
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Prejdite do služby Google Pay</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">Platbu nie je možné spracovať</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Máme problém s evidovaním vašej platby za Signal Podporovateľ. Uistite sa, že je váš spôsob platby aktuálny. Ak nie, aktualizujte ho v službe Google Pay. Signal sa pokúsi spracovať platbu znova o niekoľko dní.</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Máme problém s evidovaním vašej platby za V.Call Podporovateľ. Uistite sa, že je váš spôsob platby aktuálny. Ak nie, aktualizujte ho v službe Google Pay. V.Call sa pokúsi spracovať platbu znova o niekoľko dní.</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">Toto už nezobrazovať</string>
 
     <string name="Subscription__contact_support">Kontaktovať zákaznícku podporu</string>
@@ -5057,20 +5057,20 @@
     <string name="DonationsErrors__your_payment_is_still">Vaša platba sa stále spracováva. V závislosti od vášho pripojenia to môže trvať niekoľko minút.</string>
     <string name="DonationsErrors__failed_to_cancel_subscription">Predplatné sa nepodarilo zrušiť</string>
     <string name="DonationsErrors__subscription_cancellation_requires_an_internet_connection">Zrušenie predplatného vyžaduje internetové pripojenie.</string>
-    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">Vaše zariadenie nepodporuje službu Google Pay, nemôžete sa preto prihlásiť na prispievanie a získať odznak. Signal však môžete stále podporiť príspevkom na našej webovej stránke.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">Vaše zariadenie nepodporuje službu Google Pay, nemôžete sa preto prihlásiť na prispievanie a získať odznak. V.Call však môžete stále podporiť príspevkom na našej webovej stránke.</string>
     <string name="NetworkFailure__network_error_check_your_connection_and_try_again">Chyba siete. Skontrolujte pripojenie a skúste to znova.</string>
     <string name="NetworkFailure__retry">Skúsiť znovu</string>
     <!-- Displayed as a dialog title when the selected recipient for a gift doesn\'t support gifting -->
     <string name="DonationsErrors__cannot_send_donation">Príspevok nie je možné odoslať</string>
     <!-- Displayed as a dialog message when the selected recipient for a gift doesn\'t support gifting -->
-    <string name="DonationsErrors__this_user_cant_receive_donations_until">Tento používateľ nemôže dostávať príspevky, kým si neaktualizuje Signal.</string>
+    <string name="DonationsErrors__this_user_cant_receive_donations_until">Tento používateľ nemôže dostávať príspevky, kým si neaktualizuje V.Call.</string>
     <!-- Displayed as a dialog message when the user\'s profile could not be fetched, likely due to lack of internet -->
     <string name="DonationsErrors__your_donation_could_not_be_sent">Váš príspevok nebolo možné odoslať z dôvodu chyby siete. Skontrolujte pripojenie a skúste to znovu.</string>
 
     <!-- Gift message view title -->
     <string name="GiftMessageView__donation_on_behalf_of_s">Príspevok v mene používateľa %1$s</string>
     <!-- Gift message view title for incoming donations -->
-    <string name="GiftMessageView__s_donated_to_signal_on">Používateľ %1$s prispel na Signal vo vašom mene</string>
+    <string name="GiftMessageView__s_donated_to_signal_on">Používateľ %1$s prispel na V.Call vo vašom mene</string>
     <!-- Gift badge redeem action label -->
     <string name="GiftMessageView__redeem">Uplatniť</string>
     <!-- Gift badge view action label -->
@@ -5269,8 +5269,8 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Výber sa nepodarilo otvoriť.</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
-    <string name="ReleaseNotes__signal_release_notes_and_news">Poznámky k vydaniu Signal &amp; Novinky</string>
+    <!-- Description shown for the V.Call Release Notes channel -->
+    <string name="ReleaseNotes__signal_release_notes_and_news">Poznámky k vydaniu V.Call &amp; Novinky</string>
 
     <!-- Donation receipts activity title -->
     <string name="DonationReceiptListFragment__all_activity">Všetky aktivity</string>
@@ -5291,13 +5291,13 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">Zdieľať potvrdenie</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">Ak ste preinštalovali Signal, potvrdenia o predchádzajúcich príspevkoch nebudú k dispozícii.</string>
+    <string name="DonationReceiptListFragment__if_you_have">Ak ste preinštalovali V.Call, potvrdenia o predchádzajúcich príspevkoch nebudú k dispozícii.</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">Potvrdenie o príspevku</string>
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">Suma</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Ďakujeme, že podporujete Signal. Váš príspevok pomáha podporiť misiu vývoja technológie ochrany súkromia s otvoreným zdrojom, ktorá chráni slobodu prejavu a umožňuje bezpečnú globálnu komunikáciu pre milióny ľudí na celom svete. Ak ste rezidentom Spojených štátov, uchovajte si toto potvrdenie pre svoje daňové záznamy. Signal Technology Foundation je nezisková organizácia v Spojených štátoch oslobodená od daní podľa oddielu 501c3 zákona o vnútorných výnosoch. Naše federálne daňové identifikačné číslo je 82–4506840.</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Ďakujeme, že podporujete V.Call. Váš príspevok pomáha podporiť misiu vývoja technológie ochrany súkromia s otvoreným zdrojom, ktorá chráni slobodu prejavu a umožňuje bezpečnú globálnu komunikáciu pre milióny ľudí na celom svete. Ak ste rezidentom Spojených štátov, uchovajte si toto potvrdenie pre svoje daňové záznamy. V.Call Technology Foundation je nezisková organizácia v Spojených štátoch oslobodená od daní podľa oddielu 501c3 zákona o vnútorných výnosoch. Naše federálne daňové identifikačné číslo je 82–4506840.</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5452,7 +5452,7 @@
     <string name="MyStorySettingsFragment__who_can_view_this_story">Kto môže vidieť tento príbeh</string>
     <!-- Clickable option for selecting people to hide your story from -->
     <!-- Privacy setting title for sending stories to all your signal connections -->
-    <string name="MyStorySettingsFragment__all_signal_connections">Všetky Signal spojenia</string>
+    <string name="MyStorySettingsFragment__all_signal_connections">Všetky V.Call spojenia</string>
     <!-- Privacy setting description for sending stories to all your signal connections -->
     <!-- Privacy setting title for sending stories to all except the specified connections -->
     <string name="MyStorySettingsFragment__all_except">Všetci okrem…</string>
@@ -5484,17 +5484,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">Povoliť odpovede a reakcie</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">Umožnite ľuďom, ktorí si môžu pozrieť váš príbeh, reagovať a odpovedať</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
-    <string name="SignalConnectionsBottomSheet___signal_connections">Signal spojenia</string>
+    <!-- V.Call connections bolded text in the V.Call Connections sheet -->
+    <string name="SignalConnectionsBottomSheet___signal_connections">V.Call spojenia</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Signal spojenia sú ľudia, ktorým ste sa rozhodli dôverovať, a to buď:</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">V.Call spojenia sú ľudia, ktorým ste sa rozhodli dôverovať, a to buď:</string>
+    <!-- V.Call connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">Začatím četu</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- V.Call connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">Prijatie žiadosti o správu</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- V.Call connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">Mať ich vo svojich systémových kontaktoch</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the V.Call connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"Vašim kontaktom sa môže zobrazovať vaše meno a fotografia, ako aj príspevky v časti „Môj príbeh“, pokiaľ to pred nimi neskryjete."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">Pridať prehliadač</string>
@@ -5655,10 +5655,10 @@
     <string name="GiftFlowStartFragment__donate_for_a_friend">Prispejte za priateľa</string>
     <!-- Description text on start fragment for gifting a badge -->
     <plurals name="GiftFlowStartFragment__support_signal_by">
-        <item quantity="one">Podporte Signal príspevkom za priateľa alebo člena rodiny, ktorý používa Signal. Dostanú odznak, ktorý si môžu vystaviť na profile na %1$d deň</item>
-        <item quantity="few">Podporte Signal príspevkom za priateľa alebo člena rodiny, ktorý používa Signal. Dostanú odznak, ktorý si môžu vystaviť na profile na %1$d dni</item>
-        <item quantity="many">Podporte Signal príspevkom za priateľa alebo člena rodiny, ktorý používa Signal. Dostanú odznak, ktorý si môžu vystaviť na profile na %1$d dňa</item>
-        <item quantity="other">Podporte Signal príspevkom za priateľa alebo člena rodiny, ktorý používa Signal. Dostanú odznak, ktorý si môžu vystaviť na profile na %1$d dní</item>
+        <item quantity="one">Podporte V.Call príspevkom za priateľa alebo člena rodiny, ktorý používa V.Call. Dostanú odznak, ktorý si môžu vystaviť na profile na %1$d deň</item>
+        <item quantity="few">Podporte V.Call príspevkom za priateľa alebo člena rodiny, ktorý používa V.Call. Dostanú odznak, ktorý si môžu vystaviť na profile na %1$d dni</item>
+        <item quantity="many">Podporte V.Call príspevkom za priateľa alebo člena rodiny, ktorý používa V.Call. Dostanú odznak, ktorý si môžu vystaviť na profile na %1$d dňa</item>
+        <item quantity="other">Podporte V.Call príspevkom za priateľa alebo člena rodiny, ktorý používa V.Call. Dostanú odznak, ktorý si môžu vystaviť na profile na %1$d dní</item>
     </plurals>
     <!-- Action button label for start fragment for gifting a badge -->
     <string name="GiftFlowStartFragment__next">Ďalší</string>
@@ -5681,9 +5681,9 @@
     <!-- Title for sheet shown when opening a sent gift -->
     <string name="ViewSentGiftBottomSheet__thanks_for_your_support">Ďakujem za tvoju podporu!</string>
     <!-- Description for sheet shown when opening a redeemed gift -->
-    <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">Používateľ %1$s prispel na Signal vo vašom mene! Ukážte svoju podporu pre Signal vo svojom profile.</string>
+    <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">Používateľ %1$s prispel na V.Call vo vašom mene! Ukážte svoju podporu pre V.Call vo svojom profile.</string>
     <!-- Description for sheet shown when opening a sent gift -->
-    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">Prispeli ste na Signal v mene používateľa %1$s. Svoju podporu budú môcť zobraziť na svojom profile.</string>
+    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">Prispeli ste na V.Call v mene používateľa %1$s. Svoju podporu budú môcť zobraziť na svojom profile.</string>
     <!-- Primary action for pending gift sheet to redeem badge now -->
     <string name="ViewReceivedGiftSheet__redeem">Uplatniť</string>
     <!-- Primary action for pending gift sheet to redeem badge later -->
@@ -5693,7 +5693,7 @@
     <!-- Snackbar text when user presses "not now" on redemption sheet -->
     <string name="ConversationFragment__you_can_redeem_your_badge_later">Svoj odznak si môžete uplatniť neskôr.</string>
     <!-- Description text in gift thanks sheet -->
-    <string name="GiftThanksSheet__youve_made_a_donation">Prispeli ste na Signal v mene používateľa %1$s. Svoju podporu budú môcť zobraziť na svojom profile.</string>
+    <string name="GiftThanksSheet__youve_made_a_donation">Prispeli ste na V.Call v mene používateľa %1$s. Svoju podporu budú môcť zobraziť na svojom profile.</string>
     <!-- Expired gift sheet title -->
     <string name="ExpiredGiftSheetConfiguration__your_badge_has_expired">Platnosť vášho odznaku vypršala</string>
     <!-- Expired gift sheet top description text -->
@@ -5802,7 +5802,7 @@
     <!-- Title of safety number changes bottom sheet when showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_changes">Zmena bezpečnostného čísla</string>
     <!-- Message of safety number changes bottom sheet when showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__the_following_people">Nasledujúci ľudia mohli preinštalovať Signal alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</string>
+    <string name="SafetyNumberBottomSheetFragment__the_following_people">Nasledujúci ľudia mohli preinštalovať V.Call alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_checkup">Kontrola bezpečnostného čísla</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
@@ -5810,7 +5810,7 @@
     <!-- Message of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
     <string name="SafetyNumberBottomSheetFragment__all_connections_have_been_reviewed">Všetky spojenia boli preverené, pokračujte ťuknutím na tlačidlo „Odoslať“.</string>
     <!-- Message of safety number changes bottom sheet when not showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">%1$d z vašich spojení mohlo(i) preinštalovať Signal alebo zmeniť zariadenia. Skôr než s nimi budete zdieľať príbeh skontrolujte ich bezpečnostné čísla, prípadne zvážte ich odstránenie z vášho príbehu.</string>
+    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">%1$d z vašich spojení mohlo(i) preinštalovať V.Call alebo zmeniť zariadenia. Skôr než s nimi budete zdieľať príbeh skontrolujte ich bezpečnostné čísla, prípadne zvážte ich odstránenie z vášho príbehu.</string>
     <!-- Menu action to launch safety number verification screen -->
     <string name="SafetyNumberBottomSheetFragment__verify_safety_number">Overiť bezpečnostné číslo</string>
     <!-- Menu action to remove user from story -->
@@ -5827,10 +5827,10 @@
     <string name="SafetyNumberReviewConnectionsFragment__safety_number_changes">Zmeny bezpečnostného čísla</string>
     <!-- Message of safety number review fragment -->
     <plurals name="SafetyNumberReviewConnectionsFragment__d_recipients_may_have">
-        <item quantity="one">%1$d príjemca mohol preinštalovať Signal alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</item>
-        <item quantity="few">%1$d príjemcovia mohli preinštalovať Signal alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</item>
-        <item quantity="many">%1$d príjemcov mohlo preinštalovať Signal alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</item>
-        <item quantity="other">%1$d príjemcov mohlo preinštalovať Signal alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</item>
+        <item quantity="one">%1$d príjemca mohol preinštalovať V.Call alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</item>
+        <item quantity="few">%1$d príjemcovia mohli preinštalovať V.Call alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</item>
+        <item quantity="many">%1$d príjemcov mohlo preinštalovať V.Call alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</item>
+        <item quantity="other">%1$d príjemcov mohlo preinštalovať V.Call alebo zmeniť zariadenia. Ťuknutím na príjemcu potvrďte nové bezpečnostné číslo. Tento krok je voliteľný.</item>
     </plurals>
     <!-- Section header for 1:1 contacts in review fragment -->
     <string name="SafetyNumberBucketRowItem__contacts">Kontakty</string>
@@ -5844,7 +5844,7 @@
     <!-- Subtitle of initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__choose_who_can_see_posts_to_my_story_you_can_always_make_changes_in_settings">Vyberte, kto môže vidieť príspevky v Mojom príbehu. Zmeny môžete vykonať kedykoľvek v Nastaveniach.</string>
     <!-- All connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
-    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">Všetky Signal spojenia</string>
+    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">Všetky V.Call spojenia</string>
     <!-- All connections except option for initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__all_except">Všetci okrem…</string>
     <!-- Only with selected connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
@@ -5934,8 +5934,8 @@
     <string name="ExportingSmsMessagesFragment__you_need_approximately_s_to_export_your_messages_ensure_you_have_enough_space_before_continuing">Na export správ potrebujete približne %1$s. Pred pokračovaním sa uistite, že je na disku dostatok voľného miesta.</string>
     <!-- Alert dialog button to continue with exporting sms after seeing the lack of storage warning -->
     <string name="ExportingSmsMessagesFragment__continue_anyway">Napriek tomu pokračovať</string>
-    <!-- Dialog text shown when Signal isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
-    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">Signal potrebuje povolenie pre SMS, aby mohol exportovať vaše SMS správy.</string>
+    <!-- Dialog text shown when V.Call isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
+    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">V.Call potrebuje povolenie pre SMS, aby mohol exportovať vaše SMS správy.</string>
 
     <!-- ChooseANewDefaultSmsAppFragment -->
     <!-- Title of the screen -->
@@ -5987,9 +5987,9 @@
 
     <!-- SetSignalAsDefaultSmsAppFragment -->
     <!-- Title of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">Nastavte Signal ako predvolenú aplikáciu pre SMS</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">Nastavte V.Call ako predvolenú aplikáciu pre SMS</string>
     <!-- Message of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">Ak chcete exportovať SMS správy, musíte nastaviť Signal ako predvolenú aplikáciu pre SMS.</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">Ak chcete exportovať SMS správy, musíte nastaviť V.Call ako predvolenú aplikáciu pre SMS.</string>
     <!-- Button label to start export -->
     <string name="SetSignalAsDefaultSmsAppFragment__next">Ďalší</string>
 
@@ -6013,13 +6013,13 @@
 
     <!-- SmsExportMegaphoneActivity -->
     <!-- Phase 2 title of full screen megaphone indicating sms will no longer be supported in the near future -->
-    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">Signal už nebude podporovať SMS</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">V.Call už nebude podporovať SMS</string>
     <!-- Phase 3 title of full screen megaphone indicating sms is longer supported  -->
-    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">Signal už nepodporuje SMS</string>
+    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">V.Call už nepodporuje SMS</string>
     <!-- Phase 2 message describing that sms is going away soon -->
-    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">Signal čoskoro zruší podporu pre odosielanie SMS správ, pretože Signal správy poskytujú na rozdiel od SMS koncové šifrovanie a zaručujú tak väčšie súkromie. Taktiež nám to umožní zlepšiť proces odosielania a prijímania Signal správ.</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">V.Call čoskoro zruší podporu pre odosielanie SMS správ, pretože V.Call správy poskytujú na rozdiel od SMS koncové šifrovanie a zaručujú tak väčšie súkromie. Taktiež nám to umožní zlepšiť proces odosielania a prijímania V.Call správ.</string>
     <!-- Phase 3 message describing that sms has gone away -->
-    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">Signal zrušil podporu pre odosielanie SMS správ, pretože Signal správy poskytujú na rozdiel od SMS koncové šifrovanie a zaručujú tak väčšie súkromie. Taktiež nám to umožní zlepšiť proces odosielania a prijímania Signal správ.</string>
+    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">V.Call zrušil podporu pre odosielanie SMS správ, pretože V.Call správy poskytujú na rozdiel od SMS koncové šifrovanie a zaručujú tak väčšie súkromie. Taktiež nám to umožní zlepšiť proces odosielania a prijímania V.Call správ.</string>
     <!-- The text on a button in a popup that, when clicked, will take the user to a screen to export their SMS messages -->
     <string name="SmsExportMegaphoneActivity__export_sms">Exportovať SMS</string>
     <!-- The text on a button in a popup that, when clicked, will dismiss the popup and schedule the prompt to occur at a later time. -->
@@ -6030,7 +6030,7 @@
     <!-- Phase 1 Small megaphone title indicating sms is going away -->
     <string name="SmsExportMegaphone__sms_support_going_away">Podpora SMS končí</string>
     <!-- Phase 1 small megaphone description indicating sms is going away -->
-    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">Bez obáv, šifrované Signal správy budú fungovať aj naďalej.</string>
+    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">Bez obáv, šifrované V.Call správy budú fungovať aj naďalej.</string>
     <!-- Phase 1 small megaphone button that takes the user to the sms export flow -->
     <string name="SmsExportMegaphone__continue">Pokračovať</string>
     <!-- Title for screen shown after sms export has completed -->
@@ -6071,7 +6071,7 @@
     <!-- Continue button label -->
     <string name="DonateToSignalFragment__continue">Pokračovať</string>
     <!-- Description below title -->
-    <string name="DonateToSignalFragment__private_messaging">Súkromné posielanie správ, ktoré financujete vy. Žiadne reklamy, žiadne sledovanie, žiadne kompromisy. Prispejte teraz a podporte Signal.</string>
+    <string name="DonateToSignalFragment__private_messaging">Súkromné posielanie správ, ktoré financujete vy. Žiadne reklamy, žiadne sledovanie, žiadne kompromisy. Prispejte teraz a podporte V.Call.</string>
     <!-- Donation pill toggle monthly text -->
     <string name="DonationPillToggle__monthly">Mesačne</string>
     <!-- Donation pill toggle one-time text -->
@@ -6079,11 +6079,11 @@
 
     <!-- GatewaySelectorBottomSheet -->
     <!-- Sheet title when subscribing -->
-    <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">Prispejte na Signal %1$s mesačne</string>
+    <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">Prispejte na V.Call %1$s mesačne</string>
     <!-- Sheet summary when subscribing -->
     <string name="GatewaySelectorBottomSheet__get_a_s_badge">Získate odznak %1$s</string>
     <!-- Sheet title when giving a one-time donation -->
-    <string name="GatewaySelectorBottomSheet__donate_s_to_signal">Prispejte na Signal %1$s</string>
+    <string name="GatewaySelectorBottomSheet__donate_s_to_signal">Prispejte na V.Call %1$s</string>
     <!-- Sheet summary when giving a one-time donation -->
     <plurals name="GatewaySelectorBottomSheet__get_a_s_badge_for_d_days">
         <item quantity="one">Získate odznak %1$s na %2$d deň</item>
@@ -6116,7 +6116,7 @@
     <!-- The title of a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_title">Vaše kontakty nie je možné spracovať</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
-    <string name="CdsPermanentErrorBottomSheet_body">Počet kontaktov v telefóne presahuje limit, ktorý môže Signal spracovať. Ak chcete vyhľadať kontakty v Signali, zvážte odstránenie kontaktov alebo účtov v telefóne, ktoré synchronizujú priveľa kontaktov.</string>
+    <string name="CdsPermanentErrorBottomSheet_body">Počet kontaktov v telefóne presahuje limit, ktorý môže V.Call spracovať. Ak chcete vyhľadať kontakty v Signali, zvážte odstránenie kontaktov alebo účtov v telefóne, ktoré synchronizujú priveľa kontaktov.</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_learn_more">Zistiť viac</string>
     <!-- A button label in a bottom sheet that will navigate the user to their contacts settings. -->
@@ -6132,9 +6132,9 @@
 
     <!-- YourInformationIsPrivateBottomSheet -->
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">Vaše údaje sú súkromné</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Počas vášho prispievania na Signal nezhromažďujeme ani neukladáme žiadne vaše osobné údaje.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Počas vášho prispievania na V.Call nezhromažďujeme ani neukladáme žiadne vaše osobné údaje.</string>
     <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">Na prijímanie vašich príspevkov a spracovanie platieb používame službu Stripe. K údajom, ktoré v rámci tejto platobnej brány poskytnete, nemáme prístup ani ich neukladáme.</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal si nespája a ani si nemôže spojiť váš príspevok s vaším Signal účtom.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">V.Call si nespája a ani si nemôže spojiť váš príspevok s vaším V.Call účtom.</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">Ďakujeme za vašu podporu!</string>
 
     <!-- GroupStoryEducationSheet -->
@@ -6165,19 +6165,19 @@
     <!-- Title for screen describing that sms support is going to be removed soon -->
     <string name="SmsRemoval_title_going_away">Podpora SMS čoskoro končí</string>
     <!-- Bullet point message shown on describing screen as first bullet why sms is being removed, placeholder with be date of removal (e.g., March 21st) -->
-    <string name="SmsRemoval_info_bullet_1">Posielanie SMS správ v aplikácii Signal už čoskoro nebude podporované.</string>
+    <string name="SmsRemoval_info_bullet_1">Posielanie SMS správ v aplikácii V.Call už čoskoro nebude podporované.</string>
     <!-- Bullet point message shown on describing screen as second bullet why sms is being removed -->
-    <string name="SmsRemoval_info_bullet_2">SMS správy sú odlišné od Signal správ. <b>Neovplyvní to odosielanie šifrovaných Signal správ, ktoré budú fungovať aj naďalej.</b></string>
+    <string name="SmsRemoval_info_bullet_2">SMS správy sú odlišné od V.Call správ. <b>Neovplyvní to odosielanie šifrovaných V.Call správ, ktoré budú fungovať aj naďalej.</b></string>
     <!-- Bullet point message shown on describing screen as third bullet why sms is being removed -->
     <string name="SmsRemoval_info_bullet_3">Svoje SMS správy môžete exportovať a vybrať si novú aplikáciu pre SMS.</string>
     <!-- Bullet point message shown on describing screen as first bullet variant why sms is being removed when user is locked out of sms -->
-    <string name="SmsRemoval_info_bullet_1_phase_3">Signal odstránil podporu pre odosielanie SMS správ.</string>
+    <string name="SmsRemoval_info_bullet_1_phase_3">V.Call odstránil podporu pre odosielanie SMS správ.</string>
     <!-- Button label on sms removal info/megaphone to start the export SMS flow -->
     <string name="SmsRemoval_export_sms">Exportovať SMS</string>
 
     <!-- Set up your username megaphone -->
     <!-- Displayed as a title on a megaphone which prompts user to set up a username -->
-    <string name="SetUpYourUsername__set_up_your_signal_username">Nastavte si používateľské meno Signal</string>
+    <string name="SetUpYourUsername__set_up_your_signal_username">Nastavte si používateľské meno V.Call</string>
     <!-- Displayed as a description on a megaphone which prompts user to set up a username -->
     <string name="SetUpYourUsername__usernames_let_others">Vytvorením používateľského mena umožníte ostatným, aby vám posielali správy bez nutnosti zadať vaše telefónne číslo</string>
     <!-- Displayed as an action on a megaphone which prompts user to set up a username -->
@@ -6203,7 +6203,7 @@
     <!-- Continue button which takes the user to the add a username screen -->
     <string name="UsernameEducationFragment__continue">Pokračovať</string>
     <!-- Displayed as a title on the username education screen -->
-    <string name="UsernameEducationFragment__set_up_your_signal_username">Nastavte si používateľské meno Signal</string>
+    <string name="UsernameEducationFragment__set_up_your_signal_username">Nastavte si používateľské meno V.Call</string>
     <!-- Displayed as body text in the username education screen -->
     <string name="UsernameEducationFragment__usernames_are_paired_with_a_set_of_digits">Používateľské mená sú spárované so súpravou číslic a nezdieľajú sa vo vašom profile</string>
     <!-- Displayed as body text in the username education screen -->
@@ -6354,21 +6354,21 @@
     <!-- Call link creation item title on calls tab -->
     <string name="CreateCallLink__create_a_call_link">Vytvoriť odkaz na hovor</string>
     <!-- Call link creation item description on calls tab -->
-    <string name="CreateCallLink__share_a_link_for">Zdieľajte odkaz na Signal hovor</string>
+    <string name="CreateCallLink__share_a_link_for">Zdieľajte odkaz na V.Call hovor</string>
 
     <!-- CreateCallLinkBottomSheetDialogFragment -->
     <!-- Fragment title -->
     <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">Vytvoriť odkaz na hovor</string>
     <!-- Displayed as a default name for the signal call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Signal hovor</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">V.Call hovor</string>
     <!-- Displayed on a small button to allow user to instantly join call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__join">Pridať sa</string>
     <!-- Option to open a full screen dialog to enter a call name -->
     <string name="CreateCallLinkBottomSheetDialogFragment__add_call_name">Pridať názov hovoru</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">Schváliť všetkých členov</string>
-    <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Zdieľať odkaz cez Signal</string>
+    <!-- Row label to share the link via V.Call -->
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Zdieľať odkaz cez V.Call</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Skopírovať odkaz</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -6399,7 +6399,7 @@
     <!-- Title shown at top of bottom sheet dialog for displaying a message\'s edit history -->
     <string name="EditMessageHistoryDialog_title">História úprav</string>
     <!-- Title of dialog shown alerting user that edit message is in beta only -->
-    <string name="SendingEditMessageBetaOnlyDialog_title">Len Signal beta</string>
+    <string name="SendingEditMessageBetaOnlyDialog_title">Len V.Call beta</string>
     <!-- Body of dialog shown alerting user that edit message is in beta only and only sent to beta users. -->
     <string name="SendingEditMessageBetaOnlyDialog_body">Úprava správ je k dispozícii iba pre používateľov beta verzie Signalu. Ak upravíte správu, zobrazí sa iba ľuďom, ktorí používajú najnovšiu beta verziu Signalu.</string>
     <!-- Button to cancel sending edit message as it is beta only -->

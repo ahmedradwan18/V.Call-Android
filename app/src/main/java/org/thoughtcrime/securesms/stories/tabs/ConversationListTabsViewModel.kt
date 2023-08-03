@@ -62,6 +62,13 @@ class ConversationListTabsViewModel(repository: ConversationListTabRepository) :
     performStoreUpdate { it.copy(tab = ConversationListTab.STORIES) }
   }
 
+
+
+  fun onSettingsSelected() {
+    internalTabClickEvents.onNext(ConversationListTab.SETTINGS)
+    performStoreUpdate { it.copy(tab = ConversationListTab.SETTINGS) }
+  }
+
   fun onSearchOpened() {
     performStoreUpdate { it.copy(visibilityState = it.visibilityState.copy(isSearchOpen = true)) }
   }

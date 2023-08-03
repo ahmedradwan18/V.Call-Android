@@ -3,14 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/signal_colorSurface2"
-    android:minHeight="80dp">
+    android:layout_height="110dp"
+
+    android:background="@color/white"
+    android:minHeight="50dp">
 
     <View
         android:id="@+id/chats_tab_container"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/calls_tab_container"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,7 +20,7 @@
     <View
         android:id="@+id/calls_tab_container"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/stories_tab_container"
         app:layout_constraintStart_toEndOf="@id/chats_tab_container"
@@ -28,15 +29,34 @@
     <View
         android:id="@+id/stories_tab_container"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/settings_tab_container"
         app:layout_constraintStart_toEndOf="@id/calls_tab_container"
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
+        android:id="@+id/settings_tab_container"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/stories_tab_container"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+
+
+
+
+
+    <View
         android:id="@+id/chats_tab_touch_point"
-        android:layout_width="80dp"
+        android:layout_width="60dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/chats_tab_container"
@@ -45,7 +65,7 @@
 
     <View
         android:id="@+id/calls_tab_touch_point"
-        android:layout_width="80dp"
+        android:layout_width="60dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/calls_tab_container"
@@ -54,17 +74,27 @@
 
     <View
         android:id="@+id/stories_tab_touch_point"
-        android:layout_width="80dp"
+        android:layout_width="60dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/stories_tab_container"
         app:layout_constraintStart_toStartOf="@id/stories_tab_container"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <View
+        android:id="@+id/settings_tab_touch_point"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/settings_tab_container"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/chats_pill"
-        android:layout_width="64dp"
-        android:layout_height="32dp"
+        android:layout_width="55dp"
+        android:layout_margin="64dp"
+        android:layout_height="55dp"
         android:importantForAccessibility="no"
         android:src="@drawable/conversation_tab_icon_background"
         app:layout_constraintBottom_toBottomOf="@id/chats_tab_icon"
@@ -74,8 +104,9 @@
 
     <ImageView
         android:id="@+id/calls_pill"
-        android:layout_width="64dp"
-        android:layout_height="32dp"
+        android:layout_width="55dp"
+        android:layout_margin="64dp"
+        android:layout_height="55dp"
         android:importantForAccessibility="no"
         android:src="@drawable/conversation_tab_icon_background"
         app:layout_constraintBottom_toBottomOf="@id/calls_tab_icon"
@@ -85,15 +116,35 @@
 
     <ImageView
         android:id="@+id/stories_pill"
-        android:layout_width="64dp"
-        android:layout_height="32dp"
+        android:layout_width="55dp"
+        android:layout_margin="64dp"
+        android:layout_height="55dp"
         android:importantForAccessibility="no"
-        android:paddingHorizontal="16dp"
         android:src="@drawable/conversation_tab_icon_background"
         app:layout_constraintBottom_toBottomOf="@id/stories_tab_icon"
         app:layout_constraintEnd_toEndOf="@id/stories_tab_icon"
         app:layout_constraintStart_toStartOf="@id/stories_tab_icon"
         app:layout_constraintTop_toTopOf="@id/stories_tab_icon" />
+
+    <ImageView
+        android:id="@+id/settings_pill"
+        android:layout_width="55dp"
+        android:layout_margin="64dp"
+        android:layout_height="55dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/conversation_tab_icon_background"
+        app:layout_constraintBottom_toBottomOf="@id/settings_tab_icon"
+        app:layout_constraintEnd_toEndOf="@id/settings_tab_icon"
+        app:layout_constraintStart_toStartOf="@id/settings_tab_icon"
+        app:layout_constraintTop_toTopOf="@id/settings_tab_icon" />
+
+
+
+
+
+
+
+
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/chats_tab_icon"
@@ -106,13 +157,13 @@
         app:layout_constraintStart_toStartOf="@id/chats_tab_touch_point"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:lottie_rawRes="@raw/chats_28" />
+        app:lottie_rawRes="@raw/new_chats" />
 
     <TextView
         android:id="@+id/chats_tab_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
         android:text="@string/ConversationListTabs__chats"
         android:textAppearance="@style/TextAppearance.Signal.Body2"
         android:textColor="@color/signal_colorOnBackground"
@@ -132,13 +183,13 @@
         app:layout_constraintStart_toStartOf="@id/calls_tab_touch_point"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:lottie_rawRes="@raw/calls_28" />
+        app:lottie_rawRes="@raw/new_calls" />
 
     <TextView
         android:id="@+id/calls_tab_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
         android:text="@string/ConversationListTabs__calls"
         android:textAppearance="@style/TextAppearance.Signal.Body2"
         android:textColor="@color/signal_colorOnBackground"
@@ -164,7 +215,7 @@
         android:id="@+id/stories_tab_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
         android:text="@string/ConversationListTabs__stories"
         android:textAppearance="@style/TextAppearance.Signal.Body2"
         android:textColor="@color/signal_colorOnBackground"
@@ -172,6 +223,34 @@
         app:layout_constraintEnd_toEndOf="@id/stories_tab_icon"
         app:layout_constraintStart_toStartOf="@id/stories_tab_icon"
         app:layout_constraintTop_toBottomOf="@id/stories_tab_icon" />
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/settings_tab_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/settings_tab_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/settings_tab_touch_point"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:lottie_rawRes="@raw/new_settings" />
+
+    <TextView
+        android:id="@+id/settings_tab_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/CallLogFragment__settings"
+        android:textAppearance="@style/TextAppearance.Signal.Body2"
+        android:textColor="@color/signal_colorOnBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/settings_tab_icon"
+        app:layout_constraintStart_toStartOf="@id/settings_tab_icon"
+        app:layout_constraintTop_toBottomOf="@id/settings_tab_icon" />
 
     <TextView
         android:id="@+id/chats_unread_indicator"
@@ -225,6 +304,25 @@
         android:textSize="11sp"
         app:layout_constraintStart_toStartOf="@id/stories_tab_icon"
         app:layout_constraintBottom_toBottomOf="@+id/stories_tab_icon"
+        tools:text="99+" />
+
+
+    <TextView
+        android:id="@+id/settings_unread_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="16sp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/tab_unread_circle"
+        android:gravity="center_horizontal"
+        android:minWidth="16sp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textAppearance="@style/Signal.Text.Caption"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@id/settings_tab_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/settings_tab_icon"
         tools:text="99+" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

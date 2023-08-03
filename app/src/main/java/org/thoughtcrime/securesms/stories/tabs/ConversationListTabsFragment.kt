@@ -62,6 +62,16 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       LottieProperty.COLOR
     ) { iconTint }
 
+
+    binding.settingsTabIcon.addValueCallback(
+      KeyPath("**"),
+      LottieProperty.COLOR
+    ) { iconTint }
+
+
+
+
+
     view.findViewById<View>(R.id.chats_tab_touch_point).setOnClickListener {
       viewModel.onChatsSelected()
     }
@@ -72,6 +82,10 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
 
     view.findViewById<View>(R.id.stories_tab_touch_point).setOnClickListener {
       viewModel.onStoriesSelected()
+    }
+
+    view.findViewById<View>(R.id.settings_tab_touch_point).setOnClickListener {
+      viewModel.onSettingsSelected()
     }
 
     updateTabsVisibility()
@@ -118,6 +132,10 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       it.visible = Stories.isFeatureEnabled()
     }
 
+
+
+
+
     if (SignalStore.settings().useCompactNavigationBar) {
       listOf(
         binding.callsTabLabel,
@@ -128,6 +146,16 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       }
     }
 
+    listOf(
+      binding.settingsPill,
+      binding.settingsTabIcon,
+      binding.settingsTabContainer,
+      binding.settingsTabLabel,
+      binding.settingsUnreadIndicator,
+      binding.settingsTabTouchPoint
+    ).forEach {
+      it.visible = Stories.isFeatureEnabled()
+    }
     update(viewModel.stateSnapshot, true)
   }
 
@@ -143,6 +171,9 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
     binding.callsTabIcon.isSelected = state.tab == ConversationListTab.CALLS
     binding.callsPill.isSelected = state.tab == ConversationListTab.CALLS
 
+    binding.settingsTabIcon.isSelected = state.tab == ConversationListTab.SETTINGS
+    binding.settingsPill.isSelected = state.tab == ConversationListTab.SETTINGS
+
     val hasStateChange = state.tab != state.prevTab
     if (immediate) {
       binding.chatsTabIcon.pauseAnimation()
@@ -156,11 +187,15 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       binding.callsTabIcon.pauseAnimation()
       binding.callsTabIcon.progress = if (state.tab == ConversationListTab.CALLS) 1f else 0f
 
+      binding.settingsTabIcon.pauseAnimation()
+      binding.settingsTabIcon.progress = if (state.tab == ConversationListTab.SETTINGS) 1f else 0f
+
       runPillAnimation(
         0,
         listOfNotNull(
           binding.chatsPill,
           binding.callsPill,
+          binding.settingsPill,
           binding.storiesPill.takeIf { Stories.isFeatureEnabled() }
         )
       )
@@ -169,6 +204,7 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
         listOfNotNull(
           binding.chatsTabIcon,
           binding.callsTabIcon,
+          binding.settingsTabIcon,
           binding.storiesTabIcon.takeIf { Stories.isFeatureEnabled() }
         )
       )
@@ -178,6 +214,7 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
         listOfNotNull(
           binding.chatsPill,
           binding.callsPill,
+          binding.settingsPill,
           binding.storiesPill.takeIf { Stories.isFeatureEnabled() }
         )
       )
@@ -193,6 +230,9 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
 
     binding.callsUnreadIndicator.visible = state.unreadCallsCount > 0
     binding.callsUnreadIndicator.text = formatCount(state.unreadCallsCount)
+
+    binding.settingsUnreadIndicator.visible = state.unreadMeetingsCount > 0
+    binding.settingsUnreadIndicator.text = formatCount(state.unreadMeetingsCount)
 
     requireView().visible = state.visibilityState.isVisible()
   }

@@ -24,28 +24,28 @@
     <string name="save">儲存</string>
     <string name="note_to_self">給自己的筆記</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">天氣</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">筆記</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">新聞</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">波浪</string>
 
     <!-- AlbumThumbnailView -->
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Signal 正在更新中…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">V.Call 正在更新中…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">你還沒有建立密碼！</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">停用密碼嗎？</string>
-    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">這將會永久性地解鎖 Signal 與訊息通知。</string>
+    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">這將會永久性地解鎖 V.Call 與訊息通知。</string>
     <string name="ApplicationPreferencesActivity_disable">停用</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">停用 Signal 訊息與通話？</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">這將會從伺服器上取消你的註冊並停用 Signal 訊息和通話。日後如果想再次使用，則需要重新註冊你的電話號碼。</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">停用 V.Call 訊息與通話？</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">這將會從伺服器上取消你的註冊並停用 V.Call 訊息和通話。日後如果想再次使用，則需要重新註冊你的電話號碼。</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">與伺服器的連線發生錯誤！</string>
     <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">PIN 碼是註冊鎖定所必需的。如要停用 PIN 碼，請先關閉註冊鎖定功能。</string>
     <string name="ApplicationPreferencesActivity_pin_created">PIN 碼已建立。</string>
@@ -81,15 +81,15 @@
     <string name="AttachmentKeyboard_file">檔案</string>
     <string name="AttachmentKeyboard_contact">聯絡人</string>
     <string name="AttachmentKeyboard_location">位置</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal 需要權限以顯示你的照片及影片。</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">V.Call 需要權限以顯示你的照片及影片。</string>
     <string name="AttachmentKeyboard_give_access">允許存取</string>
     <string name="AttachmentKeyboard_payment">付款</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">找不到合適的應用程式來選擇媒體檔案。</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal 需要儲存的權限，以存取照片、影片或聲音檔。但是現在被設定為永久拒絕存取。請到應用程式設定中，選擇「權限」及開啟「儲存」。</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal 需要聯絡人的權限以存取聯絡人資訊，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取「權限」，並啟用「聯絡人」的權限。</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal 需要位置的權限以存取位置資訊，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取「權限」，並啟用「位置」的權限。</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">V.Call 需要儲存的權限，以存取照片、影片或聲音檔。但是現在被設定為永久拒絕存取。請到應用程式設定中，選擇「權限」及開啟「儲存」。</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">V.Call 需要聯絡人的權限以存取聯絡人資訊，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取「權限」，並啟用「聯絡人」的權限。</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">V.Call 需要位置的權限以存取位置資訊，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取「權限」，並啟用「位置」的權限。</string>
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s 尚未啟動付款 </string>
     <!-- Alert dialog description to send the recipient a request to activate payments -->
@@ -126,7 +126,7 @@
     <string name="CreditCardFragment__donation_amount_s_per_month">捐款金額：每月 %1$s</string>
     <!-- Explanation of how to fill in the form, displayed above the credit card text fields -->
     <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-    <string name="CreditCardFragment__enter_your_card_details">請輸入付款卡詳情。Signal 不會收集或保存你的個人資料。</string>
+    <string name="CreditCardFragment__enter_your_card_details">請輸入付款卡詳情。V.Call 不會收集或保存你的個人資料。</string>
     <!-- Displayed as a hint in the card number text field -->
     <string name="CreditCardFragment__card_number">付款卡號碼</string>
     <!-- Displayed as a hint in the card expiry text field -->
@@ -158,16 +158,16 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">你將不再收到來自該群組的訊息或更新，並且成員將無法再次將你新增到該群組。</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">群組成員將無法再次將你新增到該群組中。</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">群組成員將能夠再次將你新增到該群組。</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a V.Call contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">你將能夠互相發訊息和打電話，並且你的姓名和照片將與他們共享。</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">你們將可以互相傳送訊息。</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">被封鎖的人將無法給你打電話或向你傳送訊息。</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">被封鎖的人將無法向你傳送訊息。</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
-    <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">封鎖取得 Signal 更新和新聞的通知。</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
-    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">繼續取得 Signal 更新和新聞的通知。</string>
+    <!-- Message shown on block dialog when blocking the V.Call release notes recipient -->
+    <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">封鎖取得 V.Call 更新和新聞的通知。</string>
+    <!-- Message shown on unblock dialog when unblocking the V.Call release notes recipient -->
+    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">繼續取得 V.Call 更新和新聞的通知。</string>
     <string name="BlockUnblockDialog_unblock_s">解除封鎖%1$s嗎？</string>
     <string name="BlockUnblockDialog_block">封鎖</string>
     <string name="BlockUnblockDialog_block_and_leave">封鎖並離開</string>
@@ -194,24 +194,24 @@
 
     <!-- CameraContacts -->
     <string name="CameraContacts_recent_contacts">最近的聯絡人</string>
-    <string name="CameraContacts_signal_contacts">Signal 聯絡人</string>
-    <string name="CameraContacts_signal_groups">Signal 群組</string>
+    <string name="CameraContacts_signal_contacts">V.Call 聯絡人</string>
+    <string name="CameraContacts_signal_groups">V.Call 群組</string>
     <!-- A warning shown in a toast when  -->
     <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
         <item quantity="other">你可以分享最多 %1$d 個聊天。</item>
     </plurals>
-    <string name="CameraContacts_select_signal_recipients">選擇 Signal 收件人</string>
-    <string name="CameraContacts_no_signal_contacts">沒有 Signal 聯絡人</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">你只能使用相機按鈕將照片傳送到 Signal 聯絡人。 </string>
+    <string name="CameraContacts_select_signal_recipients">選擇 V.Call 收件人</string>
+    <string name="CameraContacts_no_signal_contacts">沒有 V.Call 聯絡人</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">你只能使用相機按鈕將照片傳送到 V.Call 聯絡人。 </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">找不到你要找的人？</string>
-    <string name="CameraContacts_invite_a_contact_to_join_signal">邀請一個聯絡人來使用 Signal</string>
+    <string name="CameraContacts_invite_a_contact_to_join_signal">邀請一個聯絡人來使用 V.Call</string>
     <string name="CameraContacts__menu_search">搜尋</string>
 
     <!-- Censorship Circumvention Megaphone -->
     <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">要關閉審查規避嗎？</string>
     <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">你現可直接連線到 Signal 服務以享有更佳體驗。</string>
+    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">你現可直接連線到 V.Call 服務以享有更佳體驗。</string>
     <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off">關閉</string>
     <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -223,7 +223,7 @@
     <string name="ClearProfileActivity_remove_group_photo">移除群組照片？</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">更新 Signal</string>
+    <string name="ClientDeprecatedActivity_update_signal">更新 V.Call</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">不再支援此版本的應用程式。 要繼續傳送和接收訊息，請更新到最新版本。</string>
     <string name="ClientDeprecatedActivity_update">更新</string>
     <string name="ClientDeprecatedActivity_dont_update">不更新</string>
@@ -264,7 +264,7 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">傳送訊息給 %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">與 %1$s 進行 Signal 通話</string>
+    <string name="ContactsDatabase_signal_call_s">與 %1$s 進行 V.Call 通話</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -297,7 +297,7 @@
     <string name="ConversationItem_click_to_approve_unencrypted">傳送失敗，輕觸改用不安全的遞補方式</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">改用未加密的簡訊作為遞補方式？</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">改用未加密的多媒體訊息作為遞補方式？</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">由於對方已經不再是 Signal 的使用者，當前訊息<b>不會</b>被加密。\n\n傳送不加密的訊息？</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">由於對方已經不再是 V.Call 的使用者，當前訊息<b>不會</b>被加密。\n\n傳送不加密的訊息？</string>
     <string name="ConversationItem_unable_to_open_media">找不到合適的應用程式來開啟媒體檔案。</string>
     <string name="ConversationItem_copied_text">已複製 %1$s</string>
     <string name="ConversationItem_from_s">來自 %1$s</string>
@@ -351,8 +351,8 @@
     <string name="ConversationActivity_transport_insecure_sms_with_sim">不安全的簡訊 (%1$s)</string>
     <string name="ConversationActivity_transport_insecure_mms">不安全的多媒體訊息</string>
     <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-    <string name="ConversationActivity_transport_signal">Signal 訊息</string>
-    <string name="ConversationActivity_lets_switch_to_signal">我們要不要切換到 Signal %1$s</string>
+    <string name="ConversationActivity_transport_signal">V.Call 訊息</string>
+    <string name="ConversationActivity_lets_switch_to_signal">我們要不要切換到 V.Call %1$s</string>
     <string name="ConversationActivity_specify_recipient">請選擇聯絡人</string>
     <string name="ConversationActivity_unblock">解除封鎖</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">當前訊息的附檔類型已經超越大小限制。</string>
@@ -367,18 +367,18 @@
     <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">你的加入要求已傳送到群組管理員。 他們採取行動時會通知你。</string>
     <string name="ConversationActivity_cancel_request">取消要求</string>
 
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">若要傳送語音訊息，請允許 Signal 使用您的麥克風</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal 需要麥克風的權限來傳送語音訊息，但是現在系統設定為總是拒絕 Signal。請到 Signal 的應用程式設定中，點選「權限」，並啟用「麥克風」的權限。</string>
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal 需要麥克風和相機的權限來打電話給 %1$s，但是現在系統設定為總是拒絕 Signal。請到 Signal 的應用程式設定中，點選「權限」，並啟用麥克風和相機的權限。</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">請授予 Signal 使用相機的權限，才能拍攝照片和影片</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal 需要相機的權限來拍攝照片或是影片 ，但是現在系統設定為總是拒絕 Signal。請到 Signal 的應用程式設定中，點選「權限」，並啟用相機的權限。</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal 需要使用相機的權限來拍攝照片和影片</string>
+    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">若要傳送語音訊息，請允許 V.Call 使用您的麥克風</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">V.Call 需要麥克風的權限來傳送語音訊息，但是現在系統設定為總是拒絕 V.Call。請到 V.Call 的應用程式設定中，點選「權限」，並啟用「麥克風」的權限。</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">V.Call 需要麥克風和相機的權限來打電話給 %1$s，但是現在系統設定為總是拒絕 V.Call。請到 V.Call 的應用程式設定中，點選「權限」，並啟用麥克風和相機的權限。</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">請授予 V.Call 使用相機的權限，才能拍攝照片和影片</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">V.Call 需要相機的權限來拍攝照片或是影片 ，但是現在系統設定為總是拒絕 V.Call。請到 V.Call 的應用程式設定中，點選「權限」，並啟用相機的權限。</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">V.Call 需要使用相機的權限來拍攝照片和影片</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">開啟麥克風權限以擷取帶有音效的影片。</string>
     <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal需要麥克風權限才能錄製影片，但已被拒絕。 請繼續進行應用程式設定，選擇“權限”，然後啟用“麥克風”和“相機”。</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal 需要麥克風權限以錄製影片。</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">V.Call 需要麥克風權限以錄製影片。</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal 無法傳送 SMS/MMS 訊息，因為Signal 不是你預設 SMS 應用軟體。你要在 Android 設定中改變這個設定嗎？</string>
+    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">V.Call 無法傳送 SMS/MMS 訊息，因為Signal 不是你預設 SMS 應用軟體。你要在 Android 設定中改變這個設定嗎？</string>
     <string name="ConversationActivity_yes">是</string>
     <string name="ConversationActivity_no">否</string>
     <string name="ConversationActivity_search_position">第 %1$d 個，共 %2$d 個</string>
@@ -394,7 +394,7 @@
     <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">你將離開此群組，及它將從你所有的裝置上被刪除。</string>
     <string name="ConversationActivity_delete">刪除</string>
     <string name="ConversationActivity_delete_and_leave">刪除並離開</string>
-    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">如要與 %1$s 通話，Signal 需要存取你的麥克風</string>
+    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">如要與 %1$s 通話，V.Call 需要存取你的麥克風</string>
 
 
     <string name="ConversationActivity_join">加入</string>
@@ -407,22 +407,22 @@
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
     <string name="ConversationActivity__sms_messaging_is_currently_disabled_you_can_export_your_messages_to_another_app_on_your_phone">SMS 短訊功能目前已停用。你可以將短訊匯出至其他手機應用程式。</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">Signal 不再支援短訊功能。你可以將短訊匯出至其他手機應用程式。</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">V.Call 不再支援短訊功能。你可以將短訊匯出至其他手機應用程式。</string>
     <!-- Action button shown when in sms conversation, sms is disabled, and unexported sms messages are present -->
     <string name="ConversationActivity__export_sms_messages">匯出簡訊</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">SMS 短訊功能目前已停用。邀請 %1$s 加入 Signal 以繼續對話。</string>
+    <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">SMS 短訊功能目前已停用。邀請 %1$s 加入 V.Call 以繼續對話。</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Signal 不再支援短訊功能。邀請 %1$s 加入 Signal 以繼續對話。</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">V.Call 不再支援短訊功能。邀請 %1$s 加入 V.Call 以繼續對話。</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">邀請至 Signal</string>
+    <string name="ConversationActivity__invite_to_signal">邀請至 V.Call</string>
     <!-- Snackbar message shown after dismissing the full screen sms export megaphone indicating we\'ll do it again soon -->
     <string name="ConversationActivity__you_will_be_reminded_again_soon">我們稍後會再次提醒你。</string>
 
     <!-- Title for dialog shown when first sending formatted text -->
     <string name="SendingFormattingTextDialog_title">傳送格式化文字</string>
     <!-- Message for dialog shown when first sending formatted text -->
-    <string name="SendingFormattingTextDialog_message">有些人可能正在使用不支援格式化文字的 Signal 版本，他們將無法看到你對訊息作出的格式變更。</string>
+    <string name="SendingFormattingTextDialog_message">有些人可能正在使用不支援格式化文字的 V.Call 版本，他們將無法看到你對訊息作出的格式變更。</string>
     <!-- Button text for confirming they\'d like to send the message with formatting after seeing warning. -->
     <string name="SendingFormattingTextDialog_send_anyway_button">仍然傳送</string>
     <!-- Button text for canceling sending the message with formatting after seeing warning. -->
@@ -482,7 +482,7 @@
     <string name="ConversationFragment_verify">驗證</string>
     <string name="ConversationFragment_not_now">稍後</string>
     <string name="ConversationFragment_your_safety_number_with_s_changed">你與 %1$s 的安全碼已變更</string>
-    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">你與 %1$s 的安全碼已變更，可能是因為對方重新安裝了 Signal 或更換了裝置。輕觸「驗證」以確認新的安全碼。這是可選的。</string>
+    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">你與 %1$s 的安全碼已變更，可能是因為對方重新安裝了 V.Call 或更換了裝置。輕觸「驗證」以確認新的安全碼。這是可選的。</string>
     <!-- Message shown to indicate which notification profile is on/active -->
     <string name="ConversationFragment__s_on">%1$s 開啟了</string>
     <!-- Dialog title for block group link join requests -->
@@ -496,13 +496,13 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">已封鎖</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">更新 Signal</string>
+    <string name="ConversationFragment__update_build">更新 V.Call</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">重新註冊 Signal</string>
+    <string name="ConversationFragment__reregister_signal">重新註冊 V.Call</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">導向返回。</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">開啟 Signal</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">開啟 V.Call</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">已無驗證</string>
 
@@ -600,9 +600,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">誰能用手機號碼找到我？</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has">只要對方通訊錄裡有你的手機號碼，他們就會看到你的 Signal 聯絡人身分。其他使用者則可用你的手機號碼搜尋到你。</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has">只要對方通訊錄裡有你的手機號碼，他們就會看到你的 V.Call 聯絡人身分。其他使用者則可用你的手機號碼搜尋到你。</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_on_signal">任何 Signal 使用者將無法用你的手機號碼找到你。</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_on_signal">任何 V.Call 使用者將無法用你的手機號碼找到你。</string>
 
     <!-- ChooseBackupFragment -->
     <string name="ChooseBackupFragment__restore_from_backup">從備份來還原？</string>
@@ -644,7 +644,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d到目前為止…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">目前進度%1$s%%…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">為了要建立備份，Signal 需要外部空間的權限，但是已被永久拒絕。請到應用程式設定，選擇「權限」及開啟「儲存」。</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">為了要建立備份，V.Call 需要外部空間的權限，但是已被永久拒絕。請到應用程式設定，選擇「權限」及開啟「儲存」。</string>
 
 
     <!-- CustomDefaultPreference -->
@@ -733,10 +733,10 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">為缺少的 Play 服務優化</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">這個裝置不支援 Play 服務。輕觸關閉，因為系統電池效能最佳化會防止 Signal 在閒置時取得訊息。</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">這個裝置不支援 Play 服務。輕觸關閉，因為系統電池效能最佳化會防止 V.Call 在閒置時取得訊息。</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">此版本的 Signal 已過期。立即更新以傳送和接收訊息。</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">此版本的 V.Call 已過期。立即更新以傳送和接收訊息。</string>
     <string name="ExpiredBuildReminder_update_now">立即更新</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
@@ -746,8 +746,8 @@
     <string name="PendingGroupJoinRequestsReminder_view">檢視</string>
 
     <!-- GcmRefreshJob -->
-    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Signal 持續發生傳輸異常！</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal 無法順利與 Google Play Services 註冊，Signal 訊息與通話已經停用，請嘗試在設定 &gt; 進階中重新註冊。</string>
+    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">V.Call 持續發生傳輸異常！</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">V.Call 無法順利與 Google Play Services 註冊，V.Call 訊息與通話已經停用，請嘗試在設定 &gt; 進階中重新註冊。</string>
 
 
     <!-- GiphyActivity -->
@@ -860,7 +860,7 @@
     <string name="LinkPreviewView_this_group_link_is_not_active">此群組連結無效</string>
     <string name="LinkPreviewView_domain_date">%1$s · %2$s</string>
     <!-- Description for Call Link url previews -->
-    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">使用此連結以加入 Signal 通話</string>
+    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">使用此連結以加入 V.Call 通話</string>
 
     <!-- LinkPreviewRepository -->
     <plurals name="LinkPreviewRepository_d_members">
@@ -917,9 +917,9 @@
     <string name="AddGroupDetailsFragment__sms_contact">短訊聯絡人</string>
     <string name="AddGroupDetailsFragment__remove_s_from_this_group">從此群組移除%1$s嗎？</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">你選取的聯絡人無法使用 Signal 群組，因此本群組將採用多媒體訊息模式。只有你能查看自訂多媒體訊息的群組名稱及相片。</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">你選取的聯絡人無法使用 V.Call 群組，因此本群組將採用多媒體訊息模式。只有你能查看自訂多媒體訊息的群組名稱及相片。</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">你選取的聯絡人無法使用 Signal 群組，因此群組將使用多媒體訊息。只有你可以看到自訂的多媒體訊息群組名稱和相片。系統即將停止支援多媒體訊息群組，專注提供加密通訊服務。</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">你選取的聯絡人無法使用 V.Call 群組，因此群組將使用多媒體訊息。只有你可以看到自訂的多媒體訊息群組名稱和相片。系統即將停止支援多媒體訊息群組，專注提供加密通訊服務。</string>
 
     <!-- ManageGroupActivity -->
     <string name="ManageGroupActivity_who_can_add_new_members">誰可以新增新成員？</string>
@@ -931,7 +931,7 @@
 
     <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">你沒有權限來做此事</string>
     <string name="ManageGroupActivity_not_capable">你新增的人不支援新群組，需要更新Signal</string>
-    <string name="ManageGroupActivity_not_announcement_capable">你新增的人不支援公告群組，其須要更新 Signal</string>
+    <string name="ManageGroupActivity_not_announcement_capable">你新增的人不支援公告群組，其須要更新 V.Call</string>
     <string name="ManageGroupActivity_failed_to_update_the_group">更新群組失敗</string>
     <string name="ManageGroupActivity_youre_not_a_member_of_the_group">你不是群組組員</string>
     <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">無法更新群組，請稍後重試</string>
@@ -1048,9 +1048,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">更新 Signal 以使用群組連結</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">更新 V.Call 以使用群組連結</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">你使用的Signal版本不支援此群組連結。透過連結更新到最新版本以加入該群組。</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">更新 Signal</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">更新 V.Call</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">群組連結無效</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1081,8 +1081,8 @@
 
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">按住並保持以錄製語音訊息，鬆開即傳送</string>
-    <!-- Message shown if the user tries to switch a conversation from Signal to SMS -->
-    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">Signal 不再支援短訊功能。</string>
+    <!-- Message shown if the user tries to switch a conversation from V.Call to SMS -->
+    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">V.Call 不再支援短訊功能。</string>
     <!-- When editing a message, label shown above the text input field in the composer -->
     <string name="InputPanel_edit_message">編輯訊息</string>
 
@@ -1094,12 +1094,12 @@
     <string name="InviteActivity_cancel">取消</string>
     <string name="InviteActivity_sending">傳送中…</string>
     <string name="InviteActivity_invitations_sent">邀請已傳送！</string>
-    <string name="InviteActivity_invite_to_signal">邀請加入 Signal</string>
+    <string name="InviteActivity_invite_to_signal">邀請加入 V.Call</string>
     <string name="InviteActivity_send_sms">傳送 SMS(%1$d)</string>
     <plurals name="InviteActivity_send_sms_invites">
         <item quantity="other">傳送 %1$d 則簡訊邀請？</item>
     </plurals>
-    <string name="InviteActivity_lets_switch_to_signal">讓我們切換到 Signal：%1$s</string>
+    <string name="InviteActivity_lets_switch_to_signal">讓我們切換到 V.Call：%1$s</string>
     <string name="InviteActivity_no_app_to_share_to">看起來您沒有任何可以分享的應用。</string>
 
     <!-- LearnMoreTextView -->
@@ -1166,7 +1166,7 @@
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">稍後提醒我</string>
-    <string name="Megaphones_verify_your_signal_pin">驗證你的 Signal PIN 碼</string>
+    <string name="Megaphones_verify_your_signal_pin">驗證你的 V.Call PIN 碼</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">我們偶爾會要求你驗證你的 PIN 碼，以便你能記住它。</string>
     <string name="Megaphones_verify_pin">驗證 PIN 碼</string>
     <string name="Megaphones_get_started">開始使用</string>
@@ -1180,10 +1180,10 @@
     <string name="MessageQuotesBottomSheet_replies">回覆</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Signal 通話連線中</string>
+    <string name="NotificationBarManager__establishing_signal_call">V.Call 通話連線中</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">展開 Signal 通話服務</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Signal 來電服務停止中</string>
+    <string name="NotificationBarManager__starting_signal_call_service">展開 V.Call 通話服務</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">V.Call 來電服務停止中</string>
     <string name="NotificationBarManager__decline_call">拒接來電</string>
     <string name="NotificationBarManager__answer_call">接聽通話</string>
     <string name="NotificationBarManager__end_call">結束通話</string>
@@ -1213,7 +1213,7 @@
 
     <!-- MessageRecord -->
     <string name="MessageRecord_unknown">未知</string>
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">收到一則使用舊版本並已經不再支援的 Signal 加密訊息。請尋求傳送人將 Signal 升級到最新的版本並再次傳送該訊息。</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">收到一則使用舊版本並已經不再支援的 V.Call 加密訊息。請尋求傳送人將 V.Call 升級到最新的版本並再次傳送該訊息。</string>
     <string name="MessageRecord_left_group">您已經離開了此群組。</string>
     <string name="MessageRecord_you_updated_group">你已更新群組。</string>
     <string name="MessageRecord_the_group_was_updated">該群組已更新。</string>
@@ -1240,7 +1240,7 @@
     <!-- Call update formatter string to place the update message next to a time stamp. e.g., \'Incoming voice call · 11:11am\' -->
     <string name="MessageRecord_call_message_with_date">%1$s · %2$s</string>
     <string name="MessageRecord_s_updated_group">%1$s 更新了群組。</string>
-    <string name="MessageRecord_s_joined_signal">%1$s 在 Signal 了！</string>
+    <string name="MessageRecord_s_joined_signal">%1$s 在 V.Call 了！</string>
     <string name="MessageRecord_you_disabled_disappearing_messages">你關閉了自動銷毀訊息的功能。</string>
     <string name="MessageRecord_s_disabled_disappearing_messages">%1$s 關閉了自動銷毀訊息的功能。</string>
     <string name="MessageRecord_you_set_disappearing_message_time_to_s">你已將訊息銷毀時間設定為 %1$s。</string>
@@ -1418,7 +1418,7 @@
     <string name="MessageRecord_a_message_from_s_couldnt_be_delivered">來自 %1$s 的一則訊息無法送達</string>
     <string name="MessageRecord_s_changed_their_phone_number">%1$s 變更了他們的電話號碼。</string>
     <!-- Update item message shown in the release channel when someone is already a sustainer so we ask them if they want to boost. -->
-    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">喜歡這項新功能？不妨透過單次捐款，支持 Signal 未來的發展。</string>
+    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">喜歡這項新功能？不妨透過單次捐款，支持 V.Call 未來的發展。</string>
     <!-- Update item message shown when we merge two threads together. First placeholder is a name, second placeholder is a phone number. -->
     <string name="MessageRecord_your_message_history_with_s_and_their_number_s_has_been_merged">你與 %1$s 的訊息紀錄及其號碼 %2$s 已經合併。</string>
     <!-- Update item message shown when we merge two threads together and we don\'t know the phone number of the other thread. The placeholder is a person\'s name. -->
@@ -1460,9 +1460,9 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">你很快將無法再於 Signal 傳送短訊。邀請 %1$s 加入 Signal 以繼續對話。</string>
+    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">你很快將無法再於 V.Call 傳送短訊。邀請 %1$s 加入 V.Call 以繼續對話。</string>
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">你無法再於 Signal 傳送短訊。邀請 %1$s 加入 Signal 以繼續對話。</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">你無法再於 V.Call 傳送短訊。邀請 %1$s 加入 V.Call 以繼續對話。</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">付款：%1$s</string>
 
@@ -1475,7 +1475,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">你是否允許 %1$s 與你通訊，並分享你的名字及照片？你之前曾移除此人。</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">讓%1$s傳訊息給你並與他們分享你的名字和照片嗎？ 在你接受之前，他們不會知道你已看到他們的訊息。</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a V.Call user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">讓%1$s傳訊息給你並與他們分享你的名字和照片嗎？ 除非你解鎖他們，否則你將不會收到任何訊息。</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">要讓 %1$s 傳訊息給你嗎？在解封鎖他們之前，你不會收到任何訊息。</string>
@@ -1529,10 +1529,10 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">QR 碼無效。</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">抱歉，您已連結太多裝置，請試試先移除部分</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">抱歉，這不是有效的裝置連結 QR 碼。</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">連結 Signal 裝置？</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">看起來您正在嘗試使用第 3 方掃描器連結 Signal 裝置。為了安全著想，請使用 Signal 重新掃描代碼一次。</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">連結 V.Call 裝置？</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">看起來您正在嘗試使用第 3 方掃描器連結 V.Call 裝置。為了安全著想，請使用 V.Call 重新掃描代碼一次。</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal 需要相機的權限以掃描 QR 碼，但是現在被設定為永久拒絕使用。請到應用程式設定中，選取「權限」，並啟用「相機」的權限。</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">V.Call 需要相機的權限以掃描 QR 碼，但是現在被設定為永久拒絕使用。請到應用程式設定中，選取「權限」，並啟用「相機」的權限。</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">因為沒有相機的使用權限，所以無法掃描 QR 碼。</string>
 
     <!-- OutdatedBuildReminder -->
@@ -1544,11 +1544,11 @@
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">輸入自訂密碼</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Signal 圖示</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">V.Call 圖示</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">送出密碼</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">無效的密碼！</string>
-    <string name="PassphrasePromptActivity_unlock_signal">解鎖 Signal</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android-螢幕鎖定</string>
+    <string name="PassphrasePromptActivity_unlock_signal">解鎖 V.Call</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">V.Call Android-螢幕鎖定</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">地圖</string>
@@ -1572,30 +1572,30 @@
     <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
         <item quantity="other">你還有 %1$d 次嘗試的機會。機會耗盡後，你可建立一個新的 PIN 碼。註冊和使用帳號將不成問題，惟你會遺失一些已儲存的設定，例如你的個人資料訊息。</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal 註冊 - 在 Android 上需要 PIN 碼協助</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">V.Call 註冊 - 在 Android 上需要 PIN 碼協助</string>
     <!-- Button label to prompt the user to switch between an alphanumeric and numeric-only keyboards -->
     <string name="PinRestoreEntryFragment_switch_keyboard">切換鍵盤</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">建立你的 PIN 碼</string>
-    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">你已耗盡猜測 PIN 碼的嘗試機會了，但你仍可建立一個新的 PIN 碼，以便存取你的 Signal 帳號。為確保你的隱私和安全，將會恢復您的帳號，惟不會還原任何已儲存的個人資料訊息或設定。</string>
+    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">你已耗盡猜測 PIN 碼的嘗試機會了，但你仍可建立一個新的 PIN 碼，以便存取你的 V.Call 帳號。為確保你的隱私和安全，將會恢復您的帳號，惟不會還原任何已儲存的個人資料訊息或設定。</string>
     <string name="PinRestoreLockedFragment_create_new_pin">建立新的 PIN 碼</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
 
     <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
     <string name="ReRegisterWithPinFragment_send_sms_code">傳送 SMS 驗證碼</string>
     <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
-    <string name="ReRegisterWithPinFragment_support_email_subject">Signal 註冊 — Android 用戶需要重新註冊 PIN 碼的協助</string>
+    <string name="ReRegisterWithPinFragment_support_email_subject">V.Call 註冊 — Android 用戶需要重新註冊 PIN 碼的協助</string>
     <!-- Dialog message shown in reregister flow when tapping a informational button to to learn about pins or contact support for help -->
     <string name="ReRegisterWithPinFragment_need_help_local">PIN 碼是由你建立的 %1$d 位數以上密碼，可以由數字或字母數字混合。如果你忘記 PIN 碼，可以建立一個新的 PIN 碼。</string>
     <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
     <string name="ReRegisterWithPinFragment_skip_local">如果你忘記 PIN 碼，可以建立一個新的 PIN 碼。</string>
     <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-    <string name="ReRegisterWithPinFragment_out_of_guesses_local">你已經用完 PIN 碼猜測次數，但是你仍然可以透過建立新的 PIN 碼來使用你的 Signal 帳戶。</string>
+    <string name="ReRegisterWithPinFragment_out_of_guesses_local">你已經用完 PIN 碼猜測次數，但是你仍然可以透過建立新的 PIN 碼來使用你的 V.Call 帳戶。</string>
 
     <!-- PinOptOutDialog -->
     <string name="PinOptOutDialog_warning">警告</string>
-    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">如果你停用 PIN 碼，則除非你進行手動備份和還原，否則當你重新註冊 Signal 時，將會遺失所有資料。停用 PIN 碼時無法開啟註冊鎖定。</string>
+    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">如果你停用 PIN 碼，則除非你進行手動備份和還原，否則當你重新註冊 V.Call 時，將會遺失所有資料。停用 PIN 碼時無法開啟註冊鎖定。</string>
     <string name="PinOptOutDialog_disable_pin">停用 PIN 碼</string>
 
     <!-- RatingManager -->
@@ -1624,7 +1624,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">我的限時動態</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Signal 通話</string>
+    <string name="Recipient_signal_call">V.Call 通話</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">封鎖</string>
@@ -1649,8 +1649,8 @@
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">輕觸此處以開啟你的視訊</string>
-    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">如要撥電話給 %1$s，Signal 需要存取你的相機</string>
-    <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">如要撥電話給 %1$s，V.Call 需要存取你的相機</string>
+    <string name="WebRtcCallActivity__signal_s">V.Call %1$s</string>
     <string name="WebRtcCallActivity__calling">撥號中…</string>
     <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">群組太大，無法給參與者打電話。</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
@@ -1665,8 +1665,8 @@
     <string name="WebRtcCallActivity__not_now">稍後</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Signal 語音通話</string>
-    <string name="WebRtcCallView__signal_video_call">Signal 視訊電話</string>
+    <string name="WebRtcCallView__signal_call">V.Call 語音通話</string>
+    <string name="WebRtcCallView__signal_video_call">V.Call 視訊電話</string>
     <string name="WebRtcCallView__start_call">開始通話</string>
     <string name="WebRtcCallView__join_call">加入通話</string>
     <string name="WebRtcCallView__call_is_full">通話人數已滿</string>
@@ -1676,10 +1676,10 @@
     <string name="WebRtcCallView__joining">加入中…</string>
     <string name="WebRtcCallView__disconnected">已斷線</string>
 
-    <string name="WebRtcCallView__signal_will_ring_s">Signal 將去電給 %1$s</string>
-    <string name="WebRtcCallView__signal_will_ring_s_and_s">Signal 將去電給 %1$s 及 %2$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s">V.Call 將去電給 %1$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s_and_s">V.Call 將去電給 %1$s 及 %2$s</string>
     <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-        <item quantity="other">Signal 將去電給 %1$s、%2$s，和 %3$d 及其他人</item>
+        <item quantity="other">V.Call 將去電給 %1$s、%2$s，和 %3$d 及其他人</item>
     </plurals>
 
     <string name="WebRtcCallView__s_will_be_notified">%1$s 將被通知</string>
@@ -1782,13 +1782,13 @@
     <string name="RegistrationActivity_is_your_phone_number_above_correct">你的電話號碼正確嗎？</string>
     <string name="RegistrationActivity_edit_number">輸入號碼</string>
     <string name="RegistrationActivity_missing_google_play_services">找不到 Google Play 服務</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">此裝置缺少 Google Play 服務。你仍然可以使用 Signal，但是此設定可能會降低可靠性或效能。\n\n如果你不是個進階使用者，不是正在執行原廠的 Android ROM，或是你認為你看到的可能是一個錯誤，請聯絡 support@signal.org 來協助你排除故障。</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">此裝置缺少 Google Play 服務。你仍然可以使用 V.Call，但是此設定可能會降低可靠性或效能。\n\n如果你不是個進階使用者，不是正在執行原廠的 Android ROM，或是你認為你看到的可能是一個錯誤，請聯絡 support@signal.org 來協助你排除故障。</string>
     <string name="RegistrationActivity_i_understand">我了解</string>
     <string name="RegistrationActivity_play_services_error">Play 服務錯誤</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play 服務正在更新或暫時無法使用。請再重試。</string>
     <string name="RegistrationActivity_terms_and_privacy">條款與條件；隱私權政策</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal 需要聯絡人和媒體權限來幫助你與朋友聯繫和傳送訊息。你的聯絡人是使用 Signal 的私密聯絡人搜尋上傳的，這意味著它們是點對點加密的，並且也永遠不會被 Signal 的服務讀取。</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal 需要獲得聯絡人權限才能幫助你與朋友聯絡。妳的聯絡人是使用 Signal 的私密聯絡人搜尋上傳的，這意味著它們是點對點加密的，並且永遠不會被 Signal 的服務讀取。</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">V.Call 需要聯絡人和媒體權限來幫助你與朋友聯繫和傳送訊息。你的聯絡人是使用 V.Call 的私密聯絡人搜尋上傳的，這意味著它們是點對點加密的，並且也永遠不會被 V.Call 的服務讀取。</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">V.Call 需要獲得聯絡人權限才能幫助你與朋友聯絡。妳的聯絡人是使用 V.Call 的私密聯絡人搜尋上傳的，這意味著它們是點對點加密的，並且永遠不會被 V.Call 的服務讀取。</string>
     <string name="RegistrationActivity_rate_limited_to_service">你已嘗試過多註冊此號碼。 請稍後再試。</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">你已多次嘗試註冊此電話號碼。請在 %1$s後再試。</string>
@@ -1801,7 +1801,7 @@
     <string name="RegistrationActivity_unable_to_request_verification_code">無法要求驗證碼。請檢查你的網路連線，然後再試一次。</string>
     <string name="RegistrationActivity_non_standard_number_format">非標準數字格式</string>
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">你輸入的數字 (%1$s) 似乎是非標準格式。\n\n你的意思是 %2$s嗎 ?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Signal Android - 電話號碼格式</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">V.Call Android - 電話號碼格式</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">請求通話</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -1813,7 +1813,7 @@
     </plurals>
     <string name="RegistrationActivity_we_need_to_verify_that_youre_human">我們必須驗證你是人類。</string>
     <!-- An error shown when the request was valid, but due to an issue with a partner vendor, the server is unable to send an SMS code -->
-    <string name="RegistrationActivity_external_service_error">由於外部供應商問題，Signal 無法傳送 SMS 代碼。</string>
+    <string name="RegistrationActivity_external_service_error">由於外部供應商問題，V.Call 無法傳送 SMS 代碼。</string>
     <!-- Button label to trigger a phone call to provide the registration code, in lieu of an SMS code -->
     <string name="RegistrationActivity_voice_call">語音電話</string>
     <!-- Dialog button to cancel the pending action and return to the previous state. -->
@@ -1848,7 +1848,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">開啟註冊鎖？</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">關閉註冊鎖？</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">如果你再次註冊 Signal 時忘記了你的 Signal PIN 碼，你的帳號將會被暫時鎖定 7 天。</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">如果你再次註冊 V.Call 時忘記了你的 V.Call PIN 碼，你的帳號將會被暫時鎖定 7 天。</string>
     <string name="RegistrationLockV2Dialog_turn_on">開啟</string>
     <string name="RegistrationLockV2Dialog_turn_off">關閉</string>
 
@@ -1874,19 +1874,19 @@
 
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">新增至連絡人</string>
-    <string name="SharedContactDetailsActivity_invite_to_signal">邀請至 Signal</string>
-    <string name="SharedContactDetailsActivity_signal_message">Signal 訊息</string>
-    <string name="SharedContactDetailsActivity_signal_call">Signal 通話</string>
+    <string name="SharedContactDetailsActivity_invite_to_signal">邀請至 V.Call</string>
+    <string name="SharedContactDetailsActivity_signal_message">V.Call 訊息</string>
+    <string name="SharedContactDetailsActivity_signal_call">V.Call 通話</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">新增至連絡人</string>
-    <string name="SharedContactView_invite_to_signal">邀請至 Signal</string>
-    <string name="SharedContactView_message">Signal 訊息</string>
+    <string name="SharedContactView_invite_to_signal">邀請至 V.Call</string>
+    <string name="SharedContactView_message">V.Call 訊息</string>
 
-    <!-- SignalBottomActionBar -->
+    <!-- V.CallBottomActionBar -->
     <string name="SignalBottomActionBar_more">更多</string>
 
-    <!-- SignalPinReminders -->
+    <!-- V.CallPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">PIN碼已成功驗證。我們稍後會再次提醒你。</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">PIN 碼驗證成功。明天我們會再次提醒你。</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">PIN 碼驗證成功。幾天後我們將會再提醒您。</string>
@@ -1919,7 +1919,7 @@
     <!-- StickerManagementAdapter -->
     <string name="StickerManagementAdapter_installed_stickers">已安裝的貼圖</string>
     <string name="StickerManagementAdapter_stickers_you_received">你收到的貼圖</string>
-    <string name="StickerManagementAdapter_signal_artist_series">Signal 藝術家系列</string>
+    <string name="StickerManagementAdapter_signal_artist_series">V.Call 藝術家系列</string>
     <string name="StickerManagementAdapter_no_stickers_installed">沒有貼圖被安裝</string>
     <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">你收到的貼圖訊息將顯示在這裡</string>
     <string name="StickerManagementAdapter_untitled">無標題</string>
@@ -1956,8 +1956,8 @@
     <string name="SupportEmailUtil_filter">過濾:</string>
     <string name="SupportEmailUtil_device_info">裝置資訊:</string>
     <string name="SupportEmailUtil_android_version">Android 版本:</string>
-    <string name="SupportEmailUtil_signal_version">Signal 版本:</string>
-    <string name="SupportEmailUtil_signal_package">Signal 封包:</string>
+    <string name="SupportEmailUtil_signal_version">V.Call 版本:</string>
+    <string name="SupportEmailUtil_signal_package">V.Call 封包:</string>
     <string name="SupportEmailUtil_registration_lock">註冊鎖：</string>
     <string name="SupportEmailUtil_locale">語言:</string>
 
@@ -1981,7 +1981,7 @@
     <string name="ThreadRecord_you_activated_payments">你啟動了付款</string>
     <!-- Displayed in the notification when the recipient can accept payments -->
     <string name="ThreadRecord_can_accept_payments">%1$s 現在可以接受付款</string>
-    <string name="ThreadRecord_s_is_on_signal">%1$s 在 Signal 了！</string>
+    <string name="ThreadRecord_s_is_on_signal">%1$s 在 V.Call 了！</string>
     <string name="ThreadRecord_disappearing_messages_disabled">自動銷毀訊息功能已被關閉。</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">訊息銷毀時間設定為 %1$s</string>
     <string name="ThreadRecord_safety_number_changed">安全碼已改變</string>
@@ -2019,8 +2019,8 @@
     <string name="ThreadRecord_s_belongs_to_s">%1$s 是屬於 %2$s</string>
 
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Signal 更新</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">有新版本的 Signal，輕觸更新</string>
+    <string name="UpdateApkReadyListener_Signal_update">V.Call 更新</string>
+    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">有新版本的 V.Call，輕觸更新</string>
 
     <!-- UntrustedSendDialog -->
     <string name="UntrustedSendDialog_send_message">傳送訊息？</string>
@@ -2063,14 +2063,14 @@
     <string name="UsernameShareBottomSheet__copy_or_share_a_username_link">複製或分享使用者名稱連結</string>
 
     <!-- VerifyIdentityActivity -->
-    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">您的聯絡人使用的是舊版本的 Signal。在驗證您的安全碼前請尋求對方先進行更新。</string>
-    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">您的聯絡人正使用較新版本的 Signal，QR 碼格式並不相容。請升級以作比對。</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">您的聯絡人使用的是舊版本的 V.Call。在驗證您的安全碼前請尋求對方先進行更新。</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">您的聯絡人正使用較新版本的 V.Call，QR 碼格式並不相容。請升級以作比對。</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">已掃描的二維碼並非正確格式的安全碼驗證碼。請嘗試再次掃描。</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">分享安全碼到…</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">我方 Signal 安全碼：</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">我方 V.Call 安全碼：</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">看起來您沒有任何可以分享的應用。</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">沒有在剪貼簿中發現安全碼，因此無法進行比較</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal 需要相機的權限以掃描 QR 碼，但是現在被設定為永久拒絕使用。請到應用程式設定中，選取「權限」，並啟用「相機」的權限。</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">V.Call 需要相機的權限以掃描 QR 碼，但是現在被設定為永久拒絕使用。請到應用程式設定中，選取「權限」，並啟用「相機」的權限。</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">因為沒有「相機」的權限，無法掃描 QR 碼</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">你必須先交換訊息才能查看 %1$s 的安全碼。</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -2106,14 +2106,14 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">按一下開啟。</string>
-    <string name="KeyCachingService_passphrase_cached">Signal 已經解鎖</string>
-    <string name="KeyCachingService_lock">鎖定 Signal</string>
+    <string name="KeyCachingService_passphrase_cached">V.Call 已經解鎖</string>
+    <string name="KeyCachingService_lock">鎖定 V.Call</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">你</string>
     <string name="MediaPreviewActivity_unssuported_media_type">不支援的媒體類型</string>
     <string name="MediaPreviewActivity_draft">草稿</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal 需要儲存的權限以儲存外接儲存空間，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取「權限」，並啟用「儲存空間」的權限。</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">V.Call 需要儲存的權限以儲存外接儲存空間，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取「權限」，並啟用「儲存空間」的權限。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">因為沒有儲存的權限，無法儲存到外部儲存空間</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">刪除訊息？</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">這將永久刪除此訊息。</string>
@@ -2163,7 +2163,7 @@
     <string name="MessageNotifier_view_once_photo">一次性照片</string>
     <string name="MessageNotifier_view_once_video">一次性影片</string>
     <string name="MessageNotifier_reply">回覆</string>
-    <string name="MessageNotifier_signal_message">Signal 訊息</string>
+    <string name="MessageNotifier_signal_message">V.Call 訊息</string>
     <string name="MessageNotifier_unsecured_sms">不安全的簡訊</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">聯絡人</string>
@@ -2179,7 +2179,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">對你的貼圖作出了 %1$s 反應。</string>
     <string name="MessageNotifier_this_message_was_deleted">此訊息已被刪除。</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">關閉聯絡人上線 Signal 的通知嗎？你可以在 Signal &gt; 設定 &gt; 通知中再次啟用。</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">關閉聯絡人上線 V.Call 的通知嗎？你可以在 V.Call &gt; 設定 &gt; 通知中再次啟用。</string>
 
     <!-- Notification Channels -->
     <string name="NotificationChannel_channel_messages">訊息</string>
@@ -2192,7 +2192,7 @@
     <string name="NotificationChannel_group_chats">聊天</string>
     <string name="NotificationChannel_missing_display_name">未知</string>
     <string name="NotificationChannel_voice_notes">語音筆記</string>
-    <string name="NotificationChannel_contact_joined_signal">聯絡人上線 Signal 通知</string>
+    <string name="NotificationChannel_contact_joined_signal">聯絡人上線 V.Call 通知</string>
     <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">無可用的活動以開啟通知類別設定。</string>
     <!-- Notification channel name for showing persistent background connection on devices without push notifications -->
     <string name="NotificationChannel_background_connection">背景連線</string>
@@ -2206,7 +2206,7 @@
     <!-- ProfileEditNameFragment -->
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">當 Signal 鎖定時無法使用快速回覆！</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">當 V.Call 鎖定時無法使用快速回覆！</string>
     <string name="QuickResponseService_problem_sending_message">傳送訊息出現問題！</string>
 
     <!-- A small toast notification to let the user know their image/video/audio was downloaded and saved to their device, accessible in other apps. -->
@@ -2245,23 +2245,23 @@
     <!-- UnauthorizedReminder -->
     <string name="UnauthorizedReminder_device_no_longer_registered">此裝置已被取消註冊</string>
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">此裝置已不再註冊。通常是因為你已在另一部裝置上使用你的電話號碼註冊 Signal。</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">此裝置已不再註冊。通常是因為你已在另一部裝置上使用你的電話號碼註冊 V.Call。</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">重新註冊裝置</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">你已登出此裝置的 Signal 應用程式。</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">你已登出此裝置的 V.Call 應用程式。</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">請更新 Signal 以繼續使用付款功能。你的餘額可能沒有更新。</string>
+    <string name="EnclaveFailureReminder_update_signal">請更新 V.Call 以繼續使用付款功能。你的餘額可能沒有更新。</string>
     <!-- Banner button to update now -->
 
     <!-- WebRtcCallActivity -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">若要接聽通話，請允許 Signal 存取你的麥克風。</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">若要接聽通話，請允許 V.Call 存取你的麥克風。</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">若要接聽視訊通話，請允許 Signal 存取你的麥克風和相機。</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal 需要\"麥克風\"及\"相機\"的權限以接聽來電，但是現在被設定為永久拒絕使用。請到應用程式設定中，選取\"權限\"，並啟用\"麥克風\"及\"相機\"的權限。</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">若要接聽視訊通話，請允許 V.Call 存取你的麥克風和相機。</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">V.Call 需要\"麥克風\"及\"相機\"的權限以接聽來電，但是現在被設定為永久拒絕使用。請到應用程式設定中，選取\"權限\"，並啟用\"麥克風\"及\"相機\"的權限。</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">在已連結的裝置回答。</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">拒絕在已連結的裝置。</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">已連結的裝置忙線。</string>
@@ -2304,7 +2304,7 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">重複新密碼</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">邀請至 Signal</string>
+    <string name="contact_selection_activity__invite_to_signal">邀請至 V.Call</string>
     <string name="contact_selection_activity__new_group">新增群組</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">重新整理聯絡人</string>
@@ -2326,21 +2326,21 @@
     <string name="SingleContactSelectionActivity_contact_photo">聯絡人相片</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal 需要聯絡人的權限以顯示聯絡人資訊，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取「權限」，並啟用「聯絡人」的權限。</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">V.Call 需要聯絡人的權限以顯示聯絡人資訊，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取「權限」，並啟用「聯絡人」的權限。</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">取回聯絡人名單錯誤，請檢查網路連線</string>
     <string name="ContactSelectionListFragment_username_not_found">找不到使用者名稱</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\"不是 Signal 使用者。請檢查使用者名稱並再試一次。"</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\"不是 V.Call 使用者。請檢查使用者名稱並再試一次。"</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">你無需將自己新增到群組中</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">已達群組人數上限</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal 群組最多可以有%1$d個成員。</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">V.Call 群組最多可以有%1$d個成員。</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">已達到推薦成員數上限</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal 群組在%1$d個成員數或更少的情況下表現最佳。 新增更多成員將導致傳送和接收訊息的延遲。</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">V.Call 群組在%1$d個成員數或更少的情況下表現最佳。 新增更多成員將導致傳送和接收訊息的延遲。</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="other">%1$d 個成員</item>
     </plurals>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal 需要存取你的\"聯絡人\"以顯示聯絡人資訊。</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">V.Call 需要存取你的\"聯絡人\"以顯示聯絡人資訊。</string>
     <string name="contact_selection_list_fragment__show_contacts">顯示聯絡人</string>
 
     <!-- contact_selection_list_item -->
@@ -2353,7 +2353,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">Signal 訊息</string>
+    <string name="conversation_activity__type_message_push">V.Call 訊息</string>
     <string name="conversation_activity__type_message_sms_insecure">不安全的簡訊</string>
     <string name="conversation_activity__type_message_mms_insecure">不安全的多媒體訊息</string>
     <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -2367,7 +2367,7 @@
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">切換快速相機附件隱藏式選單</string>
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">錄製並傳送語音附檔</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">鎖定語音錄製附檔</string>
-    <string name="conversation_activity__enable_signal_for_sms">啟動 Signal 簡訊功能</string>
+    <string name="conversation_activity__enable_signal_for_sms">啟動 V.Call 簡訊功能</string>
     <string name="conversation_activity__message_could_not_be_sent">無法傳送訊息。 檢查你的連線，然後重試。</string>
 
     <!-- conversation_input_panel -->
@@ -2448,7 +2448,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">泡泡是一項 Android 功能，你可以為 Signal 聊天關閉該功能。</string>
+    <string name="BubbleOptOutTooltip__description">泡泡是一項 Android 功能，你可以為 V.Call 聊天關閉該功能。</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">稍後</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -2532,9 +2532,9 @@
     <string name="IdentityUtil_unverified_banner_two">您與 %1$s 及 %2$s 的安全碼需要重新驗證</string>
     <string name="IdentityUtil_unverified_banner_many">您與 %1$s、%2$s 及 %3$s 的安全碼需要重新驗證</string>
 
-    <string name="IdentityUtil_unverified_dialog_one">你與 %1$s 的安全碼已改變，而且不再是已驗證。這有可能是有不明人士試圖攔截您的通訊，或是因為 %1$s 重新安裝 Signal。</string>
-    <string name="IdentityUtil_unverified_dialog_two">你與 %1$s 及 %2$s 的安全碼不再是已驗證。這有可能是有不明人士試圖攔截您的通訊，或是因為他們重新安裝 Signal。</string>
-    <string name="IdentityUtil_unverified_dialog_many">你與 %1$s、%2$s 及 %3$s 的安全碼不再是已驗證。這有可能是有不明人士試圖攔截您的通訊，或是因為他們重新安裝 Signal。</string>
+    <string name="IdentityUtil_unverified_dialog_one">你與 %1$s 的安全碼已改變，而且不再是已驗證。這有可能是有不明人士試圖攔截您的通訊，或是因為 %1$s 重新安裝 V.Call。</string>
+    <string name="IdentityUtil_unverified_dialog_two">你與 %1$s 及 %2$s 的安全碼不再是已驗證。這有可能是有不明人士試圖攔截您的通訊，或是因為他們重新安裝 V.Call。</string>
+    <string name="IdentityUtil_unverified_dialog_many">你與 %1$s、%2$s 及 %3$s 的安全碼不再是已驗證。這有可能是有不明人士試圖攔截您的通訊，或是因為他們重新安裝 V.Call。</string>
 
     <string name="IdentityUtil_untrusted_dialog_one">你與 %1$s 的安全碼剛剛已改變。</string>
     <string name="IdentityUtil_untrusted_dialog_two">你與 %1$s 及 %2$s 的安全碼剛剛已改變。</string>
@@ -2551,7 +2551,7 @@
     <string name="giphy_fragment__nothing_found">未找到任何東西</string>
 
     <!-- database_migration_activity -->
-    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">您想要把已存在的訊息匯入 Signal 的加密資料庫嗎？</string>
+    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">您想要把已存在的訊息匯入 V.Call 的加密資料庫嗎？</string>
     <string name="database_migration_activity__the_default_system_database_will_not_be_modified">裝置上預設的資料庫將不會被做任何修改或變更。</string>
     <string name="database_migration_activity__skip">略過</string>
     <string name="database_migration_activity__import">匯入</string>
@@ -2585,7 +2585,7 @@
     <string name="prompt_passphrase_activity__unlock">解鎖</string>
 
     <!-- prompt_mms_activity -->
-    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal 需要多媒體訊息設定以透過業者傳輸媒體與群組訊息。您的裝置沒有所需的資訊，有可能是由於裝置被鎖定或者其他限制設定。</string>
+    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">V.Call 需要多媒體訊息設定以透過業者傳輸媒體與群組訊息。您的裝置沒有所需的資訊，有可能是由於裝置被鎖定或者其他限制設定。</string>
     <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">傳送媒體檔案或群組訊息，請按下 \"OK\" 並完成必要的設定。您所使用電信業者相關的MMS多媒體簡訊設定可能羅列在 \'無線與網路／行動網路\'的設定項目內。且您只需設定一次。</string>
 
     <!-- BadDecryptLearnMoreDialog -->
@@ -2646,7 +2646,7 @@
     <!-- Title for dialog explaining for how safety numbers are transitioning to support usernames -->
     <string name="PnpSafetyNumberEducationDialog__title">安全號碼變更</string>
     <!-- Message for dialog explaining for how safety numbers are transitioning to support usernames -->
-    <string name="PnpSafetyNumberEducationDialog__body">安全號碼會在過渡期間進行更新，以啟用 Signal 即將推出的隱私功能。\n\n要驗證安全號碼，請將色卡與聯絡人的裝置配對。如果這些無法匹配，請滑動並嘗試另一組安全號碼。只需要匹配一對。</string>
+    <string name="PnpSafetyNumberEducationDialog__body">安全號碼會在過渡期間進行更新，以啟用 V.Call 即將推出的隱私功能。\n\n要驗證安全號碼，請將色卡與聯絡人的裝置配對。如果這些無法匹配，請滑動並嘗試另一組安全號碼。只需要匹配一對。</string>
     <!-- Button for more information about the safety number changes. Takes user to support article -->
     <string name="PnpSafetyNumberEducationDialog__help">需要幫助嗎？</string>
     <!-- Confirmation button for educating users about new safety number changes -->
@@ -2714,7 +2714,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">支援訊息</string>
-    <string name="HelpFragment__signal_android_support_request">Signal Android 支援請求</string>
+    <string name="HelpFragment__signal_android_support_request">V.Call Android 支援請求</string>
     <string name="HelpFragment__debug_log">偵錯紀錄:</string>
     <string name="HelpFragment__could_not_upload_logs">無法上傳記錄檔</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">請盡可能描述一下，以幫助我們理解該問題。</string>
@@ -2797,7 +2797,7 @@
     <string name="preferences__enable_passphrase">啟用螢幕鎖定的自訂密碼</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">使用鎖定螢幕及通知密碼</string>
     <string name="preferences__screen_security">螢幕安全設定</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">在特定時間內不活躍會自動鎖定 Signal</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">在特定時間內不活躍會自動鎖定 V.Call</string>
     <string name="preferences__inactivity_timeout_passphrase">不活躍鎖定密碼</string>
     <string name="preferences__inactivity_timeout_interval">不活躍時間間隔</string>
     <string name="preferences__notifications">通知</string>
@@ -2830,8 +2830,8 @@
     <string name="preferences__slow">緩慢</string>
     <string name="preferences__help">幫助</string>
     <string name="preferences__advanced">進階</string>
-    <string name="preferences__donate_to_signal">贊助 Signal</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <string name="preferences__donate_to_signal">贊助 V.Call</string>
+    <!-- Preference label for making one-time donations to V.Call -->
     <string name="preferences__privacy">隱私權</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">動態</string>
@@ -2868,13 +2868,13 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">將應用程式圖示和名稱更改為「%1$s」</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">Signal 需要關閉才能更改應用程式圖示和名稱。通知依然會以預設的 Signal 圖示和名稱來顯示。</string>
+    <string name="preferences__app_icon_dialog_description">V.Call 需要關閉才能更改應用程式圖示和名稱。通知依然會以預設的 V.Call 圖示和名稱來顯示。</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
-    <string name="preferences__app_icon_warning_learn_more">選擇應用程式圖示和名稱，這將顯示在手機的主螢幕和應用抽屜中。通知依然會以預設的 Signal 圖示和名稱來顯示。了解 更多</string>
+    <string name="preferences__app_icon_warning_learn_more">選擇應用程式圖示和名稱，這將顯示在手機的主螢幕和應用抽屜中。通知依然會以預設的 V.Call 圖示和名稱來顯示。了解 更多</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
     <string name="preferences__app_icon_warning">應用程式圖示和名稱可在手機的主螢幕和應用抽屜中見到。</string>
     <!-- Visible warning label explaining that changing the app icon and name does not affect notifications. -->
-    <string name="preferences__app_icon_notification_warning">通知依然會以預設的 Signal 圖示和名稱來顯示。</string>
+    <string name="preferences__app_icon_notification_warning">通知依然會以預設的 V.Call 圖示和名稱來顯示。</string>
     <!--Call to action to get more information about the limitations of the change app icon functionality. -->
     <string name="preferences__app_icon_learn_more">了解 更多</string>
     <!--Text description of the app icon option for visually impaired users. -->
@@ -2883,13 +2883,13 @@
     <string name="preferences__graphic_illustrating_where_the_replacement_app_icon_will_be_visible">圖解說明了替代應用程式圖示可見的位置。</string>
     <string name="preferences__disable_pin">停用 PIN 碼</string>
     <string name="preferences__enable_pin">啟用 PIN 碼</string>
-    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">如果你停用 PIN 碼，則除非你進行手動備份和還原，否則當你重新註冊 Signal 時，將會遺失所有資料。停用 PIN 碼時無法開啟註冊鎖定。</string>
-    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN 碼用於加密在 Signal 中儲存的資訊，以確保只得你可以存取。當你重新安裝應用程式後，你的個人資料、設定和聯絡人將會還原。開啟應用程式不需要你的 PIN 碼。</string>
+    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">如果你停用 PIN 碼，則除非你進行手動備份和還原，否則當你重新註冊 V.Call 時，將會遺失所有資料。停用 PIN 碼時無法開啟註冊鎖定。</string>
+    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN 碼用於加密在 V.Call 中儲存的資訊，以確保只得你可以存取。當你重新安裝應用程式後，你的個人資料、設定和聯絡人將會還原。開啟應用程式不需要你的 PIN 碼。</string>
     <string name="preferences__system_default">系統預設</string>
     <string name="preferences__language">語言選項</string>
-    <string name="preferences__signal_messages_and_calls">Signal 訊息與通話</string>
+    <string name="preferences__signal_messages_and_calls">V.Call 訊息與通話</string>
     <string name="preferences__advanced_pin_settings">進階 PIN 碼設定</string>
-    <string name="preferences__free_private_messages_and_calls">免費加密訊息與通話至 Signal 使用者</string>
+    <string name="preferences__free_private_messages_and_calls">免費加密訊息與通話至 V.Call 使用者</string>
     <string name="preferences__submit_debug_log">送出偵錯日誌</string>
     <string name="preferences__delete_account">刪除帳號</string>
     <string name="preferences__support_wifi_calling">\"WiFi 呼叫\"相容模式</string>
@@ -2932,7 +2932,7 @@
     <string name="preferences_storage__s_messages">%1$s 則訊息</string>
     <string name="preferences_storage__custom">自訂</string>
     <string name="preferences_advanced__use_system_emoji">使用系統表情符號</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">透過 Signal 伺服器轉發通話，來避免透露你的 IP 位址給你的聯絡人。啟用時，會降低通話品質。</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">透過 V.Call 伺服器轉發通話，來避免透露你的 IP 位址給你的聯絡人。啟用時，會降低通話品質。</string>
     <string name="preferences_advanced__always_relay_calls">永遠轉發通話</string>
     <string name="preferences_app_protection__who_can">誰可以…</string>
     <!-- Privacy settings payments section title -->
@@ -2953,12 +2953,12 @@
     <string name="preferences_communication__category_censorship_circumvention">審查規避</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">審查規避</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">若啟用，Signal 將嘗試繞過網路審查，除非您所在的區域會封鎖 Signal，否則不要使用這項功能</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">若啟用，V.Call 將嘗試繞過網路審查，除非您所在的區域會封鎖 V.Call，否則不要使用這項功能</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">根據您的電話號碼，我們已自動啟用網路審查規避</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">你已經手動關閉規避審查。</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the V.Call service -->
     <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">你已經連接上 Signal服務，所以不需要啟動審查規避功能。</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">審查規避只能在連上網路時啟動。</string>
@@ -2972,7 +2972,7 @@
     <string name="preferences_off">關</string>
     <string name="preferences_on">開</string>
     <string name="preferences_proxy_address">代理伺服器位址</string>
-    <string name="preferences_only_use_a_proxy_if">僅當你無法透過行動數據或 Wi-Fi 連接到 Signal 時才使用代理。</string>
+    <string name="preferences_only_use_a_proxy_if">僅當你無法透過行動數據或 Wi-Fi 連接到 V.Call 時才使用代理。</string>
     <string name="preferences_share">分享</string>
     <string name="preferences_save">儲存</string>
     <string name="preferences_connecting_to_proxy">連接代理伺服器中…</string>
@@ -3006,7 +3006,7 @@
     <string name="PaymentsAllActivityFragment__received">接收時間</string>
 
     <string name="PaymentsHomeFragment__introducing_payments">介紹付款功能（測試版）</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">使用 Signal 以傳送和接收 MobileCoin：一種新的著重私隱的數碼貨幣。啟用以開始使用。</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">使用 V.Call 以傳送和接收 MobileCoin：一種新的著重私隱的數碼貨幣。啟用以開始使用。</string>
     <string name="PaymentsHomeFragment__activate_payments">啟用付款功能</string>
     <string name="PaymentsHomeFragment__activating_payments">正在啟動付款功能…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">回復付款帳戶</string>
@@ -3210,8 +3210,8 @@
     <string name="conversation_callable_insecure__menu_call">撥出</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">Signal 通話</string>
-    <string name="conversation_callable_secure__menu_video">Signal 視訊電話</string>
+    <string name="conversation_callable_secure__menu_call">V.Call 通話</string>
+    <string name="conversation_callable_secure__menu_video">V.Call 視訊電話</string>
 
     <!-- conversation_context -->
 
@@ -3331,17 +3331,17 @@
 
     <!-- reminder_header -->
     <string name="reminder_header_sms_import_title">匯入系統簡訊</string>
-    <string name="reminder_header_sms_import_text">按此以複製您手機中的簡訊訊息至 Signal 的加密數據庫中。</string>
-    <string name="reminder_header_push_title">啟用 Signal 訊息與通話</string>
+    <string name="reminder_header_sms_import_text">按此以複製您手機中的簡訊訊息至 V.Call 的加密數據庫中。</string>
+    <string name="reminder_header_push_title">啟用 V.Call 訊息與通話</string>
     <string name="reminder_header_push_text">升級您的通訊體驗。</string>
-    <string name="reminder_header_service_outage_text">Signal 正遇到技術性的問題。我們正在處理，將盡速的修正並恢復服務。</string>
+    <string name="reminder_header_service_outage_text">V.Call 正遇到技術性的問題。我們正在處理，將盡速的修正並恢復服務。</string>
     <string name="reminder_header_progress">%1$d%%</string>
     <!-- Body text of a banner that will show at the top of the chat list when we temporarily cannot process the user\'s contacts -->
-    <string name="reminder_cds_warning_body">Signal 的個人聯絡人搜尋服務暫時無法處理你手機中的聯絡人。</string>
+    <string name="reminder_cds_warning_body">V.Call 的個人聯絡人搜尋服務暫時無法處理你手機中的聯絡人。</string>
     <!-- Label for a button in a banner to learn more about why we temporarily can\'t process the user\'s contacts -->
     <string name="reminder_cds_warning_learn_more">了解更多</string>
     <!-- Body text of a banner that will show at the top of the chat list when the user has so many contacts that we cannot ever process them -->
-    <string name="reminder_cds_permanent_error_body">Signal 的個人聯絡人搜尋服務無法處理你手機中的聯絡人。</string>
+    <string name="reminder_cds_permanent_error_body">V.Call 的個人聯絡人搜尋服務無法處理你手機中的聯絡人。</string>
     <!-- Label for a button in a banner to learn more about why we cannot process the user\'s contacts -->
     <string name="reminder_cds_permanent_error_learn_more">了解更多</string>
 
@@ -3362,7 +3362,7 @@
     <string name="Insights__title">統計</string>
     <string name="InsightsDashboardFragment__title">統計</string>
     <!-- Body text for a page describing how many signal messages you\'ve sent. The first placeholder represents the number of signal messages sent, and the second placeholder represents how many days have passed. -->
-    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal Protocol 在過去 %2$d 天內，已自動保護你外寄訊息數目中的 %1$d%%。Signal 用戶之間的聊天一律經端對端加密。</string>
+    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">V.Call Protocol 在過去 %2$d 天內，已自動保護你外寄訊息數目中的 %1$d%%。V.Call 用戶之間的聊天一律經端對端加密。</string>
     <string name="InsightsDashboardFragment__spread_the_word">把這些訊息散播出去</string>
     <string name="InsightsDashboardFragment__not_enough_data">沒有足夠的資料</string>
     <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">你的統計百分比是根據過去%1$d天內尚未銷毀或刪除的出訊息計算得出的。</string>
@@ -3374,12 +3374,12 @@
     <string name="InsightsDashboardFragment__cancel">取消</string>
     <string name="InsightsDashboardFragment__send">傳送</string>
     <string name="InsightsModalFragment__title">介紹 統計</string>
-    <string name="InsightsModalFragment__description">找出安全傳送的訊息數量，然後迅速邀請新聯絡人提高單次贊助 Signal 的比例。</string>
+    <string name="InsightsModalFragment__description">找出安全傳送的訊息數量，然後迅速邀請新聯絡人提高單次贊助 V.Call 的比例。</string>
     <string name="InsightsModalFragment__view_insights">檢視 統計</string>
 
-    <string name="FirstInviteReminder__title">邀請至 Signal</string>
+    <string name="FirstInviteReminder__title">邀請至 V.Call</string>
     <string name="FirstInviteReminder__description">你傳送的加密訊息數量可以增加多達 %1$d%%</string>
-    <string name="SecondInviteReminder__title">單次贊助你的 Signal</string>
+    <string name="SecondInviteReminder__title">單次贊助你的 V.Call</string>
     <string name="SecondInviteReminder__description">邀請 %1$s</string>
     <string name="InsightsReminder__view_insights">檢視 統計</string>
     <string name="InsightsReminder__invite">邀請</string>
@@ -3404,7 +3404,7 @@
     <string name="CreateKbsPinFragment__create_a_new_pin">建立一個新 PIN 碼</string>
     <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">只要此裝置仍保持註冊，你隨時可變更 PIN 碼。</string>
     <string name="CreateKbsPinFragment__create_your_pin">建立你的 PIN 碼</string>
-    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN 碼可協助你還原帳戶，並確保 Signal 內的資料安全加密。 </string>
+    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN 碼可協助你還原帳戶，並確保 V.Call 內的資料安全加密。 </string>
     <string name="CreateKbsPinFragment__choose_a_stronger_pin">請選擇一個強度較高的 PIN 碼</string>
 
     <!-- ConfirmKbsPinFragment -->
@@ -3420,7 +3420,7 @@
 
     <!-- KbsSplashFragment -->
     <string name="KbsSplashFragment__introducing_pins">介紹 PIN 碼</string>
-    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN 碼用於加密在 Signal 中儲存的資訊，以確保只得你可以存取。當你重新安裝應用程式後，你的個人資料、設定和聯絡人將會還原。開啟應用程式不需要你的 PIN 碼。</string>
+    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN 碼用於加密在 V.Call 中儲存的資訊，以確保只得你可以存取。當你重新安裝應用程式後，你的個人資料、設定和聯絡人將會還原。開啟應用程式不需要你的 PIN 碼。</string>
     <string name="KbsSplashFragment__learn_more">了解更多</string>
   <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
     <string name="KbsSplashFragment__registration_lock_equals_pin">註冊鎖 = PIN 碼</string>
@@ -3431,7 +3431,7 @@
     <string name="KbsSplashFragment__disable_pin">停用 PIN 碼</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">輸入你的 Signal PIN 碼</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">輸入你的 V.Call PIN 碼</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">為了幫助你記住PIN碼，我們會要求你定期輸入。 我們會漸漸地減少要求。</string>
     <string name="KbsReminderDialog__skip">略過</string>
     <string name="KbsReminderDialog__submit">確定</string>
@@ -3457,7 +3457,7 @@
     <string name="RegistrationLockFragment__incorrect_pin">錯誤的 PIN 碼</string>
     <string name="RegistrationLockFragment__forgot_your_pin">忘記你的 PIN 碼？</string>
     <string name="RegistrationLockFragment__not_many_tries_left">沒剩幾次嘗試次數!</string>
-    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal 註冊-需要針對Android的PIN碼設定的協助(v2 PIN碼)</string>
+    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">V.Call 註冊-需要針對Android的PIN碼設定的協助(v2 PIN碼)</string>
 
     <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
         <item quantity="other">為了你的隱私和安全，無法恢復你的PIN碼。 如果你忘記了PIN碼，可以在停用%1$d天後透過SMS重新進行驗證。 在這種情況下，你的帳號將被刪除，所有內容都將被刪除。</item>
@@ -3484,33 +3484,33 @@
 
     <!-- KBS Megaphone -->
     <string name="KbsMegaphone__create_a_pin">建立一個 PIN 碼</string>
-    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN 碼用於加密在 Signal 中儲存的資訊。</string>
+    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN 碼用於加密在 V.Call 中儲存的資訊。</string>
     <string name="KbsMegaphone__create_pin">建立 PIN 碼</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Signal 語音通話來電</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Signal 視訊通話來電</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Signal 群組來電</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Signal 語音通話進行中</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Signal 視訊通話進行中</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Signal 群組通話進行中</string>
+    <!-- Displayed in a notification when a V.Call voice call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">V.Call 語音通話來電</string>
+    <!-- Displayed in a notification when a V.Call video call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_video_call">V.Call 視訊通話來電</string>
+    <!-- Displayed in a notification when a V.Call group call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_group_call">V.Call 群組來電</string>
+    <!-- Displayed in a notification when a V.Call voice call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">V.Call 語音通話進行中</string>
+    <!-- Displayed in a notification when a V.Call video call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">V.Call 視訊通話進行中</string>
+    <!-- Displayed in a notification when a V.Call group call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">V.Call 群組通話進行中</string>
 
     <!-- transport_selection_list_item -->
     <string name="transport_selection_list_item__transport_icon">傳輸圖示</string>
     <string name="ConversationListFragment_loading">讀取中…</string>
     <string name="CallNotificationBuilder_connecting">連接中…</string>
     <string name="Permissions_permission_required">需要權限</string>
-    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal 需要\"簡訊\"的權限以傳送訊息，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取\"權限\"，並啟用\"簡訊\"的權限。</string>
+    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">V.Call 需要\"簡訊\"的權限以傳送訊息，但是現在被設定為永久拒絕存取。請到應用程式設定中，選取\"權限\"，並啟用\"簡訊\"的權限。</string>
     <string name="Permissions_continue">繼續</string>
     <string name="Permissions_not_now">稍後</string>
-    <string name="conversation_activity__enable_signal_messages">啟用 Signal 訊息</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">遷移 Signal 資料庫</string>
+    <string name="conversation_activity__enable_signal_messages">啟用 V.Call 訊息</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">遷移 V.Call 資料庫</string>
     <string name="PushDecryptJob_new_locked_message">新的已鎖定訊息</string>
     <string name="PushDecryptJob_unlock_to_view_pending_messages">解鎖以查看待處理的訊息</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">備份密碼</string>
@@ -3527,7 +3527,7 @@
     <string name="preferences_chats__transfer_account_to_a_new_android_device">將帳號轉移到新的Android裝置</string>
     <string name="RegistrationActivity_enter_backup_passphrase">輸入備份密碼</string>
     <string name="RegistrationActivity_restore">還原</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">無法從較新版本的 Signal 匯入備份檔</string>
+    <string name="RegistrationActivity_backup_failure_downgrade">無法從較新版本的 V.Call 匯入備份檔</string>
     <!-- Error message indicating that we could not restore the user\'s backup. Displayed in a toast at the bottom of the screen. -->
     <string name="RegistrationActivity_backup_failure_foreign_key">備份包含格式錯誤的資料</string>
     <string name="RegistrationActivity_incorrect_backup_passphrase">不正確的備份密碼</string>
@@ -3551,9 +3551,9 @@
     <string name="BackupDialog_verify">驗證</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">你已成功的輸入你的備份碼</string>
     <string name="BackupDialog_passphrase_was_not_correct">備份碼錯誤</string>
-    <string name="LocalBackupJob_creating_signal_backup">建立 Signal 備份…</string>
+    <string name="LocalBackupJob_creating_signal_backup">建立 V.Call 備份…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">正在驗證 Signal 備份內容…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">正在驗證 V.Call 備份內容…</string>
     <string name="LocalBackupJobApi29_backup_failed">備份失敗</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">你的備份目錄已被刪除或移動。</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">你的備份檔案太大，無法儲存在該空間上。</string>
@@ -3568,8 +3568,8 @@
     <string name="RegistrationActivity_call_me_instead_available_in">致電給我 (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">重新傳送驗證碼 (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">聯絡 Signal 支援</string>
-    <string name="RegistrationActivity_code_support_subject">Signal 註冊 - Android驗證碼</string>
+    <string name="RegistrationActivity_contact_signal_support">聯絡 V.Call 支援</string>
+    <string name="RegistrationActivity_code_support_subject">V.Call 註冊 - Android驗證碼</string>
     <string name="RegistrationActivity_incorrect_code">錯誤編號</string>
     <string name="BackupUtil_never">永不</string>
     <string name="BackupUtil_unknown">未知</string>
@@ -3578,11 +3578,11 @@
     <!-- Phone number heading displayed as a screen title -->
     <string name="preferences_app_protection__phone_number">電話號碼</string>
     <!-- Subtext below option to launch into phone number privacy settings screen -->
-    <string name="preferences_app_protection__choose_who_can_see">選擇誰可以看到你的電話號碼，以及誰可以透過它在 Signal 上與你聯絡。</string>
+    <string name="preferences_app_protection__choose_who_can_see">選擇誰可以看到你的電話號碼，以及誰可以透過它在 V.Call 上與你聯絡。</string>
     <!-- Section title above two radio buttons for enabling and disabling phone number display -->
     <string name="PhoneNumberPrivacySettingsFragment__who_can_see_my_number">誰可以看到我的號碼</string>
     <!-- Subtext below radio buttons when who can see my number is set to nobody -->
-    <string name="PhoneNumberPrivacySettingsFragment__nobody_will_see">沒有人會在 Signal 看到你的電話號碼</string>
+    <string name="PhoneNumberPrivacySettingsFragment__nobody_will_see">沒有人會在 V.Call 看到你的電話號碼</string>
     <!-- Section title above two radio buttons for enabling and disabling whether users can find me by my phone number  -->
     <string name="PhoneNumberPrivacySettingsFragment__who_can_find_me_by_number">誰可以透過電話號碼找到我</string>
     <!-- Subtext below radio buttons when who can see my number is set to everyone -->
@@ -3591,17 +3591,17 @@
     <string name="PhoneNumberPrivacy_my_contacts">我的聯絡人</string>
     <string name="PhoneNumberPrivacy_nobody">沒有人</string>
     <string name="PhoneNumberPrivacy_everyone_see_description">你的電話號碼將可被與你傳送訊息的所有人員和群組看見。</string>
-    <string name="PhoneNumberPrivacy_everyone_find_description">任何在你的聯絡人中擁有你的電話號碼的人都會在 Signal 上將你視為聯絡人。 其他人將可以在搜尋中找到你。</string>
+    <string name="PhoneNumberPrivacy_everyone_find_description">任何在你的聯絡人中擁有你的電話號碼的人都會在 V.Call 上將你視為聯絡人。 其他人將可以在搜尋中找到你。</string>
     <string name="preferences_app_protection__screen_lock">螢幕鎖定</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">以 Android 螢幕鎖定或指紋來鎖定 Signal 存取</string>
+    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">以 Android 螢幕鎖定或指紋來鎖定 V.Call 存取</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">螢幕鎖定閒置逾時</string>
-    <string name="preferences_app_protection__signal_pin">Signal PIN 碼</string>
+    <string name="preferences_app_protection__signal_pin">V.Call PIN 碼</string>
     <string name="preferences_app_protection__create_a_pin">建立 PIN 碼</string>
     <string name="preferences_app_protection__change_your_pin">變更你的 PIN 碼</string>
     <string name="preferences_app_protection__pin_reminders">PIN 碼提示器</string>
     <string name="preferences_app_protection__turn_off">關閉</string>
     <string name="preferences_app_protection__confirm_pin">確認 PIN 碼</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">確認你的 Signal PIN 碼</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">確認你的 V.Call PIN 碼</string>
     <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">確保你記住或安全地儲存了PIN碼，因為它無法回復。 如果你忘記了PIN碼，則在重新註冊Signal帳號時可能會遺失資料。</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">PIN 碼不正確。請再試一次。</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">無法啟用註冊鎖。</string>
@@ -3615,14 +3615,14 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">您進行了太多次嘗試。 請稍後再試。</string>
     <string name="RegistrationActivity_error_connecting_to_service">連線到服務錯誤</string>
     <string name="preferences_chats__backups">備份</string>
-    <string name="prompt_passphrase_activity__signal_is_locked">Signal 已被鎖定</string>
+    <string name="prompt_passphrase_activity__signal_is_locked">V.Call 已被鎖定</string>
     <string name="prompt_passphrase_activity__tap_to_unlock">輕觸以解鎖</string>
     <string name="Recipient_unknown">未知</string>
 
     <!-- Option in settings that will take use to re-register if they are no longer registered -->
     <string name="preferences_account_reregister">重新註冊帳戶</string>
     <!-- Option in settings that will take user to our website or playstore to update their expired build -->
-    <string name="preferences_account_update_signal">更新 Signal</string>
+    <string name="preferences_account_update_signal">更新 V.Call</string>
     <!-- Option in settings shown when user is no longer registered or expired client that will WIPE ALL THEIR DATA -->
     <string name="preferences_account_delete_all_data">刪除所有資料</string>
     <!-- Title for confirmation dialog confirming user wants to delete all their data -->
@@ -3755,7 +3755,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">在新裝置上完成註冊</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">你的 Signal 帳號已轉移到你的新裝置，惟你必須在該裝置上完成註冊才能繼續。此裝置上的 Signal 亦隨之停用。</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">你的 V.Call 帳號已轉移到你的新裝置，惟你必須在該裝置上完成註冊才能繼續。此裝置上的 V.Call 亦隨之停用。</string>
     <string name="OldDeviceTransferLockedDialog__done">完成</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">取消並啟動此裝置</string>
 
@@ -3799,7 +3799,7 @@
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">知道此連結的任何人都可以查看群組的名稱和圖片，並請求加入。 與你信任的人分享。</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">知道此連結的任何人都可以查看該群組的名稱和圖片，然後加入該群組。 與你信任的人分享。</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">透過 Signal 分享</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">透過 V.Call 分享</string>
     <string name="GroupLinkBottomSheet_copy">複製</string>
     <string name="GroupLinkBottomSheet_qr_code">QR 碼</string>
     <string name="GroupLinkBottomSheet_share">分享</string>
@@ -3997,7 +3997,7 @@
     <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">儲存恢復片語</string>
     <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">輸入回復短語</string>
     <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-        <item quantity="other">當你在重新安裝 Signal 時確認你的 Signal PIN 碼，餘額就會自動還原。你也可使用恢復片語還原你的餘額。恢復片語是一組獨一無二的片語，包含 %1$d 個字詞。請牢記恢復片語，並妥善保存於安全的地方。</item>
+        <item quantity="other">當你在重新安裝 V.Call 時確認你的 V.Call PIN 碼，餘額就會自動還原。你也可使用恢復片語還原你的餘額。恢復片語是一組獨一無二的片語，包含 %1$d 個字詞。請牢記恢復片語，並妥善保存於安全的地方。</item>
     </plurals>
     <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
     <string name="PaymentsRecoveryStartFragment__got_balance">你尚有餘額！是時候儲存你的恢復片語了—你可使用一組 24 個字的密鑰，以恢復你的餘額。</string>
@@ -4095,7 +4095,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">帳號</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">詢問您的次數將會隨著時間減少</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">要求你的 Signal PIN 碼才能在 Signal 再次註冊你的電話號碼</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">要求你的 V.Call PIN 碼才能在 V.Call 再次註冊你的電話號碼</string>
     <string name="AccountSettingsFragment__change_phone_number">變更電話號碼</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">你的帳戶資料</string>
@@ -4104,7 +4104,7 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">你的帳戶資料</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">匯出你的 Signal 帳戶資料報告。此報告不包含任何訊息或多媒體。%1$s</string>
+    <string name="ExportAccountDataFragment__export_explanation">匯出你的 V.Call 帳戶資料報告。此報告不包含任何訊息或多媒體。%1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">了解更多</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4132,14 +4132,14 @@
     <!-- Title for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_confirmation">要匯出資料嗎？</string>
     <!-- Message for export confirmation dialog -->
-    <string name="ExportAccountDataFragment__export_report_confirmation_message">僅與你信任的人或應用程式分享你的 Signal 帳戶資料。</string>
+    <string name="ExportAccountDataFragment__export_report_confirmation_message">僅與你信任的人或應用程式分享你的 V.Call 帳戶資料。</string>
     <!-- Action to export in for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_action">匯出</string>
 
     <!-- Shown in a dialog with a spinner while the report is downloading -->
     <string name="ExportAccountDataFragment__download_progress">正在建立報告…</string>
     <!-- Explanation that the report is only generated on export and is not saved on the device -->
-    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">你的報告僅在匯出時建立，並不會由 Signal 儲存在你的裝置上。</string>
+    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">你的報告僅在匯出時建立，並不會由 V.Call 儲存在你的裝置上。</string>
 
     <!-- ChangeNumberFragment -->
     <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">使用此可將你現在的電話號碼變更為新的電話號碼。你無法取消此變更。\n\n在繼續之前，請確保你的新電話號碼可以接收簡訊或電話。</string>
@@ -4211,15 +4211,15 @@
     <!-- Preference title to delete sms -->
     <string name="SmsSettingsFragment__remove_sms_messages">移除簡訊</string>
     <!-- Snackbar text to confirm deletion -->
-    <string name="SmsSettingsFragment__removing_sms_messages_from_signal">正在從 Signal 中移除短訊…</string>
+    <string name="SmsSettingsFragment__removing_sms_messages_from_signal">正在從 V.Call 中移除短訊…</string>
     <!-- Snackbar text to indicate can delete later -->
-    <string name="SmsSettingsFragment__you_can_remove_sms_messages_from_signal_in_settings">你隨時可以在「設定」中移除 Signal 內的短訊。</string>
+    <string name="SmsSettingsFragment__you_can_remove_sms_messages_from_signal_in_settings">你隨時可以在「設定」中移除 V.Call 內的短訊。</string>
     <!-- Description for export sms preference -->
     <string name="SmsSettingsFragment__you_can_export_your_sms_messages_to_your_phones_sms_database">你可以將短訊匯出至手機的短訊資料庫</string>
     <!-- Description for re-export sms preference -->
     <string name="SmsSettingsFragment__exporting_again_can_result_in_duplicate_messages">重新匯出可能會導致訊息重複。</string>
     <!-- Description for remove sms preference -->
-    <string name="SmsSettingsFragment__remove_sms_messages_from_signal_to_clear_up_storage_space">從 Signal 移除短訊以清空儲存空間</string>
+    <string name="SmsSettingsFragment__remove_sms_messages_from_signal_to_clear_up_storage_space">從 V.Call 移除短訊以清空儲存空間</string>
     <!-- Information message shown at the top of sms settings to indicate it is being removed soon. -->
     <string name="SmsSettingsFragment__sms_support_will_be_removed_soon_to_focus_on_encrypted_messaging">系統即將停止短訊支援，專注提供加密通訊服務。</string>
 
@@ -4227,7 +4227,7 @@
     <string name="NotificationsSettingsFragment__messages">訊息</string>
     <string name="NotificationsSettingsFragment__calls">通話</string>
     <string name="NotificationsSettingsFragment__notify_when">發生以下事件時通知你</string>
-    <string name="NotificationsSettingsFragment__contact_joins_signal">聯絡人加入 Signal</string>
+    <string name="NotificationsSettingsFragment__contact_joins_signal">聯絡人加入 V.Call</string>
     <!-- Notification preference header -->
     <string name="NotificationsSettingsFragment__notification_profiles">通知描述</string>
     <!-- Notification preference option header -->
@@ -4248,7 +4248,7 @@
     <string name="PrivacySettingsFragment__disappearing_messages">自動銷毀訊息</string>
     <string name="PrivacySettingsFragment__app_security">應用程式安全性</string>
     <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">在對話清單或應用程式內停用畫面擷取功能</string>
-    <string name="PrivacySettingsFragment__signal_message_and_calls">Signal 訊息和電話，永遠轉發通話和密封發件人</string>
+    <string name="PrivacySettingsFragment__signal_message_and_calls">V.Call 訊息和電話，永遠轉發通話和密封發件人</string>
     <string name="PrivacySettingsFragment__default_timer_for_new_changes">新聊天的預設計時器</string>
     <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">為你發起的所有新聊天設定預設的訊息銷毀計時器。</string>
     <!-- Summary for stories preference to launch into story privacy settings -->
@@ -4293,10 +4293,10 @@
     <string name="HelpSettingsFragment__contact_us">與我們聯繫</string>
     <string name="HelpSettingsFragment__version">版本</string>
     <string name="HelpSettingsFragment__debug_log">除錯紀錄</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the V.Call app-->
     <string name="HelpSettingsFragment__licenses">許可證</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">服務條款與隱私權政策</string>
-    <string name="HelpFragment__copyright_signal_messenger">Signal Messenger 版權所有</string>
+    <string name="HelpFragment__copyright_signal_messenger">V.Call Messenger 版權所有</string>
     <string name="HelpFragment__licenced_under_the_agplv3">依據 GNU AGPLv3 的條款授權</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -4336,9 +4336,9 @@
     <!-- ChatColorGradientTool -->
 
     <!-- Title text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_donate_to_signal">贊助 Signal</string>
+    <string name="Donate2022Q2Megaphone_donate_to_signal">贊助 V.Call</string>
     <!-- Body text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">各位都是 Signal 的強大支柱。每月捐款，即可獲得徽章。</string>
+    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">各位都是 V.Call 的強大支柱。每月捐款，即可獲得徽章。</string>
     <!-- Button label that brings a user to the donate screen. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_donate">贊助</string>
     <!-- Button label that dismissed a prompt to donate. Shown in a popup at the bottom of the chat list. -->
@@ -4361,7 +4361,7 @@
     <!-- BecomeASustainerMegaphone -->
     <string name="BecomeASustainerMegaphone__become_a_sustainer">成為贊助人</string>
     <!-- Displayed in the Become a Sustainer megaphone -->
-    <string name="BecomeASustainerMegaphone__signal_is_powered_by">Signal 由像你這樣的人提供支持。 捐贈並獲得徽章。</string>
+    <string name="BecomeASustainerMegaphone__signal_is_powered_by">V.Call 由像你這樣的人提供支持。 捐贈並獲得徽章。</string>
     <string name="BecomeASustainerMegaphone__not_now">稍後</string>
     <string name="BecomeASustainerMegaphone__donate">贊助</string>
 
@@ -4431,7 +4431,7 @@
     <string name="ConversationSettingsFragment__conversation_muted_forever">聊天已永久設為靜音</string>
     <string name="ConversationSettingsFragment__copied_phone_number_to_clipboard">已將電話號碼複製到剪貼簿。</string>
     <string name="ConversationSettingsFragment__phone_number">電話號碼</string>
-    <string name="ConversationSettingsFragment__get_badges">透過贊助 Signal 為你的個人資料中得到徽章。 點擊徽章以了解更多資訊。</string>
+    <string name="ConversationSettingsFragment__get_badges">透過贊助 V.Call 為你的個人資料中得到徽章。 點擊徽章以了解更多資訊。</string>
 
     <!-- PermissionsSettingsFragment -->
     <string name="PermissionsSettingsFragment__add_members">新增成員</string>
@@ -4490,7 +4490,7 @@
     <!-- Dialog action to view contact when they can\'t be removed otherwise -->
     <string name="NewConversationActivity__view_contact">檢視聯絡人</string>
     <!-- Error message shown when looking up a person by phone number and that phone number is not associated with a signal account -->
-    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s 不是 Signal 用戶</string>
+    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s 不是 V.Call 用戶</string>
 
     <!-- ContactFilterView -->
     <string name="ContactFilterView__search_name_or_number">搜尋姓名或電話號碼</string>
@@ -4610,11 +4610,11 @@
     <!-- Displayed on primary button in the bottom sheet as a call-to-action to launch into the donation flow -->
     <string name="ViewBadgeBottomSheetDialogFragment__donate_now">立即捐款</string>
     <!-- Title of a page in the bottom sheet. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s 支持 Signal</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s 支持 V.Call</string>
     <!-- Description of a page in the bottom sheet of a monthly badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s 透過每月捐款支持 Signal。Signal 是非牟利機構，背後並無廣告商或投資者，全靠你的支持推動。</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s 透過每月捐款支持 V.Call。V.Call 是非牟利機構，背後並無廣告商或投資者，全靠你的支持推動。</string>
     <!-- Description of a page in the bottom sheet of a one-time badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s 透過捐款支持 Signal。Signal 是非營利機構，背後並無廣告商或投資者，全靠你的支持推動。</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s 透過捐款支持 V.Call。V.Call 是非營利機構，背後並無廣告商或投資者，全靠你的支持推動。</string>
 
     <string name="ImageView__badge">徽章</string>
 
@@ -4636,17 +4636,17 @@
     <string name="Subscription__expires_s">到期日為 %1$s</string>
 
     <!-- Title of learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Signal 有別於其他通訊軟件。</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">V.Call 有別於其他通訊軟件。</string>
     <!-- First small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">私密通訊。無廣告、無追蹤、無監控。</string>
     <!-- Second small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Signal 全靠捐款支持運作，這意味著保護你的私隱就是我們的主要工作。Signal 是為你而打造的，不是為了你的資料，也不是為了盈利。</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">V.Call 全靠捐款支持運作，這意味著保護你的私隱就是我們的主要工作。V.Call 是為你而打造的，不是為了你的資料，也不是為了盈利。</string>
     <!-- Third small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">如果你願意的話，請即捐款支持，讓 Signal 繼續為大家帶來有趣且可靠的應用程式。</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">如果你願意的話，請即捐款支持，讓 V.Call 繼續為大家帶來有趣且可靠的應用程式。</string>
 
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">謝謝你的支援!</string>
     <!-- Subtext underneath the dialog title on the thanks sheet -->
-    <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">你已獲得 Signal 的捐款者徽章！在你的個人檔案中展示徽章，表現你對我們的支持。</string>
+    <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">你已獲得 V.Call 的捐款者徽章！在你的個人檔案中展示徽章，表現你對我們的支持。</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__you_can_also">你也可以做到</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__become_a_montly_sustainer">成為每月定期的贊助人。</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__display_on_profile">在個人資訊中展示</string>
@@ -4654,11 +4654,11 @@
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__continue">繼續</string>
     <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">當你擁有多個徽章時，你可以選擇一個讓其他人在你的個人資料中看到。</string>
 
-    <string name="BecomeASustainerFragment__get_badges">透過贊助 Signal 可為你的個人資料欄中得到徽章。</string>
-    <string name="BecomeASustainerFragment__signal_is_a_non_profit">Signal 是一個沒有廣告商或投資者的非營利組織，只有像你這樣的人支持。</string>
+    <string name="BecomeASustainerFragment__get_badges">透過贊助 V.Call 可為你的個人資料欄中得到徽章。</string>
+    <string name="BecomeASustainerFragment__signal_is_a_non_profit">V.Call 是一個沒有廣告商或投資者的非營利組織，只有像你這樣的人支持。</string>
 
     <!-- Button label for creating a donation -->
-    <string name="ManageDonationsFragment__donate_to_signal">贊助 Signal</string>
+    <string name="ManageDonationsFragment__donate_to_signal">贊助 V.Call</string>
     <!-- Heading for more area of manage subscriptions page -->
     <string name="ManageDonationsFragment__more">更多</string>
     <!-- Heading for receipts area of manage subscriptions page -->
@@ -4687,9 +4687,9 @@
     <string name="MySupportPreference__please_contact_support">請聯絡支援部門。</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">更新 Signal</string>
+    <string name="UpdateSignalExpiredDialog__title">更新 V.Call</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">此版本的 Signal 已過期。請立即更新以繼續使用 Signal。</string>
+    <string name="UpdateSignalExpiredDialog__message">此版本的 V.Call 已過期。請立即更新以繼續使用 V.Call。</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">更新</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -4698,7 +4698,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">裝置未註冊</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">此裝置已不再註冊。重新註冊以在此裝置繼續使用 Signal。</string>
+    <string name="ReregisterSignalDialog__message">此裝置已不再註冊。重新註冊以在此裝置繼續使用 V.Call。</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">重新註冊</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -4712,7 +4712,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_boost_badge_has_expired_and">你的單是捐贈徽章已過期，不再顯示在你的個人資料中。</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_reactivate">你可以透過一次性捐款將你的\"贊助\"徽章再展示 30 天。</string>
     <!-- Displayed when we do not think the user is a subscriber when their boost expires -->
-    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">你可以繼續使用 Signal，但要支持為你構建的技術，請考慮透過每月捐款成為支持者。</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">你可以繼續使用 V.Call，但要支持為你構建的技術，請考慮透過每月捐款成為支持者。</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__become_a_sustainer">成為定期贊助人</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__add_a_boost">增加一次贊助</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__not_now">稍後</string>
@@ -4722,13 +4722,13 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled">由於我們無法處理你的付款，妳的每月定期捐款將被取消。 你的個人資料上不再顯示你的徽章。</string>
     <!-- Copy displayed when badge expires after a payment failure and we have a displayable charge failure reason -->
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled_s">你的每月定期捐款已經取消。%1$s你的 %2$s 徽章已不再顯示於你的檔案上。</string>
-    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">你可以繼續使用 Signal，但要支援該應用程式並重新啟動你的徽章，請立即續約。</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">你可以繼續使用 V.Call，但要支援該應用程式並重新啟動你的徽章，請立即續約。</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__renew_subscription">更新定期贊助</string>
     <!-- Button label to send user to Google Pay website -->
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">前往Google Pay</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">無法處理訂閱付款</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">我們在收取您的 Signal 長期贊助付款時遇到問題。 請確保你的付款方式是有效的。 如果不是，請在 Google Pay 中更新付款資訊。 Signal 將在幾天後再次嘗試處理付款。</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">我們在收取您的 V.Call 長期贊助付款時遇到問題。 請確保你的付款方式是有效的。 如果不是，請在 Google Pay 中更新付款資訊。 V.Call 將在幾天後再次嘗試處理付款。</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">不再顯示</string>
 
     <string name="Subscription__contact_support">聯絡支援</string>
@@ -4749,25 +4749,25 @@
     <!-- Displayed as title when some generic error happens during sending donation on behalf of another user -->
     <string name="DonationsErrors__donation_failed">捐款失敗</string>
     <!-- Displayed as message when some generic error happens during sending donation on behalf of another user -->
-    <string name="DonationsErrors__your_payment_was_processed_but">系統已經處理你的付款，但 Signal 無法傳送你的捐款訊息。請聯絡支援團隊。</string>
+    <string name="DonationsErrors__your_payment_was_processed_but">系統已經處理你的付款，但 V.Call 無法傳送你的捐款訊息。請聯絡支援團隊。</string>
     <string name="DonationsErrors__your_badge_could_not">你的徽章無法新增到你的帳號，但你可能已被收費。 請聯絡支援部門。</string>
     <string name="DonationsErrors__your_payment_is_still">你的付款仍在處理中。 這可能需要幾分鐘時間，這將取決於你的網路連接。</string>
     <string name="DonationsErrors__failed_to_cancel_subscription">取消定期訂閱失敗</string>
     <string name="DonationsErrors__subscription_cancellation_requires_an_internet_connection">取消定期贊助需要連接網路。</string>
-    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">你的裝置不支援 Google Pay，因此你無法訂閱以獲得徽章。 你仍然可以透過在我們的網站上捐款來支持 Signal。</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">你的裝置不支援 Google Pay，因此你無法訂閱以獲得徽章。 你仍然可以透過在我們的網站上捐款來支持 V.Call。</string>
     <string name="NetworkFailure__network_error_check_your_connection_and_try_again">網路錯誤。 檢查你的網路連接並重試。</string>
     <string name="NetworkFailure__retry">重試</string>
     <!-- Displayed as a dialog title when the selected recipient for a gift doesn\'t support gifting -->
     <string name="DonationsErrors__cannot_send_donation">無法發送捐款</string>
     <!-- Displayed as a dialog message when the selected recipient for a gift doesn\'t support gifting -->
-    <string name="DonationsErrors__this_user_cant_receive_donations_until">此用戶必須先升級 Signal 才能接收捐款。</string>
+    <string name="DonationsErrors__this_user_cant_receive_donations_until">此用戶必須先升級 V.Call 才能接收捐款。</string>
     <!-- Displayed as a dialog message when the user\'s profile could not be fetched, likely due to lack of internet -->
     <string name="DonationsErrors__your_donation_could_not_be_sent">由於發生網路錯誤，系統無法發送你的捐款。請檢查你的網路連線，然後再試一次。</string>
 
     <!-- Gift message view title -->
     <string name="GiftMessageView__donation_on_behalf_of_s">代表 %1$s 捐款</string>
     <!-- Gift message view title for incoming donations -->
-    <string name="GiftMessageView__s_donated_to_signal_on">%1$s 已代表你捐款給 Signal</string>
+    <string name="GiftMessageView__s_donated_to_signal_on">%1$s 已代表你捐款給 V.Call</string>
     <!-- Gift badge redeem action label -->
     <string name="GiftMessageView__redeem">加值</string>
     <!-- Gift badge view action label -->
@@ -4966,8 +4966,8 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">無法開啟選擇器。</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
-    <string name="ReleaseNotes__signal_release_notes_and_news">Signal 發行說明 &amp; 消息</string>
+    <!-- Description shown for the V.Call Release Notes channel -->
+    <string name="ReleaseNotes__signal_release_notes_and_news">V.Call 發行說明 &amp; 消息</string>
 
     <!-- Donation receipts activity title -->
     <string name="DonationReceiptListFragment__all_activity">所有活動</string>
@@ -4988,13 +4988,13 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">分享收據</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">若你已重新安裝 Signal，先前捐款的收據恕無法提供。</string>
+    <string name="DonationReceiptListFragment__if_you_have">若你已重新安裝 V.Call，先前捐款的收據恕無法提供。</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">捐款收據</string>
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">金額</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">感謝你支持 Signal。你的捐款驅動我們的使命，致力開發開放原始碼的私隱技術，讓世界各地數以百萬計的使用者，能夠保護自由表達並讓全球通訊變得更安全。若你是美國公民，請保留此收據作為你的稅務紀錄。Signal Technology Foundation 是在美國依據《國稅法規》第 501c3 條的免稅非盈利組織。我們的聯邦稅識別號碼為 82–4506840。</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">感謝你支持 V.Call。你的捐款驅動我們的使命，致力開發開放原始碼的私隱技術，讓世界各地數以百萬計的使用者，能夠保護自由表達並讓全球通訊變得更安全。若你是美國公民，請保留此收據作為你的稅務紀錄。V.Call Technology Foundation 是在美國依據《國稅法規》第 501c3 條的免稅非盈利組織。我們的聯邦稅識別號碼為 82–4506840。</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5137,7 +5137,7 @@
     <string name="MyStorySettingsFragment__who_can_view_this_story">誰能瀏覽此限動</string>
     <!-- Clickable option for selecting people to hide your story from -->
     <!-- Privacy setting title for sending stories to all your signal connections -->
-    <string name="MyStorySettingsFragment__all_signal_connections">所有 Signal 聯絡人</string>
+    <string name="MyStorySettingsFragment__all_signal_connections">所有 V.Call 聯絡人</string>
     <!-- Privacy setting description for sending stories to all your signal connections -->
     <!-- Privacy setting title for sending stories to all except the specified connections -->
     <string name="MyStorySettingsFragment__all_except">所有人，除了…</string>
@@ -5163,17 +5163,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">允許回覆&amp; 回應</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">誰可檢視你的限時動態也可表達心情和回覆</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
-    <string name="SignalConnectionsBottomSheet___signal_connections">Signal 聯絡人</string>
+    <!-- V.Call connections bolded text in the V.Call Connections sheet -->
+    <string name="SignalConnectionsBottomSheet___signal_connections">V.Call 聯絡人</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Signal 聯絡人是你信任的使用者，這些使用者可能是：</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">V.Call 聯絡人是你信任的使用者，這些使用者可能是：</string>
+    <!-- V.Call connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">開始聊天</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- V.Call connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">接受一則訊息要求</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- V.Call connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">系統聯絡人中存在對方</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the V.Call connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"你的相識可以看見你的名稱和照片。除非你對他們隱藏，否則亦可看見「我的限時動態」中的貼文。"</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">新增觀看者</string>
@@ -5328,7 +5328,7 @@
     <string name="GiftFlowStartFragment__donate_for_a_friend">為朋友捐款</string>
     <!-- Description text on start fragment for gifting a badge -->
     <plurals name="GiftFlowStartFragment__support_signal_by">
-        <item quantity="other">透過為使用 Signal 的朋友或家人捐款來支持 Signal。對方還可以在個人檔案上展示徽章 %1$d 天。</item>
+        <item quantity="other">透過為使用 V.Call 的朋友或家人捐款來支持 V.Call。對方還可以在個人檔案上展示徽章 %1$d 天。</item>
     </plurals>
     <!-- Action button label for start fragment for gifting a badge -->
     <string name="GiftFlowStartFragment__next">下一步</string>
@@ -5351,9 +5351,9 @@
     <!-- Title for sheet shown when opening a sent gift -->
     <string name="ViewSentGiftBottomSheet__thanks_for_your_support">謝謝您的支持！</string>
     <!-- Description for sheet shown when opening a redeemed gift -->
-    <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s 已代表你向 Signal 捐款！在你的個人檔案上展現你對 Signal 的支持。</string>
+    <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s 已代表你向 V.Call 捐款！在你的個人檔案上展現你對 V.Call 的支持。</string>
     <!-- Description for sheet shown when opening a sent gift -->
-    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">你已代表 %1$s 向 Signal 捐款。他們可以選擇在個人檔案上展現支持。</string>
+    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">你已代表 %1$s 向 V.Call 捐款。他們可以選擇在個人檔案上展現支持。</string>
     <!-- Primary action for pending gift sheet to redeem badge now -->
     <string name="ViewReceivedGiftSheet__redeem">加值</string>
     <!-- Primary action for pending gift sheet to redeem badge later -->
@@ -5363,7 +5363,7 @@
     <!-- Snackbar text when user presses "not now" on redemption sheet -->
     <string name="ConversationFragment__you_can_redeem_your_badge_later">你可以稍後加值你的徽章。</string>
     <!-- Description text in gift thanks sheet -->
-    <string name="GiftThanksSheet__youve_made_a_donation">你已代表 %1$s 向 Signal 捐款。他們可以選擇在個人檔案上展現支持。</string>
+    <string name="GiftThanksSheet__youve_made_a_donation">你已代表 %1$s 向 V.Call 捐款。他們可以選擇在個人檔案上展現支持。</string>
     <!-- Expired gift sheet title -->
     <string name="ExpiredGiftSheetConfiguration__your_badge_has_expired">你的徽章已過期</string>
     <!-- Expired gift sheet top description text -->
@@ -5448,7 +5448,7 @@
     <!-- Title of safety number changes bottom sheet when showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_changes">安全碼變更詳情</string>
     <!-- Message of safety number changes bottom sheet when showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__the_following_people">下列使用者可能已重新安裝 Signal 或更換裝置。點選任一位收件人，以便確認新的安全碼。這道程序並非強制要求。</string>
+    <string name="SafetyNumberBottomSheetFragment__the_following_people">下列使用者可能已重新安裝 V.Call 或更換裝置。點選任一位收件人，以便確認新的安全碼。這道程序並非強制要求。</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_checkup">安全碼檢查</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
@@ -5456,7 +5456,7 @@
     <!-- Message of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
     <string name="SafetyNumberBottomSheetFragment__all_connections_have_been_reviewed">所有聯絡人已審核完畢，點選「傳送」即可繼續。</string>
     <!-- Message of safety number changes bottom sheet when not showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">你有 %1$d 位聯絡人可能已重新安裝 Signal 或更換裝置。在分享限動之前，請審核對方的安全碼，或直接將他們從你的限動中移除。</string>
+    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">你有 %1$d 位聯絡人可能已重新安裝 V.Call 或更換裝置。在分享限動之前，請審核對方的安全碼，或直接將他們從你的限動中移除。</string>
     <!-- Menu action to launch safety number verification screen -->
     <string name="SafetyNumberBottomSheetFragment__verify_safety_number">驗證安全碼</string>
     <!-- Menu action to remove user from story -->
@@ -5473,7 +5473,7 @@
     <string name="SafetyNumberReviewConnectionsFragment__safety_number_changes">安全碼變更詳情</string>
     <!-- Message of safety number review fragment -->
     <plurals name="SafetyNumberReviewConnectionsFragment__d_recipients_may_have">
-        <item quantity="other">%1$d 位收件人可能已重新安裝 Signal 或更換裝置。點選任一位收件人即可確認安全碼；這道程序並非強制要求。</item>
+        <item quantity="other">%1$d 位收件人可能已重新安裝 V.Call 或更換裝置。點選任一位收件人即可確認安全碼；這道程序並非強制要求。</item>
     </plurals>
     <!-- Section header for 1:1 contacts in review fragment -->
     <string name="SafetyNumberBucketRowItem__contacts">聯絡人</string>
@@ -5487,7 +5487,7 @@
     <!-- Subtitle of initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__choose_who_can_see_posts_to_my_story_you_can_always_make_changes_in_settings">選擇誰可以看到「我的限時動態」的貼文。你可以隨時在設定中作出變更。</string>
     <!-- All connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
-    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">所有 Signal 聯絡人</string>
+    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">所有 V.Call 聯絡人</string>
     <!-- All connections except option for initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__all_except">所有人，除了…</string>
     <!-- Only with selected connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
@@ -5547,15 +5547,15 @@
     <!-- Displayed in the notification while export is running -->
     <string name="SignalSmsExportService__exporting_messages">正在匯出訊息…</string>
     <!-- Displayed in the notification title when export completes -->
-    <string name="SignalSmsExportService__signal_sms_export_complete">Signal 短訊匯出完成</string>
+    <string name="SignalSmsExportService__signal_sms_export_complete">V.Call 短訊匯出完成</string>
     <!-- Displayed in the notification message when export completes -->
-    <string name="SignalSmsExportService__tap_to_return_to_signal">點按即可返回 Signal</string>
+    <string name="SignalSmsExportService__tap_to_return_to_signal">點按即可返回 V.Call</string>
 
     <!-- ExportYourSmsMessagesFragment -->
     <!-- Title of the screen -->
     <string name="ExportYourSmsMessagesFragment__export_your_sms_messages">匯出你的簡訊</string>
     <!-- Message of the screen -->
-    <string name="ExportYourSmsMessagesFragment__you_can_export_your_sms_messages_to_your_phones_sms_database_and_youll_have_the_option_to_keep_or_remove_them_from_signal">你可以匯出 SMS 短訊到手機的 SMS 短訊資料庫，而且你可選擇保留或從 Signal 移除。此操作允許手機上的其他短訊應用程式匯入短訊。此操作不會建立可共用的 SMS 短訊紀錄檔案。</string>
+    <string name="ExportYourSmsMessagesFragment__you_can_export_your_sms_messages_to_your_phones_sms_database_and_youll_have_the_option_to_keep_or_remove_them_from_signal">你可以匯出 SMS 短訊到手機的 SMS 短訊資料庫，而且你可選擇保留或從 V.Call 移除。此操作允許手機上的其他短訊應用程式匯入短訊。此操作不會建立可共用的 SMS 短訊紀錄檔案。</string>
     <!-- Button label to begin export -->
     <string name="ExportYourSmsMessagesFragment__continue">繼續</string>
 
@@ -5574,8 +5574,8 @@
     <string name="ExportingSmsMessagesFragment__you_need_approximately_s_to_export_your_messages_ensure_you_have_enough_space_before_continuing">你需要大約 %1$s 才能匯出短訊，請確保在繼續之前有足夠的空間。</string>
     <!-- Alert dialog button to continue with exporting sms after seeing the lack of storage warning -->
     <string name="ExportingSmsMessagesFragment__continue_anyway">仍要繼續</string>
-    <!-- Dialog text shown when Signal isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
-    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">Signal 需要獲取短訊權限才能匯出你的短訊。</string>
+    <!-- Dialog text shown when V.Call isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
+    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">V.Call 需要獲取短訊權限才能匯出你的短訊。</string>
 
     <!-- ChooseANewDefaultSmsAppFragment -->
     <!-- Title of the screen -->
@@ -5599,7 +5599,7 @@
     <!-- Instruction step for choosing a new default sms app -->
     <string name="ChooseANewDefaultSmsAppFragment__choose_another_app_to_use_for_sms_messaging">選擇使用另一個短訊應用程式</string>
     <!-- Instruction step for choosing a new default sms app -->
-    <string name="ChooseANewDefaultSmsAppFragment__return_to_signal">返回 Signal</string>
+    <string name="ChooseANewDefaultSmsAppFragment__return_to_signal">返回 V.Call</string>
     <!-- Instruction step for choosing a new default sms app -->
     <string name="ChooseANewDefaultSmsAppFragment__open_your_phones_settings_app">開啟手機的「設定」應用程式</string>
     <!-- Instruction step for choosing a new default sms app -->
@@ -5611,9 +5611,9 @@
     <!-- Action button to remove messages -->
     <string name="RemoveSmsMessagesDialogFragment__remove_messages">移除訊息</string>
     <!-- Title of dialog -->
-    <string name="RemoveSmsMessagesDialogFragment__remove_sms_messages">要從 Signal 移除簡訊嗎？</string>
+    <string name="RemoveSmsMessagesDialogFragment__remove_sms_messages">要從 V.Call 移除簡訊嗎？</string>
     <!-- Message of dialog -->
-    <string name="RemoveSmsMessagesDialogFragment__you_can_now_remove_sms_messages_from_signal">你現在可以從 Signal 中移除短訊，以騰出儲存空間。移除後，你仍可在其他短訊應用程式內找到該短訊紀錄。</string>
+    <string name="RemoveSmsMessagesDialogFragment__you_can_now_remove_sms_messages_from_signal">你現在可以從 V.Call 中移除短訊，以騰出儲存空間。移除後，你仍可在其他短訊應用程式內找到該短訊紀錄。</string>
 
     <!-- ReExportSmsMessagesDialogFragment -->
     <!-- Action button to re-export messages -->
@@ -5627,9 +5627,9 @@
 
     <!-- SetSignalAsDefaultSmsAppFragment -->
     <!-- Title of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">將 Signal 設定為預設短訊應用程式</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">將 V.Call 設定為預設短訊應用程式</string>
     <!-- Message of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">如要匯出短訊，你需要將 Signal 設定為預設短訊應用程式。</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">如要匯出短訊，你需要將 V.Call 設定為預設短訊應用程式。</string>
     <!-- Button label to start export -->
     <string name="SetSignalAsDefaultSmsAppFragment__next">下一步</string>
 
@@ -5653,13 +5653,13 @@
 
     <!-- SmsExportMegaphoneActivity -->
     <!-- Phase 2 title of full screen megaphone indicating sms will no longer be supported in the near future -->
-    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">Signal 將不再支援短訊服務</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">V.Call 將不再支援短訊服務</string>
     <!-- Phase 3 title of full screen megaphone indicating sms is longer supported  -->
-    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">Signal 不再支援短訊服務</string>
+    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">V.Call 不再支援短訊服務</string>
     <!-- Phase 2 message describing that sms is going away soon -->
-    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">Signal 即將停止支援短訊傳送，專注提供經端對端加密過的 Signal 通訊服務，加強隱私保障。這將協助我們改善 Signal 通訊體驗。</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">V.Call 即將停止支援短訊傳送，專注提供經端對端加密過的 V.Call 通訊服務，加強隱私保障。這將協助我們改善 V.Call 通訊體驗。</string>
     <!-- Phase 3 message describing that sms has gone away -->
-    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">Signal 已停止支援短訊傳送，專注提供經端對端加密過的 Signal 通訊服務，加強隱私保障。這將協助我們改善 Signal 通訊體驗。</string>
+    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">V.Call 已停止支援短訊傳送，專注提供經端對端加密過的 V.Call 通訊服務，加強隱私保障。這將協助我們改善 V.Call 通訊體驗。</string>
     <!-- The text on a button in a popup that, when clicked, will take the user to a screen to export their SMS messages -->
     <string name="SmsExportMegaphoneActivity__export_sms">匯出短訊</string>
     <!-- The text on a button in a popup that, when clicked, will dismiss the popup and schedule the prompt to occur at a later time. -->
@@ -5670,7 +5670,7 @@
     <!-- Phase 1 Small megaphone title indicating sms is going away -->
     <string name="SmsExportMegaphone__sms_support_going_away">系統即將停止支援短訊服務</string>
     <!-- Phase 1 small megaphone description indicating sms is going away -->
-    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">不用擔心，Signal 加密訊息將可繼續使用。</string>
+    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">不用擔心，V.Call 加密訊息將可繼續使用。</string>
     <!-- Phase 1 small megaphone button that takes the user to the sms export flow -->
     <string name="SmsExportMegaphone__continue">繼續</string>
     <!-- Title for screen shown after sms export has completed -->
@@ -5708,7 +5708,7 @@
     <!-- Continue button label -->
     <string name="DonateToSignalFragment__continue">繼續</string>
     <!-- Description below title -->
-    <string name="DonateToSignalFragment__private_messaging">我們是由你贊助的私密通訊軟件。無廣告、無追蹤、而且絕不妥協。請即捐款支持 Signal。</string>
+    <string name="DonateToSignalFragment__private_messaging">我們是由你贊助的私密通訊軟件。無廣告、無追蹤、而且絕不妥協。請即捐款支持 V.Call。</string>
     <!-- Donation pill toggle monthly text -->
     <string name="DonationPillToggle__monthly">每個月</string>
     <!-- Donation pill toggle one-time text -->
@@ -5716,11 +5716,11 @@
 
     <!-- GatewaySelectorBottomSheet -->
     <!-- Sheet title when subscribing -->
-    <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">每月向 Signal 捐款 %1$s</string>
+    <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">每月向 V.Call 捐款 %1$s</string>
     <!-- Sheet summary when subscribing -->
     <string name="GatewaySelectorBottomSheet__get_a_s_badge">得到一個 %1$s 徽章</string>
     <!-- Sheet title when giving a one-time donation -->
-    <string name="GatewaySelectorBottomSheet__donate_s_to_signal">捐款 %1$s 給 Signal</string>
+    <string name="GatewaySelectorBottomSheet__donate_s_to_signal">捐款 %1$s 給 V.Call</string>
     <!-- Sheet summary when giving a one-time donation -->
     <plurals name="GatewaySelectorBottomSheet__get_a_s_badge_for_d_days">
         <item quantity="other">獲取為期 %2$d 天的 %1$s 徽章</item>
@@ -5747,7 +5747,7 @@
     <!-- The title of a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_title">系統無法處理聯絡人</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
-    <string name="CdsPermanentErrorBottomSheet_body">你手機的聯絡人超出 Signal 可以處理的數量。如要在 Signal 上尋找聯絡人，請考慮從同步大量聯絡人的手機中刪除聯絡人或帳戶。</string>
+    <string name="CdsPermanentErrorBottomSheet_body">你手機的聯絡人超出 V.Call 可以處理的數量。如要在 V.Call 上尋找聯絡人，請考慮從同步大量聯絡人的手機中刪除聯絡人或帳戶。</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_learn_more">了解更多</string>
     <!-- A button label in a bottom sheet that will navigate the user to their contacts settings. -->
@@ -5763,9 +5763,9 @@
 
     <!-- YourInformationIsPrivateBottomSheet -->
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">你的資料已保密</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">當你捐款時，Signal 不會收集或儲存任何個人資料。</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">當你捐款時，V.Call 不會收集或儲存任何個人資料。</string>
     <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">我們使用 Stripe 作為接收捐款的付款處理商。我們不會存取、保存或儲存你向他們提供的任何資料。</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal 不會也無法將你的捐款連接到你的 Signal 帳戶。</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">V.Call 不會也無法將你的捐款連接到你的 V.Call 帳戶。</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">謝謝你的支持！</string>
 
     <!-- GroupStoryEducationSheet -->
@@ -5796,19 +5796,19 @@
     <!-- Title for screen describing that sms support is going to be removed soon -->
     <string name="SmsRemoval_title_going_away">系統即將停止支援短訊服務</string>
     <!-- Bullet point message shown on describing screen as first bullet why sms is being removed, placeholder with be date of removal (e.g., March 21st) -->
-    <string name="SmsRemoval_info_bullet_1">Signal 應用程式即將停止支援短訊服務。</string>
+    <string name="SmsRemoval_info_bullet_1">V.Call 應用程式即將停止支援短訊服務。</string>
     <!-- Bullet point message shown on describing screen as second bullet why sms is being removed -->
-    <string name="SmsRemoval_info_bullet_2">短訊與 Signal 訊息不同。<b>這不會影響 Signal 加密通訊，有關服務將可繼續使用。</b></string>
+    <string name="SmsRemoval_info_bullet_2">短訊與 V.Call 訊息不同。<b>這不會影響 V.Call 加密通訊，有關服務將可繼續使用。</b></string>
     <!-- Bullet point message shown on describing screen as third bullet why sms is being removed -->
     <string name="SmsRemoval_info_bullet_3">你可匯出短訊，並選擇新的短訊應用程式。</string>
     <!-- Bullet point message shown on describing screen as first bullet variant why sms is being removed when user is locked out of sms -->
-    <string name="SmsRemoval_info_bullet_1_phase_3">Signal 已停止支援短訊傳送。</string>
+    <string name="SmsRemoval_info_bullet_1_phase_3">V.Call 已停止支援短訊傳送。</string>
     <!-- Button label on sms removal info/megaphone to start the export SMS flow -->
     <string name="SmsRemoval_export_sms">匯出短訊</string>
 
     <!-- Set up your username megaphone -->
     <!-- Displayed as a title on a megaphone which prompts user to set up a username -->
-    <string name="SetUpYourUsername__set_up_your_signal_username">設定你的 Signal 用戶名稱</string>
+    <string name="SetUpYourUsername__set_up_your_signal_username">設定你的 V.Call 用戶名稱</string>
     <!-- Displayed as a description on a megaphone which prompts user to set up a username -->
     <string name="SetUpYourUsername__usernames_let_others">用戶名稱讓其他人無需透過電話號碼也可以向你傳送訊息</string>
     <!-- Displayed as an action on a megaphone which prompts user to set up a username -->
@@ -5834,7 +5834,7 @@
     <!-- Continue button which takes the user to the add a username screen -->
     <string name="UsernameEducationFragment__continue">繼續</string>
     <!-- Displayed as a title on the username education screen -->
-    <string name="UsernameEducationFragment__set_up_your_signal_username">設定你的 Signal 用戶名稱</string>
+    <string name="UsernameEducationFragment__set_up_your_signal_username">設定你的 V.Call 用戶名稱</string>
     <!-- Displayed as body text in the username education screen -->
     <string name="UsernameEducationFragment__usernames_are_paired_with_a_set_of_digits">用戶名稱與一組數字配對，並且不會在你的個人檔案上公開</string>
     <!-- Displayed as body text in the username education screen -->
@@ -5976,21 +5976,21 @@
     <!-- Call link creation item title on calls tab -->
     <string name="CreateCallLink__create_a_call_link">建立通話連結</string>
     <!-- Call link creation item description on calls tab -->
-    <string name="CreateCallLink__share_a_link_for">分享 Signal 通話的連結</string>
+    <string name="CreateCallLink__share_a_link_for">分享 V.Call 通話的連結</string>
 
     <!-- CreateCallLinkBottomSheetDialogFragment -->
     <!-- Fragment title -->
     <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">建立通話連結</string>
     <!-- Displayed as a default name for the signal call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Signal 通話</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">V.Call 通話</string>
     <!-- Displayed on a small button to allow user to instantly join call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__join">加入</string>
     <!-- Option to open a full screen dialog to enter a call name -->
     <string name="CreateCallLinkBottomSheetDialogFragment__add_call_name">新增通話名稱</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">批准全部成員</string>
-    <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">透過 Signal 分享連結</string>
+    <!-- Row label to share the link via V.Call -->
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">透過 V.Call 分享連結</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">複製連結</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -6021,9 +6021,9 @@
     <!-- Title shown at top of bottom sheet dialog for displaying a message\'s edit history -->
     <string name="EditMessageHistoryDialog_title">編輯歷史記錄</string>
     <!-- Title of dialog shown alerting user that edit message is in beta only -->
-    <string name="SendingEditMessageBetaOnlyDialog_title">只限 Signal 測試版</string>
+    <string name="SendingEditMessageBetaOnlyDialog_title">只限 V.Call 測試版</string>
     <!-- Body of dialog shown alerting user that edit message is in beta only and only sent to beta users. -->
-    <string name="SendingEditMessageBetaOnlyDialog_body">編輯訊息僅適用於 Signal 測試版用戶。只有使用最新 Signal 測試版的用戶才能看到你的編輯訊息。</string>
+    <string name="SendingEditMessageBetaOnlyDialog_body">編輯訊息僅適用於 V.Call 測試版用戶。只有使用最新 V.Call 測試版的用戶才能看到你的編輯訊息。</string>
     <!-- Button to cancel sending edit message as it is beta only -->
     <string name="SendingEditMessageBetaOnlyDialog_cancel">取消</string>
     <!-- Button to continue sending edit message despite it being beta only -->

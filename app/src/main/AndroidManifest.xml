@@ -269,7 +269,7 @@
             android:name=".RoutingActivityAltYellow"
             android:enabled="false"
             android:exported="true"
-            android:icon="@mipmap/ic_launcher_alt_yellow"
+            android:icon="@mipmap/ic_launcher_alt_grey"
             android:targetActivity=".MainActivity">
 
             <intent-filter>
@@ -281,10 +281,10 @@
 
             <meta-data
                 android:name="com.sec.minimode.icon.portrait.normal"
-                android:resource="@mipmap/ic_launcher_alt_yellow" />
+                android:resource="@mipmap/ic_launcher_alt_grey" />
             <meta-data
                 android:name="com.sec.minimode.icon.landscape.normal"
-                android:resource="@mipmap/ic_launcher_alt_yellow" />
+                android:resource="@mipmap/ic_launcher_alt_grey" />
 
             <meta-data
                 android:name="android.app.shortcuts"

@@ -24,13 +24,13 @@
     <string name="save">ذخیره</string>
     <string name="note_to_self">یادداشت به خود</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">آب‌وهوا</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">یادداشت‌ها</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">اخبار</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">امواج</string>
 
     <!-- AlbumThumbnailView -->
@@ -158,15 +158,15 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">شما دیگر از این گروه پیام و به‌روزرسانی دریافت نخواهید کرد و اعضا قادر نخواهند بود دوباره شما را به این گروه اضافه کنند.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">اعضای گروه قادر نخواهند بود دوباره شما را به این گروه اضافه کنند.</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">اعضای گروه می‌توانند دوباره شما را به این گروه اضافه کنند.</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a V.Call contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">شما می‌توانید به دیگران پیام دهید و با آن‌ها تماس بگیرید و نام و عکس شما با آن‌ها به اشتراک گذاشته خواهد شد.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">شما قادر خواهید بود به یکدیگر پیام دهید.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">افراد مسدودشده قادر به برقراری تماس با شما یا ارسال پیام به شما نخواهند بود.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">افراد مسدودشده قادر به ارسال پیام به شما نخواهند بود.</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
+    <!-- Message shown on block dialog when blocking the V.Call release notes recipient -->
     <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">دریافت به‌روزرسانی‌ها و اخبار سیگنال را مسدود کنید.</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
+    <!-- Message shown on unblock dialog when unblocking the V.Call release notes recipient -->
     <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">دریافت به‌روزرسانی‌ها و اخبار سیگنال را از سر بگیرید.</string>
     <string name="BlockUnblockDialog_unblock_s">%1$s رفع مسدودیت شود؟</string>
     <string name="BlockUnblockDialog_block">مسدود کردن</string>
@@ -1118,7 +1118,7 @@
 
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">برای ضبط پیام ضربه زده و نگه دارید، برای ارسال رها کنید</string>
-    <!-- Message shown if the user tries to switch a conversation from Signal to SMS -->
+    <!-- Message shown if the user tries to switch a conversation from V.Call to SMS -->
     <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">پیامک دیگر در سیگنال پشتیبانی نمی‌شود.</string>
     <!-- When editing a message, label shown above the text input field in the composer -->
     <string name="InputPanel_edit_message">ویرایش پیام</string>
@@ -1528,7 +1528,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">اجازه می‌دهید که %1$s به شما پیام بفرستد و نام و عکس‌تان با او به اشتراک گذاشته شود؟ این شخص را در گذشته حذف کرده‌اید.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">آیا به %1$s اجازه می‌دهید که به شما پیام دهد و نام و عکس خود را با او به اشتراک می‌گذارید؟ تا زمانی که نپذیرید او متوجه نمی‌شود که پیامش را خوانده‌اید.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a V.Call user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">می‌خواهید به %1$s اجازه دهید به شما پیام دهد و نام و عکستان را با او به اشتراک بگذارید؟ تا وقتی او را رفع مسدودیت نکنید هیچ پیامی دریافت نخواهید کرد.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">می‌خواهید اجازه دهید %1$s به شما پیام دهد؟ تا وقتی او را رفع مسدودیت نکنید، هیچ پیامی دریافت نخواهید کرد.</string>
@@ -1949,10 +1949,10 @@
     <string name="SharedContactView_invite_to_signal">دعوت به سیگنال</string>
     <string name="SharedContactView_message">پیام سیگنال</string>
 
-    <!-- SignalBottomActionBar -->
+    <!-- V.CallBottomActionBar -->
     <string name="SignalBottomActionBar_more">بیشتر</string>
 
-    <!-- SignalPinReminders -->
+    <!-- V.CallPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">پین با موفقیت تایید شد. بعدا دوباره به شما یادآوری خواهیم کرد.</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">پین با موفقیت تایید شد. فردا دوباره به شما یادآوری خواهیم کرد.</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">پین با موفقیت تایید شد. چند روز دیگر دوباره به شما یادآوری خواهیم کرد.</string>
@@ -2912,7 +2912,7 @@
     <string name="preferences__help">راهنمایی</string>
     <string name="preferences__advanced">پیشرفته</string>
     <string name="preferences__donate_to_signal">اهدای کمک مالی به سیگنال</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <!-- Preference label for making one-time donations to V.Call -->
     <string name="preferences__privacy">حریم خصوصی</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">استوری‌ها</string>
@@ -3040,7 +3040,7 @@
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">عبور از فیلترینگ بر اساس شماره‌تلفن شما فعال شد.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">شما عبور از فیلترینگ را به صورت دستی غیرفعال کردید.</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the V.Call service -->
     <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">نیازی به دورزدن سانسور نیست؛ شما به سرویس سیگنال دسترسی مستقیم دارید.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">عبور از فیلترینگ تنها زمانی می‌تواند فعال شود که اینترنت متصل باشد.</string>
@@ -3579,17 +3579,17 @@
     <string name="KbsMegaphone__create_pin">ایجاد پین</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
+    <!-- Displayed in a notification when a V.Call voice call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_voice_call">تماس صوتی ورودی سیگنال</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
+    <!-- Displayed in a notification when a V.Call video call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_video_call">تماس تصویری ورودی سیگنال</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
+    <!-- Displayed in a notification when a V.Call group call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_group_call">تماس ورودی گروهی سیگنال</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
+    <!-- Displayed in a notification when a V.Call voice call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_voice_call">تماس تصویری سیگنال در جریان است</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
+    <!-- Displayed in a notification when a V.Call video call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_video_call">تماس تصویری سیگنال در جریان است</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
+    <!-- Displayed in a notification when a V.Call group call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_group_call">تماس گروهی سیگنال در جریان است</string>
 
     <!-- transport_selection_list_item -->
@@ -3644,7 +3644,7 @@
     <string name="BackupDialog_passphrase_was_not_correct">گذرواژه نادرست بود</string>
     <string name="LocalBackupJob_creating_signal_backup">در حال ایجاد پشتیبان سیگنال…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">در حال تایید پشتیبان Signal…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">در حال تایید پشتیبان V.Call…</string>
     <string name="LocalBackupJobApi29_backup_failed">پشتیبان‌گیری ناموفق بود</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">آدرس ذخیره‌سازی پشتیبان شما پاک شده یا به جای دیگری انتقال یافته است.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">حجم فایل پشتیبان شما برای نگهداری در این محل زیاد است.</string>
@@ -4388,7 +4388,7 @@
     <string name="HelpSettingsFragment__contact_us">تماس با ما</string>
     <string name="HelpSettingsFragment__version">نسخه</string>
     <string name="HelpSettingsFragment__debug_log">گزارش عیب‌یابی</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the V.Call app-->
     <string name="HelpSettingsFragment__licenses">گواهینامه‌ها</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">شرایط و خط مشی حریم خصوصی</string>
     <string name="HelpFragment__copyright_signal_messenger">حق تکثیر پیام‌رسان سیگنال</string>
@@ -5067,7 +5067,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">باز کردن گزینش‌گر ناموفق بود.</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
+    <!-- Description shown for the V.Call Release Notes channel -->
     <string name="ReleaseNotes__signal_release_notes_and_news">تازه‌ها و اخبار سیگنال</string>
 
     <!-- Donation receipts activity title -->
@@ -5270,17 +5270,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">اجازه پاسخ و واکنش</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">به کسانی که می‌توانند استوری شما را ببینند اجازه واکنش و پاسخ بدهید</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
+    <!-- V.Call connections bolded text in the V.Call Connections sheet -->
     <string name="SignalConnectionsBottomSheet___signal_connections">آشنایان در سیگنال.</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
     <string name="SignalConnectionsBottomSheet__signal_connections_are_people">آشنایان در سیگنال افرادی هستند که به دلایل زیر تصمیم گرفته‌اید به آن‌ها اعتماد کنید:</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <!-- V.Call connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">شروع یک گفتگو</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- V.Call connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">پذیرش درخواست تبادل پیام</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- V.Call connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">بودن آن‌ها در مخاطبین سیستم شما</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the V.Call connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"آشنایان شما می‌توانند نام و عکس شما را ببینند، و می‌توانند پست‌های \"استوری من\" را ببینند، مگر اینکه آن را از آن‌ها مخفی کنید."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">افزودن بازدیدکننده</string>
@@ -5694,7 +5694,7 @@
     <string name="ExportingSmsMessagesFragment__you_need_approximately_s_to_export_your_messages_ensure_you_have_enough_space_before_continuing">شما تقریباً به %1$s نیاز دارید تا پیام‌های خود را صادر کنید، قبل از ادامه مطمئن شوید که فضای کافی دارید.</string>
     <!-- Alert dialog button to continue with exporting sms after seeing the lack of storage warning -->
     <string name="ExportingSmsMessagesFragment__continue_anyway">به هر حال ادامه بده</string>
-    <!-- Dialog text shown when Signal isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
+    <!-- Dialog text shown when V.Call isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
     <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">سیگنال برای اینکه بتواند پیامک‌های شما را صادر کند، به مجوز پیامک نیاز دارد.</string>
 
     <!-- ChooseANewDefaultSmsAppFragment -->
@@ -6115,7 +6115,7 @@
     <string name="CreateCallLinkBottomSheetDialogFragment__add_call_name">افزودن نام تماس</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">تأیید همه اعضا</string>
-    <!-- Row label to share the link via Signal -->
+    <!-- Row label to share the link via V.Call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">اشتراک‌گذاری پیوند از طریق سیگنال</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">کپی کردن پیوند</string>

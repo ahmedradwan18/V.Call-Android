@@ -24,28 +24,28 @@
     <string name="save">Сактоо</string>
     <string name="note_to_self">Өзүм үчүн белгилеп коюу</string>
 
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">Аба ырайы</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">Эскертүүлөр</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">Жаңылыктар</string>
-    <!-- Alternate label for the Signal Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">Толкундар</string>
 
     <!-- AlbumThumbnailView -->
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Signal жаңырууда…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">V.Call жаңырууда…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Сыр сөз айкашын али кое элексиз!</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">Сыр сөз айкашын өчүрөсүзбү?</string>
-    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Ушуну менен, Signal колдонмосу такыр кулпуланбай, билдирмелери сырсөзсүз көрүнө берет.</string>
+    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Ушуну менен, V.Call колдонмосу такыр кулпуланбай, билдирмелери сырсөзсүз көрүнө берет.</string>
     <string name="ApplicationPreferencesActivity_disable">Өчүрүү</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal колдонмосундагы билдирүүлөр менен чалууларды өчүрөсүзбү?</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Серверге катталуудан баш тартуу менен, Signal колдонмосундагы билдирүүлөр менен чалууларды өчүрөсүз. Аларды кайра иштеткиңиз келсе, телефон номериңиз менен кайрадан катталууга туура келет.</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">V.Call колдонмосундагы билдирүүлөр менен чалууларды өчүрөсүзбү?</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Серверге катталуудан баш тартуу менен, V.Call колдонмосундагы билдирүүлөр менен чалууларды өчүрөсүз. Аларды кайра иштеткиңиз келсе, телефон номериңиз менен кайрадан катталууга туура келет.</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Серверге туташууда ката кетти!</string>
     <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">PIN-коддор катталууну кулпулоо үчүн керек. Алгач катталууну кулпулоо функциясын өчүрүп, кийин PIN-коддорду өчүрүңүз.</string>
     <string name="ApplicationPreferencesActivity_pin_created">PIN код түзүлдү.</string>
@@ -81,15 +81,15 @@
     <string name="AttachmentKeyboard_file">Файл</string>
     <string name="AttachmentKeyboard_contact">Байланыш</string>
     <string name="AttachmentKeyboard_location">Жүргөн жер</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal сүрөттөрүңүз менен видеолоруңузду сиздин уруксатыңыз менен көрсөтөт.</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">V.Call сүрөттөрүңүз менен видеолоруңузду сиздин уруксатыңыз менен көрсөтөт.</string>
     <string name="AttachmentKeyboard_give_access">Уруксат берүү</string>
     <string name="AttachmentKeyboard_payment">Төлөм</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Медиафайлдарды тандай турган колдонмо табылган жок.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal колдонмосуна сүрөттөрдү, видеолорду же аудиолорду тиркөө үчүн Сактагычка кирүүгө уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Сактагыч\" дегенди иштетиңиз.</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal колдонмосуна байланыштын маалыматын тиркөө үчүн Байланыштарды колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Байланыштар\" дегенди иштетиңиз.</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal колдонмосуна турган жериңизди тиркөө үчүн Жүргөн жерди аныктоо функциясын колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Жүргөн жерди аныктоо\" дегенди иштетиңиз.</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">V.Call колдонмосуна сүрөттөрдү, видеолорду же аудиолорду тиркөө үчүн Сактагычка кирүүгө уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Сактагыч\" дегенди иштетиңиз.</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">V.Call колдонмосуна байланыштын маалыматын тиркөө үчүн Байланыштарды колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Байланыштар\" дегенди иштетиңиз.</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">V.Call колдонмосуна турган жериңизди тиркөө үчүн Жүргөн жерди аныктоо функциясын колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Жүргөн жерди аныктоо\" дегенди иштетиңиз.</string>
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s төлөмдөр кызматын иштете элек </string>
     <!-- Alert dialog description to send the recipient a request to activate payments -->
@@ -126,7 +126,7 @@
     <string name="CreditCardFragment__donation_amount_s_per_month">Салымдын суммасы: айына %1$s</string>
     <!-- Explanation of how to fill in the form, displayed above the credit card text fields -->
     <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-    <string name="CreditCardFragment__enter_your_card_details">Картаңыздын маалыматын киргизиңиз. Signal жеке маалыматыңызды чогултпайт же сактабайт.</string>
+    <string name="CreditCardFragment__enter_your_card_details">Картаңыздын маалыматын киргизиңиз. V.Call жеке маалыматыңызды чогултпайт же сактабайт.</string>
     <!-- Displayed as a hint in the card number text field -->
     <string name="CreditCardFragment__card_number">Картанын номери</string>
     <!-- Displayed as a hint in the card expiry text field -->
@@ -158,15 +158,15 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">Бул топтон билдирүүлөр менен жаңылыктарды албай каласыз жана топтун мүчөлөрү сизди бул топко кайра кошо алышпайт.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">Топтун мүчөлөрү сизди кайра ушул топко кошо алышпайт.</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">Топтун мүчөлөрү сизди кайра ушул топко кошо алышат.</string>
-    <!-- Text that is shown when unblocking a Signal contact -->
+    <!-- Text that is shown when unblocking a V.Call contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">Бири-бириңерге чалып, жазыша аласыз жана башкаларга атыңыз менен сүрөтүңүз көрүнүп турат.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">Бири-бириңер менен жазыша аласыз.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">Бөгөттөлгөн адамдар сизге чала да албай, сиз менен жазыша да албай калышат.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">Бөгөттөлгөн адамдар сиз менен жазыша албай калышат.</string>
-    <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
+    <!-- Message shown on block dialog when blocking the V.Call release notes recipient -->
     <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Signal\'дан жаңылыктар келбей эле койсун.</string>
-    <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
+    <!-- Message shown on unblock dialog when unblocking the V.Call release notes recipient -->
     <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Signal\'дан жаңылыктар келе берсин.</string>
     <string name="BlockUnblockDialog_unblock_s">%1$s бөгөттөн чыгарасызбы?</string>
     <string name="BlockUnblockDialog_block">Бөгөттөө</string>
@@ -201,17 +201,17 @@
         <item quantity="other">Эң көп дегенде %1$d маекте бөлүшө аласыз.</item>
     </plurals>
     <string name="CameraContacts_select_signal_recipients">Signal\'дагы алуучуларды тандаңыз</string>
-    <string name="CameraContacts_no_signal_contacts">Signal байланыштары жок</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">Сүрөттөрдү камеранын баскычы менен Signal\'дын колдонуучуларына гана жөнөтө аласыз. </string>
+    <string name="CameraContacts_no_signal_contacts">V.Call байланыштары жок</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">Сүрөттөрдү камеранын баскычы менен V.Call\'дын колдонуучуларына гана жөнөтө аласыз. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">Керектүү адамды таппай жатасызбы?</string>
-    <string name="CameraContacts_invite_a_contact_to_join_signal">Байланышыңызды Signal\'га чакырыңыз</string>
+    <string name="CameraContacts_invite_a_contact_to_join_signal">Байланышыңызды V.Call\'га чакырыңыз</string>
     <string name="CameraContacts__menu_search">Издөө</string>
 
     <!-- Censorship Circumvention Megaphone -->
     <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">Цензурадан кыйгап өтүүнү өчүрөсүзбү?</string>
     <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Эми Signal кызматына дароо кошула аласыз.</string>
+    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Эми V.Call кызматына дароо кошула аласыз.</string>
     <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off">Өчүрүү</string>
     <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -238,7 +238,7 @@
     <string name="CommunicationActions_cancel">Жокко чыгаруу</string>
     <string name="CommunicationActions_call">Чалуу</string>
     <string name="CommunicationActions_insecure_call">Корголбогон чалуу</string>
-    <string name="CommunicationActions_carrier_charges_may_apply">Байланыш операторуңуз акы алышы мүмкүн. Сиз чалып жаткан номер Signal\'га катталбагандыктан, Интернет аркылуу эмес, мобилдик байланыш оператору аркылуу чаласыз.</string>
+    <string name="CommunicationActions_carrier_charges_may_apply">Байланыш операторуңуз акы алышы мүмкүн. Сиз чалып жаткан номер V.Call\'га катталбагандыктан, Интернет аркылуу эмес, мобилдик байланыш оператору аркылуу чаласыз.</string>
     <string name="CommunicationActions_cant_join_call">Чалууга кошула албайсыз</string>
     <string name="CommunicationActions_this_call_link_is_no_longer_valid">Бул чалуунун шилтемеси жарабай калды.</string>
 
@@ -264,7 +264,7 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Билдирүү %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Signal аркылуу %1$s номерине чалуу</string>
+    <string name="ContactsDatabase_signal_call_s">V.Call аркылуу %1$s номерине чалуу</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -297,7 +297,7 @@
     <string name="ConversationItem_click_to_approve_unencrypted">Жөнөтүлгөн жок. Корголбогон бойдон жөнөтөсүзбү?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Шифрленбеген SMS катары жөнөтөсүзбү?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Шифрленбеген MMS катары жөнөтөсүзбү?</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Алуучу Signal\'ды колдонбой калгандыктан, бул билдирүү <b>шифрленбейт</b>.\n\nБилдирүүнү корголбогон бойдон жөнөтө бересизби?</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Алуучу V.Call\'ды колдонбой калгандыктан, бул билдирүү <b>шифрленбейт</b>.\n\nБилдирүүнү корголбогон бойдон жөнөтө бересизби?</string>
     <string name="ConversationItem_unable_to_open_media">Ушул медиафайлды ача турган колдонмо табылган жок.</string>
     <string name="ConversationItem_copied_text">%1$s көчүрүлдү</string>
     <string name="ConversationItem_from_s">Каяктан: %1$s</string>
@@ -351,7 +351,7 @@
     <string name="ConversationActivity_transport_insecure_sms_with_sim">Корголбогон SMS (%1$s)</string>
     <string name="ConversationActivity_transport_insecure_mms">Корголбогон MMS</string>
     <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-    <string name="ConversationActivity_transport_signal">Signal билдирүүсү</string>
+    <string name="ConversationActivity_transport_signal">V.Call билдирүүсү</string>
     <string name="ConversationActivity_lets_switch_to_signal">Signal\'га өтүп алыңыз: %1$s</string>
     <string name="ConversationActivity_specify_recipient">Байланыш тандаңыз</string>
     <string name="ConversationActivity_unblock">Бөгөттөн чыгаруу</string>
@@ -367,18 +367,18 @@
     <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Кошулуу өтүнүчүңүз топтун администраторуна жөнөтүлдү. Анын чечими тууралуу билдирме аласыз.</string>
     <string name="ConversationActivity_cancel_request">Өтүнүчтү жокко чыгаруу</string>
 
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Аудио билдирүүлөрдү жөнөтүү үчүн Signal колдонмосуна микрофонуңузду жеткиликтүү кылышыңыз керек.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal колдонмосуна аудио билдирүүлөрдү жөнөтүү үчүн микрофонду колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Микрофон\" дегенди иштетиңиз.</string>
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal колдонмосуна %1$s чалуу үчүн микрофон менен камераны колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Микрофон\" жана \"Камера\" дегенди иштетиңиз.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Сүрөт же видео тартуу үчүн Signal колдонмосуна камераны колдонууга уруксат беришиңиз керек.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal колдонмосуна сүрөт же видео тартуу үчүн камераны колдонууга уруксат беришиңиз керек, бирок сиз аны четке каккансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Камера\" дегенди иштетиңиз.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Сүрөт же видео тартуу үчүн Signal колдонмосуна камераны колдонууга уруксат беришиңиз керек.</string>
+    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Аудио билдирүүлөрдү жөнөтүү үчүн V.Call колдонмосуна микрофонуңузду жеткиликтүү кылышыңыз керек.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">V.Call колдонмосуна аудио билдирүүлөрдү жөнөтүү үчүн микрофонду колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Микрофон\" дегенди иштетиңиз.</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">V.Call колдонмосуна %1$s чалуу үчүн микрофон менен камераны колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Микрофон\" жана \"Камера\" дегенди иштетиңиз.</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Сүрөт же видео тартуу үчүн V.Call колдонмосуна камераны колдонууга уруксат беришиңиз керек.</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">V.Call колдонмосуна сүрөт же видео тартуу үчүн камераны колдонууга уруксат беришиңиз керек, бирок сиз аны четке каккансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Камера\" дегенди иштетиңиз.</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Сүрөт же видео тартуу үчүн V.Call колдонмосуна камераны колдонууга уруксат беришиңиз керек.</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Видеону үнү менен тартуу үчүн микрофонду колдонууга уруксат бериңиз.</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal колдонмосуна видео тартуу үчүн микрофонду колдонууга уруксат беришиңиз керек, бирок сиз баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Микрофон\" дегенди иштетиңиз.</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Видео тартуу үчүн Signal колдонмосуна микрофонду колдонууга уруксат керек.</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">V.Call колдонмосуна видео тартуу үчүн микрофонду колдонууга уруксат беришиңиз керек, бирок сиз баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Микрофон\" дегенди иштетиңиз.</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Видео тартуу үчүн V.Call колдонмосуна микрофонду колдонууга уруксат керек.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal SMS/MMS билдирүүлөрүн жөнөтө албайт, себеби демейки SMS колдонмосу эмес. Аны Android түзмөгүңүздүн параметрлеринен демейки SMS колдонмосу кыласызбы?</string>
+    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">V.Call SMS/MMS билдирүүлөрүн жөнөтө албайт, себеби демейки SMS колдонмосу эмес. Аны Android түзмөгүңүздүн параметрлеринен демейки SMS колдонмосу кыласызбы?</string>
     <string name="ConversationActivity_yes">Ооба</string>
     <string name="ConversationActivity_no">Жок</string>
     <string name="ConversationActivity_search_position">%2$d ичинен %1$d</string>
@@ -394,7 +394,7 @@
     <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Бул топтон чыгасыз жана ал бардык түзмөктөрүңүздөн өчүрүлөт.</string>
     <string name="ConversationActivity_delete">Өчүрүү</string>
     <string name="ConversationActivity_delete_and_leave">Өчүрүп, топтон чыгам</string>
-    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">%1$s чалуу үчүн Signal колдонмосуна микрофонуңуз керек</string>
+    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">%1$s чалуу үчүн V.Call колдонмосуна микрофонуңуз керек</string>
 
 
     <string name="ConversationActivity_join">Кошулуу</string>
@@ -407,13 +407,13 @@
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
     <string name="ConversationActivity__sms_messaging_is_currently_disabled_you_can_export_your_messages_to_another_app_on_your_phone">SMS жазышуу мүмкүнчүлүгү учурда өчүрүлгөн. Билдирүүлөрүңүздү телефонуңуздагы башка колдонмого өткөрсөңүз болот.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">Signal кызматында мындан ары SMS менен жазыша албайсыз. Билдирүүлөрүңүздү телефонуңуздагы башка колдонмого өткөрүңүз.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">V.Call кызматында мындан ары SMS менен жазыша албайсыз. Билдирүүлөрүңүздү телефонуңуздагы башка колдонмого өткөрүңүз.</string>
     <!-- Action button shown when in sms conversation, sms is disabled, and unexported sms messages are present -->
     <string name="ConversationActivity__export_sms_messages">SMS билдирүүлөрүн өткөрүп берүү</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">SMS жазышуу мүмкүнчүлүгү учурда өчүрүлгөн. %1$s менен бул жерден сүйлөшө берүү үчүн аны Signal\'га чакырыңыз.</string>
+    <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">SMS жазышуу мүмкүнчүлүгү учурда өчүрүлгөн. %1$s менен бул жерден сүйлөшө берүү үчүн аны V.Call\'га чакырыңыз.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Signal кызматында мындан ары SMS менен жазыша албайсыз. %1$s менен бул жерден сүйлөшө берүү үчүн аны Signal\'га чакырыңыз.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">V.Call кызматында мындан ары SMS менен жазыша албайсыз. %1$s менен бул жерден сүйлөшө берүү үчүн аны V.Call\'га чакырыңыз.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__invite_to_signal">Signal\'га чакыруу</string>
     <!-- Snackbar message shown after dismissing the full screen sms export megaphone indicating we\'ll do it again soon -->
@@ -422,7 +422,7 @@
     <!-- Title for dialog shown when first sending formatted text -->
     <string name="SendingFormattingTextDialog_title">Форматталган текст жөнөтүү</string>
     <!-- Message for dialog shown when first sending formatted text -->
-    <string name="SendingFormattingTextDialog_message">Кээ бир адамдар Signal\'дын текстти форматтабай турган версиясын колдонушу мүмкүн. Аларга форматталган билдирүүңүз көрүнбөйт.</string>
+    <string name="SendingFormattingTextDialog_message">Кээ бир адамдар V.Call\'дын текстти форматтабай турган версиясын колдонушу мүмкүн. Аларга форматталган билдирүүңүз көрүнбөйт.</string>
     <!-- Button text for confirming they\'d like to send the message with formatting after seeing warning. -->
     <string name="SendingFormattingTextDialog_send_anyway_button">Баары бир жөнөтөм</string>
     <!-- Button text for canceling sending the message with formatting after seeing warning. -->
@@ -465,7 +465,7 @@
     <string name="ConversationFragment_delete_on_this_device">Бул түзмөктө өчүрүү</string>
     <!-- Dialog button for deleting one or more note-to-self messages on all linked devices. -->
     <string name="ConversationFragment_delete_everywhere">Бардык жерде өчүрүү</string>
-    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Бул билдирүү Signal\'дын акыркы версиясын колдонуп жаткандардын баары үчүн өчүрүлөт. Билдирүүнү өчүргөнүңүз аларга көрүнөт.</string>
+    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Бул билдирүү V.Call\'дын акыркы версиясын колдонуп жаткандардын баары үчүн өчүрүлөт. Билдирүүнү өчүргөнүңүз аларга көрүнөт.</string>
     <string name="ConversationFragment_quoted_message_not_found">Баштапкы билдирүү табылган жок</string>
     <string name="ConversationFragment_quoted_message_no_longer_available">Баштапкы билдирүү мындан ары жеткиликсиз</string>
     <string name="ConversationFragment_failed_to_open_message">Билдирүү ачылган жок</string>
@@ -477,12 +477,12 @@
     <string name="ConversationFragment__d_group_members_have_the_same_name">Топтун %1$d катышуучусунун ысымдары бирдей.</string>
     <string name="ConversationFragment__tap_to_review">Басып карап көрүңүз</string>
     <string name="ConversationFragment__review_requests_carefully">Сурамдарды этияттап караңыз</string>
-    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal ысымы окшош дагы бир байланышты тапты.</string>
+    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">V.Call ысымы окшош дагы бир байланышты тапты.</string>
     <string name="ConversationFragment_contact_us">Биз менен байланышыңыз</string>
     <string name="ConversationFragment_verify">Ооба</string>
     <string name="ConversationFragment_not_now">Азыр эмес</string>
     <string name="ConversationFragment_your_safety_number_with_s_changed">%1$s менен болгон коопсуздук кодуңуз өзгөрдү</string>
-    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">%1$s Signal колдонмосун кайра орноткондуктан же түзмөгүн алмаштыргандыктан, аны менен болгон коопсуздук кодуңуз өзгөрдү. Жаңы коопсуздук кодун текшерүү үчүн «Ырастоо» дегенди басып коюңуз (баспай деле койсоңуз болот).</string>
+    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">%1$s V.Call колдонмосун кайра орноткондуктан же түзмөгүн алмаштыргандыктан, аны менен болгон коопсуздук кодуңуз өзгөрдү. Жаңы коопсуздук кодун текшерүү үчүн «Ырастоо» дегенди басып коюңуз (баспай деле койсоңуз болот).</string>
     <!-- Message shown to indicate which notification profile is on/active -->
     <string name="ConversationFragment__s_on">%1$s күйүк</string>
     <!-- Dialog title for block group link join requests -->
@@ -600,9 +600,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">Мени телефон номерим аркылуу кимдер таба алышат?</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has">Байланыштар тизмесинде номериңиз сакталган адамдардын баарына сиз Signal байланышы катары көрүнөсүз. Калгандар номериңизди издеп табышат.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has">Байланыштар тизмесинде номериңиз сакталган адамдардын баарына сиз V.Call байланышы катары көрүнөсүз. Калгандар номериңизди издеп табышат.</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_on_signal">Сизди эч ким Signal\'да телефон номериңиз аркылуу таба албайт.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_on_signal">Сизди эч ким V.Call\'да телефон номериңиз аркылуу таба албайт.</string>
 
     <!-- ChooseBackupFragment -->
     <string name="ChooseBackupFragment__restore_from_backup">Резервдик көчүрмөлөрдөн калыбына келтирилсинби?</string>
@@ -636,7 +636,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Камдык көчүрмөңүздүн сыр сөз айкашын сынап көрүп, анын иштеп жатканын текшериңиз</string>
     <string name="BackupsPreferenceFragment__turn_on">Күйгүзүү</string>
     <string name="BackupsPreferenceFragment__turn_off">Өчүрүү</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Камдык көчүрмөдөн калыбына келтирүү үчүн Signal\'дын жаңы көчүрмөсүн орнотуңуз. Колдонмону ачып, \"Камдык көчүрмөнү калыбына келтирүү\" дегенди басып, камдык көчүрмөнүн файлын тандаңыз. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Камдык көчүрмөдөн калыбына келтирүү үчүн V.Call\'дын жаңы көчүрмөсүн орнотуңуз. Колдонмону ачып, \"Камдык көчүрмөнү калыбына келтирүү\" дегенди басып, камдык көчүрмөнүн файлын тандаңыз. %1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">Кененирээк маалымат</string>
     <string name="BackupsPreferenceFragment__in_progress">Иштелип жатат…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -644,7 +644,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d болуп калды …</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s%% болуп калды…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal колдонмосуна камдык көчүрмөлөрдү түзүү үчүн сактагычты колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Сактагыч\" дегенди иштетиңиз.</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">V.Call колдонмосуна камдык көчүрмөлөрдү түзүү үчүн сактагычты колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Сактагыч\" дегенди иштетиңиз.</string>
 
 
     <!-- CustomDefaultPreference -->
@@ -711,7 +711,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Маектин сессиясы жаңырды</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal баштан аяк шифрлөөнү колдонгондуктан, кээде маегиңиздин сессиясын жаңыртууга туура келет. Маегиңиздин коопсуздугу бузулбаганы менен, ушул адамдан келген билдирүүнү көрбөй калышыңыз мүмкүн. Андыктан билдирүүсүн дагы бир жолу жөнөтүп койсун.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">V.Call баштан аяк шифрлөөнү колдонгондуктан, кээде маегиңиздин сессиясын жаңыртууга туура келет. Маегиңиздин коопсуздугу бузулбаганы менен, ушул адамдан келген билдирүүнү көрбөй калышыңыз мүмкүн. Андыктан билдирүүсүн дагы бир жолу жөнөтүп койсун.</string>
 
     <!-- DeviceListActivity -->
     <string name="DeviceListActivity_unlink_s">\'%1$s\' ажыратасызбы?</string>
@@ -733,7 +733,7 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Google Play кызматтары жок болгондо оптималдаштыруу</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Бул түзмөктө Google Play кызматтары иштебейт. Signal колдонулбаганда билдирүүлөрдү алганга мүмкүнчүлүк бербеген батареяны үнөмдөө функциясын өчүрүү үчүн бул жерди басып коюңуз.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Бул түзмөктө Google Play кызматтары иштебейт. V.Call колдонулбаганда билдирүүлөрдү алганга мүмкүнчүлүк бербеген батареяны үнөмдөө функциясын өчүрүү үчүн бул жерди басып коюңуз.</string>
 
     <!-- ExpiredBuildReminder -->
     <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Signal\'дын бул версиясы эскирип калган. Жазышкыңыз келсе, аны жаңыртыңыз.</string>
@@ -747,7 +747,7 @@
 
     <!-- GcmRefreshJob -->
     <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Оңдолбой турган байланыш катасы кетти!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal колдонмосу Google Play кызматтарында каттала алган жок. Signal аркылуу чалуу жана жазышуу мүмкүнчүлүгү өчүрүлдү. Кайрадан Тууралоо &gt; Өркүндөтүлгөн бөлүмү аркылуу катталып көрүңүз.</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">V.Call колдонмосу Google Play кызматтарында каттала алган жок. V.Call аркылуу чалуу жана жазышуу мүмкүнчүлүгү өчүрүлдү. Кайрадан Тууралоо &gt; Өркүндөтүлгөн бөлүмү аркылуу катталып көрүңүз.</string>
 
 
     <!-- GiphyActivity -->
@@ -804,7 +804,7 @@
         <item quantity="other">Бул мүчөлөр топко кайра кошулуу үчүн чакырууну кабыл алышы керек. Болбосо, топтун билдирүүлөрүн алышпайт.</item>
     </plurals>
     <plurals name="GroupsV1MigrationLearnMore_these_members_were_removed_from_the_group">
-        <item quantity="other">Бул мүчөлөр топтон чыгышкан. Ага кайра кошулуу үчүн Signal колдонмосунун эң акыркы версиясына жаңыртышы керек:</item>
+        <item quantity="other">Бул мүчөлөр топтон чыгышкан. Ага кайра кошулуу үчүн V.Call колдонмосунун эң акыркы версиясына жаңыртышы керек:</item>
     </plurals>
 
     <!-- GroupsV1MigrationInitiationBottomSheetDialogFragment -->
@@ -860,7 +860,7 @@
     <string name="LinkPreviewView_this_group_link_is_not_active">Бул топтун шилтемеси иштебейт</string>
     <string name="LinkPreviewView_domain_date">%1$s · %2$s</string>
     <!-- Description for Call Link url previews -->
-    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">Signal чалуусуна ушул шилтеме менен кошулуңуз</string>
+    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">V.Call чалуусуна ушул шилтеме менен кошулуңуз</string>
 
     <!-- LinkPreviewRepository -->
     <plurals name="LinkPreviewRepository_d_members">
@@ -917,9 +917,9 @@
     <string name="AddGroupDetailsFragment__sms_contact">SMS байланышы</string>
     <string name="AddGroupDetailsFragment__remove_s_from_this_group">%1$s бул топтон алынып салынсынбы?</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Signal топторун колдоого албаган байланышты тандаганыңыздан, бул топ эми MMS тобу болот. MMS тобунун мүчөлөрүнүн аты-жөнү жана сүрөттөрү сизге гана көрүнөт.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">V.Call топторун колдоого албаган байланышты тандаганыңыздан, бул топ эми MMS тобу болот. MMS тобунун мүчөлөрүнүн аты-жөнү жана сүрөттөрү сизге гана көрүнөт.</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Signal топторунда катталбаган байланышты тандадыңыз. Бул MMS тобу болот. MMS топторунун аталыштары менен сүрөттөрү өзүңүзгө гана көрүнөт. Шифрленген билдирүүлөргө басым жасоо үчүн MMS топтор жакында иштебей калат.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">V.Call топторунда катталбаган байланышты тандадыңыз. Бул MMS тобу болот. MMS топторунун аталыштары менен сүрөттөрү өзүңүзгө гана көрүнөт. Шифрленген билдирүүлөргө басым жасоо үчүн MMS топтор жакында иштебей калат.</string>
 
     <!-- ManageGroupActivity -->
     <string name="ManageGroupActivity_who_can_add_new_members">Жаңы мүчөлөрдү ким кошо алат?</string>
@@ -930,8 +930,8 @@
     </plurals>
 
     <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Бул нерсени жасай албайсыз.</string>
-    <string name="ManageGroupActivity_not_capable">Сиз кошкон кимдир бирөө жаңы топторду колдоно албайт жана Signal\'ды жаңыртышы керек</string>
-    <string name="ManageGroupActivity_not_announcement_capable">Сиз кошкон кимдир бирөө жарыялар топторун колдоно албайт жана Signal\'ды жаңыртышы керек</string>
+    <string name="ManageGroupActivity_not_capable">Сиз кошкон кимдир бирөө жаңы топторду колдоно албайт жана V.Call\'ды жаңыртышы керек</string>
+    <string name="ManageGroupActivity_not_announcement_capable">Сиз кошкон кимдир бирөө жарыялар топторун колдоно албайт жана V.Call\'ды жаңыртышы керек</string>
     <string name="ManageGroupActivity_failed_to_update_the_group">Бул топ жаңырбай калды</string>
     <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Сиз бул топтун мүчөсү эмессиз</string>
     <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Топ жаңырган жок, бир аздан соң кайталап көрүңүз</string>
@@ -943,7 +943,7 @@
     <string name="ManageGroupActivity_legacy_group_upgrade">Бул эски топ. @айтыпөтүүлөр жана администраторлор сыяктуу жаңы функцияларды пайдалануу үчүн</string>
     <string name="ManageGroupActivity_legacy_group_too_large">Бул эски топ өтө чоң болгондуктан, жаңы топко жаңырбайт. Топтун көлөмү %1$d ашпаш керек.</string>
     <string name="ManageGroupActivity_upgrade_this_group">бул топту жаңыртыңыз.</string>
-    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Бул корголбогон MMS топ. Купуя баарлашуу үчүн байланыштарыңызды Signal\'га чакырыңыз.</string>
+    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Бул корголбогон MMS топ. Купуя баарлашуу үчүн байланыштарыңызды V.Call\'га чакырыңыз.</string>
     <string name="ManageGroupActivity_invite_now">Чакыруу</string>
     <string name="ManageGroupActivity_more">дагы</string>
     <string name="ManageGroupActivity_add_group_description">Топ тууралуу учкай маалымат кошуу…</string>
@@ -1048,8 +1048,8 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Ушул топтун шилтемесин колдонуу үчүн Signal колдонмоңузду жаңыртыңыз</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Signal колдонмоңуздун версиясында ушул топтун шилтемеси иштебейт. Топко шилтеме аркылуу кошулуу үчүн аны акыркы версиясына чейин жаңыртыңыз.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Ушул топтун шилтемесин колдонуу үчүн V.Call колдонмоңузду жаңыртыңыз</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">V.Call колдонмоңуздун версиясында ушул топтун шилтемеси иштебейт. Топко шилтеме аркылуу кошулуу үчүн аны акыркы версиясына чейин жаңыртыңыз.</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Signal\'ды жаңыртуу</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Топтун шилтемеси иштебейт.</string>
 
@@ -1081,8 +1081,8 @@
 
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Аудиону басып туруп жаздырып, кое берип жөнөтөсүз</string>
-    <!-- Message shown if the user tries to switch a conversation from Signal to SMS -->
-    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">Signal кызматында мындан ары SMS менен жазыша албайсыз.</string>
+    <!-- Message shown if the user tries to switch a conversation from V.Call to SMS -->
+    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">V.Call кызматында мындан ары SMS менен жазыша албайсыз.</string>
     <!-- When editing a message, label shown above the text input field in the composer -->
     <string name="InputPanel_edit_message">Билдирүүнү оңдоо</string>
 
@@ -1180,10 +1180,10 @@
     <string name="MessageQuotesBottomSheet_replies">Жооптор</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Signal аркылуу чалып баштадыңыз</string>
+    <string name="NotificationBarManager__establishing_signal_call">V.Call аркылуу чалып баштадыңыз</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Signal аркылуу чалуу кызматы</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Signal аркылуу чалуу кызматы токтотулууда</string>
+    <string name="NotificationBarManager__starting_signal_call_service">V.Call аркылуу чалуу кызматы</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">V.Call аркылуу чалуу кызматы токтотулууда</string>
     <string name="NotificationBarManager__decline_call">Чалууну четке кагуу</string>
     <string name="NotificationBarManager__answer_call">Чалууга жооп берүү</string>
     <string name="NotificationBarManager__end_call">Чалууну бүтүрүү</string>
@@ -1213,7 +1213,7 @@
 
     <!-- MessageRecord -->
     <string name="MessageRecord_unknown">Белгисиз</string>
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Алынган билдирүү Signal\'дын жарактан чыккан эски версиясында шифрленген. Алуучу колдонмосун акыркы версияга чейин жаңыртып туруп, билдирүүнү кайра жөнөтүшү керек.</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Алынган билдирүү V.Call\'дын жарактан чыккан эски версиясында шифрленген. Алуучу колдонмосун акыркы версияга чейин жаңыртып туруп, билдирүүнү кайра жөнөтүшү керек.</string>
     <string name="MessageRecord_left_group">Топтон чыктыңыз.</string>
     <string name="MessageRecord_you_updated_group">Топту жаңырттыңыз.</string>
     <string name="MessageRecord_the_group_was_updated">Топ жаңыртылды.</string>
@@ -1240,7 +1240,7 @@
     <!-- Call update formatter string to place the update message next to a time stamp. e.g., \'Incoming voice call · 11:11am\' -->
     <string name="MessageRecord_call_message_with_date">%1$s · %2$s</string>
     <string name="MessageRecord_s_updated_group">%1$s топту жаңыртты.</string>
-    <string name="MessageRecord_s_joined_signal">%1$s Signal\'да!</string>
+    <string name="MessageRecord_s_joined_signal">%1$s V.Call\'да!</string>
     <string name="MessageRecord_you_disabled_disappearing_messages">Жоголуп кетүүчү билдирүүлөрдү өчүрүп койдуңуз.</string>
     <string name="MessageRecord_s_disabled_disappearing_messages">%1$s жоголуп кетүүчү билдирүүлөрдү өчүрүп койду.</string>
     <string name="MessageRecord_you_set_disappearing_message_time_to_s">Жоголуп кетүүчү билдирүүлөрдүн таймерин %1$s деп койдуңуз.</string>
@@ -1418,7 +1418,7 @@
     <string name="MessageRecord_a_message_from_s_couldnt_be_delivered">%1$s жөнөткөн билдирүү жеткен жок</string>
     <string name="MessageRecord_s_changed_their_phone_number">%1$s телефон номерин өзгөрттү.</string>
     <!-- Update item message shown in the release channel when someone is already a sustainer so we ask them if they want to boost. -->
-    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">Бул жаңы функция жактыбы? Бир жолу салым кошуп, Signal кызматына колдоо көрсөтүңүз.</string>
+    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">Бул жаңы функция жактыбы? Бир жолу салым кошуп, V.Call кызматына колдоо көрсөтүңүз.</string>
     <!-- Update item message shown when we merge two threads together. First placeholder is a name, second placeholder is a phone number. -->
     <string name="MessageRecord_your_message_history_with_s_and_their_number_s_has_been_merged">%1$s менен болгон билдирүүлөр таржымалыңыз жана алардын номери %2$s бирикти.</string>
     <!-- Update item message shown when we merge two threads together and we don\'t know the phone number of the other thread. The placeholder is a person\'s name. -->
@@ -1460,9 +1460,9 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">Жакында Signal\'дан SMS билдирүүлөрүн жөнөтө албай каласыз. %1$s менен бул жерден сүйлөшө берүү үчүн аны Signal\'га чакырыңыз.</string>
+    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">Жакында V.Call\'дан SMS билдирүүлөрүн жөнөтө албай каласыз. %1$s менен бул жерден сүйлөшө берүү үчүн аны V.Call\'га чакырыңыз.</string>
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Мындан ары Signal\'дан SMS билдирүүлөрүн жөнөтө албайсыз. %1$s менен бул жерден сүйлөшө берүү үчүн аны Signal\'га чакырыңыз.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Мындан ары V.Call\'дан SMS билдирүүлөрүн жөнөтө албайсыз. %1$s менен бул жерден сүйлөшө берүү үчүн аны V.Call\'га чакырыңыз.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Төлөм: %1$s</string>
 
@@ -1475,7 +1475,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">%1$s сизге билдирүү жөнөтүп, сиздин атыңыз менен сүрөтүңүздү көрсүнбү? Бул адамды өчүрүп салгансыз.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">%1$s сиз менен жазышып, атыңыз менен сүрөтүңүз ага көрүнө берсинби? Анын топко кошулуу өтүнүчү кабыл алынмайынча, билдирүүсүнүн көрүлүп, көрүлбөгөнүн билбейт.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a Signal user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a V.Call user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">%1$s сиз менен жазышып, атыңыз менен сүрөтүңүз ага көрүнө берсинби? Аны бөгөттөн чыгармайынча, билдирүүлөрдү албайсыз.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">%1$s сиз менен жазыша берсинби? Аны бөгөттөн чыгармайынча, билдирүүлөрдү албайсыз.</string>
@@ -1529,10 +1529,10 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">QR коду туура эмес.</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Өтө көп түзмөк байланып турат. Айрымдарын өчүрүп салыңыз</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Түзмөктү байланыштыруучу QR код туура эмес.</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">Signal түзмөгүн байланыштырасызбы?</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Signal түзмөгүн үчүнчү тараптын сканери аркылуу байланыштырганы жатат окшойсуз. Коопсуздук максатында, кодду Signal аркылуу скандаңыз.</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">V.Call түзмөгүн байланыштырасызбы?</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">V.Call түзмөгүн үчүнчү тараптын сканери аркылуу байланыштырганы жатат окшойсуз. Коопсуздук максатында, кодду V.Call аркылуу скандаңыз.</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal колдонмосуна QR кодун скандоо үчүн камераны колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Камера\" дегенди иштетиңиз.</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">V.Call колдонмосуна QR кодун скандоо үчүн камераны колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Камера\" дегенди иштетиңиз.</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">QR кодду скандоо үчүн камерага уруксат алышыңыз керек</string>
 
     <!-- OutdatedBuildReminder -->
@@ -1544,11 +1544,11 @@
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Сыр сөз айкашын киргизиңиз</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Signal сүрөтчөсү</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">V.Call сүрөтчөсү</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Сыр сөз айкашын тапшыруу</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Сыр сөз айкашы туура эмес!</string>
     <string name="PassphrasePromptActivity_unlock_signal">Signal\'ды бөгөттөн чыгаруу</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Кулпу экраны</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">V.Call Android - Кулпу экраны</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Карта</string>
@@ -1578,24 +1578,24 @@
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">PIN код түзүңүз</string>
-    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Бардык мүмкүнчүлүктөрдү колдонуп салдыңыз. Бирок Signal аккаунтуңузга жаңы PIN код түзүп кирсеңиз болот. Купуялыгыңызды коргоо үчүн аккаунтуңуз профилиңиздеги маалыматтар менен параметрлер сакталбастан калыбына келтирилет.</string>
+    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Бардык мүмкүнчүлүктөрдү колдонуп салдыңыз. Бирок V.Call аккаунтуңузга жаңы PIN код түзүп кирсеңиз болот. Купуялыгыңызды коргоо үчүн аккаунтуңуз профилиңиздеги маалыматтар менен параметрлер сакталбастан калыбына келтирилет.</string>
     <string name="PinRestoreLockedFragment_create_new_pin">Жаңы PIN код түзүү</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
 
     <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
     <string name="ReRegisterWithPinFragment_send_sms_code">SMS аркылуу код жөнөтүү</string>
     <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
-    <string name="ReRegisterWithPinFragment_support_email_subject">Signal кызматына катталуу - Android түзмөгүнө PIN кодду кайра каттоодо жардам берүү</string>
+    <string name="ReRegisterWithPinFragment_support_email_subject">V.Call кызматына катталуу - Android түзмөгүнө PIN кодду кайра каттоодо жардам берүү</string>
     <!-- Dialog message shown in reregister flow when tapping a informational button to to learn about pins or contact support for help -->
     <string name="ReRegisterWithPinFragment_need_help_local">PIN кодуңуз %1$d жана өзүңүз түзгөн санарип код сандардан же сан менен тамгалардан турушу мүмкүн.\n\nЭгер PIN кодуңузду унутуп койсоңуз, жаңысын түзсөңүз болот.</string>
     <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
     <string name="ReRegisterWithPinFragment_skip_local">Эгер PIN кодуңузду унутуп койсоңуз, жаңысын түзсөңүз болот.</string>
     <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-    <string name="ReRegisterWithPinFragment_out_of_guesses_local">PIN кодду эстегенге өтө көп жолу аракет кылдыңыз, эми Signal аккаунтуңузга жаңы PIN код түзүп кириңиз.</string>
+    <string name="ReRegisterWithPinFragment_out_of_guesses_local">PIN кодду эстегенге өтө көп жолу аракет кылдыңыз, эми V.Call аккаунтуңузга жаңы PIN код түзүп кириңиз.</string>
 
     <!-- PinOptOutDialog -->
     <string name="PinOptOutDialog_warning">Эскертүү</string>
-    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">PIN кодду өчүрүп салсаңыз, Signal колдонмосун кайра орноткондо аккаунтуңуздагы бардык нерселер өчүп калат (эгер алардын көчүрмөсүн кол менен башка жерге сактап койбосоңуз). PIN код өчүк болгондо, Катталууга жол бербөө функциясын иштете албай каласыз.</string>
+    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">PIN кодду өчүрүп салсаңыз, V.Call колдонмосун кайра орноткондо аккаунтуңуздагы бардык нерселер өчүп калат (эгер алардын көчүрмөсүн кол менен башка жерге сактап койбосоңуз). PIN код өчүк болгондо, Катталууга жол бербөө функциясын иштете албай каласыз.</string>
     <string name="PinOptOutDialog_disable_pin">PIN кодду өчүрүү</string>
 
     <!-- RatingManager -->
@@ -1616,7 +1616,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Жазышууну улантуу үчүн текшерүүдөн өтүп коюңуз</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Signal кызматында спамдарга жол бербөө үчүн текшерүүдөн өтүп коюңуз.</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">V.Call кызматында спамдарга жол бербөө үчүн текшерүүдөн өтүп коюңуз.</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Текшерүүдөн өткөндөн кийин мурункудай жазыша бересиз. Токтоп турган билдирүүлөрдүн баары дароо жөнөтүлөт.</string>
 
     <!-- Recipient -->
@@ -1624,7 +1624,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Менин окуям</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Signal аркылуу чалуу</string>
+    <string name="Recipient_signal_call">V.Call аркылуу чалуу</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Бөгөттөө</string>
@@ -1649,8 +1649,8 @@
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Видеоңузду ойнотуу үчүн бул жерди басыңыз</string>
-    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s чалуу үчүн Signal колдонмосуна камераңыз керек</string>
-    <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s чалуу үчүн V.Call колдонмосуна камераңыз керек</string>
+    <string name="WebRtcCallActivity__signal_s">V.Call %1$s</string>
     <string name="WebRtcCallActivity__calling">Байланышка чыктыңыз…</string>
     <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">Топ өтө чоң болгондуктан, андагыларга чала албайсыз</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
@@ -1665,8 +1665,8 @@
     <string name="WebRtcCallActivity__not_now">Азыр эмес</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Signal аркылуу чалуу</string>
-    <string name="WebRtcCallView__signal_video_call">Signal аркылуу видео чалуу</string>
+    <string name="WebRtcCallView__signal_call">V.Call аркылуу чалуу</string>
+    <string name="WebRtcCallView__signal_video_call">V.Call аркылуу видео чалуу</string>
     <string name="WebRtcCallView__start_call">Чалып баштоо</string>
     <string name="WebRtcCallView__join_call">Чалууга кошулуу</string>
     <string name="WebRtcCallView__call_is_full">Орун жок</string>
@@ -1676,10 +1676,10 @@
     <string name="WebRtcCallView__joining">Кошулуп жатасыз…</string>
     <string name="WebRtcCallView__disconnected">Өчүк</string>
 
-    <string name="WebRtcCallView__signal_will_ring_s">Signal чалат: %1$s</string>
-    <string name="WebRtcCallView__signal_will_ring_s_and_s">Signal чалат: %1$s менен %2$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s">V.Call чалат: %1$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s_and_s">V.Call чалат: %1$s менен %2$s</string>
     <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-        <item quantity="other">Signal чалат: %1$s, %2$s жана башка %3$d</item>
+        <item quantity="other">V.Call чалат: %1$s, %2$s жана башка %3$d</item>
     </plurals>
 
     <string name="WebRtcCallView__s_will_be_notified">%1$s билдирме алат</string>
@@ -1782,13 +1782,13 @@
     <string name="RegistrationActivity_is_your_phone_number_above_correct">Сиздин жогорудагы номериңиз туурабы?</string>
     <string name="RegistrationActivity_edit_number">Номерди алмаштыруу</string>
     <string name="RegistrationActivity_missing_google_play_services">Google Play кызматтары көрсөтүлбөй жатат</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">Бул жабдыкта Google Play кызматтары көрсөтүлбөй жатат. Сиз дагы эле Signal\'ды колдонууну улантууңуз мүмкүн, бирок бул кофигурациянын ишенимдүүлүгү жана натыйжалуулугу төмөндөшү мүмкүн. \\ N \\ nЭгер сиз көп тажрыйбалуу колдонуучу болбосоңуз, кийинчерээк Android ROM\'ун иштетпесеңиз же бул катаны жаңылыштык аркылуу көрүп жатам деп ойлосоңуз, сураныч, көйгөйдү чечүү үчүн support@signal.org почта адресине жазып, жардам сурап кайрылыңыз.</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">Бул жабдыкта Google Play кызматтары көрсөтүлбөй жатат. Сиз дагы эле V.Call\'ды колдонууну улантууңуз мүмкүн, бирок бул кофигурациянын ишенимдүүлүгү жана натыйжалуулугу төмөндөшү мүмкүн. \\ N \\ nЭгер сиз көп тажрыйбалуу колдонуучу болбосоңуз, кийинчерээк Android ROM\'ун иштетпесеңиз же бул катаны жаңылыштык аркылуу көрүп жатам деп ойлосоңуз, сураныч, көйгөйдү чечүү үчүн support@signal.org почта адресине жазып, жардам сурап кайрылыңыз.</string>
     <string name="RegistrationActivity_i_understand">Түшүнүктүү</string>
     <string name="RegistrationActivity_play_services_error">Google Play сервистерин жүргүзүүдө ката бар</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play кызматтары жаңыртылууда же убактылуу иштебей жатат. Сураныч, дагы бир жолу аракет кылып көрүңүз.</string>
     <string name="RegistrationActivity_terms_and_privacy">Шарттар жана жоболор; Купуялык Саясаты</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Досторуңуз менен байланышып, жазышуу мүмкүнчүлүгүн берүү үчүн Signal колдонмосуна байланыштарыңыз менен медиафайлдарыңыз керек. Байланыштарыңыз Signal\'дын байланыштарды купуя издеген технологиясы аркылуу жүктөлүп, баштан аяк шифрленгендиктен, Signal кызматына эч качан көрүнбөйт.</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Досторуңуз менен байланышуу мүмкүнчүлүгүн берүү үчүн Signal колдонмосуна байланыштарыңыз керек. Байланыштарыңыз Signal\'дын байланыштарды купуя издеген технологиясы аркылуу жүктөлүп, баштан аяк шифрленгендиктен, Signal кызматына эч качан көрүнбөйт.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Досторуңуз менен байланышып, жазышуу мүмкүнчүлүгүн берүү үчүн V.Call колдонмосуна байланыштарыңыз менен медиафайлдарыңыз керек. Байланыштарыңыз V.Call\'дын байланыштарды купуя издеген технологиясы аркылуу жүктөлүп, баштан аяк шифрленгендиктен, V.Call кызматына эч качан көрүнбөйт.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Досторуңуз менен байланышуу мүмкүнчүлүгүн берүү үчүн V.Call колдонмосуна байланыштарыңыз керек. Байланыштарыңыз V.Call\'дын байланыштарды купуя издеген технологиясы аркылуу жүктөлүп, баштан аяк шифрленгендиктен, V.Call кызматына эч качан көрүнбөйт.</string>
     <string name="RegistrationActivity_rate_limited_to_service">Бул номерди каттоого ашыкча көп ирет катар аракет жасадыңыз. Сураныч, кийинчерээк дагы сынап көрүңүз.</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">Бул номерди каттаганга өтө көп жолу аракет кылдыңыз. %1$s кийин кайталап көрүңүз.</string>
@@ -1801,7 +1801,7 @@
     <string name="RegistrationActivity_unable_to_request_verification_code">Ырастоо коду суралган жок. Байланышыңызды текшерип, кайталап көрүңүз.</string>
     <string name="RegistrationActivity_non_standard_number_format">Телефон номери туура эмес</string>
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">Телефон номерин туура эмес киргиздиңиз окшойт (%1$s).\n\nМындай эмес беле %2$s?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Signal Android - Телефон номеринин форматы</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">V.Call Android - Телефон номеринин форматы</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">Чалуу суралды</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -1813,7 +1813,7 @@
     </plurals>
     <string name="RegistrationActivity_we_need_to_verify_that_youre_human">Биз сиздин адам экендигиңизди тастыктообуз зарыл.</string>
     <!-- An error shown when the request was valid, but due to an issue with a partner vendor, the server is unable to send an SMS code -->
-    <string name="RegistrationActivity_external_service_error">Тышкы катадан улам Signal SMS кодун жөнөтө алган жок.</string>
+    <string name="RegistrationActivity_external_service_error">Тышкы катадан улам V.Call SMS кодун жөнөтө алган жок.</string>
     <!-- Button label to trigger a phone call to provide the registration code, in lieu of an SMS code -->
     <string name="RegistrationActivity_voice_call">Үн чалуу</string>
     <!-- Dialog button to cancel the pending action and return to the previous state. -->
@@ -1848,7 +1848,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Катталууну Кулпулоо колдонулсунбу?</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Катталууну Кулпулоо өчүрүлсүнбү?</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Signal\'дагы PIN кодуңузду унутуп калсаңыз, Signal\'га кайра катталып жатканда 7 күн бою жеке баракчаңызга кире албай каласыз.</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Signal\'дагы PIN кодуңузду унутуп калсаңыз, V.Call\'га кайра катталып жатканда 7 күн бою жеке баракчаңызга кире албай каласыз.</string>
     <string name="RegistrationLockV2Dialog_turn_on">Күйгүзүү</string>
     <string name="RegistrationLockV2Dialog_turn_off">Өчүрүү</string>
 
@@ -1875,18 +1875,18 @@
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">Байланыштарга кошуу</string>
     <string name="SharedContactDetailsActivity_invite_to_signal">Signal\'га чакыруу</string>
-    <string name="SharedContactDetailsActivity_signal_message">Signal билдирүүсү</string>
-    <string name="SharedContactDetailsActivity_signal_call">Signal аркылуу чалуу</string>
+    <string name="SharedContactDetailsActivity_signal_message">V.Call билдирүүсү</string>
+    <string name="SharedContactDetailsActivity_signal_call">V.Call аркылуу чалуу</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Байланыштарга кошуу</string>
     <string name="SharedContactView_invite_to_signal">Signal\'га чакыруу</string>
-    <string name="SharedContactView_message">Signal билдирүүсү</string>
+    <string name="SharedContactView_message">V.Call билдирүүсү</string>
 
-    <!-- SignalBottomActionBar -->
+    <!-- V.CallBottomActionBar -->
     <string name="SignalBottomActionBar_more">Дагы</string>
 
-    <!-- SignalPinReminders -->
+    <!-- V.CallPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">PIN код ырасталды. Кийинчерээк дагы бир жолу эскертип коебуз.</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">PIN код ырасталды. Эртең дагы бир жолу эскертип коебуз.</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">PIN код ырасталды. Бир нече күндөн кийин дагы бир жолу эскертип коебуз.</string>
@@ -1910,7 +1910,7 @@
     <string name="SmsMessageRecord_secure_session_reset">Корголгон сеансты баштапкы абалга келтирдиңиз.</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%1$s корголгон сеансты баштапкы абалга келтирди.</string>
     <string name="SmsMessageRecord_duplicate_message">Кайталанган билдирүү.</string>
-    <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Бул билдирүү Signal колдонмосунун жаңы версиясынан келгендиктен, аны иштетүү мүмкүн болгон жок. Signal колдонмоңузду жаңырткандан кийин, аны кайра жөнөтүүнү сураныңыз.</string>
+    <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Бул билдирүү V.Call колдонмосунун жаңы версиясынан келгендиктен, аны иштетүү мүмкүн болгон жок. V.Call колдонмоңузду жаңырткандан кийин, аны кайра жөнөтүүнү сураныңыз.</string>
     <string name="SmsMessageRecord_error_handling_incoming_message">Келген билдирүүнү иштетүүдө ката кетти.</string>
 
     <!-- StickerManagementActivity -->
@@ -1919,7 +1919,7 @@
     <!-- StickerManagementAdapter -->
     <string name="StickerManagementAdapter_installed_stickers">Орнотулган стикерлер</string>
     <string name="StickerManagementAdapter_stickers_you_received">Алынган стикерлер</string>
-    <string name="StickerManagementAdapter_signal_artist_series">Signal cүрөтчүлөрүнүн стикерлери</string>
+    <string name="StickerManagementAdapter_signal_artist_series">V.Call cүрөтчүлөрүнүн стикерлери</string>
     <string name="StickerManagementAdapter_no_stickers_installed">Бир да стикер орнотула элек</string>
     <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Келген билдирүүлөрдөгү стикерлер ушул жерде көрүнөт</string>
     <string name="StickerManagementAdapter_untitled">Аталышы жок</string>
@@ -1956,8 +1956,8 @@
     <string name="SupportEmailUtil_filter">Иргөө:</string>
     <string name="SupportEmailUtil_device_info">Түзмөк тууралуу маалымат:</string>
     <string name="SupportEmailUtil_android_version">Android версиясы:</string>
-    <string name="SupportEmailUtil_signal_version">Signal версиясы:</string>
-    <string name="SupportEmailUtil_signal_package">Signal топтому:</string>
+    <string name="SupportEmailUtil_signal_version">V.Call версиясы:</string>
+    <string name="SupportEmailUtil_signal_package">V.Call топтому:</string>
     <string name="SupportEmailUtil_registration_lock">Катталууга жол бербөө:</string>
     <string name="SupportEmailUtil_locale">Тил:</string>
 
@@ -1981,7 +1981,7 @@
     <string name="ThreadRecord_you_activated_payments">Төлөмдөр кызматын иштеттиңиз</string>
     <!-- Displayed in the notification when the recipient can accept payments -->
     <string name="ThreadRecord_can_accept_payments">%1$s эми төлөмдөрдү ала алат</string>
-    <string name="ThreadRecord_s_is_on_signal">%1$s Signal\'да!</string>
+    <string name="ThreadRecord_s_is_on_signal">%1$s V.Call\'да!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Жоголуп кетүүчү билдирүүлөр өчүк</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Билдирүүлөр канчадан кийин жоголуп кетет – %1$s</string>
     <string name="ThreadRecord_safety_number_changed">Коопсуздук коду өзгөрдү</string>
@@ -2063,14 +2063,14 @@
     <string name="UsernameShareBottomSheet__copy_or_share_a_username_link">Колдонуучу атынын шилтемесин көчүрүңүз же бөлүшүңүз</string>
 
     <!-- VerifyIdentityActivity -->
-    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Байланышыңыздын Signal версиясы эскирип калган. Коопсуздук кодун ырастоо үчүн аны жаңыртышы керек.</string>
-    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Байланышыңыздын Signal колдонмосунун версиясы жаңыраак болгондуктан, QR кодунун форматы шайкеш болбой жатат. Кодду салыштыруу үчүн колдонмоңузду жаңыртыңыз.</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Байланышыңыздын V.Call версиясы эскирип калган. Коопсуздук кодун ырастоо үчүн аны жаңыртышы керек.</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Байланышыңыздын V.Call колдонмосунун версиясы жаңыраак болгондуктан, QR кодунун форматы шайкеш болбой жатат. Кодду салыштыруу үчүн колдонмоңузду жаңыртыңыз.</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Скандалган QR код коопсуздук коду эмес. Дагы бир жолу кайталап көрүңүз.</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">Коопсуздук кодун бөлүшүү…</string>
     <string name="VerifyIdentityActivity_our_signal_safety_number">Signal\'дагы коопсуздук кодубуз:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Бөлүшө турган колдонмолоруңуз жок окшойт.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Алмашуу буферинде коопсуздук коду жок</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal колдонмосуна QR кодун скандоо үчүн камераны колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Камера\" дегенди иштетиңиз.</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">V.Call колдонмосуна QR кодун скандоо үчүн камераны колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Камера\" дегенди иштетиңиз.</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Камерага уруксат алынбагандыктан, QR код скандалган жок</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">%1$s менен болгон коопсуздук кодун көрүү үчүн жазышып башташыңар керек.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -2113,7 +2113,7 @@
     <string name="MediaPreviewActivity_you">Сиз</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Медиафайлдын мындай түрү колдоого алынбайт</string>
     <string name="MediaPreviewActivity_draft">Долбоор</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Тышкы сактагычка сактоо үчүн Signal колдонмосуна сактагычты колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Сактагыч\" дегенди иштетиңиз.</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Тышкы сактагычка сактоо үчүн V.Call колдонмосуна сактагычты колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Сактагыч\" дегенди иштетиңиз.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Уруксат алмайынча, тышкы сактагычка сактай албайт.</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Билдирүүнү өчүрөсүзбү?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Билдирүү биротоло өчөт.</string>
@@ -2163,7 +2163,7 @@
     <string name="MessageNotifier_view_once_photo">Бир жолу көрүлүүчү сүрөт</string>
     <string name="MessageNotifier_view_once_video">Бир жолу көрүлүүчү видео</string>
     <string name="MessageNotifier_reply">Жооп берүү</string>
-    <string name="MessageNotifier_signal_message">Signal билдирүүсү</string>
+    <string name="MessageNotifier_signal_message">V.Call билдирүүсү</string>
     <string name="MessageNotifier_unsecured_sms">Корголбогон SMS</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Байланыш</string>
@@ -2179,7 +2179,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">Стикериңизге %1$s деген сезимин билдирди.</string>
     <string name="MessageNotifier_this_message_was_deleted">Бул билдирүү өчүрүлгөн.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">«Signal\'га байланыш кошулду» деген билдирмени өчүрөсүзбү? Аны кайра Signal\'дан &gt; Тууралоо &gt; Билдирмелер бөлүмүнөн иштете аласыз.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">«Signal\'га байланыш кошулду» деген билдирмени өчүрөсүзбү? Аны кайра V.Call\'дан &gt; Тууралоо &gt; Билдирмелер бөлүмүнөн иштете аласыз.</string>
 
     <!-- Notification Channels -->
     <string name="NotificationChannel_channel_messages">Билдирүүлөр</string>
@@ -2206,7 +2206,7 @@
     <!-- ProfileEditNameFragment -->
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signal бекилип турганда ыкчам жооп бере албайсыз!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">V.Call бекилип турганда ыкчам жооп бере албайсыз!</string>
     <string name="QuickResponseService_problem_sending_message">Билдирүү жөнөтүлбөй калды!</string>
 
     <!-- A small toast notification to let the user know their image/video/audio was downloaded and saved to their device, accessible in other apps. -->
@@ -2245,23 +2245,23 @@
     <!-- UnauthorizedReminder -->
     <string name="UnauthorizedReminder_device_no_longer_registered">Түзмөк катталбай калды</string>
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Бул түзмөк каттоодон чыгарылды. Телефон номериңизди Signal\'га башка түзмөктөн каттаган окшойсуз.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Бул түзмөк каттоодон чыгарылды. Телефон номериңизди V.Call\'га башка түзмөктөн каттаган окшойсуз.</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">Түзмөктү кайра каттаңыз</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">Бул түзмөктө Signal\'дан чыгып кеттиңиз.</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">Бул түзмөктө V.Call\'дан чыгып кеттиңиз.</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">Төлөмдөр кызматын пайдалана берүү үчүн Signal\'ды жаңыртыңыз. Балансыңызды толукташыңыз керек окшойт.</string>
+    <string name="EnclaveFailureReminder_update_signal">Төлөмдөр кызматын пайдалана берүү үчүн V.Call\'ды жаңыртыңыз. Балансыңызды толукташыңыз керек окшойт.</string>
     <!-- Banner button to update now -->
 
     <!-- WebRtcCallActivity -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Чалууга жооп берүү үчүн Signal колдонмосуна микрофонуңуз керек.</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Чалууга жооп берүү үчүн V.Call колдонмосуна микрофонуңуз керек.</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">Видео чалууга жооп берүү үчүн Signal колдонмосуна микрофонуңуз менен камераңызды колдонгонго уруксат бериңиз.</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Чалуу же чалууларды кабыл алуу үчүн Signal колдонмосуна микрофон менен камераны колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Микрофон\" жана \"Камера\" дегенди иштетиңиз.</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">Видео чалууга жооп берүү үчүн V.Call колдонмосуна микрофонуңуз менен камераңызды колдонгонго уруксат бериңиз.</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Чалуу же чалууларды кабыл алуу үчүн V.Call колдонмосуна микрофон менен камераны колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Микрофон\" жана \"Камера\" дегенди иштетиңиз.</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Байланышкан түзмөктө жооп берилди.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">Байланышкан түзмөктө четке кагылды.</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">Байланышкан түзмөктө бош эмес.</string>
@@ -2326,21 +2326,21 @@
     <string name="SingleContactSelectionActivity_contact_photo">Байланыштын сүрөтү</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal колдонмосуна байланыштарды көрсөтүү үчүн Байланыштарды колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Байланыштар\" дегенди иштетиңиз.</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">V.Call колдонмосуна байланыштарды көрсөтүү үчүн Байланыштарды колдонууга уруксат беришиңиз керек, бирок сиз андан баш тарткансыз. Колдонмонун параметрлерине кирүү үчүн \"Улантуу\" дегенди басып, \"Уруксаттар\" дегенди тандап, \"Байланыштар\" дегенди иштетиңиз.</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Байланыштар алынып жатканда ката кетти, тармакты текшерип көрүңүз</string>
     <string name="ContactSelectionListFragment_username_not_found">Колдонуучунун аты табылган жок</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" Signal колдонуучусу эмес. Колдонуучу атын текшерип, кайталап көрүңүз."</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" V.Call колдонуучусу эмес. Колдонуучу атын текшерип, кайталап көрүңүз."</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Өзүңүздү топко кошпой деле койсоңуз болот</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">Топ толуп калды</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal топторунда %1$d чейин гана мүчө болот.</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">V.Call топторунда %1$d чейин гана мүчө болот.</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">Мүчөлөрдүн саны эң жогорку чекке жетти</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Мүчөлөрдүн саны %1$d же андан азыраак болгондо, Signal топтору жакшы иштейт. Дагы мүчө кошулса, билдирүүлөр кечигип жөнөтүлүп, кечигип алынышы мүмкүн.</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Мүчөлөрдүн саны %1$d же андан азыраак болгондо, V.Call топтору жакшы иштейт. Дагы мүчө кошулса, билдирүүлөр кечигип жөнөтүлүп, кечигип алынышы мүмкүн.</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="other">%1$d мүчө</item>
     </plurals>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Байланыштарды көрсөтүү үчүн Signal\'га алар жеткиликтүү болушу керек.</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Байланыштарды көрсөтүү үчүн V.Call\'га алар жеткиликтүү болушу керек.</string>
     <string name="contact_selection_list_fragment__show_contacts">Байланыштарды көрсөтүү</string>
 
     <!-- contact_selection_list_item -->
@@ -2353,7 +2353,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">Signal билдирүүсү</string>
+    <string name="conversation_activity__type_message_push">V.Call билдирүүсү</string>
     <string name="conversation_activity__type_message_sms_insecure">Корголбогон SMS</string>
     <string name="conversation_activity__type_message_mms_insecure">Корголбогон MMS</string>
     <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -2448,7 +2448,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">Калкып чыкма маектер — Android функциясы. Аны Signal маектери үчүн өчүрүп койсоңуз болот.</string>
+    <string name="BubbleOptOutTooltip__description">Калкып чыкма маектер — Android функциясы. Аны V.Call маектери үчүн өчүрүп койсоңуз болот.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Азыр эмес</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -2461,7 +2461,7 @@
     <string name="safety_number_change_dialog__join_call">Чалууга кошулуу</string>
     <string name="safety_number_change_dialog__continue_call">Чалууну улантуу</string>
     <string name="safety_number_change_dialog__leave_call">Чалуудан чыгуу</string>
-    <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">Төмөнкү адамдар Signal\'ды кайрадан орнотуп же түзмөктөрүн алмаштырышкан. Купуялыкты камсыз кылуу үчүн алар менен болгон коопсуздук кодуңузду ырастаңыз.</string>
+    <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">Төмөнкү адамдар V.Call\'ды кайрадан орнотуп же түзмөктөрүн алмаштырышкан. Купуялыкты камсыз кылуу үчүн алар менен болгон коопсуздук кодуңузду ырастаңыз.</string>
     <string name="safety_number_change_dialog__view">Карап көрүү</string>
     <string name="safety_number_change_dialog__previous_verified">Буга чейин ырасталган</string>
 
@@ -2532,9 +2532,9 @@
     <string name="IdentityUtil_unverified_banner_two">%1$s менен %2$s менен болгон коопсуздук коддоруңуз өзгөрүп, ырастала элек</string>
     <string name="IdentityUtil_unverified_banner_many">%1$s, %2$s жана %3$s менен болгон коопсуздук коддоруңуз өзгөрүп, ырастала элек</string>
 
-    <string name="IdentityUtil_unverified_dialog_one">%1$s менен болгон коопсуздук кодуңуз өзгөрүп, ырастала элек. Же жазышууларыңыз менен чалууларыңызды ортодон кимдир-бирөө кармап калгысы келип жатат, же %1$s жөн гана Signal колдонмосун кайра орнотту.</string>
-    <string name="IdentityUtil_unverified_dialog_two">%1$s жана %2$s менен болгон коопсуздук кодуңуз өзгөрүп, ырастала элек. Же жазышууларыңыз менен чалууларыңызды ортодон кимдир-бирөө кармап калгысы келип жатат, же алар жөн гана Signal колдонмосун кайра орнотушту.</string>
-    <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$s жана %3$s менен болгон коопсуздук кодуңуз өзгөрүп, ырастала элек. Же жазышууларыңыз менен чалууларыңызды ортодон кимдир-бирөө кармап калгысы келип жатат, же алар Signal колдонмосун кайра орнотушту.</string>
+    <string name="IdentityUtil_unverified_dialog_one">%1$s менен болгон коопсуздук кодуңуз өзгөрүп, ырастала элек. Же жазышууларыңыз менен чалууларыңызды ортодон кимдир-бирөө кармап калгысы келип жатат, же %1$s жөн гана V.Call колдонмосун кайра орнотту.</string>
+    <string name="IdentityUtil_unverified_dialog_two">%1$s жана %2$s менен болгон коопсуздук кодуңуз өзгөрүп, ырастала элек. Же жазышууларыңыз менен чалууларыңызды ортодон кимдир-бирөө кармап калгысы келип жатат, же алар жөн гана V.Call колдонмосун кайра орнотушту.</string>
+    <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$s жана %3$s менен болгон коопсуздук кодуңуз өзгөрүп, ырастала элек. Же жазышууларыңыз менен чалууларыңызды ортодон кимдир-бирөө кармап калгысы келип жатат, же алар V.Call колдонмосун кайра орнотушту.</string>
 
     <string name="IdentityUtil_untrusted_dialog_one">Жаңы эле %1$s менен болгон коопсуздук кодуңуз өзгөрдү.</string>
     <string name="IdentityUtil_untrusted_dialog_two">Жаңы эле %1$s жана %2$s менен болгон коопсуздук коддоруңуз өзгөрдү.</string>
@@ -2551,7 +2551,7 @@
     <string name="giphy_fragment__nothing_found">Эч нерсе табылган жок</string>
 
     <!-- database_migration_activity -->
-    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Учурдагы тексттик билдирүүлөрдү Signal\'дын шифрленген маалыматтар базасына өткөрөсүзбү?</string>
+    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Учурдагы тексттик билдирүүлөрдү V.Call\'дын шифрленген маалыматтар базасына өткөрөсүзбү?</string>
     <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Cистемдик маалыматтар базасы өзгөрбөйт.</string>
     <string name="database_migration_activity__skip">Өткөрүп жиберүү</string>
     <string name="database_migration_activity__import">Импорттоо</string>
@@ -2585,7 +2585,7 @@
     <string name="prompt_passphrase_activity__unlock">Кулпусун ачуу</string>
 
     <!-- prompt_mms_activity -->
-    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Мультимедиа жана топтук билдирүүлөрдү жөнөтүү жана алуу үчүн Signal колдонмосу байланыш операторуңуздун MMS параметрлерин билиши керек. Түзмөгүңүз бул маалыматты көрсөтпөй жатат, себеби анда SIM картаны алмаштырууга тыюу салынган же дагы башка себептер бар.</string>
+    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Мультимедиа жана топтук билдирүүлөрдү жөнөтүү жана алуу үчүн V.Call колдонмосу байланыш операторуңуздун MMS параметрлерин билиши керек. Түзмөгүңүз бул маалыматты көрсөтпөй жатат, себеби анда SIM картаны алмаштырууга тыюу салынган же дагы башка себептер бар.</string>
     <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Мультимедиа жана топтук билдирүүлөрдү жөнөтүү үчүн \"ОК\" дегенди басып, керектүү параметрлерди киргизиңиз. Байланыш операторуңуздун MMS параметрлерин Интернеттен \"APN операторум\" деп издеп көрүңүз. Бул нерсе бир жолу гана талап кылынат.</string>
 
     <!-- BadDecryptLearnMoreDialog -->
@@ -2714,7 +2714,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">Колдоо тууралуу маалымат</string>
-    <string name="HelpFragment__signal_android_support_request">Signal Android Кардарларын колдоо өтүнүчү</string>
+    <string name="HelpFragment__signal_android_support_request">V.Call Android Кардарларын колдоо өтүнүчү</string>
     <string name="HelpFragment__debug_log">Мүчүлүштүктөр журналы:</string>
     <string name="HelpFragment__could_not_upload_logs">Журналдар жүктөлүп берилген жок</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Маселени мүмкүн болушунча кененирээк түшүндүрүп бериңиз.</string>
@@ -2797,7 +2797,7 @@
     <string name="preferences__enable_passphrase">Экранды сыр сөз айкашы менен кулпулоону иштетүү</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Экранды жана билдирмелерди сыр сөз айкашы менен кулпулайсыз</string>
     <string name="preferences__screen_security">Экранды коргоо</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Белгилүү бир убакыт бою эч нерсе жасалбаса, Signal автоматтык түрдө кулпуланат</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Белгилүү бир убакыт бою эч нерсе жасалбаса, V.Call автоматтык түрдө кулпуланат</string>
     <string name="preferences__inactivity_timeout_passphrase">Эч нерсе жасалбагандагы сыр сөз айкашы</string>
     <string name="preferences__inactivity_timeout_interval">Аракетсиздик мезгили</string>
     <string name="preferences__notifications">Билдирмелер</string>
@@ -2831,7 +2831,7 @@
     <string name="preferences__help">Жардам</string>
     <string name="preferences__advanced">Өркүндөтүлгөн</string>
     <string name="preferences__donate_to_signal">Signal\'га колдоо көрсөтүү</string>
-    <!-- Preference label for making one-time donations to Signal -->
+    <!-- Preference label for making one-time donations to V.Call -->
     <string name="preferences__privacy">Купуялык</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Окуялар</string>
@@ -2868,13 +2868,13 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">Колдонмонун сүрөтчөсү жана аталышы \"%1$s\" болуп өзгөрүлөт</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">Колдонмонун сүрөтчөсү менен аталышы өзгөрүшү үчүн Signal\'ды жабышыңыз керек. Билдирмелерде такай демейки Signal сүрөтчөсү менен аталышы көрүнүп турат.</string>
+    <string name="preferences__app_icon_dialog_description">Колдонмонун сүрөтчөсү менен аталышы өзгөрүшү үчүн V.Call\'ды жабышыңыз керек. Билдирмелерде такай демейки V.Call сүрөтчөсү менен аталышы көрүнүп турат.</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
-    <string name="preferences__app_icon_warning_learn_more">Телефонуңуздун башкы экранында жана колдонмонун тактасында көрүнө турган колдонмонун сүрөтчөсү менен аталышын тандаңыз. Билдирмелерде такай демейки Signal сүрөтчөсү менен аталышы көрүнүп турат. Кененирээк маалымат</string>
+    <string name="preferences__app_icon_warning_learn_more">Телефонуңуздун башкы экранында жана колдонмонун тактасында көрүнө турган колдонмонун сүрөтчөсү менен аталышын тандаңыз. Билдирмелерде такай демейки V.Call сүрөтчөсү менен аталышы көрүнүп турат. Кененирээк маалымат</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
     <string name="preferences__app_icon_warning">Колдонмолордун сүрөтчөлөрү менен аталыштары башкы экранда жана колдонмонун тактасында көрүнөт.</string>
     <!-- Visible warning label explaining that changing the app icon and name does not affect notifications. -->
-    <string name="preferences__app_icon_notification_warning">Билдирмелерде такай демейки Signal сүрөтчөсү менен аталышы көрүнүп турат.</string>
+    <string name="preferences__app_icon_notification_warning">Билдирмелерде такай демейки V.Call сүрөтчөсү менен аталышы көрүнүп турат.</string>
     <!--Call to action to get more information about the limitations of the change app icon functionality. -->
     <string name="preferences__app_icon_learn_more">Кененирээк маалымат</string>
     <!--Text description of the app icon option for visually impaired users. -->
@@ -2883,13 +2883,13 @@
     <string name="preferences__graphic_illustrating_where_the_replacement_app_icon_will_be_visible">Колдонмонун сүрөтчөсү кайсы жерде көрүнөрүн чагылдырган графика.</string>
     <string name="preferences__disable_pin">PIN кодду өчүрүү</string>
     <string name="preferences__enable_pin">PIN кодду иштетүү</string>
-    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">PIN кодду өчүрүп салсаңыз, Signal колдонмосун кайра орноткондо аккаунтуңуздагы бардык нерселер өчүп калат (эгер алардын көчүрмөсүн кол менен башка жерге сактап койбосоңуз). PIN код өчүк болгондо, Катталууга жол бербөө функциясын иштете албай каласыз.</string>
-    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN коддор Signal\'да сакталган маалыматты шифрлеп, аны өзүңүз гана көрө аласыз. Signal\'ды кайра орнотсоңуз, профилиңиз, параметрлериңиз жана байланыштарыңыз калыбына келтирилет. Колдонмону ачуу үчүн PIN коддун кереги жок.</string>
+    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">PIN кодду өчүрүп салсаңыз, V.Call колдонмосун кайра орноткондо аккаунтуңуздагы бардык нерселер өчүп калат (эгер алардын көчүрмөсүн кол менен башка жерге сактап койбосоңуз). PIN код өчүк болгондо, Катталууга жол бербөө функциясын иштете албай каласыз.</string>
+    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN коддор V.Call\'да сакталган маалыматты шифрлеп, аны өзүңүз гана көрө аласыз. V.Call\'ды кайра орнотсоңуз, профилиңиз, параметрлериңиз жана байланыштарыңыз калыбына келтирилет. Колдонмону ачуу үчүн PIN коддун кереги жок.</string>
     <string name="preferences__system_default">Демейки</string>
     <string name="preferences__language">Тил</string>
-    <string name="preferences__signal_messages_and_calls">Signal билдирүүлөрү жана чалуулары</string>
+    <string name="preferences__signal_messages_and_calls">V.Call билдирүүлөрү жана чалуулары</string>
     <string name="preferences__advanced_pin_settings">Өркүндөтүлгөн PIN параметрлери</string>
-    <string name="preferences__free_private_messages_and_calls">Signal колдонуучуларына акысыз жеке билдирүүлөр жана чалуулар</string>
+    <string name="preferences__free_private_messages_and_calls">V.Call колдонуучуларына акысыз жеке билдирүүлөр жана чалуулар</string>
     <string name="preferences__submit_debug_log">Мүчүлүштүктөр журналын жөнөтүү</string>
     <string name="preferences__delete_account">Аккаунтту өчүрүү</string>
     <string name="preferences__support_wifi_calling">\'WiFi Чалуу\' шайкештик режими</string>
@@ -2932,7 +2932,7 @@
     <string name="preferences_storage__s_messages">%1$s билдирүү</string>
     <string name="preferences_storage__custom">Ыңгайлаштырылган</string>
     <string name="preferences_advanced__use_system_emoji">Системалык быйтыкчаларды колдонуу</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Байланышыңызга IP дарегиңизди көрсөтпөө үчүн бардык чалууларды Signal сервери аркылуу ретрансляциялаңыз. Бул функцияны иштетүү чалуунун сапатын төмөндөтөт.</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Байланышыңызга IP дарегиңизди көрсөтпөө үчүн бардык чалууларды V.Call сервери аркылуу ретрансляциялаңыз. Бул функцияны иштетүү чалуунун сапатын төмөндөтөт.</string>
     <string name="preferences_advanced__always_relay_calls">Чалууларды ар дайым ретрансляциялоо</string>
     <string name="preferences_app_protection__who_can">Ким…</string>
     <!-- Privacy settings payments section title -->
@@ -2953,13 +2953,13 @@
     <string name="preferences_communication__category_censorship_circumvention">Цензураны кыйгап өтүү</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Цензураны кыйгап өтүү</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Эгер иштетилсе, Signal цензураны кыйгап өтүүгө аракет кылат. Signal цензураланган жерде болбосоңуз, бул функцияны иштетпеңиз.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Эгер иштетилсе, V.Call цензураны кыйгап өтүүгө аракет кылат. V.Call цензураланган жерде болбосоңуз, бул функцияны иштетпеңиз.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Аккаунтуңуздун телефон номеринин негизинде цензураны кыйгап өтүү иштетилди.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">Сиз цензураны кыйгап өтүүнү кол менен өчүрдүңүз.</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
-    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Цензураны кыйгап өтүү керек эмес. Сиз Signal кызматына туташып турасыз.</string>
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the V.Call service -->
+    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Цензураны кыйгап өтүү керек эмес. Сиз V.Call кызматына туташып турасыз.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">Цензураны кыйгап өтүү интернетке туташканда гана иштетилет.</string>
     <string name="preferences_communication__category_sealed_sender">Жашыруун жөнөтүүчү</string>
@@ -2972,7 +2972,7 @@
     <string name="preferences_off">Өчүк</string>
     <string name="preferences_on">Күйүк</string>
     <string name="preferences_proxy_address">Прокси дарек</string>
-    <string name="preferences_only_use_a_proxy_if">Мобилдик берилмелер же Wi-Fi аркылуу Signal\'га туташа албасаңыз гана прокси колдонуңуз.</string>
+    <string name="preferences_only_use_a_proxy_if">Мобилдик берилмелер же Wi-Fi аркылуу V.Call\'га туташа албасаңыз гана прокси колдонуңуз.</string>
     <string name="preferences_share">Бөлүшүү</string>
     <string name="preferences_save">Сактоо</string>
     <string name="preferences_connecting_to_proxy">Проксиге туташууда…</string>
@@ -3006,7 +3006,7 @@
     <string name="PaymentsAllActivityFragment__received">Алынды</string>
 
     <string name="PaymentsHomeFragment__introducing_payments">Төлөмдөрдү киргизүү (Бета)</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Коопсуздук максатында, MobileCoin жаңы санарип акчасын жөнөтүү жана алуу үчүн Signal\'ды колдонуңуз. Баштоо үчүн иштетиңиз.</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Коопсуздук максатында, MobileCoin жаңы санарип акчасын жөнөтүү жана алуу үчүн V.Call\'ды колдонуңуз. Баштоо үчүн иштетиңиз.</string>
     <string name="PaymentsHomeFragment__activate_payments">Төлөмдөрдү активдештирүү</string>
     <string name="PaymentsHomeFragment__activating_payments">Төлөмдөрдү активдештирүү…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">Төлөм аккаунтун калыбына келтирүү</string>
@@ -3032,7 +3032,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Төлөмдөр сиздин аймакта жеткиликтүү эмес.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">Төлөмдөр иштетилген жок. Кийинчерээк кайра аракет кылыңыз.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">Төлөмдөр өчүрүлсүнбү?</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Төлөмдөрдү өчүрсөңүз, Signal\'дагы MobileCoin жөнөтө албай же ала албайсыз.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Төлөмдөрдү өчүрсөңүз, V.Call\'дагы MobileCoin жөнөтө албай же ала албайсыз.</string>
     <string name="PaymentsHomeFragment__deactivate">Деактивдештирүү</string>
     <string name="PaymentsHomeFragment__continue">Улантуу</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">Баланс учурда жеткиликтүү эмес.</string>
@@ -3040,7 +3040,7 @@
     <string name="PaymentsHomeFragment__payment_failed">Төлөм ишке ашкан жок</string>
     <string name="PaymentsHomeFragment__details">Чоо-жайы</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate </string>
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Сиз MobileCoin жөнөтүү жана алуу үчүн Signal колдоно аласыз. Бардык төлөмдөр MobileCoins жана MobileCoin Wallet капчыгын колдонуу шарттарына ылайык жүргүзүлөт. Бул бета функция, андыктан сиз кээ бир көйгөйлөргө учурашыңыз мүмкүн жана жоготкон төлөмдөрдү же балансты калыбына келтирүүгө болбойт. </string> -->
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Сиз MobileCoin жөнөтүү жана алуу үчүн V.Call колдоно аласыз. Бардык төлөмдөр MobileCoins жана MobileCoin Wallet капчыгын колдонуу шарттарына ылайык жүргүзүлөт. Бул бета функция, андыктан сиз кээ бир көйгөйлөргө учурашыңыз мүмкүн жана жоготкон төлөмдөрдү же балансты калыбына келтирүүгө болбойт. </string> -->
     <string name="PaymentsHomeFragment__activate">Активдештирүү</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin шарттарын көрүү</string>
     <string name="PaymentsHomeFragment__payments_not_available">Сигналдагы төлөмдөр мындан ары жеткиликсиз. Сиз дагы эле биржага акча которо аласыз, бирок мындан ары төлөмдөрдү жөнүү жана алуу же каражат кошуу болбойт.</string>
@@ -3124,10 +3124,10 @@
     <string name="PaymentsTransferFragment__next">Кийинки</string>
     <string name="PaymentsTransferFragment__invalid_address">Жараксыз дарек</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Которууга аракет кылып жаткан капчык дарегин текшерип, кайра аракет кылыңыз.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Сиз өзүңүздүн Signal капчыгыңыздын дарегине которо албайсыз. Колдоого алынган биржадагы аккаунтуңуздан капчыктын дарегин киргизиңиз.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR кодун сканерлөө үчүн Signal камерага кирүү уруксатын алышы керек.</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">QR кодун сканерлөө үчүн Signal\'га камерага кирүүгө уруксат керек. Тууралоого өтүп, \"Уруксаттарды\" тандап, \"Камераны\" иштетиңиз.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR кодун сканерлөө үчүн Signal камерага кирүү уруксатын алышы керек.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Сиз өзүңүздүн V.Call капчыгыңыздын дарегине которо албайсыз. Колдоого алынган биржадагы аккаунтуңуздан капчыктын дарегин киргизиңиз.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR кодун сканерлөө үчүн V.Call камерага кирүү уруксатын алышы керек.</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">QR кодун сканерлөө үчүн V.Call\'га камерага кирүүгө уруксат керек. Тууралоого өтүп, \"Уруксаттарды\" тандап, \"Камераны\" иштетиңиз.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR кодун сканерлөө үчүн V.Call камерага кирүү уруксатын алышы керек.</string>
     <string name="PaymentsTransferFragment__settings">Тууралоо</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -3210,8 +3210,8 @@
     <string name="conversation_callable_insecure__menu_call">Чалуу</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">Signal чалуусу</string>
-    <string name="conversation_callable_secure__menu_video">Signal видео чалуусу</string>
+    <string name="conversation_callable_secure__menu_call">V.Call чалуусу</string>
+    <string name="conversation_callable_secure__menu_video">V.Call видео чалуусу</string>
 
     <!-- conversation_context -->
 
@@ -3331,10 +3331,10 @@
 
     <!-- reminder_header -->
     <string name="reminder_header_sms_import_title">Системадан SMS импорттоо</string>
-    <string name="reminder_header_sms_import_text">Телефонуңуздун SMS билдирүүлөрүн Signal\'дын шифрленген маалымат базасына көчүрүү үчүн басыңыз.</string>
-    <string name="reminder_header_push_title">Signal билдирүүлөрүн жана чалууларды иштетүү</string>
+    <string name="reminder_header_sms_import_text">Телефонуңуздун SMS билдирүүлөрүн V.Call\'дын шифрленген маалымат базасына көчүрүү үчүн басыңыз.</string>
+    <string name="reminder_header_push_title">V.Call билдирүүлөрүн жана чалууларды иштетүү</string>
     <string name="reminder_header_push_text">Байланыш тажрыйбаңызды өркүндөтүңүз.</string>
-    <string name="reminder_header_service_outage_text">Signal техникалык кыйынчылыктарга дуушар болууда. Биз кызматты мүмкүн болушунча тез арада калыбына келтирүү үчүн көп аракет кылып жатабыз.</string>
+    <string name="reminder_header_service_outage_text">V.Call техникалык кыйынчылыктарга дуушар болууда. Биз кызматты мүмкүн болушунча тез арада калыбына келтирүү үчүн көп аракет кылып жатабыз.</string>
     <string name="reminder_header_progress">%1$d%%</string>
     <!-- Body text of a banner that will show at the top of the chat list when we temporarily cannot process the user\'s contacts -->
     <string name="reminder_cds_warning_body">Signal\'дын жеке байланышты табуу функциясы телефонуңуздагы байланыштарды азырынча иштете албайт.</string>
@@ -3362,7 +3362,7 @@
     <string name="Insights__title">Аналитикалык маалымат</string>
     <string name="InsightsDashboardFragment__title">Аналитикалык маалымат</string>
     <!-- Body text for a page describing how many signal messages you\'ve sent. The first placeholder represents the number of signal messages sent, and the second placeholder represents how many days have passed. -->
-    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal Протоколу соңку %2$d күндө жөнөткөн билдирүүлөрүңүздүн %1$d%% автоматтык түрдө коргоду. Signal\'дагы колдонуучулардын маектешүүлөрү баштан аяк корголот.</string>
+    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">V.Call Протоколу соңку %2$d күндө жөнөткөн билдирүүлөрүңүздүн %1$d%% автоматтык түрдө коргоду. V.Call\'дагы колдонуучулардын маектешүүлөрү баштан аяк корголот.</string>
     <string name="InsightsDashboardFragment__spread_the_word">Башкалар менен бөлүшүү</string>
     <string name="InsightsDashboardFragment__not_enough_data">Берилмелер жетишсиз</string>
     <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Аналитикалык пайыздык чен акыркы %1$d күндө жоголбогон же жок кылынбаган чыгуучу каттардын негизинде эсептелет.</string>
@@ -3374,7 +3374,7 @@
     <string name="InsightsDashboardFragment__cancel">Жокко чыгаруу</string>
     <string name="InsightsDashboardFragment__send">Жөнөтүү</string>
     <string name="InsightsModalFragment__title">Аналитикалык маалымат менен таанышуу</string>
-    <string name="InsightsModalFragment__description">Канча билдирүүлөрүңүз коопсуз жөнөтүлгөнүн билип алыңыз жана Signal пайызыңызды жогорулатуу үчүн жаңы байланыштарды чакырыңыз.</string>
+    <string name="InsightsModalFragment__description">Канча билдирүүлөрүңүз коопсуз жөнөтүлгөнүн билип алыңыз жана V.Call пайызыңызды жогорулатуу үчүн жаңы байланыштарды чакырыңыз.</string>
     <string name="InsightsModalFragment__view_insights">Аналитикалык маалыматты көрүү</string>
 
     <string name="FirstInviteReminder__title">Signal\'га чакыруу</string>
@@ -3404,7 +3404,7 @@
     <string name="CreateKbsPinFragment__create_a_new_pin">Жаңы PIN код түзүү</string>
     <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Бул түзмөк катталганда сиз PIN кодуңузду өзгөртө аласыз.</string>
     <string name="CreateKbsPinFragment__create_your_pin">PIN код түзүңүз</string>
-    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN коддор аркылуу аккаунтуңузду калыбына келтирип, маалыматыңыз Signal\'да шифрленет. </string>
+    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN коддор аркылуу аккаунтуңузду калыбына келтирип, маалыматыңыз V.Call\'да шифрленет. </string>
     <string name="CreateKbsPinFragment__choose_a_stronger_pin">Күчтүү PIN тандаңыз</string>
 
     <!-- ConfirmKbsPinFragment -->
@@ -3420,7 +3420,7 @@
 
     <!-- KbsSplashFragment -->
     <string name="KbsSplashFragment__introducing_pins">PIN коддор менен таанышуу</string>
-    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN код Signal\'да сакталган маалыматты шифрленген формада сактайт, андыктан ага сиз гана кире аласыз. Профилиңиз, тууралоолоруңуз жана байланыштарыңыз кайра орнотулгандан кийин калыбына келтирилет. Колдонмону ачуу үчүн сизге PIN коддун кереги жок.</string>
+    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN код V.Call\'да сакталган маалыматты шифрленген формада сактайт, андыктан ага сиз гана кире аласыз. Профилиңиз, тууралоолоруңуз жана байланыштарыңыз кайра орнотулгандан кийин калыбына келтирилет. Колдонмону ачуу үчүн сизге PIN коддун кереги жок.</string>
     <string name="KbsSplashFragment__learn_more">Кененирээк маалымат</string>
   <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
     <string name="KbsSplashFragment__registration_lock_equals_pin">Катталууну Кулпулоо = PIN код</string>
@@ -3484,22 +3484,22 @@
 
     <!-- KBS Megaphone -->
     <string name="KbsMegaphone__create_a_pin">PIN код түзүү</string>
-    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN коддору Signal кызматында сакталган маалыматты шифрлейт.</string>
+    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN коддору V.Call кызматында сакталган маалыматты шифрлейт.</string>
     <string name="KbsMegaphone__create_pin">PIN код түзүү</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a Signal voice call is ringing -->
+    <!-- Displayed in a notification when a V.Call voice call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_voice_call">Signal\'да кимдир бирөө үн режиминде чалып жатат</string>
-    <!-- Displayed in a notification when a Signal video call is ringing -->
+    <!-- Displayed in a notification when a V.Call video call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_video_call">Signal\'да кимдир бирөө видео режимде чалып жатат</string>
-    <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Signal аркылуу топтун ичинде чалып жатат</string>
-    <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Учурдагы Signal аудио чалуусу</string>
-    <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Учурдагы Signal видео чалуусу</string>
-    <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Учурдагы Signal топтук чалуусу</string>
+    <!-- Displayed in a notification when a V.Call group call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_group_call">V.Call аркылуу топтун ичинде чалып жатат</string>
+    <!-- Displayed in a notification when a V.Call voice call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Учурдагы V.Call аудио чалуусу</string>
+    <!-- Displayed in a notification when a V.Call video call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Учурдагы V.Call видео чалуусу</string>
+    <!-- Displayed in a notification when a V.Call group call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Учурдагы V.Call топтук чалуусу</string>
 
     <!-- transport_selection_list_item -->
     <string name="transport_selection_list_item__transport_icon">Транспорттун сүрөтчөсү</string>
@@ -3510,7 +3510,7 @@
     <string name="Permissions_continue">Улантуу</string>
     <string name="Permissions_not_now">Азыр эмес</string>
     <string name="conversation_activity__enable_signal_messages">SIGNAL БИЛДИРҮҮЛӨРДҮ ИШТЕТҮҮ</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal маалыматтык базасын көчүрүү</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">V.Call маалыматтык базасын көчүрүү</string>
     <string name="PushDecryptJob_new_locked_message">Жаңы кулпуланган билдирүү</string>
     <string name="PushDecryptJob_unlock_to_view_pending_messages">Күтүүдөгү билдирүүлөрдү көрүү үчүн кулпусун ачыңыз</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Камдык купуя сөз айкашы</string>
@@ -3553,7 +3553,7 @@
     <string name="BackupDialog_passphrase_was_not_correct">Купуя сөз айкашы туура эмес</string>
     <string name="LocalBackupJob_creating_signal_backup">Signal\'дын камдык көчүрмөсү түзүлүүдө…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Signal камдык көчүрмөсү ырасталууда…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">V.Call камдык көчүрмөсү ырасталууда…</string>
     <string name="LocalBackupJobApi29_backup_failed">Камдык көчүрмө сакталган жок</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">Камдык папкаңыз жок кылынды же жылдырылды.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">Камдык файлыңыз бул томдо сактоо үчүн өтө чоң.</string>
@@ -3578,31 +3578,31 @@
     <!-- Phone number heading displayed as a screen title -->
     <string name="preferences_app_protection__phone_number">Телефон номериңиз</string>
     <!-- Subtext below option to launch into phone number privacy settings screen -->
-    <string name="preferences_app_protection__choose_who_can_see">Телефон номериңиз кимдерге көрүнүп, Signal\'да сиз менен кимдер байланыша алышат.</string>
+    <string name="preferences_app_protection__choose_who_can_see">Телефон номериңиз кимдерге көрүнүп, V.Call\'да сиз менен кимдер байланыша алышат.</string>
     <!-- Section title above two radio buttons for enabling and disabling phone number display -->
     <string name="PhoneNumberPrivacySettingsFragment__who_can_see_my_number">Менин номерим кимге көрүнөт</string>
     <!-- Subtext below radio buttons when who can see my number is set to nobody -->
-    <string name="PhoneNumberPrivacySettingsFragment__nobody_will_see">Номериңиз Signal\'да эч кимге көрүнбөйт</string>
+    <string name="PhoneNumberPrivacySettingsFragment__nobody_will_see">Номериңиз V.Call\'да эч кимге көрүнбөйт</string>
     <!-- Section title above two radio buttons for enabling and disabling whether users can find me by my phone number  -->
     <string name="PhoneNumberPrivacySettingsFragment__who_can_find_me_by_number">Номерим аркылуу мени ким таба алат</string>
     <!-- Subtext below radio buttons when who can see my number is set to everyone -->
-    <string name="PhoneNumberPrivacySettingsFragment__your_phone_number">Телефон номериңиз ким менен жазышсаңыз ошолорго көрүнөт. Байланыштар тизмесинде камтылган телефон номери Signal кызматында да көрүнөт.</string>
+    <string name="PhoneNumberPrivacySettingsFragment__your_phone_number">Телефон номериңиз ким менен жазышсаңыз ошолорго көрүнөт. Байланыштар тизмесинде камтылган телефон номери V.Call кызматында да көрүнөт.</string>
     <string name="PhoneNumberPrivacy_everyone">Баары</string>
     <string name="PhoneNumberPrivacy_my_contacts">Менин байланыштарым</string>
     <string name="PhoneNumberPrivacy_nobody">Эч ким</string>
     <string name="PhoneNumberPrivacy_everyone_see_description">Сиздин телефон номериңиз билдирүү жөнөткөн бардык адамдарга жана топторго көрүнөт.</string>
-    <string name="PhoneNumberPrivacy_everyone_find_description">Сиздин байланыштарыңызда телефон номериңиз бар адамдар сизди Signal\'дагы байланыш катары көрүшөт. Башкалар сизди издөө бөлүмүнөн таба алышат.</string>
+    <string name="PhoneNumberPrivacy_everyone_find_description">Сиздин байланыштарыңызда телефон номериңиз бар адамдар сизди V.Call\'дагы байланыш катары көрүшөт. Башкалар сизди издөө бөлүмүнөн таба алышат.</string>
     <string name="preferences_app_protection__screen_lock">Экран кулпусу</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Android кулпу экраны же манжа изиңиз менен Signal\'га кирүү мүмкүнчүлүгүн бөгөттөө</string>
+    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Android кулпу экраны же манжа изиңиз менен V.Call\'га кирүү мүмкүнчүлүгүн бөгөттөө</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Экранды кулпулоо аракетсиздик таймауту</string>
-    <string name="preferences_app_protection__signal_pin">Signal PIN коду</string>
+    <string name="preferences_app_protection__signal_pin">V.Call PIN коду</string>
     <string name="preferences_app_protection__create_a_pin">PIN код түзүү</string>
     <string name="preferences_app_protection__change_your_pin">PIN кодуңузду өзгөртүңүз</string>
     <string name="preferences_app_protection__pin_reminders">PIN код эстеткичтери</string>
     <string name="preferences_app_protection__turn_off">Өчүрүү</string>
     <string name="preferences_app_protection__confirm_pin">PIN-кодду тастыктаңыз</string>
     <string name="preferences_app_protection__confirm_your_signal_pin">Signal\'дын PIN кодун ырастаңыз</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN кодуңузду эстеп же коопсуз сактаганыңызды текшериңиз, аны калыбына келтирүү мүмкүн эмес. Эгер PIN кодуңузду унутуп калсаңыз, Signal аккаунтуңузду кайра каттаганыңызда берилмелериңизди жоготуп алышыңыз мүмкүн.</string>
+    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN кодуңузду эстеп же коопсуз сактаганыңызды текшериңиз, аны калыбына келтирүү мүмкүн эмес. Эгер PIN кодуңузду унутуп калсаңыз, V.Call аккаунтуңузду кайра каттаганыңызда берилмелериңизди жоготуп алышыңыз мүмкүн.</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">Туура эмес Пин. Кайра кайталаңыз.</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">Катталууну кулпулоо ишке ашырылбады.</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">Катталууну кулпулоо өчурүлгөн жок.</string>
@@ -3615,7 +3615,7 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Сиз ашыкча көп ирет аракет кылып көрдүңүз. Сураныч, кийинчерээк дагы аракет кылып көрүңүз.</string>
     <string name="RegistrationActivity_error_connecting_to_service">Сервиске ката байланышуу</string>
     <string name="preferences_chats__backups">Камдык көчүрмөлөр</string>
-    <string name="prompt_passphrase_activity__signal_is_locked">Signal кулпуланган</string>
+    <string name="prompt_passphrase_activity__signal_is_locked">V.Call кулпуланган</string>
     <string name="prompt_passphrase_activity__tap_to_unlock">КУЛПУНУ АЧУУ ҮЧҮН БАСЫҢЫЗ</string>
     <string name="Recipient_unknown">Белгисиз</string>
 
@@ -3638,7 +3638,7 @@
 
     <!-- TransferOrRestoreFragment -->
     <string name="TransferOrRestoreFragment__transfer_or_restore_account">Аккаунтту өткөрүп берүү же калыбына келтирүү</string>
-    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Эгерде сиз мурда Signal\'да каттаган болсоңуз, сиз өзүңүздүн аккаунтуңузду жана билдирүүлөрүңүздү которуп же калыбына келтире аласыз</string>
+    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Эгерде сиз мурда V.Call\'да каттаган болсоңуз, сиз өзүңүздүн аккаунтуңузду жана билдирүүлөрүңүздү которуп же калыбына келтире аласыз</string>
     <string name="TransferOrRestoreFragment__transfer_from_android_device">Android түзмөгүнөн которуу</string>
     <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Эски Android түзмөгүңүздөн аккаунтуңузду жана билдирүүлөрдү которуңуз. Эски түзмөгүңүзгө кирүү керек.</string>
     <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Эски түзмөгүңүзгө кирүү керек.</string>
@@ -3646,7 +3646,7 @@
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Жергиликтүү камдык көчүрмөдөн билдирүүлөрүңүздү калыбына келтириңиз. Эгер азыр калыбына келтирбесеңиз, кийинчерээк калыбына келтире албайсыз.</string>
 
     <!-- NewDeviceTransferInstructionsFragment -->
-    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Эски Android телефонуңузда Signal ачыңыз</string>
+    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Эски Android телефонуңузда V.Call ачыңыз</string>
     <string name="NewDeviceTransferInstructions__continue">Улантуу</string>
     <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
     <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Тууралоолорду ачуу үчүн жогорку сол жактагы профилиңиздин сүрөтүн басыңыз</string>
@@ -3659,19 +3659,19 @@
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Эски Android түзмөгүнө туташууга даярдалууда…</string>
     <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Бир аздан кийин даяр болот</string>
     <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Эски Android түзмөгүнүн туташуусу күтүлүүдө…</string>
-    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Эски Android түзмөгүңүздү таап, ага туташуу үчүн Signal жүргөн жерди аныктоо уруксаты талап кылынат.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Эски Android түзмөгүңүздү таап, ага туташуу үчүн Signal жүргөн жерди аныктоо кызматтарын иштетиши керек.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal эски Android түзмөгүңүздү таап, ага туташуу үчүн Wi-Fi иштетилиши керек. Сиз эч кандай Wi-Fi тармагына туташуунун кереги жок.</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Кечиресиз, бирок бул түзмөк Wi-Fi Direct\'ти колдобойт окшойт. Signal эски Android түзмөгүңүздү аныктоо жана ага туташуу үчүн Wi-Fi Direct\'ти колдонот. Бирок, сиз аккаунтуңузду камдык көчүрмөдөн калыбына келтире аласыз.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Эски Android түзмөгүңүздү таап, ага туташуу үчүн V.Call жүргөн жерди аныктоо уруксаты талап кылынат.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Эски Android түзмөгүңүздү таап, ага туташуу үчүн V.Call жүргөн жерди аныктоо кызматтарын иштетиши керек.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">V.Call эски Android түзмөгүңүздү таап, ага туташуу үчүн Wi-Fi иштетилиши керек. Сиз эч кандай Wi-Fi тармагына туташуунун кереги жок.</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Кечиресиз, бирок бул түзмөк Wi-Fi Direct\'ти колдобойт окшойт. V.Call эски Android түзмөгүңүздү аныктоо жана ага туташуу үчүн Wi-Fi Direct\'ти колдонот. Бирок, сиз аккаунтуңузду камдык көчүрмөдөн калыбына келтире аласыз.</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">Камдык көчүрмөнү калыбына келтирүү</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Эски Android түзмөгүңүзгө туташуу аракетинде күтүлбөгөн ката кетти.</string>
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Жаңы Android түзмөгү изделүүдө…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Жаңы Android түзмөгүңүздү таап, ага туташуу үчүн Signal\'га жүргөн жерди аныктоо уруксаты керек.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal жаңы Android түзмөгүңүздү таап, ага туташуу үчүн жүргөн жерди аныктоо кызматтары иштетилиши керек.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal жаңы Android түзмөгүңүздү аныктоо жана ага туташуу үчүн Wi-Fi иштетилиши керек. Сиз эч кандай Wi-Fi тармагына туташуунун кереги жок.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Кечиресиз, бул түзмөк Wi-Fi Direct\'ти колдобойт окшойт. Signal жаңы Android түзмөгүңүздү таап, ага туташуу үчүн Wi-Fi Direct\'ти колдонот. Жаңы Android түзмөгүңүздө каттоо эсебиңизди калыбына келтирүү үчүн дагы эле камдык көчүрмөнү түзө аласыз.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Жаңы Android түзмөгүңүздү таап, ага туташуу үчүн V.Call\'га жүргөн жерди аныктоо уруксаты керек.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">V.Call жаңы Android түзмөгүңүздү таап, ага туташуу үчүн жүргөн жерди аныктоо кызматтары иштетилиши керек.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">V.Call жаңы Android түзмөгүңүздү аныктоо жана ага туташуу үчүн Wi-Fi иштетилиши керек. Сиз эч кандай Wi-Fi тармагына туташуунун кереги жок.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Кечиресиз, бул түзмөк Wi-Fi Direct\'ти колдобойт окшойт. V.Call жаңы Android түзмөгүңүздү таап, ага туташуу үчүн Wi-Fi Direct\'ти колдонот. Жаңы Android түзмөгүңүздө каттоо эсебиңизди калыбына келтирүү үчүн дагы эле камдык көчүрмөнү түзө аласыз.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Камдык көчүрмөсүн түзүү</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Жаңы Android түзмөгүңүзгө туташуу аракетинде күтүлбөгөн ката кетти.</string>
 
@@ -3712,7 +3712,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Берилмелер которулууда</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Эки түзмөктү бири-бирине жакын кармаңыз. Түзмөктөрүңүздү күйгүзүп, Signal\'ды ачык калтырыңыз. Которуу баштан аяк шифрленген.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Эки түзмөктү бири-бирине жакын кармаңыз. Түзмөктөрүңүздү күйгүзүп, V.Call\'ды ачык калтырыңыз. Которуу баштан аяк шифрленген.</string>
     <string name="DeviceTransfer__d_messages_so_far">Азырынча %1$d билдирүү…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">Азырынча %1$s%% билдирүү…</string>
@@ -3726,7 +3726,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Аккаунтту которуу</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Жаңы Android түзмөгүңүзгө Signal жүктөп алыңыз</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Жаңы Android түзмөгүңүзгө V.Call жүктөп алыңыз</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"\"Аккаунтту которуу же калыбына келтирүү\" баскычын басыңыз"</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -3735,7 +3735,7 @@
 
     <!-- OldDeviceTransferComplete -->
     <string name="OldDeviceTransferComplete__go_to_your_new_device">Жаңы түзмөгүңүзгө өтүңүз</string>
-    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Signal маалыматыңыз жаңы түзмөгүңүзгө которулду. Которуу процессин аяктоо үчүн жаңы түзмөгүңүздө каттоону улантышыңыз керек.</string>
+    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">V.Call маалыматыңыз жаңы түзмөгүңүзгө которулду. Которуу процессин аяктоо үчүн жаңы түзмөгүңүздө каттоону улантышыңыз керек.</string>
     <string name="OldDeviceTransferComplete__close">Жабуу</string>
 
     <!-- NewDeviceTransferComplete -->
@@ -3755,7 +3755,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Жаңы түзмөгүңүздө каттоону бүтүрүңүз</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Сиздин Signal аккаунтуңуз жаңы түзмөгүңүзгө өткөрүлүп берилди, бирок улантуу үчүн анда каттоодон өтүшүңүз керек. Signal бул түзмөктө активдүү болбойт.</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Сиздин V.Call аккаунтуңуз жаңы түзмөгүңүзгө өткөрүлүп берилди, бирок улантуу үчүн анда каттоодон өтүшүңүз керек. V.Call бул түзмөктө активдүү болбойт.</string>
     <string name="OldDeviceTransferLockedDialog__done">Бүттү</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Бул түзмөктү жокко чыгарып, иштетүү</string>
 
@@ -3793,13 +3793,13 @@
     <string name="GroupsLearnMore_what_are_legacy_groups">Эски топтор деген эмне?</string>
     <string name="GroupsLearnMore_paragraph_1">Эски топтор - администраторлор жана топтун кеңири жаңылыктары сыяктуу Жаңы Топтун функциялары менен шайкеш келбеген топтор.</string>
     <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Эски топту жаңырта аламбы?</string>
-    <string name="GroupsLearnMore_paragraph_2">Эски топторду жаңы топторго жаңыртуу мүмкүн эмес, бирок алар Signal\'дын эң акыркы версиясында болсо, ошол эле мүчөлөр менен Жаңы Топ түзө аласыз.</string>
-    <string name="GroupsLearnMore_paragraph_3">Signal келечекте Эски Топторду жаңыртуу мүмкүнчүлүгүн берет.</string>
+    <string name="GroupsLearnMore_paragraph_2">Эски топторду жаңы топторго жаңыртуу мүмкүн эмес, бирок алар V.Call\'дын эң акыркы версиясында болсо, ошол эле мүчөлөр менен Жаңы Топ түзө аласыз.</string>
+    <string name="GroupsLearnMore_paragraph_3">V.Call келечекте Эски Топторду жаңыртуу мүмкүнчүлүгүн берет.</string>
 
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Бул шилтемеси бар ар бир адам топтун атын жана сүрөтүн көрүп, кошулуу өтүнүчүн жөнөтө алат. Аны ишенген адамдарыңыз менен бөлүшүңүз.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Бул шилтеме менен каалаган адам топтун атын жана сүрөтүн көрүп, топко кошула алат. Аны ишенген адамдарыңыз менен бөлүшүңүз.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Signal аркылуу бөлүшүү</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">V.Call аркылуу бөлүшүү</string>
     <string name="GroupLinkBottomSheet_copy">Көчүрүү</string>
     <string name="GroupLinkBottomSheet_qr_code">QR коду</string>
     <string name="GroupLinkBottomSheet_share">Бөлүшүү</string>
@@ -3875,7 +3875,7 @@
     <string name="DeleteAccountFragment__no_number">Эч кандай номер көрсөтүлгөн жок</string>
     <string name="DeleteAccountFragment__the_phone_number">Сиз киргизген телефон номери аккаунтуңузга дал келбейт.</string>
     <string name="DeleteAccountFragment__are_you_sure">Аккаунтуңузду чын эле жок кылгыңыз келеби?</string>
-    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Ушуну менен, Signal аккаунтуңуз өчүп, колдонмо баштапкы абалга келет. Баары бүткөндөн кийин колдонмо жабылат.</string>
+    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Ушуну менен, V.Call аккаунтуңуз өчүп, колдонмо баштапкы абалга келет. Баары бүткөндөн кийин колдонмо жабылат.</string>
     <string name="DeleteAccountFragment__failed_to_delete_local_data">Жергиликтүү берилмелер жок кылынбай калды. Сиз аны кол менен системанын колдонмо тууралоосунан тазалай аласыз.</string>
     <string name="DeleteAccountFragment__launch_app_settings">Колдонмо тууралоосун баштоо</string>
     <!-- Title of progress dialog shown when a user deletes their account and the process is leaving all groups -->
@@ -3960,7 +3960,7 @@
     <string name="payment_info_card_about_mobilecoin">MobileCoin жөнүндө</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin - жаңы коопсуз санариптик акча бирдиги.</string>
     <string name="payment_info_card_adding_funds">Каражаттарды кошуу</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">Капчыгыңыздын дарегине MobileCoin жөнөтүү аркылуу Signal\'да колдонуу үчүн каражат кошсоңуз болот.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">Капчыгыңыздын дарегине MobileCoin жөнөтүү аркылуу V.Call\'да колдонуу үчүн каражат кошсоңуз болот.</string>
     <string name="payment_info_card_cashing_out">Акчаны алуу</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">MobileCoin\'ди колдогон биржада MobileCoin\'ди каалаган убакта накталай аласыз. Жөн гана ошол биржадагы аккаунтуңузга каражат которуңуз.</string>
     <string name="payment_info_card_hide_this_card">Бул карта жашырылсынбы?</string>
@@ -3981,12 +3981,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">Капчыкты өчүрүү</string>
     <string name="DeactivateWalletFragment__your_balance">Балансыңыз</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">Төлөмдөрдү өчүрүүдөн мурун акчаңызды башка капчыкка которуп коюңуз. Эгер акчаңызды азыр которбосоңуз, төлөмдөрдү кайра иштеткенде, алар Signal\'га байланган капчыгыңызда кала берет.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">Төлөмдөрдү өчүрүүдөн мурун акчаңызды башка капчыкка которуп коюңуз. Эгер акчаңызды азыр которбосоңуз, төлөмдөрдү кайра иштеткенде, алар V.Call\'га байланган капчыгыңызда кала берет.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">Калган балансты которуу</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">Которуусуз өчүрүү</string>
     <string name="DeactivateWalletFragment__deactivate">Деактивдештирүү</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Которуусуз өчүрүлсүнбү?</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">Төлөмдөрдү кайра иштеткениңизде, каражаттар Signal\'га байланган капчыгыңызда кала берет.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">Төлөмдөрдү кайра иштеткениңизде, каражаттар V.Call\'га байланган капчыгыңызда кала берет.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">Капчыкты өчүрүү катасы.</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -3997,7 +3997,7 @@
     <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">Калыбына келтирүүчү сүйлөмдү сактоо</string>
     <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Калыбына келтирүүчү сөз айкашын киргизиңиз</string>
     <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-        <item quantity="other">Signal PIN кодун ырастасаңыз, Signal\'ды кайра орнотконуңузда балансыңыз автоматтык түрдө калыбына келет. Балансыңызды өзүңүз гана билген %1$d сөздөн турган сөз айкашы менен калыбына келтирсеңиз болот. Аны жазып алып, эч ким билбеген жерге катып коюңуз.</item>
+        <item quantity="other">V.Call PIN кодун ырастасаңыз, V.Call\'ды кайра орнотконуңузда балансыңыз автоматтык түрдө калыбына келет. Балансыңызды өзүңүз гана билген %1$d сөздөн турган сөз айкашы менен калыбына келтирсеңиз болот. Аны жазып алып, эч ким билбеген жерге катып коюңуз.</item>
     </plurals>
     <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
     <string name="PaymentsRecoveryStartFragment__got_balance">Балансыңыз толук! Калыбына келтирүүчү сүйлөмүңүздү сактоого кез келди—балансыңызды 24 сөздөн турган ачкыч менен калыбына келтире аласыз.</string>
@@ -4095,7 +4095,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">Аккаунт</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">Убакыттын өтүшү менен сизден азыраак суралат</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">Телефон номериңизди Signal менен кайра каттоо үчүн Signal кызматынын PIN кодун талап кылыңыз</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">Телефон номериңизди V.Call менен кайра каттоо үчүн V.Call кызматынын PIN кодун талап кылыңыз</string>
     <string name="AccountSettingsFragment__change_phone_number">Телефон номерин өзгөртүү</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">Аккаунтуңуздагы нерселер</string>
@@ -4104,7 +4104,7 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">Аккаунтуңуздагы нерселер</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">Signal аккаунтуңуздагы нерселердин отчетун экспорттоо. Бул отчетто билдирүүлөр же медиа файлдар болбойт. %1$s</string>
+    <string name="ExportAccountDataFragment__export_explanation">V.Call аккаунтуңуздагы нерселердин отчетун экспорттоо. Бул отчетто билдирүүлөр же медиа файлдар болбойт. %1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">Кененирээк маалымат</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4132,14 +4132,14 @@
     <!-- Title for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_confirmation">Маалыматтарды экспорттойсузбу?</string>
     <!-- Message for export confirmation dialog -->
-    <string name="ExportAccountDataFragment__export_report_confirmation_message">Signal аккаунтуңуздагы нерселерди ишенимдүү адамдар же колдонмолор менен гана бөлүшүңүз.</string>
+    <string name="ExportAccountDataFragment__export_report_confirmation_message">V.Call аккаунтуңуздагы нерселерди ишенимдүү адамдар же колдонмолор менен гана бөлүшүңүз.</string>
     <!-- Action to export in for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_action">Экспорттоо</string>
 
     <!-- Shown in a dialog with a spinner while the report is downloading -->
     <string name="ExportAccountDataFragment__download_progress">Отчет түзүлүүдө…</string>
     <!-- Explanation that the report is only generated on export and is not saved on the device -->
-    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Отчет экспорт учурунда гана түзүлүп, Signal аны түзмөгүңүзгө сактабайт.</string>
+    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Отчет экспорт учурунда гана түзүлүп, V.Call аны түзмөгүңүзгө сактабайт.</string>
 
     <!-- ChangeNumberFragment -->
     <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">Муну учурдагы телефон номериңизди жаңы телефон номерине өзгөртүү үчүн колдонуңуз. Бул өзгөртүүнү артка кайтара албайсыз.\n\nУлантуудан мурун, жаңы номериңиз SMS же чалууларды кабыл ала аларын текшериңиз.</string>
@@ -4172,7 +4172,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Номерди алмаштыруу</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Signal номерин өзгөртүү - Android PIN коду (v2 PIN) боюнча жардам керек</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">V.Call номерин өзгөртүү - Android PIN коду (v2 PIN) боюнча жардам керек</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN коддор дал келбейт</string>
@@ -4219,7 +4219,7 @@
     <!-- Description for re-export sms preference -->
     <string name="SmsSettingsFragment__exporting_again_can_result_in_duplicate_messages">Кайра экспорттосоңуз, билдирүүлөр кайталанып калышы мүмкүн.</string>
     <!-- Description for remove sms preference -->
-    <string name="SmsSettingsFragment__remove_sms_messages_from_signal_to_clear_up_storage_space">Сактагычта орун бошотуу үчүн Signal\'дагы SMS билдирүүлөрдү алып салыңыз.</string>
+    <string name="SmsSettingsFragment__remove_sms_messages_from_signal_to_clear_up_storage_space">Сактагычта орун бошотуу үчүн V.Call\'дагы SMS билдирүүлөрдү алып салыңыз.</string>
     <!-- Information message shown at the top of sms settings to indicate it is being removed soon. -->
     <string name="SmsSettingsFragment__sms_support_will_be_removed_soon_to_focus_on_encrypted_messaging">Шифрленген билдирүүлөргө басым жасоо үчүн SMS билдирүүлөр жакында иштебей калат.</string>
 
@@ -4248,7 +4248,7 @@
     <string name="PrivacySettingsFragment__disappearing_messages">Жоголуп кетүүчү билдирүүлөр</string>
     <string name="PrivacySettingsFragment__app_security">Колдонмонун коопсуздугу</string>
     <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">Соңку колдонмолор тизмесинде жана колдонмолордун ичинде скриншотторду кулпулайсыз</string>
-    <string name="PrivacySettingsFragment__signal_message_and_calls">Signal билдирүүлөрү жана чалуулар, чалууларды багыттоо жана жашыруун жөнөтүүчү</string>
+    <string name="PrivacySettingsFragment__signal_message_and_calls">V.Call билдирүүлөрү жана чалуулар, чалууларды багыттоо жана жашыруун жөнөтүүчү</string>
     <string name="PrivacySettingsFragment__default_timer_for_new_changes">Жаңы маектер үчүн демейки таймер</string>
     <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">Сиз баштаган бардык жаңы маектер үчүн демейки жоголуп кетүүчү билдирүүлөр таймерин коюңуз.</string>
     <!-- Summary for stories preference to launch into story privacy settings -->
@@ -4293,10 +4293,10 @@
     <string name="HelpSettingsFragment__contact_us">Биз менен байланышыңыз</string>
     <string name="HelpSettingsFragment__version">Версия</string>
     <string name="HelpSettingsFragment__debug_log">Мүчүлүштүктөр журналы</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the V.Call app-->
     <string name="HelpSettingsFragment__licenses">Уруксаттамалар</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Шарттар жана жоболор; Купуялык Саясаты</string>
-    <string name="HelpFragment__copyright_signal_messenger">Signal Mesenger автордук укугу</string>
+    <string name="HelpFragment__copyright_signal_messenger">V.Call Mesenger автордук укугу</string>
     <string name="HelpFragment__licenced_under_the_agplv3">GNU AGPLv3 боюнча уруксаттамаланган</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -4338,7 +4338,7 @@
     <!-- Title text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_donate_to_signal">Signal\'га колдоо көрсөтүү</string>
     <!-- Body text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">Signal сиздей болгон адамдардын колдоосу менен иштейт. Ай сайын колдоо көрсөтүп, төшбелги алыңыз.</string>
+    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">V.Call сиздей болгон адамдардын колдоосу менен иштейт. Ай сайын колдоо көрсөтүп, төшбелги алыңыз.</string>
     <!-- Button label that brings a user to the donate screen. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_donate">Колдоо көрсөтүү</string>
     <!-- Button label that dismissed a prompt to donate. Shown in a popup at the bottom of the chat list. -->
@@ -4361,7 +4361,7 @@
     <!-- BecomeASustainerMegaphone -->
     <string name="BecomeASustainerMegaphone__become_a_sustainer">Колдоочу болуңуз</string>
     <!-- Displayed in the Become a Sustainer megaphone -->
-    <string name="BecomeASustainerMegaphone__signal_is_powered_by">Signal сиздей болгон адамдардын колдоосу менен иштейт. Колдоо көрсөтүп төшбелги алыңыз.</string>
+    <string name="BecomeASustainerMegaphone__signal_is_powered_by">V.Call сиздей болгон адамдардын колдоосу менен иштейт. Колдоо көрсөтүп төшбелги алыңыз.</string>
     <string name="BecomeASustainerMegaphone__not_now">Азыр эмес</string>
     <string name="BecomeASustainerMegaphone__donate">Колдоо көрсөтүү</string>
 
@@ -4490,7 +4490,7 @@
     <!-- Dialog action to view contact when they can\'t be removed otherwise -->
     <string name="NewConversationActivity__view_contact">Байланышты карап көрүү</string>
     <!-- Error message shown when looking up a person by phone number and that phone number is not associated with a signal account -->
-    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s Signal колдонуучусу эмес</string>
+    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s V.Call колдонуучусу эмес</string>
 
     <!-- ContactFilterView -->
     <string name="ContactFilterView__search_name_or_number">Атын же номерин издөө</string>
@@ -4610,11 +4610,11 @@
     <!-- Displayed on primary button in the bottom sheet as a call-to-action to launch into the donation flow -->
     <string name="ViewBadgeBottomSheetDialogFragment__donate_now">Колдоо көрсөтүү</string>
     <!-- Title of a page in the bottom sheet. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s Signal\'ды колдонот</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s V.Call\'ды колдонот</string>
     <!-- Description of a page in the bottom sheet of a monthly badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s ай сайын Signal кызматына колдоо көрсөтүп турат. Signal – сизге окшогон адамдардын колдоосу менен иштеген, эч кандай жарнамачылары же инвесторлору жок коммерциялык эмес уюм.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s ай сайын V.Call кызматына колдоо көрсөтүп турат. V.Call – сизге окшогон адамдардын колдоосу менен иштеген, эч кандай жарнамачылары же инвесторлору жок коммерциялык эмес уюм.</string>
     <!-- Description of a page in the bottom sheet of a one-time badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s Signal кызматына колдоо көрсөтүп турат. Signal – сизге окшогон адамдардын колдоосу менен иштеген, эч кандай жарнамачылары же инвесторлору жок коммерциялык эмес уюм.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s V.Call кызматына колдоо көрсөтүп турат. V.Call – сизге окшогон адамдардын колдоосу менен иштеген, эч кандай жарнамачылары же инвесторлору жок коммерциялык эмес уюм.</string>
 
     <string name="ImageView__badge">Төшбелги</string>
 
@@ -4636,17 +4636,17 @@
     <string name="Subscription__expires_s">Качан бүтөт: %1$s</string>
 
     <!-- Title of learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Signal башкача кызмат.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">V.Call башкача кызмат.</string>
     <!-- First small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">Купуя шартта жазышасыз. Жарнамалар жок, эч ким сизге көз салбайт жана аңдыбайт.</string>
     <!-- Second small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Signal колдоочулардын салымдарына гана иштегендиктен, эмне гана кылбайлы, биринчи орунга купуялыкты коебуз. Signal пайда көрүү же маалыматтарды сактоо үчүн эмес, атайын сизге арналып чыгарылган.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">V.Call колдоочулардын салымдарына гана иштегендиктен, эмне гана кылбайлы, биринчи орунга купуялыкты коебуз. V.Call пайда көрүү же маалыматтарды сактоо үчүн эмес, атайын сизге арналып чыгарылган.</string>
     <!-- Third small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Signal кызматын көңүлдүү, коопсуз жана баарына жеткиликтүү кылгыңыз келсе, бүгүн салым кошуп, колдоо көрсөтсөңүз болот.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">V.Call кызматын көңүлдүү, коопсуз жана баарына жеткиликтүү кылгыңыз келсе, бүгүн салым кошуп, колдоо көрсөтсөңүз болот.</string>
 
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">Колдооңуз үчүн рахмат!</string>
     <!-- Subtext underneath the dialog title on the thanks sheet -->
-    <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">Signal кызматынан донор төшбелгисин алдыңыз! Аны профилиңизге жайгаштырып, Signal\'ды колдоп жатканыңызды көрсөтүңүз.</string>
+    <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">V.Call кызматынан донор төшбелгисин алдыңыз! Аны профилиңизге жайгаштырып, V.Call\'ды колдоп жатканыңызды көрсөтүңүз.</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__you_can_also">Ошол эле учурда</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__become_a_montly_sustainer">Ай сайын Колдоочу боло аласыз</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__display_on_profile">Профильде көрсөтүү</string>
@@ -4655,7 +4655,7 @@
     <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">Бир нече төшбелгиңиз болсо, профилиңизде алардын бирөөсүн койсоңуз болот.</string>
 
     <string name="BecomeASustainerFragment__get_badges">Signal\'ды колдоо менен профилиңизге төшбелги алыңыз.</string>
-    <string name="BecomeASustainerFragment__signal_is_a_non_profit">Signal – сизге окшогон адамдардын колдоосу менен иштеген, эч кандай жарнамачылары же инвесторлору жок коммерциялык эмес уюм.</string>
+    <string name="BecomeASustainerFragment__signal_is_a_non_profit">V.Call – сизге окшогон адамдардын колдоосу менен иштеген, эч кандай жарнамачылары же инвесторлору жок коммерциялык эмес уюм.</string>
 
     <!-- Button label for creating a donation -->
     <string name="ManageDonationsFragment__donate_to_signal">Signal\'га колдоо көрсөтүү</string>
@@ -4689,7 +4689,7 @@
     <!-- Title of dialog telling user they need to update signal as it expired -->
     <string name="UpdateSignalExpiredDialog__title">Signal\'ды жаңыртуу</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Signal\'дын бул версиясы эскирип калды. Signal\'ды колдоно берүү үчүн аны жаңыртыңыз.</string>
+    <string name="UpdateSignalExpiredDialog__message">Signal\'дын бул версиясы эскирип калды. V.Call\'ды колдоно берүү үчүн аны жаңыртыңыз.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Жаңыртуу</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -4698,7 +4698,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">Түзмөк катталган жок</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">Бул түзмөк каттоодон чыгарылды. Бул түзмөктө Signal\'ды колдоно берүү үчүн аны каттаңыз.</string>
+    <string name="ReregisterSignalDialog__message">Бул түзмөк каттоодон чыгарылды. Бул түзмөктө V.Call\'ды колдоно берүү үчүн аны каттаңыз.</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">Кайра каттоо</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -4712,7 +4712,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_boost_badge_has_expired_and">Колдоочу төшбелгисинин мөөнөтү бүтүп, профилиңизде көрүнбөй калды.</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_reactivate">Бир жолу салым кошуп, колдоочу төшбелгиңизди дагы 30 күнгө узарта аласыз.</string>
     <!-- Displayed when we do not think the user is a subscriber when their boost expires -->
-    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">Signal\'ды колдоно берсеңиз болот, бирок сиздей адамдар үчүн иштелип чыккан технологияга колдоо көрсөтүү үчүн ай сайын салым кошуп, Signal\'дын Колдоочусу болуп албайсызбы?</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">Signal\'ды колдоно берсеңиз болот, бирок сиздей адамдар үчүн иштелип чыккан технологияга колдоо көрсөтүү үчүн ай сайын салым кошуп, V.Call\'дын Колдоочусу болуп албайсызбы?</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__become_a_sustainer">Колдоочу болуңуз</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__add_a_boost">Boost кошуу</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__not_now">Азыр эмес</string>
@@ -4728,7 +4728,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Google Pay\'ге өтүү</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">Жазылуунун төлөмү алынган жок</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Signal Колдоочу төлөмүңүздү чогултууда көйгөй болуп жатат. Төлөм ыкмаңыз жаңыртылганын текшериңиз. Болбосо, аны Google Pay\'де жаңыртыңыз. Signal төлөмдү бир нече күндөн кийин кайра иштетүүгө аракет кылат.</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">V.Call Колдоочу төлөмүңүздү чогултууда көйгөй болуп жатат. Төлөм ыкмаңыз жаңыртылганын текшериңиз. Болбосо, аны Google Pay\'де жаңыртыңыз. V.Call төлөмдү бир нече күндөн кийин кайра иштетүүгө аракет кылат.</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">Башка көрсөтпө</string>
 
     <string name="Subscription__contact_support">Кардарларды колдоо кызматына кайрылуу</string>
@@ -4749,12 +4749,12 @@
     <!-- Displayed as title when some generic error happens during sending donation on behalf of another user -->
     <string name="DonationsErrors__donation_failed">Болбой калды</string>
     <!-- Displayed as message when some generic error happens during sending donation on behalf of another user -->
-    <string name="DonationsErrors__your_payment_was_processed_but">Төлөмүңүз алынды, бирок Signal колдоо көрсөткөнүңүз тууралуу билдирүү жөнөтө алган жок. Кардарларды колдоо кызматына кайрылыңыз.</string>
+    <string name="DonationsErrors__your_payment_was_processed_but">Төлөмүңүз алынды, бирок V.Call колдоо көрсөткөнүңүз тууралуу билдирүү жөнөтө алган жок. Кардарларды колдоо кызматына кайрылыңыз.</string>
     <string name="DonationsErrors__your_badge_could_not">Сизден төлөм алынганы менен, төшбелгиңиз аккаунтуңузга кошулбай калды окшойт. Кардарларды тейлеген кызматка кайрылыңыз.</string>
     <string name="DonationsErrors__your_payment_is_still">Төлөмүңүз дагы эле иштетилүүдө. Бул сиздин туташууңузга жараша бир нече мүнөткө созулушу мүмкүн.</string>
     <string name="DonationsErrors__failed_to_cancel_subscription">Жазылуу токтотулган жок</string>
     <string name="DonationsErrors__subscription_cancellation_requires_an_internet_connection">Жазылууну токтотуу үчүн Интернет байланышы керек.</string>
-    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">Google Pay түзмөгүңүздө иштебегендиктен, катталып, төшбелги ала албайсыз. Бирок Signal\'дын вебсайтынан салым кошсоңуз болот.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">Google Pay түзмөгүңүздө иштебегендиктен, катталып, төшбелги ала албайсыз. Бирок V.Call\'дын вебсайтынан салым кошсоңуз болот.</string>
     <string name="NetworkFailure__network_error_check_your_connection_and_try_again">Тармак катасы. Туташууңузду текшерип, кайра аракет кылыңыз.</string>
     <string name="NetworkFailure__retry">Кайра аракет кылуу</string>
     <!-- Displayed as a dialog title when the selected recipient for a gift doesn\'t support gifting -->
@@ -4767,7 +4767,7 @@
     <!-- Gift message view title -->
     <string name="GiftMessageView__donation_on_behalf_of_s">%1$s атынан колдоо көрсөттү</string>
     <!-- Gift message view title for incoming donations -->
-    <string name="GiftMessageView__s_donated_to_signal_on">%1$s сиздин атыңыздан Signal\'га колдоо көрсөттү</string>
+    <string name="GiftMessageView__s_donated_to_signal_on">%1$s сиздин атыңыздан V.Call\'га колдоо көрсөттү</string>
     <!-- Gift badge redeem action label -->
     <string name="GiftMessageView__redeem">Төлөө</string>
     <!-- Gift badge view action label -->
@@ -4966,8 +4966,8 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Тандоочу ачылбай койду.</string>
 
-    <!-- Description shown for the Signal Release Notes channel -->
-    <string name="ReleaseNotes__signal_release_notes_and_news">Signal релизинин эскертүүлөрү жана жаңылыктары</string>
+    <!-- Description shown for the V.Call Release Notes channel -->
+    <string name="ReleaseNotes__signal_release_notes_and_news">V.Call релизинин эскертүүлөрү жана жаңылыктары</string>
 
     <!-- Donation receipts activity title -->
     <string name="DonationReceiptListFragment__all_activity">Бардык активдүүлүктөр</string>
@@ -4988,13 +4988,13 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">Дүмүрчөктү бөлүшүү</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">Эгер Signal\'ды кайра орноткон болсоңуз, буга чейинки дүмүрчөктөрдү көрө албай каласыз.</string>
+    <string name="DonationReceiptListFragment__if_you_have">Эгер V.Call\'ды кайра орноткон болсоңуз, буга чейинки дүмүрчөктөрдү көрө албай каласыз.</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">Колдоо дүмүрчөгү</string>
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">Суммасы</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Signal\'ды колдогонуңуз үчүн рахмат. Сиз ар кимге өз оюн айтууга жана дүйнө жүзүндөгү адамдар менен коопсуз баарлашууга мүмкүндүк берген ачык булактуу, купуялуулук технологияны өнүктүрүүгө салым кошосуз. Эгер сиз Америка Кошмо Штаттарынын резиденти болсоңуз, салык эсебиңиз үчүн бул дүмүрчөктү сактап коюңуз. Signal Technology Foundation - Америка Кошмо Штаттарынын Ички киреше кодексинин 501c3 бөлүмүнө ылайык, салыктан бошотулган коммерциялык эмес уюм. Биздин Федералдык салык ID 82-4506840.</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Signal\'ды колдогонуңуз үчүн рахмат. Сиз ар кимге өз оюн айтууга жана дүйнө жүзүндөгү адамдар менен коопсуз баарлашууга мүмкүндүк берген ачык булактуу, купуялуулук технологияны өнүктүрүүгө салым кошосуз. Эгер сиз Америка Кошмо Штаттарынын резиденти болсоңуз, салык эсебиңиз үчүн бул дүмүрчөктү сактап коюңуз. V.Call Technology Foundation - Америка Кошмо Штаттарынын Ички киреше кодексинин 501c3 бөлүмүнө ылайык, салыктан бошотулган коммерциялык эмес уюм. Биздин Федералдык салык ID 82-4506840.</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5163,17 +5163,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">Жоопторго жана сезимдерге уруксат берүү</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">Окуяңызды көрө алган адамдарга жооп берип, сезимдерин билдиргенге мүмкүнчүлүк бериңиз</string>
-    <!-- Signal connections bolded text in the Signal Connections sheet -->
-    <string name="SignalConnectionsBottomSheet___signal_connections">Signal байланыштары</string>
+    <!-- V.Call connections bolded text in the V.Call Connections sheet -->
+    <string name="SignalConnectionsBottomSheet___signal_connections">V.Call байланыштары</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Signal байланыштары — төмөнкүдөй жолдордун бири аркылуу ишене турган адамдар:</string>
-    <!-- Signal connections sheet bullet point 1 -->
+    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">V.Call байланыштары — төмөнкүдөй жолдордун бири аркылуу ишене турган адамдар:</string>
+    <!-- V.Call connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">Маектешип баштоо</string>
-    <!-- Signal connections sheet bullet point 2 -->
+    <!-- V.Call connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">Билдирүү өтүнүчүн кабыл алуу</string>
-    <!-- Signal connections sheet bullet point 3 -->
+    <!-- V.Call connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">Алардын тутумдук байланыштарыңызда болушу</string>
-    <!-- Note at the bottom of the Signal connections sheet -->
+    <!-- Note at the bottom of the V.Call connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"Байланыштарыңыз аты-жөнүңүз менен сүрөтүңүздү көрүп, алардан жашырбасаңыз, \"Менин окуям\" бөлүмүндөгү постторду көрө алышат."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">Көрүүчү кошуу</string>
@@ -5328,7 +5328,7 @@
     <string name="GiftFlowStartFragment__donate_for_a_friend">Дос үчүн колдоо көрсөтүңүз</string>
     <!-- Description text on start fragment for gifting a badge -->
     <plurals name="GiftFlowStartFragment__support_signal_by">
-        <item quantity="other">Signal\'ды пайдаланган досуңузга же үй-бүлө мүчөңүзгө белек берип, Signal\'га колдоо көрсөтүңүз. Алар алган төшбелги профилинде %1$d күн көрүнүп турат</item>
+        <item quantity="other">Signal\'ды пайдаланган досуңузга же үй-бүлө мүчөңүзгө белек берип, V.Call\'га колдоо көрсөтүңүз. Алар алган төшбелги профилинде %1$d күн көрүнүп турат</item>
     </plurals>
     <!-- Action button label for start fragment for gifting a badge -->
     <string name="GiftFlowStartFragment__next">Кийинки</string>
@@ -5351,9 +5351,9 @@
     <!-- Title for sheet shown when opening a sent gift -->
     <string name="ViewSentGiftBottomSheet__thanks_for_your_support">Колдооңуз үчүн рахмат!</string>
     <!-- Description for sheet shown when opening a redeemed gift -->
-    <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s Signal\'га сиздин атыңыздан колдоо көрсөттү! Signal\'ды колдогонуңузду профилиңизде көрсөтүңүз.</string>
+    <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s V.Call\'га сиздин атыңыздан колдоо көрсөттү! V.Call\'ды колдогонуңузду профилиңизде көрсөтүңүз.</string>
     <!-- Description for sheet shown when opening a sent gift -->
-    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">%1$s атынан Signal\'га колдоо көрсөттүңүз. Signal\'ды колдогонун профилинде көрсөтө алышат.</string>
+    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">%1$s атынан V.Call\'га колдоо көрсөттүңүз. V.Call\'ды колдогонун профилинде көрсөтө алышат.</string>
     <!-- Primary action for pending gift sheet to redeem badge now -->
     <string name="ViewReceivedGiftSheet__redeem">Төлөө</string>
     <!-- Primary action for pending gift sheet to redeem badge later -->
@@ -5363,7 +5363,7 @@
     <!-- Snackbar text when user presses "not now" on redemption sheet -->
     <string name="ConversationFragment__you_can_redeem_your_badge_later">Төшбелгиңизди кийинчерээк алсаңыз болот.</string>
     <!-- Description text in gift thanks sheet -->
-    <string name="GiftThanksSheet__youve_made_a_donation">%1$s атынан Signal\'га колдоо көрсөттүңүз. Signal\'ды колдогонун профилинде көрсөтө алышат.</string>
+    <string name="GiftThanksSheet__youve_made_a_donation">%1$s атынан V.Call\'га колдоо көрсөттүңүз. V.Call\'ды колдогонун профилинде көрсөтө алышат.</string>
     <!-- Expired gift sheet title -->
     <string name="ExpiredGiftSheetConfiguration__your_badge_has_expired">Төшбелгиңиздин мөөнөтү бүттү</string>
     <!-- Expired gift sheet top description text -->
@@ -5448,7 +5448,7 @@
     <!-- Title of safety number changes bottom sheet when showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_changes">Коопсуздук кодунун өзгөрүшү</string>
     <!-- Message of safety number changes bottom sheet when showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__the_following_people">Төмөнкү адамдар Signal колдонмосун кайра орнотушуп же түзмөктөрүн алмаштырышты окшойт. Жаңы коопсуздук кодун ырастоо үчүн алуучуну басыңыз (баспай деле койсоңуз болот).</string>
+    <string name="SafetyNumberBottomSheetFragment__the_following_people">Төмөнкү адамдар V.Call колдонмосун кайра орнотушуп же түзмөктөрүн алмаштырышты окшойт. Жаңы коопсуздук кодун ырастоо үчүн алуучуну басыңыз (баспай деле койсоңуз болот).</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_checkup">Коопсуздук кодун текшерүү</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
@@ -5456,7 +5456,7 @@
     <!-- Message of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
     <string name="SafetyNumberBottomSheetFragment__all_connections_have_been_reviewed">Бардык байланыштар текшерилди, улантуу үчүн жөнөтүү дегенди басыңыз.</string>
     <!-- Message of safety number changes bottom sheet when not showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">%1$d байланышыңыз Signal колдонмосун кайра орнотуп же түзмөктөрүн алмаштырышты окшойт. Окуяңызды алар менен бөлүшүүдөн мурун, алар менен болгон коопсуздук коддоруңузду текшериңиз же аларды окуяңыздан чыгарып салыңыз.</string>
+    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">%1$d байланышыңыз V.Call колдонмосун кайра орнотуп же түзмөктөрүн алмаштырышты окшойт. Окуяңызды алар менен бөлүшүүдөн мурун, алар менен болгон коопсуздук коддоруңузду текшериңиз же аларды окуяңыздан чыгарып салыңыз.</string>
     <!-- Menu action to launch safety number verification screen -->
     <string name="SafetyNumberBottomSheetFragment__verify_safety_number">Коопсуздук кодун ырастоо</string>
     <!-- Menu action to remove user from story -->
@@ -5473,7 +5473,7 @@
     <string name="SafetyNumberReviewConnectionsFragment__safety_number_changes">Коопсуздук кодунун өзгөрүшү</string>
     <!-- Message of safety number review fragment -->
     <plurals name="SafetyNumberReviewConnectionsFragment__d_recipients_may_have">
-        <item quantity="other">%1$d алуучу Signal колдонмосун кайра орнотуп же түзмөктөрүн алмаштырды окшойт. Жаңы коопсуздук кодун ырастоо үчүн алуучуну басыңыз (баспай деле койсоңуз болот).</item>
+        <item quantity="other">%1$d алуучу V.Call колдонмосун кайра орнотуп же түзмөктөрүн алмаштырды окшойт. Жаңы коопсуздук кодун ырастоо үчүн алуучуну басыңыз (баспай деле койсоңуз болот).</item>
     </plurals>
     <!-- Section header for 1:1 contacts in review fragment -->
     <string name="SafetyNumberBucketRowItem__contacts">Байланыштар</string>
@@ -5547,7 +5547,7 @@
     <!-- Displayed in the notification while export is running -->
     <string name="SignalSmsExportService__exporting_messages">Билдирүүлөр өткөрүлүп берилүүдө…</string>
     <!-- Displayed in the notification title when export completes -->
-    <string name="SignalSmsExportService__signal_sms_export_complete">Signal SMS билдирүүлөр өткөрүлдү</string>
+    <string name="SignalSmsExportService__signal_sms_export_complete">V.Call SMS билдирүүлөр өткөрүлдү</string>
     <!-- Displayed in the notification message when export completes -->
     <string name="SignalSmsExportService__tap_to_return_to_signal">Signal\'га кайтуу үчүн басыңыз</string>
 
@@ -5555,7 +5555,7 @@
     <!-- Title of the screen -->
     <string name="ExportYourSmsMessagesFragment__export_your_sms_messages">SMS билдирүүлөрүңүздү өткөрүп бериңиз</string>
     <!-- Message of the screen -->
-    <string name="ExportYourSmsMessagesFragment__you_can_export_your_sms_messages_to_your_phones_sms_database_and_youll_have_the_option_to_keep_or_remove_them_from_signal">SMS билдирүүлөрүн телефонуңуздагы SMS маалыматтар базасына өткөрүп, аларды Signal\'да сактап же өчүрө аласыз. Ушуну менен, телефонуңуздагы башка SMS колдонмолору аларды импорттой алат. SMS билдирүүлөрүңүздүн таржымалынан башкалар менен бөлүшүүгө мүмкүн болгон файл түзө албайсыз.</string>
+    <string name="ExportYourSmsMessagesFragment__you_can_export_your_sms_messages_to_your_phones_sms_database_and_youll_have_the_option_to_keep_or_remove_them_from_signal">SMS билдирүүлөрүн телефонуңуздагы SMS маалыматтар базасына өткөрүп, аларды V.Call\'да сактап же өчүрө аласыз. Ушуну менен, телефонуңуздагы башка SMS колдонмолору аларды импорттой алат. SMS билдирүүлөрүңүздүн таржымалынан башкалар менен бөлүшүүгө мүмкүн болгон файл түзө албайсыз.</string>
     <!-- Button label to begin export -->
     <string name="ExportYourSmsMessagesFragment__continue">Улантуу</string>
 
@@ -5574,8 +5574,8 @@
     <string name="ExportingSmsMessagesFragment__you_need_approximately_s_to_export_your_messages_ensure_you_have_enough_space_before_continuing">Билдирүүлөрүңүздү өткөрүү үчүн болжол менен %1$s керек. Улантуудан мурун, дискте орун жетишүү экенин текшериңиз.</string>
     <!-- Alert dialog button to continue with exporting sms after seeing the lack of storage warning -->
     <string name="ExportingSmsMessagesFragment__continue_anyway">Баары бир уланта берем</string>
-    <!-- Dialog text shown when Signal isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
-    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">SMS билдирүүлөрүн экспорттоо үчүн Signal кызматы SMS уруксат алышы керек.</string>
+    <!-- Dialog text shown when V.Call isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
+    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">SMS билдирүүлөрүн экспорттоо үчүн V.Call кызматы SMS уруксат алышы керек.</string>
 
     <!-- ChooseANewDefaultSmsAppFragment -->
     <!-- Title of the screen -->
@@ -5611,9 +5611,9 @@
     <!-- Action button to remove messages -->
     <string name="RemoveSmsMessagesDialogFragment__remove_messages">Билдирүүлөрдү өчүрүү</string>
     <!-- Title of dialog -->
-    <string name="RemoveSmsMessagesDialogFragment__remove_sms_messages">SMS билдирүүлөрүн Signal колдонмосунан өчүрөсүзбү?</string>
+    <string name="RemoveSmsMessagesDialogFragment__remove_sms_messages">SMS билдирүүлөрүн V.Call колдонмосунан өчүрөсүзбү?</string>
     <!-- Message of dialog -->
-    <string name="RemoveSmsMessagesDialogFragment__you_can_now_remove_sms_messages_from_signal">Сактагычты тазалоо үчүн SMS билдирүүлөрүн Signal\'дан өчүрүңүз. Аларды өчүрсөңүз да, телефонуңуздагы башка SMS колдонмолорунан көрө бересиз.</string>
+    <string name="RemoveSmsMessagesDialogFragment__you_can_now_remove_sms_messages_from_signal">Сактагычты тазалоо үчүн SMS билдирүүлөрүн V.Call\'дан өчүрүңүз. Аларды өчүрсөңүз да, телефонуңуздагы башка SMS колдонмолорунан көрө бересиз.</string>
 
     <!-- ReExportSmsMessagesDialogFragment -->
     <!-- Action button to re-export messages -->
@@ -5629,7 +5629,7 @@
     <!-- Title of the screen -->
     <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">Signal\'ды демейки SMS колдонмосу катары коюу</string>
     <!-- Message of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">SMS билдирүүлөрүңүздү өткөрүп берүү үчүн Signal\'ды демейки SMS колдонмосу катары орнотушуңуз керек.</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">SMS билдирүүлөрүңүздү өткөрүп берүү үчүн V.Call\'ды демейки SMS колдонмосу катары орнотушуңуз керек.</string>
     <!-- Button label to start export -->
     <string name="SetSignalAsDefaultSmsAppFragment__next">Кийинки</string>
 
@@ -5653,13 +5653,13 @@
 
     <!-- SmsExportMegaphoneActivity -->
     <!-- Phase 2 title of full screen megaphone indicating sms will no longer be supported in the near future -->
-    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">Signal кызматында SMS менен жазышуу мүмкүн болбой калат</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">V.Call кызматында SMS менен жазышуу мүмкүн болбой калат</string>
     <!-- Phase 3 title of full screen megaphone indicating sms is longer supported  -->
-    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">Signal кызматында SMS менен жазыша албайсыз</string>
+    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">V.Call кызматында SMS менен жазыша албайсыз</string>
     <!-- Phase 2 message describing that sms is going away soon -->
-    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">Signal билдирүүлөрү баштан аяк шифрленгендиктен жана SMS билдирүүлөрү начарыраак корголгондуктан, жакында Signal\'да SMS билдирүүлөрүн жөнөтө албай каласыз. Ушуну менен, Signal\'да жазышуу функциясын кыйла жакшыртканга аракет кылабыз.</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">V.Call билдирүүлөрү баштан аяк шифрленгендиктен жана SMS билдирүүлөрү начарыраак корголгондуктан, жакында V.Call\'да SMS билдирүүлөрүн жөнөтө албай каласыз. Ушуну менен, V.Call\'да жазышуу функциясын кыйла жакшыртканга аракет кылабыз.</string>
     <!-- Phase 3 message describing that sms has gone away -->
-    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">Signal билдирүүлөрү баштан аяк шифрленгендиктен жана SMS билдирүүлөрү начарыраак корголгондуктан, Signal\'да SMS билдирүүлөрүн жөнөтө албайсыз. Ушуну менен, Signal\'да жазышуу функциясын кыйла жакшыртканга аракет кылабыз.</string>
+    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">V.Call билдирүүлөрү баштан аяк шифрленгендиктен жана SMS билдирүүлөрү начарыраак корголгондуктан, V.Call\'да SMS билдирүүлөрүн жөнөтө албайсыз. Ушуну менен, V.Call\'да жазышуу функциясын кыйла жакшыртканга аракет кылабыз.</string>
     <!-- The text on a button in a popup that, when clicked, will take the user to a screen to export their SMS messages -->
     <string name="SmsExportMegaphoneActivity__export_sms">SMS билдирүүлөрүн өткөрүү</string>
     <!-- The text on a button in a popup that, when clicked, will dismiss the popup and schedule the prompt to occur at a later time. -->
@@ -5670,7 +5670,7 @@
     <!-- Phase 1 Small megaphone title indicating sms is going away -->
     <string name="SmsExportMegaphone__sms_support_going_away">SMS менен жазышуу мүмкүнчүлүгү жок болот</string>
     <!-- Phase 1 small megaphone description indicating sms is going away -->
-    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">Сарсанаа болбоңуз, Signal\'дагы билдирүүлөр мурункудай эле шифрлене берет.</string>
+    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">Сарсанаа болбоңуз, V.Call\'дагы билдирүүлөр мурункудай эле шифрлене берет.</string>
     <!-- Phase 1 small megaphone button that takes the user to the sms export flow -->
     <string name="SmsExportMegaphone__continue">Улантуу</string>
     <!-- Title for screen shown after sms export has completed -->
@@ -5708,7 +5708,7 @@
     <!-- Continue button label -->
     <string name="DonateToSignalFragment__continue">Улантуу</string>
     <!-- Description below title -->
-    <string name="DonateToSignalFragment__private_messaging">Өзүңүз каржылаган купуя жазышуу мүмкүнчүлүгү. Жарнамалар жок, эч ким көз салбайт, эч ким ачыктабайт. Signal\'ды колдоо үчүн азыр салым кошуңуз.</string>
+    <string name="DonateToSignalFragment__private_messaging">Өзүңүз каржылаган купуя жазышуу мүмкүнчүлүгү. Жарнамалар жок, эч ким көз салбайт, эч ким ачыктабайт. V.Call\'ды колдоо үчүн азыр салым кошуңуз.</string>
     <!-- Donation pill toggle monthly text -->
     <string name="DonationPillToggle__monthly">Ай сайын</string>
     <!-- Donation pill toggle one-time text -->
@@ -5747,7 +5747,7 @@
     <!-- The title of a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_title">Байланыштарыңызды иштетүү мүмкүн эмес</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
-    <string name="CdsPermanentErrorBottomSheet_body">Телефонуңуздагы байланыштардын саны Signal кызматы иштете ала турган сандан ашып кетти. Signal\'дан байланыштарды тапкыңыз келсе, телефонуңуздан байланыштарыңызды же көп байланыштар байланган аккаунтуңузду өчүрүңүз.</string>
+    <string name="CdsPermanentErrorBottomSheet_body">Телефонуңуздагы байланыштардын саны V.Call кызматы иштете ала турган сандан ашып кетти. V.Call\'дан байланыштарды тапкыңыз келсе, телефонуңуздан байланыштарыңызды же көп байланыштар байланган аккаунтуңузду өчүрүңүз.</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_learn_more">Кененирээк маалымат</string>
     <!-- A button label in a bottom sheet that will navigate the user to their contacts settings. -->
@@ -5763,9 +5763,9 @@
 
     <!-- YourInformationIsPrivateBottomSheet -->
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">Маалыматыңыз купуя сакталууда</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Салым кошконуңузда, Signal жеке маалыматыңызды топтобойт же сактабайт.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Салым кошконуңузда, V.Call жеке маалыматыңызды топтобойт же сактабайт.</string>
     <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">Төлөмдөрүңүздү Stripe кызматы аркылуу алабыз. Аларга берген маалыматты биз көрбөйбүз да, сактабайбыз.</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal кошкон салымыңызды Signal аккаунтуңузга байланыштыра албайт жана байланыштырбайт.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">V.Call кошкон салымыңызды V.Call аккаунтуңузга байланыштыра албайт жана байланыштырбайт.</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">Колдооңуз үчүн чоң рахмат!</string>
 
     <!-- GroupStoryEducationSheet -->
@@ -5796,13 +5796,13 @@
     <!-- Title for screen describing that sms support is going to be removed soon -->
     <string name="SmsRemoval_title_going_away">SMS түрүндө жазыша албай каласыз</string>
     <!-- Bullet point message shown on describing screen as first bullet why sms is being removed, placeholder with be date of removal (e.g., March 21st) -->
-    <string name="SmsRemoval_info_bullet_1">Signal колдонмосунда мындан ары SMS түрүндө жазыша албай каласыз.</string>
+    <string name="SmsRemoval_info_bullet_1">V.Call колдонмосунда мындан ары SMS түрүндө жазыша албай каласыз.</string>
     <!-- Bullet point message shown on describing screen as second bullet why sms is being removed -->
-    <string name="SmsRemoval_info_bullet_2">SMS билдирүүлөр Signal билдирүүлөрүнөн айырмаланат. <b>Signal\'дагы билдирүүлөр мурункудай эле шифрлене берет.</b></string>
+    <string name="SmsRemoval_info_bullet_2">SMS билдирүүлөр V.Call билдирүүлөрүнөн айырмаланат. <b>Signal\'дагы билдирүүлөр мурункудай эле шифрлене берет.</b></string>
     <!-- Bullet point message shown on describing screen as third bullet why sms is being removed -->
     <string name="SmsRemoval_info_bullet_3">SMS билдирүүлөрүңүздү чыгарып алып, жаңы SMS колдонмосун тандасаңыз болот.</string>
     <!-- Bullet point message shown on describing screen as first bullet variant why sms is being removed when user is locked out of sms -->
-    <string name="SmsRemoval_info_bullet_1_phase_3">Мындан ары Signal кызматында SMS билдирүүлөрүн жөнөтө албайсыз.</string>
+    <string name="SmsRemoval_info_bullet_1_phase_3">Мындан ары V.Call кызматында SMS билдирүүлөрүн жөнөтө албайсыз.</string>
     <!-- Button label on sms removal info/megaphone to start the export SMS flow -->
     <string name="SmsRemoval_export_sms">SMS билдирүүлөрүн өткөрүү</string>
 
@@ -5976,21 +5976,21 @@
     <!-- Call link creation item title on calls tab -->
     <string name="CreateCallLink__create_a_call_link">Чалуу шилтемесин түзүү</string>
     <!-- Call link creation item description on calls tab -->
-    <string name="CreateCallLink__share_a_link_for">Signal чалуусунун шилтемесин бөлүшүү</string>
+    <string name="CreateCallLink__share_a_link_for">V.Call чалуусунун шилтемесин бөлүшүү</string>
 
     <!-- CreateCallLinkBottomSheetDialogFragment -->
     <!-- Fragment title -->
     <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">Чалуу шилтемесин түзүү</string>
     <!-- Displayed as a default name for the signal call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Signal аркылуу чалуу</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">V.Call аркылуу чалуу</string>
     <!-- Displayed on a small button to allow user to instantly join call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__join">Кошулуу</string>
     <!-- Option to open a full screen dialog to enter a call name -->
     <string name="CreateCallLinkBottomSheetDialogFragment__add_call_name">Чалуунун аталышын кошуу</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">Бардык мүчөлөрдү жактыруу</string>
-    <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Шилтемени Signal аркылуу бөлүшүү</string>
+    <!-- Row label to share the link via V.Call -->
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Шилтемени V.Call аркылуу бөлүшүү</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Шилтемени көчүрүү</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -6021,9 +6021,9 @@
     <!-- Title shown at top of bottom sheet dialog for displaying a message\'s edit history -->
     <string name="EditMessageHistoryDialog_title">Оңдолгондор</string>
     <!-- Title of dialog shown alerting user that edit message is in beta only -->
-    <string name="SendingEditMessageBetaOnlyDialog_title">Signal сынамык режимде гана</string>
+    <string name="SendingEditMessageBetaOnlyDialog_title">V.Call сынамык режимде гана</string>
     <!-- Body of dialog shown alerting user that edit message is in beta only and only sent to beta users. -->
-    <string name="SendingEditMessageBetaOnlyDialog_body">Билдирүүлөрдү Signal\'дын сынамык колдонуучулары гана оңдой алышат. Эгер билдирүүнү оңдосоңуз, ал Signal\'дын эң акыркы сынамык версиясын колдонгон адамдарга гана көрүнөт.</string>
+    <string name="SendingEditMessageBetaOnlyDialog_body">Билдирүүлөрдү V.Call\'дын сынамык колдонуучулары гана оңдой алышат. Эгер билдирүүнү оңдосоңуз, ал V.Call\'дын эң акыркы сынамык версиясын колдонгон адамдарга гана көрүнөт.</string>
     <!-- Button to cancel sending edit message as it is beta only -->
     <string name="SendingEditMessageBetaOnlyDialog_cancel">Жок</string>
     <!-- Button to continue sending edit message despite it being beta only -->
