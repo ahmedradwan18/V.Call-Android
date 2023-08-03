@@ -22,7 +22,7 @@
         app:layout_constraintBottom_toTopOf="@id/continue_button"
         app:layout_constraintTop_toBottomOf="@id/description"
         app:layout_constraintVertical_bias="0"
-        app:srcCompat="@drawable/choose_signal" />
+        app:srcCompat="@drawable/choose_vcall" />
 
     <TextView
         android:id="@+id/headline"

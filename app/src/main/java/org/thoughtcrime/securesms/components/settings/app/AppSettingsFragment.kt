@@ -157,25 +157,25 @@ class AppSettingsFragment : DSLSettingsFragment(
         isEnabled = state.isDeprecatedOrUnregistered()
       )
 
-      if (state.allowUserToGoToDonationManagementScreen) {
-        clickPref(
-          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
-          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
-          iconEnd = if (state.hasExpiredGiftBadge) DSLSettingsIcon.from(R.drawable.symbol_info_fill_24, R.color.signal_accent_primary) else null,
-          onClick = {
-            findNavController().safeNavigate(AppSettingsFragmentDirections.actionAppSettingsFragmentToManageDonationsFragment())
-          },
-          onLongClick = this@AppSettingsFragment::copySubscriberIdToClipboard
-        )
-      } else {
-        externalLinkPref(
-          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
-          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
-          linkId = R.string.donate_url
-        )
-      }
-
-      dividerPref()
+//      if (state.allowUserToGoToDonationManagementScreen) {
+//        clickPref(
+//          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
+//          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
+//          iconEnd = if (state.hasExpiredGiftBadge) DSLSettingsIcon.from(R.drawable.symbol_info_fill_24, R.color.signal_accent_primary) else null,
+//          onClick = {
+//            findNavController().safeNavigate(AppSettingsFragmentDirections.actionAppSettingsFragmentToManageDonationsFragment())
+//          },
+//          onLongClick = this@AppSettingsFragment::copySubscriberIdToClipboard
+//        )
+//      } else {
+//        externalLinkPref(
+//          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
+//          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
+//          linkId = R.string.donate_url
+//        )
+//      }
+//
+//      dividerPref()
 
       clickPref(
         title = DSLSettingsText.from(R.string.preferences__appearance),
@@ -229,19 +229,24 @@ class AppSettingsFragment : DSLSettingsFragment(
         }
       )
 
-      dividerPref()
+//      dividerPref()
+//
+//      if (SignalStore.paymentsValues().paymentsAvailability.showPaymentsMenu()) {
+//        customPref(
+//          PaymentsPreference(
+//            unreadCount = state.unreadPaymentsCount
+//          ) {
+//            findNavController().safeNavigate(R.id.action_appSettingsFragment_to_paymentsActivity)
+//          }
+//        )
+//
+//        dividerPref()
+//      }
+//
+//
 
-      if (SignalStore.paymentsValues().paymentsAvailability.showPaymentsMenu()) {
-        customPref(
-          PaymentsPreference(
-            unreadCount = state.unreadPaymentsCount
-          ) {
-            findNavController().safeNavigate(R.id.action_appSettingsFragment_to_paymentsActivity)
-          }
-        )
 
-        dividerPref()
-      }
+
 
       clickPref(
         title = DSLSettingsText.from(R.string.preferences__help),

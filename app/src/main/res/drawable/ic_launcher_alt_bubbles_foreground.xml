@@ -19,10 +19,10 @@
                     android:startY="19"
                     android:type="linear">
                     <item
-                        android:color="#FFFF9029"
+                        android:color="#FBB600"
                         android:offset="0" />
                     <item
-                        android:color="#FFFF3F33"
+                        android:color="#FFEB3B"
                         android:offset="1" />
                 </gradient>
             </aapt:attr>
@@ -36,16 +36,17 @@
                     android:startY="50"
                     android:type="linear">
                     <item
-                        android:color="#FFBEDCFF"
+                        android:color="#34CFD6"
                         android:offset="0" />
                     <item
-                        android:color="#FF0DB9EF"
+                        android:color="#16979D"
                         android:offset="1" />
                 </gradient>
             </aapt:attr>
         </path>
         <path
-            android:fillColor="#99563BFC"
+            android:fillColor="#E66D65"
             android:pathData="M77.73 51.48C75.35 50.53 72.74 50 70 50c-11.05 0-20 8.54-20 19.08 0 2.46 0.49 4.82 1.38 6.98C65.03 74.6 75.9 64.4 77.73 51.48Z" />
     </group>
 </vector>
+
