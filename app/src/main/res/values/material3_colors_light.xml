@@ -10,7 +10,7 @@
     <color name="signal_light_colorError">#BA1B1B</color>
     <color name="signal_light_colorErrorContainer">#FFDAD4</color>
     <color name="signal_light_colorOnPrimary">#FFFFFF</color>
-    <color name="signal_light_colorOnPrimaryContainer">#051845</color>
+    <color name="signal_light_colorOnPrimaryContainer">#ffffff</color>
     <color name="signal_light_colorOnSecondary">#FFFFFF</color>
     <color name="signal_light_colorOnSecondaryContainer">#151D2C</color>
     <color name="signal_light_colorOnSurface">#1B1B1D</color>
@@ -21,6 +21,7 @@
     <color name="signal_light_neutralSurface">#99FFFFFF</color>
     <color name="signal_light_colorOnCustom">#FFFFFF</color>
     <color name="signal_light_colorOnCustomVariant">#B3FFFFFF</color>
+    <color name="vcall_background">#f4f5f7</color>
 
     <color name="signal_light_colorSurface1">#F2F5F9</color>
     <color name="signal_light_colorSurface2">#EDF0F6</color>

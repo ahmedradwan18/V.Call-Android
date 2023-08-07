@@ -88,7 +88,7 @@ public class NewConversationActivity extends ContactSelectionActivity
     assert getSupportActionBar() != null;
     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     getSupportActionBar().setTitle(R.string.NewConversationActivity__new_message);
-
+System.out.println("Radwan");
     disposables.bindTo(this);
 
     ContactsManagementRepository        repository = new ContactsManagementRepository(this);

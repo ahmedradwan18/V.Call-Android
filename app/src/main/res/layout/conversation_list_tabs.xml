@@ -46,14 +46,6 @@
 
 
 
-
-
-
-
-
-
-
-
     <View
         android:id="@+id/chats_tab_touch_point"
         android:layout_width="60dp"

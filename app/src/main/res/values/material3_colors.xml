@@ -23,6 +23,11 @@
     <color name="signal_colorOnCustom">@color/signal_light_colorOnCustom</color>
     <color name="signal_colorOnCustomVariant">@color/signal_light_colorOnCustomVariant</color>
 
+    <color name="vcall_conversationListBg">@color/signal_light_colorTransparent4</color>
+
+
+
+
     <color name="signal_colorSurface1">@color/signal_light_colorSurface1</color>
     <color name="signal_colorSurface2">@color/signal_light_colorSurface2</color>
     <color name="signal_colorSurface3">@color/signal_light_colorSurface3</color>

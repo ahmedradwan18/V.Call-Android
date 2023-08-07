@@ -11,7 +11,7 @@ object ChatColorsPalette {
     @JvmField
     val ULTRAMARINE = ChatColors.forColor(
       ChatColors.Id.BuiltIn,
-      0xFFbaeaec.toInt()
+      0xFF16979d.toInt()
     )
 
     // endregion
@@ -226,3 +226,4 @@ object ChatColorsPalette {
   @JvmField
   val UNKNOWN_CONTACT = Bubbles.STEEL
 }
+

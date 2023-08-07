@@ -14,6 +14,11 @@
     android:paddingStart="@dimen/dsl_settings_gutter"
     android:paddingTop="10dp"
     android:paddingEnd="@dimen/dsl_settings_gutter"
+
+android:layout_marginTop="6dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
     android:paddingBottom="10dp">
 
     <FrameLayout
@@ -70,7 +75,7 @@
         android:ellipsize="end"
         android:maxLines="1"
         android:textAlignment="viewStart"
-        android:textColor="@color/signal_colorOnSurface"
+        android:textColor="@color/signal_dark_colorBackground"
         app:layout_constraintBottom_toTopOf="@id/conversation_list_item_summary"
         app:layout_constraintEnd_toStartOf="@id/conversation_list_item_date"
         app:layout_constraintStart_toEndOf="@id/conversation_list_item_avatar"
@@ -98,7 +103,7 @@
         android:ellipsize="end"
         android:lines="2"
         android:maxLines="2"
-        android:textColor="@color/signal_text_secondary"
+        android:textColor="@color/signal_dark_colorBackground"
         app:emoji_renderSpoilers="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/conversation_list_item_status_container"
@@ -114,7 +119,7 @@
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="@id/conversation_list_item_summary"
         app:layout_constraintTop_toTopOf="@id/conversation_list_item_summary"
-        app:typingIndicator_tint="@color/signal_icon_tint_secondary"
+        app:typingIndicator_tint="@color/signal_dark_colorTransparent1"
         tools:visibility="visible" />
 
     <TextView
@@ -124,7 +129,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         android:singleLine="true"
-        android:textColor="@color/signal_icon_tint_secondary"
+        android:textColor="@color/signal_dark_colorTransparent1"
         app:layout_constraintBottom_toBottomOf="@id/conversation_list_item_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/conversation_list_item_name"

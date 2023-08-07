@@ -144,7 +144,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_arrow_end_24"
-        app:tint="@color/signal_colorOnPrimaryContainer"
+        android:tint="@color/core_white"
         tools:visibility="visible" />
 
     <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton

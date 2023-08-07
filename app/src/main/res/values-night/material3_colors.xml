@@ -22,6 +22,10 @@
     <color name="signal_neutralSurface">@color/signal_dark_neutralSurface</color>
     <color name="signal_colorOnCustom">@color/signal_dark_colorOnCustom</color>
     <color name="signal_colorOnCustomVariant">@color/signal_dark_colorOnCustomVariant</color>
+    <color name="vcall_conversationListBg">@color/signal_dark_colorBackground</color>
+
+
+
 
     <color name="signal_colorSurface1">@color/signal_dark_colorSurface1</color>
     <color name="signal_colorSurface2">@color/signal_dark_colorSurface2</color>
