@@ -5,16 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/vcall_preference_item"
-  android:layout_marginStart="8dp"
-    android:layout_marginEnd="8dp"
-    android:layout_marginBottom="4dp"
-    android:layout_marginTop="4dp"
-
+    android:background="@drawable/dsl_preference_item_background"
+    android:layout_margin="8dp"
     android:minHeight="56dp">
 
     <ImageView
-        android:id="@+id/icon"
+        android:id="@+id/settings_icon"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginStart="@dimen/dsl_settings_gutter"
@@ -26,7 +22,7 @@
         tools:visibility="visible" />
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/settings_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -34,9 +30,9 @@
         android:layout_marginEnd="@dimen/dsl_settings_gutter"
         android:textAlignment="viewStart"
         android:textAppearance="@style/Signal.Text.BodyLarge"
-        app:layout_constraintBottom_toTopOf="@id/summary"
-        app:layout_constraintEnd_toStartOf="@id/icon_end"
-        app:layout_constraintStart_toEndOf="@id/icon"
+        app:layout_constraintBottom_toTopOf="@id/settings_summary"
+        app:layout_constraintEnd_toStartOf="@id/settings_icon_end"
+        app:layout_constraintStart_toEndOf="@id/settings_icon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
         app:layout_goneMarginBottom="16dp"
@@ -44,7 +40,7 @@
         tools:text="Message font size" />
 
     <TextView
-        android:id="@+id/summary"
+        android:id="@+id/settings_summary"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -55,16 +51,16 @@
         android:textAppearance="@style/Signal.Text.BodyMedium"
         android:textColor="@color/text_color_secondary_enabled_selector"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/icon_end"
-        app:layout_constraintStart_toEndOf="@id/icon"
-        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintEnd_toStartOf="@id/settings_icon_end"
+        app:layout_constraintStart_toEndOf="@id/settings_icon"
+        app:layout_constraintTop_toBottomOf="@id/settings_title"
         app:layout_goneMarginStart="@dimen/dsl_settings_gutter"
         app:layout_goneMarginTop="16dp"
         tools:text="Some random text to get stuff onto more than one line but not absurdly long like lorem/random"
         tools:visibility="visible" />
 
     <ImageView
-        android:id="@+id/icon_end"
+        android:id="@+id/settings_icon_end"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginEnd="@dimen/dsl_settings_gutter"

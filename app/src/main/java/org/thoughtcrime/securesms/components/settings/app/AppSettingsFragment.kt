@@ -161,7 +161,7 @@ class AppSettingsFragment : DSLSettingsFragment(
 
 
       clickPref(
-        title = DSLSettingsText.from(R.string.preferences__linked_devices, Color.parseColor("#B34209")   ),
+        title = DSLSettingsText.from(R.string.preferences__linked_devices),
         icon = DSLSettingsIcon.from(R.drawable.symbol_devices_24),
         onClick = {
           findNavController().safeNavigate(R.id.action_appSettingsFragment_to_deviceActivity)

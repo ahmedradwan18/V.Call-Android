@@ -65,7 +65,7 @@ sealed class DSLSettingsIcon {
     }
 
     @JvmStatic
-    fun from(@DrawableRes iconId: Int, @ColorRes iconTintId: Int = R.color.signal_icon_tint_primary): DSLSettingsIcon = FromResource(iconId, iconTintId)
+    fun from(@DrawableRes iconId: Int, @ColorRes iconTintId: Int = R.color.vcall_iconTint): DSLSettingsIcon = FromResource(iconId, iconTintId)
 
     @JvmStatic
     fun from(drawable: Drawable): DSLSettingsIcon = FromDrawable(drawable)
