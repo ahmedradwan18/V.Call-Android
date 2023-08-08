@@ -120,8 +120,7 @@ abstract class DSLSettingsFragment(
     override fun createEdgeEffect(view: RecyclerView, direction: Int): EdgeEffect {
       return super.createEdgeEffect(view, direction).apply {
         if (Build.VERSION.SDK_INT > 21) {
-          color =
-            requireNotNull(ContextCompat.getColor(view.context, R.color.settings_ripple_color))
+          color = requireNotNull(ContextCompat.getColor(view.context, R.color.settings_ripple_color))
         }
       }
     }

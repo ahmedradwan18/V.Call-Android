@@ -7,6 +7,8 @@
     android:background="@drawable/conversation_list_item_background"
     android:paddingStart="@dimen/dsl_settings_gutter"
     android:paddingEnd="@dimen/dsl_settings_gutter"
+android:layout_margin="8dp"
+
     tools:viewBindingIgnore="true">
 
     <org.thoughtcrime.securesms.avatar.view.AvatarView

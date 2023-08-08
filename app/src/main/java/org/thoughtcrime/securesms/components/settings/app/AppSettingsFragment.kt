@@ -1,10 +1,13 @@
 package org.thoughtcrime.securesms.components.settings.app
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import androidx.annotation.ColorInt
 import androidx.annotation.IdRes
+
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import org.greenrobot.eventbus.EventBus
@@ -38,6 +41,7 @@ import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
 import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
 import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
 import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.util.padding
 import org.thoughtcrime.securesms.util.views.Stub
 
 class AppSettingsFragment : DSLSettingsFragment(
@@ -140,6 +144,10 @@ class AppSettingsFragment : DSLSettingsFragment(
         )
       )
 
+
+
+
+
       clickPref(
         title = DSLSettingsText.from(R.string.AccountSettingsFragment__account),
         icon = DSLSettingsIcon.from(R.drawable.symbol_person_circle_24),
@@ -148,8 +156,12 @@ class AppSettingsFragment : DSLSettingsFragment(
         }
       )
 
+
+
+
+
       clickPref(
-        title = DSLSettingsText.from(R.string.preferences__linked_devices),
+        title = DSLSettingsText.from(R.string.preferences__linked_devices, Color.parseColor("#B34209")   ),
         icon = DSLSettingsIcon.from(R.drawable.symbol_devices_24),
         onClick = {
           findNavController().safeNavigate(R.id.action_appSettingsFragment_to_deviceActivity)
@@ -157,25 +169,27 @@ class AppSettingsFragment : DSLSettingsFragment(
         isEnabled = state.isDeprecatedOrUnregistered()
       )
 
-//      if (state.allowUserToGoToDonationManagementScreen) {
-//        clickPref(
-//          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
-//          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
-//          iconEnd = if (state.hasExpiredGiftBadge) DSLSettingsIcon.from(R.drawable.symbol_info_fill_24, R.color.signal_accent_primary) else null,
-//          onClick = {
-//            findNavController().safeNavigate(AppSettingsFragmentDirections.actionAppSettingsFragmentToManageDonationsFragment())
-//          },
-//          onLongClick = this@AppSettingsFragment::copySubscriberIdToClipboard
-//        )
-//      } else {
-//        externalLinkPref(
-//          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
-//          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
-//          linkId = R.string.donate_url
-//        )
-//      }
-//
-//      dividerPref()
+
+/*
+      if (state.allowUserToGoToDonationManagementScreen) {
+        clickPref(
+          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
+          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
+          iconEnd = if (state.hasExpiredGiftBadge) DSLSettingsIcon.from(R.drawable.symbol_info_fill_24, R.color.signal_accent_primary) else null,
+          onClick = {
+            findNavController().safeNavigate(AppSettingsFragmentDirections.actionAppSettingsFragmentToManageDonationsFragment())
+          },
+          onLongClick = this@AppSettingsFragment::copySubscriberIdToClipboard
+        )
+      } else {
+        externalLinkPref(
+          title = DSLSettingsText.from(R.string.preferences__donate_to_signal),
+          icon = DSLSettingsIcon.from(R.drawable.symbol_heart_24),
+          linkId = R.string.donate_url
+        )
+      }
+
+      dividerPref()*/
 
       clickPref(
         title = DSLSettingsText.from(R.string.preferences__appearance),
@@ -200,7 +214,8 @@ class AppSettingsFragment : DSLSettingsFragment(
         onClick = {
           findNavController().safeNavigate(AppSettingsFragmentDirections.actionAppSettingsFragmentToStoryPrivacySettings(R.string.preferences__stories))
         },
-        isEnabled = state.isDeprecatedOrUnregistered()
+        isEnabled = state.isDeprecatedOrUnregistered(),
+
       )
 
       clickPref(

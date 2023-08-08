@@ -84,9 +84,9 @@
 
     <ImageView
         android:id="@+id/chats_pill"
-        android:layout_width="55dp"
+        android:layout_width="60dp"
         android:layout_margin="64dp"
-        android:layout_height="55dp"
+        android:layout_height="40dp"
         android:importantForAccessibility="no"
         android:src="@drawable/conversation_tab_icon_background"
         app:layout_constraintBottom_toBottomOf="@id/chats_tab_icon"
@@ -96,9 +96,9 @@
 
     <ImageView
         android:id="@+id/calls_pill"
-        android:layout_width="55dp"
+        android:layout_width="60dp"
         android:layout_margin="64dp"
-        android:layout_height="55dp"
+        android:layout_height="40dp"
         android:importantForAccessibility="no"
         android:src="@drawable/conversation_tab_icon_background"
         app:layout_constraintBottom_toBottomOf="@id/calls_tab_icon"
@@ -108,9 +108,9 @@
 
     <ImageView
         android:id="@+id/stories_pill"
-        android:layout_width="55dp"
+        android:layout_width="60dp"
         android:layout_margin="64dp"
-        android:layout_height="55dp"
+        android:layout_height="40dp"
         android:importantForAccessibility="no"
         android:src="@drawable/conversation_tab_icon_background"
         app:layout_constraintBottom_toBottomOf="@id/stories_tab_icon"
@@ -120,9 +120,9 @@
 
     <ImageView
         android:id="@+id/settings_pill"
-        android:layout_width="55dp"
+        android:layout_width="60dp"
         android:layout_margin="64dp"
-        android:layout_height="55dp"
+        android:layout_height="40dp"
         android:importantForAccessibility="no"
         android:src="@drawable/conversation_tab_icon_background"
         app:layout_constraintBottom_toBottomOf="@id/settings_tab_icon"
@@ -158,7 +158,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/ConversationListTabs__chats"
         android:textAppearance="@style/TextAppearance.Signal.Body2"
-        android:textColor="@color/signal_colorOnBackground"
+        android:textColor="@color/signal_light_colorOnBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/chats_tab_icon"
         app:layout_constraintStart_toStartOf="@id/chats_tab_icon"
@@ -184,7 +184,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/ConversationListTabs__calls"
         android:textAppearance="@style/TextAppearance.Signal.Body2"
-        android:textColor="@color/signal_colorOnBackground"
+        android:textColor="@color/signal_light_colorOnBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/calls_tab_icon"
         app:layout_constraintStart_toStartOf="@id/calls_tab_icon"
@@ -210,7 +210,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/ConversationListTabs__stories"
         android:textAppearance="@style/TextAppearance.Signal.Body2"
-        android:textColor="@color/signal_colorOnBackground"
+        android:textColor="@color/signal_light_colorOnBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/stories_tab_icon"
         app:layout_constraintStart_toStartOf="@id/stories_tab_icon"
@@ -238,7 +238,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/CallLogFragment__settings"
         android:textAppearance="@style/TextAppearance.Signal.Body2"
-        android:textColor="@color/signal_colorOnBackground"
+        android:textColor="@color/signal_light_colorOnBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/settings_tab_icon"
         app:layout_constraintStart_toStartOf="@id/settings_tab_icon"

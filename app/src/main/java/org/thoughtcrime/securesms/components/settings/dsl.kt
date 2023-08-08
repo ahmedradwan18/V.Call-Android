@@ -5,6 +5,8 @@ package org.thoughtcrime.securesms.components.settings
 import androidx.annotation.Discouraged
 import androidx.annotation.Px
 import androidx.annotation.StringRes
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 import org.thoughtcrime.securesms.components.settings.models.AsyncSwitch
 import org.thoughtcrime.securesms.components.settings.models.Button
 import org.thoughtcrime.securesms.components.settings.models.Space
@@ -105,9 +107,11 @@ class DSLConfiguration {
     iconEnd: DSLSettingsIcon? = null,
     isEnabled: Boolean = true,
     onClick: () -> Unit,
-    onLongClick: (() -> Boolean)? = null
+    onLongClick: (() -> Boolean)? = null,
+
   ) {
     val preference = ClickPreference(title, summary, icon, iconEnd, isEnabled, onClick, onLongClick)
+
     children.add(preference)
   }
 
@@ -211,7 +215,11 @@ class DSLConfiguration {
     children.add(preference)
   }
 
-  fun toMappingModelList(): MappingModelList = MappingModelList().apply { addAll(children) }
+  fun toMappingModelList(): MappingModelList = MappingModelList().apply {
+
+    addAll(children)
+
+  }
 }
 
 abstract class PreferenceModel<T : PreferenceModel<T>>(
