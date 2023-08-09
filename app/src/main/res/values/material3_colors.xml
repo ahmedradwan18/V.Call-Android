@@ -23,10 +23,16 @@
     <color name="signal_colorOnCustom">@color/signal_light_colorOnCustom</color>
     <color name="signal_colorOnCustomVariant">@color/signal_light_colorOnCustomVariant</color>
 
+
+
+
     <color name="vcall_conversationListBg">@color/signal_light_colorTransparent4</color>
     <color name="vcall_settingsBg">#A3E7EBF3</color>
     <color name="vcall_itemSettingsBg">@color/white</color>
     <color name="vcall_iconTint">@color/core_ultramarine</color>
+    <color name="vcall_new_conversation_list_item_bg">#A3E7EBF3</color>
+
+    <color name="vcall_reversed_color">@color/black</color>
 
 
 

@@ -28,6 +28,8 @@
     <color name="vcall_settingsBg">@color/signal_dark_colorBackground</color>
     <color name="vcall_itemSettingsBg">#272a31</color>
     <color name="vcall_iconTint">@color/white</color>
+    <color name="vcall_new_conversation_list_item_bg">#272a31</color>
+    <color name="vcall_reversed_color">@color/white</color>
 
 
 
