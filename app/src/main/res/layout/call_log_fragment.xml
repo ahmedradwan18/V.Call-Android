@@ -105,7 +105,7 @@
             app:backgroundTint="@color/signal_colorPrimaryContainer"
             app:shapeAppearanceOverlay="@style/Signal.ShapeOverlay.Rounded.Fab"
             app:srcCompat="@drawable/symbol_phone_plus_24"
-            app:tint="@color/signal_colorOnSurface" />
+            app:tint="@color/white" />
 
     </FrameLayout>
 

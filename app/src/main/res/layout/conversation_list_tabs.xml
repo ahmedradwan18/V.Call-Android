@@ -84,7 +84,7 @@
 
     <ImageView
         android:id="@+id/chats_pill"
-        android:layout_width="60dp"
+        android:layout_width="65dp"
         android:layout_margin="64dp"
         android:layout_height="40dp"
         android:importantForAccessibility="no"
@@ -96,7 +96,7 @@
 
     <ImageView
         android:id="@+id/calls_pill"
-        android:layout_width="60dp"
+        android:layout_width="65dp"
         android:layout_margin="64dp"
         android:layout_height="40dp"
         android:importantForAccessibility="no"
@@ -108,7 +108,7 @@
 
     <ImageView
         android:id="@+id/stories_pill"
-        android:layout_width="60dp"
+        android:layout_width="65dp"
         android:layout_margin="64dp"
         android:layout_height="40dp"
         android:importantForAccessibility="no"
@@ -120,7 +120,7 @@
 
     <ImageView
         android:id="@+id/settings_pill"
-        android:layout_width="60dp"
+        android:layout_width="65dp"
         android:layout_margin="64dp"
         android:layout_height="40dp"
         android:importantForAccessibility="no"

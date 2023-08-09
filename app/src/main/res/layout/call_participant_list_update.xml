@@ -53,7 +53,7 @@
             android:layout_marginBottom="14dp"
             android:gravity="center_vertical"
             android:textAppearance="@style/Signal.Text.BodyMedium"
-            android:textColor="@color/signal_light_colorOnSecondaryContainer"
+            android:textColor="@color/core_white"
             app:layout_constrainedWidth="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
