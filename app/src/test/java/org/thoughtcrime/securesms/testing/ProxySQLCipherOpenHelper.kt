@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.testing
+package org.variiance.vcall.testing
 
 import android.app.Application
-import org.thoughtcrime.securesms.crypto.AttachmentSecret
-import org.thoughtcrime.securesms.crypto.DatabaseSecret
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.variiance.vcall.crypto.AttachmentSecret
+import org.variiance.vcall.crypto.DatabaseSecret
+import org.variiance.vcall.database.SignalDatabase
 import java.security.SecureRandom
 import android.database.sqlite.SQLiteDatabase as AndroidSQLiteDatabase
 import net.zetetic.database.sqlcipher.SQLiteDatabase as SQLCipherSQLiteDatabase
@@ -69,10 +69,10 @@ class ProxySQLCipherOpenHelper(
   override val rawWritableDatabase: net.zetetic.database.sqlcipher.SQLiteDatabase
     get() = throw UnsupportedOperationException()
 
-  override val signalReadableDatabase: org.thoughtcrime.securesms.database.SQLiteDatabase
+  override val signalReadableDatabase: org.variiance.vcall.database.SQLiteDatabase
     get() = ProxySignalSQLiteDatabase(readableDatabase)
 
-  override val signalWritableDatabase: org.thoughtcrime.securesms.database.SQLiteDatabase
+  override val signalWritableDatabase: org.variiance.vcall.database.SQLiteDatabase
     get() = ProxySignalSQLiteDatabase(writableDatabase)
 
   override fun getSqlCipherDatabase(): SQLCipherSQLiteDatabase {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.variiance.vcall.contactshare;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

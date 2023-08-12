@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.registration.secondary
+package org.variiance.vcall.registration.secondary
 
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.`is`
 import org.junit.Test
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
-import org.thoughtcrime.securesms.database.loaders.DeviceListLoader
-import org.thoughtcrime.securesms.devicelist.protos.DeviceName
+import org.variiance.vcall.crypto.IdentityKeyUtil
+import org.variiance.vcall.database.loaders.DeviceListLoader
+import org.variiance.vcall.devicelist.protos.DeviceName
 import java.nio.charset.Charset
 
 class DeviceNameCipherTest {

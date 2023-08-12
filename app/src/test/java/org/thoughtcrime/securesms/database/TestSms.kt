@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database
+package org.variiance.vcall.database
 
 import android.content.ContentValues
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.IncomingTextMessage
+import org.variiance.vcall.groups.GroupId
+import org.variiance.vcall.recipients.RecipientId
+import org.variiance.vcall.sms.IncomingTextMessage
 import java.util.Optional
 import java.util.UUID
 import android.database.sqlite.SQLiteDatabase as AndroidSQLiteDatabase

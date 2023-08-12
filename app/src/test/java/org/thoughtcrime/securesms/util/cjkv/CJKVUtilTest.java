@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.cjkv;
+package org.variiance.vcall.util.cjkv;
 
 import android.app.Application;
 

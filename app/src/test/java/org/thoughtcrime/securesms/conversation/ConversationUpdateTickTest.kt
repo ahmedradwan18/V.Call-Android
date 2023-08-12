@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.variiance.vcall.conversation
 
 import android.app.Application
 import androidx.lifecycle.LifecycleOwner

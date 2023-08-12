@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.database
+package org.variiance.vcall.database
 
 import android.content.ContentValues
 import android.database.sqlite.SQLiteDatabase
 import com.google.android.mms.pdu_alt.PduHeaders
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.variiance.vcall.database.model.StoryType
+import org.variiance.vcall.mms.OutgoingMessage
+import org.variiance.vcall.recipients.Recipient
+import org.variiance.vcall.recipients.RecipientId
 
 /**
  * Helper methods for inserting an MMS message into the MMS table.

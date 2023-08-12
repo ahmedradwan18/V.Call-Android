@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.variiance.vcall.util
 
 import junit.framework.TestCase
 import org.junit.Test

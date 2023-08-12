@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package org.variiance.vcall.stories.viewer.page
 
 import android.app.Application
 import io.reactivex.rxjava3.core.Completable
@@ -14,9 +14,9 @@ import org.mockito.kotlin.mock
 import org.mockito.kotlin.whenever
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.variiance.vcall.database.FakeMessageRecords
+import org.variiance.vcall.recipients.Recipient
+import org.variiance.vcall.recipients.RecipientId
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class)

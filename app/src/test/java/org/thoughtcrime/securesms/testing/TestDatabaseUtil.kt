@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package org.variiance.vcall.testing
 
 import android.database.sqlite.SQLiteDatabase
 import androidx.test.core.app.ApplicationProvider

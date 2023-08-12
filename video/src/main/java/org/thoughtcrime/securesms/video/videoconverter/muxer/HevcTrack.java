@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter.muxer;
+package org.variiance.vcall.video.videoconverter.muxer;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

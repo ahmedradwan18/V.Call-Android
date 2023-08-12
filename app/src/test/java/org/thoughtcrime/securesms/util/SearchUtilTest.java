@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.variiance.vcall.util;
 
 import org.junit.Test;
 import org.signal.libsignal.protocol.util.Pair;

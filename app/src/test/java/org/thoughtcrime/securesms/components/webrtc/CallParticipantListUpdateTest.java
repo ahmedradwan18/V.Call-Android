@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.variiance.vcall.components.webrtc;
 
 import androidx.annotation.NonNull;
 
@@ -6,11 +6,11 @@ import com.annimon.stream.Stream;
 
 import org.hamcrest.Matchers;
 import org.junit.Test;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientDetails;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.variiance.vcall.events.CallParticipant;
+import org.variiance.vcall.events.CallParticipantId;
+import org.variiance.vcall.recipients.Recipient;
+import org.variiance.vcall.recipients.RecipientDetails;
+import org.variiance.vcall.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.Arrays;

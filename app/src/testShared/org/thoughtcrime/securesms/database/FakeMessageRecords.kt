@@ -1,25 +1,25 @@
-package org.thoughtcrime.securesms.database
+package org.variiance.vcall.database
 
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch
-import org.thoughtcrime.securesms.database.documents.NetworkFailure
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.payments.Payment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.variiance.vcall.attachments.AttachmentId
+import org.variiance.vcall.attachments.DatabaseAttachment
+import org.variiance.vcall.audio.AudioHash
+import org.variiance.vcall.blurhash.BlurHash
+import org.variiance.vcall.contactshare.Contact
+import org.variiance.vcall.database.documents.IdentityKeyMismatch
+import org.variiance.vcall.database.documents.NetworkFailure
+import org.variiance.vcall.database.model.MediaMmsMessageRecord
+import org.variiance.vcall.database.model.ParentStoryId
+import org.variiance.vcall.database.model.Quote
+import org.variiance.vcall.database.model.ReactionRecord
+import org.variiance.vcall.database.model.StoryType
+import org.variiance.vcall.database.model.databaseprotos.BodyRangeList
+import org.variiance.vcall.database.model.databaseprotos.GiftBadge
+import org.variiance.vcall.linkpreview.LinkPreview
+import org.variiance.vcall.mms.SlideDeck
+import org.variiance.vcall.payments.Payment
+import org.variiance.vcall.recipients.Recipient
+import org.variiance.vcall.stickers.StickerLocator
+import org.variiance.vcall.util.MediaUtil
 
 /**
  * Builds MessageRecords and related components for direct usage in unit testing. Does not modify the database.

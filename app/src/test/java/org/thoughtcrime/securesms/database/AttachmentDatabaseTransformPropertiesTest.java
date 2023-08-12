@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database;
+package org.variiance.vcall.database;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
+import org.variiance.vcall.mms.SentMediaQuality;
 
 import static org.junit.Assert.assertEquals;
 

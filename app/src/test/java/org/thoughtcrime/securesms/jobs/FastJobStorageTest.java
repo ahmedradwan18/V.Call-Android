@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs;
+package org.variiance.vcall.jobs;
 
 import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.database.JobDatabase;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
+import org.variiance.vcall.database.JobDatabase;
+import org.variiance.vcall.jobmanager.Job;
+import org.variiance.vcall.jobmanager.persistence.ConstraintSpec;
+import org.variiance.vcall.jobmanager.persistence.DependencySpec;
+import org.variiance.vcall.jobmanager.persistence.FullSpec;
+import org.variiance.vcall.jobmanager.persistence.JobSpec;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -24,7 +24,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.thoughtcrime.securesms.testutil.TestHelpers.setOf;
+import static org.variiance.vcall.testutil.TestHelpers.setOf;
 
 public class FastJobStorageTest {
 

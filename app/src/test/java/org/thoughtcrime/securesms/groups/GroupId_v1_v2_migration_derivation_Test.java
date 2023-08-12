@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package org.variiance.vcall.groups;
 
 import org.junit.Before;
 import org.junit.Test;

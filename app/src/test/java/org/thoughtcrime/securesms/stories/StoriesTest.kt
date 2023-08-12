@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package org.variiance.vcall.stories
 
 import io.reactivex.rxjava3.plugins.RxJavaPlugins
 import io.reactivex.rxjava3.schedulers.TestScheduler
@@ -15,13 +15,13 @@ import org.mockito.kotlin.isA
 import org.mockito.kotlin.never
 import org.mockito.kotlin.verify
 import org.mockito.kotlin.whenever
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobs.AttachmentDownloadJob
+import org.variiance.vcall.attachments.AttachmentId
+import org.variiance.vcall.database.AttachmentTable
+import org.variiance.vcall.database.FakeMessageRecords
+import org.variiance.vcall.database.SignalDatabase
+import org.variiance.vcall.dependencies.ApplicationDependencies
+import org.variiance.vcall.jobmanager.JobManager
+import org.variiance.vcall.jobs.AttachmentDownloadJob
 
 class StoriesTest {
 

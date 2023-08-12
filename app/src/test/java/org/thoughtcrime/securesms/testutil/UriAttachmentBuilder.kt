@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.testutil
+package org.variiance.vcall.testutil
 
 import android.net.Uri
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import org.variiance.vcall.attachments.UriAttachment
+import org.variiance.vcall.audio.AudioHash
+import org.variiance.vcall.blurhash.BlurHash
+import org.variiance.vcall.database.AttachmentTable
+import org.variiance.vcall.stickers.StickerLocator
 
 object UriAttachmentBuilder {
   fun build(

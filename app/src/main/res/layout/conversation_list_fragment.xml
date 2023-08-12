@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             app:elevation="0dp"
             app:expanded="false"
-            app:layout_behavior="org.thoughtcrime.securesms.conversationlist.ConversationFilterBehavior">
+            app:layout_behavior="org.variiance.vcall.conversationlist.ConversationFilterBehavior">
 
             <com.google.android.material.appbar.CollapsingToolbarLayout
                 android:id="@+id/collapsing_toolbar"
@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationListFilterPullView
+                <org.variiance.vcall.conversationlist.chatfilter.ConversationListFilterPullView
                     android:id="@+id/pull_view"
                     android:layout_width="match_parent"
                     android:layout_height="130dp"
@@ -96,9 +96,9 @@
             android:clipToPadding="false"
             android:gravity="end"
             android:orientation="vertical"
-            app:layout_behavior="org.thoughtcrime.securesms.util.views.SlideUpWithSnackbarBehavior">
+            app:layout_behavior="org.variiance.vcall.util.views.SlideUpWithSnackbarBehavior">
 
-            <org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton
+            <org.variiance.vcall.components.registration.PulsingFloatingActionButton
                 android:id="@+id/camera_fab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                 app:shapeAppearanceOverlay="@style/Signal.ShapeOverlay.Rounded.Fab"
                 tools:visibility="visible" />
 
-            <org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton
+            <org.variiance.vcall.components.registration.PulsingFloatingActionButton
                 android:id="@+id/fab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <org.thoughtcrime.securesms.components.menu.SignalBottomActionBar
+    <org.variiance.vcall.components.menu.SignalBottomActionBar
         android:id="@+id/conversation_list_bottom_action_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.components.TransferControlView
+<org.variiance.vcall.components.TransferControlView
     xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -8,4 +8,3 @@
     android:layout_height="wrap_content"
     android:elevation="2dp"
     android:orientation="vertical" />
-

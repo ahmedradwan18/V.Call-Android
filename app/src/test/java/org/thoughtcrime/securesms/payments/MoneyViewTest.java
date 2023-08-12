@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package org.variiance.vcall.payments;
 
 import android.app.Application;
 

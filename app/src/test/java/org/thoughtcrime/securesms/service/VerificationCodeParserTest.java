@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.service;
+package org.variiance.vcall.service;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.thoughtcrime.securesms.BaseUnitTest;
+import org.variiance.vcall.BaseUnitTest;
 
 import java.util.Arrays;
 import java.util.Collection;

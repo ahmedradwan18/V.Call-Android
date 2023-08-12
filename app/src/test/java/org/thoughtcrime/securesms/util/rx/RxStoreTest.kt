@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.rx
+package org.variiance.vcall.util.rx
 
 import io.reactivex.rxjava3.plugins.RxJavaPlugins
 import io.reactivex.rxjava3.schedulers.TestScheduler

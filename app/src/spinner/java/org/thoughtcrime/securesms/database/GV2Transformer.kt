@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.variiance.vcall.database
 
 import android.database.Cursor
 import com.google.protobuf.ByteString

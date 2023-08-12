@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.registration.secondary
+package org.variiance.vcall.registration.secondary
 
 import com.google.protobuf.ByteString
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.instanceOf
 import org.hamcrest.Matchers.`is`
 import org.junit.Test
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
+import org.variiance.vcall.crypto.IdentityKeyUtil
+import org.variiance.vcall.crypto.ProfileKeyUtil
 import org.whispersystems.signalservice.internal.crypto.PrimaryProvisioningCipher
 import org.whispersystems.signalservice.internal.push.ProvisioningProtos
 import org.whispersystems.signalservice.internal.push.ProvisioningProtos.ProvisionMessage

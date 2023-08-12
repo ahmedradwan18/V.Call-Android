@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration;
+package org.variiance.vcall.registration;
 
 import android.app.Application;
 import android.os.AsyncTask;

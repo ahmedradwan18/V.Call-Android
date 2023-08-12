@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation
+package org.variiance.vcall.conversation
 
 import android.app.Application
 import android.text.Spannable
@@ -13,9 +13,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.assertIs
-import org.thoughtcrime.securesms.assertIsNull
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList.BodyRange.Style
+import org.variiance.vcall.assertIs
+import org.variiance.vcall.assertIsNull
+import org.variiance.vcall.database.model.databaseprotos.BodyRangeList.BodyRange.Style
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

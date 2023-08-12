@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms
+package org.variiance.vcall
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers

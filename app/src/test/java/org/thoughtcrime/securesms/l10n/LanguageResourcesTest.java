@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.l10n;
+package org.variiance.vcall.l10n;
 
 import android.app.Application;
 import android.content.res.Resources;
@@ -9,8 +9,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
+import org.variiance.vcall.BuildConfig;
+import org.variiance.vcall.R;
 
 import java.util.Arrays;
 import java.util.Collections;

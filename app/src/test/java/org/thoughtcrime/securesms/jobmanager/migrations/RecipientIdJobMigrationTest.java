@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.variiance.vcall.jobmanager.migrations;
 
 import android.app.Application;
 
@@ -8,24 +8,24 @@ import org.mockito.Mock;
 import org.mockito.MockedStatic;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobMigration.JobData;
-import org.thoughtcrime.securesms.jobmanager.migrations.RecipientIdJobMigration.NewSerializableSyncMessageId;
-import org.thoughtcrime.securesms.jobmanager.migrations.RecipientIdJobMigration.OldSerializableSyncMessageId;
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceContactUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceVerifiedUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewOnceOpenJob;
-import org.thoughtcrime.securesms.jobs.PushGroupSendJob;
-import org.thoughtcrime.securesms.jobs.IndividualSendJob;
-import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob;
-import org.thoughtcrime.securesms.jobs.SendDeliveryReceiptJob;
-import org.thoughtcrime.securesms.jobs.SmsSendJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.variiance.vcall.jobmanager.JsonJobData;
+import org.variiance.vcall.jobmanager.Job;
+import org.variiance.vcall.jobmanager.JobMigration.JobData;
+import org.variiance.vcall.jobmanager.migrations.RecipientIdJobMigration.NewSerializableSyncMessageId;
+import org.variiance.vcall.jobmanager.migrations.RecipientIdJobMigration.OldSerializableSyncMessageId;
+import org.variiance.vcall.jobs.DirectoryRefreshJob;
+import org.variiance.vcall.jobs.MultiDeviceContactUpdateJob;
+import org.variiance.vcall.jobs.MultiDeviceReadUpdateJob;
+import org.variiance.vcall.jobs.MultiDeviceVerifiedUpdateJob;
+import org.variiance.vcall.jobs.MultiDeviceViewOnceOpenJob;
+import org.variiance.vcall.jobs.PushGroupSendJob;
+import org.variiance.vcall.jobs.IndividualSendJob;
+import org.variiance.vcall.jobs.RetrieveProfileAvatarJob;
+import org.variiance.vcall.jobs.SendDeliveryReceiptJob;
+import org.variiance.vcall.jobs.SmsSendJob;
+import org.variiance.vcall.recipients.Recipient;
+import org.variiance.vcall.recipients.RecipientId;
+import org.variiance.vcall.util.JsonUtils;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone
+package org.variiance.vcall.megaphone
 
 import android.app.Application
 import android.net.Uri
@@ -20,11 +20,11 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.SignalStoreRule
-import org.thoughtcrime.securesms.database.RemoteMegaphoneTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord
-import org.thoughtcrime.securesms.util.toMillis
+import org.variiance.vcall.SignalStoreRule
+import org.variiance.vcall.database.RemoteMegaphoneTable
+import org.variiance.vcall.database.SignalDatabase
+import org.variiance.vcall.database.model.RemoteMegaphoneRecord
+import org.variiance.vcall.util.toMillis
 import java.time.LocalDateTime
 import java.util.UUID
 

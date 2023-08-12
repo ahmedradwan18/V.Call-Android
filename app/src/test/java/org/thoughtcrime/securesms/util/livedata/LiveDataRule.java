@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.livedata;
+package org.variiance.vcall.util.livedata;
 
 import androidx.annotation.NonNull;
 import androidx.arch.core.executor.ArchTaskExecutor;

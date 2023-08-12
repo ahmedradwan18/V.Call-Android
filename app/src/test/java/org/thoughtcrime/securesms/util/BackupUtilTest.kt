@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.variiance.vcall.util
 
 import androidx.documentfile.provider.DocumentFile
 import org.junit.Assert.assertEquals
@@ -9,7 +9,7 @@ import org.junit.Test
 import org.mockito.Mockito.doReturn
 import org.mockito.Mockito.mock
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.testutil.EmptyLogger
+import org.variiance.vcall.testutil.EmptyLogger
 
 class BackupUtilTest {
 

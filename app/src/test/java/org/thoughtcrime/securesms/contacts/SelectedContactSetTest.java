@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.contacts;
+package org.variiance.vcall.contacts;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.variiance.vcall.recipients.RecipientId;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;

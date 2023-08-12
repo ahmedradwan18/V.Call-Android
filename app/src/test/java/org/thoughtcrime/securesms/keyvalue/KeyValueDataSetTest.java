@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.variiance.vcall.keyvalue;
 
 import org.junit.Test;
 

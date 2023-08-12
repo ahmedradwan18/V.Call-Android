@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.variiance.vcall.components.emoji;
 
 import android.app.Application;
 
@@ -14,11 +14,11 @@ import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 import org.robolectric.ParameterizedRobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.keyvalue.InternalValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.variiance.vcall.crypto.AttachmentSecretProvider;
+import org.variiance.vcall.dependencies.ApplicationDependencies;
+import org.variiance.vcall.emoji.EmojiSource;
+import org.variiance.vcall.keyvalue.InternalValues;
+import org.variiance.vcall.keyvalue.SignalStore;
 
 import java.util.Arrays;
 import java.util.Collection;

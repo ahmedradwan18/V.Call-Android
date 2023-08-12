@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.variiance.vcall.notifications;
 
 import android.content.Context;
 
@@ -15,17 +15,17 @@ import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 import org.mockito.stubbing.Answer;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.database.model.StoryType;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.Util;
+import org.variiance.vcall.database.MessageTable;
+import org.variiance.vcall.database.model.MessageId;
+import org.variiance.vcall.database.model.StoryType;
+import org.variiance.vcall.dependencies.ApplicationDependencies;
+import org.variiance.vcall.jobmanager.JsonJobData;
+import org.variiance.vcall.jobmanager.Job;
+import org.variiance.vcall.jobmanager.JobManager;
+import org.variiance.vcall.jobs.MultiDeviceReadUpdateJob;
+import org.variiance.vcall.recipients.Recipient;
+import org.variiance.vcall.recipients.RecipientId;
+import org.variiance.vcall.util.Util;
 
 import java.util.HashSet;
 import java.util.LinkedList;

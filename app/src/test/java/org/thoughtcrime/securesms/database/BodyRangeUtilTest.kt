@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database
+package org.variiance.vcall.database
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
+import org.variiance.vcall.database.model.databaseprotos.BodyRangeList
 
 class BodyRangeUtilTest {
 

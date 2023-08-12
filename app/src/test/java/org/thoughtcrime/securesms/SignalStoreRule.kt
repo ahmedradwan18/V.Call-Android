@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms
+package org.variiance.vcall
 
 import androidx.test.core.app.ApplicationProvider
 import org.junit.rules.TestRule
 import org.junit.runner.Description
 import org.junit.runners.model.Statement
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.dependencies.MockApplicationDependencyProvider
-import org.thoughtcrime.securesms.keyvalue.KeyValueDataSet
-import org.thoughtcrime.securesms.keyvalue.KeyValueStore
-import org.thoughtcrime.securesms.keyvalue.MockKeyValuePersistentStorage
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.variiance.vcall.dependencies.ApplicationDependencies
+import org.variiance.vcall.dependencies.MockApplicationDependencyProvider
+import org.variiance.vcall.keyvalue.KeyValueDataSet
+import org.variiance.vcall.keyvalue.KeyValueStore
+import org.variiance.vcall.keyvalue.MockKeyValuePersistentStorage
+import org.variiance.vcall.keyvalue.SignalStore
 
 /**
  * Rule to setup [SignalStore] with a mock [KeyValueDataSet]. Must be used with Roboelectric.

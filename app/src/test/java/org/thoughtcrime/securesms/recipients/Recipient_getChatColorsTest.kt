@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients
+package org.variiance.vcall.recipients
 
 import android.graphics.Color
 import org.junit.Assert.assertEquals
@@ -6,13 +6,13 @@ import org.junit.Before
 import org.junit.Test
 import org.mockito.Mockito.mock
 import org.mockito.Mockito.`when`
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.database.RecipientDatabaseTestUtils.createRecipient
-import org.thoughtcrime.securesms.keyvalue.ChatColorsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.WallpaperValues
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import org.variiance.vcall.conversation.colors.ChatColors
+import org.variiance.vcall.conversation.colors.ChatColorsPalette
+import org.variiance.vcall.database.RecipientDatabaseTestUtils.createRecipient
+import org.variiance.vcall.keyvalue.ChatColorsValues
+import org.variiance.vcall.keyvalue.SignalStore
+import org.variiance.vcall.keyvalue.WallpaperValues
+import org.variiance.vcall.wallpaper.ChatWallpaper
 
 @Suppress("ClassName")
 class Recipient_getChatColorsTest : BaseRecipientTest() {

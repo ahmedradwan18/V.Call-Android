@@ -4,14 +4,14 @@ import com.google.protobuf.InvalidProtocolBufferException;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.thoughtcrime.securesms.util.testprotos.TestInnerMessage;
-import org.thoughtcrime.securesms.util.testprotos.TestInnerMessageWithNewString;
-import org.thoughtcrime.securesms.util.testprotos.TestPerson;
-import org.thoughtcrime.securesms.util.testprotos.TestPersonWithNewFieldOnMessage;
-import org.thoughtcrime.securesms.util.testprotos.TestPersonWithNewMessage;
-import org.thoughtcrime.securesms.util.testprotos.TestPersonWithNewRepeatedString;
-import org.thoughtcrime.securesms.util.testprotos.TestPersonWithNewString;
-import org.thoughtcrime.securesms.util.testprotos.TestPersonWithNewStringAndInt;
+import org.variiance.vcall.util.testprotos.TestInnerMessage;
+import org.variiance.vcall.util.testprotos.TestInnerMessageWithNewString;
+import org.variiance.vcall.util.testprotos.TestPerson;
+import org.variiance.vcall.util.testprotos.TestPersonWithNewFieldOnMessage;
+import org.variiance.vcall.util.testprotos.TestPersonWithNewMessage;
+import org.variiance.vcall.util.testprotos.TestPersonWithNewRepeatedString;
+import org.variiance.vcall.util.testprotos.TestPersonWithNewString;
+import org.variiance.vcall.util.testprotos.TestPersonWithNewStringAndInt;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

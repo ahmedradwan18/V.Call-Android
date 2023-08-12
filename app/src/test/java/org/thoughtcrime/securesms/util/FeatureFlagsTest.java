@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.util;
+package org.variiance.vcall.util;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.BaseUnitTest;
-import org.thoughtcrime.securesms.util.FeatureFlags.Change;
-import org.thoughtcrime.securesms.util.FeatureFlags.UpdateResult;
+import org.variiance.vcall.BaseUnitTest;
+import org.variiance.vcall.util.FeatureFlags.Change;
+import org.variiance.vcall.util.FeatureFlags.UpdateResult;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -14,7 +14,7 @@ import java.util.Set;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
-import static org.thoughtcrime.securesms.testutil.TestHelpers.mapOf;
+import static org.variiance.vcall.testutil.TestHelpers.mapOf;
 
 public class FeatureFlagsTest extends BaseUnitTest {
 

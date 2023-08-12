@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.sync;
+package org.variiance.vcall.contacts.sync;
 
 import org.junit.Test;
 

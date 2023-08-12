@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.variiance.vcall.contacts.paged
 
 import android.app.Application
 import androidx.core.os.bundleOf
@@ -13,11 +13,11 @@ import org.mockito.kotlin.mock
 import org.mockito.kotlin.whenever
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.MockCursor
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.variiance.vcall.MockCursor
+import org.variiance.vcall.database.model.DistributionListPrivacyMode
+import org.variiance.vcall.recipients.Recipient
+import org.variiance.vcall.recipients.RecipientId
+import org.variiance.vcall.util.adapter.mapping.MappingModel
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class)

@@ -12,7 +12,7 @@ android:layout_marginStart="8dp"
     android:layout_marginBottom="4dp"
     android:paddingEnd="@dimen/dsl_settings_gutter">
 
-    <org.thoughtcrime.securesms.avatar.view.AvatarView
+    <org.variiance.vcall.avatar.view.AvatarView
         android:id="@+id/avatar"
         android:layout_width="48dp"
         android:layout_height="48dp"
@@ -20,7 +20,7 @@ android:layout_marginStart="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.thoughtcrime.securesms.badges.BadgeImageView
+    <org.variiance.vcall.badges.BadgeImageView
         android:id="@+id/badge"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -45,7 +45,7 @@ android:layout_marginStart="8dp"
         app:tint="@color/signal_colorBackground"
         app:srcCompat="@drawable/symbol_plus_compact_16" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.variiance.vcall.components.emoji.EmojiTextView
         android:id="@+id/sender"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

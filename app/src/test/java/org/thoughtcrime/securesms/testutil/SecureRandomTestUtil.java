@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testutil;
+package org.variiance.vcall.testutil;
 
 import org.mockito.ArgumentCaptor;
 import org.mockito.invocation.InvocationOnMock;

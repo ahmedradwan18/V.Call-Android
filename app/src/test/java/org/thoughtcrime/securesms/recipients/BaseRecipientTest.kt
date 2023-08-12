@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients
+package org.variiance.vcall.recipients
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -14,9 +14,9 @@ import org.mockito.junit.MockitoJUnit
 import org.mockito.junit.MockitoRule
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.variiance.vcall.crypto.AttachmentSecretProvider
+import org.variiance.vcall.dependencies.ApplicationDependencies
+import org.variiance.vcall.keyvalue.SignalStore
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

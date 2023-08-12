@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.variiance.vcall.profiles;
 
 import android.app.Application;
 

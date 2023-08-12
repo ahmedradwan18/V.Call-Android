@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.jobs;
+package org.variiance.vcall.jobs;
 
 import android.app.Application;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.jobmanager.Job;
+import org.variiance.vcall.jobmanager.Job;
 
 import java.util.Map;
 

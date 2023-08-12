@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package org.variiance.vcall
 
 import android.database.Cursor
 

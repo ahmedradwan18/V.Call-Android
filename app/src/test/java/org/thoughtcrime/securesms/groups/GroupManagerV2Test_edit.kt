@@ -1,6 +1,6 @@
 @file:Suppress("ClassName")
 
-package org.thoughtcrime.securesms.groups
+package org.variiance.vcall.groups
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -26,16 +26,16 @@ import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import org.signal.storageservice.protos.groups.Member
 import org.signal.storageservice.protos.groups.local.DecryptedGroup
 import org.signal.storageservice.protos.groups.local.DecryptedMember
-import org.thoughtcrime.securesms.SignalStoreRule
-import org.thoughtcrime.securesms.TestZkGroupServer
-import org.thoughtcrime.securesms.database.GroupStateTestData
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.member
-import org.thoughtcrime.securesms.groups.v2.GroupCandidateHelper
-import org.thoughtcrime.securesms.groups.v2.processing.GroupsV2StateProcessor
-import org.thoughtcrime.securesms.logging.CustomSignalProtocolLogger
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
+import org.variiance.vcall.SignalStoreRule
+import org.variiance.vcall.TestZkGroupServer
+import org.variiance.vcall.database.GroupStateTestData
+import org.variiance.vcall.database.GroupTable
+import org.variiance.vcall.database.model.databaseprotos.member
+import org.variiance.vcall.groups.v2.GroupCandidateHelper
+import org.variiance.vcall.groups.v2.processing.GroupsV2StateProcessor
+import org.variiance.vcall.logging.CustomSignalProtocolLogger
+import org.variiance.vcall.recipients.Recipient
+import org.variiance.vcall.testutil.SystemOutLogger
 import org.whispersystems.signalservice.api.groupsv2.ClientZkOperations
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Api
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Operations

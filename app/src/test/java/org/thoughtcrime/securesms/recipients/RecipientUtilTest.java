@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.variiance.vcall.recipients;
 
 import android.content.Context;
 
@@ -10,10 +10,10 @@ import org.mockito.Mock;
 import org.mockito.MockedStatic;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
+import org.variiance.vcall.database.MessageTable;
+import org.variiance.vcall.database.RecipientTable;
+import org.variiance.vcall.database.SignalDatabase;
+import org.variiance.vcall.database.ThreadTable;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

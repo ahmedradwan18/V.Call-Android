@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.variiance.vcall.util;
 
 import android.app.Application;
 
@@ -7,9 +7,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.ParameterizedRobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.thoughtcrime.securesms.SignalStoreRule;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.AccountValues;
+import org.variiance.vcall.SignalStoreRule;
+import org.variiance.vcall.dependencies.ApplicationDependencies;
+import org.variiance.vcall.keyvalue.AccountValues;
 
 import java.util.Arrays;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.variiance.vcall.contacts.paged
 
 import android.app.Application
 import io.reactivex.rxjava3.core.Single
@@ -21,15 +21,15 @@ import org.mockito.quality.Strictness
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
-import org.thoughtcrime.securesms.crypto.storage.SignalIdentityKeyStore
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.RecipientDatabaseTestUtils
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
-import org.thoughtcrime.securesms.util.IdentityUtil
+import org.variiance.vcall.crypto.IdentityKeyUtil
+import org.variiance.vcall.crypto.storage.SignalIdentityKeyStore
+import org.variiance.vcall.database.IdentityTable
+import org.variiance.vcall.database.RecipientDatabaseTestUtils
+import org.variiance.vcall.database.model.IdentityRecord
+import org.variiance.vcall.recipients.Recipient
+import org.variiance.vcall.recipients.RecipientId
+import org.variiance.vcall.testutil.SystemOutLogger
+import org.variiance.vcall.util.IdentityUtil
 import org.whispersystems.signalservice.api.push.ACI
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import org.whispersystems.signalservice.api.services.ProfileService

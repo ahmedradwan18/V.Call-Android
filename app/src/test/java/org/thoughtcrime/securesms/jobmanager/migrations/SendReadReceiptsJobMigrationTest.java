@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.variiance.vcall.jobmanager.migrations;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
-import org.thoughtcrime.securesms.jobs.SendReadReceiptJob;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.variiance.vcall.database.MessageTable;
+import org.variiance.vcall.jobmanager.JsonJobData;
+import org.variiance.vcall.jobmanager.JobMigration;
+import org.variiance.vcall.jobs.SendReadReceiptJob;
+import org.variiance.vcall.recipients.RecipientId;
 
 import java.util.ArrayList;
 

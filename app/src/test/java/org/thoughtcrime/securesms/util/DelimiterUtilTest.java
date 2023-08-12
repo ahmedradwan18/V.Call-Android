@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.variiance.vcall.util;
 
 
 import android.text.TextUtils;

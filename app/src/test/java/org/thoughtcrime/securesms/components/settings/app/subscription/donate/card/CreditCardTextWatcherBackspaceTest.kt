@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.card
+package org.variiance.vcall.components.settings.app.subscription.donate.card
 
 import android.app.Application
 import android.text.Editable

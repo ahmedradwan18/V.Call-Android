@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.currency;
+package org.variiance.vcall.payments.currency;
 
 import org.junit.Test;
 

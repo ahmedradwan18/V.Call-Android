@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package org.variiance.vcall.stories.viewer.page
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

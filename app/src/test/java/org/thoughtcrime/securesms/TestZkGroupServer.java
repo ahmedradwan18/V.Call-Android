@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.variiance.vcall;
 
 import org.signal.libsignal.zkgroup.ServerPublicParams;
 import org.signal.libsignal.zkgroup.ServerSecretParams;

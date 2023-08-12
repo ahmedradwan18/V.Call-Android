@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist;
+package org.variiance.vcall.conversationlist;
 
 import android.app.Application;
 import android.database.Cursor;
@@ -13,12 +13,12 @@ import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationReader;
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
+import org.variiance.vcall.conversationlist.model.ConversationFilter;
+import org.variiance.vcall.conversationlist.model.ConversationReader;
+import org.variiance.vcall.database.DatabaseObserver;
+import org.variiance.vcall.database.SignalDatabase;
+import org.variiance.vcall.database.ThreadTable;
+import org.variiance.vcall.dependencies.ApplicationDependencies;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

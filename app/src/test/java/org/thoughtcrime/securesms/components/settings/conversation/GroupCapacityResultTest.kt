@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.variiance.vcall.components.settings.conversation
 
 import org.junit.Assert
 import org.junit.Test
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.variiance.vcall.groups.SelectionLimits
+import org.variiance.vcall.recipients.RecipientId
 
 private const val SELECTION_WARNING = 151
 private const val SELECTION_LIMIT = 1001

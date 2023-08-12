@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.account.export
+package org.variiance.vcall.components.settings.app.account.export
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -17,10 +17,10 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.dependencies.MockApplicationDependencyProvider
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.JsonUtils
+import org.variiance.vcall.dependencies.ApplicationDependencies
+import org.variiance.vcall.dependencies.MockApplicationDependencyProvider
+import org.variiance.vcall.providers.BlobProvider
+import org.variiance.vcall.util.JsonUtils
 import org.whispersystems.signalservice.api.SignalServiceAccountManager
 import java.io.IOException
 

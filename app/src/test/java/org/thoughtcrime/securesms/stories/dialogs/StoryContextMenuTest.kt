@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.dialogs
+package org.variiance.vcall.stories.dialogs
 
 import android.app.Application
 import android.content.Context
@@ -17,15 +17,15 @@ import org.mockito.kotlin.verify
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mms.ImageSlide
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.variiance.vcall.attachments.AttachmentId
+import org.variiance.vcall.database.FakeMessageRecords
+import org.variiance.vcall.database.model.StoryType
+import org.variiance.vcall.database.model.databaseprotos.StoryTextPost
+import org.variiance.vcall.linkpreview.LinkPreview
+import org.variiance.vcall.mms.ImageSlide
+import org.variiance.vcall.mms.PartAuthority
+import org.variiance.vcall.mms.SlideDeck
+import org.variiance.vcall.util.MediaUtil
 import org.whispersystems.util.Base64
 import java.util.Optional
 

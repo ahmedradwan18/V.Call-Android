@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.variiance.vcall.jobmanager.migrations;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
-import org.thoughtcrime.securesms.jobs.FailingJob;
-import org.thoughtcrime.securesms.jobs.SenderKeyDistributionSendJob;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.Util;
+import org.variiance.vcall.database.GroupTable;
+import org.variiance.vcall.database.model.GroupRecord;
+import org.variiance.vcall.groups.GroupId;
+import org.variiance.vcall.jobmanager.JsonJobData;
+import org.variiance.vcall.jobmanager.JobMigration;
+import org.variiance.vcall.jobs.FailingJob;
+import org.variiance.vcall.jobs.SenderKeyDistributionSendJob;
+import org.variiance.vcall.recipients.RecipientId;
+import org.variiance.vcall.util.Util;
 
 import java.util.Optional;
 

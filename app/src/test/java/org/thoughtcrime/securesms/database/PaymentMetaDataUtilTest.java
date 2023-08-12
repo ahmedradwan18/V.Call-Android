@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database;
+package org.variiance.vcall.database;
 
 import com.google.protobuf.ByteString;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
-import org.thoughtcrime.securesms.util.Util;
+import org.variiance.vcall.payments.proto.PaymentMetaData;
+import org.variiance.vcall.util.Util;
 
 import static org.junit.Assert.assertArrayEquals;
 

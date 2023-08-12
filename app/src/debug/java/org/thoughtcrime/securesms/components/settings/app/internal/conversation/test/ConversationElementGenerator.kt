@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.conversation.test
+package org.variiance.vcall.components.settings.app.internal.conversation.test
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationElementKey
-import org.thoughtcrime.securesms.conversation.v2.data.IncomingTextOnly
-import org.thoughtcrime.securesms.conversation.v2.data.OutgoingTextOnly
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.variiance.vcall.conversation.ConversationMessage.ConversationMessageFactory
+import org.variiance.vcall.conversation.v2.data.ConversationElementKey
+import org.variiance.vcall.conversation.v2.data.IncomingTextOnly
+import org.variiance.vcall.conversation.v2.data.OutgoingTextOnly
+import org.variiance.vcall.database.MessageTypes
+import org.variiance.vcall.database.model.MediaMmsMessageRecord
+import org.variiance.vcall.database.model.StoryType
+import org.variiance.vcall.dependencies.ApplicationDependencies
+import org.variiance.vcall.mms.SlideDeck
+import org.variiance.vcall.recipients.Recipient
+import org.variiance.vcall.util.adapter.mapping.MappingModel
 import java.security.SecureRandom
 import kotlin.time.Duration.Companion.milliseconds
 

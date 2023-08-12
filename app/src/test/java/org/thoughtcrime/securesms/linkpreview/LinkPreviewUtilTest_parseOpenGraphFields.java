@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.variiance.vcall.linkpreview;
 
 import android.app.Application;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.variiance.vcall.jobmanager.migrations;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -6,12 +6,12 @@ import org.mockito.Mock;
 import org.mockito.MockedStatic;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobMigration.JobData;
-import org.thoughtcrime.securesms.jobs.FailingJob;
-import org.thoughtcrime.securesms.jobs.SendDeliveryReceiptJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.variiance.vcall.jobmanager.JsonJobData;
+import org.variiance.vcall.jobmanager.Job;
+import org.variiance.vcall.jobmanager.JobMigration.JobData;
+import org.variiance.vcall.jobs.FailingJob;
+import org.variiance.vcall.jobs.SendDeliveryReceiptJob;
+import org.variiance.vcall.recipients.Recipient;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;

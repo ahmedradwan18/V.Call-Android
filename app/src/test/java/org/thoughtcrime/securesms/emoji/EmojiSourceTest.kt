@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.emoji
+package org.variiance.vcall.emoji
 
 import android.net.Uri
 import org.junit.Assert
 import org.junit.Test
-import org.thoughtcrime.securesms.components.emoji.Emoji
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
+import org.variiance.vcall.components.emoji.Emoji
+import org.variiance.vcall.components.emoji.EmojiPageModel
 
 class EmojiSourceTest {
 

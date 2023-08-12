@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.util;
+package org.variiance.vcall.util;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.BaseUnitTest;
+import org.variiance.vcall.BaseUnitTest;
 
 import java.util.LinkedList;
 import java.util.List;

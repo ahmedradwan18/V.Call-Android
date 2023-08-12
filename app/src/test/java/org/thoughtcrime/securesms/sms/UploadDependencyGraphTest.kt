@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sms
+package org.variiance.vcall.sms
 
 import android.app.Application
 import org.junit.Assert.assertEquals
@@ -11,23 +11,23 @@ import org.mockito.kotlin.mock
 import org.mockito.kotlin.whenever
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.AttachmentCompressionJob
-import org.thoughtcrime.securesms.jobs.AttachmentCopyJob
-import org.thoughtcrime.securesms.jobs.AttachmentUploadJob
-import org.thoughtcrime.securesms.jobs.ResumableUploadSpecJob
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testutil.UriAttachmentBuilder
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.variiance.vcall.attachments.Attachment
+import org.variiance.vcall.attachments.AttachmentId
+import org.variiance.vcall.attachments.DatabaseAttachment
+import org.variiance.vcall.database.AttachmentTable
+import org.variiance.vcall.jobmanager.Job
+import org.variiance.vcall.jobmanager.JobManager
+import org.variiance.vcall.jobmanager.JsonJobData
+import org.variiance.vcall.jobs.AttachmentCompressionJob
+import org.variiance.vcall.jobs.AttachmentCopyJob
+import org.variiance.vcall.jobs.AttachmentUploadJob
+import org.variiance.vcall.jobs.ResumableUploadSpecJob
+import org.variiance.vcall.mms.OutgoingMessage
+import org.variiance.vcall.mms.SentMediaQuality
+import org.variiance.vcall.recipients.Recipient
+import org.variiance.vcall.testutil.UriAttachmentBuilder
+import org.variiance.vcall.util.JsonUtils
+import org.variiance.vcall.util.MediaUtil
 import java.util.concurrent.atomic.AtomicLong
 
 /**
