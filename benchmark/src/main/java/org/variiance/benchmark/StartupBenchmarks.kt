@@ -1,4 +1,4 @@
-package org.thoughtcrime.benchmark
+package org.variiance.benchmark
 
 import androidx.benchmark.macro.CompilationMode
 import androidx.benchmark.macro.ExperimentalMetricApi

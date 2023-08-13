@@ -70,7 +70,7 @@ public final class Megaphones {
   private static final MegaphoneSchedule ALWAYS = new ForeverSchedule(true);
   private static final MegaphoneSchedule NEVER  = new ForeverSchedule(false);
 
-  private static final Set<Event> DONATE_EVENTS                      = SetUtil.newHashSet(Event.BECOME_A_SUSTAINER, Event.DONATE_Q2_2022);
+  private static final Set<Event> DONATE_EVENTS                      = SetUtil.newHashSet(BECOME_A_SUSTAINER, DONATE_Q2_2022);
   private static final long       MIN_TIME_BETWEEN_DONATE_MEGAPHONES = TimeUnit.DAYS.toMillis(30);
 
   private Megaphones() {}
@@ -79,11 +79,30 @@ public final class Megaphones {
   static @Nullable Megaphone getNextMegaphone(@NonNull Context context, @NonNull Map<Event, MegaphoneRecord> records) {
     long currentTime = System.currentTimeMillis();
 
+//    Map<Event, MegaphoneRecord> newRecords =new HashMap<>();
+//
+//
+//        records.forEach((item,value) -> {
+//
+//        if(Objects.equals(item, ONBOARDING) || Objects.equals(item, NOTIFICATIONS)|| Objects.equals(item, ADD_A_PROFILE_PHOTO)
+//           || Objects.equals(item, SET_UP_YOUR_USERNAME) ){
+//          newRecords.put(item,value);
+//        }
+//
+//        });
+//
+//    System.out.println("Our records now are => "+newRecords+"\n"+records);
+
     List<Megaphone> megaphones = Stream.of(buildDisplayOrder(context, records))
                                        .filter(e -> {
                                          MegaphoneRecord   record   = Objects.requireNonNull(records.get(e.getKey()));
-                                         MegaphoneSchedule schedule = e.getValue();
 
+                                         return (Objects.equals(record, ONBOARDING) || Objects.equals(record, NOTIFICATIONS)|| Objects.equals(record, ADD_A_PROFILE_PHOTO)
+                                                 || Objects.equals(record, SET_UP_YOUR_USERNAME) );
+                                       })
+                                       .filter(e -> {
+                                         MegaphoneRecord   record   = Objects.requireNonNull(records.get(e.getKey()));
+                                         MegaphoneSchedule schedule = e.getValue();
                                          return !record.isFinished() && schedule.shouldDisplay(record.getSeenCount(), record.getLastSeen(), record.getFirstVisible(), currentTime);
                                        })
                                        .map(Map.Entry::getKey)
@@ -106,20 +125,20 @@ public final class Megaphones {
    */
   private static Map<Event, MegaphoneSchedule> buildDisplayOrder(@NonNull Context context, @NonNull Map<Event, MegaphoneRecord> records) {
     return new LinkedHashMap<Event, MegaphoneSchedule>() {{
-      put(Event.PINS_FOR_ALL, new PinsForAllSchedule());
-      put(Event.CLIENT_DEPRECATED, SignalStore.misc().isClientDeprecated() ? ALWAYS : NEVER);
-      put(Event.NOTIFICATIONS, shouldShowNotificationsMegaphone(context) ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(30)) : NEVER);
-      put(Event.SMS_EXPORT, new SmsExportReminderSchedule(context));
-      put(Event.BACKUP_SCHEDULE_PERMISSION, shouldShowBackupSchedulePermissionMegaphone(context) ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(3)) : NEVER);
-      put(Event.ONBOARDING, shouldShowOnboardingMegaphone(context) ? ALWAYS : NEVER);
-      put(Event.TURN_OFF_CENSORSHIP_CIRCUMVENTION, shouldShowTurnOffCircumventionMegaphone() ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(7)) : NEVER);
-      put(Event.DONATE_Q2_2022, shouldShowDonateMegaphone(context, Event.DONATE_Q2_2022, records) ? ShowForDurationSchedule.showForDays(7) : NEVER);
-      put(Event.REMOTE_MEGAPHONE, shouldShowRemoteMegaphone(records) ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(1)) : NEVER);
-      put(Event.PIN_REMINDER, new SignalPinReminderSchedule());
-      put(Event.SET_UP_YOUR_USERNAME, shouldShowSetUpYourUsernameMegaphone(records) ? ALWAYS : NEVER);
+      put(PINS_FOR_ALL, new PinsForAllSchedule());
+      put(CLIENT_DEPRECATED, SignalStore.misc().isClientDeprecated() ? ALWAYS : NEVER);
+      put(NOTIFICATIONS, shouldShowNotificationsMegaphone(context) ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(30)) : NEVER);
+      put(SMS_EXPORT, new SmsExportReminderSchedule(context));
+      put(BACKUP_SCHEDULE_PERMISSION, shouldShowBackupSchedulePermissionMegaphone(context) ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(3)) : NEVER);
+      put(ONBOARDING, shouldShowOnboardingMegaphone(context) ? ALWAYS : NEVER);
+      put(TURN_OFF_CENSORSHIP_CIRCUMVENTION, shouldShowTurnOffCircumventionMegaphone() ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(7)) : NEVER);
+      put(DONATE_Q2_2022, shouldShowDonateMegaphone(context, DONATE_Q2_2022, records) ? ShowForDurationSchedule.showForDays(7) : NEVER);
+      put(REMOTE_MEGAPHONE, shouldShowRemoteMegaphone(records) ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(1)) : NEVER);
+      put(PIN_REMINDER, new SignalPinReminderSchedule());
+      put(SET_UP_YOUR_USERNAME, shouldShowSetUpYourUsernameMegaphone(records) ? ALWAYS : NEVER);
 
       // Feature-introduction megaphones should *probably* be added below this divider
-      put(Event.ADD_A_PROFILE_PHOTO, shouldShowAddAProfilePhotoMegaphone(context) ? ALWAYS : NEVER);
+      put(ADD_A_PROFILE_PHOTO, shouldShowAddAProfilePhotoMegaphone(context) ? ALWAYS : NEVER);
     }};
   }
 
@@ -153,13 +172,13 @@ public final class Megaphones {
         return buildSetUpYourUsernameMegaphone(context);
 
       default:
-        throw new IllegalArgumentException("Event not handled!");
+        throw new IllegalArgumentException("Event not handled! ");
     }
   }
 
   private static @NonNull Megaphone buildPinsForAllMegaphone(@NonNull MegaphoneRecord record) {
     if (PinsForAllSchedule.shouldDisplayFullScreen(record.getFirstVisible(), System.currentTimeMillis())) {
-      return new Megaphone.Builder(Event.PINS_FOR_ALL, Megaphone.Style.FULLSCREEN)
+      return new Megaphone.Builder(PINS_FOR_ALL, Megaphone.Style.FULLSCREEN)
           .enableSnooze(null)
           .setOnVisibleListener((megaphone, listener) -> {
             if (new NetworkConstraint.Factory(ApplicationDependencies.getApplication()).create().isMet()) {
@@ -168,7 +187,7 @@ public final class Megaphones {
           })
           .build();
     } else {
-      return new Megaphone.Builder(Event.PINS_FOR_ALL, Megaphone.Style.BASIC)
+      return new Megaphone.Builder(PINS_FOR_ALL, Megaphone.Style.BASIC)
           .setImage(R.drawable.kbs_pin_megaphone)
           .setTitle(R.string.KbsMegaphone__create_a_pin)
           .setBody(R.string.KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped)
@@ -183,7 +202,9 @@ public final class Megaphones {
 
   @SuppressWarnings("CodeBlock2Expr")
   private static @NonNull Megaphone buildPinReminderMegaphone(@NonNull Context context) {
-    return new Megaphone.Builder(Event.PIN_REMINDER, Megaphone.Style.BASIC)
+
+
+    return new Megaphone.Builder(PIN_REMINDER, Megaphone.Style.BASIC)
         .setTitle(R.string.Megaphones_verify_your_signal_pin)
         .setBody(R.string.Megaphones_well_occasionally_ask_you_to_verify_your_pin)
         .setImage(R.drawable.kbs_pin_megaphone)
@@ -206,7 +227,7 @@ public final class Megaphones {
                 SignalStore.pinValues().onEntrySuccess(pin);
               }
 
-              controller.onMegaphoneSnooze(Event.PIN_REMINDER);
+              controller.onMegaphoneSnooze(PIN_REMINDER);
               controller.onMegaphoneToastRequested(controller.getMegaphoneActivity().getString(SignalPinReminders.getReminderString(SignalStore.pinValues().getCurrentInterval())));
             }
           });
@@ -214,20 +235,23 @@ public final class Megaphones {
         .build();
   }
 
+
+
+
   private static @NonNull Megaphone buildClientDeprecatedMegaphone(@NonNull Context context) {
-    return new Megaphone.Builder(Event.CLIENT_DEPRECATED, Megaphone.Style.FULLSCREEN)
+    return new Megaphone.Builder(CLIENT_DEPRECATED, Megaphone.Style.FULLSCREEN)
         .disableSnooze()
         .setOnVisibleListener((megaphone, listener) -> listener.onMegaphoneNavigationRequested(new Intent(context, ClientDeprecatedActivity.class)))
         .build();
   }
 
   private static @NonNull Megaphone buildOnboardingMegaphone() {
-    return new Megaphone.Builder(Event.ONBOARDING, Megaphone.Style.ONBOARDING)
+    return new Megaphone.Builder(ONBOARDING, Megaphone.Style.ONBOARDING)
         .build();
   }
 
   private static @NonNull Megaphone buildNotificationsMegaphone(@NonNull Context context) {
-    return new Megaphone.Builder(Event.NOTIFICATIONS, Megaphone.Style.BASIC)
+    return new Megaphone.Builder(NOTIFICATIONS, Megaphone.Style.BASIC)
         .setTitle(R.string.NotificationsMegaphone_turn_on_notifications)
         .setBody(R.string.NotificationsMegaphone_never_miss_a_message)
         .setImage(R.drawable.megaphone_notifications_64)
@@ -247,66 +271,66 @@ public final class Megaphones {
             controller.onMegaphoneNavigationRequested(AppSettingsActivity.notifications(context));
           }
         })
-        .setSecondaryButton(R.string.NotificationsMegaphone_not_now, (megaphone, controller) -> controller.onMegaphoneSnooze(Event.NOTIFICATIONS))
+        .setSecondaryButton(R.string.NotificationsMegaphone_not_now, (megaphone, controller) -> controller.onMegaphoneSnooze(NOTIFICATIONS))
         .build();
   }
 
   private static @NonNull Megaphone buildAddAProfilePhotoMegaphone(@NonNull Context context) {
-    return new Megaphone.Builder(Event.ADD_A_PROFILE_PHOTO, Megaphone.Style.BASIC)
+    return new Megaphone.Builder(ADD_A_PROFILE_PHOTO, Megaphone.Style.BASIC)
         .setTitle(R.string.AddAProfilePhotoMegaphone__add_a_profile_photo)
         .setImage(R.drawable.ic_add_a_profile_megaphone_image)
         .setBody(R.string.AddAProfilePhotoMegaphone__choose_a_look_and_color)
         .setActionButton(R.string.AddAProfilePhotoMegaphone__add_photo, (megaphone, listener) -> {
           listener.onMegaphoneNavigationRequested(ManageProfileActivity.getIntentForAvatarEdit(context));
-          listener.onMegaphoneCompleted(Event.ADD_A_PROFILE_PHOTO);
+          listener.onMegaphoneCompleted(ADD_A_PROFILE_PHOTO);
         })
         .setSecondaryButton(R.string.AddAProfilePhotoMegaphone__not_now, (megaphone, listener) -> {
-          listener.onMegaphoneCompleted(Event.ADD_A_PROFILE_PHOTO);
+          listener.onMegaphoneCompleted(ADD_A_PROFILE_PHOTO);
         })
         .build();
   }
 
   private static @NonNull Megaphone buildBecomeASustainerMegaphone(@NonNull Context context) {
-    return new Megaphone.Builder(Event.BECOME_A_SUSTAINER, Megaphone.Style.BASIC)
+    return new Megaphone.Builder(BECOME_A_SUSTAINER, Megaphone.Style.BASIC)
         .setTitle(R.string.BecomeASustainerMegaphone__become_a_sustainer)
         .setImage(R.drawable.ic_become_a_sustainer_megaphone)
         .setBody(R.string.BecomeASustainerMegaphone__signal_is_powered_by)
         .setActionButton(R.string.BecomeASustainerMegaphone__donate, (megaphone, listener) -> {
           listener.onMegaphoneNavigationRequested(AppSettingsActivity.subscriptions(context));
-          listener.onMegaphoneCompleted(Event.BECOME_A_SUSTAINER);
+          listener.onMegaphoneCompleted(BECOME_A_SUSTAINER);
         })
         .setSecondaryButton(R.string.BecomeASustainerMegaphone__not_now, (megaphone, listener) -> {
-          listener.onMegaphoneCompleted(Event.BECOME_A_SUSTAINER);
+          listener.onMegaphoneCompleted(BECOME_A_SUSTAINER);
         })
         .build();
   }
 
   private static @NonNull Megaphone buildDonateQ2Megaphone(@NonNull Context context) {
-    return new Megaphone.Builder(Event.DONATE_Q2_2022, Megaphone.Style.BASIC)
+    return new Megaphone.Builder(DONATE_Q2_2022, Megaphone.Style.BASIC)
         .setTitle(R.string.Donate2022Q2Megaphone_donate_to_signal)
         .setImage(R.drawable.ic_donate_q2_2022)
         .setBody(R.string.Donate2022Q2Megaphone_signal_is_powered_by_people_like_you)
         .setActionButton(R.string.Donate2022Q2Megaphone_donate, (megaphone, listener) -> {
           listener.onMegaphoneNavigationRequested(AppSettingsActivity.subscriptions(context));
-          listener.onMegaphoneCompleted(Event.DONATE_Q2_2022);
+          listener.onMegaphoneCompleted(DONATE_Q2_2022);
         })
         .setSecondaryButton(R.string.Donate2022Q2Megaphone_not_now, (megaphone, listener) -> {
-          listener.onMegaphoneCompleted(Event.DONATE_Q2_2022);
+          listener.onMegaphoneCompleted(DONATE_Q2_2022);
         })
         .build();
   }
 
   private static @NonNull Megaphone buildTurnOffCircumventionMegaphone(@NonNull Context context) {
-    return new Megaphone.Builder(Event.TURN_OFF_CENSORSHIP_CIRCUMVENTION, Megaphone.Style.BASIC)
+    return new Megaphone.Builder(TURN_OFF_CENSORSHIP_CIRCUMVENTION, Megaphone.Style.BASIC)
         .setTitle(R.string.CensorshipCircumventionMegaphone_turn_off_censorship_circumvention)
         .setImage(R.drawable.ic_censorship_megaphone_64)
         .setBody(R.string.CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service)
         .setActionButton(R.string.CensorshipCircumventionMegaphone_turn_off, (megaphone, listener) -> {
           SignalStore.settings().setCensorshipCircumventionEnabled(false);
-          listener.onMegaphoneSnooze(Event.TURN_OFF_CENSORSHIP_CIRCUMVENTION);
+          listener.onMegaphoneSnooze(TURN_OFF_CENSORSHIP_CIRCUMVENTION);
         })
         .setSecondaryButton(R.string.CensorshipCircumventionMegaphone_no_thanks, (megaphone, listener) -> {
-          listener.onMegaphoneSnooze(Event.TURN_OFF_CENSORSHIP_CIRCUMVENTION);
+          listener.onMegaphoneSnooze(TURN_OFF_CENSORSHIP_CIRCUMVENTION);
         })
         .build();
   }
@@ -315,7 +339,7 @@ public final class Megaphones {
     RemoteMegaphoneRecord record = RemoteMegaphoneRepository.getRemoteMegaphoneToShow(System.currentTimeMillis());
 
     if (record != null) {
-      Megaphone.Builder builder = new Megaphone.Builder(Event.REMOTE_MEGAPHONE, Megaphone.Style.BASIC)
+      Megaphone.Builder builder = new Megaphone.Builder(REMOTE_MEGAPHONE, Megaphone.Style.BASIC)
           .setTitle(record.getTitle())
           .setBody(record.getBody());
 
@@ -351,7 +375,7 @@ public final class Megaphones {
 
   @SuppressLint("InlinedApi")
   private static Megaphone buildBackupPermissionMegaphone(@NonNull Context context) {
-    return new Megaphone.Builder(Event.BACKUP_SCHEDULE_PERMISSION, Megaphone.Style.BASIC)
+    return new Megaphone.Builder(BACKUP_SCHEDULE_PERMISSION, Megaphone.Style.BASIC)
         .setTitle(R.string.BackupSchedulePermissionMegaphone__cant_back_up_chats)
         .setImage(R.drawable.ic_cant_backup_megaphone)
         .setBody(R.string.BackupSchedulePermissionMegaphone__your_chats_are_no_longer_being_automatically_backed_up)
@@ -359,7 +383,7 @@ public final class Megaphones {
           controller.onMegaphoneDialogFragmentRequested(new ReenableBackupsDialogFragment());
         })
         .setSecondaryButton(R.string.BackupSchedulePermissionMegaphone__not_now, (megaphone, controller) -> {
-          controller.onMegaphoneSnooze(Event.BACKUP_SCHEDULE_PERMISSION);
+          controller.onMegaphoneSnooze(BACKUP_SCHEDULE_PERMISSION);
         })
         .build();
   }
@@ -367,7 +391,7 @@ public final class Megaphones {
   private static @NonNull Megaphone buildSmsExportMegaphone(@NonNull Context context) {
     SmsExportPhase phase = SignalStore.misc().getSmsExportPhase();
 
-    Megaphone.Builder builder = new Megaphone.Builder(Event.SMS_EXPORT, Megaphone.Style.FULLSCREEN)
+    Megaphone.Builder builder = new Megaphone.Builder(SMS_EXPORT, Megaphone.Style.FULLSCREEN)
         .setOnVisibleListener((megaphone, controller) -> {
           if (phase.isBlockingUi()) {
             SmsExportReminderSchedule.setShowPhase3Megaphone(false);
@@ -383,7 +407,7 @@ public final class Megaphones {
   }
 
   public static @NonNull Megaphone buildSetUpYourUsernameMegaphone(@NonNull Context context) {
-    return new Megaphone.Builder(Event.SET_UP_YOUR_USERNAME, Megaphone.Style.BASIC)
+    return new Megaphone.Builder(SET_UP_YOUR_USERNAME, Megaphone.Style.BASIC)
         .setTitle(R.string.SetUpYourUsername__set_up_your_signal_username)
         .setBody(R.string.SetUpYourUsername__usernames_let_others)
         .setImage(R.drawable.usernames_64)
@@ -391,7 +415,7 @@ public final class Megaphones {
           controller.onMegaphoneNavigationRequested(ManageProfileActivity.getIntentForUsernameEdit(context));
         })
         .setSecondaryButton(R.string.SetUpYourUsername__not_now, (megaphone, controller) -> {
-          controller.onMegaphoneCompleted(Event.SET_UP_YOUR_USERNAME);
+          controller.onMegaphoneCompleted(SET_UP_YOUR_USERNAME);
         })
         .build();
   }
@@ -458,7 +482,7 @@ public final class Megaphones {
    */
   private static boolean shouldShowSetUpYourUsernameMegaphone(@NonNull Map<Event, MegaphoneRecord> records) {
     boolean                                         hasUsername                    = SignalStore.account().isRegistered() && Recipient.self().getUsername().isPresent();
-    boolean                                         hasCompleted                   = MapUtil.mapOrDefault(records, Event.SET_UP_YOUR_USERNAME, MegaphoneRecord::isFinished, false);
+    boolean                                         hasCompleted                   = MapUtil.mapOrDefault(records, SET_UP_YOUR_USERNAME, MegaphoneRecord::isFinished, false);
     long                                            phoneNumberDiscoveryDisabledAt = SignalStore.phoneNumberPrivacy().getPhoneNumberListingModeTimestamp();
     PhoneNumberPrivacyValues.PhoneNumberListingMode listingMode                    = SignalStore.phoneNumberPrivacy().getPhoneNumberListingMode();
 
@@ -472,7 +496,7 @@ public final class Megaphones {
 
   @WorkerThread
   private static boolean shouldShowRemoteMegaphone(@NonNull Map<Event, MegaphoneRecord> records) {
-    boolean canShowLocalDonate = timeSinceLastDonatePrompt(Event.REMOTE_MEGAPHONE, records) > MIN_TIME_BETWEEN_DONATE_MEGAPHONES;
+    boolean canShowLocalDonate = timeSinceLastDonatePrompt(REMOTE_MEGAPHONE, records) > MIN_TIME_BETWEEN_DONATE_MEGAPHONES;
     return RemoteMegaphoneRepository.hasRemoteMegaphoneToShow(canShowLocalDonate);
   }
 
@@ -542,3 +566,4 @@ public final class Megaphones {
     }
   }
 }
+

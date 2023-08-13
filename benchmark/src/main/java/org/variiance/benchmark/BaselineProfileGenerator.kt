@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalBaselineProfilesApi::class)
 
-package org.thoughtcrime.benchmark
+package org.variiance.benchmark
 
 import androidx.benchmark.macro.ExperimentalBaselineProfilesApi
 import androidx.benchmark.macro.junit4.BaselineProfileRule

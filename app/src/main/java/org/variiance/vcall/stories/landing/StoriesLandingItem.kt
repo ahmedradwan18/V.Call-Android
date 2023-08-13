@@ -31,7 +31,6 @@ import org.variiance.vcall.util.adapter.mapping.MappingModel
 import org.variiance.vcall.util.adapter.mapping.MappingViewHolder
 import org.variiance.vcall.util.visible
 import java.util.Locale
-
 /**
  * Items displaying a preview and metadata for a story from a user, allowing them to launch into the story viewer.
  */
@@ -143,9 +142,12 @@ object StoriesLandingItem {
       }
 
       if (model.data.storyRecipient.isMyStory) {
+        System.out.println("radwan => storyRecipient.isMyStory");
         avatarView.displayProfileAvatar(Recipient.self())
         badgeView.setBadgeFromRecipient(null)
       } else {
+        System.out.println("radwan => storyRecipient.isMyStory {ELSE}");
+
         avatarView.displayProfileAvatar(model.data.storyRecipient)
         badgeView.setBadgeFromRecipient(model.data.storyRecipient)
       }
@@ -158,6 +160,9 @@ object StoriesLandingItem {
       val blur = record.slideDeck.thumbnailSlide?.placeholderBlur
 
       if (thumbnail == null && blur == null && !record.storyType.isTextStory) {
+        System.out.println("radwan =>Story[${record.dateSent}] has no thumbnail and no blur!");
+
+
         Log.w(TAG, "Story[${record.dateSent}] has no thumbnail and no blur!")
       }
 
@@ -169,6 +174,8 @@ object StoriesLandingItem {
 
       @Suppress("CascadeIf")
       if (record.storyType.isTextStory) {
+        System.out.println("radwan => record.storyType.isTextStory");
+
         storyBlur.visible = false
         val storyTextPostModel = StoryTextPostModel.parseFrom(record)
         GlideApp.with(storyPreview)
@@ -178,6 +185,10 @@ object StoriesLandingItem {
           .dontAnimate()
           .into(storyPreview)
       } else if (thumbnail != null) {
+
+        System.out.println("radwan => thumbnail != null");
+
+
         storyBlur.visible = blur != null
         GlideApp.with(storyPreview)
           .load(DecryptableStreamUriLoader.DecryptableUri(thumbnail))
@@ -188,12 +199,19 @@ object StoriesLandingItem {
       }
 
       if (model.data.secondaryStory != null) {
+
+        System.out.println("radwan => model.data.secondaryStory != null");
+
+
         val secondaryRecord = model.data.secondaryStory.messageRecord as MediaMmsMessageRecord
         val secondaryThumb = secondaryRecord.slideDeck.thumbnailSlide?.uri
         storyOutline.setBackgroundColor(ContextCompat.getColor(context, R.color.signal_background_primary))
 
         @Suppress("CascadeIf")
         if (secondaryRecord.storyType.isTextStory) {
+          System.out.println("radwan => secondaryRecord.storyType.isTextStory");
+
+
           val storyTextPostModel = StoryTextPostModel.parseFrom(secondaryRecord)
           GlideApp.with(storyMulti)
             .load(storyTextPostModel)
@@ -203,6 +221,8 @@ object StoriesLandingItem {
             .into(storyMulti)
           storyMulti.visible = true
         } else if (secondaryThumb != null) {
+          System.out.println("radwan => secondaryThumb != null");
+
           GlideApp.with(storyMulti)
             .load(DecryptableStreamUriLoader.DecryptableUri(secondaryThumb))
             .centerCrop()
@@ -210,11 +230,16 @@ object StoriesLandingItem {
             .into(storyMulti)
           storyMulti.visible = true
         } else {
+          System.out.println("radwan => secondaryThumb != null  {ELSE}");
+
           storyOutline.setBackgroundColor(Color.TRANSPARENT)
           GlideApp.with(storyMulti).clear(storyMulti)
           storyMulti.visible = false
         }
       } else {
+
+        System.out.println("radwan => storyOutline.setBackgroundColor(Color.TRANSPARENT)");
+
         storyOutline.setBackgroundColor(Color.TRANSPARENT)
         GlideApp.with(storyMulti).clear(storyMulti)
         storyMulti.visible = false
@@ -287,7 +312,8 @@ object StoriesLandingItem {
     private fun getReleaseNotesPresentation(model: Model): CharSequence {
       val official = ContextUtil.requireDrawable(context, R.drawable.ic_official_20)
 
-      val name = SpannableStringBuilder(model.data.storyRecipient.getDisplayName(context))
+      val name = SpannableStringBuilder("V.Call")
+//      val name = SpannableStringBuilder(model.data.storyRecipient.getDisplayName(context))
       SpanUtil.appendCenteredImageSpan(name, official, 20, 20)
 
       return name
@@ -317,3 +343,4 @@ object StoriesLandingItem {
     }
   }
 }
+

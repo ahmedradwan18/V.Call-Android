@@ -1,4 +1,4 @@
-package org.thoughtcrime.benchmark
+package org.variiance.benchmark
 
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiDevice

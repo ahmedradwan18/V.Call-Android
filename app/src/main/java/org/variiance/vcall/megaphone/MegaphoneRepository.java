@@ -65,7 +65,9 @@ public class MegaphoneRepository {
   public void getNextMegaphone(@NonNull Callback<Megaphone> callback) {
     executor.execute(() -> {
       if (enabled) {
+
         init();
+        //TODO: (SUPERAPP) => APP POPUPS FROM HERE
         callback.onResult(Megaphones.getNextMegaphone(context, databaseCache));
       } else {
         callback.onResult(null);
@@ -145,3 +147,4 @@ public class MegaphoneRepository {
     void onResult(E result);
   }
 }
+

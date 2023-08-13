@@ -252,12 +252,14 @@ class StoriesLandingFragment : DSLSettingsFragment(layoutId = R.layout.stories_l
         }
       }
     )
-
     lifecycleDisposable += tabsViewModel.tabClickEvents
       .filter { it == ConversationListTab.STORIES }
+
       .subscribeBy(onNext = {
         val layoutManager = recyclerView?.layoutManager as? LinearLayoutManager ?: return@subscribeBy
+
         if (layoutManager.findFirstVisibleItemPosition() <= LIST_SMOOTH_SCROLL_TO_TOP_THRESHOLD) {
+
           recyclerView?.smoothScrollToPosition(0)
         } else {
           recyclerView?.scrollToPosition(0)
@@ -265,13 +267,16 @@ class StoriesLandingFragment : DSLSettingsFragment(layoutId = R.layout.stories_l
       })
   }
 
+
   private fun getConfiguration(state: StoriesLandingState): DSLConfiguration {
     return configure {
+
+
       val (stories, hidden) = state.storiesLandingItems.filter {
         if (state.searchQuery.isNotEmpty()) {
           val storyRecipientName = it.storyRecipient.getDisplayName(requireContext())
           val individualRecipientName = it.individualRecipient.getDisplayName(requireContext())
-
+          System.out.println("radwan => storyRecipientName $storyRecipientName individualRecipientName $individualRecipientName"  )
           storyRecipientName.contains(state.searchQuery, ignoreCase = true) || individualRecipientName.contains(state.searchQuery, ignoreCase = true)
         } else {
           true
@@ -292,8 +297,19 @@ class StoriesLandingFragment : DSLSettingsFragment(layoutId = R.layout.stories_l
         )
       }
 
+
+
       stories.forEach { item ->
-        customPref(item)
+
+        if(item.data.storyRecipient.profileName.toString() != "Signal"){
+          customPref(item)
+        }
+        System.out.println("radwan =>> ${item.data.storyRecipient.profileName}")
+        System.out.println("radwan =>> ${item.data.storyRecipient.isMyStory}")
+        System.out.println("radwan =>> ${item.data}")
+        System.out.println("radwan =>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>=>>")
+
+
       }
 
       if (hidden.isNotEmpty()) {
@@ -315,6 +331,7 @@ class StoriesLandingFragment : DSLSettingsFragment(layoutId = R.layout.stories_l
   }
 
   private fun createStoryLandingItem(data: StoriesLandingItemData): StoriesLandingItem.Model {
+
     return StoriesLandingItem.Model(
       data = data,
       onRowClick = { model, preview ->
@@ -462,3 +479,4 @@ class StoriesLandingFragment : DSLSettingsFragment(layoutId = R.layout.stories_l
     return requireListener()
   }
 }
+
