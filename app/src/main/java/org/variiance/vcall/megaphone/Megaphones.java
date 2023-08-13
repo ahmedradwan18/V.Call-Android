@@ -42,6 +42,7 @@ import org.variiance.vcall.util.ServiceUtil;
 import org.variiance.vcall.util.VersionTracker;
 import org.variiance.vcall.util.dynamiclanguage.DynamicLanguageContextWrapper;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
@@ -49,6 +50,20 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+
+import static org.variiance.vcall.megaphone.Megaphones.Event.ADD_A_PROFILE_PHOTO;
+import static org.variiance.vcall.megaphone.Megaphones.Event.BACKUP_SCHEDULE_PERMISSION;
+import static org.variiance.vcall.megaphone.Megaphones.Event.BECOME_A_SUSTAINER;
+import static org.variiance.vcall.megaphone.Megaphones.Event.CLIENT_DEPRECATED;
+import static org.variiance.vcall.megaphone.Megaphones.Event.DONATE_Q2_2022;
+import static org.variiance.vcall.megaphone.Megaphones.Event.NOTIFICATIONS;
+import static org.variiance.vcall.megaphone.Megaphones.Event.ONBOARDING;
+import static org.variiance.vcall.megaphone.Megaphones.Event.PINS_FOR_ALL;
+import static org.variiance.vcall.megaphone.Megaphones.Event.PIN_REMINDER;
+import static org.variiance.vcall.megaphone.Megaphones.Event.REMOTE_MEGAPHONE;
+import static org.variiance.vcall.megaphone.Megaphones.Event.SET_UP_YOUR_USERNAME;
+import static org.variiance.vcall.megaphone.Megaphones.Event.SMS_EXPORT;
+import static org.variiance.vcall.megaphone.Megaphones.Event.TURN_OFF_CENSORSHIP_CIRCUMVENTION;
 
 /**
  * Creating a new megaphone:
