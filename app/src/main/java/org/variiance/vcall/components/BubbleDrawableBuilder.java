@@ -7,7 +7,8 @@ import android.graphics.drawable.LayerDrawable;
 
 import org.variiance.vcall.R;
 
-public class BubbleDrawableBuilder {
+public class
+BubbleDrawableBuilder {
   private int color;
   private int shadowColor;
   private boolean hasShadow = true;

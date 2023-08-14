@@ -5,8 +5,9 @@ data class ConversationListTabsState(
   val prevTab: ConversationListTab = ConversationListTab.STORIES,
   val unreadMessagesCount: Long = 0L,
   val unreadCallsCount: Long = 0L,
+  val unreadDiscoverCount: Long = 0L,
   val unreadStoriesCount: Long = 0L,
-  val unreadMeetingsCount: Long = 0L,
+  val unreadAppsCount: Long = 0L,
   val hasFailedStory: Boolean = false,
   val visibilityState: VisibilityState = VisibilityState()
 ) {

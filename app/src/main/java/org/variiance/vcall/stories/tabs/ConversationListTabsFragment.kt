@@ -57,17 +57,23 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       LottieProperty.COLOR
     ) { iconTint }
 
-    binding.storiesTabIcon.addValueCallback(
+
+    binding.discoverTabIcon.addValueCallback(
       KeyPath("**"),
       LottieProperty.COLOR
     ) { iconTint }
 
 
-/*    binding.settingsTabIcon.addValueCallback(
+    binding.appsTabIcon.addValueCallback(
       KeyPath("**"),
       LottieProperty.COLOR
-    ) { iconTint }*/
+    ) { iconTint }
 
+
+    binding.storiesTabIcon.addValueCallback(
+      KeyPath("**"),
+      LottieProperty.COLOR
+    ) { iconTint }
 
 
 
@@ -80,13 +86,19 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       viewModel.onCallsSelected()
     }
 
+    view.findViewById<View>(R.id.discover_tab_touch_point).setOnClickListener {
+      viewModel.onDiscoverSelected()
+    }
+
+
+    view.findViewById<View>(R.id.apps_tab_touch_point).setOnClickListener {
+      viewModel.onAppsSelected()
+    }
+
     view.findViewById<View>(R.id.stories_tab_touch_point).setOnClickListener {
       viewModel.onStoriesSelected()
     }
-//
-//    view.findViewById<View>(R.id.settings_tab_touch_point).setOnClickListener {
-//      viewModel.onSettingsSelected()
-//    }
+
 
     updateTabsVisibility()
 
@@ -121,6 +133,30 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       it.visible = true
     }
 
+
+    listOf(
+      binding.discoverPill,
+      binding.discoverTabIcon,
+      binding.discoverTabContainer,
+      binding.discoverTabLabel,
+      binding.discoverUnreadIndicator,
+      binding.discoverTabTouchPoint
+    ).forEach {
+      it.visible = true
+    }
+
+
+    listOf(
+      binding.appsPill,
+      binding.appsTabIcon,
+      binding.appsTabContainer,
+      binding.appsTabLabel,
+      binding.appsUnreadIndicator,
+      binding.appsTabTouchPoint
+    ).forEach {
+      it.visible = true
+    }
+
     listOf(
       binding.storiesPill,
       binding.storiesTabIcon,
@@ -146,17 +182,6 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       }
     }
 
-/*    listOf(
-      binding.settingsPill,
-      binding.settingsTabIcon,
-      binding.settingsTabContainer,
-      binding.settingsTabLabel,
-      binding.settingsUnreadIndicator,
-      binding.settingsTabTouchPoint
-    ).forEach {
-      it.visible = Stories.isFeatureEnabled()
-    }*/
-
     update(viewModel.stateSnapshot, true)
   }
 
@@ -172,8 +197,13 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
     binding.callsTabIcon.isSelected = state.tab == ConversationListTab.CALLS
     binding.callsPill.isSelected = state.tab == ConversationListTab.CALLS
 
-//    binding.settingsTabIcon.isSelected = state.tab == ConversationListTab.SETTINGS
-//    binding.settingsPill.isSelected = state.tab == ConversationListTab.SETTINGS
+    binding.discoverTabIcon.isSelected = state.tab == ConversationListTab.DISCOVER
+    binding.discoverPill.isSelected = state.tab == ConversationListTab.DISCOVER
+
+    binding.appsTabIcon.isSelected = state.tab == ConversationListTab.APPS
+    binding.appsPill.isSelected = state.tab == ConversationListTab.APPS
+
+
 
     val hasStateChange = state.tab != state.prevTab
     if (immediate) {
@@ -188,15 +218,21 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       binding.callsTabIcon.pauseAnimation()
       binding.callsTabIcon.progress = if (state.tab == ConversationListTab.CALLS) 1f else 0f
 
-//      binding.settingsTabIcon.pauseAnimation()
-//      binding.settingsTabIcon.progress = if (state.tab == ConversationListTab.SETTINGS) 1f else 0f
+      binding.discoverTabIcon.pauseAnimation()
+      binding.discoverTabIcon.progress = if (state.tab == ConversationListTab.DISCOVER) 1f else 0f
+
+      binding.appsTabIcon.pauseAnimation()
+      binding.appsTabIcon.progress = if (state.tab == ConversationListTab.APPS) 1f else 0f
+
+
 
       runPillAnimation(
         0,
         listOfNotNull(
           binding.chatsPill,
           binding.callsPill,
-//          binding.settingsPill,
+          binding.discoverPill,
+          binding.appsPill,
           binding.storiesPill.takeIf { Stories.isFeatureEnabled() }
         )
       )
@@ -205,7 +241,8 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
         listOfNotNull(
           binding.chatsTabIcon,
           binding.callsTabIcon,
-//          binding.settingsTabIcon,
+          binding.discoverTabIcon,
+          binding.appsTabIcon,
           binding.storiesTabIcon.takeIf { Stories.isFeatureEnabled() }
         )
       )
@@ -215,7 +252,8 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
         listOfNotNull(
           binding.chatsPill,
           binding.callsPill,
-//          binding.settingsPill,
+          binding.discoverPill,
+          binding.appsPill,
           binding.storiesPill.takeIf { Stories.isFeatureEnabled() }
         )
       )
@@ -232,8 +270,13 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
     binding.callsUnreadIndicator.visible = state.unreadCallsCount > 0
     binding.callsUnreadIndicator.text = formatCount(state.unreadCallsCount)
 
-//    binding.settingsUnreadIndicator.visible = state.unreadMeetingsCount > 0
-//    binding.settingsUnreadIndicator.text = formatCount(state.unreadMeetingsCount)
+    binding.discoverUnreadIndicator.visible = state.unreadDiscoverCount > 0
+    binding.discoverUnreadIndicator.text = formatCount(state.unreadDiscoverCount)
+
+    binding.appsUnreadIndicator.visible = state.unreadAppsCount > 0
+    binding.appsUnreadIndicator.text = formatCount(state.unreadAppsCount)
+
+
 
     requireView().visible = state.visibilityState.isVisible()
   }

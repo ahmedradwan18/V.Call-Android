@@ -38,6 +38,10 @@ class ConversationListTabsViewModel(repository: ConversationListTabRepository) :
       state.copy(unreadStoriesCount = unseenStories)
     }
 
+    disposables += performStoreUpdate(repository.getNumberOfUnseenStories()) { unseenStories, state ->
+      state.copy(unreadStoriesCount = unseenStories)
+    }
+
     disposables += performStoreUpdate(repository.getHasFailedOutgoingStories()) { hasFailedStories, state ->
       state.copy(hasFailedStory = hasFailedStories)
     }
@@ -57,17 +61,23 @@ class ConversationListTabsViewModel(repository: ConversationListTabRepository) :
     performStoreUpdate { it.copy(tab = ConversationListTab.CALLS) }
   }
 
+
+  fun onDiscoverSelected() {
+    internalTabClickEvents.onNext(ConversationListTab.DISCOVER)
+    performStoreUpdate { it.copy(tab = ConversationListTab.DISCOVER) }
+  }
+
+  fun onAppsSelected() {
+    internalTabClickEvents.onNext(ConversationListTab.APPS)
+    performStoreUpdate { it.copy(tab = ConversationListTab.APPS) }
+  }
+
   fun onStoriesSelected() {
     internalTabClickEvents.onNext(ConversationListTab.STORIES)
     performStoreUpdate { it.copy(tab = ConversationListTab.STORIES) }
   }
 
 
-
-  fun onSettingsSelected() {
-    internalTabClickEvents.onNext(ConversationListTab.SETTINGS)
-    performStoreUpdate { it.copy(tab = ConversationListTab.SETTINGS) }
-  }
 
   fun onSearchOpened() {
     performStoreUpdate { it.copy(visibilityState = it.visibilityState.copy(isSearchOpen = true)) }

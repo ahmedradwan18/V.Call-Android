@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_activity_list"
     app:startDestination="@id/conversationListFragment">
 
@@ -18,9 +19,16 @@
         <action
             android:id="@+id/action_conversationListFragment_to_storiesLandingFragment"
             app:destination="@id/storiesLandingFragment" />
+
+        <action
+            android:id="@+id/action_conversationListFragment_to_appsFragment"
+            app:destination="@id/appsFragment" />
         <action
             android:id="@+id/action_conversationListFragment_to_callLogFragment"
             app:destination="@id/callLogFragment" />
+        <action
+            android:id="@+id/action_conversationListFragment_to_discoverFragment"
+            app:destination="@id/discoverFragment" />
     </fragment>
 
 
@@ -46,6 +54,12 @@
         <action
             android:id="@+id/action_storiesLandingFragment_to_callLogFragment"
             app:destination="@id/callLogFragment" />
+        <action
+            android:id="@+id/action_storiesLandingFragment_to_discoverFragment"
+            app:destination="@id/discoverFragment" />
+        <action
+            android:id="@+id/action_storiesLandingFragment_to_appsFragment"
+            app:destination="@id/appsFragment" />
     </fragment>
 
 
@@ -59,6 +73,13 @@
         <action
             android:id="@+id/action_callLogFragment_to_storiesLandingFragment"
             app:destination="@id/storiesLandingFragment" />
+        <action
+            android:id="@+id/action_callLogFragment_to_discoverFragment"
+            app:destination="@id/discoverFragment" />
+
+        <action
+            android:id="@+id/action_callLogFragment_to_appsFragment"
+            app:destination="@id/appsFragment" />
         <action
             android:id="@+id/action_callLogFragment_to_createCallLinkBottomSheet"
             app:destination="@id/createCallLinkBottomSheet" />
@@ -88,5 +109,47 @@
             app:nullable="false" />
 
     </dialog>
+
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="org.variiance.vcall.discover.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_discover" >
+
+        <action
+            android:id="@+id/action_discoverFragment_to_storiesLandingFragment"
+            app:destination="@id/storiesLandingFragment" />
+        <action
+            android:id="@+id/action_discoverFragment_to_callLogFragment"
+            app:destination="@id/callLogFragment" />
+
+        <action
+            android:id="@+id/action_discoverFragment_to_appsFragment"
+            app:destination="@id/appsFragment" />
+
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/appsFragment"
+        android:name="org.variiance.vcall.apps.AppsFragment"
+        android:label="fragment_apps"
+        tools:layout="@layout/fragment_apps" >
+
+        <action
+            android:id="@+id/action_appsFragment_to_storiesLandingFragment"
+            app:destination="@id/storiesLandingFragment" />
+        <action
+            android:id="@+id/action_appsFragment_to_callLogFragment"
+            app:destination="@id/callLogFragment" />
+
+        <action
+            android:id="@+id/action_appsFragment_to_discoverFragment"
+            app:destination="@id/callLogFragment" />
+
+
+    </fragment>
 
 </navigation>

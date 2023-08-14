@@ -44,6 +44,8 @@ public class MessagingService {
   }
 
   public Single<ServiceResponse<SendMessageResponse>> send(OutgoingPushMessageList list, Optional<UnidentifiedAccess> unidentifiedAccess, boolean story) {
+
+    System.out.println("radwan => send message");
     List<String> headers = new LinkedList<String>() {{
       add("content-type:application/json");
     }};

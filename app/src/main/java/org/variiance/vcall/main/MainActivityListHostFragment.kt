@@ -106,7 +106,8 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
         R.id.conversationListArchiveFragment -> Unit
         R.id.storiesLandingFragment -> goToStateFromStories(state, controller)
         R.id.callLogFragment -> goToStateFromCalling(state, controller)
-//        R.id.callLogFragment -> goToStateFromSettings(state, controller)
+        R.id.discoverFragment -> goToStateFromDiscover(state, controller)
+        R.id.appsFragment -> goToStateFromApps(state, controller)
       }
     }
   }
@@ -132,7 +133,14 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
       val destination = if (state.tab == ConversationListTab.STORIES) {
         R.id.action_conversationListFragment_to_storiesLandingFragment
-      } else {
+      } else if(state.tab == ConversationListTab.DISCOVER){
+        R.id.action_conversationListFragment_to_discoverFragment
+      }
+
+      else if(state.tab == ConversationListTab.APPS){
+        R.id.action_conversationListFragment_to_appsFragment
+      }
+      else {
         R.id.action_conversationListFragment_to_callLogFragment
       }
 
@@ -150,27 +158,42 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
       ConversationListTab.CALLS -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-      ConversationListTab.SETTINGS -> openSettings.launch(AppSettingsActivity.home(requireContext()))
+//      ConversationListTab.DISCOVER -> navController.popBackStack(R.id.discoverFragment, false)
+      ConversationListTab.DISCOVER -> navController.navigate(R.id.action_callLogFragment_to_discoverFragment)
       ConversationListTab.STORIES -> navController.navigate(R.id.action_callLogFragment_to_storiesLandingFragment)
+      ConversationListTab.APPS -> navController.navigate(R.id.action_callLogFragment_to_storiesLandingFragment)
     }
   }
 
-  private fun goToStateFromSettings(state: ConversationListTabsState, navController: NavController) {
+  private fun goToStateFromDiscover(state: ConversationListTabsState, navController: NavController) {
     when (state.tab) {
 
-      ConversationListTab.SETTINGS -> return
+      ConversationListTab.DISCOVER -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-      ConversationListTab.CALLS -> navController.navigate(R.id.action_storiesLandingFragment_to_callLogFragment)
-      ConversationListTab.STORIES -> navController.navigate(R.id.action_callLogFragment_to_storiesLandingFragment)
+      ConversationListTab.STORIES -> navController.navigate(R.id.action_discoverFragment_to_storiesLandingFragment)
+      ConversationListTab.CALLS -> navController.navigate(R.id.action_discoverFragment_to_callLogFragment)
+      ConversationListTab.APPS -> navController.navigate(R.id.action_discoverFragment_to_appsFragment)
     }
   }
+  private fun goToStateFromApps(state: ConversationListTabsState, navController: NavController) {
+    when (state.tab) {
+
+      ConversationListTab.APPS -> return
+      ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
+      ConversationListTab.STORIES -> navController.navigate(R.id.action_appsFragment_to_storiesLandingFragment)
+      ConversationListTab.CALLS -> navController.navigate(R.id.action_appsFragment_to_callLogFragment)
+      ConversationListTab.DISCOVER -> navController.navigate(R.id.action_appsFragment_to_discoverFragment)
+    }
+  }
+
 
   private fun goToStateFromStories(state: ConversationListTabsState, navController: NavController) {
     when (state.tab) {
       ConversationListTab.STORIES -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
       ConversationListTab.CALLS -> navController.navigate(R.id.action_storiesLandingFragment_to_callLogFragment)
-      ConversationListTab.SETTINGS -> openSettings.launch(AppSettingsActivity.home(requireContext()))
+      ConversationListTab.DISCOVER -> navController.navigate(R.id.action_storiesLandingFragment_to_discoverFragment)
+      ConversationListTab.APPS -> navController.navigate(R.id.action_storiesLandingFragment_to_appsFragment)
 
     }
   }
@@ -212,6 +235,14 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
   }
 
   private fun presentToolbarForStoriesLandingFragment() {
+    _toolbar.visible = true
+    _searchAction.visible = true
+    if (_basicToolbar.resolved()) {
+      _basicToolbar.get().visible = false
+    }
+  }
+
+  private fun presentToolbarForDiscoverFragment() {
     _toolbar.visible = true
     _searchAction.visible = true
     if (_basicToolbar.resolved()) {
@@ -361,6 +392,7 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
   private fun presentToolbarForDestination(destination: NavDestination) {
     when (destination.id) {
+
       R.id.conversationListFragment -> {
         conversationListTabsViewModel.isShowingArchived(false)
         presentToolbarForConversationListFragment()
@@ -380,6 +412,16 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
         conversationListTabsViewModel.isShowingArchived(false)
         presentToolbarForCallLogFragment()
       }
+
+      R.id.discoverFragment -> {
+        conversationListTabsViewModel.isShowingArchived(false)
+        presentToolbarForDiscoverFragment()
+      }
+
+//      R.id.appsFragment -> {
+//        conversationListTabsViewModel.isShowingArchived(false)
+//        presentToolbarForDiscoverFragment()
+//      }
     }
   }
 
