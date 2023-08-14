@@ -5508,13 +5508,13 @@
 
 
   <!-- region "Discover Tab" -->
-  <string name="discover_more">اكتشف المزيد</string>
-  <string name="discover_your_personal_assistant">مساعدك الشخصي الذكي</string>
+  <string name="discover_more">اكتشف أكثر</string>
+  <string name="discover_your_personal_assistant">مساعدك الآلي</string>
   <string name="discover_learning_hub">مركز التعلم</string>
-  <string name="discover_professionals">المهنيين</string>
+  <string name="discover_professionals">المتخصصين</string>
   <string name="discover_wallet">المحفظة الإلكترونية</string>
-  <string name="discover_payment">المدفوعات</string>
-  <string name="discover_live_streaming">بث مباشر</string>
+  <string name="discover_payment">الدفع</string>
+  <string name="discover_live_streaming">البث المباشر</string>
 
 
 
@@ -5534,7 +5534,7 @@
     <string name="ConversationListTabs__stories">القِصَص</string>
     <!-- String for counts above 99 in conversation list tabs -->
   <!-- Label for Discover tab in home app screen -->
-  <string name="ConversationListTabs__discover">اكتشف</string>
+  <string name="ConversationListTabs__discover">استكشف</string>
     <string name="ConversationListTabs__99p">99+</string>
     <!-- Menu item on stories landing page -->
     <string name="StoriesLandingFragment__story_privacy">إعدادات خصوصية القِصة</string>
