@@ -4,6 +4,7 @@ enum class ConversationListTab {
   CHATS,
   CALLS,
   DISCOVER,
-  STORIES,
+//  STORIES,
+  ROOMS,
   APPS
 }

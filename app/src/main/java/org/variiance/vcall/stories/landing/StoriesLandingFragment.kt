@@ -242,6 +242,7 @@ class StoriesLandingFragment : DSLSettingsFragment(layoutId = R.layout.stories_l
       }
     }
 
+
     requireActivity().onBackPressedDispatcher.addCallback(
       viewLifecycleOwner,
       object : OnBackPressedCallback(true) {
@@ -252,7 +253,7 @@ class StoriesLandingFragment : DSLSettingsFragment(layoutId = R.layout.stories_l
         }
       }
     )
-    lifecycleDisposable += tabsViewModel.tabClickEvents
+/*    lifecycleDisposable += tabsViewModel.tabClickEvents
       .filter { it == ConversationListTab.STORIES }
 
       .subscribeBy(onNext = {
@@ -264,7 +265,7 @@ class StoriesLandingFragment : DSLSettingsFragment(layoutId = R.layout.stories_l
         } else {
           recyclerView?.scrollToPosition(0)
         }
-      })
+      })*/
   }
 
 

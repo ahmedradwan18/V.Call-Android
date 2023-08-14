@@ -34,17 +34,17 @@ class ConversationListTabsViewModel(repository: ConversationListTabRepository) :
       state.copy(unreadCallsCount = unseenCalls)
     }
 
-    disposables += performStoreUpdate(repository.getNumberOfUnseenStories()) { unseenStories, state ->
-      state.copy(unreadStoriesCount = unseenStories)
-    }
+//    disposables += performStoreUpdate(repository.getNumberOfUnseenStories()) { unseenStories, state ->
+//      state.copy(unreadStoriesCount = unseenStories)
+//    }
 
-    disposables += performStoreUpdate(repository.getNumberOfUnseenStories()) { unseenStories, state ->
-      state.copy(unreadStoriesCount = unseenStories)
-    }
+//    disposables += performStoreUpdate(repository.getNumberOfUnseenStories()) { unseenStories, state ->
+//      state.copy(unreadStoriesCount = unseenStories)
+//    }
 
-    disposables += performStoreUpdate(repository.getHasFailedOutgoingStories()) { hasFailedStories, state ->
-      state.copy(hasFailedStory = hasFailedStories)
-    }
+//    disposables += performStoreUpdate(repository.getHasFailedOutgoingStories()) { hasFailedStories, state ->
+//      state.copy(hasFailedStory = hasFailedStories)
+//    }
   }
 
   override fun onCleared() {
@@ -72,9 +72,15 @@ class ConversationListTabsViewModel(repository: ConversationListTabRepository) :
     performStoreUpdate { it.copy(tab = ConversationListTab.APPS) }
   }
 
-  fun onStoriesSelected() {
+/*  fun onStoriesSelected() {
     internalTabClickEvents.onNext(ConversationListTab.STORIES)
     performStoreUpdate { it.copy(tab = ConversationListTab.STORIES) }
+  } */
+
+
+  fun onRoomsSelected() {
+    internalTabClickEvents.onNext(ConversationListTab.ROOMS)
+    performStoreUpdate { it.copy(tab = ConversationListTab.ROOMS) }
   }
 
 

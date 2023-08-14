@@ -5521,7 +5521,8 @@
   <!-- region "Apps Tab" -->
   <string name="apps">تطبيقات</string>
 
-
+  <!-- region "Rooms Tab" -->
+  <string name="rooms">الغرف</string>
 
   <!-- region "Stories Tab" -->
 

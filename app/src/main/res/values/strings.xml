@@ -5110,6 +5110,9 @@
     <string name="apps">Apps</string>
 
 
+    <!-- region "Rooms Tab" -->
+    <string name="rooms">Rooms</string>
+
 
     <!-- region "Discover Tab" -->
     <string name="discover_more">Discover More</string>

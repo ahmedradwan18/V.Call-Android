@@ -104,7 +104,7 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
         R.id.conversationListFragment -> goToStateFromConversationList(state, controller)
         R.id.conversationListArchiveFragment -> Unit
-        R.id.storiesLandingFragment -> goToStateFromStories(state, controller)
+        R.id.roomsFragment -> goToStateFromRooms(state, controller)
         R.id.callLogFragment -> goToStateFromCalling(state, controller)
         R.id.discoverFragment -> goToStateFromDiscover(state, controller)
         R.id.appsFragment -> goToStateFromApps(state, controller)
@@ -131,8 +131,8 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
         )
       }
 
-      val destination = if (state.tab == ConversationListTab.STORIES) {
-        R.id.action_conversationListFragment_to_storiesLandingFragment
+      val destination = if (state.tab == ConversationListTab.ROOMS) {
+        R.id.action_conversationListFragment_to_roomsFragment
       } else if(state.tab == ConversationListTab.DISCOVER){
         R.id.action_conversationListFragment_to_discoverFragment
       }
@@ -157,43 +157,48 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
     when (state.tab) {
 
       ConversationListTab.CALLS -> return
+//      ConversationListTab.STORIES -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
 //      ConversationListTab.DISCOVER -> navController.popBackStack(R.id.discoverFragment, false)
       ConversationListTab.DISCOVER -> navController.navigate(R.id.action_callLogFragment_to_discoverFragment)
-      ConversationListTab.STORIES -> navController.navigate(R.id.action_callLogFragment_to_storiesLandingFragment)
-      ConversationListTab.APPS -> navController.navigate(R.id.action_callLogFragment_to_storiesLandingFragment)
+      ConversationListTab.ROOMS -> navController.navigate(R.id.action_callLogFragment_to_roomsFragment)
+      ConversationListTab.APPS -> navController.navigate(R.id.action_callLogFragment_to_appsFragment)
     }
   }
 
   private fun goToStateFromDiscover(state: ConversationListTabsState, navController: NavController) {
     when (state.tab) {
+//      ConversationListTab.STORIES -> return
 
       ConversationListTab.DISCOVER -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-      ConversationListTab.STORIES -> navController.navigate(R.id.action_discoverFragment_to_storiesLandingFragment)
+      ConversationListTab.ROOMS -> navController.navigate(R.id.action_discoverFragment_to_roomsFragment)
       ConversationListTab.CALLS -> navController.navigate(R.id.action_discoverFragment_to_callLogFragment)
       ConversationListTab.APPS -> navController.navigate(R.id.action_discoverFragment_to_appsFragment)
     }
   }
   private fun goToStateFromApps(state: ConversationListTabsState, navController: NavController) {
     when (state.tab) {
+//      ConversationListTab.STORIES -> return
 
       ConversationListTab.APPS -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-      ConversationListTab.STORIES -> navController.navigate(R.id.action_appsFragment_to_storiesLandingFragment)
+      ConversationListTab.ROOMS -> navController.navigate(R.id.action_appsFragment_to_roomsFragment)
       ConversationListTab.CALLS -> navController.navigate(R.id.action_appsFragment_to_callLogFragment)
       ConversationListTab.DISCOVER -> navController.navigate(R.id.action_appsFragment_to_discoverFragment)
     }
   }
 
 
-  private fun goToStateFromStories(state: ConversationListTabsState, navController: NavController) {
+  private fun goToStateFromRooms(state: ConversationListTabsState, navController: NavController) {
     when (state.tab) {
-      ConversationListTab.STORIES -> return
+      ConversationListTab.ROOMS -> return
+//      ConversationListTab.STORIES -> return
+
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-      ConversationListTab.CALLS -> navController.navigate(R.id.action_storiesLandingFragment_to_callLogFragment)
-      ConversationListTab.DISCOVER -> navController.navigate(R.id.action_storiesLandingFragment_to_discoverFragment)
-      ConversationListTab.APPS -> navController.navigate(R.id.action_storiesLandingFragment_to_appsFragment)
+      ConversationListTab.CALLS -> navController.navigate(R.id.action_roomsFragment_to_callLogFragment)
+      ConversationListTab.DISCOVER -> navController.navigate(R.id.action_roomsFragment_to_discoverFragment)
+      ConversationListTab.APPS -> navController.navigate(R.id.action_roomsFragment_to_appsFragment)
 
     }
   }
