@@ -47,11 +47,12 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
     largeConstraintSet.clone(binding.root)
     smallConstraintSet.clone(requireContext(), R.layout.conversation_list_tabs_small)
 
-    binding.chatsTabIcon.addValueCallback(
+/*    binding.chatsTabIcon.addValueCallback(
       KeyPath("**"),
       LottieProperty.COLOR
-    ) { iconTint }
+    ) { iconTint }*/
 
+/*
     binding.callsTabIcon.addValueCallback(
       KeyPath("**"),
       LottieProperty.COLOR
@@ -75,6 +76,7 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       LottieProperty.COLOR
     ) { iconTint }
 
+*/
 
 /*    binding.storiesTabIcon.addValueCallback(
       KeyPath("**"),
@@ -239,8 +241,8 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
 
     val hasStateChange = state.tab != state.prevTab
     if (immediate) {
-      binding.chatsTabIcon.pauseAnimation()
-      binding.chatsTabIcon.progress = if (state.tab == ConversationListTab.CHATS) 1f else 0f
+//      binding.chatsTabIcon.pauseAnimation()
+//      binding.chatsTabIcon.progress = if (state.tab == ConversationListTab.CHATS) 1f else 0f
 
 /*      if (Stories.isFeatureEnabled()) {
         binding.storiesTabIcon.pauseAnimation()
@@ -250,7 +252,7 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
 
 
 
-      binding.callsTabIcon.pauseAnimation()
+/*      binding.callsTabIcon.pauseAnimation()
       binding.callsTabIcon.progress = if (state.tab == ConversationListTab.CALLS) 1f else 0f
 
       binding.discoverTabIcon.pauseAnimation()
@@ -260,7 +262,7 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
       binding.roomsTabIcon.progress = if (state.tab == ConversationListTab.ROOMS) 1f else 0f
 
       binding.appsTabIcon.pauseAnimation()
-      binding.appsTabIcon.progress = if (state.tab == ConversationListTab.APPS) 1f else 0f
+      binding.appsTabIcon.progress = if (state.tab == ConversationListTab.APPS) 1f else 0f*/
 
 
 
@@ -276,16 +278,16 @@ class ConversationListTabsFragment : Fragment(R.layout.conversation_list_tabs) {
         )
       )
     } else if (hasStateChange) {
-      runLottieAnimations(
+/*      runLottieAnimations(
         listOfNotNull(
-          binding.chatsTabIcon,
+//          binding.chatsTabIcon,
           binding.callsTabIcon,
           binding.discoverTabIcon,
           binding.appsTabIcon,
           binding.roomsTabIcon,
 //          binding.storiesTabIcon.takeIf { Stories.isFeatureEnabled() }
         )
-      )
+      )*/
 
       runPillAnimation(
         150,

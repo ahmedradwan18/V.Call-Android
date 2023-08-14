@@ -213,8 +213,8 @@
 
 
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/chats_tab_icon"
+<!--    <com.airbnb.lottie.LottieAnimationView
+
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:importantForAccessibility="no"
@@ -224,9 +224,20 @@
         app:layout_constraintStart_toStartOf="@id/chats_tab_touch_point"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:lottie_rawRes="@raw/new_chats" />
+        app:lottie_rawRes="@raw/new_chats" />-->
 
-
+    <ImageView
+        android:id="@+id/chats_tab_icon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/chats_tab_label"
+        app:layout_constraintEnd_toEndOf="@id/chats_tab_touch_point"
+        app:layout_constraintStart_toStartOf="@id/chats_tab_touch_point"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_bottom_nav_chats"
+        android:layout_gravity="center" />
 
 
 
@@ -236,7 +247,6 @@
         android:id="@+id/chats_tab_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:text="@string/ConversationListTabs__chats"
         android:textAppearance="@style/TextAppearance.Signal.Body2"
         android:textColor="@color/signal_light_colorOnBackground"
@@ -245,8 +255,7 @@
         app:layout_constraintStart_toStartOf="@id/chats_tab_icon"
         app:layout_constraintTop_toBottomOf="@id/chats_tab_icon" />
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/calls_tab_icon"
+<!--    <com.airbnb.lottie.LottieAnimationView
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:importantForAccessibility="no"
@@ -256,7 +265,25 @@
         app:layout_constraintStart_toStartOf="@id/calls_tab_touch_point"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:lottie_rawRes="@raw/new_calls2" />
+        app:lottie_rawRes="@raw/new_calls2" />-->
+
+    <ImageView
+        android:id="@+id/calls_tab_icon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/calls_tab_label"
+        app:layout_constraintEnd_toEndOf="@id/calls_tab_touch_point"
+        app:layout_constraintStart_toStartOf="@id/calls_tab_touch_point"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:src="@drawable/ic_bottom_nav_call_logs"
+        android:layout_gravity="center" />
+
+
+
+
 
     <TextView
         android:id="@+id/calls_tab_label"
@@ -273,8 +300,7 @@
 
 
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/discover_tab_icon"
+<!--    <com.airbnb.lottie.LottieAnimationView
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:importantForAccessibility="no"
@@ -284,9 +310,21 @@
         app:layout_constraintStart_toStartOf="@id/discover_tab_touch_point"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:lottie_rawRes="@raw/homebig" />
+        app:lottie_rawRes="@raw/homebig" />-->
 
-
+    <ImageView
+        android:id="@+id/discover_tab_icon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/discover_tab_label"
+        app:layout_constraintEnd_toEndOf="@id/discover_tab_touch_point"
+        app:layout_constraintStart_toStartOf="@id/discover_tab_touch_point"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:src="@drawable/ic_bottom_nav_discover"
+        android:layout_gravity="center" />
 
 
     <TextView
@@ -302,8 +340,7 @@
         app:layout_constraintStart_toStartOf="@id/discover_tab_icon"
         app:layout_constraintTop_toBottomOf="@id/discover_tab_icon" />
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/rooms_tab_icon"
+<!--    <com.airbnb.lottie.LottieAnimationView
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:importantForAccessibility="no"
@@ -313,7 +350,24 @@
         app:layout_constraintStart_toStartOf="@id/rooms_tab_touch_point"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:lottie_rawRes="@raw/rooms" />
+        app:lottie_rawRes="@raw/rooms" />-->
+
+
+    <ImageView
+        android:id="@+id/rooms_tab_icon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/rooms_tab_label"
+        app:layout_constraintEnd_toEndOf="@id/rooms_tab_touch_point"
+        app:layout_constraintStart_toStartOf="@id/rooms_tab_touch_point"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:src="@drawable/ic_bottom_nav_rooms"
+        android:layout_gravity="center" />
+
+
 
     <TextView
         android:id="@+id/rooms_tab_label"
@@ -359,8 +413,7 @@
 -->
 
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/apps_tab_icon"
+<!--    <com.airbnb.lottie.LottieAnimationView
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:importantForAccessibility="no"
@@ -370,7 +423,21 @@
         app:layout_constraintStart_toStartOf="@id/apps_tab_touch_point"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:lottie_rawRes="@raw/stories2" />
+        app:lottie_rawRes="@raw/stories2" />-->
+
+    <ImageView
+        android:id="@+id/apps_tab_icon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:importantForAccessibility="no"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@id/apps_tab_label"
+        app:layout_constraintEnd_toEndOf="@+id/apps_tab_touch_point"
+        app:layout_constraintStart_toStartOf="@id/apps_tab_touch_point"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:src="@drawable/ic_bottom_nav_apps"
+        android:layout_gravity="center" />
 
     <TextView
         android:id="@+id/apps_tab_label"
