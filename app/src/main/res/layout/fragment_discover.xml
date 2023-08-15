@@ -7,15 +7,9 @@
     android:layout_height="match_parent">
 
 
-
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".discover.DiscoverFragment">
-
-
     <LinearLayout
+        android:background="@color/white"
+        tools:context=".discover.DiscoverFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -52,6 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
@@ -61,14 +56,15 @@
                 app:cardBackgroundColor="#FEF2D2"
                 app:cardCornerRadius="16dp"
                 app:cardElevation="4dp"
-                app:cardUseCompatPadding="true">
+                app:cardUseCompatPadding="true"
+
+                >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="16dp"
-
 
                     >
 
@@ -286,9 +282,6 @@
 
         </androidx.cardview.widget.CardView>
     </LinearLayout>
-
-
-</FrameLayout>
 
 
 </ScrollView>

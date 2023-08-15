@@ -247,13 +247,15 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
     }
   }
 
-  private fun presentToolbarForDiscoverFragment() {
+  private fun presentToolbarWithoutSearch() {
     _toolbar.visible = true
-    _searchAction.visible = true
+    _searchAction.visible = false
     if (_basicToolbar.resolved()) {
       _basicToolbar.get().visible = false
     }
   }
+
+
 
   private fun presentToolbarForCallLogFragment() {
     presentToolbarForConversationListFragment()
@@ -420,13 +422,18 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
       R.id.discoverFragment -> {
         conversationListTabsViewModel.isShowingArchived(false)
-        presentToolbarForDiscoverFragment()
+        presentToolbarWithoutSearch()
       }
 
-//      R.id.appsFragment -> {
-//        conversationListTabsViewModel.isShowingArchived(false)
-//        presentToolbarForDiscoverFragment()
-//      }
+      R.id.appsFragment -> {
+        conversationListTabsViewModel.isShowingArchived(false)
+        presentToolbarWithoutSearch()
+      }
+
+      R.id.roomsFragment -> {
+        conversationListTabsViewModel.isShowingArchived(false)
+        presentToolbarWithoutSearch()
+      }
     }
   }
 
