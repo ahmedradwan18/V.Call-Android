@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/createUsernameFragment"
-        android:name="org.variiance.vcall.profiles.manage.UsernameEditFragment"
+        android:name="org.thoughtcrime.securesms.profiles.manage.UsernameEditFragment"
         tools:layout="@layout/username_edit_fragment">
 
         <argument

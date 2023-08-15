@@ -5507,22 +5507,40 @@
 
 
 
-  <!-- region "Discover Tab" -->
-  <string name="discover_more">اكتشف أكثر</string>
-  <string name="discover_your_personal_assistant">مساعدك الآلي</string>
-  <string name="discover_learning_hub">مركز التعلم</string>
-  <string name="discover_professionals">المتخصصين</string>
-  <string name="discover_wallet">المحفظة الإلكترونية</string>
-  <string name="discover_payment">الدفع</string>
-  <string name="discover_live_streaming">البث المباشر</string>
+<!-- region "Discover Tab" -->
+<string name="discover_more">اكتشف أكثر</string>
+<string name="discover_your_personal_assistant">مساعدك الآلي</string>
+<string name="discover_learning_hub">مركز التعلم</string>
+<string name="discover_professionals">المتخصصين</string>
+<string name="discover_wallet">المحفظة الإلكترونية</string>
+<string name="discover_payment">الدفع</string>
+<string name="discover_live_streaming">البث المباشر</string>
+<string name="discover_games">الألعاب</string>
+<string name="discover_games_soon">قريباً</string>
 
 
 
-  <!-- region "Apps Tab" -->
-  <string name="apps">تطبيقات</string>
+<!-- region "Apps Tab" -->
+<string name="apps">تطبيقات</string>
+<string name="all_apps">التطبيقات</string>
+<string name="apps_calender">التقويم</string>
+<string name="apps_whiteboard">السبورة البيضاء</string>
+<string name="apps_collaboration">التعاون</string>
+<string name="apps_webinar">الويبينار</string>
+<string name="apps_omnichannel">القنوات المتعددة</string>
+<string name="apps_teamviewer">المساعدة عن بعد</string>
+<string name="apps_cloud_storage">مساحة التخزين</string>
+<string name="apps_mail">البريد</string>
 
-  <!-- region "Rooms Tab" -->
-  <string name="rooms">الغرف</string>
+
+
+<!-- region "Rooms Tab" -->
+<string name="rooms">الغرف</string>
+
+
+
+
+
 
   <!-- region "Stories Tab" -->
 

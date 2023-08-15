@@ -1,4 +1,4 @@
-package org.variiance.vcall.database
+package org.thoughtcrime.securesms.database
 
 import android.content.ContentValues
 import org.signal.core.util.SqlUtil.buildArgs

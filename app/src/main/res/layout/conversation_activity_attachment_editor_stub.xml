@@ -9,20 +9,20 @@
     android:visibility="gone"
     tools:viewBindingIgnore="true">
 
-    <org.variiance.vcall.components.RemovableEditableMediaView
+    <org.thoughtcrime.securesms.components.RemovableEditableMediaView
         android:id="@+id/removable_media_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
-        <org.variiance.vcall.components.location.SignalMapView
+        <org.thoughtcrime.securesms.components.location.SignalMapView
             android:id="@+id/attachment_location"
             android:layout_width="210dp"
             android:layout_height="210dp"
             android:layout_gravity="center_horizontal"
             android:visibility="gone" />
 
-        <org.variiance.vcall.components.ThumbnailView
+        <org.thoughtcrime.securesms.components.ThumbnailView
             android:id="@+id/attachment_thumbnail"
             android:layout_width="230dp"
             android:layout_height="150dp"
@@ -34,7 +34,7 @@
             app:minHeight="100dp"
             app:minWidth="100dp" />
 
-        <org.variiance.vcall.components.AudioView
+        <org.thoughtcrime.securesms.components.AudioView
             android:id="@+id/attachment_audio"
             android:layout_width="210dp"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             app:waveformThumbTint="@color/audio_seek_bar_sent_played_color"
             app:waveformUnplayedBarsColor="@color/audio_seek_bar_sent_unplayed_color" />
 
-        <org.variiance.vcall.components.DocumentView
+        <org.thoughtcrime.securesms.components.DocumentView
             android:id="@+id/attachment_document"
             android:layout_width="210dp"
             android:layout_height="wrap_content"
@@ -64,6 +64,6 @@
             app:doc_captionColor="@color/signal_text_secondary"
             app:doc_titleColor="@color/signal_text_primary" />
 
-    </org.variiance.vcall.components.RemovableEditableMediaView>
+    </org.thoughtcrime.securesms.components.RemovableEditableMediaView>
 
 </FrameLayout>

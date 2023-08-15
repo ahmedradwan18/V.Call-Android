@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.variiance.vcall.util.views.DarkOverflowToolbar
+    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@id/toolbar"
         tools:text="Donation amount: $20" />
 
-    <org.variiance.vcall.util.views.LearnMoreTextView
+    <org.thoughtcrime.securesms.util.views.LearnMoreTextView
         android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

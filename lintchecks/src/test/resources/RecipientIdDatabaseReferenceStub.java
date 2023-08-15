@@ -1,4 +1,4 @@
-package org.variiance.vcall.database;
+package org.thoughtcrime.securesms.database;
 
 interface RecipientIdDatabaseReference {
   void remapRecipient(RecipientId fromId, RecipientId toId);

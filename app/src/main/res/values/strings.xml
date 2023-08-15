@@ -5106,8 +5106,21 @@
     <string name="DonationReceiptListFragment__no_receipts">No receipts</string>
 
 
-    <!-- region "Apps Tab" -->
+        <!-- region "Apps Tab" -->
     <string name="apps">Apps</string>
+    <string name="all_apps">All Apps</string>
+    <string name="apps_calender">Calendar</string>
+    <string name="apps_whiteboard">Whiteboard</string>
+    <string name="apps_collaboration">Collaboration</string>
+    <string name="apps_webinar">Webinar</string>
+    <string name="apps_omnichannel">Omnichannel</string>
+    <string name="apps_teamviewer">Teamviewer</string>
+    <string name="apps_cloud_storage">Cloud Storage</string>
+    <string name="apps_mail">Mail</string>
+
+
+
+
 
 
     <!-- region "Rooms Tab" -->
@@ -5122,6 +5135,8 @@
     <string name="discover_wallet">E Wallet</string>
     <string name="discover_payment">Payment</string>
     <string name="discover_live_streaming">Live Streaming</string>
+    <string name="discover_games">Games</string>
+    <string name="discover_games_soon">Coming Soon</string>
 
 
     <!-- region "Stories Tab" -->

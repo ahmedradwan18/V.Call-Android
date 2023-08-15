@@ -1,4 +1,4 @@
-package org.variiance.vcall
+package org.thoughtcrime.securesms
 
 import android.os.StrictMode
 import android.os.StrictMode.ThreadPolicy
@@ -49,15 +49,15 @@ class CanaryApplicationContext : ApplicationContext() {
           fieldName = "mImpl"
         ) +
         AndroidReferenceMatchers.ignoredInstanceField(
-          className = "org.variiance.vcall.components.voice.VoiceNotePlaybackService",
+          className = "org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackService",
           fieldName = "mApplication"
         ) +
         AndroidReferenceMatchers.ignoredInstanceField(
-          className = "org.variiance.vcall.service.GenericForegroundService\$LocalBinder",
+          className = "org.thoughtcrime.securesms.service.GenericForegroundService\$LocalBinder",
           fieldName = "this\$0"
         ) +
         AndroidReferenceMatchers.ignoredInstanceField(
-          className = "org.variiance.vcall.contacts.ContactsSyncAdapter",
+          className = "org.thoughtcrime.securesms.contacts.ContactsSyncAdapter",
           fieldName = "mContext"
         )
     )

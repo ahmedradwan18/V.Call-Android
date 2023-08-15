@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="68dp">
 
-    <org.variiance.vcall.components.AvatarImageView
+    <org.thoughtcrime.securesms.components.AvatarImageView
         android:id="@+id/recipient_avatar"
         android:layout_width="48dp"
         android:layout_height="48dp"
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.variiance.vcall.components.emoji.EmojiTextView
+    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
         android:id="@+id/recipient_display_name"
         android:layout_width="0dip"
         android:layout_height="wrap_content"

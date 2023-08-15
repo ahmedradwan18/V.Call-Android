@@ -54,7 +54,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/headline"
                 tools:text="248 of 248 messages exported" />
 
-            <org.variiance.vcall.util.views.LearnMoreTextView
+            <org.thoughtcrime.securesms.util.views.LearnMoreTextView
                 android:id="@+id/please_try_again"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

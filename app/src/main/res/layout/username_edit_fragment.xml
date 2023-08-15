@@ -98,7 +98,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/icon" />
 
-    <org.variiance.vcall.util.views.LearnMoreTextView
+    <org.thoughtcrime.securesms.util.views.LearnMoreTextView
         android:id="@+id/username_description"
         style="@style/Signal.Text.Caption"
         android:layout_width="0dp"
@@ -147,7 +147,7 @@
         android:tint="@color/core_white"
         tools:visibility="visible" />
 
-    <org.variiance.vcall.util.views.CircularProgressMaterialButton
+    <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
         android:id="@+id/username_submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -159,7 +159,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <org.variiance.vcall.util.views.CircularProgressMaterialButton
+    <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
         android:id="@+id/username_delete_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -171,7 +171,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <org.variiance.vcall.components.ProgressCard
+    <org.thoughtcrime.securesms.components.ProgressCard
         android:id="@+id/username_progress_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

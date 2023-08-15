@@ -11,7 +11,7 @@ android:layout_margin="8dp"
 
     tools:viewBindingIgnore="true">
 
-    <org.variiance.vcall.avatar.view.AvatarView
+    <org.thoughtcrime.securesms.avatar.view.AvatarView
         android:id="@+id/avatar"
         android:layout_width="48dp"
         android:layout_height="48dp"
@@ -32,7 +32,7 @@ android:layout_margin="8dp"
         app:tint="@color/signal_colorBackground"
         app:srcCompat="@drawable/symbol_plus_compact_16" />
 
-    <org.variiance.vcall.components.emoji.EmojiTextView
+    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
         android:id="@+id/sender"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

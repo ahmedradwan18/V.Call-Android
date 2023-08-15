@@ -3,7 +3,7 @@
        xmlns:tools="http://schemas.android.com/tools"
        tools:viewBindingIgnore="true">
 
-    <org.variiance.vcall.components.NumericKeyboardView
+    <org.thoughtcrime.securesms.components.NumericKeyboardView
             android:id="@+id/keyboard_view"
             android:keyBackground="@color/signal_colorSurface1"
             android:background="@color/signal_colorSurface1"
@@ -20,7 +20,7 @@
                  android:layout_height="96dp"
                  android:indeterminate="true"/>
 
-    <org.variiance.vcall.components.SquareImageView
+    <org.thoughtcrime.securesms.components.SquareImageView
             android:id="@+id/success"
             android:layout_width="96dp"
             android:layout_height="96dp"
@@ -30,7 +30,7 @@
             android:gravity="center_vertical"
             android:src="@drawable/ic_check_white_48dp"/>
 
-    <org.variiance.vcall.components.SquareImageView
+    <org.thoughtcrime.securesms.components.SquareImageView
             android:id="@+id/failure"
             android:layout_width="96dp"
             android:layout_height="96dp"
@@ -40,7 +40,7 @@
             android:gravity="center_vertical"
             android:src="@drawable/ic_close_white_48dp"/>
 
-    <org.variiance.vcall.components.SquareImageView
+    <org.thoughtcrime.securesms.components.SquareImageView
             android:id="@+id/locked"
             android:layout_width="96dp"
             android:layout_height="96dp"

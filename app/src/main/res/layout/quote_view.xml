@@ -44,7 +44,7 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <org.variiance.vcall.components.emoji.EmojiTextView
+                    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
                         android:id="@+id/quote_author"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
                         tools:text="Photo"
                         tools:visibility="visible" />
 
-                    <org.variiance.vcall.components.emoji.EmojiTextView
+                    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
                         android:id="@+id/quote_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
 
                 </LinearLayout>
 
-                <org.variiance.vcall.components.emoji.EmojiImageView
+                <org.thoughtcrime.securesms.components.emoji.EmojiImageView
                     android:id="@+id/quote_missing_story_reaction_emoji"
                     android:layout_width="32dp"
                     android:layout_height="32dp"
@@ -188,7 +188,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <org.variiance.vcall.components.emoji.EmojiImageView
+    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
         android:id="@+id/quote_story_reaction_emoji"
         android:layout_width="32dp"
         android:layout_height="32dp"

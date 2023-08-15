@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.variiance.vcall.database
+package org.thoughtcrime.securesms.database
 
 import android.database.Cursor
 import org.signal.core.util.requireBlob
 import org.signal.libsignal.protocol.state.KyberPreKeyRecord
 import org.signal.spinner.ColumnTransformer
-import org.variiance.vcall.util.Base64
+import org.thoughtcrime.securesms.util.Base64
 
 object KyberKeyTransformer : ColumnTransformer {
   override fun matches(tableName: String?, columnName: String): Boolean {

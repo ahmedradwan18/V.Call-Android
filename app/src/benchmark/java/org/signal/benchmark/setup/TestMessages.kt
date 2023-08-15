@@ -1,14 +1,14 @@
 package org.signal.benchmark.setup
 
-import org.variiance.vcall.attachments.PointerAttachment
-import org.variiance.vcall.database.AttachmentTable
-import org.variiance.vcall.database.SignalDatabase
-import org.variiance.vcall.database.TestDbUtils
-import org.variiance.vcall.mms.IncomingMediaMessage
-import org.variiance.vcall.mms.OutgoingMessage
-import org.variiance.vcall.mms.QuoteModel
-import org.variiance.vcall.recipients.Recipient
-import org.variiance.vcall.releasechannel.ReleaseChannel
+import org.thoughtcrime.securesms.attachments.PointerAttachment
+import org.thoughtcrime.securesms.database.AttachmentTable
+import org.thoughtcrime.securesms.database.SignalDatabase
+import org.thoughtcrime.securesms.database.TestDbUtils
+import org.thoughtcrime.securesms.mms.IncomingMediaMessage
+import org.thoughtcrime.securesms.mms.OutgoingMessage
+import org.thoughtcrime.securesms.mms.QuoteModel
+import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.releasechannel.ReleaseChannel
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId

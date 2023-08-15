@@ -1,15 +1,15 @@
-package org.variiance.vcall.database
+package org.thoughtcrime.securesms.database
 
 import android.database.Cursor
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.requireLong
 import org.signal.spinner.ColumnTransformer
 import org.signal.spinner.DefaultColumnTransformer
-import org.variiance.vcall.database.model.MessageRecord
-import org.variiance.vcall.database.model.UpdateDescription
-import org.variiance.vcall.database.model.databaseprotos.DecryptedGroupV2Context
-import org.variiance.vcall.dependencies.ApplicationDependencies
-import org.variiance.vcall.util.Base64
+import org.thoughtcrime.securesms.database.model.MessageRecord
+import org.thoughtcrime.securesms.database.model.UpdateDescription
+import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
+import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
+import org.thoughtcrime.securesms.util.Base64
 
 object GV2UpdateTransformer : ColumnTransformer {
   override fun matches(tableName: String?, columnName: String): Boolean {
