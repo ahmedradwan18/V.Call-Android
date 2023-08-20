@@ -47,8 +47,7 @@ ktlint {
 
 
 def canonicalVersionCode = 1299
-def canonicalVersionName = "1.0.0"
-
+def canonicalVersionName = "6.27.5"
 def postFixSize = 100
 def abiPostFix = ['universal'   : 0,
                   'armeabi-v7a' : 1,
@@ -179,15 +178,15 @@ android {
 
         buildConfigField "long", "BUILD_TIMESTAMP", getLastCommitTimestamp() + "L"
         buildConfigField "String", "GIT_HASH", "\"${getGitHash()}\""
-        buildConfigField "String", "SIGNAL_URL", "\"https://chat.signal.org\""
-        buildConfigField "String", "STORAGE_URL", "\"https://storage.signal.org\""
-        buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.signal.org\""
-        buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn2.signal.org\""
+        buildConfigField "String", "SIGNAL_URL", "\"https://signal.vdev.variiance.com\""
+        buildConfigField "String", "STORAGE_URL", "\"https://signal.vdev.variiance.com\""
+        buildConfigField "String", "SIGNAL_CDN_URL", "\"https://signal.vdev.variiance.com\""
+        buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://signal.vdev.variiance.com\""
         buildConfigField "String", "SIGNAL_CDSI_URL", "\"https://cdsi.signal.org\""
         buildConfigField "String", "SIGNAL_SERVICE_STATUS_URL", "\"uptime.signal.org\""
         buildConfigField "String", "SIGNAL_KEY_BACKUP_URL", "\"https://api.backup.signal.org\""
         buildConfigField "String", "SIGNAL_SVR2_URL", "\"https://svr2.signal.org\""
-        buildConfigField "String", "SIGNAL_SFU_URL", "\"https://sfu.voip.signal.org\""
+        buildConfigField "String", "SIGNAL_SFU_URL", "\"https://signal.vdev.variiance.com\""
         buildConfigField "String", "SIGNAL_STAGING_SFU_URL", "\"https://sfu.staging.voip.signal.org\""
         buildConfigField "String[]", "SIGNAL_SFU_INTERNAL_NAMES", "new String[]{\"Test\", \"Staging\", \"Development\"}"
         buildConfigField "String[]", "SIGNAL_SFU_INTERNAL_URLS", "new String[]{\"https://sfu.test.voip.signal.org\", \"https://sfu.staging.voip.signal.org\", \"https://sfu.staging.test.voip.signal.org\"}"
@@ -375,10 +374,10 @@ android {
 
             applicationIdSuffix ".staging"
 
-            buildConfigField "String", "SIGNAL_URL", "\"https://chat.staging.signal.org\""
-            buildConfigField "String", "STORAGE_URL", "\"https://storage-staging.signal.org\""
-            buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn-staging.signal.org\""
-            buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn2-staging.signal.org\""
+            buildConfigField "String", "SIGNAL_URL", "\"https://signal.vdev.variiance.com\""
+            buildConfigField "String", "STORAGE_URL", "\"https://signal.vdev.variiance.com\""
+            buildConfigField "String", "SIGNAL_CDN_URL", "\"https://signal.vdev.variiance.com\""
+            buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://signal.vdev.variiance.com\""
             buildConfigField "String", "SIGNAL_CDSI_URL", "\"https://cdsi.staging.signal.org\""
             buildConfigField "String", "SIGNAL_KEY_BACKUP_URL", "\"https://api-staging.backup.signal.org\""
             buildConfigField "String", "SIGNAL_SVR2_URL", "\"https://svr2.staging.signal.org\""

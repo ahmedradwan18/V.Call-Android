@@ -24,28 +24,28 @@
     <string name="save">Spremi</string>
     <string name="note_to_self">Osobna bilješka</string>
 
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">Prognoza</string>
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">Bilješke</string>
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">Novosti</string>
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">Valovi</string>
 
     <!-- AlbumThumbnailView -->
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">V.Call se ažurira…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Vconnct se ažurira…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Još niste postavili lozinku!</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">Onemogući lozinku?</string>
-    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Trajno će te otključati V.Call i obavijesti o porukama.</string>
+    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Trajno će te otključati Vconnct i obavijesti o porukama.</string>
     <string name="ApplicationPreferencesActivity_disable">Onemogući</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Onemogući V.Call poruke i pozive?</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Onemogućite V.Call poruke i pozive tako što će te ukloniti registraciju s poslužitelja. Trebati će te ponovno registrirati vaš broj telefona kako biste ih koristili u budućnosti.</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Onemogući Vconnct poruke i pozive?</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Onemogućite Vconnct poruke i pozive tako što će te ukloniti registraciju s poslužitelja. Trebati će te ponovno registrirati vaš broj telefona kako biste ih koristili u budućnosti.</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Pogreška prilikom povezivanja na poslužitelj!</string>
     <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">PIN-ovi su potrebni za Zaključavanje registracjie. Da biste onemogućili PIN-ove, prvo onemogućite Zaključavanje registracije.</string>
     <string name="ApplicationPreferencesActivity_pin_created">PIN je stvoren</string>
@@ -81,15 +81,15 @@
     <string name="AttachmentKeyboard_file">Datoteka</string>
     <string name="AttachmentKeyboard_contact">Kontakt</string>
     <string name="AttachmentKeyboard_location">Lokacija</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">V.Call zahtijeva dopuštenje za prikazivanje vaših fotografija i videozapisa.</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Vconnct zahtijeva dopuštenje za prikazivanje vaših fotografija i videozapisa.</string>
     <string name="AttachmentKeyboard_give_access">Omogući pristup</string>
     <string name="AttachmentKeyboard_payment">Plaćanja</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nije moguće pronaći aplikaciju za odabir medijskih zapisa.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">V.Call zahtijeva dopuštenje za prostor za pohranu kako bi priložio fotografije, videozapise ili zvuk, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Prostor za pohranu\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">V.Call zahtijeva dopuštenje za kontakte kako bi priložio podatke o kontaktu, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kontakti\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">V.Call zahtijeva dopuštenje za lokaciju kako bi priložio lokaciju, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Lokacija\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Vconnct zahtijeva dopuštenje za prostor za pohranu kako bi priložio fotografije, videozapise ili zvuk, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Prostor za pohranu\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Vconnct zahtijeva dopuštenje za kontakte kako bi priložio podatke o kontaktu, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kontakti\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Vconnct zahtijeva dopuštenje za lokaciju kako bi priložio lokaciju, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Lokacija\".</string>
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">Korisnik %1$s nije omogućio Plaćanja </string>
     <!-- Alert dialog description to send the recipient a request to activate payments -->
@@ -126,7 +126,7 @@
     <string name="CreditCardFragment__donation_amount_s_per_month">Iznos donacije: %1$s/mjesečno</string>
     <!-- Explanation of how to fill in the form, displayed above the credit card text fields -->
     <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-    <string name="CreditCardFragment__enter_your_card_details">Unesite podatke o kartici. V.Call ne prikuplja niti pohranjuje vaše osobne podatke.</string>
+    <string name="CreditCardFragment__enter_your_card_details">Unesite podatke o kartici. Vconnct ne prikuplja niti pohranjuje vaše osobne podatke.</string>
     <!-- Displayed as a hint in the card number text field -->
     <string name="CreditCardFragment__card_number">Broj kartice</string>
     <!-- Displayed as a hint in the card expiry text field -->
@@ -158,15 +158,15 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">Više nećete primati poruke ili ažuriranja iz ove grupe, a članovi grupe vas neće moći naknadno dodati u grupu.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">Članovi grupe vas neće moći ponovno dodati u ovu grupu.</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">Članovi grupe će vas moći ponovno dodati u ovu grupu.</string>
-    <!-- Text that is shown when unblocking a V.Call contact -->
+    <!-- Text that is shown when unblocking a Vconnct contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">Moći će te se razmjenjivati poruke i pozive, a vaše ime i fotografija podijelit će se s njima.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">Moći ćete razmjenjivati poruke.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">Blokirani korisnici neće vas moći nazvati niti vam slati poruke.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">Blokirani korisnici neće vam moći slati poruke.</string>
-    <!-- Message shown on block dialog when blocking the V.Call release notes recipient -->
+    <!-- Message shown on block dialog when blocking the Vconnct release notes recipient -->
     <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Blokiraj primanje ažuriranja i vijesti o Signalu.</string>
-    <!-- Message shown on unblock dialog when unblocking the V.Call release notes recipient -->
+    <!-- Message shown on unblock dialog when unblocking the Vconnct release notes recipient -->
     <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Ponovno primaj ažuriranja i vijesti o Signalu.</string>
     <string name="BlockUnblockDialog_unblock_s">Odblokirati %1$s?</string>
     <string name="BlockUnblockDialog_block">Blokiraj</string>
@@ -194,8 +194,8 @@
 
     <!-- CameraContacts -->
     <string name="CameraContacts_recent_contacts">Nedavni kontakti</string>
-    <string name="CameraContacts_signal_contacts">V.Call kontakti</string>
-    <string name="CameraContacts_signal_groups">V.Call grupe</string>
+    <string name="CameraContacts_signal_contacts">Vconnct kontakti</string>
+    <string name="CameraContacts_signal_groups">Vconnct grupe</string>
     <!-- A warning shown in a toast when  -->
     <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
         <item quantity="one">Moguće je podijeliti s najviše %1$d razgovorom.</item>
@@ -203,9 +203,9 @@
         <item quantity="many">Moguće je podijeliti s najviše %1$d razgovora.</item>
         <item quantity="other">Moguće je podijeliti s najviše %1$d razgovora.</item>
     </plurals>
-    <string name="CameraContacts_select_signal_recipients">Odaberi V.Call primatelje</string>
-    <string name="CameraContacts_no_signal_contacts">Nema V.Call kontakata</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">Okidač kamere možete samo koristiti za slanje fotografija V.Call kontaktima. </string>
+    <string name="CameraContacts_select_signal_recipients">Odaberi Vconnct primatelje</string>
+    <string name="CameraContacts_no_signal_contacts">Nema Vconnct kontakata</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">Okidač kamere možete samo koristiti za slanje fotografija Vconnct kontaktima. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">Niste našli što tražite?</string>
     <string name="CameraContacts_invite_a_contact_to_join_signal">Pozovite kontakt da pridruži Signalu</string>
     <string name="CameraContacts__menu_search">Pretraži</string>
@@ -214,7 +214,7 @@
     <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">Isključiti zaobilaženje cenzure?</string>
     <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Za bolje iskustvo sada se možete izravno povezati s uslugom V.Call.</string>
+    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Za bolje iskustvo sada se možete izravno povezati s uslugom Vconnct.</string>
     <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off">Isključi</string>
     <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -226,7 +226,7 @@
     <string name="ClearProfileActivity_remove_group_photo">Ukloniti sliku grupe?</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Ažuriraj V.Call</string>
+    <string name="ClientDeprecatedActivity_update_signal">Ažuriraj Vconnct</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Ova verzija aplikacije više nije podržana. Da biste nastavili slati i primati poruke, ažurirajte na najnoviju verziju.</string>
     <string name="ClientDeprecatedActivity_update">Ažuriraj</string>
     <string name="ClientDeprecatedActivity_dont_update">Ne ažuriraj</string>
@@ -267,7 +267,7 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Poruka %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">V.Call poziv %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Vconnct poziv %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -300,7 +300,7 @@
     <string name="ConversationItem_click_to_approve_unencrypted">Slanje nije uspjelo, pritisnite za nezaštićenu alternativu</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Nešifrirani SMS kao zamjena?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Nešifrirani MMS kao zamjena?</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ova poruka <b>neće</b> biti šifrirana zato što primatelj nije više V.Call korisnik.\n\nPošalji nesigurnu poruku?</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ova poruka <b>neće</b> biti šifrirana zato što primatelj nije više Vconnct korisnik.\n\nPošalji nesigurnu poruku?</string>
     <string name="ConversationItem_unable_to_open_media">Nije moguće pronaći aplikaciju za otvaranje ovog medijskog zapisa.</string>
     <string name="ConversationItem_copied_text">Kopirano %1$s</string>
     <string name="ConversationItem_from_s">od %1$s</string>
@@ -357,8 +357,8 @@
     <string name="ConversationActivity_transport_insecure_sms_with_sim">Nesiguran SMS (%1$s)</string>
     <string name="ConversationActivity_transport_insecure_mms">Nesigurni MMS</string>
     <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-    <string name="ConversationActivity_transport_signal">V.Call poruka</string>
-    <string name="ConversationActivity_lets_switch_to_signal">Prebaci se na V.Call %1$s</string>
+    <string name="ConversationActivity_transport_signal">Vconnct poruka</string>
+    <string name="ConversationActivity_lets_switch_to_signal">Prebaci se na Vconnct %1$s</string>
     <string name="ConversationActivity_specify_recipient">Odaberite kontakt</string>
     <string name="ConversationActivity_unblock">Odblokiraj</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Privitak premašuje ograničenja veličine za vrstu poruke koju šaljete.</string>
@@ -374,17 +374,17 @@
     <string name="ConversationActivity_cancel_request">Poništi zahtjev</string>
 
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Za slanje zvučnih poruka, omogućite Signalu pristup vašem mikrofonu.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">V.Call zahtijeva dopuštenje za mikrofon za slanje zvučnih poruka, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Mikrofon\".</string>
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">V.Call zahtijeva dopuštenja za mikrofon i kameru kako bi nazvao %1$s, ali ona su trajno odbijena. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Mikrofon\" i \"Kamera\".</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Vconnct zahtijeva dopuštenje za mikrofon za slanje zvučnih poruka, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Mikrofon\".</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Vconnct zahtijeva dopuštenja za mikrofon i kameru kako bi nazvao %1$s, ali ona su trajno odbijena. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Mikrofon\" i \"Kamera\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Za snimanje slika i video zapisa, omogućite Signalu pristup vašoj kameri.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">V.Call zahtijeva dopuštenje za kameru kako bi mogao fotografirati ili snimati videe, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kamera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">V.Call zahtijeva dopuštenje za kameru kako bi mogao fotografirati ili snimati videe</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Vconnct zahtijeva dopuštenje za kameru kako bi mogao fotografirati ili snimati videe, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kamera\".</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Vconnct zahtijeva dopuštenje za kameru kako bi mogao fotografirati ili snimati videe</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Omogućite dopuštenje za mikrofon za snimanje videozapisa sa zvukom.</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">V.Call zahtijeva dopuštenje za mikrofon za snimanje videa, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Mikrofon\" i \"Kamera\".</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">V.Call zahtijeva dopuštenje za mikrofon kako bi mogao snimati videe.</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Vconnct zahtijeva dopuštenje za mikrofon za snimanje videa, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Mikrofon\" i \"Kamera\".</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Vconnct zahtijeva dopuštenje za mikrofon kako bi mogao snimati videe.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s%2$s</string>
-    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">V.Call ne može slati SMS/MMS poruke jer nije vaša zadana SMS aplikacija. Želite li to promijeniti u postavkama Androida?</string>
+    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Vconnct ne može slati SMS/MMS poruke jer nije vaša zadana SMS aplikacija. Želite li to promijeniti u postavkama Androida?</string>
     <string name="ConversationActivity_yes">Da</string>
     <string name="ConversationActivity_no">Ne</string>
     <string name="ConversationActivity_search_position">%1$d od %2$d</string>
@@ -413,15 +413,15 @@
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
     <string name="ConversationActivity__sms_messaging_is_currently_disabled_you_can_export_your_messages_to_another_app_on_your_phone">Slanje SMS poruka trenutno je onemogućeno. Možete izvesti svoje poruke u drugu aplikaciju na telefonu.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">V.Call više ne podržava slanje SMS poruka. Možete izvesti svoje poruke u drugu aplikaciju na telefonu.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">Vconnct više ne podržava slanje SMS poruka. Možete izvesti svoje poruke u drugu aplikaciju na telefonu.</string>
     <!-- Action button shown when in sms conversation, sms is disabled, and unexported sms messages are present -->
     <string name="ConversationActivity__export_sms_messages">Izvoz SMS poruka</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">Slanje SMS poruka trenutno je onemogućeno. Pozovite korisnika %1$s u V.Call da bi vaš razgovor ostao ovdje.</string>
+    <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">Slanje SMS poruka trenutno je onemogućeno. Pozovite korisnika %1$s u Vconnct da bi vaš razgovor ostao ovdje.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">V.Call više ne podržava slanje SMS poruka. Pozovite korisnika %1$s u V.Call da bi vaš razgovor ostao ovdje.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Vconnct više ne podržava slanje SMS poruka. Pozovite korisnika %1$s u Vconnct da bi vaš razgovor ostao ovdje.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">Pozovi u V.Call</string>
+    <string name="ConversationActivity__invite_to_signal">Pozovi u Vconnct</string>
     <!-- Snackbar message shown after dismissing the full screen sms export megaphone indicating we\'ll do it again soon -->
     <string name="ConversationActivity__you_will_be_reminded_again_soon">Uskoro ćete ponovno dobiti podsjetnik.</string>
 
@@ -501,12 +501,12 @@
     <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d člana/ova grupe imaju isto ime.</string>
     <string name="ConversationFragment__tap_to_review">Pritisnite za pregled</string>
     <string name="ConversationFragment__review_requests_carefully">Pažljivo pregledajte zahtjeve</string>
-    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">V.Call je pronašao drugi kontakt s istim imenom.</string>
+    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Vconnct je pronašao drugi kontakt s istim imenom.</string>
     <string name="ConversationFragment_contact_us">Kontaktirajte nas</string>
     <string name="ConversationFragment_verify">Potvrdi</string>
     <string name="ConversationFragment_not_now">Ne sada</string>
     <string name="ConversationFragment_your_safety_number_with_s_changed">Vaš sigurnosni broj s %1$s je promijenjen</string>
-    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Vaš sigurnosni broj s %1$s je promijenjen, vjerojatno zato što su ponovo instalirali V.Call ili promijenili uređaje. Pritisnite Potvrdi da biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</string>
+    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Vaš sigurnosni broj s %1$s je promijenjen, vjerojatno zato što su ponovo instalirali Vconnct ili promijenili uređaje. Pritisnite Potvrdi da biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</string>
     <!-- Message shown to indicate which notification profile is on/active -->
     <string name="ConversationFragment__s_on">Aktivno: %1$s</string>
     <!-- Dialog title for block group link join requests -->
@@ -520,13 +520,13 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Korisnik je blokiran</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Ažuriraj V.Call</string>
+    <string name="ConversationFragment__update_build">Ažuriraj Vconnct</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
     <string name="ConversationFragment__reregister_signal">Ponovno se registrirajte na Signalu</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Vrati se nazad.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Otvori V.Call</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Otvori Vconnct</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Više nije provjereno</string>
 
@@ -689,7 +689,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d za sada…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s%% do sada…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">V.Call zahtijeva dopuštenje za vanjski prostor za pohranu kako bi stvorio sigurnosne kopije, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Prostor za pohranu\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Vconnct zahtijeva dopuštenje za vanjski prostor za pohranu kako bi stvorio sigurnosne kopije, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Prostor za pohranu\".</string>
 
 
     <!-- CustomDefaultPreference -->
@@ -756,7 +756,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Sesija razgovora je osvježena</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">V.Call koristi end-to-end šifriranje i možda će ponekad trebati osvježiti sesiju razgovora. To ne utječe na sigurnost vašeg razgovora, ali ste možda propustili poruku od ovog kontakta i možete zatražiti da je ponovno pošalje.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Vconnct koristi end-to-end šifriranje i možda će ponekad trebati osvježiti sesiju razgovora. To ne utječe na sigurnost vašeg razgovora, ali ste možda propustili poruku od ovog kontakta i možete zatražiti da je ponovno pošalje.</string>
 
     <!-- DeviceListActivity -->
     <string name="DeviceListActivity_unlink_s">Poništi vezu \'%1$s\'?</string>
@@ -778,7 +778,7 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Optimiziraj za nedostatak Play Services</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Ovaj uređaj ne podržava Play Services. Pritisnite kako biste onemogućili sistemsku optimizaciju baterije koja spriječava V.Call da dohvaća poruke dok je uređaj neaktivan.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Ovaj uređaj ne podržava Play Services. Pritisnite kako biste onemogućili sistemsku optimizaciju baterije koja spriječava Vconnct da dohvaća poruke dok je uređaj neaktivan.</string>
 
     <!-- ExpiredBuildReminder -->
     <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Ova verzija Signala je istekla. Ažurirajte odmah da biste slali i primali poruke.</string>
@@ -795,7 +795,7 @@
 
     <!-- GcmRefreshJob -->
     <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Trajna pogreška u komunikaciji Signala!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">V.Call se nije uspješno registrirao na Google Play Services. V.Call poruke i pozivi su onemogućeni. Pokušajte se ponovno registrirati kroz Postavke &gt; Napredno.</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Vconnct se nije uspješno registrirao na Google Play Services. Vconnct poruke i pozivi su onemogućeni. Pokušajte se ponovno registrirati kroz Postavke &gt; Napredno.</string>
 
 
     <!-- GiphyActivity -->
@@ -944,7 +944,7 @@
     <string name="LinkPreviewView_this_group_link_is_not_active">Poveznica grupe nije aktivna</string>
     <string name="LinkPreviewView_domain_date">%1$s · %2$s</string>
     <!-- Description for Call Link url previews -->
-    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">Koristite ovu poveznicu da biste se pridružili V.Call pozivu</string>
+    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">Koristite ovu poveznicu da biste se pridružili Vconnct pozivu</string>
 
     <!-- LinkPreviewRepository -->
     <plurals name="LinkPreviewRepository_d_members">
@@ -1013,9 +1013,9 @@
     <string name="AddGroupDetailsFragment__sms_contact">SMS kontakt</string>
     <string name="AddGroupDetailsFragment__remove_s_from_this_group">Ukloniti %1$s iz ove grupe?</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Odabrali ste kontakt koji ne podržava V.Call grupe, tako da će ova grupa biti MMS. Nazivi prilagođenih MMS grupa i fotografije bit će vidljivi samo vama.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Odabrali ste kontakt koji ne podržava Vconnct grupe, tako da će ova grupa biti MMS. Nazivi prilagođenih MMS grupa i fotografije bit će vidljivi samo vama.</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Odabrali ste kontakt koji ne podržava V.Call grupe, stoga će ovo biti MMS grupa. Nazivi i fotografije prilagođenih MMS grupa bit će vidljivi samo vama. Podrška za MMS grupe uskoro će biti uklonjena kako bismo se usredotočili na šifriranu razmjenu poruka.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Odabrali ste kontakt koji ne podržava Vconnct grupe, stoga će ovo biti MMS grupa. Nazivi i fotografije prilagođenih MMS grupa bit će vidljivi samo vama. Podrška za MMS grupe uskoro će biti uklonjena kako bismo se usredotočili na šifriranu razmjenu poruka.</string>
 
     <!-- ManageGroupActivity -->
     <string name="ManageGroupActivity_who_can_add_new_members">Tko može dodati nove članove?</string>
@@ -1029,8 +1029,8 @@
     </plurals>
 
     <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Nemate prava na ovo</string>
-    <string name="ManageGroupActivity_not_capable">Netko koga ste dodali ne podržava nove grupe i mora ažurirati V.Call</string>
-    <string name="ManageGroupActivity_not_announcement_capable">Netko koga ste dodali ne podržava grupne najave i mora ažurirati V.Call</string>
+    <string name="ManageGroupActivity_not_capable">Netko koga ste dodali ne podržava nove grupe i mora ažurirati Vconnct</string>
+    <string name="ManageGroupActivity_not_announcement_capable">Netko koga ste dodali ne podržava grupne najave i mora ažurirati Vconnct</string>
     <string name="ManageGroupActivity_failed_to_update_the_group">Ažuriranje grupe nije uspjelo</string>
     <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Vi niste član ove grupe</string>
     <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Ažuriranje grupe nije uspjelo, pokušajte ponovno</string>
@@ -1042,7 +1042,7 @@
     <string name="ManageGroupActivity_legacy_group_upgrade">Ovo je Naslijeđena grupa. Da biste pristupili novim značajkama poput @spominjanja i administratora,</string>
     <string name="ManageGroupActivity_legacy_group_too_large">Ova Naslijeđena grupa ne može se nadograditi u Novu grupu jer je prevelika. Maksimalna veličina grupe je %1$d.</string>
     <string name="ManageGroupActivity_upgrade_this_group">nadogradi ovu grupu.</string>
-    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Ovo je nesigurna MMS grupa. Da biste privatno razgovarali, pozovite svoje kontakte u V.Call.</string>
+    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Ovo je nesigurna MMS grupa. Da biste privatno razgovarali, pozovite svoje kontakte u Vconnct.</string>
     <string name="ManageGroupActivity_invite_now">Pozovi sada</string>
     <string name="ManageGroupActivity_more">više</string>
     <string name="ManageGroupActivity_add_group_description">Dodaj opis grupe…</string>
@@ -1159,9 +1159,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Ažurirajte V.Call da biste koristili poveznice grupe</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Ažurirajte Vconnct da biste koristili poveznice grupe</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Verzija Signala koju upotrebljavate ne podržava ovu poveznicu grupe. Ažurirajte na najnoviju verziju da biste se pridružili ovoj grupi putem poveznice.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Ažuriraj V.Call</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Ažuriraj Vconnct</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Poveznica grupe je nevažeća</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1192,8 +1192,8 @@
 
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Dodirni i drži za snimanje zvuka, otpusti za slanje</string>
-    <!-- Message shown if the user tries to switch a conversation from V.Call to SMS -->
-    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">V.Call više ne podržava slanje SMS poruka.</string>
+    <!-- Message shown if the user tries to switch a conversation from Vconnct to SMS -->
+    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">Vconnct više ne podržava slanje SMS poruka.</string>
     <!-- When editing a message, label shown above the text input field in the composer -->
     <string name="InputPanel_edit_message">Uredi poruku</string>
 
@@ -1205,7 +1205,7 @@
     <string name="InviteActivity_cancel">Poništi</string>
     <string name="InviteActivity_sending">Slanje…</string>
     <string name="InviteActivity_invitations_sent">Pozivnice su poslane!</string>
-    <string name="InviteActivity_invite_to_signal">Pozovi u V.Call</string>
+    <string name="InviteActivity_invite_to_signal">Pozovi u Vconnct</string>
     <string name="InviteActivity_send_sms">Pošalji SMS (%1$d)</string>
     <plurals name="InviteActivity_send_sms_invites">
         <item quantity="one">Poslati %1$d SMS pozivnicu?</item>
@@ -1213,7 +1213,7 @@
         <item quantity="many">Poslati %1$d SMS pozivnica?</item>
         <item quantity="other">Poslati %1$d SMS pozivnica?</item>
     </plurals>
-    <string name="InviteActivity_lets_switch_to_signal">Prebacimo se na V.Call: %1$s</string>
+    <string name="InviteActivity_lets_switch_to_signal">Prebacimo se na Vconnct: %1$s</string>
     <string name="InviteActivity_no_app_to_share_to">Izgleda da nemate nijednu aplikaciju za dijeljenje.</string>
 
     <!-- LearnMoreTextView -->
@@ -1295,7 +1295,7 @@
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">Podsjeti me kasnije</string>
-    <string name="Megaphones_verify_your_signal_pin">Potvrdite svoj V.Call PIN</string>
+    <string name="Megaphones_verify_your_signal_pin">Potvrdite svoj Vconnct PIN</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Povremeno ćemo zatražiti da potvrdite svoj PIN kako biste ga zapamtili.</string>
     <string name="Megaphones_verify_pin">Potvrdite PIN</string>
     <string name="Megaphones_get_started">Započnite</string>
@@ -1309,9 +1309,9 @@
     <string name="MessageQuotesBottomSheet_replies">Odgovori</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Uspostavljanje V.Call poziva</string>
+    <string name="NotificationBarManager__establishing_signal_call">Uspostavljanje Vconnct poziva</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Pokretanje usluge V.Call poziv</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Pokretanje usluge Vconnct poziv</string>
     <string name="NotificationBarManager__stopping_signal_call_service">Zaustavljanje Signalove usluge za pozive</string>
     <string name="NotificationBarManager__decline_call">Odbij poziv</string>
     <string name="NotificationBarManager__answer_call">Prihvati poziv</string>
@@ -1571,7 +1571,7 @@
     <string name="MessageRecord_a_message_from_s_couldnt_be_delivered">Poruka od %1$s se nije mogla isporučiti</string>
     <string name="MessageRecord_s_changed_their_phone_number">%1$s promijenio/la je svoj broj telefona.</string>
     <!-- Update item message shown in the release channel when someone is already a sustainer so we ask them if they want to boost. -->
-    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">Sviđa vam se ova nova značajka? Podržite V.Call jednokratnom donacijom.</string>
+    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">Sviđa vam se ova nova značajka? Podržite Vconnct jednokratnom donacijom.</string>
     <!-- Update item message shown when we merge two threads together. First placeholder is a name, second placeholder is a phone number. -->
     <string name="MessageRecord_your_message_history_with_s_and_their_number_s_has_been_merged">Povijest vašeg razgovora s korisnikom %1$s sada je povezana s njegovim brojem %2$s.</string>
     <!-- Update item message shown when we merge two threads together and we don\'t know the phone number of the other thread. The placeholder is a person\'s name. -->
@@ -1619,9 +1619,9 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">Uskoro više nećete moći slati SMS poruke sa Signala. Pozovite korisnika %1$s u V.Call da bi vaš razgovor ostao ovdje.</string>
+    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">Uskoro više nećete moći slati SMS poruke sa Signala. Pozovite korisnika %1$s u Vconnct da bi vaš razgovor ostao ovdje.</string>
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Više nije moguće slati SMS poruke preko Signala. Pozovite korisnika %1$s u V.Call da bi vaš razgovor ostao ovdje.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Više nije moguće slati SMS poruke preko Signala. Pozovite korisnika %1$s u Vconnct da bi vaš razgovor ostao ovdje.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Plaćanje: %1$s</string>
 
@@ -1634,7 +1634,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">Želite li dopustiti da vam %1$s šalje poruke i vidi vaše ime i fotografiju? Uklonili ste ovu osobu u prošlosti.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">Želite li dopustiti %1$s da vam pošalje poruku i da dijelite svoje ime i fotografiju s njima? Neće znati da ste vidjeli njihovu poruku dok ne prihvatite.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a V.Call user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a Vconnct user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">Želite li dopustiti da vam %1$s šalje poruke i vidi vaše ime i fotografiju? Nećete primati poruke od tog korisnika dok ga ne odblokirate.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">Želite li dopustiti da vam %1$s šalje poruke? Nećete primati poruke od tog korisnika dok ga ne odblokirate.</string>
@@ -1700,10 +1700,10 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">Nevažeći QR kôd.</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Nažalost, već imate previše povezanih uređaja. Pokušajte ukloniti neke.</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Nažalost, ovo nije valjani QR kôd za povezivanje uređaja.</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">Poveži V.Call uređaj?</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Čini se da pokušavate povezati V.Call uređaj pomoću skenera treće strane. Radi vaše zaštite ponovo skenirajte kôd unutar V.Call aplikacije.</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">Poveži Vconnct uređaj?</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Čini se da pokušavate povezati Vconnct uređaj pomoću skenera treće strane. Radi vaše zaštite ponovo skenirajte kôd unutar Vconnct aplikacije.</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">V.Call zahtijeva dopuštenje za kameru kako bi mogao skenirati QR kôd, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kamera\".</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Vconnct zahtijeva dopuštenje za kameru kako bi mogao skenirati QR kôd, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kamera\".</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nije moguće skenirati QR kôd bez dozvole pristupa kamere</string>
 
     <!-- OutdatedBuildReminder -->
@@ -1718,11 +1718,11 @@
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Unesite lozinku</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">V.Call ikona</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Vconnct ikona</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Pošaljite lozinku</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Nevažeća lozinka!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Otključaj V.Call</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">V.Call Android - Zaključani zaslon</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Otključaj Vconnct</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Vconnct Android - Zaključani zaslon</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Mapa</string>
@@ -1755,7 +1755,7 @@
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">Stvorite svoj PIN</string>
-    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Ponestalo vam je pokušaja za unos PIN-a, ali i dalje možete pristupiti svom V.Call računu stvaranjem novog PIN-a. Radi vaše privatnosti i sigurnosti, vaš će se račun oporaviti bez ikakvih spremljenih podataka ili postavki profila.</string>
+    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Ponestalo vam je pokušaja za unos PIN-a, ali i dalje možete pristupiti svom Vconnct računu stvaranjem novog PIN-a. Radi vaše privatnosti i sigurnosti, vaš će se račun oporaviti bez ikakvih spremljenih podataka ili postavki profila.</string>
     <string name="PinRestoreLockedFragment_create_new_pin">Stvori novi PIN</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
 
@@ -1768,11 +1768,11 @@
     <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
     <string name="ReRegisterWithPinFragment_skip_local">U slučaju da ste zaboravili svoj PIN, možete stvoriti novi.</string>
     <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-    <string name="ReRegisterWithPinFragment_out_of_guesses_local">Ponestalo vam je pokušaja za unos PIN-a, no i dalje možete pristupiti svom V.Call računu stvaranjem novog PIN-a.</string>
+    <string name="ReRegisterWithPinFragment_out_of_guesses_local">Ponestalo vam je pokušaja za unos PIN-a, no i dalje možete pristupiti svom Vconnct računu stvaranjem novog PIN-a.</string>
 
     <!-- PinOptOutDialog -->
     <string name="PinOptOutDialog_warning">Upozorenje</string>
-    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Ako onemogućite PIN, izgubit ćete sve svoje podatke kada se ponovno registrirate na V.Call, osim ako ručno ne napravite sigurnosnu kopiju i vratite ih. Ne možete uključiti Zaključavanje registracije dok je PIN onemogućen.</string>
+    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Ako onemogućite PIN, izgubit ćete sve svoje podatke kada se ponovno registrirate na Vconnct, osim ako ručno ne napravite sigurnosnu kopiju i vratite ih. Ne možete uključiti Zaključavanje registracije dok je PIN onemogućen.</string>
     <string name="PinOptOutDialog_disable_pin">Onemogući PIN</string>
 
     <!-- RatingManager -->
@@ -1801,7 +1801,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Moja priča</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">V.Call poziv</string>
+    <string name="Recipient_signal_call">Vconnct poziv</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Blokiraj</string>
@@ -1827,7 +1827,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Pritisnite ovdje da biste uključili vaš video</string>
     <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Da biste uputili poziv za %1$s, omogućite Signalu pristup vašoj kameri</string>
-    <string name="WebRtcCallActivity__signal_s">V.Call %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Vconnct %1$s</string>
     <string name="WebRtcCallActivity__calling">Uspostava poziva</string>
     <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">Grupa je prevelika za direktan poziv sudionika.</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
@@ -1842,8 +1842,8 @@
     <string name="WebRtcCallActivity__not_now">Ne sada</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">V.Call poziv</string>
-    <string name="WebRtcCallView__signal_video_call">V.Call videopoziv</string>
+    <string name="WebRtcCallView__signal_call">Vconnct poziv</string>
+    <string name="WebRtcCallView__signal_video_call">Vconnct videopoziv</string>
     <string name="WebRtcCallView__start_call">Započni poziv</string>
     <string name="WebRtcCallView__join_call">Pridruži se pozivu</string>
     <string name="WebRtcCallView__call_is_full">Poziv je pun</string>
@@ -1977,13 +1977,13 @@
     <string name="RegistrationActivity_is_your_phone_number_above_correct">Je li točan vaš navedeni broj telefona?</string>
     <string name="RegistrationActivity_edit_number">Uredi broj</string>
     <string name="RegistrationActivity_missing_google_play_services">Google Play Services nije dostupno</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">Ovom uređaju nedostaje Google Play Services. I dalje možete koristiti V.Call, ali ova konfiguracija može rezultirati smanjenom pouzdanošću ili performansama.\n\nAko niste napredni korisnik, ili ne koristite prilagođeni Android ROM ili vjerujete da ovo greškom vidite, kontaktirajte nas na support@signal.org za pomoć u rješavanju problema.</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">Ovom uređaju nedostaje Google Play Services. I dalje možete koristiti Vconnct, ali ova konfiguracija može rezultirati smanjenom pouzdanošću ili performansama.\n\nAko niste napredni korisnik, ili ne koristite prilagođeni Android ROM ili vjerujete da ovo greškom vidite, kontaktirajte nas na support@signal.org za pomoć u rješavanju problema.</string>
     <string name="RegistrationActivity_i_understand">Shvaćam</string>
     <string name="RegistrationActivity_play_services_error">Pogreška Play Servicesa</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services se trenutno ažurira ili je nedostupno. Pokušajte ponovno kasnije.</string>
     <string name="RegistrationActivity_terms_and_privacy">Uvjeti korištenja i Politika privatnosti</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">V.Call treba pristup vašim kontaktima i medijima za povezivanje s prijateljima i razmjenu poruka. Vaši se kontakti učitavaju korištenjem Signalovog otkrivanja privatnih kontakata, što znači da su sveobuhvatno šifrirani i nikada nisu vidljivi usluzi V.Call.</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">V.Call treba pristup vašim kontaktima za povezivanje s prijateljima. Vaši se kontakti učitavaju korištenjem Signalovog otkrivanja privatnih kontakata, što znači da su sveobuhvatno šifrirani i nikada nisu vidljivi usluzi V.Call.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Vconnct treba pristup vašim kontaktima i medijima za povezivanje s prijateljima i razmjenu poruka. Vaši se kontakti učitavaju korištenjem Signalovog otkrivanja privatnih kontakata, što znači da su sveobuhvatno šifrirani i nikada nisu vidljivi usluzi Vconnct.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Vconnct treba pristup vašim kontaktima za povezivanje s prijateljima. Vaši se kontakti učitavaju korištenjem Signalovog otkrivanja privatnih kontakata, što znači da su sveobuhvatno šifrirani i nikada nisu vidljivi usluzi Vconnct.</string>
     <string name="RegistrationActivity_rate_limited_to_service">Previše neuspjelih pokušaja registracije ovog broja telefona. Pokušajte ponovo kasnije.</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">Previše neuspjelih pokušaja registracije ovog broja telefona. Pokušajte ponovno za %1$s.</string>
@@ -1996,7 +1996,7 @@
     <string name="RegistrationActivity_unable_to_request_verification_code">Nije moguće zatražiti potvrdni kôd. Provjerite mrežnu vezu i pokušajte ponovno.</string>
     <string name="RegistrationActivity_non_standard_number_format">Nestandardni format broja</string>
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">Čini se da je broj koji ste unijeli (%1$s) nestandardnog formata.\n\nJeste li mislili %2$s?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">V.Call Android – format broja telefona</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">Vconnct Android – format broja telefona</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">Zatražen poziv</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -2011,7 +2011,7 @@
     </plurals>
     <string name="RegistrationActivity_we_need_to_verify_that_youre_human">Moramo potvrditi da ste osoba.</string>
     <!-- An error shown when the request was valid, but due to an issue with a partner vendor, the server is unable to send an SMS code -->
-    <string name="RegistrationActivity_external_service_error">V.Call nije mogao poslati SMS kod zbog vanjske pogreške.</string>
+    <string name="RegistrationActivity_external_service_error">Vconnct nije mogao poslati SMS kod zbog vanjske pogreške.</string>
     <!-- Button label to trigger a phone call to provide the registration code, in lieu of an SMS code -->
     <string name="RegistrationActivity_voice_call">Glasovni poziv</string>
     <!-- Dialog button to cancel the pending action and return to the previous state. -->
@@ -2046,7 +2046,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Omogući Zaključavanje registracije?</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Onemogući Zaključavanje registracije?</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Ako zaboravite svoj PIN za V.Call prilikom ponovne registracije na Signalu, biti ćete zaključani iz svog računa na 7 dana.</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Ako zaboravite svoj PIN za Vconnct prilikom ponovne registracije na Signalu, biti ćete zaključani iz svog računa na 7 dana.</string>
     <string name="RegistrationLockV2Dialog_turn_on">Uključi</string>
     <string name="RegistrationLockV2Dialog_turn_off">Isključi</string>
 
@@ -2072,19 +2072,19 @@
 
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">Dodaj u kontakte</string>
-    <string name="SharedContactDetailsActivity_invite_to_signal">Pozovi u V.Call</string>
-    <string name="SharedContactDetailsActivity_signal_message">V.Call poruka</string>
-    <string name="SharedContactDetailsActivity_signal_call">V.Call poziv</string>
+    <string name="SharedContactDetailsActivity_invite_to_signal">Pozovi u Vconnct</string>
+    <string name="SharedContactDetailsActivity_signal_message">Vconnct poruka</string>
+    <string name="SharedContactDetailsActivity_signal_call">Vconnct poziv</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Dodaj u kontakte</string>
-    <string name="SharedContactView_invite_to_signal">Pozovi u V.Call</string>
-    <string name="SharedContactView_message">V.Call poruka</string>
+    <string name="SharedContactView_invite_to_signal">Pozovi u Vconnct</string>
+    <string name="SharedContactView_message">Vconnct poruka</string>
 
-    <!-- V.CallBottomActionBar -->
+    <!-- VconnctBottomActionBar -->
     <string name="SignalBottomActionBar_more">Više</string>
 
-    <!-- V.CallPinReminders -->
+    <!-- VconnctPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">PIN je uspješno provjeren. Podsjetit ćemo vas ponovno kasnije.</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">PIN je uspješno provjeren. Podsjetit ćemo vas ponovno sutra.</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">PIN je uspješno provjeren. Podsjetit ćemo vas ponovno za nekoliko dana.</string>
@@ -2154,8 +2154,8 @@
     <string name="SupportEmailUtil_filter">Filtar:</string>
     <string name="SupportEmailUtil_device_info">Informacije o uređaju:</string>
     <string name="SupportEmailUtil_android_version">Android verzija:</string>
-    <string name="SupportEmailUtil_signal_version">V.Call verzija:</string>
-    <string name="SupportEmailUtil_signal_package">V.Call paket:</string>
+    <string name="SupportEmailUtil_signal_version">Vconnct verzija:</string>
+    <string name="SupportEmailUtil_signal_package">Vconnct paket:</string>
     <string name="SupportEmailUtil_registration_lock">Zaključavanje registracije:</string>
     <string name="SupportEmailUtil_locale">Lokalizacija:</string>
 
@@ -2217,7 +2217,7 @@
     <string name="ThreadRecord_s_belongs_to_s">Broj %1$s pripada korisniku %2$s</string>
 
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">V.Call ažuriranje</string>
+    <string name="UpdateApkReadyListener_Signal_update">Vconnct ažuriranje</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Dostupna je nova verzija Signala, pritisnite za ažurirati</string>
 
     <!-- UntrustedSendDialog -->
@@ -2268,10 +2268,10 @@
     <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Vaš kontakt koristi noviju verziju Signala s nekompatibilnim formatom QR kôda. Molimo ažurirajte za usporedbu.</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Skenirani QR kôd nije ispravno oblikovan kôd za provjeru sigurnosnog broja. Pokušajte ponovo skenirati.</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">Podijelite sigurnosni broj putem…</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">Naš V.Call sigurnosni broj:</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">Naš Vconnct sigurnosni broj:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Izgleda da nemate aplikacije s kojima je moguće dijeljenje.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">U međuspremniku nije pronađen sigurnosni broj za usporedbu</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">V.Call zahtijeva dopuštenje za kameru kako bi mogao skenirati QR kôd, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kamera\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Vconnct zahtijeva dopuštenje za kameru kako bi mogao skenirati QR kôd, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kamera\".</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Nije moguće skenirati QR kôd bez dozvole pristupa kamere</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Prvo morate razmijeniti poruke da biste vidjeli sigurnosni broj od %1$s.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -2307,14 +2307,14 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Pritisnite za otvaranje.</string>
-    <string name="KeyCachingService_passphrase_cached">V.Call je otključan</string>
-    <string name="KeyCachingService_lock">Zaključaj V.Call</string>
+    <string name="KeyCachingService_passphrase_cached">Vconnct je otključan</string>
+    <string name="KeyCachingService_lock">Zaključaj Vconnct</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Vi</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Nepodržana vrsta medijskog zapisa</string>
     <string name="MediaPreviewActivity_draft">Skica</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">V.Call zahtijeva dopuštenje za prostor za pohranu kako bi mogao spremiti u vanjski prostor za pohranu, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Prostor za pohranu\".</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Vconnct zahtijeva dopuštenje za prostor za pohranu kako bi mogao spremiti u vanjski prostor za pohranu, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Prostor za pohranu\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nije moguće spremiti u vanjski prostor za pohranu bez dozvola</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Izbriši poruku?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">To će trajno izbrisati ovu poruku.</string>
@@ -2370,7 +2370,7 @@
     <string name="MessageNotifier_view_once_photo">Jednom vidljiva slika</string>
     <string name="MessageNotifier_view_once_video">Jednom vidljiv video zapis</string>
     <string name="MessageNotifier_reply">Odgovori</string>
-    <string name="MessageNotifier_signal_message">V.Call poruka</string>
+    <string name="MessageNotifier_signal_message">Vconnct poruka</string>
     <string name="MessageNotifier_unsecured_sms">Nesigurni SMS</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
@@ -2386,7 +2386,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">Reagira s %1$s na vašu naljepnicu.</string>
     <string name="MessageNotifier_this_message_was_deleted">Ova poruka je izbrisana.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Isključiti obavijesti o novim kontaktima na Signalu? Možete ih ponovo omogućiti u V.Call &amp;gt Postavke &amp;gt Obavijesti.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Isključiti obavijesti o novim kontaktima na Signalu? Možete ih ponovo omogućiti u Vconnct &amp;gt Postavke &amp;gt Obavijesti.</string>
 
     <!-- Notification Channels -->
     <string name="NotificationChannel_channel_messages">Poruke</string>
@@ -2413,7 +2413,7 @@
     <!-- ProfileEditNameFragment -->
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Brzi odgovor nije dostupan kada je V.Call zaključan!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Brzi odgovor nije dostupan kada je Vconnct zaključan!</string>
     <string name="QuickResponseService_problem_sending_message">Pogreška prilikom slanja poruke!</string>
 
     <!-- A small toast notification to let the user know their image/video/audio was downloaded and saved to their device, accessible in other apps. -->
@@ -2464,14 +2464,14 @@
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">Ažurirajte V.Call da biste nastavili koristiti uslugu plaćanja. Vaše stanje računa možda nije ažurno.</string>
+    <string name="EnclaveFailureReminder_update_signal">Ažurirajte Vconnct da biste nastavili koristiti uslugu plaćanja. Vaše stanje računa možda nije ažurno.</string>
     <!-- Banner button to update now -->
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Da biste odgovorili na poziv, omogućite Signalu pristup vašem mikrofonu.</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">Da biste odgovorili na videopoziv, omogućite Signalu pristup vašem mikrofonu i kameri.</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">V.Call zahtijeva dopuštenja za mikrofon i kameru za upućivanje ili primanje poziva, ali ona su trajno odbijena. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Mikrofon\" i \"Kamera\".</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Vconnct zahtijeva dopuštenja za mikrofon i kameru za upućivanje ili primanje poziva, ali ona su trajno odbijena. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Mikrofon\" i \"Kamera\".</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Odgovoreno na povezanom uređaju.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">Odbijeno na povezanom uređaju.</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">Zauzeto na povezanom uređaju.</string>
@@ -2514,7 +2514,7 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">Ponovite novu lozinku</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">Pozovi u V.Call</string>
+    <string name="contact_selection_activity__invite_to_signal">Pozovi u Vconnct</string>
     <string name="contact_selection_activity__new_group">Nova grupa</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">Osvježi popis kontakata</string>
@@ -2536,15 +2536,15 @@
     <string name="SingleContactSelectionActivity_contact_photo">Slika kontakta</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">V.Call zahtijeva dopuštenje za kontakte kako bi prikazao vaše kontakte, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kontakti\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Vconnct zahtijeva dopuštenje za kontakte kako bi prikazao vaše kontakte, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"Kontakti\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Pogreška pri dohvaćanju kontakata, provjerite mrežnu vezu</string>
     <string name="ContactSelectionListFragment_username_not_found">Korisničko ime nije pronađeno</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" nije korisnik Signala. Provjerite korisničko ime i pokušajte ponovno."</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Ne trebate dodavati sebe u grupu</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">Dosegnuta je maksimalna veličina grupe</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">V.Call grupe mogu imati najviše %1$d članova.</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Vconnct grupe mogu imati najviše %1$d članova.</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">Dosegnuto preporučeno ograničenje članova</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">V.Call grupe najbolje rade s %1$d članova ili manje. Dodavanje više članova uzrokovat će kašnjenja u slanju i primanju poruka.</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Vconnct grupe najbolje rade s %1$d članova ili manje. Dodavanje više članova uzrokovat će kašnjenja u slanju i primanju poruka.</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="one">%1$d član</item>
         <item quantity="few">%1$d člana</item>
@@ -2553,7 +2553,7 @@
     </plurals>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">V.Call zahtjeva pristup vašim kontaktima kako bi ih mogao prikazati.</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Vconnct zahtjeva pristup vašim kontaktima kako bi ih mogao prikazati.</string>
     <string name="contact_selection_list_fragment__show_contacts">Prikaži kontakte</string>
 
     <!-- contact_selection_list_item -->
@@ -2572,7 +2572,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">V.Call poruka</string>
+    <string name="conversation_activity__type_message_push">Vconnct poruka</string>
     <string name="conversation_activity__type_message_sms_insecure">Nesigurni SMS</string>
     <string name="conversation_activity__type_message_mms_insecure">Nesigurni MMS</string>
     <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -2586,7 +2586,7 @@
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Uključi/isključi ladicu privitaka kamere</string>
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Snimi i pošalji zvučni privitak</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Zaključaj snimanje zvučnog privitka</string>
-    <string name="conversation_activity__enable_signal_for_sms">Omogući V.Call za SMS</string>
+    <string name="conversation_activity__enable_signal_for_sms">Omogući Vconnct za SMS</string>
     <string name="conversation_activity__message_could_not_be_sent">Nije moguće poslati poruku. Provjerite internetsku vezu i pokušajte ponovo.</string>
 
     <!-- conversation_input_panel -->
@@ -2766,9 +2766,9 @@
     <string name="IdentityUtil_unverified_banner_two">Vaši sigurnosni brojevi s %1$s i %2$s više nisu provjereni</string>
     <string name="IdentityUtil_unverified_banner_many">Vaši sigurnosni brojevi s %1$s, %2$s i %3$s više nisu provjereni</string>
 
-    <string name="IdentityUtil_unverified_dialog_one">Vaš sigurnosni broj s %1$s je promijenjen i više nije provjeren. To može značiti da netko pokušava presresti vašu komunikaciju ili je %1$s jednostavno ponovo instalirao/la V.Call.</string>
-    <string name="IdentityUtil_unverified_dialog_two">Vaši sigurnosni brojevi s %1$s i %2$s više nisu provjereni. To može značiti da netko pokušava presresti vašu komunikaciju ili da su jednostavno ponovo instalirali V.Call.</string>
-    <string name="IdentityUtil_unverified_dialog_many">Vaši sigurnosni brojevi s %1$s, %2$s i %3$s više nisu provjereni. To može značiti da netko pokušava presresti vašu komunikaciju ili da su jednostavno ponovo instalirali V.Call.</string>
+    <string name="IdentityUtil_unverified_dialog_one">Vaš sigurnosni broj s %1$s je promijenjen i više nije provjeren. To može značiti da netko pokušava presresti vašu komunikaciju ili je %1$s jednostavno ponovo instalirao/la Vconnct.</string>
+    <string name="IdentityUtil_unverified_dialog_two">Vaši sigurnosni brojevi s %1$s i %2$s više nisu provjereni. To može značiti da netko pokušava presresti vašu komunikaciju ili da su jednostavno ponovo instalirali Vconnct.</string>
+    <string name="IdentityUtil_unverified_dialog_many">Vaši sigurnosni brojevi s %1$s, %2$s i %3$s više nisu provjereni. To može značiti da netko pokušava presresti vašu komunikaciju ili da su jednostavno ponovo instalirali Vconnct.</string>
 
     <string name="IdentityUtil_untrusted_dialog_one">Vaš sigurnosni broj s %1$s je upravo promijenjen.</string>
     <string name="IdentityUtil_untrusted_dialog_two">Vaši sigurnosni brojevi s %1$s i %2$s su upravo promijenjeni.</string>
@@ -2825,7 +2825,7 @@
     <string name="prompt_passphrase_activity__unlock">Otključaj</string>
 
     <!-- prompt_mms_activity -->
-    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">V.Call zahtijeva MMS postavke za isporuku grupnih poruka i poruka s medijskim zapisima putem vašeg operatera. Vaš uređaj ne čini ove podatke dostupnima, što povremeno vrijedi za zaključane uređaje i druga ograničenja postavki.</string>
+    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Vconnct zahtijeva MMS postavke za isporuku grupnih poruka i poruka s medijskim zapisima putem vašeg operatera. Vaš uređaj ne čini ove podatke dostupnima, što povremeno vrijedi za zaključane uređaje i druga ograničenja postavki.</string>
     <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Kako biste poslali grupne poruke i poruke s medijskim zapisima, dodirnite \'U redu\' i popunite tražene postavke. Postavke MMS-a za vašeg operatera obično se mogu pronaći traženjem \"APN postavki vašeg operatera\". To ćete trebati učiniti samo jednom.</string>
 
     <!-- BadDecryptLearnMoreDialog -->
@@ -2954,7 +2954,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">Informacije o podršci</string>
-    <string name="HelpFragment__signal_android_support_request">V.Call Android zahtjev za podršku</string>
+    <string name="HelpFragment__signal_android_support_request">Vconnct Android zahtjev za podršku</string>
     <string name="HelpFragment__debug_log">Zapisnik pogreške:</string>
     <string name="HelpFragment__could_not_upload_logs">Nije moguće učitati zapisnike</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Budite što detaljniji kako biste nam pomogli da razumijemo problem.</string>
@@ -3040,7 +3040,7 @@
     <string name="preferences__enable_passphrase">Omogući zaključavanje ekrana lozinkom</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Zaključajte zaslon i obavijesti uz pomoć lozinke</string>
     <string name="preferences__screen_security">Sigurnost zaslona</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatski zaključaj V.Call nakon određenog vremenskog intervala neaktivnosti</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatski zaključaj Vconnct nakon određenog vremenskog intervala neaktivnosti</string>
     <string name="preferences__inactivity_timeout_passphrase">Lozinka intervala neaktivnosti</string>
     <string name="preferences__inactivity_timeout_interval">Interval neaktivnosti</string>
     <string name="preferences__notifications">Obavijesti</string>
@@ -3074,7 +3074,7 @@
     <string name="preferences__help">Pomoć</string>
     <string name="preferences__advanced">Napredno</string>
     <string name="preferences__donate_to_signal">Donirajte Signalu</string>
-    <!-- Preference label for making one-time donations to V.Call -->
+    <!-- Preference label for making one-time donations to Vconnct -->
     <string name="preferences__privacy">Privatnost</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Priče</string>
@@ -3111,7 +3111,7 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">Promjena ikone i naziva aplikacije u \"%1$s\"</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">V.Call će se morati zatvoriti kako bi se ažurirali ikona i naziv aplikacije. Obavijesti će uvijek prikazivati zadanu ikonu i naziv Signala.</string>
+    <string name="preferences__app_icon_dialog_description">Vconnct će se morati zatvoriti kako bi se ažurirali ikona i naziv aplikacije. Obavijesti će uvijek prikazivati zadanu ikonu i naziv Signala.</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
     <string name="preferences__app_icon_warning_learn_more">Odaberite ikonu i naziv aplikacije koji će biti vidljivi na početnom zaslonu vašeg telefona i u ladici za aplikacije. Obavijesti će uvijek prikazivati zadanu ikonu i naziv Signala. Saznajte više</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
@@ -3130,9 +3130,9 @@
     <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN-ovi čuvaju šifrirane podatke spremljenima na Signalu tako da im samo vi možete pristupiti. Vaš profil, postavke i kontakti će biti vraćeni nakon ponovne instalacije. Neće vam trebati PIN kako biste otvorili aplikaciju.</string>
     <string name="preferences__system_default">Sustavno zadano</string>
     <string name="preferences__language">Jezik</string>
-    <string name="preferences__signal_messages_and_calls">V.Call poruke i pozivi</string>
+    <string name="preferences__signal_messages_and_calls">Vconnct poruke i pozivi</string>
     <string name="preferences__advanced_pin_settings">Napredne postavke PIN-a</string>
-    <string name="preferences__free_private_messages_and_calls">Besplatne privatne poruke i pozivi sa V.Call korisnicima</string>
+    <string name="preferences__free_private_messages_and_calls">Besplatne privatne poruke i pozivi sa Vconnct korisnicima</string>
     <string name="preferences__submit_debug_log">Pošalji zapisnik pogreške</string>
     <string name="preferences__delete_account">Izbriši korisnički račun</string>
     <string name="preferences__support_wifi_calling">Način kompatibilnosti za \'WiFi pozive\'</string>
@@ -3199,12 +3199,12 @@
     <string name="preferences_communication__category_censorship_circumvention">Zaobilaženje cenzure</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Zaobilaženje cenzure</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Ako je omogućeno, V.Call će pokušati zaobići cenzuru. Omogućite ovu značajku samo ako ste u mjestu gdje je V.Call cenzuriran.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Ako je omogućeno, Vconnct će pokušati zaobići cenzuru. Omogućite ovu značajku samo ako ste u mjestu gdje je Vconnct cenzuriran.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Zaobilaženje cenzure aktivirano je na temelju broja telefona vašeg računa.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">Ručno ste onemogućili zaobilaženje cenzure.</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the V.Call service -->
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Vconnct service -->
     <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Zaobilaženje cenzure nije potrebno. Već ste povezani s Signalom.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">Zaobilaženje cenzure se može aktivirati samo ako ste povezani na Internet.</string>
@@ -3218,7 +3218,7 @@
     <string name="preferences_off">Isključeno</string>
     <string name="preferences_on">Uključeno</string>
     <string name="preferences_proxy_address">Proxy adresa</string>
-    <string name="preferences_only_use_a_proxy_if">Koristite proxy samo ako niste u mogućnosti povezati se na V.Call putem mobilne ili Wi-Fi mreže.</string>
+    <string name="preferences_only_use_a_proxy_if">Koristite proxy samo ako niste u mogućnosti povezati se na Vconnct putem mobilne ili Wi-Fi mreže.</string>
     <string name="preferences_share">Podijeli</string>
     <string name="preferences_save">Spremi</string>
     <string name="preferences_connecting_to_proxy">Povezivanje na proxy…</string>
@@ -3252,7 +3252,7 @@
     <string name="PaymentsAllActivityFragment__received">Primljeno</string>
 
     <string name="PaymentsHomeFragment__introducing_payments">Predstavljamo Plaćanja (Beta)</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Koristite V.Call za slanje i primanje MobileCoina, nove digitalne valute usmjerene na privatnost. Omogućite za početak.</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Koristite Vconnct za slanje i primanje MobileCoina, nove digitalne valute usmjerene na privatnost. Omogućite za početak.</string>
     <string name="PaymentsHomeFragment__activate_payments">Omogući plaćanja</string>
     <string name="PaymentsHomeFragment__activating_payments">Omogućavanje plaćanja…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">Oporavi račun za plaćanja</string>
@@ -3286,7 +3286,7 @@
     <string name="PaymentsHomeFragment__payment_failed">Neuspješno plaćanje</string>
     <string name="PaymentsHomeFragment__details">Detalji</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate </string>
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">V.Call možete koristiti za slanje i primanje MobileCoina. Sva plaćanja podliježu Uvjetima korištenja za MobileCoins i MobileCoin Wallet. Ovo je beta značajka, tako da možete naići na neke probleme, a plaćanja ili stanje koja možete izgubiti ne mogu se povratiti. </string> -->
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Vconnct možete koristiti za slanje i primanje MobileCoina. Sva plaćanja podliježu Uvjetima korištenja za MobileCoins i MobileCoin Wallet. Ovo je beta značajka, tako da možete naići na neke probleme, a plaćanja ili stanje koja možete izgubiti ne mogu se povratiti. </string> -->
     <string name="PaymentsHomeFragment__activate">Omogući</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">Prikaži MobileCoin uvjete</string>
     <string name="PaymentsHomeFragment__payments_not_available">Uplate na Signalu više nisu dostupne. I dalje možete prenijeti sredstva na burzu, ali više ne možete slati i primati uplate niti dodavati sredstva.</string>
@@ -3370,10 +3370,10 @@
     <string name="PaymentsTransferFragment__next">Sljedeće</string>
     <string name="PaymentsTransferFragment__invalid_address">Nevažeća adresa</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Provjerite adresu novčanika na koju pokušavate prenijeti i pokušajte ponovo.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Ne možete prenijeti na vašu V.Call adresu novčanika. Unesite adresu novčanika od vašeg računa na podržanoj burzi.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Da bi skenirao QR kôd, V.Call treba pristup kameri.</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">V.Call zahtijeva dopuštenje za kameru kako bi snimio QR kôd. Otvorite postavke, odaberite \"Dozvole\" i omogućite \"Kamera\".</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Da bi skenirao QR kôd, V.Call treba pristup kameri.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Ne možete prenijeti na vašu Vconnct adresu novčanika. Unesite adresu novčanika od vašeg računa na podržanoj burzi.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Da bi skenirao QR kôd, Vconnct treba pristup kameri.</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Vconnct zahtijeva dopuštenje za kameru kako bi snimio QR kôd. Otvorite postavke, odaberite \"Dozvole\" i omogućite \"Kamera\".</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Da bi skenirao QR kôd, Vconnct treba pristup kameri.</string>
     <string name="PaymentsTransferFragment__settings">Postavke</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -3456,8 +3456,8 @@
     <string name="conversation_callable_insecure__menu_call">Nazovi</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">V.Call poziv</string>
-    <string name="conversation_callable_secure__menu_video">V.Call video poziv</string>
+    <string name="conversation_callable_secure__menu_call">Vconnct poziv</string>
+    <string name="conversation_callable_secure__menu_video">Vconnct video poziv</string>
 
     <!-- conversation_context -->
 
@@ -3584,9 +3584,9 @@
     <!-- reminder_header -->
     <string name="reminder_header_sms_import_title">Uvezi SMS poruke sustava</string>
     <string name="reminder_header_sms_import_text">Pritisnite za kopiranje SMS poruka na uređaju u Signalovu šifriranu bazu podataka.</string>
-    <string name="reminder_header_push_title">Omogući V.Call poruke i pozive</string>
+    <string name="reminder_header_push_title">Omogući Vconnct poruke i pozive</string>
     <string name="reminder_header_push_text">Poboljšaj svoje iskustvo komuniciranja.</string>
-    <string name="reminder_header_service_outage_text">V.Call ima tehničkih poteškoća. Naporno radimo na što bržem vraćanju usluge.</string>
+    <string name="reminder_header_service_outage_text">Vconnct ima tehničkih poteškoća. Naporno radimo na što bržem vraćanju usluge.</string>
     <string name="reminder_header_progress">%1$d%%</string>
     <!-- Body text of a banner that will show at the top of the chat list when we temporarily cannot process the user\'s contacts -->
     <string name="reminder_cds_warning_body">Signalova usluga otkrivanja privatnih kontakata trenutno ne može obraditi kontakte na vašem telefonu.</string>
@@ -3614,7 +3614,7 @@
     <string name="Insights__title">Uvidi</string>
     <string name="InsightsDashboardFragment__title">Uvidi</string>
     <!-- Body text for a page describing how many signal messages you\'ve sent. The first placeholder represents the number of signal messages sent, and the second placeholder represents how many days have passed. -->
-    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">V.Call Protocol je automatski zaštitio %1$d %% vaših odlaznih poruka tijekom zadnjih %2$d dana. Razgovori između korisnika Signala uvijek su zaštićeni sveobuhvatnim šifriranjem.</string>
+    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Vconnct Protocol je automatski zaštitio %1$d %% vaših odlaznih poruka tijekom zadnjih %2$d dana. Razgovori između korisnika Signala uvijek su zaštićeni sveobuhvatnim šifriranjem.</string>
     <string name="InsightsDashboardFragment__spread_the_word">Proširite vijest</string>
     <string name="InsightsDashboardFragment__not_enough_data">Nema dovoljno podataka</string>
     <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Vaš postotak uvida izračunava se na temelju odlaznih poruka u proteklih %1$d dana koje nisu nestale ili bile izbrisane.</string>
@@ -3626,12 +3626,12 @@
     <string name="InsightsDashboardFragment__cancel">Poništi</string>
     <string name="InsightsDashboardFragment__send">Šalji</string>
     <string name="InsightsModalFragment__title">Predstavljamo Uvide</string>
-    <string name="InsightsModalFragment__description">Otkrijte koliko je vaših odlaznih poruka poslano sigurno, a zatim brzo pozovite nove kontakte kako biste povećali vaš V.Call postotak.</string>
+    <string name="InsightsModalFragment__description">Otkrijte koliko je vaših odlaznih poruka poslano sigurno, a zatim brzo pozovite nove kontakte kako biste povećali vaš Vconnct postotak.</string>
     <string name="InsightsModalFragment__view_insights">Prikaži uvide</string>
 
-    <string name="FirstInviteReminder__title">Pozovi u V.Call</string>
+    <string name="FirstInviteReminder__title">Pozovi u Vconnct</string>
     <string name="FirstInviteReminder__description">Možete povećati broj šifriranih poruka koje šaljete za %1$d%%</string>
-    <string name="SecondInviteReminder__title">Ojačajte svoj V.Call</string>
+    <string name="SecondInviteReminder__title">Ojačajte svoj Vconnct</string>
     <string name="SecondInviteReminder__description">Pozovi %1$s</string>
     <string name="InsightsReminder__view_insights">Prikaži uvide</string>
     <string name="InsightsReminder__invite">Pozivnica</string>
@@ -3689,7 +3689,7 @@
     <string name="KbsSplashFragment__disable_pin">Onemogući PIN</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">Unesite vaš V.Call PIN</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">Unesite vaš Vconnct PIN</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Kako bismo vam pomogli da zapamtite vaš PIN, zamoliti ćemo vas da ga povremeno unesete. S vremenom ćemo vas rijeđe tražiti.</string>
     <string name="KbsReminderDialog__skip">Preskoči</string>
     <string name="KbsReminderDialog__submit">Pošalji</string>
@@ -3761,29 +3761,29 @@
     <string name="KbsMegaphone__create_pin">Stvori PIN</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a V.Call voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Dolazni V.Call glasovni poziv</string>
-    <!-- Displayed in a notification when a V.Call video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Dolazni V.Call videopoziv</string>
-    <!-- Displayed in a notification when a V.Call group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Dolazni V.Call grupni poziv</string>
-    <!-- Displayed in a notification when a V.Call voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">V.Call glasovni poziv u tijeku</string>
-    <!-- Displayed in a notification when a V.Call video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">V.Call videopoziv u tijeku</string>
-    <!-- Displayed in a notification when a V.Call group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">V.Call grupni poziv u tijeku</string>
+    <!-- Displayed in a notification when a Vconnct voice call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Dolazni Vconnct glasovni poziv</string>
+    <!-- Displayed in a notification when a Vconnct video call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Dolazni Vconnct videopoziv</string>
+    <!-- Displayed in a notification when a Vconnct group call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Dolazni Vconnct grupni poziv</string>
+    <!-- Displayed in a notification when a Vconnct voice call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Vconnct glasovni poziv u tijeku</string>
+    <!-- Displayed in a notification when a Vconnct video call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Vconnct videopoziv u tijeku</string>
+    <!-- Displayed in a notification when a Vconnct group call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Vconnct grupni poziv u tijeku</string>
 
     <!-- transport_selection_list_item -->
     <string name="transport_selection_list_item__transport_icon">Ikona transporta</string>
     <string name="ConversationListFragment_loading">Učitavanje…</string>
     <string name="CallNotificationBuilder_connecting">Povezivanje…</string>
     <string name="Permissions_permission_required">Potrebna je dozvola</string>
-    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">V.Call zahtijeva dopuštenje za SMS za slanje SMS-a, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"SMS\".</string>
+    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Vconnct zahtijeva dopuštenje za SMS za slanje SMS-a, ali je trajno odbijen. Otvorite postavke aplikacije, odaberite \"Dozvole\" i omogućite \"SMS\".</string>
     <string name="Permissions_continue">Nastavi</string>
     <string name="Permissions_not_now">Ne sada</string>
     <string name="conversation_activity__enable_signal_messages">OMOGUĆI SIGNAL PORUKE</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">Migracija V.Call baze podataka</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">Migracija Vconnct baze podataka</string>
     <string name="PushDecryptJob_new_locked_message">Nova zaključana poruka</string>
     <string name="PushDecryptJob_unlock_to_view_pending_messages">Otključaj za prikaz poruka na čekanju</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Lozinka sigurnosne kopije</string>
@@ -3868,14 +3868,14 @@
     <string name="preferences_app_protection__screen_lock">Zaključavanje zaslona</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Zaključajte pristup Signalu pomoću Androidovog zaključavanja zaslona ili otiska prsta</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Zaključavanje zaslona nakon</string>
-    <string name="preferences_app_protection__signal_pin">V.Call PIN</string>
+    <string name="preferences_app_protection__signal_pin">Vconnct PIN</string>
     <string name="preferences_app_protection__create_a_pin">Stvorite PIN</string>
     <string name="preferences_app_protection__change_your_pin">Promijenite vaš PIN</string>
     <string name="preferences_app_protection__pin_reminders">PIN podsjetnici</string>
     <string name="preferences_app_protection__turn_off">Isključi</string>
     <string name="preferences_app_protection__confirm_pin">Potvrdite PIN</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">Potvrdite svoj V.Call PIN</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Svakako zapamtite ili sigurno pohranite svoj PIN jer ga nije moguće vratiti. Ako zaboravite svoj PIN, možete izgubiti podatke prilikom ponovne registracije vašeg V.Call računa.</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">Potvrdite svoj Vconnct PIN</string>
+    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Svakako zapamtite ili sigurno pohranite svoj PIN jer ga nije moguće vratiti. Ako zaboravite svoj PIN, možete izgubiti podatke prilikom ponovne registracije vašeg Vconnct računa.</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">Nevažeći PIN. Pokušajte ponovno.</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">Omogućavanje Zaključavanja registracije nije uspjelo.</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">Onemogućavanje Zaključavanja registracije nije uspjelo.</string>
@@ -3888,14 +3888,14 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Previše neuspjelih pokušaja. Pokušajte ponovo kasnije.</string>
     <string name="RegistrationActivity_error_connecting_to_service">Pogreška prilikom povezivanja s uslugom</string>
     <string name="preferences_chats__backups">Sigurnosne kopije</string>
-    <string name="prompt_passphrase_activity__signal_is_locked">V.Call je zaključan</string>
+    <string name="prompt_passphrase_activity__signal_is_locked">Vconnct je zaključan</string>
     <string name="prompt_passphrase_activity__tap_to_unlock">PRITISNITE ZA OTKLJUČAVANJE</string>
     <string name="Recipient_unknown">Nepoznato</string>
 
     <!-- Option in settings that will take use to re-register if they are no longer registered -->
     <string name="preferences_account_reregister">Ponovno registrirajte račun</string>
     <!-- Option in settings that will take user to our website or playstore to update their expired build -->
-    <string name="preferences_account_update_signal">Ažuriraj V.Call</string>
+    <string name="preferences_account_update_signal">Ažuriraj Vconnct</string>
     <!-- Option in settings shown when user is no longer registered or expired client that will WIPE ALL THEIR DATA -->
     <string name="preferences_account_delete_all_data">Izbriši sve podatke</string>
     <!-- Title for confirmation dialog confirming user wants to delete all their data -->
@@ -3911,7 +3911,7 @@
 
     <!-- TransferOrRestoreFragment -->
     <string name="TransferOrRestoreFragment__transfer_or_restore_account">Prijenos ili vraćanje računa</string>
-    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ako ste prethodno registrirali V.Call račun, svoj račun i poruke možete prenijeti ili vratiti</string>
+    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ako ste prethodno registrirali Vconnct račun, svoj račun i poruke možete prenijeti ili vratiti</string>
     <string name="TransferOrRestoreFragment__transfer_from_android_device">Prijenos s Android uređaja</string>
     <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Prenesite svoj račun i poruke sa starog Android uređaja. Morate imati pristup svom starom uređaju.</string>
     <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Morate imati pristup svom starom uređaju.</string>
@@ -3919,7 +3919,7 @@
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Vratite svoje poruke iz lokalne sigurnosne kopije. Ako ne vratite sada, nećete kasnije moći vratiti.</string>
 
     <!-- NewDeviceTransferInstructionsFragment -->
-    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Otvorite V.Call na starom Android uređaju</string>
+    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Otvorite Vconnct na starom Android uređaju</string>
     <string name="NewDeviceTransferInstructions__continue">Nastavi</string>
     <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
     <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Pritisnite svoju profilnu sliku u gornjem lijevom kutu da biste otvorili Postavke</string>
@@ -3932,19 +3932,19 @@
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Priprema za povezivanje s starim Android uređajem…</string>
     <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Pričekajte trenutak, uskoro će biti spremno</string>
     <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Čekanje da se stari Android uređaj poveže…</string>
-    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">V.Call zahtijeva dopuštenje za lokaciju za otkrivanje i povezivanje s vašim starim Android uređajem.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">V.Call zahtijeva da su lokacijske usluge omogućene za otkrivanje i povezivanje s vašim starim Android uređajem.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Vconnct zahtijeva dopuštenje za lokaciju za otkrivanje i povezivanje s vašim starim Android uređajem.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Vconnct zahtijeva da su lokacijske usluge omogućene za otkrivanje i povezivanje s vašim starim Android uređajem.</string>
     <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signalu je potreban Wi-Fi da bi otkrio i povezao se sa vašim starim Android uređajem. Wi-Fi mora biti uključen, ali ne mora biti povezan s Wi-Fi mrežom.</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Nažalost, čini se da ovaj uređaj ne podržava Wi-Fi Direct. V.Call koristi Wi-Fi Direct za otkrivanje i povezivanje sa vašim starim Android uređajem. I dalje možete vratiti sigurnosnu kopiju da biste vratili račun sa starog Android uređaja.</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Nažalost, čini se da ovaj uređaj ne podržava Wi-Fi Direct. Vconnct koristi Wi-Fi Direct za otkrivanje i povezivanje sa vašim starim Android uređajem. I dalje možete vratiti sigurnosnu kopiju da biste vratili račun sa starog Android uređaja.</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">Vrati iz sigurnosne kopije</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Došlo je do neočekivane pogreške prilikom pokušaja povezivanja sa vašim starim Android uređajem.</string>
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Traženje novog Android uređaja…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">V.Call zahtijeva dopuštenje za lokaciju za otkrivanje i povezivanje s vašim novim Android uređajem.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">V.Call zahtijeva da su lokacijske usluge omogućene za otkrivanje i povezivanje s vašim novim Android uređajem.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Vconnct zahtijeva dopuštenje za lokaciju za otkrivanje i povezivanje s vašim novim Android uređajem.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Vconnct zahtijeva da su lokacijske usluge omogućene za otkrivanje i povezivanje s vašim novim Android uređajem.</string>
     <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signalu je potreban Wi-Fi da bi otkrio i povezao se sa vašim novim Android uređajem. Wi-Fi mora biti uključen, ali ne mora biti povezan s Wi-Fi mrežom.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Nažalost, čini se da ovaj uređaj ne podržava Wi-Fi Direct. V.Call koristi Wi-Fi Direct za otkrivanje i povezivanje sa vašim novim Android uređajem. I dalje možete stvoriti sigurnosnu kopiju da biste vratili račun na novom Android uređaju.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Nažalost, čini se da ovaj uređaj ne podržava Wi-Fi Direct. Vconnct koristi Wi-Fi Direct za otkrivanje i povezivanje sa vašim novim Android uređajem. I dalje možete stvoriti sigurnosnu kopiju da biste vratili račun na novom Android uređaju.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Stvori sigurnosnu kopiju</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Došlo je do neočekivane pogreške prilikom pokušaja povezivanja sa vašim novim Android uređajem.</string>
 
@@ -3985,7 +3985,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Prijenos podataka</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Držite oba uređaja blizu jedan drugog. Ne isključujte nijedan uređaj i držite V.Call otvorenim. Prijenosi su end-to-end šifrirani.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Držite oba uređaja blizu jedan drugog. Ne isključujte nijedan uređaj i držite Vconnct otvorenim. Prijenosi su end-to-end šifrirani.</string>
     <string name="DeviceTransfer__d_messages_so_far">%1$d poruka do sada…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">Dosad preneseno: %1$s%% poruka</string>
@@ -3999,7 +3999,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Prenesi račun</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Preuzmite V.Call na novom Android uređaju</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Preuzmite Vconnct na novom Android uređaju</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Pritisnite \"Prijenos ili vraćanje računa\""</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -4008,7 +4008,7 @@
 
     <!-- OldDeviceTransferComplete -->
     <string name="OldDeviceTransferComplete__go_to_your_new_device">Idite na vaš novi uređaj</string>
-    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Vaši V.Call podaci su prebačeni na vaš novi uređaj. Da biste dovršili postupak prijenosa, morate nastaviti registraciju na novom uređaju.</string>
+    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Vaši Vconnct podaci su prebačeni na vaš novi uređaj. Da biste dovršili postupak prijenosa, morate nastaviti registraciju na novom uređaju.</string>
     <string name="OldDeviceTransferComplete__close">Zatvori</string>
 
     <!-- NewDeviceTransferComplete -->
@@ -4028,7 +4028,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Dovršite registraciju na vašem novom uređaju</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Vaš V.Call račun je prebačen na vaš novi uređaj. Za nastavak, morate dovršiti registraciju na novom uređaju. V.Call će biti neaktivan na ovom uređaju.</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Vaš Vconnct račun je prebačen na vaš novi uređaj. Za nastavak, morate dovršiti registraciju na novom uređaju. Vconnct će biti neaktivan na ovom uređaju.</string>
     <string name="OldDeviceTransferLockedDialog__done">Gotovo</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Poništi i aktiviraj ovaj uređaj</string>
 
@@ -4067,7 +4067,7 @@
     <string name="GroupsLearnMore_paragraph_1">Naslijeđene grupe su grupe koje nisu kompatibilne s značajkama Nove grupe kao što su administratori i opisnija ažuriranja grupa.</string>
     <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Mogu li \"nadograditi\" Naslijeđenu grupu?</string>
     <string name="GroupsLearnMore_paragraph_2">Naslijeđene grupe se još ne mogu nadograditi u Nove grupe, ali možete stvoriti Novu grupu s istim članovima ako su na najnovijoj verziji Signala.</string>
-    <string name="GroupsLearnMore_paragraph_3">V.Call će u budućnosti ponuditi način za nadogradnju Naslijeđenih grupa.</string>
+    <string name="GroupsLearnMore_paragraph_3">Vconnct će u budućnosti ponuditi način za nadogradnju Naslijeđenih grupa.</string>
 
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Bilo tko s ovom poveznicom može vidjeti naziv grupe i sliku kao i poslati zahtjev za pridruživanje. Podijelite s osobama kojima vjerujete.</string>
@@ -4154,7 +4154,7 @@
     <string name="DeleteAccountFragment__no_number">Nije naveden broj</string>
     <string name="DeleteAccountFragment__the_phone_number">Broj telefona koji ste unijeli ne podudara se s vašim računima.</string>
     <string name="DeleteAccountFragment__are_you_sure">Jeste li sigurni da želite izbrisati svoj račun?</string>
-    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Ovime ćete izbrisati svoj V.Call račun i resetirati aplikaciju. Nakon završetka postupka aplikacija će se zatvoriti.</string>
+    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Ovime ćete izbrisati svoj Vconnct račun i resetirati aplikaciju. Nakon završetka postupka aplikacija će se zatvoriti.</string>
     <string name="DeleteAccountFragment__failed_to_delete_local_data">Brisanje lokalnih podataka nije uspjelo. Možete ih ručno izbrisati u postavkama aplikacije.</string>
     <string name="DeleteAccountFragment__launch_app_settings">Otvori postavke aplikacije</string>
     <!-- Title of progress dialog shown when a user deletes their account and the process is leaving all groups -->
@@ -4279,10 +4279,10 @@
     <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">Spremi frazu za oporavak</string>
     <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Unesite frazu za oporavak</string>
     <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-        <item quantity="one">Račun će se automatski vratiti kada ponovo instalirate V.Call ako potvrdite svoj V.Call PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od %1$d riječi. Zapišite je i spremite na sigurno mjesto.</item>
-        <item quantity="few">Račun će se automatski vratiti kada ponovo instalirate V.Call ako potvrdite svoj V.Call PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od %1$d riječi. Zapišite je i spremite na sigurno mjesto.</item>
-        <item quantity="many">Račun će se automatski vratiti kada ponovo instalirate V.Call ako potvrdite svoj V.Call PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od %1$d riječi. Zapišite je i spremite na sigurno mjesto.</item>
-        <item quantity="other">Račun će se automatski vratiti kada ponovo instalirate V.Call ako potvrdite svoj V.Call PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od %1$d riječi. Zapišite je i spremite na sigurno mjesto.</item>
+        <item quantity="one">Račun će se automatski vratiti kada ponovo instalirate Vconnct ako potvrdite svoj Vconnct PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od %1$d riječi. Zapišite je i spremite na sigurno mjesto.</item>
+        <item quantity="few">Račun će se automatski vratiti kada ponovo instalirate Vconnct ako potvrdite svoj Vconnct PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od %1$d riječi. Zapišite je i spremite na sigurno mjesto.</item>
+        <item quantity="many">Račun će se automatski vratiti kada ponovo instalirate Vconnct ako potvrdite svoj Vconnct PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od %1$d riječi. Zapišite je i spremite na sigurno mjesto.</item>
+        <item quantity="other">Račun će se automatski vratiti kada ponovo instalirate Vconnct ako potvrdite svoj Vconnct PIN. Stanje možete vratiti i pomoću fraze za oporavak koja je za vas jedinstvena fraza od %1$d riječi. Zapišite je i spremite na sigurno mjesto.</item>
     </plurals>
     <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
     <string name="PaymentsRecoveryStartFragment__got_balance">Imate nešto na stanju! Vrijeme je da spremite svoju frazu za oporavak—lozinku od 24 riječi koju možete koristiti za oporavak vašeg stanja.</string>
@@ -4380,7 +4380,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">Račun</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">S vremenom ćete biti sve rjeđe upitani</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">Zahtjeva vaš V.Call PIN za ponovnu registriraciju vašeg broja telefona na V.Call</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">Zahtjeva vaš Vconnct PIN za ponovnu registriraciju vašeg broja telefona na Vconnct</string>
     <string name="AccountSettingsFragment__change_phone_number">Promijeniti broj telefona</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">Podaci o vašem računu</string>
@@ -4389,7 +4389,7 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">Podaci o vašem računu</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">Izvezite izvješće o podacima s vašeg V.Call računa. Izvješće ne sadržava poruke i medijski sadržaj. %1$s</string>
+    <string name="ExportAccountDataFragment__export_explanation">Izvezite izvješće o podacima s vašeg Vconnct računa. Izvješće ne sadržava poruke i medijski sadržaj. %1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">Saznajte više</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4417,14 +4417,14 @@
     <!-- Title for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_confirmation">Izvesti podatke?</string>
     <!-- Message for export confirmation dialog -->
-    <string name="ExportAccountDataFragment__export_report_confirmation_message">Dijelite podatke o vašem V.Call računu samo s osobama ili aplikacijama kojima vjerujete.</string>
+    <string name="ExportAccountDataFragment__export_report_confirmation_message">Dijelite podatke o vašem Vconnct računu samo s osobama ili aplikacijama kojima vjerujete.</string>
     <!-- Action to export in for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_action">Izvezi</string>
 
     <!-- Shown in a dialog with a spinner while the report is downloading -->
     <string name="ExportAccountDataFragment__download_progress">Generiranje izvješća…</string>
     <!-- Explanation that the report is only generated on export and is not saved on the device -->
-    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Vaše izvješće generira se samo u trenutku izvoza i V.Call ga ne pohranjuje na vašem uređaju.</string>
+    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Vaše izvješće generira se samo u trenutku izvoza i Vconnct ga ne pohranjuje na vašem uređaju.</string>
 
     <!-- ChangeNumberFragment -->
     <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">Upotrijebite ovo za promjenu svog trenutnog telefonskog broja u novi telefonski broj. Ovu promjenu nije moguće poništiti.\n\nPrije nastavka provjerite može li vaš novi broj primati SMS-ove ili pozive.</string>
@@ -4457,7 +4457,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Uredi broj</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Promjena V.Call broja - pomoć u vezi PIN-a za Android (v2 PIN)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Promjena Vconnct broja - pomoć u vezi PIN-a za Android (v2 PIN)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN se ne podudara</string>
@@ -4533,7 +4533,7 @@
     <string name="PrivacySettingsFragment__disappearing_messages">Poruke koje nestaju</string>
     <string name="PrivacySettingsFragment__app_security">Sigurnost aplikacije</string>
     <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">Blokira mogućnost snimke zaslona u nedavnim razgovorima i unutar aplikacije</string>
-    <string name="PrivacySettingsFragment__signal_message_and_calls">V.Call poruke i pozivi, uvijek preusmjeravanje poziva i zapečaćeni pošiljatelj</string>
+    <string name="PrivacySettingsFragment__signal_message_and_calls">Vconnct poruke i pozivi, uvijek preusmjeravanje poziva i zapečaćeni pošiljatelj</string>
     <string name="PrivacySettingsFragment__default_timer_for_new_changes">Zadani vremenski period za nove poruke</string>
     <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">Postavite zadani vremenski period za poruke koje nestaju za sve nove razgovore koje započnete.</string>
     <!-- Summary for stories preference to launch into story privacy settings -->
@@ -4578,10 +4578,10 @@
     <string name="HelpSettingsFragment__contact_us">Kontaktirajte nas</string>
     <string name="HelpSettingsFragment__version">Verzija</string>
     <string name="HelpSettingsFragment__debug_log">Zapisnik pogreške</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the V.Call app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Vconnct app-->
     <string name="HelpSettingsFragment__licenses">Licence</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Uvjeti korištenja i Politika privatnosti</string>
-    <string name="HelpFragment__copyright_signal_messenger">Copyright V.Call Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Copyright Vconnct Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Licencirano pod licencom GNU AGPLv3</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -4629,7 +4629,7 @@
     <!-- Title text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_donate_to_signal">Donirajte Signalu</string>
     <!-- Body text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">V.Call pokreću ljudi poput vas. Donirajte mjesečno i dobit ćete značku.</string>
+    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">Vconnct pokreću ljudi poput vas. Donirajte mjesečno i dobit ćete značku.</string>
     <!-- Button label that brings a user to the donate screen. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_donate">Doniraj</string>
     <!-- Button label that dismissed a prompt to donate. Shown in a popup at the bottom of the chat list. -->
@@ -4652,7 +4652,7 @@
     <!-- BecomeASustainerMegaphone -->
     <string name="BecomeASustainerMegaphone__become_a_sustainer">Postanite pretplatnik</string>
     <!-- Displayed in the Become a Sustainer megaphone -->
-    <string name="BecomeASustainerMegaphone__signal_is_powered_by">V.Call podržavaju ljudi poput vas. Donirajte i osvojite svoju značku.</string>
+    <string name="BecomeASustainerMegaphone__signal_is_powered_by">Vconnct podržavaju ljudi poput vas. Donirajte i osvojite svoju značku.</string>
     <string name="BecomeASustainerMegaphone__not_now">Ne sada</string>
     <string name="BecomeASustainerMegaphone__donate">Doniraj</string>
 
@@ -4722,7 +4722,7 @@
     <string name="ConversationSettingsFragment__conversation_muted_forever">Razgovor je utišan zauvijek</string>
     <string name="ConversationSettingsFragment__copied_phone_number_to_clipboard">Telefonski broj je kopiran u međuspremnik.</string>
     <string name="ConversationSettingsFragment__phone_number">Broj telefona</string>
-    <string name="ConversationSettingsFragment__get_badges">Osvojite značke za svoj profil podržavajući V.Call. Dodirnite značku za više informacija.</string>
+    <string name="ConversationSettingsFragment__get_badges">Osvojite značke za svoj profil podržavajući Vconnct. Dodirnite značku za više informacija.</string>
 
     <!-- PermissionsSettingsFragment -->
     <string name="PermissionsSettingsFragment__add_members">Dodaj članove</string>
@@ -4913,11 +4913,11 @@
     <!-- Displayed on primary button in the bottom sheet as a call-to-action to launch into the donation flow -->
     <string name="ViewBadgeBottomSheetDialogFragment__donate_now">Doniraj sada</string>
     <!-- Title of a page in the bottom sheet. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s podržava V.Call</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s podržava Vconnct</string>
     <!-- Description of a page in the bottom sheet of a monthly badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s podržava V.Call mjesečnom donacijom. V.Call je neprofitna organizacija bez oglašivača ili investitora koju podržavaju samo ljudi poput vas.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s podržava Vconnct mjesečnom donacijom. Vconnct je neprofitna organizacija bez oglašivača ili investitora koju podržavaju samo ljudi poput vas.</string>
     <!-- Description of a page in the bottom sheet of a one-time badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s podržava V.Call donacijom. V.Call je neprofitna organizacija bez oglašivača ili investitora koju podržavaju samo ljudi poput vas.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s podržava Vconnct donacijom. Vconnct je neprofitna organizacija bez oglašivača ili investitora koju podržavaju samo ljudi poput vas.</string>
 
     <string name="ImageView__badge">Značka</string>
 
@@ -4939,13 +4939,13 @@
     <string name="Subscription__expires_s">Istječe %1$s</string>
 
     <!-- Title of learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">V.Call nije kao ostali.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Vconnct nije kao ostali.</string>
     <!-- First small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">Privatna razmjena poruka. Bez oglasa, bez pratitelja i bez nadzora.</string>
     <!-- Second small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">V.Call podržavaju donacije, što znači da je vaša privatnost u središtu svega što radimo. V.Call je stvoren za vas, a ne za vaše podatke niti radi zarade.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Vconnct podržavaju donacije, što znači da je vaša privatnost u središtu svega što radimo. Vconnct je stvoren za vas, a ne za vaše podatke niti radi zarade.</string>
     <!-- Third small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Ako možete, donirajte već danas kako bi V.Call ostao zabavan, pouzdan i dostupan svima.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Ako možete, donirajte već danas kako bi Vconnct ostao zabavan, pouzdan i dostupan svima.</string>
 
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">Hvala vam na podršci!</string>
     <!-- Subtext underneath the dialog title on the thanks sheet -->
@@ -4957,8 +4957,8 @@
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__continue">Nastavi</string>
     <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">Kada imate više od jedne značke, možete odabrati koju želite istaknuti kako bi je drugi mogli vidjeti na vašem profilu.</string>
 
-    <string name="BecomeASustainerFragment__get_badges">Osvojite značke za svoj profil podržavajući V.Call.</string>
-    <string name="BecomeASustainerFragment__signal_is_a_non_profit">V.Call je neprofitna organizacija bez oglašivača ili investitora, koju podržavaju samo ljudi poput vas.</string>
+    <string name="BecomeASustainerFragment__get_badges">Osvojite značke za svoj profil podržavajući Vconnct.</string>
+    <string name="BecomeASustainerFragment__signal_is_a_non_profit">Vconnct je neprofitna organizacija bez oglašivača ili investitora, koju podržavaju samo ljudi poput vas.</string>
 
     <!-- Button label for creating a donation -->
     <string name="ManageDonationsFragment__donate_to_signal">Donirajte Signalu</string>
@@ -4990,9 +4990,9 @@
     <string name="MySupportPreference__please_contact_support">Molimo Vas da kontaktirate podršku</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Ažuriraj V.Call</string>
+    <string name="UpdateSignalExpiredDialog__title">Ažuriraj Vconnct</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Ova verzija Signala je zastarjela. Ažurirajte je odmah da biste nastavili koristiti V.Call.</string>
+    <string name="UpdateSignalExpiredDialog__message">Ova verzija Signala je zastarjela. Ažurirajte je odmah da biste nastavili koristiti Vconnct.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Ažuriraj</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5015,7 +5015,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_boost_badge_has_expired_and">Značka podrške je istekla i ne prikazuje se više na vašem profilu.</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_reactivate">Jednokratnom donacijom možete ponovno aktivirati značku podrške na dodatnih 30 dana.</string>
     <!-- Displayed when we do not think the user is a subscriber when their boost expires -->
-    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">Možete nastaviti koristiti V.Call, ali ako želite podržati aplikaciju koja je napravljena za vas, razmislite o tome da postanete mjesečni pretplatnik.</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">Možete nastaviti koristiti Vconnct, ali ako želite podržati aplikaciju koja je napravljena za vas, razmislite o tome da postanete mjesečni pretplatnik.</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__become_a_sustainer">Postanite pretplatnik</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__add_a_boost">Dodaj Boost</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__not_now">Ne sada</string>
@@ -5025,13 +5025,13 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled">Vaša mjesečna pretplata je otkazana jer nije bilo moguće obraditi uplatu. Vaša značka više se ne prikazuje na vašem profilu.</string>
     <!-- Copy displayed when badge expires after a payment failure and we have a displayable charge failure reason -->
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled_s">Vaša mjesečna pretplata je otkazana. %1$s Vaša značka %2$s više se ne prikazuje na vašem profilu.</string>
-    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">I dalje možete koristiti V.Call, ali ako želite podržati aplikaciju i ponovno aktivirati svoju značku, bit će potrebno obnoviti pretplatu.</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">I dalje možete koristiti Vconnct, ali ako želite podržati aplikaciju i ponovno aktivirati svoju značku, bit će potrebno obnoviti pretplatu.</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__renew_subscription">Obnovi pretplatu</string>
     <!-- Button label to send user to Google Pay website -->
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Otvori Google Pay</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">Nije moguće provesti plaćanje pretplate</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Imamo problema s naplatom vaše uplate za program V.Call pretplatnici. Provjerite je li vaš način plaćanja ažuran. Ako nije, ažurirajte ga u Google Payu. V.Call će ponovno pokušati obraditi uplatu za nekoliko dana.</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Imamo problema s naplatom vaše uplate za program Vconnct pretplatnici. Provjerite je li vaš način plaćanja ažuran. Ako nije, ažurirajte ga u Google Payu. Vconnct će ponovno pokušati obraditi uplatu za nekoliko dana.</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">Ne prikazuj ponovno</string>
 
     <string name="Subscription__contact_support">Kontaktirajte podršku</string>
@@ -5052,18 +5052,18 @@
     <!-- Displayed as title when some generic error happens during sending donation on behalf of another user -->
     <string name="DonationsErrors__donation_failed">Donacija nije uspjela</string>
     <!-- Displayed as message when some generic error happens during sending donation on behalf of another user -->
-    <string name="DonationsErrors__your_payment_was_processed_but">Vaša uplata je obrađena, ali V.Call nije mogao poslati vašu poruku uz donaciju. Molimo kontaktirajte podršku.</string>
+    <string name="DonationsErrors__your_payment_was_processed_but">Vaša uplata je obrađena, ali Vconnct nije mogao poslati vašu poruku uz donaciju. Molimo kontaktirajte podršku.</string>
     <string name="DonationsErrors__your_badge_could_not">Vašu značku nije bilo moguće dodati na vaš profil, ali možda vam je naplaćena. Molimo kontaktirajte korisničku podršku.</string>
     <string name="DonationsErrors__your_payment_is_still">Vaša se uplata još uvijek obrađuje. To može potrajati nekoliko minuta ovisno o vašoj vezi.</string>
     <string name="DonationsErrors__failed_to_cancel_subscription">Otkazivanje pretplate nije uspjelo</string>
     <string name="DonationsErrors__subscription_cancellation_requires_an_internet_connection">Za otkazivanje pretplate potrebna je internetska veza.</string>
-    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">Vaš uređaj ne podržava Google Pay, stoga se ne možete pretplatiti i osvojiti značku. I dalje možete podržati V.Call donacijom na našoj internetskoj stranici.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">Vaš uređaj ne podržava Google Pay, stoga se ne možete pretplatiti i osvojiti značku. I dalje možete podržati Vconnct donacijom na našoj internetskoj stranici.</string>
     <string name="NetworkFailure__network_error_check_your_connection_and_try_again">Pogreška mreže. Provjerite vezu i pokušajte ponovno.</string>
     <string name="NetworkFailure__retry">Pokušajte ponovno</string>
     <!-- Displayed as a dialog title when the selected recipient for a gift doesn\'t support gifting -->
     <string name="DonationsErrors__cannot_send_donation">Nije moguće poslati donaciju</string>
     <!-- Displayed as a dialog message when the selected recipient for a gift doesn\'t support gifting -->
-    <string name="DonationsErrors__this_user_cant_receive_donations_until">Korisnik ne može primati donacije dok ne nadogradi aplikaciju V.Call.</string>
+    <string name="DonationsErrors__this_user_cant_receive_donations_until">Korisnik ne može primati donacije dok ne nadogradi aplikaciju Vconnct.</string>
     <!-- Displayed as a dialog message when the user\'s profile could not be fetched, likely due to lack of internet -->
     <string name="DonationsErrors__your_donation_could_not_be_sent">Slanje donacije nije uspjelo zbog mrežne pogreške. Provjerite internetsku vezu i pokušajte ponovno.</string>
 
@@ -5269,7 +5269,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Otvaranje alata za odabir nije uspjelo.</string>
 
-    <!-- Description shown for the V.Call Release Notes channel -->
+    <!-- Description shown for the Vconnct Release Notes channel -->
     <string name="ReleaseNotes__signal_release_notes_and_news">Bilješke i vijesti o najnovijoj verziji Signala</string>
 
     <!-- Donation receipts activity title -->
@@ -5291,13 +5291,13 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">Podijeli račun</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">Ako ste ponovno instalirali V.Call, potvrde o prijašnjim donacijama neće biti dostupne.</string>
+    <string name="DonationReceiptListFragment__if_you_have">Ako ste ponovno instalirali Vconnct, potvrde o prijašnjim donacijama neće biti dostupne.</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">Potvrda o donaciji</string>
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">Količina</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Hvala što podržavate V.Call. Vaš doprinos pomaže u poticanju misije razvoja tehnologije privatnosti otvorenog koda koja štiti slobodu izražavanja i omogućuje sigurnu globalnu komunikaciju za milijune diljem svijeta. Ako ste stanovnik Sjedinjenih Američkih Država, molimo sačuvajte ovu potvrdu za poreznu evidenciju. V.Call Technology Foundation je neprofitna organizacija oslobođena poreza u Sjedinjenim Američkim Državama prema odjeljku 501c3 Poreznog zakona. Naš federalni porezni broj je 82–4506840.</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Hvala što podržavate Vconnct. Vaš doprinos pomaže u poticanju misije razvoja tehnologije privatnosti otvorenog koda koja štiti slobodu izražavanja i omogućuje sigurnu globalnu komunikaciju za milijune diljem svijeta. Ako ste stanovnik Sjedinjenih Američkih Država, molimo sačuvajte ovu potvrdu za poreznu evidenciju. Vconnct Technology Foundation je neprofitna organizacija oslobođena poreza u Sjedinjenim Američkim Državama prema odjeljku 501c3 Poreznog zakona. Naš federalni porezni broj je 82–4506840.</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5452,7 +5452,7 @@
     <string name="MyStorySettingsFragment__who_can_view_this_story">Tko može pogledati ovu priču</string>
     <!-- Clickable option for selecting people to hide your story from -->
     <!-- Privacy setting title for sending stories to all your signal connections -->
-    <string name="MyStorySettingsFragment__all_signal_connections">Svi V.Call kontakti</string>
+    <string name="MyStorySettingsFragment__all_signal_connections">Svi Vconnct kontakti</string>
     <!-- Privacy setting description for sending stories to all your signal connections -->
     <!-- Privacy setting title for sending stories to all except the specified connections -->
     <string name="MyStorySettingsFragment__all_except">Svi osim…</string>
@@ -5484,17 +5484,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">Dopustite odgovore i reakcije</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">Dopustite osobama koje mogu vidjeti vašu priču da reagiraju i odgovaraju na nju</string>
-    <!-- V.Call connections bolded text in the V.Call Connections sheet -->
-    <string name="SignalConnectionsBottomSheet___signal_connections">V.Call kontakti</string>
+    <!-- Vconnct connections bolded text in the Vconnct Connections sheet -->
+    <string name="SignalConnectionsBottomSheet___signal_connections">Vconnct kontakti</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">V.Call kontakti su ljudi kojima ste odlučili iskazati povjerenje, tako što ste:</string>
-    <!-- V.Call connections sheet bullet point 1 -->
+    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Vconnct kontakti su ljudi kojima ste odlučili iskazati povjerenje, tako što ste:</string>
+    <!-- Vconnct connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">Započeli razgovor s njima</string>
-    <!-- V.Call connections sheet bullet point 2 -->
+    <!-- Vconnct connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">Prihvatili njihov zahtjev za razgovorom</string>
-    <!-- V.Call connections sheet bullet point 3 -->
+    <!-- Vconnct connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">Spremili ih u kontakte</string>
-    <!-- Note at the bottom of the V.Call connections sheet -->
+    <!-- Note at the bottom of the Vconnct connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"Vaši kontakti mogu vidjeti vaše ime i fotografiju te vaše priče, osim ako ih od njih ne sakrijete."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">Dodaj gledatelja</string>
@@ -5655,10 +5655,10 @@
     <string name="GiftFlowStartFragment__donate_for_a_friend">Donirajte u ime prijatelja</string>
     <!-- Description text on start fragment for gifting a badge -->
     <plurals name="GiftFlowStartFragment__support_signal_by">
-        <item quantity="one">Podržite V.Call donacijom u ime prijatelja ili člana obitelji koji koristi V.Call. Primit će značku koju će moći prikazati na svom profilu na %1$d dan</item>
-        <item quantity="few">Podržite V.Call donacijom u ime prijatelja ili člana obitelji koji koristi V.Call. Primit će značku koju će moći prikazati na svom profilu na %1$d dana</item>
-        <item quantity="many">Podržite V.Call donacijom u ime prijatelja ili člana obitelji koji koristi V.Call. Primit će značku koju će moći prikazati na svom profilu na %1$d dana</item>
-        <item quantity="other">Podržite V.Call donacijom u ime prijatelja ili člana obitelji koji koristi V.Call. Primit će značku koju će moći prikazati na svom profilu na %1$d dana</item>
+        <item quantity="one">Podržite Vconnct donacijom u ime prijatelja ili člana obitelji koji koristi Vconnct. Primit će značku koju će moći prikazati na svom profilu na %1$d dan</item>
+        <item quantity="few">Podržite Vconnct donacijom u ime prijatelja ili člana obitelji koji koristi Vconnct. Primit će značku koju će moći prikazati na svom profilu na %1$d dana</item>
+        <item quantity="many">Podržite Vconnct donacijom u ime prijatelja ili člana obitelji koji koristi Vconnct. Primit će značku koju će moći prikazati na svom profilu na %1$d dana</item>
+        <item quantity="other">Podržite Vconnct donacijom u ime prijatelja ili člana obitelji koji koristi Vconnct. Primit će značku koju će moći prikazati na svom profilu na %1$d dana</item>
     </plurals>
     <!-- Action button label for start fragment for gifting a badge -->
     <string name="GiftFlowStartFragment__next">Sljedeće</string>
@@ -5802,7 +5802,7 @@
     <!-- Title of safety number changes bottom sheet when showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_changes">Promjene sigurnosnog broja</string>
     <!-- Message of safety number changes bottom sheet when showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__the_following_people">Sljedeće osobe su možda ponovno instalirale V.Call ili promijenile uređaje. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</string>
+    <string name="SafetyNumberBottomSheetFragment__the_following_people">Sljedeće osobe su možda ponovno instalirale Vconnct ili promijenile uređaje. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_checkup">Provjera sigurnosnog broja</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
@@ -5810,7 +5810,7 @@
     <!-- Message of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
     <string name="SafetyNumberBottomSheetFragment__all_connections_have_been_reviewed">Svi kontakti su pregledani, dodirnite Pošalji za nastavak.</string>
     <!-- Message of safety number changes bottom sheet when not showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">Među vašim kontaktima, %1$d je možda ponovno instaliralo V.Call ili promijenilo uređaje. Prije nego što s njima podijelite svoju priču, pregledajte njihove sigurnosne brojeve ili razmislite o tome da ih uklonite iz svoje priče.</string>
+    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">Među vašim kontaktima, %1$d je možda ponovno instaliralo Vconnct ili promijenilo uređaje. Prije nego što s njima podijelite svoju priču, pregledajte njihove sigurnosne brojeve ili razmislite o tome da ih uklonite iz svoje priče.</string>
     <!-- Menu action to launch safety number verification screen -->
     <string name="SafetyNumberBottomSheetFragment__verify_safety_number">Potvrdi sigurnosni broj</string>
     <!-- Menu action to remove user from story -->
@@ -5827,10 +5827,10 @@
     <string name="SafetyNumberReviewConnectionsFragment__safety_number_changes">Promjene sigurnosnog broja</string>
     <!-- Message of safety number review fragment -->
     <plurals name="SafetyNumberReviewConnectionsFragment__d_recipients_may_have">
-        <item quantity="one">%1$d primatelj je možda ponovno instalirao V.Call ili promijenio uređaj. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</item>
-        <item quantity="few">%1$d primatelja su možda ponovno instalirala V.Call ili promijenila uređaje. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</item>
-        <item quantity="many">%1$d primatelja je možda ponovno instaliralo V.Call ili promijenilo uređaje. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</item>
-        <item quantity="other">%1$d primatelja je možda ponovno instaliralo V.Call ili promijenilo uređaje. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</item>
+        <item quantity="one">%1$d primatelj je možda ponovno instalirao Vconnct ili promijenio uređaj. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</item>
+        <item quantity="few">%1$d primatelja su možda ponovno instalirala Vconnct ili promijenila uređaje. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</item>
+        <item quantity="many">%1$d primatelja je možda ponovno instaliralo Vconnct ili promijenilo uređaje. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</item>
+        <item quantity="other">%1$d primatelja je možda ponovno instaliralo Vconnct ili promijenilo uređaje. Dodirnite primatelja kako biste potvrdili novi sigurnosni broj. Ovo nije obavezno.</item>
     </plurals>
     <!-- Section header for 1:1 contacts in review fragment -->
     <string name="SafetyNumberBucketRowItem__contacts">Kontakti</string>
@@ -5844,7 +5844,7 @@
     <!-- Subtitle of initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__choose_who_can_see_posts_to_my_story_you_can_always_make_changes_in_settings">Odaberite tko može vidjeti vaše priče. To uvijek možete promijeniti u postavkama.</string>
     <!-- All connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
-    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">Svi V.Call kontakti</string>
+    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">Svi Vconnct kontakti</string>
     <!-- All connections except option for initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__all_except">Svi osim…</string>
     <!-- Only with selected connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
@@ -5906,7 +5906,7 @@
     <!-- Displayed in the notification title when export completes -->
     <string name="SignalSmsExportService__signal_sms_export_complete">Izvoz SMS-ova iz Signala je dovršen</string>
     <!-- Displayed in the notification message when export completes -->
-    <string name="SignalSmsExportService__tap_to_return_to_signal">Dodirnite za povratak na V.Call</string>
+    <string name="SignalSmsExportService__tap_to_return_to_signal">Dodirnite za povratak na Vconnct</string>
 
     <!-- ExportYourSmsMessagesFragment -->
     <!-- Title of the screen -->
@@ -5934,8 +5934,8 @@
     <string name="ExportingSmsMessagesFragment__you_need_approximately_s_to_export_your_messages_ensure_you_have_enough_space_before_continuing">Potrebno vam je približno %1$s za izvoz poruka. Provjerite imate li dovoljno prostora prije nastavka.</string>
     <!-- Alert dialog button to continue with exporting sms after seeing the lack of storage warning -->
     <string name="ExportingSmsMessagesFragment__continue_anyway">Svejedno nastavi</string>
-    <!-- Dialog text shown when V.Call isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
-    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">V.Call zahtijeva pristup SMS porukama za uvoz vaših SMS poruka.</string>
+    <!-- Dialog text shown when Vconnct isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
+    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">Vconnct zahtijeva pristup SMS porukama za uvoz vaših SMS poruka.</string>
 
     <!-- ChooseANewDefaultSmsAppFragment -->
     <!-- Title of the screen -->
@@ -5959,7 +5959,7 @@
     <!-- Instruction step for choosing a new default sms app -->
     <string name="ChooseANewDefaultSmsAppFragment__choose_another_app_to_use_for_sms_messaging">Odaberite drugu aplikaciju za slanje SMS poruka</string>
     <!-- Instruction step for choosing a new default sms app -->
-    <string name="ChooseANewDefaultSmsAppFragment__return_to_signal">Vratite se na V.Call</string>
+    <string name="ChooseANewDefaultSmsAppFragment__return_to_signal">Vratite se na Vconnct</string>
     <!-- Instruction step for choosing a new default sms app -->
     <string name="ChooseANewDefaultSmsAppFragment__open_your_phones_settings_app">Otvorite postavke na telefonu</string>
     <!-- Instruction step for choosing a new default sms app -->
@@ -5987,9 +5987,9 @@
 
     <!-- SetSignalAsDefaultSmsAppFragment -->
     <!-- Title of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">Postavite V.Call kao zadanu SMS aplikaciju</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">Postavite Vconnct kao zadanu SMS aplikaciju</string>
     <!-- Message of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">Da biste izvezli svoje SMS poruke, trebate postaviti V.Call kao zadanu SMS aplikaciju.</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">Da biste izvezli svoje SMS poruke, trebate postaviti Vconnct kao zadanu SMS aplikaciju.</string>
     <!-- Button label to start export -->
     <string name="SetSignalAsDefaultSmsAppFragment__next">Sljedeće</string>
 
@@ -6013,13 +6013,13 @@
 
     <!-- SmsExportMegaphoneActivity -->
     <!-- Phase 2 title of full screen megaphone indicating sms will no longer be supported in the near future -->
-    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">V.Call više neće podržavati SMS poruke</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">Vconnct više neće podržavati SMS poruke</string>
     <!-- Phase 3 title of full screen megaphone indicating sms is longer supported  -->
-    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">V.Call više ne podržava SMS poruke</string>
+    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">Vconnct više ne podržava SMS poruke</string>
     <!-- Phase 2 message describing that sms is going away soon -->
-    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">V.Call će uskoro ukloniti podršku za slanje SMS poruka jer su V.Call poruke zaštićene sveobuhvatnim šifriranjem i nude znatno veću privatnost u odnosu na SMS poruke. To će nam također omogućiti da poboljšamo iskustvo slanja poruka u Signalu.</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">Vconnct će uskoro ukloniti podršku za slanje SMS poruka jer su Vconnct poruke zaštićene sveobuhvatnim šifriranjem i nude znatno veću privatnost u odnosu na SMS poruke. To će nam također omogućiti da poboljšamo iskustvo slanja poruka u Signalu.</string>
     <!-- Phase 3 message describing that sms has gone away -->
-    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">V.Call je uklonio podršku za slanje SMS poruka jer su V.Call poruke zaštićene sveobuhvatnim šifriranjem i nude znatno veću privatnost u odnosu na SMS poruke. To će nam također omogućiti da poboljšamo iskustvo slanja poruka u Signalu.</string>
+    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">Vconnct je uklonio podršku za slanje SMS poruka jer su Vconnct poruke zaštićene sveobuhvatnim šifriranjem i nude znatno veću privatnost u odnosu na SMS poruke. To će nam također omogućiti da poboljšamo iskustvo slanja poruka u Signalu.</string>
     <!-- The text on a button in a popup that, when clicked, will take the user to a screen to export their SMS messages -->
     <string name="SmsExportMegaphoneActivity__export_sms">Izvoz SMS poruka</string>
     <!-- The text on a button in a popup that, when clicked, will dismiss the popup and schedule the prompt to occur at a later time. -->
@@ -6030,7 +6030,7 @@
     <!-- Phase 1 Small megaphone title indicating sms is going away -->
     <string name="SmsExportMegaphone__sms_support_going_away">Ukida se podrška za SMS poruke</string>
     <!-- Phase 1 small megaphone description indicating sms is going away -->
-    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">Ne brinite, šifrirane V.Call poruke će i dalje biti dostupne.</string>
+    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">Ne brinite, šifrirane Vconnct poruke će i dalje biti dostupne.</string>
     <!-- Phase 1 small megaphone button that takes the user to the sms export flow -->
     <string name="SmsExportMegaphone__continue">Nastavi</string>
     <!-- Title for screen shown after sms export has completed -->
@@ -6071,7 +6071,7 @@
     <!-- Continue button label -->
     <string name="DonateToSignalFragment__continue">Nastavi</string>
     <!-- Description below title -->
-    <string name="DonateToSignalFragment__private_messaging">Privatna razmjena poruka koju financirate vi. Bez oglasa, bez praćenja, bez kompromisa. Donirajte odmah i podržite V.Call.</string>
+    <string name="DonateToSignalFragment__private_messaging">Privatna razmjena poruka koju financirate vi. Bez oglasa, bez praćenja, bez kompromisa. Donirajte odmah i podržite Vconnct.</string>
     <!-- Donation pill toggle monthly text -->
     <string name="DonationPillToggle__monthly">Mjesečna donacija</string>
     <!-- Donation pill toggle one-time text -->
@@ -6116,7 +6116,7 @@
     <!-- The title of a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_title">Nije moguće obraditi vaše kontakte</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
-    <string name="CdsPermanentErrorBottomSheet_body">Broj kontakata na vašem telefonu premašuje ograničenje koje je V.Call u stanju obraditi. Kako biste pronašli svoje kontakte na Signalu, razmislite o uklanjanju nekolicine kontakata iz imenika ili računa na telefonu koji sinkroniziraju mnogo kontakata.</string>
+    <string name="CdsPermanentErrorBottomSheet_body">Broj kontakata na vašem telefonu premašuje ograničenje koje je Vconnct u stanju obraditi. Kako biste pronašli svoje kontakte na Signalu, razmislite o uklanjanju nekolicine kontakata iz imenika ili računa na telefonu koji sinkroniziraju mnogo kontakata.</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_learn_more">Saznajte više</string>
     <!-- A button label in a bottom sheet that will navigate the user to their contacts settings. -->
@@ -6132,9 +6132,9 @@
 
     <!-- YourInformationIsPrivateBottomSheet -->
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">Vaši podaci su privatni</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">V.Call ne prikuplja niti pohranjuje vaše osobne podatke kada izvršite donaciju.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Vconnct ne prikuplja niti pohranjuje vaše osobne podatke kada izvršite donaciju.</string>
     <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">Kao procesor plaćanja za primanje vaših donacija koristimo Stripe. Ne pristupamo informacijama koje dijelite s njima, ne pohranjujemo ih niti spremamo.</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">V.Call ne povezuje i ne može povezati vašu donaciju s vašim V.Call računom.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Vconnct ne povezuje i ne može povezati vašu donaciju s vašim Vconnct računom.</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">Hvala vam na vašoj podršci!</string>
 
     <!-- GroupStoryEducationSheet -->
@@ -6165,19 +6165,19 @@
     <!-- Title for screen describing that sms support is going to be removed soon -->
     <string name="SmsRemoval_title_going_away">Ukida se podrška za SMS poruke</string>
     <!-- Bullet point message shown on describing screen as first bullet why sms is being removed, placeholder with be date of removal (e.g., March 21st) -->
-    <string name="SmsRemoval_info_bullet_1">Slanje SMS poruka unutar aplikacije V.Call uskoro neće više biti moguće.</string>
+    <string name="SmsRemoval_info_bullet_1">Slanje SMS poruka unutar aplikacije Vconnct uskoro neće više biti moguće.</string>
     <!-- Bullet point message shown on describing screen as second bullet why sms is being removed -->
-    <string name="SmsRemoval_info_bullet_2">SMS poruke nisu isto što i V.Call poruke. <b>Ovo ne utječe na slanje šifriranih poruka unutar Signala koje će nastaviti normalno funkcionirati.</b></string>
+    <string name="SmsRemoval_info_bullet_2">SMS poruke nisu isto što i Vconnct poruke. <b>Ovo ne utječe na slanje šifriranih poruka unutar Signala koje će nastaviti normalno funkcionirati.</b></string>
     <!-- Bullet point message shown on describing screen as third bullet why sms is being removed -->
     <string name="SmsRemoval_info_bullet_3">Svoje SMS poruke možete izvesti i odabrati drugu aplikaciju za slanje SMS poruka.</string>
     <!-- Bullet point message shown on describing screen as first bullet variant why sms is being removed when user is locked out of sms -->
-    <string name="SmsRemoval_info_bullet_1_phase_3">V.Call je uklonio podršku za slanje SMS poruka.</string>
+    <string name="SmsRemoval_info_bullet_1_phase_3">Vconnct je uklonio podršku za slanje SMS poruka.</string>
     <!-- Button label on sms removal info/megaphone to start the export SMS flow -->
     <string name="SmsRemoval_export_sms">Izvoz SMS poruka</string>
 
     <!-- Set up your username megaphone -->
     <!-- Displayed as a title on a megaphone which prompts user to set up a username -->
-    <string name="SetUpYourUsername__set_up_your_signal_username">Postavite svoje korisničko ime za V.Call</string>
+    <string name="SetUpYourUsername__set_up_your_signal_username">Postavite svoje korisničko ime za Vconnct</string>
     <!-- Displayed as a description on a megaphone which prompts user to set up a username -->
     <string name="SetUpYourUsername__usernames_let_others">Korisnička imena omogućuju drugima da vam šalju poruke bez potrebe za vašim brojem telefona</string>
     <!-- Displayed as an action on a megaphone which prompts user to set up a username -->
@@ -6203,7 +6203,7 @@
     <!-- Continue button which takes the user to the add a username screen -->
     <string name="UsernameEducationFragment__continue">Nastavi</string>
     <!-- Displayed as a title on the username education screen -->
-    <string name="UsernameEducationFragment__set_up_your_signal_username">Postavite svoje korisničko ime za V.Call</string>
+    <string name="UsernameEducationFragment__set_up_your_signal_username">Postavite svoje korisničko ime za Vconnct</string>
     <!-- Displayed as body text in the username education screen -->
     <string name="UsernameEducationFragment__usernames_are_paired_with_a_set_of_digits">Korisnička imena su povezana sa skupom znamenki i ne prikazuju se na vašem profilu</string>
     <!-- Displayed as body text in the username education screen -->
@@ -6354,20 +6354,20 @@
     <!-- Call link creation item title on calls tab -->
     <string name="CreateCallLink__create_a_call_link">Generiraj poveznicu na poziv</string>
     <!-- Call link creation item description on calls tab -->
-    <string name="CreateCallLink__share_a_link_for">Podijeli poveznicu na V.Call poziv</string>
+    <string name="CreateCallLink__share_a_link_for">Podijeli poveznicu na Vconnct poziv</string>
 
     <!-- CreateCallLinkBottomSheetDialogFragment -->
     <!-- Fragment title -->
     <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">Generiraj poveznicu na poziv</string>
     <!-- Displayed as a default name for the signal call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">V.Call poziv</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Vconnct poziv</string>
     <!-- Displayed on a small button to allow user to instantly join call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__join">Pridruži se</string>
     <!-- Option to open a full screen dialog to enter a call name -->
     <string name="CreateCallLinkBottomSheetDialogFragment__add_call_name">Dodaj naziv poziva</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">Odobri sve članove</string>
-    <!-- Row label to share the link via V.Call -->
+    <!-- Row label to share the link via Vconnct -->
     <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Podijeli poveznicu putem Signala</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Kopiraj poveznicu</string>

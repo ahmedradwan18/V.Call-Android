@@ -24,13 +24,13 @@
     <string name="save">Salvesta</string>
     <string name="note_to_self">Märkus endale</string>
 
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">Ilm</string>
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">Märkmed</string>
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">Uudised</string>
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">Lained</string>
 
     <!-- AlbumThumbnailView -->
@@ -81,15 +81,15 @@
     <string name="AttachmentKeyboard_file">Fail</string>
     <string name="AttachmentKeyboard_contact">Kontakt</string>
     <string name="AttachmentKeyboard_location">Asukoht</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">V.Call vajab fotode ja videote näitamise õigust.</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Vconnct vajab fotode ja videote näitamise õigust.</string>
     <string name="AttachmentKeyboard_give_access">Anna juurdepääs</string>
     <string name="AttachmentKeyboard_payment">Makse</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Ei leia rakendust meediafaili valimiseks.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">V.Call vajab fotode, videote või audiofailide manustamiseks ligipääsu salvestusmeediale, kuid see on püsivalt keelatud. Palun ava rakenduse seadete menüü, vali \"Õigused\" ja luba \"Salvestusmeedia\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">V.Call vajab kontaktide manustamiseks ligipääsu kontaktidele, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">V.Call vajab asukoha manustamiseks ligipääsu seadme asukohale, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Asukoht\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Vconnct vajab fotode, videote või audiofailide manustamiseks ligipääsu salvestusmeediale, kuid see on püsivalt keelatud. Palun ava rakenduse seadete menüü, vali \"Õigused\" ja luba \"Salvestusmeedia\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Vconnct vajab kontaktide manustamiseks ligipääsu kontaktidele, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Vconnct vajab asukoha manustamiseks ligipääsu seadme asukohale, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Asukoht\".</string>
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s ei ole makseid aktiveerinud </string>
     <!-- Alert dialog description to send the recipient a request to activate payments -->
@@ -126,7 +126,7 @@
     <string name="CreditCardFragment__donation_amount_s_per_month">Annetuse summa: %1$s kuus</string>
     <!-- Explanation of how to fill in the form, displayed above the credit card text fields -->
     <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-    <string name="CreditCardFragment__enter_your_card_details">Sisesta oma kaardi andmed. V.Call ei kogu ega salvesta sinu isikuandmeid.</string>
+    <string name="CreditCardFragment__enter_your_card_details">Sisesta oma kaardi andmed. Vconnct ei kogu ega salvesta sinu isikuandmeid.</string>
     <!-- Displayed as a hint in the card number text field -->
     <string name="CreditCardFragment__card_number">Kaardi number</string>
     <!-- Displayed as a hint in the card expiry text field -->
@@ -158,15 +158,15 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">Sa ei saa enam sellelt grupilt sõnumeid ega värskendusi ja liikmed ei saa sind uuesti sellesse gruppi lisada.</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">Grupi liikmetel pole võimalik sind sellesse gruppi uuesti lisada.</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">Grupi liikmetel on võimalik sind sellesse gruppi uuesti lisada.</string>
-    <!-- Text that is shown when unblocking a V.Call contact -->
+    <!-- Text that is shown when unblocking a Vconnct contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">Teil on võimalik üksteisele sõnumeid saata ja helistada ning sinu nimi ja foto jagatakse teistega.</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">Teil on võimalik teineteisele sõnumeid saata.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">Blokeeritud isikud ei saa sulle helistada ega sõnumeid saata.</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">Blokeeritud isikud ei saa sulle sõnumeid saata.</string>
-    <!-- Message shown on block dialog when blocking the V.Call release notes recipient -->
+    <!-- Message shown on block dialog when blocking the Vconnct release notes recipient -->
     <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Blokeeri teavitused Signali uuenduste ja uudiste kohta.</string>
-    <!-- Message shown on unblock dialog when unblocking the V.Call release notes recipient -->
+    <!-- Message shown on unblock dialog when unblocking the Vconnct release notes recipient -->
     <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Telli taas info Signali uuenduste ja uudiste kohta.</string>
     <string name="BlockUnblockDialog_unblock_s">Kas deblokeerida %1$s?</string>
     <string name="BlockUnblockDialog_block">Blokeeri</string>
@@ -370,17 +370,17 @@
     <string name="ConversationActivity_cancel_request">Tühista taotlus</string>
 
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Audiosõnumite saatmiseks luba Signalile juurdepääs seadme mikrofonile.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">V.Call vajab audiosõnumite saatmiseks ligipääsu seadme mikrofonile, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\".</string>
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">V.Call vajab kasutajale %1$s helistamiseks ligipääsu kaamerale ja mikrofonile, kuid need on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Vconnct vajab audiosõnumite saatmiseks ligipääsu seadme mikrofonile, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\".</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Vconnct vajab kasutajale %1$s helistamiseks ligipääsu kaamerale ja mikrofonile, kuid need on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Luba Signalile ligipääs kaamerale fotode ja videote salvestamiseks.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">V.Call vajab ligipääsu kaamerale, et salvestada fotosid ja videosid, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kaamera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">V.Call vajab fotode ja videote salvestamiseks ligipääsu kaamerale</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Vconnct vajab ligipääsu kaamerale, et salvestada fotosid ja videosid, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kaamera\".</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Vconnct vajab fotode ja videote salvestamiseks ligipääsu kaamerale</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Luba mikrofoni kasutus, et teha heliga videoid.</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">V.Call vajab videote salvestamiseks mikrofoni luba, kuid see on keelatud. Palun järka rakenduse seadetes, vali \"Load\" ning luba \"Mikrofon\" ja \"Kaamera\".</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">V.Call vajab videote salvestamiseks mikrofoniluba.</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Vconnct vajab videote salvestamiseks mikrofoni luba, kuid see on keelatud. Palun järka rakenduse seadetes, vali \"Load\" ning luba \"Mikrofon\" ja \"Kaamera\".</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Vconnct vajab videote salvestamiseks mikrofoniluba.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">V.Call ei saa SMS/MMS sõnumeid saata, kuna see pole sinu vaikimisi SMS-i rakendus. Kas soovid seda muuta oma Androidi seadetes?</string>
+    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Vconnct ei saa SMS/MMS sõnumeid saata, kuna see pole sinu vaikimisi SMS-i rakendus. Kas soovid seda muuta oma Androidi seadetes?</string>
     <string name="ConversationActivity_yes">Jah</string>
     <string name="ConversationActivity_no">Ei</string>
     <string name="ConversationActivity_search_position">%1$d / %2$d</string>
@@ -396,7 +396,7 @@
     <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Sa lahkud sellest grupist ja see kustutatakse kõigist sinu seadmetest.</string>
     <string name="ConversationActivity_delete">Kustuta</string>
     <string name="ConversationActivity_delete_and_leave">Kustuta ja lahku</string>
-    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">V.Call vajab kasutajale %1$s helistamiseks juurdepääsu seadme mikrofonile</string>
+    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Vconnct vajab kasutajale %1$s helistamiseks juurdepääsu seadme mikrofonile</string>
 
 
     <string name="ConversationActivity_join">Liitu</string>
@@ -409,13 +409,13 @@
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
     <string name="ConversationActivity__sms_messaging_is_currently_disabled_you_can_export_your_messages_to_another_app_on_your_phone">SMS-sõnumite toetamine on praegu välja lülitatud. Saad eksportida oma sõnumid mõnda teise rakendusse oma telefonis.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">V.Call ei toeta enam SMS-sõnumeid. Saad eksportida sõnumid mõnda teise oma telefoni rakendusse.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">Vconnct ei toeta enam SMS-sõnumeid. Saad eksportida sõnumid mõnda teise oma telefoni rakendusse.</string>
     <!-- Action button shown when in sms conversation, sms is disabled, and unexported sms messages are present -->
     <string name="ConversationActivity__export_sms_messages">Ekspordi SMS-sõnumid</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">SMS-sõnumite toetamine on praegu välja lülitatud. Kutsu %1$s Signalisse ja jätkake vestlust siin.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">V.Call ei toeta enam SMS-sõnumeid. Kutsu %1$s Signalisse ja jätkake vestlust siin.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Vconnct ei toeta enam SMS-sõnumeid. Kutsu %1$s Signalisse ja jätkake vestlust siin.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__invite_to_signal">Kutsu Signalisse</string>
     <!-- Snackbar message shown after dismissing the full screen sms export megaphone indicating we\'ll do it again soon -->
@@ -485,7 +485,7 @@
     <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d grupiliikmel on sama nimi.</string>
     <string name="ConversationFragment__tap_to_review">Üle vaatamiseks koputa</string>
     <string name="ConversationFragment__review_requests_carefully">Vaata taotlused tähelepanelikult üle</string>
-    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">V.Call leidis teise samanimelise kontakti</string>
+    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Vconnct leidis teise samanimelise kontakti</string>
     <string name="ConversationFragment_contact_us">Võta meiega ühendust</string>
     <string name="ConversationFragment_verify">Kinnita</string>
     <string name="ConversationFragment_not_now">Mitte praegu</string>
@@ -506,11 +506,11 @@
     <!-- Action shown to allow a user to update their application because it has expired -->
     <string name="ConversationFragment__update_build">Uuenda Signalit</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Registreeri V.Call uuesti</string>
+    <string name="ConversationFragment__reregister_signal">Registreeri Vconnct uuesti</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Liigu tagasi</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Ava V.Call</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Ava Vconnct</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Ei ole enam kinnitatud</string>
 
@@ -659,7 +659,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">Siiani %1$d…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s/ %% …</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">V.Call vajab varukoopiate loomiseks välismälu õigust, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ning luba \"Mäluruum\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Vconnct vajab varukoopiate loomiseks välismälu õigust, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ning luba \"Mäluruum\".</string>
 
 
     <!-- CustomDefaultPreference -->
@@ -726,7 +726,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Vestluse seanss on värskendatud</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">V.Call kasutab otspunkt krüptimist ja see võib mõnikord vajada vestluse seansi värskendamist. See ei mõjuta vestluse turvalisust, aga sa võisid mõnest selle kontakti sõnumist ilma jääda, seepärast palu neil vajadusel need uuesti saata.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Vconnct kasutab otspunkt krüptimist ja see võib mõnikord vajada vestluse seansi värskendamist. See ei mõjuta vestluse turvalisust, aga sa võisid mõnest selle kontakti sõnumist ilma jääda, seepärast palu neil vajadusel need uuesti saata.</string>
 
     <!-- DeviceListActivity -->
     <string name="DeviceListActivity_unlink_s">Eemaldada \"%1$s\" linkimine?</string>
@@ -763,7 +763,7 @@
 
     <!-- GcmRefreshJob -->
     <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Püsiv Signali ühendusviga!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">V.Call ei saanud registreerida teenusega Google Play Services. Signali sõnumid ja kõned on keelatud, palun proovi taas-registreerida menüüs Seaded &gt; Täpsem.</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Vconnct ei saanud registreerida teenusega Google Play Services. Signali sõnumid ja kõned on keelatud, palun proovi taas-registreerida menüüs Seaded &gt; Täpsem.</string>
 
 
     <!-- GiphyActivity -->
@@ -1118,8 +1118,8 @@
 
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Koputa ja hoia heli salvestamiseks. Vabasta, et saata</string>
-    <!-- Message shown if the user tries to switch a conversation from V.Call to SMS -->
-    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">V.Call ei toeta enam SMS-sõnumeid.</string>
+    <!-- Message shown if the user tries to switch a conversation from Vconnct to SMS -->
+    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">Vconnct ei toeta enam SMS-sõnumeid.</string>
     <!-- When editing a message, label shown above the text input field in the composer -->
     <string name="InputPanel_edit_message">Muuda sõnumit</string>
 
@@ -1528,7 +1528,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">Kas tahad, et %1$s saaks sulle sõnumeid saata ning sinu nime ja fotot näha? Oled selle isiku varasemalt eemaldanud.</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">Kas lubad kasutajal %1$s sulle sõnumeid saata ja jagad temaga enda nime ja fotot? Ta ei tea, et oled seda sõnumit näinud enne kui oled sellega nõustunud.</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a V.Call user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a Vconnct user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">Kas lubad kasutajal %1$s sulle sõnumeid saata ja jagad temaga oma nime ja fotot? Sa ei saa sõnumeid enne kui oled blokeeringu eemaldanud.</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">Kas lubad kasutajal %1$s sulle sõnumeid saata? Sa ei saa sõnumeid enne kui oled blokeeringu eemaldanud.</string>
@@ -1589,7 +1589,7 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">Lingid Signali seadme?</string>
     <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Tundub, et proovid linkida Signali seadet, kasutades 3. osapoole skannerit. Sinu kaitseks, palun skanneeri kood uuesti Signali siseselt.</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">V.Call vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Vconnct vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">QR-koodi ei saa skanneerida ilma kaamera loata</string>
 
     <!-- OutdatedBuildReminder -->
@@ -1605,8 +1605,8 @@
     <string name="PassphrasePromptActivity_watermark_content_description">Signali ikoon</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Saada salasõna</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Sobimatu salasõna!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Lukusta V.Call lahti</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">V.Call Android: ekraanilukk</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Lukusta Vconnct lahti</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Vconnct Android: ekraanilukk</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Kaart</string>
@@ -1708,8 +1708,8 @@
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Klõpsa siia enda video käivitamiseks</string>
-    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">V.Call vajab kasutajale %1$s helistamiseks juurdepääsu seadme kaamerale</string>
-    <string name="WebRtcCallActivity__signal_s">V.Call %1$s</string>
+    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Vconnct vajab kasutajale %1$s helistamiseks juurdepääsu seadme kaamerale</string>
+    <string name="WebRtcCallActivity__signal_s">Vconnct %1$s</string>
     <string name="WebRtcCallActivity__calling">Helistamine…</string>
     <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">Grupp on liikmetele helistamiseks liiga suur.</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
@@ -1735,11 +1735,11 @@
     <string name="WebRtcCallView__joining">Liitumine…</string>
     <string name="WebRtcCallView__disconnected">Ühendus katkestatud</string>
 
-    <string name="WebRtcCallView__signal_will_ring_s">V.Call helistab isikule %1$s</string>
-    <string name="WebRtcCallView__signal_will_ring_s_and_s">V.Call helistab isikutele %1$s ja %2$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s">Vconnct helistab isikule %1$s</string>
+    <string name="WebRtcCallView__signal_will_ring_s_and_s">Vconnct helistab isikutele %1$s ja %2$s</string>
     <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-        <item quantity="one">V.Call helistab isikutele %1$s, %2$s ja %3$d muule</item>
-        <item quantity="other">V.Call helistab isikutele %1$s, %2$s ja %3$d muule</item>
+        <item quantity="one">Vconnct helistab isikutele %1$s, %2$s ja %3$d muule</item>
+        <item quantity="other">Vconnct helistab isikutele %1$s, %2$s ja %3$d muule</item>
     </plurals>
 
     <string name="WebRtcCallView__s_will_be_notified">%1$ssaab teavituse</string>
@@ -1852,8 +1852,8 @@
     <string name="RegistrationActivity_play_services_error">Play teenuste viga</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play teenused uuenevad või pole hetkel saadaval. Palun proovi uuesti.</string>
     <string name="RegistrationActivity_terms_and_privacy">Tingimused ja privaatsuspoliitika</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">V.Call vajab sinu kontaktidele ja meediale ligipääsu, et võimaldada sul ühenduda sõpradega ja vahetada sõnumeid. Sinu kontaktid laetakse üles Signali privaatse kontaktituvastuse abil, mis tähendab, et need on lõpp-punkti krüpteeringuga ega ole Signali teenusele kunagi nähtavad.</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">V.Call vajab kontaktidega seotud luba, et võimaldada sul sõpradega ühenduda. Sinu kontaktid laetakse üles Signali privaatse kontaktituvastuse abil, mis tähendab, et need on lõpp-punkti krüpteeringuga ega ole Signali teenusele kunagi nähtavad.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Vconnct vajab sinu kontaktidele ja meediale ligipääsu, et võimaldada sul ühenduda sõpradega ja vahetada sõnumeid. Sinu kontaktid laetakse üles Signali privaatse kontaktituvastuse abil, mis tähendab, et need on lõpp-punkti krüpteeringuga ega ole Signali teenusele kunagi nähtavad.</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Vconnct vajab kontaktidega seotud luba, et võimaldada sul sõpradega ühenduda. Sinu kontaktid laetakse üles Signali privaatse kontaktituvastuse abil, mis tähendab, et need on lõpp-punkti krüpteeringuga ega ole Signali teenusele kunagi nähtavad.</string>
     <string name="RegistrationActivity_rate_limited_to_service">Oled sooritanud liiga palju selle numbri registreerimise katseid. Palun proovi hiljem uuesti.</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">Oled proovinud seda numbrit liiga palju kordi registreerida. Palun proovi uuesti %1$s pärast.</string>
@@ -1866,7 +1866,7 @@
     <string name="RegistrationActivity_unable_to_request_verification_code">Kinnituskoodi küsimine nurjus. Palun kontrolli oma võrguühendust ja proovi uuesti.</string>
     <string name="RegistrationActivity_non_standard_number_format">Ebastandardne numbriformaat</string>
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">Sisestatud number (%1$s) tundub olevat mittestandardses formaadis.\n\nKas mõtlesid hoopis %2$s?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">V.Call Android - telefoninumbri formaat</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">Vconnct Android - telefoninumbri formaat</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">Kõnepäring esitatud</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -1879,7 +1879,7 @@
     </plurals>
     <string name="RegistrationActivity_we_need_to_verify_that_youre_human">Me peame kinnitama, et oled inimene.</string>
     <!-- An error shown when the request was valid, but due to an issue with a partner vendor, the server is unable to send an SMS code -->
-    <string name="RegistrationActivity_external_service_error">V.Call ei saanud SMS-koodi saata välise tõrke tõttu.</string>
+    <string name="RegistrationActivity_external_service_error">Vconnct ei saanud SMS-koodi saata välise tõrke tõttu.</string>
     <!-- Button label to trigger a phone call to provide the registration code, in lieu of an SMS code -->
     <string name="RegistrationActivity_voice_call">Häälkõne</string>
     <!-- Dialog button to cancel the pending action and return to the previous state. -->
@@ -1914,7 +1914,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Kas lülitada registreerimislukk sisse?</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Kas lülitada registreerimislukk välja?</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Kui unustad Signaliga uuesti registreerumisel oma V.Call PIN-koodi, lukustatakse sind 7 päevaks oma kontolt.</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Kui unustad Signaliga uuesti registreerumisel oma Vconnct PIN-koodi, lukustatakse sind 7 päevaks oma kontolt.</string>
     <string name="RegistrationLockV2Dialog_turn_on">Lülita sisse</string>
     <string name="RegistrationLockV2Dialog_turn_off">Lülita välja</string>
 
@@ -1949,10 +1949,10 @@
     <string name="SharedContactView_invite_to_signal">Kutsu Signalisse</string>
     <string name="SharedContactView_message">Signali sõnum</string>
 
-    <!-- V.CallBottomActionBar -->
+    <!-- VconnctBottomActionBar -->
     <string name="SignalBottomActionBar_more">Rohkem</string>
 
-    <!-- V.CallPinReminders -->
+    <!-- VconnctPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">PIN-kood edukalt kinnitatud. Tuletame seda sulle varsti jälle meelde.</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">PIN-kood edukalt kinnitatud. Tuletame seda sulle homme jälle meelde.</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">PIN-kood edukalt kinnitatud. Tuletame seda sulle mõne päeva pärast jälle meelde.</string>
@@ -2137,7 +2137,7 @@
     <string name="VerifyIdentityActivity_our_signal_safety_number">Meie Signali turvanumber:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Tundub, et sul pole ühtegi rakendust, kuhu jagada.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Lõikelaualt ei leitud turvanumbrit, millega võrrelda</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">V.Call vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Vconnct vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">QR-koodi ei saa skanneerida ilma kaamera loata</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Kasutaja %1$s turvanumbri nägemiseks pead kõigepealt temaga sõnumeid vahetama.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -2173,14 +2173,14 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Koputa avamiseks.</string>
-    <string name="KeyCachingService_passphrase_cached">V.Call on avatud</string>
-    <string name="KeyCachingService_lock">Lukusta V.Call</string>
+    <string name="KeyCachingService_passphrase_cached">Vconnct on avatud</string>
+    <string name="KeyCachingService_lock">Lukusta Vconnct</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Sina</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Mittetoetatud meediatüüp</string>
     <string name="MediaPreviewActivity_draft">Mustand</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">V.Call vajab mäluruumi luba, et salvestada välismällu, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mäluruum\".</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Vconnct vajab mäluruumi luba, et salvestada välismällu, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mäluruum\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Õiguste puudumise tõttu pole võimalik välisele andmekandjale salvestada.</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Kustutad sõnumi?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">See kustutab püsivalt valitud sõnumi.</string>
@@ -2248,7 +2248,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">Reageeris sinu kleebisele: %1$s</string>
     <string name="MessageNotifier_this_message_was_deleted">See sõnum kustutati.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kas lülitada Signaliga liitumise teavitused välja? Neid saab uuesti lubada, valides V.Call &gt; Seaded &gt; Teavitused.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kas lülitada Signaliga liitumise teavitused välja? Neid saab uuesti lubada, valides Vconnct &gt; Seaded &gt; Teavitused.</string>
 
     <!-- Notification Channels -->
     <string name="NotificationChannel_channel_messages">Sõnumid</string>
@@ -2275,7 +2275,7 @@
     <!-- ProfileEditNameFragment -->
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Kiirvastus pole saadaval, kui V.Call on lukustatud!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Kiirvastus pole saadaval, kui Vconnct on lukustatud!</string>
     <string name="QuickResponseService_problem_sending_message">Sõnumi saatmisel esines probleem!</string>
 
     <!-- A small toast notification to let the user know their image/video/audio was downloaded and saved to their device, accessible in other apps. -->
@@ -2331,7 +2331,7 @@
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Kõnele vastamiseks anna Signalile juurdepääs mikrofonile.</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
     <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">Videokõnele vastamiseks anna Signalile juurdepääs oma mikrofonile ja kaamerale.</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">V.Call vajab mikrofoni ja kaamera lubasid, et teha ja vastu võtta kõnesid, ent need on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Vconnct vajab mikrofoni ja kaamera lubasid, et teha ja vastu võtta kõnesid, ent need on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Vastatud ühendatud seadmes.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">Keeldutud ühendatud seadmes.</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">Hõivatud ühendatud seadmes.</string>
@@ -2396,7 +2396,7 @@
     <string name="SingleContactSelectionActivity_contact_photo">Kontakti pilt</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">V.Call vajab kontaktide kuvamiseks neile ligipääsu, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Vconnct vajab kontaktide kuvamiseks neile ligipääsu, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Kontaktide laadimisel tekkis tõrge. Kontrolli võrguühendust.</string>
     <string name="ContactSelectionListFragment_username_not_found">Kasutajanime ei leitud</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" ei ole Signali kasutaja. Palun kontrolli kasutajanime ja proovi uuesti."</string>
@@ -2411,7 +2411,7 @@
     </plurals>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">V.Call vajab kontaktide kuvamiseks nendele ligipääsu.</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Vconnct vajab kontaktide kuvamiseks nendele ligipääsu.</string>
     <string name="contact_selection_list_fragment__show_contacts">Näita kontakte</string>
 
     <!-- contact_selection_list_item -->
@@ -2440,7 +2440,7 @@
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Lülita kiire kaamera manuse sahtel sisse või välja</string>
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Salvesta ja saada helimanus</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lukusta helimanuse salvestamine</string>
-    <string name="conversation_activity__enable_signal_for_sms">Luba V.Call SMSide jaoks</string>
+    <string name="conversation_activity__enable_signal_for_sms">Luba Vconnct SMSide jaoks</string>
     <string name="conversation_activity__message_could_not_be_sent">Sõnumi saatmine ei õnnestunud. Kontrolli internetiühendust ja proovi uuesti.</string>
 
     <!-- conversation_input_panel -->
@@ -2665,7 +2665,7 @@
     <string name="prompt_passphrase_activity__unlock">Eemalda blokeering</string>
 
     <!-- prompt_mms_activity -->
-    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">V.Call vajab MMS-seadeid, et edastada meediat ja grupisõnumeid läbi sinu võrguteenuse pakkuja. Sinu seade ei tee seda informatsiooni saadavaks, mis esineb mõnikord lukustatud seadmete ja piiravate konfiguratsioonide puhul.</string>
+    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Vconnct vajab MMS-seadeid, et edastada meediat ja grupisõnumeid läbi sinu võrguteenuse pakkuja. Sinu seade ei tee seda informatsiooni saadavaks, mis esineb mõnikord lukustatud seadmete ja piiravate konfiguratsioonide puhul.</string>
     <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Meedia- ja grupisõnumite saatmiseks klõpsa nupul \"OK\" ja lõpeta taotletud seaded. MMS-seaded sinu teenusepakkuja jaoks võib tavaliselt leida, otsides \"sinu teenusepakkuja APN\". Sa pead seda tegema ainult ühe korra.</string>
 
     <!-- BadDecryptLearnMoreDialog -->
@@ -2878,7 +2878,7 @@
     <string name="preferences__enable_passphrase">Luba salaväljendiga ekraanilukk</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Lukusta ekraan ja teavitused salasõnaga</string>
     <string name="preferences__screen_security">Kuva turvamine</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lukusta V.Call automaatselt pärast määratud ebaaktiivsuse ajaintervalli</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lukusta Vconnct automaatselt pärast määratud ebaaktiivsuse ajaintervalli</string>
     <string name="preferences__inactivity_timeout_passphrase">Mitteaktiivsuse aegumise salasõna</string>
     <string name="preferences__inactivity_timeout_interval">Ebaaktiivsuse ajalõpu pikkus</string>
     <string name="preferences__notifications">Teavitused</string>
@@ -2912,7 +2912,7 @@
     <string name="preferences__help">Abi</string>
     <string name="preferences__advanced">Täpsem</string>
     <string name="preferences__donate_to_signal">Anneta Signalile</string>
-    <!-- Preference label for making one-time donations to V.Call -->
+    <!-- Preference label for making one-time donations to Vconnct -->
     <string name="preferences__privacy">Privaatsus</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Lood</string>
@@ -2964,7 +2964,7 @@
     <string name="preferences__graphic_illustrating_where_the_replacement_app_icon_will_be_visible">Graafik, mis näitab, kus rakenduse asendusikooni kuvatakse.</string>
     <string name="preferences__disable_pin">Keela PIN</string>
     <string name="preferences__enable_pin">Luba PIN</string>
-    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Kui keelad PIN-koodi, siis kaotad kõik andmed, kui eemaldad V.Call rakenduse ja pole seda käsitsi varundanud ja taastanud. Registreerimislukku pole võimalik sisse lülitada, kui PIN-kood on keelatud.</string>
+    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Kui keelad PIN-koodi, siis kaotad kõik andmed, kui eemaldad Vconnct rakenduse ja pole seda käsitsi varundanud ja taastanud. Registreerimislukku pole võimalik sisse lülitada, kui PIN-kood on keelatud.</string>
     <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN-koodid hoiavad Signalis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Signali uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.</string>
     <string name="preferences__system_default">Süsteemi vaikeväärtus</string>
     <string name="preferences__language">Keel</string>
@@ -3035,12 +3035,12 @@
     <string name="preferences_communication__category_censorship_circumvention">Tsensuuri vältimine</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Tsensuuri vältimine</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Kui on lubatud, siis püüab V.Call tsenseerimisest mööda hiilida. Luba see funktsioon vaid siis, kui oled kohas, kus V.Call on tsenseeritud.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Kui on lubatud, siis püüab Vconnct tsenseerimisest mööda hiilida. Luba see funktsioon vaid siis, kui oled kohas, kus Vconnct on tsenseeritud.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Tsenseerimisest möödahiilimine on aktiveeritud sinu konto telefoninumbri järgi.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">Sa oled käsitsi keelanud tsenseerimisest möödahiilimise</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the V.Call service -->
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Vconnct service -->
     <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Tsenseerimisest möödahiilimine pole vajalik, sa oled juba Signali teenusega ühendatud.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">Tsenseerimisest möödahiilimist saab aktiveerida ainult Internetis olles.</string>
@@ -3207,9 +3207,9 @@
     <string name="PaymentsTransferFragment__invalid_address">Vigane aadress</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Kontrolli walleti aadressi, millele üritad ülekannet teha, ning proovi uuesti.</string>
     <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Sa ei saa teha ülekannet omaenda Signali walleti aadressile. Sisesta oma kontolt walleti aadress toetatud vahetuskeskuses.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR-koodi skannimiseks vajab V.Call ligipääsu kaamerale.</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">QR-koodi skannimiseks vajab V.Call luba kaamera kasutamiseks. Mine sätetesse, vali \"Load\" ning märgi \"Kaamera\".</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR-koodi skannimiseks vajab V.Call ligipääsu kaamerale.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR-koodi skannimiseks vajab Vconnct ligipääsu kaamerale.</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">QR-koodi skannimiseks vajab Vconnct luba kaamera kasutamiseks. Mine sätetesse, vali \"Load\" ning märgi \"Kaamera\".</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR-koodi skannimiseks vajab Vconnct ligipääsu kaamerale.</string>
     <string name="PaymentsTransferFragment__settings">Sätted</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -3579,17 +3579,17 @@
     <string name="KbsMegaphone__create_pin">Loo PIN-kood</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a V.Call voice call is ringing -->
+    <!-- Displayed in a notification when a Vconnct voice call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_voice_call">Sissetulev Signali häälkõne</string>
-    <!-- Displayed in a notification when a V.Call video call is ringing -->
+    <!-- Displayed in a notification when a Vconnct video call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_video_call">Sissetulev Signali videokõne</string>
-    <!-- Displayed in a notification when a V.Call group call is ringing -->
+    <!-- Displayed in a notification when a Vconnct group call is ringing -->
     <string name="CallNotificationBuilder__incoming_signal_group_call">Sissetulev Signali grupikõne</string>
-    <!-- Displayed in a notification when a V.Call voice call is in progress -->
+    <!-- Displayed in a notification when a Vconnct voice call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_voice_call">Pooleliolev Signali häälkõne</string>
-    <!-- Displayed in a notification when a V.Call video call is in progress -->
+    <!-- Displayed in a notification when a Vconnct video call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_video_call">Pooleliolev Signali videokõne</string>
-    <!-- Displayed in a notification when a V.Call group call is in progress -->
+    <!-- Displayed in a notification when a Vconnct group call is in progress -->
     <string name="CallNotificationBuilder__ongoing_signal_group_call">Pooleliolev Signali grupikõne</string>
 
     <!-- transport_selection_list_item -->
@@ -3597,7 +3597,7 @@
     <string name="ConversationListFragment_loading">Laadimine…</string>
     <string name="CallNotificationBuilder_connecting">Ühendumine…</string>
     <string name="Permissions_permission_required">Luba on vajalik</string>
-    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">V.Call vajab SMS-uba, et saata SMSi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"SMS\".</string>
+    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Vconnct vajab SMS-uba, et saata SMSi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"SMS\".</string>
     <string name="Permissions_continue">Jätka</string>
     <string name="Permissions_not_now">Mitte praegu</string>
     <string name="conversation_activity__enable_signal_messages">LUBA SIGNALI SÕNUMID</string>
@@ -3706,7 +3706,7 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Oled sooritanud liiga palju katseid. Palun proovi hiljem uuesti.</string>
     <string name="RegistrationActivity_error_connecting_to_service">Teenusega ühendamisel esines viga</string>
     <string name="preferences_chats__backups">Varukoopiad</string>
-    <string name="prompt_passphrase_activity__signal_is_locked">V.Call on lukus</string>
+    <string name="prompt_passphrase_activity__signal_is_locked">Vconnct on lukus</string>
     <string name="prompt_passphrase_activity__tap_to_unlock">KOPUTA AVAMISEKS</string>
     <string name="Recipient_unknown">Tundmatu</string>
 
@@ -3737,7 +3737,7 @@
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Taasta sõnumid lokaalsest varukoopiast. Kui sa nüüd ei taasta, siis sa ei saa ka hiljem taastada.</string>
 
     <!-- NewDeviceTransferInstructionsFragment -->
-    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Ava V.Call vanas Android-seadmes</string>
+    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Ava Vconnct vanas Android-seadmes</string>
     <string name="NewDeviceTransferInstructions__continue">Jätka</string>
     <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
     <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Sätete avamiseks klõpsa enda profiilifotol üleval vasakul</string>
@@ -3750,19 +3750,19 @@
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Valmistun ühenduma vanasse Android-seadmesse…</string>
     <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">See võtab hetke aega, peaks varsti valmis olema</string>
     <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Ootan vana Android-seadme ühendumist…</string>
-    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">V.Call vajab vana Android-seadme leidmiseks ja ühendamiseks juurdepääsu asukohainfole.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">V.Call vajab sinu eelmise Android-seadme leidmiseks ja ühendumiseks ligipääsu asukohateenustele.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">V.Call vajab sinu eelmise Android-seadme leidmiseks ja ühendumiseks WiFi-t. WiFi peab olema sees, aga ei pea olema ühtegi WiFi võrku ühendatud.</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vabandust, nähtavasti ei toeta see seade Wi-Fi Directi. V.Call kasutab Wi-Fi Directi sinu vana Android-seadme tuvastamiseks ja sellega ühenduse loomiseks. Siiski saad taastada oma konto vanast seadmest ka varukoopia kaudu.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Vconnct vajab vana Android-seadme leidmiseks ja ühendamiseks juurdepääsu asukohainfole.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Vconnct vajab sinu eelmise Android-seadme leidmiseks ja ühendumiseks ligipääsu asukohateenustele.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Vconnct vajab sinu eelmise Android-seadme leidmiseks ja ühendumiseks WiFi-t. WiFi peab olema sees, aga ei pea olema ühtegi WiFi võrku ühendatud.</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vabandust, nähtavasti ei toeta see seade Wi-Fi Directi. Vconnct kasutab Wi-Fi Directi sinu vana Android-seadme tuvastamiseks ja sellega ühenduse loomiseks. Siiski saad taastada oma konto vanast seadmest ka varukoopia kaudu.</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">Taasta varukoopia</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Sinu vana Android-seadmega ühenduse loomisel tekkis ootamatu tõrge.</string>
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Uue Android-seadme otsimine…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">V.Call vajab sinu uue Android-seadmega ühenduse loomiseks asukoha kasutamise luba.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">V.Call vajab sinu uue Android-seadme leidmiseks ja ühendumiseks ligipääsu asukohateenustele.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">V.Call vajab sinu uue Android-seadme leidmiseks ja ühendumiseks WiFi-t. WiFi peab olema sees, aga ei pea olema ühtegi WiFi võrku ühendatud.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vabandust, nähtavasti ei toeta see seade Wi-Fi Directi. V.Call kasutab Wi-Fi Directi sinu uue Android-seadme tuvastamiseks ja sellega ühenduse loomiseks. Siiski saad luua oma konto taastamiseks uues seadmes ka varukoopia.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Vconnct vajab sinu uue Android-seadmega ühenduse loomiseks asukoha kasutamise luba.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Vconnct vajab sinu uue Android-seadme leidmiseks ja ühendumiseks ligipääsu asukohateenustele.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Vconnct vajab sinu uue Android-seadme leidmiseks ja ühendumiseks WiFi-t. WiFi peab olema sees, aga ei pea olema ühtegi WiFi võrku ühendatud.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vabandust, nähtavasti ei toeta see seade Wi-Fi Directi. Vconnct kasutab Wi-Fi Directi sinu uue Android-seadme tuvastamiseks ja sellega ühenduse loomiseks. Siiski saad luua oma konto taastamiseks uues seadmes ka varukoopia.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Loo varukoopia</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Sinu uue Android-seadmega ühenduse loomisel tekkis ootamatu tõrge.</string>
 
@@ -3803,7 +3803,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Andmete ülekandmine</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Hoia seadmeid teineteise lähedal. Ära lülita seadmeid välja ja hoia V.Call avatuna. Ülekandmine on otspunktkrüptitud.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Hoia seadmeid teineteise lähedal. Ära lülita seadmeid välja ja hoia Vconnct avatuna. Ülekandmine on otspunktkrüptitud.</string>
     <string name="DeviceTransfer__d_messages_so_far">%1$d sõnumit siiani…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">%1$s%% sõnumitest…</string>
@@ -3817,7 +3817,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Kanna konto üle</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Laadi V.Call alla uues Android-seadmes</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Laadi Vconnct alla uues Android-seadmes</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Toksa \"Konto ülekandmine või taastamine\""</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -3846,7 +3846,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Vii lõpule registreerimine oma uues seadmes</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Sinu Signali konto on kantud üle sinu uude seadmesse, kuid jätkamiseks pead viima uues seadmes lõpule registreerimise. Selles seadmes on V.Call mitteaktiivne.</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Sinu Signali konto on kantud üle sinu uude seadmesse, kuid jätkamiseks pead viima uues seadmes lõpule registreerimise. Selles seadmes on Vconnct mitteaktiivne.</string>
     <string name="OldDeviceTransferLockedDialog__done">Tehtud</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Loobu ja aktiveeri see seade</string>
 
@@ -3885,7 +3885,7 @@
     <string name="GroupsLearnMore_paragraph_1">Vanad grupid on need grupid, mis pole ühilduvad uute gruppide funktsionaalsustega nagu administraatorid ja rohkem kirjeldavad grupi muudatused.</string>
     <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Kas saan vana gruppi uuendada?</string>
     <string name="GroupsLearnMore_paragraph_2">Vanu gruppe ei saa veel uuteks gruppideks uuendada, aga sa saad luua samade liikmetega uue grupi, kui need liikmed kasutavad uusimat Signali versiooni.</string>
-    <string name="GroupsLearnMore_paragraph_3">Tulevikus pakub V.Call võimalust vanu gruppe uuteks uuendada.</string>
+    <string name="GroupsLearnMore_paragraph_3">Tulevikus pakub Vconnct võimalust vanu gruppe uuteks uuendada.</string>
 
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Igaüks saab selle lingi kaudu näha grupi nime ja fotot ning saata taotluse liitumiseks. Jaga seda isikutega, keda usaldad.</string>
@@ -4234,7 +4234,7 @@
     <!-- Shown in a dialog with a spinner while the report is downloading -->
     <string name="ExportAccountDataFragment__download_progress">Aruande loomine …</string>
     <!-- Explanation that the report is only generated on export and is not saved on the device -->
-    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Sinu aruanne luuakse ainult ekspordi hetkel ja V.Call ei salvesta seda sinu seadmesse.</string>
+    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Sinu aruanne luuakse ainult ekspordi hetkel ja Vconnct ei salvesta seda sinu seadmesse.</string>
 
     <!-- ChangeNumberFragment -->
     <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">Kasuta seda, et oma praegust telefoninumbrit uue telefoninumbri vastu vahetada. Seda muudatust ei saa tagasi võtta.\n\nEnne jätkamist veendu, et sinu uus number on võimeline sõnumeid ja kõnesid vastu võtma.</string>
@@ -4388,10 +4388,10 @@
     <string name="HelpSettingsFragment__contact_us">Võta meiega ühendust</string>
     <string name="HelpSettingsFragment__version">Versioon</string>
     <string name="HelpSettingsFragment__debug_log">Silumisinfo</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the V.Call app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Vconnct app-->
     <string name="HelpSettingsFragment__licenses">Litsentsid</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Tingimused ja privaatsuspoliitika</string>
-    <string name="HelpFragment__copyright_signal_messenger">Autoriõigus V.Call Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Autoriõigus Vconnct Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Litsentsitud GNU AGPLv3 litsentsiga</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -4435,7 +4435,7 @@
     <!-- Title text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_donate_to_signal">Anneta Signalile</string>
     <!-- Body text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">V.Call toimib tänu inimestele nagu Sina. Anneta igakuiselt, et saada medal.</string>
+    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">Vconnct toimib tänu inimestele nagu Sina. Anneta igakuiselt, et saada medal.</string>
     <!-- Button label that brings a user to the donate screen. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_donate">Anneta</string>
     <!-- Button label that dismissed a prompt to donate. Shown in a popup at the bottom of the chat list. -->
@@ -4458,7 +4458,7 @@
     <!-- BecomeASustainerMegaphone -->
     <string name="BecomeASustainerMegaphone__become_a_sustainer">Hakka toetajaks</string>
     <!-- Displayed in the Become a Sustainer megaphone -->
-    <string name="BecomeASustainerMegaphone__signal_is_powered_by">V.Call toimib tänu inimestele nagu sina. Anneta, et saada toetaja märk.</string>
+    <string name="BecomeASustainerMegaphone__signal_is_powered_by">Vconnct toimib tänu inimestele nagu sina. Anneta, et saada toetaja märk.</string>
     <string name="BecomeASustainerMegaphone__not_now">Mitte praegu</string>
     <string name="BecomeASustainerMegaphone__donate">Anneta</string>
 
@@ -4713,9 +4713,9 @@
     <!-- Title of a page in the bottom sheet. Placeholder is a user\'s short-name -->
     <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s toetab Signalit</string>
     <!-- Description of a page in the bottom sheet of a monthly badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s toetab Signalit igakuise annetusega. V.Call on ilma reklaamide ja investoriteta mittetulundusühing, mida toetavad ainult inimesed nagu sina.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s toetab Signalit igakuise annetusega. Vconnct on ilma reklaamide ja investoriteta mittetulundusühing, mida toetavad ainult inimesed nagu sina.</string>
     <!-- Description of a page in the bottom sheet of a one-time badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s toetab Signalit igakuise annetusega. V.Call on ilma reklaamide ja investoriteta mittetulundusühing, mida toetavad ainult inimesed nagu sina.</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s toetab Signalit igakuise annetusega. Vconnct on ilma reklaamide ja investoriteta mittetulundusühing, mida toetavad ainult inimesed nagu sina.</string>
 
     <string name="ImageView__badge">Märk</string>
 
@@ -4737,13 +4737,13 @@
     <string name="Subscription__expires_s">Aegub %1$s</string>
 
     <!-- Title of learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">V.Call on teistsugune.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Vconnct on teistsugune.</string>
     <!-- First small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">Privaatne sõnumiside. Ei mingeid reklaame, jälgijaid ega järelevalvet.</string>
     <!-- Second small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">V.Call töötab annetuste toel, mis tähendab, et sinu privaatsus on meie südameasi. V.Call on loodud sinu jaoks, mitte su andmete kogumiseks või tulu teenimiseks.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Vconnct töötab annetuste toel, mis tähendab, et sinu privaatsus on meie südameasi. Vconnct on loodud sinu jaoks, mitte su andmete kogumiseks või tulu teenimiseks.</string>
     <!-- Third small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Kui sul on võimalik, siis palun tee täna annetus, et V.Call saaks jääda kõigile kättesaadavaks lõbusaks ja usaldusväärseks lahenduseks.</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Kui sul on võimalik, siis palun tee täna annetus, et Vconnct saaks jääda kõigile kättesaadavaks lõbusaks ja usaldusväärseks lahenduseks.</string>
 
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">Täname sind toetuse eest!</string>
     <!-- Subtext underneath the dialog title on the thanks sheet -->
@@ -4756,7 +4756,7 @@
     <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">Kui sul on rohkem kui üks märk, saad valida, millist soovid oma profiilil kuvada.</string>
 
     <string name="BecomeASustainerFragment__get_badges">Toeta Signalit ja teeni oma profiilile märke.</string>
-    <string name="BecomeASustainerFragment__signal_is_a_non_profit">V.Call on ilma reklaamide ja investoriteta mittetulundusühing, mida toetavad ainult inimesed nagu sina.</string>
+    <string name="BecomeASustainerFragment__signal_is_a_non_profit">Vconnct on ilma reklaamide ja investoriteta mittetulundusühing, mida toetavad ainult inimesed nagu sina.</string>
 
     <!-- Button label for creating a donation -->
     <string name="ManageDonationsFragment__donate_to_signal">Anneta Signalile</string>
@@ -4829,7 +4829,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Mine Google Pay-sse</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">Tellimuse makset ei õnnestu töödelda</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Meil on probleeme sinu Signali toetaja tasu töötlemisega. Palun veendu, et sinu maksemeetod on uuendatud. Kui ei ole, siis palun uuenda seda Google Pay kaudu. V.Call proovib makset paari päeva pärast uuesti töödelda.</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Meil on probleeme sinu Signali toetaja tasu töötlemisega. Palun veendu, et sinu maksemeetod on uuendatud. Kui ei ole, siis palun uuenda seda Google Pay kaudu. Vconnct proovib makset paari päeva pärast uuesti töödelda.</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">Ära näita seda uuesti</string>
 
     <string name="Subscription__contact_support">Võta ühendust kasutajatoega</string>
@@ -4850,7 +4850,7 @@
     <!-- Displayed as title when some generic error happens during sending donation on behalf of another user -->
     <string name="DonationsErrors__donation_failed">Annetus nurjus</string>
     <!-- Displayed as message when some generic error happens during sending donation on behalf of another user -->
-    <string name="DonationsErrors__your_payment_was_processed_but">Sinu makse küll õnnestus, aga V.Call ei saanud sinu annetusega saadetud sõnumit saata. Palun võta ühendust kasutajatoega.</string>
+    <string name="DonationsErrors__your_payment_was_processed_but">Sinu makse küll õnnestus, aga Vconnct ei saanud sinu annetusega saadetud sõnumit saata. Palun võta ühendust kasutajatoega.</string>
     <string name="DonationsErrors__your_badge_could_not">Sinu kontole ei õnnestunud märki lisada, kuid on võimalik, et sult võeti tasu. Palun pöördu kasutajatoe poole.</string>
     <string name="DonationsErrors__your_payment_is_still">Sinu makset töödeldakse endiselt. Selleks võib olenevalt sinu internetiühendusest kuluda mõni minut.</string>
     <string name="DonationsErrors__failed_to_cancel_subscription">Tellimust ei õnnestunud tühistada</string>
@@ -5067,7 +5067,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Valija avamine nurjus.</string>
 
-    <!-- Description shown for the V.Call Release Notes channel -->
+    <!-- Description shown for the Vconnct Release Notes channel -->
     <string name="ReleaseNotes__signal_release_notes_and_news">Signali väljalaskemärkmed &amp; Uudised</string>
 
     <!-- Donation receipts activity title -->
@@ -5095,7 +5095,7 @@
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">Summa</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Aitäh Signalit toetamast. Sinu panus annab tõuke missioonile arendada avatud lähtekoodiga privaatsustehnoloogiat, mis kaitseb väljendusvabadust ja võimaldab turvalist suhtlust miljonitele inimestele üle kogu maailma. Kui elad Ameerika Ühendriikides, jäta see kviitung alles oma maksude deklareerimiseks. V.Call Technology Foundation on Ameerika Ühendriikides maksuseadustiku (US Internal Revenue Code) jao 501c3 järgi registreeritud maksuvaba mittetulundusühing. Meie föderaalne maksukood (Federal Tax ID) on 82–4506840.</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Aitäh Signalit toetamast. Sinu panus annab tõuke missioonile arendada avatud lähtekoodiga privaatsustehnoloogiat, mis kaitseb väljendusvabadust ja võimaldab turvalist suhtlust miljonitele inimestele üle kogu maailma. Kui elad Ameerika Ühendriikides, jäta see kviitung alles oma maksude deklareerimiseks. Vconnct Technology Foundation on Ameerika Ühendriikides maksuseadustiku (US Internal Revenue Code) jao 501c3 järgi registreeritud maksuvaba mittetulundusühing. Meie föderaalne maksukood (Federal Tax ID) on 82–4506840.</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5270,17 +5270,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">Luba vastuseid ja reaktsioone</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">Luba inimestel, kes saavad su lugu vaadata, reageerida ja vastata</string>
-    <!-- V.Call connections bolded text in the V.Call Connections sheet -->
+    <!-- Vconnct connections bolded text in the Vconnct Connections sheet -->
     <string name="SignalConnectionsBottomSheet___signal_connections">Signali kontaktid</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
     <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Signali kontaktid on inimesed, keda oled otsustanud usaldada, kas siis …</string>
-    <!-- V.Call connections sheet bullet point 1 -->
+    <!-- Vconnct connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">alustades vestlust</string>
-    <!-- V.Call connections sheet bullet point 2 -->
+    <!-- Vconnct connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">võttes vastu sõnumitaotluse</string>
-    <!-- V.Call connections sheet bullet point 3 -->
+    <!-- Vconnct connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">olles salvestanud nende kontakti oma telefoni</string>
-    <!-- Note at the bottom of the V.Call connections sheet -->
+    <!-- Note at the bottom of the Vconnct connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"Sinu kontaktid näevad sinu nime ja fotot ning postitusi „Minu loo“ alla, kui sa neid nende eest ei peida."</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">Lisa vaataja</string>
@@ -5694,8 +5694,8 @@
     <string name="ExportingSmsMessagesFragment__you_need_approximately_s_to_export_your_messages_ensure_you_have_enough_space_before_continuing">Vajad sõnumite eksportimiseks ligikaudu %1$s. Veendu enne jätkamist, et sul on piisavalt salvestusruumi.</string>
     <!-- Alert dialog button to continue with exporting sms after seeing the lack of storage warning -->
     <string name="ExportingSmsMessagesFragment__continue_anyway">Jätka siiski</string>
-    <!-- Dialog text shown when V.Call isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
-    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">V.Call vajab SMSi luba, et sinu SMS-sõnumeid importida.</string>
+    <!-- Dialog text shown when Vconnct isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
+    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">Vconnct vajab SMSi luba, et sinu SMS-sõnumeid importida.</string>
 
     <!-- ChooseANewDefaultSmsAppFragment -->
     <!-- Title of the screen -->
@@ -5747,7 +5747,7 @@
 
     <!-- SetSignalAsDefaultSmsAppFragment -->
     <!-- Title of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">Kõigepealt muuda V.Call vaikimisi SMS-rakenduseks</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">Kõigepealt muuda Vconnct vaikimisi SMS-rakenduseks</string>
     <!-- Message of the screen -->
     <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">Selleks, et oma SMS-sõnumeid eksportida, pead Signali vaikimisi SMS-rakenduseks määrama.</string>
     <!-- Button label to start export -->
@@ -5773,13 +5773,13 @@
 
     <!-- SmsExportMegaphoneActivity -->
     <!-- Phase 2 title of full screen megaphone indicating sms will no longer be supported in the near future -->
-    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">V.Call ei toeta enam varsti SMS-sõnumeid</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">Vconnct ei toeta enam varsti SMS-sõnumeid</string>
     <!-- Phase 3 title of full screen megaphone indicating sms is longer supported  -->
-    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">V.Call ei toeta enam SMS-sõnumeid</string>
+    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">Vconnct ei toeta enam SMS-sõnumeid</string>
     <!-- Phase 2 message describing that sms is going away soon -->
-    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">V.Call lõpetab varsti SMS-sõnumite toetamise, sest Signali sõnumid on otspunktkrüptitud ja neil on tugev privaatsuskaitse, mis SMS-sõnumitel puudub. See võimaldab meil parandada Signali sõnumite kasutuskogemust.</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">Vconnct lõpetab varsti SMS-sõnumite toetamise, sest Signali sõnumid on otspunktkrüptitud ja neil on tugev privaatsuskaitse, mis SMS-sõnumitel puudub. See võimaldab meil parandada Signali sõnumite kasutuskogemust.</string>
     <!-- Phase 3 message describing that sms has gone away -->
-    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">V.Call on lõpetanud SMS-sõnumite toetamise, sest Signali sõnumid on otspunktkrüptitud ja neil on tugev privaatsuskaitse, mis SMS-sõnumitel puudub. See võimaldab meil parandada Signali sõnumite kasutuskogemust.</string>
+    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">Vconnct on lõpetanud SMS-sõnumite toetamise, sest Signali sõnumid on otspunktkrüptitud ja neil on tugev privaatsuskaitse, mis SMS-sõnumitel puudub. See võimaldab meil parandada Signali sõnumite kasutuskogemust.</string>
     <!-- The text on a button in a popup that, when clicked, will take the user to a screen to export their SMS messages -->
     <string name="SmsExportMegaphoneActivity__export_sms">Ekspordi SMS</string>
     <!-- The text on a button in a popup that, when clicked, will dismiss the popup and schedule the prompt to occur at a later time. -->
@@ -5870,7 +5870,7 @@
     <!-- The title of a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_title">Sinu kontakte ei saa töödelda</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
-    <string name="CdsPermanentErrorBottomSheet_body">Sinu telefonis on rohkem kontakte kui V.Call suudab töödelda. Selleks, et kontakte Signalis leida, proovi eemaldada oma telefonist kontaktid või kontod, mis suurt arvu kontakte sünkroniseerivad.</string>
+    <string name="CdsPermanentErrorBottomSheet_body">Sinu telefonis on rohkem kontakte kui Vconnct suudab töödelda. Selleks, et kontakte Signalis leida, proovi eemaldada oma telefonist kontaktid või kontod, mis suurt arvu kontakte sünkroniseerivad.</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_learn_more">Rohkem teavet</string>
     <!-- A button label in a bottom sheet that will navigate the user to their contacts settings. -->
@@ -5886,9 +5886,9 @@
 
     <!-- YourInformationIsPrivateBottomSheet -->
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">Sinu andmed on privaatsed</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">V.Call ei kogu ega salvesta annetuse tegemisel sinu isikuandmeid.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Vconnct ei kogu ega salvesta annetuse tegemisel sinu isikuandmeid.</string>
     <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">Kasutame sinu annetuse vastuvõtmisel makse töötlemiseks Stripe\'i. Meil ei ole ligipääsu andmetele, mida sa nendega jagad; me ei kogu ega salvesta neid andmeid.</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">V.Call ei saa ega soovi seostada sinu annetust sinu Signali kontoga.</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Vconnct ei saa ega soovi seostada sinu annetust sinu Signali kontoga.</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">Täname sind toetuse eest!</string>
 
     <!-- GroupStoryEducationSheet -->
@@ -5925,7 +5925,7 @@
     <!-- Bullet point message shown on describing screen as third bullet why sms is being removed -->
     <string name="SmsRemoval_info_bullet_3">Sul on võimalik oma SMS-sõnumid teise SMS-rakendusse ümber kolida.</string>
     <!-- Bullet point message shown on describing screen as first bullet variant why sms is being removed when user is locked out of sms -->
-    <string name="SmsRemoval_info_bullet_1_phase_3">V.Call on lõpetanud SMS-sõnumite saatmise toetamise.</string>
+    <string name="SmsRemoval_info_bullet_1_phase_3">Vconnct on lõpetanud SMS-sõnumite saatmise toetamise.</string>
     <!-- Button label on sms removal info/megaphone to start the export SMS flow -->
     <string name="SmsRemoval_export_sms">Ekspordi SMS</string>
 
@@ -6115,7 +6115,7 @@
     <string name="CreateCallLinkBottomSheetDialogFragment__add_call_name">Lisa kõne nimi</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">Võta uued liikmed vastu</string>
-    <!-- Row label to share the link via V.Call -->
+    <!-- Row label to share the link via Vconnct -->
     <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Jaga linki Signali kaudu</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Kopeeri link</string>
@@ -6147,7 +6147,7 @@
     <!-- Title shown at top of bottom sheet dialog for displaying a message\'s edit history -->
     <string name="EditMessageHistoryDialog_title">Muutmiste ajalugu</string>
     <!-- Title of dialog shown alerting user that edit message is in beta only -->
-    <string name="SendingEditMessageBetaOnlyDialog_title">Ainult V.Call beeta</string>
+    <string name="SendingEditMessageBetaOnlyDialog_title">Ainult Vconnct beeta</string>
     <!-- Body of dialog shown alerting user that edit message is in beta only and only sent to beta users. -->
     <string name="SendingEditMessageBetaOnlyDialog_body">Sõnumeid saavad muuta ainult Signali beetakasutajad. Kui sõnumit muudad, on see nähtav ainult inimestele, kellel on uusim Signali beetaversioon.</string>
     <!-- Button to cancel sending edit message as it is beta only -->

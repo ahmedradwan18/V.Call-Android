@@ -24,28 +24,28 @@
     <string name="save">儲存</string>
     <string name="note_to_self">給自己的筆記</string>
 
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a weather/climate application. -->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in a weather/climate application. -->
     <string name="app_icon_label_weather">天氣</string>
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a note-taking application.-->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in a note-taking application.-->
     <string name="app_icon_label_notes">筆記</string>
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in a news/journalism application. -->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in a news/journalism application. -->
     <string name="app_icon_label_news">新聞</string>
-    <!-- Alternate label for the V.Call Application in the device\'s home screen launcher, as in waves of the ocean. -->
+    <!-- Alternate label for the Vconnct Application in the device\'s home screen launcher, as in waves of the ocean. -->
     <string name="app_icon_label_waves">波浪</string>
 
     <!-- AlbumThumbnailView -->
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">V.Call 正在更新…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Vconnct 正在更新…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">您尚未設定一個密碼！</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">要停用密碼嗎？</string>
-    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">這將永久解鎖 V.Call 及訊息通知。</string>
+    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">這將永久解鎖 Vconnct 及訊息通知。</string>
     <string name="ApplicationPreferencesActivity_disable">停用</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">要停用 V.Call 訊息及通話嗎？</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">停用 V.Call 訊息及通話將從伺服器取消註冊。日後若要再次使用，您將需要重新註冊您的電話號碼。</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">要停用 Vconnct 訊息及通話嗎？</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">停用 Vconnct 訊息及通話將從伺服器取消註冊。日後若要再次使用，您將需要重新註冊您的電話號碼。</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">連線到伺服器時發生錯誤！</string>
     <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">註冊鎖定須要 PIN 碼。若要停用 PIN 碼，請先停用註冊鎖定。</string>
     <string name="ApplicationPreferencesActivity_pin_created">PIN 碼已建立。</string>
@@ -81,15 +81,15 @@
     <string name="AttachmentKeyboard_file">檔案</string>
     <string name="AttachmentKeyboard_contact">聯絡人</string>
     <string name="AttachmentKeyboard_location">位置</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">V.Call 需要權限以顯示您的照片和視訊。</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Vconnct 需要權限以顯示您的照片和視訊。</string>
     <string name="AttachmentKeyboard_give_access">授予存取</string>
     <string name="AttachmentKeyboard_payment">付款</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">找不到應用程式以選取媒體。</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">V.Call 需要儲存裝置權限才可附加照片、影片或音訊，但已被永久拒絕。請前往應用程式設定功能表，選擇 「權限」，然後啟用 「儲存裝置」。</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">V.Call 需要聯絡人權限才可附加聯絡人資訊，但已被永久拒絕。請前往應用程式設定功能表，選擇「權限」，然後啟用 「聯絡人」。</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">V.Call 需要位置權限才可附加位置，但已被永久拒絕。請前往應用程式設定功能表，選擇「權限」，然後啟用 「位置」。</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Vconnct 需要儲存裝置權限才可附加照片、影片或音訊，但已被永久拒絕。請前往應用程式設定功能表，選擇 「權限」，然後啟用 「儲存裝置」。</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Vconnct 需要聯絡人權限才可附加聯絡人資訊，但已被永久拒絕。請前往應用程式設定功能表，選擇「權限」，然後啟用 「聯絡人」。</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Vconnct 需要位置權限才可附加位置，但已被永久拒絕。請前往應用程式設定功能表，選擇「權限」，然後啟用 「位置」。</string>
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s 尚未啟動付款 </string>
     <!-- Alert dialog description to send the recipient a request to activate payments -->
@@ -126,7 +126,7 @@
     <string name="CreditCardFragment__donation_amount_s_per_month">捐款金額：每月 %1$s</string>
     <!-- Explanation of how to fill in the form, displayed above the credit card text fields -->
     <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-    <string name="CreditCardFragment__enter_your_card_details">請輸入付款卡詳情。V.Call 不會收集或保存你的個人資料。</string>
+    <string name="CreditCardFragment__enter_your_card_details">請輸入付款卡詳情。Vconnct 不會收集或保存你的個人資料。</string>
     <!-- Displayed as a hint in the card number text field -->
     <string name="CreditCardFragment__card_number">付款卡號碼</string>
     <!-- Displayed as a hint in the card expiry text field -->
@@ -158,16 +158,16 @@
     <string name="BlockUnblockDialog_you_will_no_longer_receive_messages_or_updates">您將無法再接收來自此群組的訊息或更新，而且成員也無法再把您加入此群組。</string>
     <string name="BlockUnblockDialog_group_members_wont_be_able_to_add_you">群組成員將無法再把您加入此群組。</string>
     <string name="BlockUnblockDialog_group_members_will_be_able_to_add_you">群組成員將能夠再把您加入此群組。</string>
-    <!-- Text that is shown when unblocking a V.Call contact -->
+    <!-- Text that is shown when unblocking a Vconnct contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_call_and_message_each_other">您將能夠再互相傳送訊息和通話，您的名稱和照片也會與對方分享。</string>
     <!-- Text that is shown when unblocking an SMS contact -->
     <string name="BlockUnblockDialog_you_will_be_able_to_message_each_other">您將可以互相傳送訊息。</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">被封鎖的人將無法與你通話或傳送訊息。</string>
     <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">被封鎖的人將無法向你傳送訊息。</string>
-    <!-- Message shown on block dialog when blocking the V.Call release notes recipient -->
-    <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">封鎖 V.Call 的更新資訊及最新消息。</string>
-    <!-- Message shown on unblock dialog when unblocking the V.Call release notes recipient -->
-    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">恢復收取 V.Call 更新資訊及最新消息。</string>
+    <!-- Message shown on block dialog when blocking the Vconnct release notes recipient -->
+    <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">封鎖 Vconnct 的更新資訊及最新消息。</string>
+    <!-- Message shown on unblock dialog when unblocking the Vconnct release notes recipient -->
+    <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">恢復收取 Vconnct 更新資訊及最新消息。</string>
     <string name="BlockUnblockDialog_unblock_s">要解除封鎖 %1$s 嗎？</string>
     <string name="BlockUnblockDialog_block">封鎖</string>
     <string name="BlockUnblockDialog_block_and_leave">封鎖並退出</string>
@@ -194,24 +194,24 @@
 
     <!-- CameraContacts -->
     <string name="CameraContacts_recent_contacts">最近的聯絡人</string>
-    <string name="CameraContacts_signal_contacts">V.Call 聯絡人</string>
-    <string name="CameraContacts_signal_groups">V.Call 群組</string>
+    <string name="CameraContacts_signal_contacts">Vconnct 聯絡人</string>
+    <string name="CameraContacts_signal_groups">Vconnct 群組</string>
     <!-- A warning shown in a toast when  -->
     <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
         <item quantity="other">你可以分享最多 %1$d 個聊天。</item>
     </plurals>
-    <string name="CameraContacts_select_signal_recipients">請選取 V.Call 收件人</string>
-    <string name="CameraContacts_no_signal_contacts">無 V.Call 聯絡人</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">您僅可使用相機按鈕傳送照片給 V.Call 聯絡人。 </string>
+    <string name="CameraContacts_select_signal_recipients">請選取 Vconnct 收件人</string>
+    <string name="CameraContacts_no_signal_contacts">無 Vconnct 聯絡人</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">您僅可使用相機按鈕傳送照片給 Vconnct 聯絡人。 </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">找不到想要找的人嗎？</string>
-    <string name="CameraContacts_invite_a_contact_to_join_signal">邀請聯絡人加入 V.Call</string>
+    <string name="CameraContacts_invite_a_contact_to_join_signal">邀請聯絡人加入 Vconnct</string>
     <string name="CameraContacts__menu_search">搜尋</string>
 
     <!-- Censorship Circumvention Megaphone -->
     <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">要關閉審查規避嗎？</string>
     <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">您現可直接連線到 V.Call 服務以享有更佳體驗。</string>
+    <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">您現可直接連線到 Vconnct 服務以享有更佳體驗。</string>
     <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
     <string name="CensorshipCircumventionMegaphone_turn_off">關閉</string>
     <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -223,12 +223,12 @@
     <string name="ClearProfileActivity_remove_group_photo">要移除群組照片嗎？</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">更新 V.Call</string>
+    <string name="ClientDeprecatedActivity_update_signal">更新 Vconnct</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">此版本的應用程式已不再被支援。若要繼續傳送和接收訊息，請更新至最新版本。</string>
     <string name="ClientDeprecatedActivity_update">更新</string>
     <string name="ClientDeprecatedActivity_dont_update">不要更新</string>
     <string name="ClientDeprecatedActivity_warning">警告</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">你的 V.Call 版本已過期。你可以瀏覽訊息紀錄，但無法傳送或接收訊息，直到你更新版本為止。</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">你的 Vconnct 版本已過期。你可以瀏覽訊息紀錄，但無法傳送或接收訊息，直到你更新版本為止。</string>
 
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">找不到網頁瀏覽器</string>
@@ -238,7 +238,7 @@
     <string name="CommunicationActions_cancel">取消</string>
     <string name="CommunicationActions_call">通話</string>
     <string name="CommunicationActions_insecure_call">不安全的通話</string>
-    <string name="CommunicationActions_carrier_charges_may_apply">流動網絡商或會收取相關費用。您正撥打的號碼未有在 V.Call 上註冊，因此通話將透過您的流動電訊公司打出，而非經由互聯網連接。</string>
+    <string name="CommunicationActions_carrier_charges_may_apply">流動網絡商或會收取相關費用。您正撥打的號碼未有在 Vconnct 上註冊，因此通話將透過您的流動電訊公司打出，而非經由互聯網連接。</string>
     <string name="CommunicationActions_cant_join_call">無法加入通話</string>
     <string name="CommunicationActions_this_call_link_is_no_longer_valid">此通話連結已失效。</string>
 
@@ -264,7 +264,7 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">傳送訊息給 %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">與 %1$s 進行 V.Call 通話</string>
+    <string name="ContactsDatabase_signal_call_s">與 %1$s 進行 Vconnct 通話</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -297,7 +297,7 @@
     <string name="ConversationItem_click_to_approve_unencrypted">傳送失敗，輕觸以轉用不安全的次選方法</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">要退而轉用未經加密的短訊嗎？</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">要退而轉用未經加密的多媒體短訊嗎？</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">此訊息將<b>不會</b>被加密，因為收件人已不再是 V.Call 使用者。\n\n要傳送不安全的訊息嗎？</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">此訊息將<b>不會</b>被加密，因為收件人已不再是 Vconnct 使用者。\n\n要傳送不安全的訊息嗎？</string>
     <string name="ConversationItem_unable_to_open_media">找不到能夠開啟此媒體的應用程式。</string>
     <string name="ConversationItem_copied_text">已複製 %1$s</string>
     <string name="ConversationItem_from_s">自 %1$s</string>
@@ -351,8 +351,8 @@
     <string name="ConversationActivity_transport_insecure_sms_with_sim">不安全的短訊 (%1$s)</string>
     <string name="ConversationActivity_transport_insecure_mms">不安全的多媒體短訊</string>
     <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-    <string name="ConversationActivity_transport_signal">V.Call 訊息</string>
-    <string name="ConversationActivity_lets_switch_to_signal">我們不如改用 V.Call 吧 %1$s</string>
+    <string name="ConversationActivity_transport_signal">Vconnct 訊息</string>
+    <string name="ConversationActivity_lets_switch_to_signal">我們不如改用 Vconnct 吧 %1$s</string>
     <string name="ConversationActivity_specify_recipient">請選擇一個聯絡人</string>
     <string name="ConversationActivity_unblock">解除封鎖</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">附件超出您正在傳送的訊息類型的大小上限。</string>
@@ -372,13 +372,13 @@
     <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal需要存取咪高峰及相機來呼叫%1$s，但您已經永久拒絕。請前往應用程式設定功能表，按「權限」，然後開啟「咪高峰」和「相機」。</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">要拍照或錄影，請允許Signal存取相機。</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal需要存取相機來拍照或錄影，但您已經永久拒絕。請前往應用程式設定功能表，按「權限」，然後開啟「相機」。</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">V.Call 需要「相機」權限以拍攝照片或影片</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Vconnct 需要「相機」權限以拍攝照片或影片</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">請啟用咪高峰權限以擷取現場收音的影片。</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">V.Call 需要「咪高峰」權限以錄製影片，但已被拒絕。請前往應用程式設定，選擇「權限」，然後啟用「咪高峰」和「相機」。</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">V.Call 需要咪高峰權限以錄製影片。</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Vconnct 需要「咪高峰」權限以錄製影片，但已被拒絕。請前往應用程式設定，選擇「權限」，然後啟用「咪高峰」和「相機」。</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Vconnct 需要咪高峰權限以錄製影片。</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">V.Call 並非您的預設短訊應用程式，因此無法傳送短訊/多媒體短訊。您要在您的 Android 設定中變更嗎？</string>
+    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Vconnct 並非您的預設短訊應用程式，因此無法傳送短訊/多媒體短訊。您要在您的 Android 設定中變更嗎？</string>
     <string name="ConversationActivity_yes">是</string>
     <string name="ConversationActivity_no">否</string>
     <string name="ConversationActivity_search_position">第 %1$d 個，共 %2$d 個</string>
@@ -394,7 +394,7 @@
     <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">您將退出此群組，並從您所有的裝置上刪除此群組。</string>
     <string name="ConversationActivity_delete">刪除</string>
     <string name="ConversationActivity_delete_and_leave">刪除並退出</string>
-    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">V.Call 需要存取您的咪高峰，以便與 %1$s 通話。</string>
+    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Vconnct 需要存取您的咪高峰，以便與 %1$s 通話。</string>
 
 
     <string name="ConversationActivity_join">加入</string>
@@ -407,22 +407,22 @@
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
     <string name="ConversationActivity__sms_messaging_is_currently_disabled_you_can_export_your_messages_to_another_app_on_your_phone">SMS 短訊功能目前已停用。你可以將短訊匯出至其他手機應用程式。</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and they have unexported sms messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">V.Call 不再支援短訊功能。你可以將短訊匯出至其他手機應用程式。</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_you_can_export_your_messages_to_another_app_on_your_phone">Vconnct 不再支援短訊功能。你可以將短訊匯出至其他手機應用程式。</string>
     <!-- Action button shown when in sms conversation, sms is disabled, and unexported sms messages are present -->
     <string name="ConversationActivity__export_sms_messages">匯出短訊</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">SMS 短訊功能目前已停用。邀請 %1$s 加入 V.Call 以繼續對話。</string>
+    <string name="ConversationActivity__sms_messaging_is_currently_disabled_invite_s_to_to_signal_to_keep_the_conversation_here">SMS 短訊功能目前已停用。邀請 %1$s 加入 Vconnct 以繼續對話。</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">V.Call 不再支援短訊功能。邀請 %1$s 加入 V.Call 以繼續對話。</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Vconnct 不再支援短訊功能。邀請 %1$s 加入 Vconnct 以繼續對話。</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">邀請加入 V.Call</string>
+    <string name="ConversationActivity__invite_to_signal">邀請加入 Vconnct</string>
     <!-- Snackbar message shown after dismissing the full screen sms export megaphone indicating we\'ll do it again soon -->
     <string name="ConversationActivity__you_will_be_reminded_again_soon">我們稍後會再次提醒你。</string>
 
     <!-- Title for dialog shown when first sending formatted text -->
     <string name="SendingFormattingTextDialog_title">傳送格式化文字</string>
     <!-- Message for dialog shown when first sending formatted text -->
-    <string name="SendingFormattingTextDialog_message">有些人可能正在使用不支援格式化文字的 V.Call 版本，他們將無法看到你對訊息作出的格式變更。</string>
+    <string name="SendingFormattingTextDialog_message">有些人可能正在使用不支援格式化文字的 Vconnct 版本，他們將無法看到你對訊息作出的格式變更。</string>
     <!-- Button text for confirming they\'d like to send the message with formatting after seeing warning. -->
     <string name="SendingFormattingTextDialog_send_anyway_button">仍要傳送</string>
     <!-- Button text for canceling sending the message with formatting after seeing warning. -->
@@ -465,7 +465,7 @@
     <string name="ConversationFragment_delete_on_this_device">由此裝置中刪除</string>
     <!-- Dialog button for deleting one or more note-to-self messages on all linked devices. -->
     <string name="ConversationFragment_delete_everywhere">由所有裝置中刪除</string>
-    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">如聊天中的成員均使用最新版本的 V.Call，此訊息將在所有人的裝置上刪除，他們將會看見你刪除了一則訊息。</string>
+    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">如聊天中的成員均使用最新版本的 Vconnct，此訊息將在所有人的裝置上刪除，他們將會看見你刪除了一則訊息。</string>
     <string name="ConversationFragment_quoted_message_not_found">找不到原始訊息</string>
     <string name="ConversationFragment_quoted_message_no_longer_available">原始訊息已不可用</string>
     <string name="ConversationFragment_failed_to_open_message">無法開啟訊息</string>
@@ -477,12 +477,12 @@
     <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d 個群組成員名稱相同。</string>
     <string name="ConversationFragment__tap_to_review">輕觸以檢閱</string>
     <string name="ConversationFragment__review_requests_carefully">請仔細檢閱請求</string>
-    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">V.Call 找到另一個名稱相同的聯絡人。</string>
+    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Vconnct 找到另一個名稱相同的聯絡人。</string>
     <string name="ConversationFragment_contact_us">聯絡我們</string>
     <string name="ConversationFragment_verify">驗證</string>
     <string name="ConversationFragment_not_now">現在不要</string>
     <string name="ConversationFragment_your_safety_number_with_s_changed">您與 %1$s 之間的安全碼已變更</string>
-    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">您與 %1$s 之間的安全碼已變更，通常是對方已重新安裝 V.Call 或更換了裝置。輕觸「驗證」以確認新的安全碼，惟不一定要這樣做。</string>
+    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">您與 %1$s 之間的安全碼已變更，通常是對方已重新安裝 Vconnct 或更換了裝置。輕觸「驗證」以確認新的安全碼，惟不一定要這樣做。</string>
     <!-- Message shown to indicate which notification profile is on/active -->
     <string name="ConversationFragment__s_on">%1$s 開啟</string>
     <!-- Dialog title for block group link join requests -->
@@ -496,13 +496,13 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">已封鎖</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">更新 V.Call</string>
+    <string name="ConversationFragment__update_build">更新 Vconnct</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">重新註冊 V.Call</string>
+    <string name="ConversationFragment__reregister_signal">重新註冊 Vconnct</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">導向返回。</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">開啟 V.Call</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">開啟 Vconnct</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">已無驗證</string>
 
@@ -600,9 +600,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">誰可以透過電話號碼找到我？</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has">只要對方在通訊錄內儲存了你的電話號碼，便可在 V.Call 的聯絡人中看到你。其他人則可透過搜尋你的電話號碼找到你。</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has">只要對方在通訊錄內儲存了你的電話號碼，便可在 Vconnct 的聯絡人中看到你。其他人則可透過搜尋你的電話號碼找到你。</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_on_signal">沒有人可以在 V.Call 透過你的電話號碼找到你。</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_on_signal">沒有人可以在 Vconnct 透過你的電話號碼找到你。</string>
 
     <!-- ChooseBackupFragment -->
     <string name="ChooseBackupFragment__restore_from_backup">要從備份還原嗎？</string>
@@ -636,7 +636,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">測試您的備份密碼並驗證是否相符</string>
     <string name="BackupsPreferenceFragment__turn_on">開啟</string>
     <string name="BackupsPreferenceFragment__turn_off">關閉</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"如要還原備份，在全新安裝 V.Call 後，請開啟應用程式並輕觸「還原備份」，然後找出備份檔案位置。%1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"如要還原備份，在全新安裝 Vconnct 後，請開啟應用程式並輕觸「還原備份」，然後找出備份檔案位置。%1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">了解更多</string>
     <string name="BackupsPreferenceFragment__in_progress">進行中…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -644,7 +644,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">目前進度 %1$d…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">目前進度 %1$s%%…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">V.Call 需要外部儲存空間權限才可建立備份，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「儲存裝置」。</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Vconnct 需要外部儲存空間權限才可建立備份，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「儲存裝置」。</string>
 
 
     <!-- CustomDefaultPreference -->
@@ -711,7 +711,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">聊天工作階段已重新整理</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">V.Call 使用端對端加密，偶爾或需重新整理您的聊天工作階段。這並不會影響您的聊天安全性，但您或許會錯過來自此聯絡人的一兩則訊息，您可請對方重新傳送。</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Vconnct 使用端對端加密，偶爾或需重新整理您的聊天工作階段。這並不會影響您的聊天安全性，但您或許會錯過來自此聯絡人的一兩則訊息，您可請對方重新傳送。</string>
 
     <!-- DeviceListActivity -->
     <string name="DeviceListActivity_unlink_s">要取消連結「%1$s」嗎？</string>
@@ -733,10 +733,10 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">針對缺少 Play 服務的優化</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">此裝置不支援 Play 服務。輕觸以停用系統電量優化，以免干擾 V.Call 閒置時擷取訊息。</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">此裝置不支援 Play 服務。輕觸以停用系統電量優化，以免干擾 Vconnct 閒置時擷取訊息。</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">此版本的 V.Call 已過期。立即更新以傳送和接收訊息。</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">此版本的 Vconnct 已過期。立即更新以傳送和接收訊息。</string>
     <string name="ExpiredBuildReminder_update_now">立即更新</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
@@ -746,8 +746,8 @@
     <string name="PendingGroupJoinRequestsReminder_view">檢視</string>
 
     <!-- GcmRefreshJob -->
-    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">永久性 V.Call 通訊失敗！</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">V.Call 無法與 Google Play 服務註冊。V.Call 訊息和通話已被停用，請到「設定」&gt;「進階」嘗試重新註冊。</string>
+    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">永久性 Vconnct 通訊失敗！</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Vconnct 無法與 Google Play 服務註冊。Vconnct 訊息和通話已被停用，請到「設定」&gt;「進階」嘗試重新註冊。</string>
 
 
     <!-- GiphyActivity -->
@@ -860,7 +860,7 @@
     <string name="LinkPreviewView_this_group_link_is_not_active">此群組連結不在使用中</string>
     <string name="LinkPreviewView_domain_date">%1$s · %2$s</string>
     <!-- Description for Call Link url previews -->
-    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">使用此連結以加入 V.Call 通話</string>
+    <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">使用此連結以加入 Vconnct 通話</string>
 
     <!-- LinkPreviewRepository -->
     <plurals name="LinkPreviewRepository_d_members">
@@ -917,9 +917,9 @@
     <string name="AddGroupDetailsFragment__sms_contact">短訊聯絡人</string>
     <string name="AddGroupDetailsFragment__remove_s_from_this_group">要從此群組中移除 %1$s 嗎？</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">由於你已選擇一個不支援 V.Call 群組的聯絡人，此群組將會使用多媒體短訊。只有你可以看見自訂多媒體短訊群組的名稱和相片。</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">由於你已選擇一個不支援 Vconnct 群組的聯絡人，此群組將會使用多媒體短訊。只有你可以看見自訂多媒體短訊群組的名稱和相片。</string>
     <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">你選取的聯絡人無法使用 V.Call 群組，因此群組將使用多媒體訊息。只有你可以看到自訂的多媒體訊息群組名稱和相片。系統即將停止支援多媒體訊息群組，專注提供加密通訊服務。</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">你選取的聯絡人無法使用 Vconnct 群組，因此群組將使用多媒體訊息。只有你可以看到自訂的多媒體訊息群組名稱和相片。系統即將停止支援多媒體訊息群組，專注提供加密通訊服務。</string>
 
     <!-- ManageGroupActivity -->
     <string name="ManageGroupActivity_who_can_add_new_members">誰可以加入新成員？</string>
@@ -930,8 +930,8 @@
     </plurals>
 
     <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">您沒有權限這樣做</string>
-    <string name="ManageGroupActivity_not_capable">您所加入的某人不支援「新版群組」並需要更新 V.Call</string>
-    <string name="ManageGroupActivity_not_announcement_capable">您所加入的某人不支援公告群組並需要更新 V.Call</string>
+    <string name="ManageGroupActivity_not_capable">您所加入的某人不支援「新版群組」並需要更新 Vconnct</string>
+    <string name="ManageGroupActivity_not_announcement_capable">您所加入的某人不支援公告群組並需要更新 Vconnct</string>
     <string name="ManageGroupActivity_failed_to_update_the_group">升級此群組失敗</string>
     <string name="ManageGroupActivity_youre_not_a_member_of_the_group">您現在不是此群組的成員</string>
     <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">更新群組失敗，請稍後再試</string>
@@ -943,7 +943,7 @@
     <string name="ManageGroupActivity_legacy_group_upgrade">這是「舊版群組」。若要存取新功能，諸如 @提及 和管理員，</string>
     <string name="ManageGroupActivity_legacy_group_too_large">此「舊版群組」無法升級至「新版群組」，因為人數太多。群組人數上限為 %1$d 人。</string>
     <string name="ManageGroupActivity_upgrade_this_group">升級此群組。</string>
-    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">這是不安全的多媒體短訊群組。若要私密聊天，請邀請您的聯絡人使用 V.Call。</string>
+    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">這是不安全的多媒體短訊群組。若要私密聊天，請邀請您的聯絡人使用 Vconnct。</string>
     <string name="ManageGroupActivity_invite_now">立即邀請</string>
     <string name="ManageGroupActivity_more">更多</string>
     <string name="ManageGroupActivity_add_group_description">新增群組描述…</string>
@@ -1048,9 +1048,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">更新 V.Call 以使用群組連結</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">您現正使用的 V.Call 版本不支援此群組連結。請更新至最新版本以透過連結加入此群組。</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">更新 V.Call</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">更新 Vconnct 以使用群組連結</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">您現正使用的 Vconnct 版本不支援此群組連結。請更新至最新版本以透過連結加入此群組。</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">更新 Vconnct</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">群組連結無效</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1081,8 +1081,8 @@
 
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">輕觸並按住以錄製語音訊息，放開以傳送</string>
-    <!-- Message shown if the user tries to switch a conversation from V.Call to SMS -->
-    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">V.Call 不再支援短訊功能。</string>
+    <!-- Message shown if the user tries to switch a conversation from Vconnct to SMS -->
+    <string name="InputPanel__sms_messaging_is_no_longer_supported_in_signal">Vconnct 不再支援短訊功能。</string>
     <!-- When editing a message, label shown above the text input field in the composer -->
     <string name="InputPanel_edit_message">編輯訊息</string>
 
@@ -1094,12 +1094,12 @@
     <string name="InviteActivity_cancel">取消</string>
     <string name="InviteActivity_sending">正在傳送…</string>
     <string name="InviteActivity_invitations_sent">邀請已傳送！</string>
-    <string name="InviteActivity_invite_to_signal">邀請加入 V.Call</string>
+    <string name="InviteActivity_invite_to_signal">邀請加入 Vconnct</string>
     <string name="InviteActivity_send_sms">傳送短訊 (%1$d)</string>
     <plurals name="InviteActivity_send_sms_invites">
         <item quantity="other">要傳送 %1$d 個短訊邀請嗎？</item>
     </plurals>
-    <string name="InviteActivity_lets_switch_to_signal">一齊轉用 V.Call 咯：%1$s</string>
+    <string name="InviteActivity_lets_switch_to_signal">一齊轉用 Vconnct 咯：%1$s</string>
     <string name="InviteActivity_no_app_to_share_to">您似乎未有任何應用程式可作分享。</string>
 
     <!-- LearnMoreTextView -->
@@ -1166,7 +1166,7 @@
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">稍後再提醒我</string>
-    <string name="Megaphones_verify_your_signal_pin">驗證您的 V.Call PIN 碼</string>
+    <string name="Megaphones_verify_your_signal_pin">驗證您的 Vconnct PIN 碼</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">每隔一段時間，我們會請您驗證一下您的 PIN 碼，確保您能記住它。</string>
     <string name="Megaphones_verify_pin">驗證 PIN 碼</string>
     <string name="Megaphones_get_started">開始使用</string>
@@ -1180,10 +1180,10 @@
     <string name="MessageQuotesBottomSheet_replies">回覆</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">正在建立 V.Call 通話</string>
+    <string name="NotificationBarManager__establishing_signal_call">正在建立 Vconnct 通話</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">正在開始 V.Call 通話服務</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">正在停止 V.Call 通話服務</string>
+    <string name="NotificationBarManager__starting_signal_call_service">正在開始 Vconnct 通話服務</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">正在停止 Vconnct 通話服務</string>
     <string name="NotificationBarManager__decline_call">拒接通話</string>
     <string name="NotificationBarManager__answer_call">接聽通話</string>
     <string name="NotificationBarManager__end_call">結束通話</string>
@@ -1213,7 +1213,7 @@
 
     <!-- MessageRecord -->
     <string name="MessageRecord_unknown">未知</string>
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">已接收的一則訊息乃使用較舊版本的 V.Call 加密，現已不再支援。請著寄件人更新至最新版本，然後重新傳送此訊息。</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">已接收的一則訊息乃使用較舊版本的 Vconnct 加密，現已不再支援。請著寄件人更新至最新版本，然後重新傳送此訊息。</string>
     <string name="MessageRecord_left_group">您已退出此群組。</string>
     <string name="MessageRecord_you_updated_group">您已更新此群組。</string>
     <string name="MessageRecord_the_group_was_updated">此群組已更新。</string>
@@ -1240,7 +1240,7 @@
     <!-- Call update formatter string to place the update message next to a time stamp. e.g., \'Incoming voice call · 11:11am\' -->
     <string name="MessageRecord_call_message_with_date">%1$s · %2$s</string>
     <string name="MessageRecord_s_updated_group">%1$s 已更新此群組。</string>
-    <string name="MessageRecord_s_joined_signal">%1$s 在用 V.Call 了！</string>
+    <string name="MessageRecord_s_joined_signal">%1$s 在用 Vconnct 了！</string>
     <string name="MessageRecord_you_disabled_disappearing_messages">您已停用限時訊息。</string>
     <string name="MessageRecord_s_disabled_disappearing_messages">%1$s 已停用限時訊息。</string>
     <string name="MessageRecord_you_set_disappearing_message_time_to_s">您已將限時訊息計時器設為 %1$s。</string>
@@ -1418,7 +1418,7 @@
     <string name="MessageRecord_a_message_from_s_couldnt_be_delivered">來自 %1$s 的一則訊息無法送達</string>
     <string name="MessageRecord_s_changed_their_phone_number">%1$s 已變更電話號碼。</string>
     <!-- Update item message shown in the release channel when someone is already a sustainer so we ask them if they want to boost. -->
-    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">你喜歡這個全新功能嗎？透過單次捐款來支持 V.Call。</string>
+    <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">你喜歡這個全新功能嗎？透過單次捐款來支持 Vconnct。</string>
     <!-- Update item message shown when we merge two threads together. First placeholder is a name, second placeholder is a phone number. -->
     <string name="MessageRecord_your_message_history_with_s_and_their_number_s_has_been_merged">你與 %1$s 的訊息紀錄及其號碼 %2$s 已經合併。</string>
     <!-- Update item message shown when we merge two threads together and we don\'t know the phone number of the other thread. The placeholder is a person\'s name. -->
@@ -1460,9 +1460,9 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">你很快將無法再於 V.Call 傳送短訊。邀請 %1$s 加入 V.Call 以繼續對話。</string>
+    <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">你很快將無法再於 Vconnct 傳送短訊。邀請 %1$s 加入 Vconnct 以繼續對話。</string>
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">你無法再於 V.Call 傳送短訊。邀請 %1$s 加入 V.Call 以繼續對話。</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">你無法再於 Vconnct 傳送短訊。邀請 %1$s 加入 Vconnct 以繼續對話。</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">付款：%1$s</string>
 
@@ -1475,7 +1475,7 @@
     <!-- Text explaining a message request from someone you\'ve removed before -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_you_removed_them_before">你是否允許 %1$s 與你通訊，並分享你的名字及照片？你之前曾移除此人。</string>
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_they_wont_know_youve_seen_their_messages_until_you_accept">要讓 %1$s 傳訊給您，並向對方分享您的名稱和照片嗎？在您接受之前，對方不會知道您看過其訊息。</string>
-    <!-- Shown in message request flow. Describes what will happen if you unblock a V.Call user -->
+    <!-- Shown in message request flow. Describes what will happen if you unblock a Vconnct user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them">你是否要允許 %1$s 與你通訊，並向對方分享你的名字和相片？在解除封鎖之前，你都不會收到對方的任何訊息。</string>
     <!-- Shown in message request flow. Describes what will happen if you unblock an SMS user -->
     <string name="MessageRequestBottomView_do_you_want_to_let_s_message_you_wont_receive_any_messages_until_you_unblock_them_SMS">你是否要允許 %1$s 與你通訊？在解除封鎖之前，你都不會收到對方的任何訊息。</string>
@@ -1529,26 +1529,26 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">二維碼無效。</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">抱歉，您已連結太多裝置，請試試先移除部分</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">抱歉，這並非有效的裝置連結二維碼。</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">要連結 V.Call 裝置嗎？</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">您似乎正嘗試使用第三方掃描程式連結 V.Call 裝置。為保護您的安全，請在 V.Call 中再次掃描二維碼。</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">要連結 Vconnct 裝置嗎？</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">您似乎正嘗試使用第三方掃描程式連結 Vconnct 裝置。為保護您的安全，請在 Vconnct 中再次掃描二維碼。</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">V.Call 需要相機權限才可掃描二維碼，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「相機」。</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Vconnct 需要相機權限才可掃描二維碼，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「相機」。</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">缺少「相機」權限下無法掃描二維碼</string>
 
     <!-- OutdatedBuildReminder -->
     <string name="OutdatedBuildReminder_update_now">立即更新</string>
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">此版本的 V.Call 將於今天到期。請更新至最新版本。</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">此版本的 Vconnct 將於今天到期。請更新至最新版本。</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="other">此版本的 V.Call 將於 %1$d 天後逾期。請更新至最新版本。</item>
+        <item quantity="other">此版本的 Vconnct 將於 %1$d 天後逾期。請更新至最新版本。</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">輸入密碼</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">V.Call 圖示</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Vconnct 圖示</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">提交密碼</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">密碼無效！</string>
-    <string name="PassphrasePromptActivity_unlock_signal">解除鎖定 V.Call</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">V.Call Android - 鎖定畫面</string>
+    <string name="PassphrasePromptActivity_unlock_signal">解除鎖定 Vconnct</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Vconnct Android - 鎖定畫面</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">地圖</string>
@@ -1572,30 +1572,30 @@
     <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
         <item quantity="other">您尚餘 %1$d 次嘗試機會。如果您耗盡了猜測，您可建立一個新的 PIN 碼。註冊並使用您的帳戶不成問題，惟您將會遺失部分已儲存的設定，像是您的個人資料資訊。</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">V.Call 註冊 — Android 用戶需要 PIN 碼的協助</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Vconnct 註冊 — Android 用戶需要 PIN 碼的協助</string>
     <!-- Button label to prompt the user to switch between an alphanumeric and numeric-only keyboards -->
     <string name="PinRestoreEntryFragment_switch_keyboard">切換鍵盤</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">建立您的 PIN 碼</string>
-    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">您已耗盡了 PIN 碼猜測，但您仍可建立一個新的 PIN 碼以存取您的 V.Call 帳戶。為確保您的私隱和安全性，還原您的帳戶時將不包括任何已儲存的個人資料或設定。</string>
+    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">您已耗盡了 PIN 碼猜測，但您仍可建立一個新的 PIN 碼以存取您的 Vconnct 帳戶。為確保您的私隱和安全性，還原您的帳戶時將不包括任何已儲存的個人資料或設定。</string>
     <string name="PinRestoreLockedFragment_create_new_pin">建立新的 PIN 碼</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
 
     <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
     <string name="ReRegisterWithPinFragment_send_sms_code">傳送 SMS 驗證碼</string>
     <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
-    <string name="ReRegisterWithPinFragment_support_email_subject">V.Call 註冊 — Android 用戶需要重新註冊 PIN 碼的協助</string>
+    <string name="ReRegisterWithPinFragment_support_email_subject">Vconnct 註冊 — Android 用戶需要重新註冊 PIN 碼的協助</string>
     <!-- Dialog message shown in reregister flow when tapping a informational button to to learn about pins or contact support for help -->
     <string name="ReRegisterWithPinFragment_need_help_local">PIN 碼是由你建立的 %1$d 位數以上密碼，可以由數字或字母數字混合。如果你忘記 PIN 碼，可以建立一個新的 PIN 碼。</string>
     <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
     <string name="ReRegisterWithPinFragment_skip_local">如果你忘記 PIN 碼，可以建立一個新的 PIN 碼。</string>
     <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-    <string name="ReRegisterWithPinFragment_out_of_guesses_local">你已經用完 PIN 碼猜測次數，但是你仍然可以透過建立新的 PIN 碼來使用你的 V.Call 帳戶。</string>
+    <string name="ReRegisterWithPinFragment_out_of_guesses_local">你已經用完 PIN 碼猜測次數，但是你仍然可以透過建立新的 PIN 碼來使用你的 Vconnct 帳戶。</string>
 
     <!-- PinOptOutDialog -->
     <string name="PinOptOutDialog_warning">警告</string>
-    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">如果停用 PIN 碼，當你重新註冊 V.Call 而沒有進行手動備份及還原的話，你將會遺失所有資料。PIN 碼停用時不可開啟註冊鎖定。</string>
+    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">如果停用 PIN 碼，當你重新註冊 Vconnct 而沒有進行手動備份及還原的話，你將會遺失所有資料。PIN 碼停用時不可開啟註冊鎖定。</string>
     <string name="PinOptOutDialog_disable_pin">停用 PIN 碼</string>
 
     <!-- RatingManager -->
@@ -1616,7 +1616,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">驗證以繼續傳訊</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">為協助防範 V.Call 垃圾訊息，請先完成驗證。</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">為協助防範 Vconnct 垃圾訊息，請先完成驗證。</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">完成驗證後，您將可繼續傳訊。暫止的訊息將會自動傳送。</string>
 
     <!-- Recipient -->
@@ -1624,7 +1624,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">我的限時動態</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">V.Call 通話</string>
+    <string name="Recipient_signal_call">Vconnct 通話</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">封鎖</string>
@@ -1649,8 +1649,8 @@
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">輕觸此處以開啟您的視像</string>
-    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">V.Call 需要存取您的相機，以便與 %1$s 通話。</string>
-    <string name="WebRtcCallActivity__signal_s">V.Call %1$s</string>
+    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Vconnct 需要存取您的相機，以便與 %1$s 通話。</string>
+    <string name="WebRtcCallActivity__signal_s">Vconnct %1$s</string>
     <string name="WebRtcCallActivity__calling">正在撥號…</string>
     <string name="WebRtcCallActivity__group_is_too_large_to_ring_the_participants">群組太大，無法給參與者響鈴。</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
@@ -1665,8 +1665,8 @@
     <string name="WebRtcCallActivity__not_now">現在不要</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">V.Call 通話</string>
-    <string name="WebRtcCallView__signal_video_call">V.Call 視像通話</string>
+    <string name="WebRtcCallView__signal_call">Vconnct 通話</string>
+    <string name="WebRtcCallView__signal_video_call">Vconnct 視像通話</string>
     <string name="WebRtcCallView__start_call">開始通話</string>
     <string name="WebRtcCallView__join_call">加入通話</string>
     <string name="WebRtcCallView__call_is_full">通話已滿座</string>
@@ -1676,10 +1676,10 @@
     <string name="WebRtcCallView__joining">正在加入…</string>
     <string name="WebRtcCallView__disconnected">已中斷連線</string>
 
-    <string name="WebRtcCallView__signal_will_ring_s">V.Call 將給 %1$s 響鈴</string>
-    <string name="WebRtcCallView__signal_will_ring_s_and_s">V.Call 將給 %1$s 和 %2$s 響鈴</string>
+    <string name="WebRtcCallView__signal_will_ring_s">Vconnct 將給 %1$s 響鈴</string>
+    <string name="WebRtcCallView__signal_will_ring_s_and_s">Vconnct 將給 %1$s 和 %2$s 響鈴</string>
     <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-        <item quantity="other">V.Call 將給 %1$s、%2$s 和另 %3$d 人響鈴</item>
+        <item quantity="other">Vconnct 將給 %1$s、%2$s 和另 %3$d 人響鈴</item>
     </plurals>
 
     <string name="WebRtcCallView__s_will_be_notified">%1$s 將予通知</string>
@@ -1782,13 +1782,13 @@
     <string name="RegistrationActivity_is_your_phone_number_above_correct">上述電話號碼是否正確?</string>
     <string name="RegistrationActivity_edit_number">修正電話號碼</string>
     <string name="RegistrationActivity_missing_google_play_services">缺少 Google Play 服務</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">此裝置未有安裝Google Play 服務。你仍可使用 V.Call，但其可靠程度及運作表現可能會因這配置而減弱。\n\n 若你不是進階用戶，亦非營運 Android ROM 售後市場，或你認為這是錯誤訊息， 請聯絡 support@signal.org 協助解決疑難。</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">此裝置未有安裝Google Play 服務。你仍可使用 Vconnct，但其可靠程度及運作表現可能會因這配置而減弱。\n\n 若你不是進階用戶，亦非營運 Android ROM 售後市場，或你認為這是錯誤訊息， 請聯絡 support@signal.org 協助解決疑難。</string>
     <string name="RegistrationActivity_i_understand">我明白</string>
     <string name="RegistrationActivity_play_services_error">Play 服務錯誤</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play 服務正在更新，或暫時未能運作。請再試一次。</string>
     <string name="RegistrationActivity_terms_and_privacy">條款及私隱條例</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">V.Call 需要聯絡人和媒體權限，以助您與好友連繫和傳送訊息。您的聯絡人將經 V.Call 私密聯絡人探索上載，即是經端對端加密，V.Call 服務從不可見到。</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">V.Call 需要聯絡人權限，以助您與好友連繫。您的聯絡人將經 V.Call 私密聯絡人探索上載，即是經端對端加密，V.Call 服務從不可見到。</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Vconnct 需要聯絡人和媒體權限，以助您與好友連繫和傳送訊息。您的聯絡人將經 Vconnct 私密聯絡人探索上載，即是經端對端加密，Vconnct 服務從不可見到。</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Vconnct 需要聯絡人權限，以助您與好友連繫。您的聯絡人將經 Vconnct 私密聯絡人探索上載，即是經端對端加密，Vconnct 服務從不可見到。</string>
     <string name="RegistrationActivity_rate_limited_to_service">你已多次嘗試登記此電話號碼。請稍後再試。</string>
     <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
     <string name="RegistrationActivity_rate_limited_to_try_again">你已多次嘗試註冊此電話號碼。請在 %1$s後再試。</string>
@@ -1801,7 +1801,7 @@
     <string name="RegistrationActivity_unable_to_request_verification_code">無法要求驗證碼。請檢查你的網路連線，然後再試一次。</string>
     <string name="RegistrationActivity_non_standard_number_format">非標準號碼格式</string>
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">您所輸入的號碼 (%1$s) 似乎並非標準格式。\n\n您是指 %2$s 嗎？</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">V.Call Android - 電話號碼格式</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">Vconnct Android - 電話號碼格式</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">已請求撥號</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -1813,7 +1813,7 @@
     </plurals>
     <string name="RegistrationActivity_we_need_to_verify_that_youre_human">我們須要確認你是真人。</string>
     <!-- An error shown when the request was valid, but due to an issue with a partner vendor, the server is unable to send an SMS code -->
-    <string name="RegistrationActivity_external_service_error">由於外部供應商問題，V.Call 無法傳送 SMS 代碼。</string>
+    <string name="RegistrationActivity_external_service_error">由於外部供應商問題，Vconnct 無法傳送 SMS 代碼。</string>
     <!-- Button label to trigger a phone call to provide the registration code, in lieu of an SMS code -->
     <string name="RegistrationActivity_voice_call">語音通話</string>
     <!-- Dialog button to cancel the pending action and return to the previous state. -->
@@ -1848,7 +1848,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">開啟註冊鎖定?</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">關閉註冊鎖定?</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">若你在再次註冊 V.Call 時，忘記了你的 V.Call PIN 碼，你的帳戶將被封鎖7天。</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">若你在再次註冊 Vconnct 時，忘記了你的 Vconnct PIN 碼，你的帳戶將被封鎖7天。</string>
     <string name="RegistrationLockV2Dialog_turn_on">開啟</string>
     <string name="RegistrationLockV2Dialog_turn_off">關閉</string>
 
@@ -1874,19 +1874,19 @@
 
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">新增至通訊錄</string>
-    <string name="SharedContactDetailsActivity_invite_to_signal">邀請加入 V.Call</string>
-    <string name="SharedContactDetailsActivity_signal_message">V.Call 訊息</string>
-    <string name="SharedContactDetailsActivity_signal_call">V.Call 通話</string>
+    <string name="SharedContactDetailsActivity_invite_to_signal">邀請加入 Vconnct</string>
+    <string name="SharedContactDetailsActivity_signal_message">Vconnct 訊息</string>
+    <string name="SharedContactDetailsActivity_signal_call">Vconnct 通話</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">新增至通訊錄</string>
-    <string name="SharedContactView_invite_to_signal">邀請加入 V.Call</string>
-    <string name="SharedContactView_message">V.Call 訊息</string>
+    <string name="SharedContactView_invite_to_signal">邀請加入 Vconnct</string>
+    <string name="SharedContactView_message">Vconnct 訊息</string>
 
-    <!-- V.CallBottomActionBar -->
+    <!-- VconnctBottomActionBar -->
     <string name="SignalBottomActionBar_more">更多</string>
 
-    <!-- V.CallPinReminders -->
+    <!-- VconnctPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">PIN 碼驗證成功。遲些我們將會再提醒您。</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">PIN 碼驗證成功。明天我們將會再提醒您。</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">PIN 碼驗證成功。幾天後我們將會再提醒您。</string>
@@ -1910,7 +1910,7 @@
     <string name="SmsMessageRecord_secure_session_reset">您已重設安全工作階段。</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%1$s 已重設安全工作階段。</string>
     <string name="SmsMessageRecord_duplicate_message">重複訊息。</string>
-    <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">此訊息乃由較新版本的 V.Call 傳送，因此未能處理。待您更新後，您可著您的聯絡人再次傳送此訊息。</string>
+    <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">此訊息乃由較新版本的 Vconnct 傳送，因此未能處理。待您更新後，您可著您的聯絡人再次傳送此訊息。</string>
     <string name="SmsMessageRecord_error_handling_incoming_message">處理傳入訊息時發生錯誤。</string>
 
     <!-- StickerManagementActivity -->
@@ -1919,7 +1919,7 @@
     <!-- StickerManagementAdapter -->
     <string name="StickerManagementAdapter_installed_stickers">已安裝的貼圖</string>
     <string name="StickerManagementAdapter_stickers_you_received">您已接收的貼圖</string>
-    <string name="StickerManagementAdapter_signal_artist_series">V.Call 藝術家系列</string>
+    <string name="StickerManagementAdapter_signal_artist_series">Vconnct 藝術家系列</string>
     <string name="StickerManagementAdapter_no_stickers_installed">無已安裝的貼圖</string>
     <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">來自傳入訊息的貼圖將在此出現</string>
     <string name="StickerManagementAdapter_untitled">無題</string>
@@ -1956,8 +1956,8 @@
     <string name="SupportEmailUtil_filter">篩選：</string>
     <string name="SupportEmailUtil_device_info">裝置資訊：</string>
     <string name="SupportEmailUtil_android_version">Android 版本：</string>
-    <string name="SupportEmailUtil_signal_version">V.Call 版本：</string>
-    <string name="SupportEmailUtil_signal_package">V.Call 套件：</string>
+    <string name="SupportEmailUtil_signal_version">Vconnct 版本：</string>
+    <string name="SupportEmailUtil_signal_package">Vconnct 套件：</string>
     <string name="SupportEmailUtil_registration_lock">註冊鎖定：</string>
     <string name="SupportEmailUtil_locale">語系：</string>
 
@@ -1981,7 +1981,7 @@
     <string name="ThreadRecord_you_activated_payments">你已啟動付款</string>
     <!-- Displayed in the notification when the recipient can accept payments -->
     <string name="ThreadRecord_can_accept_payments">%1$s 現在可以接受付款</string>
-    <string name="ThreadRecord_s_is_on_signal">%1$s 在用 V.Call 了！</string>
+    <string name="ThreadRecord_s_is_on_signal">%1$s 在用 Vconnct 了！</string>
     <string name="ThreadRecord_disappearing_messages_disabled">限時訊息已停用</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">限時訊息時效已設為 %1$s</string>
     <string name="ThreadRecord_safety_number_changed">安全碼已變更</string>
@@ -2019,8 +2019,8 @@
     <string name="ThreadRecord_s_belongs_to_s">%1$s 是 %2$s 的手機號碼</string>
 
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">V.Call 更新</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">新版本的 V.Call 現已可用，輕觸以更新</string>
+    <string name="UpdateApkReadyListener_Signal_update">Vconnct 更新</string>
+    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">新版本的 Vconnct 現已可用，輕觸以更新</string>
 
     <!-- UntrustedSendDialog -->
     <string name="UntrustedSendDialog_send_message">要傳送訊息嗎？</string>
@@ -2055,7 +2055,7 @@
     <string name="UsernameEditFragment__done">完成</string>
 
     <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-        <item quantity="other">%1$d 個聯絡人現已使用 V.Call！</item>
+        <item quantity="other">%1$d 個聯絡人現已使用 Vconnct！</item>
     </plurals>
 
     <!-- UsernameShareBottomSheet -->
@@ -2063,14 +2063,14 @@
     <string name="UsernameShareBottomSheet__copy_or_share_a_username_link">複製或分享用戶名稱連結</string>
 
     <!-- VerifyIdentityActivity -->
-    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">您的聯絡人現正執行舊版本的 V.Call。請先著對方更新，然後才驗證您的安全碼。</string>
-    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">您的聯絡人現正執行較新版本的 V.Call，二維碼格式並不相容。請更新以進行比對。</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">您的聯絡人現正執行舊版本的 Vconnct。請先著對方更新，然後才驗證您的安全碼。</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">您的聯絡人現正執行較新版本的 Vconnct，二維碼格式並不相容。請更新以進行比對。</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">已掃描的二維碼並非正確格式的安全碼驗證碼。請嘗試再次掃描。</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">分享安全碼…</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">我們的 V.Call 安全碼：</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">我們的 Vconnct 安全碼：</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">您似乎未有任何應用程式可作分享。</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">在剪貼簿中找不到安全碼以作比對</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">V.Call 需要相機權限才可掃描二維碼，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「相機」。</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Vconnct 需要相機權限才可掃描二維碼，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「相機」。</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">缺少「相機」權限下無法掃描二維碼</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">您必須先交換訊息，以便檢視 %1$s 的安全碼。</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -2106,14 +2106,14 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">輕按一下以開啟。</string>
-    <string name="KeyCachingService_passphrase_cached">V.Call 已解除鎖定</string>
-    <string name="KeyCachingService_lock">鎖定 V.Call</string>
+    <string name="KeyCachingService_passphrase_cached">Vconnct 已解除鎖定</string>
+    <string name="KeyCachingService_lock">鎖定 Vconnct</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">您</string>
     <string name="MediaPreviewActivity_unssuported_media_type">未支援的媒體類型</string>
     <string name="MediaPreviewActivity_draft">草稿</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">V.Call 需要儲存裝置權限才可儲存到外部儲存空間，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「儲存裝置」。</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Vconnct 需要儲存裝置權限才可儲存到外部儲存空間，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「儲存裝置」。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">缺少權限下無法儲存到外部儲存空間</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">要刪除訊息嗎？</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">這將會永久刪除此訊息。</string>
@@ -2156,14 +2156,14 @@
     <string name="MessageNotifier_failed_to_deliver_message">送遞訊息失敗。</string>
     <string name="MessageNotifier_error_delivering_message">送遞訊息時發生錯誤。</string>
     <string name="MessageNotifier_message_delivery_paused">訊息送遞已暫止。</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">驗證以繼續在 V.Call 傳訊。</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">驗證以繼續在 Vconnct 傳訊。</string>
     <string name="MessageNotifier_mark_all_as_read">全部標記為已讀</string>
     <string name="MessageNotifier_mark_read">標記為已讀</string>
     <string name="MessageNotifier_turn_off_these_notifications">關閉這些通知</string>
     <string name="MessageNotifier_view_once_photo">閱後即焚相片</string>
     <string name="MessageNotifier_view_once_video">閱後即焚影片</string>
     <string name="MessageNotifier_reply">回覆</string>
-    <string name="MessageNotifier_signal_message">V.Call 訊息</string>
+    <string name="MessageNotifier_signal_message">Vconnct 訊息</string>
     <string name="MessageNotifier_unsecured_sms">不安全的短訊</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">聯絡人</string>
@@ -2179,7 +2179,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">對你的貼圖表達了 %1$s 心情。</string>
     <string name="MessageNotifier_this_message_was_deleted">此訊息已被刪除。</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">要關閉聯絡人加入 V.Call 的通知嗎？您可在 V.Call &gt;「設定」&gt;「通知」中再次啟用。</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">要關閉聯絡人加入 Vconnct 的通知嗎？您可在 Vconnct &gt;「設定」&gt;「通知」中再次啟用。</string>
 
     <!-- Notification Channels -->
     <string name="NotificationChannel_channel_messages">訊息</string>
@@ -2192,7 +2192,7 @@
     <string name="NotificationChannel_group_chats">聊天</string>
     <string name="NotificationChannel_missing_display_name">未知</string>
     <string name="NotificationChannel_voice_notes">語音備忘</string>
-    <string name="NotificationChannel_contact_joined_signal">聯絡人已加入 V.Call</string>
+    <string name="NotificationChannel_contact_joined_signal">聯絡人已加入 Vconnct</string>
     <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">無可用的活動以開啟通知通道設定。</string>
     <!-- Notification channel name for showing persistent background connection on devices without push notifications -->
     <string name="NotificationChannel_background_connection">背景連線</string>
@@ -2206,7 +2206,7 @@
     <!-- ProfileEditNameFragment -->
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">V.Call 在鎖定時無法使用快速回應！</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Vconnct 在鎖定時無法使用快速回應！</string>
     <string name="QuickResponseService_problem_sending_message">傳送訊息時發生問題！</string>
 
     <!-- A small toast notification to let the user know their image/video/audio was downloaded and saved to their device, accessible in other apps. -->
@@ -2245,23 +2245,23 @@
     <!-- UnauthorizedReminder -->
     <string name="UnauthorizedReminder_device_no_longer_registered">裝置已不再註冊</string>
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">此裝置已不再註冊。通常是因為你已在另一部裝置上使用你的電話號碼註冊 V.Call。</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">此裝置已不再註冊。通常是因為你已在另一部裝置上使用你的電話號碼註冊 Vconnct。</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">重新註冊裝置</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">你已登出此裝置的 V.Call 應用程式。</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">你已登出此裝置的 Vconnct 應用程式。</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">請更新 V.Call 以繼續使用付款功能。你的餘額可能尚未更新。</string>
+    <string name="EnclaveFailureReminder_update_signal">請更新 Vconnct 以繼續使用付款功能。你的餘額可能尚未更新。</string>
     <!-- Banner button to update now -->
 
     <!-- WebRtcCallActivity -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">若要接聽通話，請授予 V.Call 存取您的咪高峰。</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">若要接聽通話，請授予 Vconnct 存取您的咪高峰。</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">若要接聽視訊通話，請允許 V.Call 存取你的麥克風和相機。</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">V.Call 需要咪高峰和相機權限才可致電或接聽通話，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「咪高峰」和「相機」。</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">若要接聽視訊通話，請允許 Vconnct 存取你的麥克風和相機。</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Vconnct 需要咪高峰和相機權限才可致電或接聽通話，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「咪高峰」和「相機」。</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">已在連結的裝置上接聽。</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">已在連結的裝置上拒接。</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">在連結的裝置上繁忙中。</string>
@@ -2304,7 +2304,7 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">重複輸入新的密碼</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">邀請加入 V.Call</string>
+    <string name="contact_selection_activity__invite_to_signal">邀請加入 Vconnct</string>
     <string name="contact_selection_activity__new_group">建立新群組</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">重新整理聯絡人</string>
@@ -2326,21 +2326,21 @@
     <string name="SingleContactSelectionActivity_contact_photo">聯絡人照片</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">V.Call 需要聯絡人權限才可顯示您的聯絡人，但已被永久拒絕。請前往應用程式設定功能表，選擇「權限」，然後啟用「聯絡人」。</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Vconnct 需要聯絡人權限才可顯示您的聯絡人，但已被永久拒絕。請前往應用程式設定功能表，選擇「權限」，然後啟用「聯絡人」。</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">提取聯絡人時發生錯誤，請檢查您的網絡連線</string>
     <string name="ContactSelectionListFragment_username_not_found">找不到使用者名稱</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"「%1$s」並非 V.Call 使用者。請檢查使用者名稱，然後再試一次。"</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"「%1$s」並非 Vconnct 使用者。請檢查使用者名稱，然後再試一次。"</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">您不用將自己加入群組</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">已到達群組人數上限</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">V.Call 群組最多只得有 %1$d 個成員。</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Vconnct 群組最多只得有 %1$d 個成員。</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">已到達建議的成員人數上限</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">V.Call 群組在不多於 %1$d 個成員時效能最佳。新增更多成員將導致傳送和接收訊息時有所延遲。</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Vconnct 群組在不多於 %1$d 個成員時效能最佳。新增更多成員將導致傳送和接收訊息時有所延遲。</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="other">%1$d 個成員</item>
     </plurals>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">V.Call 需要存取您的聯絡人以便為您顯示。</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Vconnct 需要存取您的聯絡人以便為您顯示。</string>
     <string name="contact_selection_list_fragment__show_contacts">顯示聯絡人</string>
 
     <!-- contact_selection_list_item -->
@@ -2353,7 +2353,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">V.Call 訊息</string>
+    <string name="conversation_activity__type_message_push">Vconnct 訊息</string>
     <string name="conversation_activity__type_message_sms_insecure">不安全的短訊</string>
     <string name="conversation_activity__type_message_mms_insecure">不安全的多媒體短訊</string>
     <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -2367,7 +2367,7 @@
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">切換快速相機附件隱藏式選單</string>
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">錄製並傳送音訊附件</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">鎖定錄製音訊附件</string>
-    <string name="conversation_activity__enable_signal_for_sms">以 V.Call 收發多媒體短訊</string>
+    <string name="conversation_activity__enable_signal_for_sms">以 Vconnct 收發多媒體短訊</string>
     <string name="conversation_activity__message_could_not_be_sent">訊息無法傳送。請檢查您的連線，然後再試一次。</string>
 
     <!-- conversation_input_panel -->
@@ -2448,7 +2448,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">氣泡是一項 Android 功能，您可為 V.Call 聊天將其關閉。</string>
+    <string name="BubbleOptOutTooltip__description">氣泡是一項 Android 功能，您可為 Vconnct 聊天將其關閉。</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">現在不要</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -2532,9 +2532,9 @@
     <string name="IdentityUtil_unverified_banner_two">您與 %1$s 和 %2$s 之間的安全碼不再已驗證</string>
     <string name="IdentityUtil_unverified_banner_many">您與 %1$s、%2$s 和 %3$s 之間的安全碼不再已驗證</string>
 
-    <string name="IdentityUtil_unverified_dialog_one">您與 %1$s 之間的安全碼已變更，故不再已驗證。這可能代表有人正嘗試截取您的通訊，又或者不過是 %1$s 已重新安裝 V.Call。</string>
-    <string name="IdentityUtil_unverified_dialog_two">您與 %1$s 和 %2$s 之間的安全碼不再已驗證。這可能代表有人正嘗試截取您的通訊，又或者不過是他們各自已重新安裝 V.Call。</string>
-    <string name="IdentityUtil_unverified_dialog_many">您與 %1$s、%2$s 和 %3$s 之間的安全碼不再已驗證。這可能代表有人正嘗試截取您的通訊，又或者不過是他們各自已重新安裝 V.Call。</string>
+    <string name="IdentityUtil_unverified_dialog_one">您與 %1$s 之間的安全碼已變更，故不再已驗證。這可能代表有人正嘗試截取您的通訊，又或者不過是 %1$s 已重新安裝 Vconnct。</string>
+    <string name="IdentityUtil_unverified_dialog_two">您與 %1$s 和 %2$s 之間的安全碼不再已驗證。這可能代表有人正嘗試截取您的通訊，又或者不過是他們各自已重新安裝 Vconnct。</string>
+    <string name="IdentityUtil_unverified_dialog_many">您與 %1$s、%2$s 和 %3$s 之間的安全碼不再已驗證。這可能代表有人正嘗試截取您的通訊，又或者不過是他們各自已重新安裝 Vconnct。</string>
 
     <string name="IdentityUtil_untrusted_dialog_one">您與 %1$s 之間的安全碼剛剛已變更。</string>
     <string name="IdentityUtil_untrusted_dialog_two">您與 %1$s 和 %2$s 之間的安全碼剛剛已變更。</string>
@@ -2551,7 +2551,7 @@
     <string name="giphy_fragment__nothing_found">查無結果</string>
 
     <!-- database_migration_activity -->
-    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">您要匯入您現有的文字訊息到 V.Call 的加密資料庫嗎？</string>
+    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">您要匯入您現有的文字訊息到 Vconnct 的加密資料庫嗎？</string>
     <string name="database_migration_activity__the_default_system_database_will_not_be_modified">預設的系統資料庫並不會受任何形式的修改或變更。</string>
     <string name="database_migration_activity__skip">略過</string>
     <string name="database_migration_activity__import">匯入</string>
@@ -2585,7 +2585,7 @@
     <string name="prompt_passphrase_activity__unlock">解除鎖定</string>
 
     <!-- prompt_mms_activity -->
-    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">V.Call 需要 MMS 設定以透過您的無線通訊業者傳遞媒體和群組訊息。您的裝置未有提供此資訊，某些已鎖定裝置或其他限制式組態設定偶爾會出現此情況。</string>
+    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Vconnct 需要 MMS 設定以透過您的無線通訊業者傳遞媒體和群組訊息。您的裝置未有提供此資訊，某些已鎖定裝置或其他限制式組態設定偶爾會出現此情況。</string>
     <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">輕觸「確定」並完成所要求的設定，以便發送媒體和群組訊息。適用於您的電信業者的 MMS 設定，通常可搜尋「您的電信業者 APN」而找到。您只需為此設定一次。</string>
 
     <!-- BadDecryptLearnMoreDialog -->
@@ -2646,7 +2646,7 @@
     <!-- Title for dialog explaining for how safety numbers are transitioning to support usernames -->
     <string name="PnpSafetyNumberEducationDialog__title">安全號碼變更</string>
     <!-- Message for dialog explaining for how safety numbers are transitioning to support usernames -->
-    <string name="PnpSafetyNumberEducationDialog__body">安全號碼會在過渡期間進行更新，以啟用 V.Call 即將推出的隱私功能。\n\n要驗證安全號碼，請將色卡與聯絡人的裝置配對。如果這些無法匹配，請滑動並嘗試另一組安全號碼。只需要匹配一對。</string>
+    <string name="PnpSafetyNumberEducationDialog__body">安全號碼會在過渡期間進行更新，以啟用 Vconnct 即將推出的隱私功能。\n\n要驗證安全號碼，請將色卡與聯絡人的裝置配對。如果這些無法匹配，請滑動並嘗試另一組安全號碼。只需要匹配一對。</string>
     <!-- Button for more information about the safety number changes. Takes user to support article -->
     <string name="PnpSafetyNumberEducationDialog__help">需要說明嗎？</string>
     <!-- Confirmation button for educating users about new safety number changes -->
@@ -2714,7 +2714,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <string name="HelpFragment__support_info">支援資訊</string>
-    <string name="HelpFragment__signal_android_support_request">V.Call Android 支援請求</string>
+    <string name="HelpFragment__signal_android_support_request">Vconnct Android 支援請求</string>
     <string name="HelpFragment__debug_log">除錯記錄檔：</string>
     <string name="HelpFragment__could_not_upload_logs">無法上載記錄檔</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">請儘可能具體描述，以協助我們瞭解箇中問題。</string>
@@ -2797,7 +2797,7 @@
     <string name="preferences__enable_passphrase">啟用密碼畫面鎖定</string>
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">使用密碼鎖定畫面與通知</string>
     <string name="preferences__screen_security">畫面安全性</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">在閒置指定的時間間距後自動鎖定 V.Call</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">在閒置指定的時間間距後自動鎖定 Vconnct</string>
     <string name="preferences__inactivity_timeout_passphrase">閒置逾時密碼</string>
     <string name="preferences__inactivity_timeout_interval">閒置逾時間距</string>
     <string name="preferences__notifications">通知</string>
@@ -2830,8 +2830,8 @@
     <string name="preferences__slow">慢</string>
     <string name="preferences__help">說明</string>
     <string name="preferences__advanced">進階</string>
-    <string name="preferences__donate_to_signal">捐款給 V.Call</string>
-    <!-- Preference label for making one-time donations to V.Call -->
+    <string name="preferences__donate_to_signal">捐款給 Vconnct</string>
+    <!-- Preference label for making one-time donations to Vconnct -->
     <string name="preferences__privacy">私隱</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">限時動態</string>
@@ -2868,13 +2868,13 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">將應用程式圖示和名稱更改為「%1$s」</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">V.Call 需要關閉才能更改應用程式圖示和名稱。通知依然會以預設的 V.Call 圖示和名稱來顯示。</string>
+    <string name="preferences__app_icon_dialog_description">Vconnct 需要關閉才能更改應用程式圖示和名稱。通知依然會以預設的 Vconnct 圖示和名稱來顯示。</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
-    <string name="preferences__app_icon_warning_learn_more">選擇應用程式圖示和名稱，這將顯示在手機的主螢幕和應用抽屜中。通知依然會以預設的 V.Call 圖示和名稱來顯示。了解 更多</string>
+    <string name="preferences__app_icon_warning_learn_more">選擇應用程式圖示和名稱，這將顯示在手機的主螢幕和應用抽屜中。通知依然會以預設的 Vconnct 圖示和名稱來顯示。了解 更多</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
     <string name="preferences__app_icon_warning">應用程式圖示和名稱可在手機的主螢幕和應用抽屜中見到。</string>
     <!-- Visible warning label explaining that changing the app icon and name does not affect notifications. -->
-    <string name="preferences__app_icon_notification_warning">通知依然會以預設的 V.Call 圖示和名稱來顯示。</string>
+    <string name="preferences__app_icon_notification_warning">通知依然會以預設的 Vconnct 圖示和名稱來顯示。</string>
     <!--Call to action to get more information about the limitations of the change app icon functionality. -->
     <string name="preferences__app_icon_learn_more">了解 更多</string>
     <!--Text description of the app icon option for visually impaired users. -->
@@ -2883,13 +2883,13 @@
     <string name="preferences__graphic_illustrating_where_the_replacement_app_icon_will_be_visible">圖解說明了替代應用程式圖示可見的位置。</string>
     <string name="preferences__disable_pin">停用 PIN 碼</string>
     <string name="preferences__enable_pin">啟用 PIN 碼</string>
-    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">若您停用 PIN 碼，當您重新註冊 V.Call 時，除非您已手動備份並進行還原，否則您將遺失所有資料。PIN 碼停用時不可開啟註冊鎖定。</string>
-    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN 碼讓在 V.Call 中的資訊得以加密保存並僅供您存取。當您重新安裝時，您的個人資料、設定和聯絡人將會還原。開啟應用程式不需輸入 PIN 碼。</string>
+    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">若您停用 PIN 碼，當您重新註冊 Vconnct 時，除非您已手動備份並進行還原，否則您將遺失所有資料。PIN 碼停用時不可開啟註冊鎖定。</string>
+    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN 碼讓在 Vconnct 中的資訊得以加密保存並僅供您存取。當您重新安裝時，您的個人資料、設定和聯絡人將會還原。開啟應用程式不需輸入 PIN 碼。</string>
     <string name="preferences__system_default">系統預設</string>
     <string name="preferences__language">語言</string>
-    <string name="preferences__signal_messages_and_calls">V.Call 訊息與通話</string>
+    <string name="preferences__signal_messages_and_calls">Vconnct 訊息與通話</string>
     <string name="preferences__advanced_pin_settings">進階 PIN 碼設定</string>
-    <string name="preferences__free_private_messages_and_calls">與 V.Call 使用者免費私密收發訊息與通話</string>
+    <string name="preferences__free_private_messages_and_calls">與 Vconnct 使用者免費私密收發訊息與通話</string>
     <string name="preferences__submit_debug_log">提交除錯記錄檔</string>
     <string name="preferences__delete_account">刪除帳戶</string>
     <string name="preferences__support_wifi_calling">「WiFi 通話」相容模式</string>
@@ -2932,7 +2932,7 @@
     <string name="preferences_storage__s_messages">%1$s 則訊息</string>
     <string name="preferences_storage__custom">自訂</string>
     <string name="preferences_advanced__use_system_emoji">使用系統表情符號</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">經由 V.Call 伺服器轉送所有通話以避免向您的聯絡人透露您的 IP 位址。啟用時將會降低通話質素。</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">經由 Vconnct 伺服器轉送所有通話以避免向您的聯絡人透露您的 IP 位址。啟用時將會降低通話質素。</string>
     <string name="preferences_advanced__always_relay_calls">一律轉送通話</string>
     <string name="preferences_app_protection__who_can">誰可以…</string>
     <!-- Privacy settings payments section title -->
@@ -2953,13 +2953,13 @@
     <string name="preferences_communication__category_censorship_circumvention">審查規避</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">審查規避</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">一旦啟用，V.Call 會嘗試規避審查。除非您所在地方會審查 V.Call，否則不要使用此功能。</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">一旦啟用，Vconnct 會嘗試規避審查。除非您所在地方會審查 Vconnct，否則不要使用此功能。</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">根據您的電話號碼，我們已啟用審查規避功能。</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">您已手動停用審查規避功能。</string>
-    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the V.Call service -->
-    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">您已連接上 V.Call 服務，故不需要審查規避功能。</string>
+    <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Vconnct service -->
+    <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">您已連接上 Vconnct 服務，故不需要審查規避功能。</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
     <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">審查規避必須連接互聯網才可啟用。</string>
     <string name="preferences_communication__category_sealed_sender">密封寄件人</string>
@@ -2972,7 +2972,7 @@
     <string name="preferences_off">關閉</string>
     <string name="preferences_on">開啟</string>
     <string name="preferences_proxy_address">代理伺服器位址</string>
-    <string name="preferences_only_use_a_proxy_if">萬一您無法以流動數據或 Wi-Fi 連線到 V.Call 時，才需使用代理伺服器。</string>
+    <string name="preferences_only_use_a_proxy_if">萬一您無法以流動數據或 Wi-Fi 連線到 Vconnct 時，才需使用代理伺服器。</string>
     <string name="preferences_share">分享</string>
     <string name="preferences_save">儲存</string>
     <string name="preferences_connecting_to_proxy">正在連線到代理伺服器…</string>
@@ -3006,7 +3006,7 @@
     <string name="PaymentsAllActivityFragment__received">已收取</string>
 
     <string name="PaymentsHomeFragment__introducing_payments">付款 (測試版) 登場</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">使用 V.Call 傳送和接收 MobileCoin：一種注重私隱的全新電子貨幣。立即啟動便可以開始使用。</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">使用 Vconnct 傳送和接收 MobileCoin：一種注重私隱的全新電子貨幣。立即啟動便可以開始使用。</string>
     <string name="PaymentsHomeFragment__activate_payments">啟用付款</string>
     <string name="PaymentsHomeFragment__activating_payments">正在啟用付款…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">還原付款帳戶</string>
@@ -3032,7 +3032,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">付款不適用於您的地區。</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">無法啟用付款。請稍後再試。</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">要停用付款嗎？</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">若您停用付款，您將無法在 V.Call 中發送或接收 MobileCoin。</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">若您停用付款，您將無法在 Vconnct 中發送或接收 MobileCoin。</string>
     <string name="PaymentsHomeFragment__deactivate">停用</string>
     <string name="PaymentsHomeFragment__continue">繼續</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">餘額目前未能提供。</string>
@@ -3040,10 +3040,10 @@
     <string name="PaymentsHomeFragment__payment_failed">付款失敗</string>
     <string name="PaymentsHomeFragment__details">詳細資料</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate </string>
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">您可使用 V.Call 發送和接收 MobileCoin。所有付款均受 MobileCoin 和 MobileCoin Wallet 的使用條款約束。這是一項測試版功能，因此您或會遇到一些問題，您或會遺失付款或餘額而無法還原。 </string> -->
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">您可使用 Vconnct 發送和接收 MobileCoin。所有付款均受 MobileCoin 和 MobileCoin Wallet 的使用條款約束。這是一項測試版功能，因此您或會遇到一些問題，您或會遺失付款或餘額而無法還原。 </string> -->
     <string name="PaymentsHomeFragment__activate">啟用</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">檢視 MobileCoin 條款</string>
-    <string name="PaymentsHomeFragment__payments_not_available">付款已不再在 V.Call 上可用。您仍可轉移款項至交易平台，惟您不再能發送和接收付款或增加款項。</string>
+    <string name="PaymentsHomeFragment__payments_not_available">付款已不再在 Vconnct 上可用。您仍可轉移款項至交易平台，惟您不再能發送和接收付款或增加款項。</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -3124,10 +3124,10 @@
     <string name="PaymentsTransferFragment__next">下一步</string>
     <string name="PaymentsTransferFragment__invalid_address">位址無效</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">請檢查您嘗試轉移至該處的錢包位址，然後再試一次。</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">您不能轉移至您自己的 V.Call 錢包位址。請輸入您在支援的交易平台上所屬帳戶的錢包位址。</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">V.Call 需要存取相機，以便掃描二維碼。</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">V.Call 需要相機權限才可擷取二維碼。請前往設定，選擇「權限」，然後啟用「相機」。</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">V.Call 需要存取相機，以便掃描二維碼。</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">您不能轉移至您自己的 Vconnct 錢包位址。請輸入您在支援的交易平台上所屬帳戶的錢包位址。</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Vconnct 需要存取相機，以便掃描二維碼。</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Vconnct 需要相機權限才可擷取二維碼。請前往設定，選擇「權限」，然後啟用「相機」。</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Vconnct 需要存取相機，以便掃描二維碼。</string>
     <string name="PaymentsTransferFragment__settings">設定</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -3210,8 +3210,8 @@
     <string name="conversation_callable_insecure__menu_call">通話</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">V.Call 通話</string>
-    <string name="conversation_callable_secure__menu_video">V.Call 視像通話</string>
+    <string name="conversation_callable_secure__menu_call">Vconnct 通話</string>
+    <string name="conversation_callable_secure__menu_video">Vconnct 視像通話</string>
 
     <!-- conversation_context -->
 
@@ -3331,17 +3331,17 @@
 
     <!-- reminder_header -->
     <string name="reminder_header_sms_import_title">匯入系統短訊</string>
-    <string name="reminder_header_sms_import_text">輕觸以複製您電話中的短訊訊息到 V.Call 的加密資料庫。</string>
-    <string name="reminder_header_push_title">啟用 V.Call 訊息與通話</string>
+    <string name="reminder_header_sms_import_text">輕觸以複製您電話中的短訊訊息到 Vconnct 的加密資料庫。</string>
+    <string name="reminder_header_push_title">啟用 Vconnct 訊息與通話</string>
     <string name="reminder_header_push_text">讓您的通訊體驗更上一層樓。</string>
-    <string name="reminder_header_service_outage_text">V.Call 出現技術問題。我們正努力搶修，儘快回復服務。</string>
+    <string name="reminder_header_service_outage_text">Vconnct 出現技術問題。我們正努力搶修，儘快回復服務。</string>
     <string name="reminder_header_progress">%1$d%%</string>
     <!-- Body text of a banner that will show at the top of the chat list when we temporarily cannot process the user\'s contacts -->
-    <string name="reminder_cds_warning_body">V.Call 的個人聯絡人搜尋服務暫時無法處理你手機中的聯絡人。</string>
+    <string name="reminder_cds_warning_body">Vconnct 的個人聯絡人搜尋服務暫時無法處理你手機中的聯絡人。</string>
     <!-- Label for a button in a banner to learn more about why we temporarily can\'t process the user\'s contacts -->
     <string name="reminder_cds_warning_learn_more">了解更多</string>
     <!-- Body text of a banner that will show at the top of the chat list when the user has so many contacts that we cannot ever process them -->
-    <string name="reminder_cds_permanent_error_body">V.Call 的個人聯絡人搜尋服務無法處理你手機中的聯絡人。</string>
+    <string name="reminder_cds_permanent_error_body">Vconnct 的個人聯絡人搜尋服務無法處理你手機中的聯絡人。</string>
     <!-- Label for a button in a banner to learn more about why we cannot process the user\'s contacts -->
     <string name="reminder_cds_permanent_error_learn_more">了解更多</string>
 
@@ -3362,24 +3362,24 @@
     <string name="Insights__title">省覧</string>
     <string name="InsightsDashboardFragment__title">省覧</string>
     <!-- Body text for a page describing how many signal messages you\'ve sent. The first placeholder represents the number of signal messages sent, and the second placeholder represents how many days have passed. -->
-    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">V.Call Protocol 在過去 %2$d 天內，已自動保護你外寄訊息數目中的 %1$d%%。V.Call 用戶之間的聊天一律經端對端加密。</string>
+    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Vconnct Protocol 在過去 %2$d 天內，已自動保護你外寄訊息數目中的 %1$d%%。Vconnct 用戶之間的聊天一律經端對端加密。</string>
     <string name="InsightsDashboardFragment__spread_the_word">這空間裡 從不只我一個</string>
     <string name="InsightsDashboardFragment__not_enough_data">資料不足</string>
     <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">您的「洞察」百分比，乃是基於過去 %1$d 天內未曾消失或刪除的外寄訊息而計算。</string>
     <!-- Label for a button that, when pressed, will begin a chat with a person whose name is showed on the screen. -->
     <string name="InsightsDashboardFragment__start_a_conversation">開始聊天</string>
-    <string name="InsightsDashboardFragment__invite_your_contacts">邀請更多聯絡人加入 V.Call，以開始安全的溝通，並啟用嶄新的功能，超越未經加密短訊訊息的侷限。</string>
+    <string name="InsightsDashboardFragment__invite_your_contacts">邀請更多聯絡人加入 Vconnct，以開始安全的溝通，並啟用嶄新的功能，超越未經加密短訊訊息的侷限。</string>
     <string name="InsightsDashboardFragment__this_stat_was_generated_locally">統計數字是在您的裝置上本機產生，並僅供您查看，從不外透。</string>
     <string name="InsightsDashboardFragment__encrypted_messages">已加密的訊息</string>
     <string name="InsightsDashboardFragment__cancel">取消</string>
     <string name="InsightsDashboardFragment__send">傳送</string>
     <string name="InsightsModalFragment__title">省覧登場</string>
-    <string name="InsightsModalFragment__description">查看您有多少則外寄訊息已以安全方式傳送，並從速邀請新的聯絡人以提升您的 V.Call 百分比。</string>
+    <string name="InsightsModalFragment__description">查看您有多少則外寄訊息已以安全方式傳送，並從速邀請新的聯絡人以提升您的 Vconnct 百分比。</string>
     <string name="InsightsModalFragment__view_insights">檢視省覧</string>
 
-    <string name="FirstInviteReminder__title">邀請加入 V.Call</string>
+    <string name="FirstInviteReminder__title">邀請加入 Vconnct</string>
     <string name="FirstInviteReminder__description">您已傳送的加密訊息數目其實可提高多達 %1$d%%</string>
-    <string name="SecondInviteReminder__title">為你的 V.Call 集氣</string>
+    <string name="SecondInviteReminder__title">為你的 Vconnct 集氣</string>
     <string name="SecondInviteReminder__description">邀請%1$s</string>
     <string name="InsightsReminder__view_insights">檢視省覧</string>
     <string name="InsightsReminder__invite">邀請</string>
@@ -3404,7 +3404,7 @@
     <string name="CreateKbsPinFragment__create_a_new_pin">建立一個新的 PIN 碼</string>
     <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">只要此裝置維持註冊，您可隨時變更您的 PIN 碼。</string>
     <string name="CreateKbsPinFragment__create_your_pin">建立您的 PIN 碼</string>
-    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN 碼可協助你還原帳戶，並確保 V.Call 內的資料安全加密。 </string>
+    <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN 碼可協助你還原帳戶，並確保 Vconnct 內的資料安全加密。 </string>
     <string name="CreateKbsPinFragment__choose_a_stronger_pin">選擇一個更強的 PIN 碼</string>
 
     <!-- ConfirmKbsPinFragment -->
@@ -3420,7 +3420,7 @@
 
     <!-- KbsSplashFragment -->
     <string name="KbsSplashFragment__introducing_pins">PIN 碼登場</string>
-    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN 碼讓在 V.Call 中的資訊得以加密保存並僅供您存取。當您重新安裝時，您的個人資料、設定和聯絡人將會還原。開啟應用程式不需輸入 PIN 碼。</string>
+    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN 碼讓在 Vconnct 中的資訊得以加密保存並僅供您存取。當您重新安裝時，您的個人資料、設定和聯絡人將會還原。開啟應用程式不需輸入 PIN 碼。</string>
     <string name="KbsSplashFragment__learn_more">了解更多</string>
   <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
     <string name="KbsSplashFragment__registration_lock_equals_pin">註冊鎖定 ＝ PIN 碼</string>
@@ -3431,7 +3431,7 @@
     <string name="KbsSplashFragment__disable_pin">停用 PIN 碼</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">輸入您的 V.Call PIN 碼</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">輸入您的 Vconnct PIN 碼</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">為讓您記住您的 PIN 碼，我們將定期詢問您輸入一次。隨著時間過去，我們會減少詢問。</string>
     <string name="KbsReminderDialog__skip">略過</string>
     <string name="KbsReminderDialog__submit">提交</string>
@@ -3457,7 +3457,7 @@
     <string name="RegistrationLockFragment__incorrect_pin">PIN 碼不正確</string>
     <string name="RegistrationLockFragment__forgot_your_pin">忘記你的 PIN 碼？</string>
     <string name="RegistrationLockFragment__not_many_tries_left">可再試的機會不多了!</string>
-    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">V.Call 用戶註冊 — Android 用戶需要 (v2. PIN) PIN 碼的協助</string>
+    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Vconnct 用戶註冊 — Android 用戶需要 (v2. PIN) PIN 碼的協助</string>
 
     <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
         <item quantity="other">為保護你的隱私和安全，你的 PIN 碼是無法復原的。若你忘記了你的 PIN 碼，你可以在帳戶閒置 %1$d 天後，透過 SMS 重新驗證。而你的帳戶將會被抹除，當中所有內容亦會刪除。</item>
@@ -3484,33 +3484,33 @@
 
     <!-- KBS Megaphone -->
     <string name="KbsMegaphone__create_a_pin">建立一個 PIN 碼</string>
-    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN 碼讓在 V.Call 中的資訊得以加密保存。</string>
+    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN 碼讓在 Vconnct 中的資訊得以加密保存。</string>
     <string name="KbsMegaphone__create_pin">建立 PIN 碼</string>
 
     <!-- CallNotificationBuilder -->
-    <!-- Displayed in a notification when a V.Call voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">V.Call 語音通話來電</string>
-    <!-- Displayed in a notification when a V.Call video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">V.Call 視訊通話來電</string>
-    <!-- Displayed in a notification when a V.Call group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">V.Call 群組來電</string>
-    <!-- Displayed in a notification when a V.Call voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">V.Call 語音通話進行中</string>
-    <!-- Displayed in a notification when a V.Call video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">V.Call 視訊通話進行中</string>
-    <!-- Displayed in a notification when a V.Call group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">V.Call 群組通話進行中</string>
+    <!-- Displayed in a notification when a Vconnct voice call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Vconnct 語音通話來電</string>
+    <!-- Displayed in a notification when a Vconnct video call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Vconnct 視訊通話來電</string>
+    <!-- Displayed in a notification when a Vconnct group call is ringing -->
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Vconnct 群組來電</string>
+    <!-- Displayed in a notification when a Vconnct voice call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Vconnct 語音通話進行中</string>
+    <!-- Displayed in a notification when a Vconnct video call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Vconnct 視訊通話進行中</string>
+    <!-- Displayed in a notification when a Vconnct group call is in progress -->
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Vconnct 群組通話進行中</string>
 
     <!-- transport_selection_list_item -->
     <string name="transport_selection_list_item__transport_icon">運輸圖示</string>
     <string name="ConversationListFragment_loading">正在載入…</string>
     <string name="CallNotificationBuilder_connecting">正在連線……</string>
     <string name="Permissions_permission_required">須要權限</string>
-    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">V.Call 需要短訊權限才可發送短訊，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「短訊」。</string>
+    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Vconnct 需要短訊權限才可發送短訊，但已被永久拒絕。請前往應用程式設定，選擇「權限」，然後啟用「短訊」。</string>
     <string name="Permissions_continue">繼續</string>
     <string name="Permissions_not_now">現在不要</string>
     <string name="conversation_activity__enable_signal_messages">啟用 SIGNAL 訊息</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">正在遷移 V.Call 資料庫</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">正在遷移 Vconnct 資料庫</string>
     <string name="PushDecryptJob_new_locked_message">新的訊息已鎖定</string>
     <string name="PushDecryptJob_unlock_to_view_pending_messages">解除鎖定以檢視佇列中訊息</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">備份密碼</string>
@@ -3527,7 +3527,7 @@
     <string name="preferences_chats__transfer_account_to_a_new_android_device">轉移帳戶至新的 Android 裝置</string>
     <string name="RegistrationActivity_enter_backup_passphrase">輸入備份密碼</string>
     <string name="RegistrationActivity_restore">還原</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">未能從 V.Call 較新版本匯入備份</string>
+    <string name="RegistrationActivity_backup_failure_downgrade">未能從 Vconnct 較新版本匯入備份</string>
     <!-- Error message indicating that we could not restore the user\'s backup. Displayed in a toast at the bottom of the screen. -->
     <string name="RegistrationActivity_backup_failure_foreign_key">備份包含格式錯誤的資料</string>
     <string name="RegistrationActivity_incorrect_backup_passphrase">備份密碼不正確</string>
@@ -3551,9 +3551,9 @@
     <string name="BackupDialog_verify">驗證</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">您已成功輸入您的備份密碼</string>
     <string name="BackupDialog_passphrase_was_not_correct">密碼不正確</string>
-    <string name="LocalBackupJob_creating_signal_backup">正在建立 V.Call 備份…</string>
+    <string name="LocalBackupJob_creating_signal_backup">正在建立 Vconnct 備份…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">正在驗證 V.Call 備份…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">正在驗證 Vconnct 備份…</string>
     <string name="LocalBackupJobApi29_backup_failed">備份失敗</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">您的備份目錄已被刪除或移動。</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">您的備份檔太大，無法在此磁碟機中儲存。</string>
@@ -3568,8 +3568,8 @@
     <string name="RegistrationActivity_call_me_instead_available_in">打電話給我 (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">重新傳送驗證碼 (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">聯絡 V.Call 支援</string>
-    <string name="RegistrationActivity_code_support_subject">V.Call 註冊 — Android 用的驗證碼</string>
+    <string name="RegistrationActivity_contact_signal_support">聯絡 Vconnct 支援</string>
+    <string name="RegistrationActivity_code_support_subject">Vconnct 註冊 — Android 用的驗證碼</string>
     <string name="RegistrationActivity_incorrect_code">錯誤編號</string>
     <string name="BackupUtil_never">永不</string>
     <string name="BackupUtil_unknown">未知</string>
@@ -3578,31 +3578,31 @@
     <!-- Phone number heading displayed as a screen title -->
     <string name="preferences_app_protection__phone_number">電話號碼</string>
     <!-- Subtext below option to launch into phone number privacy settings screen -->
-    <string name="preferences_app_protection__choose_who_can_see">選擇誰可以看到你的電話號碼，以及誰可以透過電話號碼在 V.Call 與你聯絡。</string>
+    <string name="preferences_app_protection__choose_who_can_see">選擇誰可以看到你的電話號碼，以及誰可以透過電話號碼在 Vconnct 與你聯絡。</string>
     <!-- Section title above two radio buttons for enabling and disabling phone number display -->
     <string name="PhoneNumberPrivacySettingsFragment__who_can_see_my_number">誰可以看到我的號碼</string>
     <!-- Subtext below radio buttons when who can see my number is set to nobody -->
-    <string name="PhoneNumberPrivacySettingsFragment__nobody_will_see">沒有人會在 V.Call 看到你的電話號碼</string>
+    <string name="PhoneNumberPrivacySettingsFragment__nobody_will_see">沒有人會在 Vconnct 看到你的電話號碼</string>
     <!-- Section title above two radio buttons for enabling and disabling whether users can find me by my phone number  -->
     <string name="PhoneNumberPrivacySettingsFragment__who_can_find_me_by_number">誰可以透過電話號碼找到我</string>
     <!-- Subtext below radio buttons when who can see my number is set to everyone -->
-    <string name="PhoneNumberPrivacySettingsFragment__your_phone_number">與你通訊的人及群組將會看到你的電話號碼。在通訊錄中有你電話號碼的人亦可在 V.Call 上看到。</string>
+    <string name="PhoneNumberPrivacySettingsFragment__your_phone_number">與你通訊的人及群組將會看到你的電話號碼。在通訊錄中有你電話號碼的人亦可在 Vconnct 上看到。</string>
     <string name="PhoneNumberPrivacy_everyone">所有人</string>
     <string name="PhoneNumberPrivacy_my_contacts">我的聯絡人</string>
     <string name="PhoneNumberPrivacy_nobody">沒有人</string>
     <string name="PhoneNumberPrivacy_everyone_see_description">您的電話號碼將會給所有您傳訊的人和群組看見。</string>
-    <string name="PhoneNumberPrivacy_everyone_find_description">任何人只要在通訊錄中有您的電話號碼，將會在 V.Call 中看見您是其中一個聯絡人。其他人將可在搜尋中找到您。</string>
+    <string name="PhoneNumberPrivacy_everyone_find_description">任何人只要在通訊錄中有您的電話號碼，將會在 Vconnct 中看見您是其中一個聯絡人。其他人將可在搜尋中找到您。</string>
     <string name="preferences_app_protection__screen_lock">畫面鎖定</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">以 Android 螢幕鎖定或指紋鎖定 V.Call 存取</string>
+    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">以 Android 螢幕鎖定或指紋鎖定 Vconnct 存取</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">畫面鎖定閒置逾時</string>
-    <string name="preferences_app_protection__signal_pin">V.Call PIN 碼</string>
+    <string name="preferences_app_protection__signal_pin">Vconnct PIN 碼</string>
     <string name="preferences_app_protection__create_a_pin">建立一個 PIN 碼</string>
     <string name="preferences_app_protection__change_your_pin">變更您的 PIN 碼</string>
     <string name="preferences_app_protection__pin_reminders">PIN 碼提醒</string>
     <string name="preferences_app_protection__turn_off">關閉</string>
     <string name="preferences_app_protection__confirm_pin">確認 PIN 碼</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">確認您的 V.Call PIN 碼</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">確保您記住或安全保存您的 PIN 碼，因為一旦忘記則無從恢復。若您忘記您的 PIN 碼，當您重新註冊您的 V.Call 帳戶時，您或會遺失資料。</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">確認您的 Vconnct PIN 碼</string>
+    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">確保您記住或安全保存您的 PIN 碼，因為一旦忘記則無從恢復。若您忘記您的 PIN 碼，當您重新註冊您的 Vconnct 帳戶時，您或會遺失資料。</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">PIN 碼不正確。請再試一次。</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">啟用註冊鎖定失敗。</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">解除註冊鎖定失敗。</string>
@@ -3615,14 +3615,14 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">你已嘗試多次。請稍後再試。</string>
     <string name="RegistrationActivity_error_connecting_to_service">服務連線錯誤</string>
     <string name="preferences_chats__backups">備份</string>
-    <string name="prompt_passphrase_activity__signal_is_locked">V.Call 已鎖定</string>
+    <string name="prompt_passphrase_activity__signal_is_locked">Vconnct 已鎖定</string>
     <string name="prompt_passphrase_activity__tap_to_unlock">輕觸以解除鎖定</string>
     <string name="Recipient_unknown">未知</string>
 
     <!-- Option in settings that will take use to re-register if they are no longer registered -->
     <string name="preferences_account_reregister">重新註冊帳戶</string>
     <!-- Option in settings that will take user to our website or playstore to update their expired build -->
-    <string name="preferences_account_update_signal">更新 V.Call</string>
+    <string name="preferences_account_update_signal">更新 Vconnct</string>
     <!-- Option in settings shown when user is no longer registered or expired client that will WIPE ALL THEIR DATA -->
     <string name="preferences_account_delete_all_data">刪除所有資料</string>
     <!-- Title for confirmation dialog confirming user wants to delete all their data -->
@@ -3638,7 +3638,7 @@
 
     <!-- TransferOrRestoreFragment -->
     <string name="TransferOrRestoreFragment__transfer_or_restore_account">轉移或還原帳戶</string>
-    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">若您先前已註冊 V.Call 帳戶，您可轉移或還原您的帳戶和訊息</string>
+    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">若您先前已註冊 Vconnct 帳戶，您可轉移或還原您的帳戶和訊息</string>
     <string name="TransferOrRestoreFragment__transfer_from_android_device">從 Android 裝置轉移</string>
     <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">從您舊的 Android 裝置轉移您的帳戶和訊息。您需要用到您的舊裝置。</string>
     <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">您需要用到您的舊裝置。</string>
@@ -3646,7 +3646,7 @@
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">從本機備份還原您的訊息。若您現在不進行還原，之後將不能還原。</string>
 
     <!-- NewDeviceTransferInstructionsFragment -->
-    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">在您舊的 Android 電話上開啟 V.Call</string>
+    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">在您舊的 Android 電話上開啟 Vconnct</string>
     <string name="NewDeviceTransferInstructions__continue">繼續</string>
     <string name="NewDeviceTransferInstructions__first_bullet">一、</string>
     <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">輕觸左上方您的個人資料照片以開啟設定</string>
@@ -3659,19 +3659,19 @@
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">正在準備連接舊的 Android 裝置…</string>
     <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">請等一下，應該快好了</string>
     <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">正在等候舊的 Android 裝置連接…</string>
-    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">V.Call 需要「位置」權限以探索並連接您舊的 Android 裝置。</string>
-    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">V.Call 需要啟用定位服務以探索並連接您舊的 Android 裝置。</string>
-    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">V.Call 需要開啟 Wi-Fi 以探索並連接您舊的 Android 裝置。需要開啟 Wi-Fi，惟不需要連接到 Wi-Fi 網絡。</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，此裝置似乎不支援 Wi-Fi Direct。V.Call 使用 Wi-Fi Direct 以探索並連接您舊的 Android 裝置。您仍可還原備份，以便從您舊的 Android 裝置還原您的帳戶。</string>
+    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Vconnct 需要「位置」權限以探索並連接您舊的 Android 裝置。</string>
+    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Vconnct 需要啟用定位服務以探索並連接您舊的 Android 裝置。</string>
+    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Vconnct 需要開啟 Wi-Fi 以探索並連接您舊的 Android 裝置。需要開啟 Wi-Fi，惟不需要連接到 Wi-Fi 網絡。</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，此裝置似乎不支援 Wi-Fi Direct。Vconnct 使用 Wi-Fi Direct 以探索並連接您舊的 Android 裝置。您仍可還原備份，以便從您舊的 Android 裝置還原您的帳戶。</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">還原備份</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">嘗試連接您舊的 Android 裝置時發生未預期的錯誤。</string>
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">正在搜尋新的 Android 裝置…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">V.Call 需要「位置」權限以探索並連接您新的 Android 裝置。</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">V.Call 需要啟用定位服務以探索並連接您新的 Android 裝置。</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">V.Call 需要開啟 Wi-Fi 以探索並連接您新的 Android 裝置。需要開啟 Wi-Fi，惟不需要連接到 Wi-Fi 網絡。</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，此裝置似乎不支援 Wi-Fi Direct。V.Call 使用 Wi-Fi Direct 以探索並連接您新的 Android 裝置。您仍可建立備份，以便在您新的 Android 裝置上還原您的帳戶。</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Vconnct 需要「位置」權限以探索並連接您新的 Android 裝置。</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Vconnct 需要啟用定位服務以探索並連接您新的 Android 裝置。</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Vconnct 需要開啟 Wi-Fi 以探索並連接您新的 Android 裝置。需要開啟 Wi-Fi，惟不需要連接到 Wi-Fi 網絡。</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，此裝置似乎不支援 Wi-Fi Direct。Vconnct 使用 Wi-Fi Direct 以探索並連接您新的 Android 裝置。您仍可建立備份，以便在您新的 Android 裝置上還原您的帳戶。</string>
     <string name="OldDeviceTransferSetup__create_a_backup">建立備份</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">嘗試連接您新的 Android 裝置時發生未預期的錯誤。</string>
 
@@ -3706,13 +3706,13 @@
     <string name="DeviceTransferSetup__tap_continue_on_your_other_device">在您的另一台裝置上輕觸「繼續」…</string>
 
     <!-- NewDeviceTransferFragment -->
-    <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">無法從較新版本的 V.Call 轉移</string>
+    <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">無法從較新版本的 Vconnct 轉移</string>
     <!-- Error message indicating that we could not finish the user\'s device transfer. Displayed in a toast at the bottom of the screen. -->
     <string name="NewDeviceTransfer__failure_foreign_key">傳送的資料格式錯誤</string>
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">正在轉移資料</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">讓兩台裝置保持接近。不要關閉裝置並保持 V.Call 開啟。轉移已經端對端加密。</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">讓兩台裝置保持接近。不要關閉裝置並保持 Vconnct 開啟。轉移已經端對端加密。</string>
     <string name="DeviceTransfer__d_messages_so_far">目前為止 %1$d 則訊息…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">訊息目前進度 %1$s%%…</string>
@@ -3726,7 +3726,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">轉移帳戶</string>
     <string name="OldDeviceTransferInstructions__first_bullet">一、</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">在您新的 Android 裝置上下載 V.Call</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">在您新的 Android 裝置上下載 Vconnct</string>
     <string name="OldDeviceTransferInstructions__second_bullet">二、</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"輕觸「轉移或還原帳戶」"</string>
     <string name="OldDeviceTransferInstructions__third_bullet">三、</string>
@@ -3735,7 +3735,7 @@
 
     <!-- OldDeviceTransferComplete -->
     <string name="OldDeviceTransferComplete__go_to_your_new_device">前往您新的裝置</string>
-    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">您的 V.Call 資料已轉移至您新的裝置。您必須在新的裝置上繼續註冊，以完成整個轉移過程。</string>
+    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">您的 Vconnct 資料已轉移至您新的裝置。您必須在新的裝置上繼續註冊，以完成整個轉移過程。</string>
     <string name="OldDeviceTransferComplete__close">關閉</string>
 
     <!-- NewDeviceTransferComplete -->
@@ -3755,7 +3755,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">在您新的裝置上完成註冊</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">您的 V.Call 帳戶已轉移至您新的裝置，惟您必須在新的裝置上完成註冊以繼續。此裝置上的 V.Call 將不再使用。</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">您的 Vconnct 帳戶已轉移至您新的裝置，惟您必須在新的裝置上完成註冊以繼續。此裝置上的 Vconnct 將不再使用。</string>
     <string name="OldDeviceTransferLockedDialog__done">完成</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">取消並啟用此裝置</string>
 
@@ -3793,13 +3793,13 @@
     <string name="GroupsLearnMore_what_are_legacy_groups">「舊版群組」是甚麼？</string>
     <string name="GroupsLearnMore_paragraph_1">「舊版群組」是與「新版群組」功能不相容的群組，不支援管理員和更具體描述的群組更新等功能。</string>
     <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">我可否將「舊版群組」升級？</string>
-    <string name="GroupsLearnMore_paragraph_2">「舊版群組」暫時未能升級至「新版群組」，但您可建立一個「新版群組」，並加入同樣的成員，只要他們使用最新版本的 V.Call 即可。</string>
-    <string name="GroupsLearnMore_paragraph_3">未來，V.Call 將提供「舊版群組」的升級方法。</string>
+    <string name="GroupsLearnMore_paragraph_2">「舊版群組」暫時未能升級至「新版群組」，但您可建立一個「新版群組」，並加入同樣的成員，只要他們使用最新版本的 Vconnct 即可。</string>
+    <string name="GroupsLearnMore_paragraph_3">未來，Vconnct 將提供「舊版群組」的升級方法。</string>
 
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">任何人憑此連結將可檢視群組的名稱和照片並請求加入。請與您信任的人分享此連結。</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">任何人憑此連結將可檢視群組的名稱和照片並加入群組。請與您信任的人分享此連結。</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">透過 V.Call 分享</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">透過 Vconnct 分享</string>
     <string name="GroupLinkBottomSheet_copy">複製</string>
     <string name="GroupLinkBottomSheet_qr_code">二維碼</string>
     <string name="GroupLinkBottomSheet_share">分享</string>
@@ -3875,7 +3875,7 @@
     <string name="DeleteAccountFragment__no_number">未指定號碼</string>
     <string name="DeleteAccountFragment__the_phone_number">您所輸入的電話號碼與您的帳戶不符。</string>
     <string name="DeleteAccountFragment__are_you_sure">您確定要刪除您的帳戶嗎？</string>
-    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">這將會刪除你的 V.Call 帳戶並重設應用程式。過程完成後，應用程式將關閉。</string>
+    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">這將會刪除你的 Vconnct 帳戶並重設應用程式。過程完成後，應用程式將關閉。</string>
     <string name="DeleteAccountFragment__failed_to_delete_local_data">刪除本機資料失敗。您可在系統應用程式設定中手動進行清除。</string>
     <string name="DeleteAccountFragment__launch_app_settings">開啟應用程式設定</string>
     <!-- Title of progress dialog shown when a user deletes their account and the process is leaving all groups -->
@@ -3960,7 +3960,7 @@
     <string name="payment_info_card_about_mobilecoin">關於 MobileCoin</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin 是一種注重隱私的全新數位貨幣。</string>
     <string name="payment_info_card_adding_funds">增加款項</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">您可傳送 MobileCoin 到您的錢包位址，以增加款項在 V.Call 中使用。</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">您可傳送 MobileCoin 到您的錢包位址，以增加款項在 Vconnct 中使用。</string>
     <string name="payment_info_card_cashing_out">提取款項</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">您可隨時在支援 MobileCoin 的交易平台上提取 MobileCoin，只需進行一筆轉移至您在該交易平台上的帳戶即可。</string>
     <string name="payment_info_card_hide_this_card">要隱藏此卡片嗎？</string>
@@ -3981,12 +3981,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">停用錢包</string>
     <string name="DeactivateWalletFragment__your_balance">您的餘額</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">我們建議你在停用付款之前，將你的資金轉移到另一個錢包位址。若你現在選擇不作轉移，當你重新啟用付款時，你的款項將會保留在已連結至 V.Call 的錢包中。</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">我們建議你在停用付款之前，將你的資金轉移到另一個錢包位址。若你現在選擇不作轉移，當你重新啟用付款時，你的款項將會保留在已連結至 Vconnct 的錢包中。</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">轉移尚餘款項</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">停用而不轉移</string>
     <string name="DeactivateWalletFragment__deactivate">停用</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">要停用而不作轉移嗎？</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">若你選擇重新啟用付款，你的餘額將會保留在已連結至 V.Call 的錢包中。</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">若你選擇重新啟用付款，你的餘額將會保留在已連結至 Vconnct 的錢包中。</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">停用錢包時發生錯誤。</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -3997,7 +3997,7 @@
     <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">儲存恢復片語</string>
     <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">輸入恢復片語</string>
     <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-        <item quantity="other">當你在重新安裝 V.Call 時確認你的 V.Call PIN 碼，餘額就會自動還原。你也可使用恢復片語還原你的餘額。恢復片語是一組獨一無二的片語，包含 %1$d 個字詞。請牢記恢復片語，並妥善保存於安全的地方。</item>
+        <item quantity="other">當你在重新安裝 Vconnct 時確認你的 Vconnct PIN 碼，餘額就會自動還原。你也可使用恢復片語還原你的餘額。恢復片語是一組獨一無二的片語，包含 %1$d 個字詞。請牢記恢復片語，並妥善保存於安全的地方。</item>
     </plurals>
     <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
     <string name="PaymentsRecoveryStartFragment__got_balance">你尚有餘額！是時候儲存你的恢復片語了──你可使用一組 24 個字的密鑰，以恢復你的餘額。</string>
@@ -4095,7 +4095,7 @@
     <!-- AccountSettingsFragment -->
     <string name="AccountSettingsFragment__account">帳戶</string>
     <string name="AccountSettingsFragment__youll_be_asked_less_frequently">隨著時間過去，詢問您的次數會減少</string>
-    <string name="AccountSettingsFragment__require_your_signal_pin">要求輸入您的 V.Call PIN 碼才可再次在 V.Call 註冊您的電話號碼</string>
+    <string name="AccountSettingsFragment__require_your_signal_pin">要求輸入您的 Vconnct PIN 碼才可再次在 Vconnct 註冊您的電話號碼</string>
     <string name="AccountSettingsFragment__change_phone_number">變更電話號碼</string>
     <!-- Account setting that allows user to request and export their signal account data -->
     <string name="AccountSettingsFragment__request_account_data">你的帳戶資料</string>
@@ -4104,7 +4104,7 @@
     <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
     <string name="ExportAccountDataFragment__your_account_data">你的帳戶資料</string>
     <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-    <string name="ExportAccountDataFragment__export_explanation">匯出你的 V.Call 帳戶資料報告。此報告不包含任何訊息或多媒體。%1$s</string>
+    <string name="ExportAccountDataFragment__export_explanation">匯出你的 Vconnct 帳戶資料報告。此報告不包含任何訊息或多媒體。%1$s</string>
     <!-- Learn more link to more information about requesting account data -->
     <string name="ExportAccountDataFragment__learn_more">了解更多</string>
     <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4132,14 +4132,14 @@
     <!-- Title for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_confirmation">要匯出資料嗎？</string>
     <!-- Message for export confirmation dialog -->
-    <string name="ExportAccountDataFragment__export_report_confirmation_message">僅與你信任的人或應用程式分享你的 V.Call 帳戶資料。</string>
+    <string name="ExportAccountDataFragment__export_report_confirmation_message">僅與你信任的人或應用程式分享你的 Vconnct 帳戶資料。</string>
     <!-- Action to export in for export confirmation dialog -->
     <string name="ExportAccountDataFragment__export_report_action">匯出</string>
 
     <!-- Shown in a dialog with a spinner while the report is downloading -->
     <string name="ExportAccountDataFragment__download_progress">正在建立報告…</string>
     <!-- Explanation that the report is only generated on export and is not saved on the device -->
-    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">你的報告僅在匯出時建立，並不會由 V.Call 儲存在你的裝置上。</string>
+    <string name="ExportAccountDataFragment__report_not_stored_disclaimer">你的報告僅在匯出時建立，並不會由 Vconnct 儲存在你的裝置上。</string>
 
     <!-- ChangeNumberFragment -->
     <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">藉此將您現用的電話號碼變更為新的電話號碼。您將無法復原此變更。\n\n在繼續之前，請確定您的新號碼可以接收短訊或來電。</string>
@@ -4172,7 +4172,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">修正電話號碼</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">V.Call 變更號碼 — Android 用戶需要 (v2. PIN) PIN 碼的協助</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Vconnct 變更號碼 — Android 用戶需要 (v2. PIN) PIN 碼的協助</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN 碼不相符</string>
@@ -4211,15 +4211,15 @@
     <!-- Preference title to delete sms -->
     <string name="SmsSettingsFragment__remove_sms_messages">移除短訊</string>
     <!-- Snackbar text to confirm deletion -->
-    <string name="SmsSettingsFragment__removing_sms_messages_from_signal">正在從 V.Call 中移除短訊…</string>
+    <string name="SmsSettingsFragment__removing_sms_messages_from_signal">正在從 Vconnct 中移除短訊…</string>
     <!-- Snackbar text to indicate can delete later -->
-    <string name="SmsSettingsFragment__you_can_remove_sms_messages_from_signal_in_settings">你隨時可以在「設定」中移除 V.Call 內的短訊。</string>
+    <string name="SmsSettingsFragment__you_can_remove_sms_messages_from_signal_in_settings">你隨時可以在「設定」中移除 Vconnct 內的短訊。</string>
     <!-- Description for export sms preference -->
     <string name="SmsSettingsFragment__you_can_export_your_sms_messages_to_your_phones_sms_database">你可以將短訊匯出至手機的短訊資料庫</string>
     <!-- Description for re-export sms preference -->
     <string name="SmsSettingsFragment__exporting_again_can_result_in_duplicate_messages">重新匯出可能會導致訊息重複。</string>
     <!-- Description for remove sms preference -->
-    <string name="SmsSettingsFragment__remove_sms_messages_from_signal_to_clear_up_storage_space">從 V.Call 移除短訊以清空儲存空間</string>
+    <string name="SmsSettingsFragment__remove_sms_messages_from_signal_to_clear_up_storage_space">從 Vconnct 移除短訊以清空儲存空間</string>
     <!-- Information message shown at the top of sms settings to indicate it is being removed soon. -->
     <string name="SmsSettingsFragment__sms_support_will_be_removed_soon_to_focus_on_encrypted_messaging">系統即將停止短訊支援，專注提供加密通訊服務。</string>
 
@@ -4227,7 +4227,7 @@
     <string name="NotificationsSettingsFragment__messages">訊息</string>
     <string name="NotificationsSettingsFragment__calls">通話</string>
     <string name="NotificationsSettingsFragment__notify_when">通知下列事件</string>
-    <string name="NotificationsSettingsFragment__contact_joins_signal">聯絡人加入 V.Call</string>
+    <string name="NotificationsSettingsFragment__contact_joins_signal">聯絡人加入 Vconnct</string>
     <!-- Notification preference header -->
     <string name="NotificationsSettingsFragment__notification_profiles">通知情景</string>
     <!-- Notification preference option header -->
@@ -4248,7 +4248,7 @@
     <string name="PrivacySettingsFragment__disappearing_messages">限時訊息</string>
     <string name="PrivacySettingsFragment__app_security">應用程式安全性</string>
     <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">封鎖最近的清單以及此應用程式中的畫面截圖</string>
-    <string name="PrivacySettingsFragment__signal_message_and_calls">V.Call 訊息與通話、一律轉送通話和密封寄件人</string>
+    <string name="PrivacySettingsFragment__signal_message_and_calls">Vconnct 訊息與通話、一律轉送通話和密封寄件人</string>
     <string name="PrivacySettingsFragment__default_timer_for_new_changes">新聊天的預設計時器</string>
     <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">為您開展的所有新對話，預設一個限時訊息計時器。</string>
     <!-- Summary for stories preference to launch into story privacy settings -->
@@ -4293,10 +4293,10 @@
     <string name="HelpSettingsFragment__contact_us">聯絡我們</string>
     <string name="HelpSettingsFragment__version">版本</string>
     <string name="HelpSettingsFragment__debug_log">除錯記錄檔</string>
-    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the V.Call app-->
+    <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Vconnct app-->
     <string name="HelpSettingsFragment__licenses">許可證</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">使用條款與私隱政策</string>
-    <string name="HelpFragment__copyright_signal_messenger">V.Call Messenger 版權所有</string>
+    <string name="HelpFragment__copyright_signal_messenger">Vconnct Messenger 版權所有</string>
     <string name="HelpFragment__licenced_under_the_agplv3">依據 GNU AGPLv3 的條款授權</string>
 
     <!-- DataAndStorageSettingsFragment -->
@@ -4336,9 +4336,9 @@
     <!-- ChatColorGradientTool -->
 
     <!-- Title text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_donate_to_signal">捐款給 V.Call</string>
+    <string name="Donate2022Q2Megaphone_donate_to_signal">捐款給 Vconnct</string>
     <!-- Body text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">V.Call 全靠你的支持。每月捐款支持，即可獲得徽章。</string>
+    <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">Vconnct 全靠你的支持。每月捐款支持，即可獲得徽章。</string>
     <!-- Button label that brings a user to the donate screen. Shown in a popup at the bottom of the chat list. -->
     <string name="Donate2022Q2Megaphone_donate">捐款</string>
     <!-- Button label that dismissed a prompt to donate. Shown in a popup at the bottom of the chat list. -->
@@ -4361,7 +4361,7 @@
     <!-- BecomeASustainerMegaphone -->
     <string name="BecomeASustainerMegaphone__become_a_sustainer">成為延續人</string>
     <!-- Displayed in the Become a Sustainer megaphone -->
-    <string name="BecomeASustainerMegaphone__signal_is_powered_by">V.Call 全靠你的支持。捐款支持即可獲得徽章。</string>
+    <string name="BecomeASustainerMegaphone__signal_is_powered_by">Vconnct 全靠你的支持。捐款支持即可獲得徽章。</string>
     <string name="BecomeASustainerMegaphone__not_now">現在不要</string>
     <string name="BecomeASustainerMegaphone__donate">捐款</string>
 
@@ -4431,7 +4431,7 @@
     <string name="ConversationSettingsFragment__conversation_muted_forever">聊天已永久設為靜音</string>
     <string name="ConversationSettingsFragment__copied_phone_number_to_clipboard">電話號碼已複製至剪貼簿。</string>
     <string name="ConversationSettingsFragment__phone_number">電話號碼</string>
-    <string name="ConversationSettingsFragment__get_badges">支持 V.Call 即可在你的個人檔案中展示徽章。點按徽章以了解更多資訊。</string>
+    <string name="ConversationSettingsFragment__get_badges">支持 Vconnct 即可在你的個人檔案中展示徽章。點按徽章以了解更多資訊。</string>
 
     <!-- PermissionsSettingsFragment -->
     <string name="PermissionsSettingsFragment__add_members">新增成員</string>
@@ -4490,7 +4490,7 @@
     <!-- Dialog action to view contact when they can\'t be removed otherwise -->
     <string name="NewConversationActivity__view_contact">檢視聯絡人</string>
     <!-- Error message shown when looking up a person by phone number and that phone number is not associated with a signal account -->
-    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s 不是 V.Call 用戶</string>
+    <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s 不是 Vconnct 用戶</string>
 
     <!-- ContactFilterView -->
     <string name="ContactFilterView__search_name_or_number">搜尋名稱或號碼</string>
@@ -4610,11 +4610,11 @@
     <!-- Displayed on primary button in the bottom sheet as a call-to-action to launch into the donation flow -->
     <string name="ViewBadgeBottomSheetDialogFragment__donate_now">立即捐款</string>
     <!-- Title of a page in the bottom sheet. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s 支持 V.Call</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s 支持 Vconnct</string>
     <!-- Description of a page in the bottom sheet of a monthly badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s 透過每月捐款支持 V.Call。V.Call 是非營利機構，背後並無廣告商或投資者，全靠你的支持推動。</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s 透過每月捐款支持 Vconnct。Vconnct 是非營利機構，背後並無廣告商或投資者，全靠你的支持推動。</string>
     <!-- Description of a page in the bottom sheet of a one-time badge. Placeholder is a user\'s short-name -->
-    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s 透過捐款支持 V.Call。V.Call 是非營利機構，背後並無廣告商或投資者，全靠你的支持推動。</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s 透過捐款支持 Vconnct。Vconnct 是非營利機構，背後並無廣告商或投資者，全靠你的支持推動。</string>
 
     <string name="ImageView__badge">徽章</string>
 
@@ -4636,17 +4636,17 @@
     <string name="Subscription__expires_s">到期日為 %1$s</string>
 
     <!-- Title of learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">V.Call 有別於其他通訊軟體。</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Vconnct 有別於其他通訊軟體。</string>
     <!-- First small text blurb on learn more sheet -->
     <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">私密通訊。無廣告、無追蹤、無監控。</string>
     <!-- Second small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">V.Call 全靠捐款支持運作，這表示保護你的隱私就是我們的首要工作。V.Call 是為你而打造的，不是為了你的資料，也不是為了營利。</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Vconnct 全靠捐款支持運作，這表示保護你的隱私就是我們的首要工作。Vconnct 是為你而打造的，不是為了你的資料，也不是為了營利。</string>
     <!-- Third small text blurb on learn more sheet -->
-    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">如果你願意的話，請立即捐款支持，讓 V.Call 繼續為大家帶來有趣且可靠的應用程式。</string>
+    <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">如果你願意的話，請立即捐款支持，讓 Vconnct 繼續為大家帶來有趣且可靠的應用程式。</string>
 
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">感謝您力撐支持！</string>
     <!-- Subtext underneath the dialog title on the thanks sheet -->
-    <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">你已獲得 V.Call 的捐款者徽章！在你的個人檔案中展示徽章，表現你對我們的支持。</string>
+    <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">你已獲得 Vconnct 的捐款者徽章！在你的個人檔案中展示徽章，表現你對我們的支持。</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__you_can_also">您亦可考慮</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__become_a_montly_sustainer">成為月供延續人。</string>
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__display_on_profile">在個人資料中展現</string>
@@ -4654,11 +4654,11 @@
     <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__continue">繼續</string>
     <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">若你有超過一枚以上的徽章，你可選取一枚作為主題徽章，在個人檔案中展示。</string>
 
-    <string name="BecomeASustainerFragment__get_badges">支持 V.Call 以獲取你的個人檔案徽章。</string>
-    <string name="BecomeASustainerFragment__signal_is_a_non_profit">V.Call 是非牟利機構，並無廣告商或投資者，純粹仰賴像您這樣的人撐起。</string>
+    <string name="BecomeASustainerFragment__get_badges">支持 Vconnct 以獲取你的個人檔案徽章。</string>
+    <string name="BecomeASustainerFragment__signal_is_a_non_profit">Vconnct 是非牟利機構，並無廣告商或投資者，純粹仰賴像您這樣的人撐起。</string>
 
     <!-- Button label for creating a donation -->
-    <string name="ManageDonationsFragment__donate_to_signal">捐款給 V.Call</string>
+    <string name="ManageDonationsFragment__donate_to_signal">捐款給 Vconnct</string>
     <!-- Heading for more area of manage subscriptions page -->
     <string name="ManageDonationsFragment__more">更多</string>
     <!-- Heading for receipts area of manage subscriptions page -->
@@ -4687,9 +4687,9 @@
     <string name="MySupportPreference__please_contact_support">請聯絡支援。</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">更新 V.Call</string>
+    <string name="UpdateSignalExpiredDialog__title">更新 Vconnct</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">此版本的 V.Call 已過期。請立即更新以繼續使用 V.Call。</string>
+    <string name="UpdateSignalExpiredDialog__message">此版本的 Vconnct 已過期。請立即更新以繼續使用 Vconnct。</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">更新</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -4698,7 +4698,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">裝置未註冊</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">此裝置已不再註冊。重新註冊以在此裝置繼續使用 V.Call。</string>
+    <string name="ReregisterSignalDialog__message">此裝置已不再註冊。重新註冊以在此裝置繼續使用 Vconnct。</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">重新註冊</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -4712,7 +4712,7 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_boost_badge_has_expired_and">你的捐款徽章已過期，且不會再顯示在你的個人檔案中。</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_reactivate">你可憑單次捐款重新啟動你的捐款徽章，並延期 30 天。</string>
     <!-- Displayed when we do not think the user is a subscriber when their boost expires -->
-    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">你可如常使用 V.Call，但也可以考慮透過每月捐款成為定期贊助者，支持這項為你打造的技術。</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">你可如常使用 Vconnct，但也可以考慮透過每月捐款成為定期贊助者，支持這項為你打造的技術。</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__become_a_sustainer">成為延續人</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__add_a_boost">新增集氣</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__not_now">現在不要</string>
@@ -4722,13 +4722,13 @@
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled">我們未能處理你的付款，因此你的每月定期捐款已被取消。你的徽章不會再顯示在你的個人檔案中。</string>
     <!-- Copy displayed when badge expires after a payment failure and we have a displayable charge failure reason -->
     <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled_s">你的每月定期捐款已被取消。%1$s 你的 %2$s 徽章不會再顯示在你的個人檔案中。</string>
-    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">你可如常使用 V.Call，但如果想支持應用程式並重新啟動你的徽章，請立即為定期贊助續期。</string>
+    <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">你可如常使用 Vconnct，但如果想支持應用程式並重新啟動你的徽章，請立即為定期贊助續期。</string>
     <string name="ExpiredBadgeBottomSheetDialogFragment__renew_subscription">為定期贊助續期</string>
     <!-- Button label to send user to Google Pay website -->
     <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">前往 Google Pay</string>
 
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">未能處理定期贊助付款</string>
-    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">我們在收取您的 V.Call 延續人付款時遇到問題。請確定您的付款方法仍然有效。若已失效，請到 Google Pay 更新過時的資訊。V.Call 將於數天內再次嘗試處理付款。</string>
+    <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">我們在收取您的 Vconnct 延續人付款時遇到問題。請確定您的付款方法仍然有效。若已失效，請到 Google Pay 更新過時的資訊。Vconnct 將於數天內再次嘗試處理付款。</string>
     <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">不要再顯示此訊息</string>
 
     <string name="Subscription__contact_support">聯絡支援</string>
@@ -4749,25 +4749,25 @@
     <!-- Displayed as title when some generic error happens during sending donation on behalf of another user -->
     <string name="DonationsErrors__donation_failed">捐款失敗</string>
     <!-- Displayed as message when some generic error happens during sending donation on behalf of another user -->
-    <string name="DonationsErrors__your_payment_was_processed_but">系統已經處理你的付款，但 V.Call 無法傳送你的捐款訊息。請聯絡支援團隊。</string>
+    <string name="DonationsErrors__your_payment_was_processed_but">系統已經處理你的付款，但 Vconnct 無法傳送你的捐款訊息。請聯絡支援團隊。</string>
     <string name="DonationsErrors__your_badge_could_not">系統無法將徽章新增至你的帳戶，但可能已向你收取相關款項。請聯絡支援團隊。</string>
     <string name="DonationsErrors__your_payment_is_still">您的付款仍在處理中。可能需時幾分鐘，視乎您的連線而定。</string>
     <string name="DonationsErrors__failed_to_cancel_subscription">無法取消定期贊助</string>
     <string name="DonationsErrors__subscription_cancellation_requires_an_internet_connection">你必須有網路連線才可取消定期贊助。</string>
-    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">你的裝置不支援 Google Pay，因此未能進行定期贊助並贈予徽章。你仍可在我們的網站上捐款以支持 V.Call。</string>
+    <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support_google_pay_so_you_can_t_subscribe_to_earn_a_badge_you_can_still_support_signal_by_making_a_donation_on_our_website">你的裝置不支援 Google Pay，因此未能進行定期贊助並贈予徽章。你仍可在我們的網站上捐款以支持 Vconnct。</string>
     <string name="NetworkFailure__network_error_check_your_connection_and_try_again">網絡錯誤。請檢查您的連線，然後再試一次。</string>
     <string name="NetworkFailure__retry">重試</string>
     <!-- Displayed as a dialog title when the selected recipient for a gift doesn\'t support gifting -->
     <string name="DonationsErrors__cannot_send_donation">無法發送捐款</string>
     <!-- Displayed as a dialog message when the selected recipient for a gift doesn\'t support gifting -->
-    <string name="DonationsErrors__this_user_cant_receive_donations_until">此用戶必須先升級 V.Call 才能接收捐款。</string>
+    <string name="DonationsErrors__this_user_cant_receive_donations_until">此用戶必須先升級 Vconnct 才能接收捐款。</string>
     <!-- Displayed as a dialog message when the user\'s profile could not be fetched, likely due to lack of internet -->
     <string name="DonationsErrors__your_donation_could_not_be_sent">由於發生網路錯誤，系統無法發送你的捐款。請檢查你的網路連線，然後再試一次。</string>
 
     <!-- Gift message view title -->
     <string name="GiftMessageView__donation_on_behalf_of_s">代表 %1$s 捐款</string>
     <!-- Gift message view title for incoming donations -->
-    <string name="GiftMessageView__s_donated_to_signal_on">%1$s 已代表你捐款給 V.Call</string>
+    <string name="GiftMessageView__s_donated_to_signal_on">%1$s 已代表你捐款給 Vconnct</string>
     <!-- Gift badge redeem action label -->
     <string name="GiftMessageView__redeem">換領</string>
     <!-- Gift badge view action label -->
@@ -4966,8 +4966,8 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">無法開啟挑選器。</string>
 
-    <!-- Description shown for the V.Call Release Notes channel -->
-    <string name="ReleaseNotes__signal_release_notes_and_news">V.Call 版本資訊暨最新消息</string>
+    <!-- Description shown for the Vconnct Release Notes channel -->
+    <string name="ReleaseNotes__signal_release_notes_and_news">Vconnct 版本資訊暨最新消息</string>
 
     <!-- Donation receipts activity title -->
     <string name="DonationReceiptListFragment__all_activity">所有活動</string>
@@ -4988,13 +4988,13 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">分享收據</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">若您已重新安裝 V.Call，恕未能提供先前捐款的收據。</string>
+    <string name="DonationReceiptListFragment__if_you_have">若您已重新安裝 Vconnct，恕未能提供先前捐款的收據。</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">捐款收據</string>
     <!-- Donation receipts amount title -->
     <string name="DonationReceiptDetailsFragment__amount">金額</string>
     <!-- Donation receipts thanks -->
-    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">感謝您支持 V.Call。您的捐款驅動我們的使命，致力開發開放原始碼的私隱技術，保護自由表達並讓全球通訊變得安全，讓世界各地數以百萬計「惜爐」使用者，共星光中作私密通訊。若您是美國居民，請保留此收據作為您的稅務紀錄。V.Call Technology Foundation 是在美國依據《國稅法規》(IRC) 第 501c3 條的免稅非盈利組織。我們的聯邦稅識別號碼為 82–4506840。</string>
+    <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">感謝您支持 Vconnct。您的捐款驅動我們的使命，致力開發開放原始碼的私隱技術，保護自由表達並讓全球通訊變得安全，讓世界各地數以百萬計「惜爐」使用者，共星光中作私密通訊。若您是美國居民，請保留此收據作為您的稅務紀錄。Vconnct Technology Foundation 是在美國依據《國稅法規》(IRC) 第 501c3 條的免稅非盈利組織。我們的聯邦稅識別號碼為 82–4506840。</string>
     <!-- Donation receipt type -->
     <string name="DonationReceiptDetailsFragment__s_dash_s">%1$s - %2$s</string>
     <!-- Donation reciepts screen empty state title -->
@@ -5137,7 +5137,7 @@
     <string name="MyStorySettingsFragment__who_can_view_this_story">誰可以瀏覽此限時動態</string>
     <!-- Clickable option for selecting people to hide your story from -->
     <!-- Privacy setting title for sending stories to all your signal connections -->
-    <string name="MyStorySettingsFragment__all_signal_connections">所有 V.Call 的人脈</string>
+    <string name="MyStorySettingsFragment__all_signal_connections">所有 Vconnct 的人脈</string>
     <!-- Privacy setting description for sending stories to all your signal connections -->
     <!-- Privacy setting title for sending stories to all except the specified connections -->
     <string name="MyStorySettingsFragment__all_except">所有人，除了…</string>
@@ -5163,17 +5163,17 @@
     <string name="MyStorySettingsFragment__allow_replies_amp_reactions">允許回覆和表達心情</string>
     <!-- Summary for switchable option allowing replies and reactions on your story -->
     <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">讓瀏覽限時動態的人表達心情和回覆</string>
-    <!-- V.Call connections bolded text in the V.Call Connections sheet -->
-    <string name="SignalConnectionsBottomSheet___signal_connections">V.Call 的人脈</string>
+    <!-- Vconnct connections bolded text in the Vconnct Connections sheet -->
+    <string name="SignalConnectionsBottomSheet___signal_connections">Vconnct 的人脈</string>
     <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">V.Call 人脈是你透過以下方式選擇而值得信任的人：</string>
-    <!-- V.Call connections sheet bullet point 1 -->
+    <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Vconnct 人脈是你透過以下方式選擇而值得信任的人：</string>
+    <!-- Vconnct connections sheet bullet point 1 -->
     <string name="SignalConnectionsBottomSheet__starting_a_conversation">開始聊天</string>
-    <!-- V.Call connections sheet bullet point 2 -->
+    <!-- Vconnct connections sheet bullet point 2 -->
     <string name="SignalConnectionsBottomSheet__accepting_a_message_request">接受一則訊息請求</string>
-    <!-- V.Call connections sheet bullet point 3 -->
+    <!-- Vconnct connections sheet bullet point 3 -->
     <string name="SignalConnectionsBottomSheet__having_them_in_your_system_contacts">系統聯絡人中存在對方</string>
-    <!-- Note at the bottom of the V.Call connections sheet -->
+    <!-- Note at the bottom of the Vconnct connections sheet -->
     <string name="SignalConnectionsBottomSheet__your_connections_can_see_your_name">"你的人脈可以看見你的名稱和照片。除非你對他們隱藏，否則他們亦可看見「我的限時動態」中的貼文。"</string>
     <!-- Clickable option to add a viewer to a custom story -->
     <string name="PrivateStorySettingsFragment__add_viewer">新增瀏覽者</string>
@@ -5328,7 +5328,7 @@
     <string name="GiftFlowStartFragment__donate_for_a_friend">為朋友捐款</string>
     <!-- Description text on start fragment for gifting a badge -->
     <plurals name="GiftFlowStartFragment__support_signal_by">
-        <item quantity="other">透過為使用 V.Call 的朋友或家人捐款來支持 V.Call。對方還可以在個人檔案上展示徽章 %1$d 天。</item>
+        <item quantity="other">透過為使用 Vconnct 的朋友或家人捐款來支持 Vconnct。對方還可以在個人檔案上展示徽章 %1$d 天。</item>
     </plurals>
     <!-- Action button label for start fragment for gifting a badge -->
     <string name="GiftFlowStartFragment__next">下一步</string>
@@ -5351,9 +5351,9 @@
     <!-- Title for sheet shown when opening a sent gift -->
     <string name="ViewSentGiftBottomSheet__thanks_for_your_support">感謝您力撐支持！</string>
     <!-- Description for sheet shown when opening a redeemed gift -->
-    <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s 已代表你向 V.Call 捐款！在你的個人檔案上展現你對 V.Call 的支持。</string>
+    <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s 已代表你向 Vconnct 捐款！在你的個人檔案上展現你對 Vconnct 的支持。</string>
     <!-- Description for sheet shown when opening a sent gift -->
-    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">你已代表 %1$s 向 V.Call 捐款。他們可以選擇在個人檔案上展現支持。</string>
+    <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">你已代表 %1$s 向 Vconnct 捐款。他們可以選擇在個人檔案上展現支持。</string>
     <!-- Primary action for pending gift sheet to redeem badge now -->
     <string name="ViewReceivedGiftSheet__redeem">換領</string>
     <!-- Primary action for pending gift sheet to redeem badge later -->
@@ -5363,7 +5363,7 @@
     <!-- Snackbar text when user presses "not now" on redemption sheet -->
     <string name="ConversationFragment__you_can_redeem_your_badge_later">您可稍後換領您的徽章。</string>
     <!-- Description text in gift thanks sheet -->
-    <string name="GiftThanksSheet__youve_made_a_donation">你已代表 %1$s 向 V.Call 捐款。他們可以選擇在個人檔案上展現支持。</string>
+    <string name="GiftThanksSheet__youve_made_a_donation">你已代表 %1$s 向 Vconnct 捐款。他們可以選擇在個人檔案上展現支持。</string>
     <!-- Expired gift sheet title -->
     <string name="ExpiredGiftSheetConfiguration__your_badge_has_expired">你的徽章已過期</string>
     <!-- Expired gift sheet top description text -->
@@ -5448,7 +5448,7 @@
     <!-- Title of safety number changes bottom sheet when showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_changes">安全碼變更</string>
     <!-- Message of safety number changes bottom sheet when showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__the_following_people">以下的聯絡人可能已重新安裝 V.Call 或更換裝置。你可以點按接收者以確認新安全碼。這項操作是選擇性的。</string>
+    <string name="SafetyNumberBottomSheetFragment__the_following_people">以下的聯絡人可能已重新安裝 Vconnct 或更換裝置。你可以點按接收者以確認新安全碼。這項操作是選擇性的。</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records -->
     <string name="SafetyNumberBottomSheetFragment__safety_number_checkup">檢查安全碼</string>
     <!-- Title of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
@@ -5456,7 +5456,7 @@
     <!-- Message of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
     <string name="SafetyNumberBottomSheetFragment__all_connections_have_been_reviewed">已檢查所有人脈，請點按傳送以繼續操作。</string>
     <!-- Message of safety number changes bottom sheet when not showing individual records -->
-    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">你有 %1$d 個人脈可能已重新安裝 V.Call 或更換裝置。與他們分享你的限時動態之前，請先檢查他們的安全碼，或考慮將他們從你的限時動態中移除。</string>
+    <string name="SafetyNumberBottomSheetFragment__you_have_d_connections">你有 %1$d 個人脈可能已重新安裝 Vconnct 或更換裝置。與他們分享你的限時動態之前，請先檢查他們的安全碼，或考慮將他們從你的限時動態中移除。</string>
     <!-- Menu action to launch safety number verification screen -->
     <string name="SafetyNumberBottomSheetFragment__verify_safety_number">驗證安全碼</string>
     <!-- Menu action to remove user from story -->
@@ -5473,7 +5473,7 @@
     <string name="SafetyNumberReviewConnectionsFragment__safety_number_changes">安全碼變更</string>
     <!-- Message of safety number review fragment -->
     <plurals name="SafetyNumberReviewConnectionsFragment__d_recipients_may_have">
-        <item quantity="other">有 %1$d 個接收者可能已重新安裝 V.Call 或更換裝置。你可以點按接收者以確認新安全碼。這項操作是選擇性的。</item>
+        <item quantity="other">有 %1$d 個接收者可能已重新安裝 Vconnct 或更換裝置。你可以點按接收者以確認新安全碼。這項操作是選擇性的。</item>
     </plurals>
     <!-- Section header for 1:1 contacts in review fragment -->
     <string name="SafetyNumberBucketRowItem__contacts">聯絡人</string>
@@ -5487,7 +5487,7 @@
     <!-- Subtitle of initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__choose_who_can_see_posts_to_my_story_you_can_always_make_changes_in_settings">選擇誰可以看到「我的限時動態」貼文。你可以隨時在設定中作出更改。</string>
     <!-- All connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
-    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">所有 V.Call 的人脈</string>
+    <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">所有 Vconnct 的人脈</string>
     <!-- All connections except option for initial My Story settings configuration shown when sending to My Story for the first time -->
     <string name="ChooseInitialMyStoryMembershipFragment__all_except">所有人，除了…</string>
     <!-- Only with selected connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
@@ -5547,15 +5547,15 @@
     <!-- Displayed in the notification while export is running -->
     <string name="SignalSmsExportService__exporting_messages">正在匯出訊息…</string>
     <!-- Displayed in the notification title when export completes -->
-    <string name="SignalSmsExportService__signal_sms_export_complete">V.Call 短訊匯出完成</string>
+    <string name="SignalSmsExportService__signal_sms_export_complete">Vconnct 短訊匯出完成</string>
     <!-- Displayed in the notification message when export completes -->
-    <string name="SignalSmsExportService__tap_to_return_to_signal">點按即可返回 V.Call</string>
+    <string name="SignalSmsExportService__tap_to_return_to_signal">點按即可返回 Vconnct</string>
 
     <!-- ExportYourSmsMessagesFragment -->
     <!-- Title of the screen -->
     <string name="ExportYourSmsMessagesFragment__export_your_sms_messages">匯出你的短訊</string>
     <!-- Message of the screen -->
-    <string name="ExportYourSmsMessagesFragment__you_can_export_your_sms_messages_to_your_phones_sms_database_and_youll_have_the_option_to_keep_or_remove_them_from_signal">你可以匯出 SMS 短訊到手機的 SMS 短訊資料庫，而且你可選擇保留或從 V.Call 移除。此操作允許手機上的其他短訊應用程式匯入短訊。此操作不會建立可共用的 SMS 短訊紀錄檔案。</string>
+    <string name="ExportYourSmsMessagesFragment__you_can_export_your_sms_messages_to_your_phones_sms_database_and_youll_have_the_option_to_keep_or_remove_them_from_signal">你可以匯出 SMS 短訊到手機的 SMS 短訊資料庫，而且你可選擇保留或從 Vconnct 移除。此操作允許手機上的其他短訊應用程式匯入短訊。此操作不會建立可共用的 SMS 短訊紀錄檔案。</string>
     <!-- Button label to begin export -->
     <string name="ExportYourSmsMessagesFragment__continue">繼續</string>
 
@@ -5574,8 +5574,8 @@
     <string name="ExportingSmsMessagesFragment__you_need_approximately_s_to_export_your_messages_ensure_you_have_enough_space_before_continuing">你需要大約 %1$s 才能匯出短訊，請確保在繼續之前有足夠的空間。</string>
     <!-- Alert dialog button to continue with exporting sms after seeing the lack of storage warning -->
     <string name="ExportingSmsMessagesFragment__continue_anyway">仍要繼續</string>
-    <!-- Dialog text shown when V.Call isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
-    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">V.Call 需要獲取短訊權限才能匯出你的短訊。</string>
+    <!-- Dialog text shown when Vconnct isn\'t granted the sms permission needed to export messages, different than being selected as the sms app -->
+    <string name="ExportingSmsMessagesFragment__signal_needs_the_sms_permission_to_be_able_to_export_your_sms_messages">Vconnct 需要獲取短訊權限才能匯出你的短訊。</string>
 
     <!-- ChooseANewDefaultSmsAppFragment -->
     <!-- Title of the screen -->
@@ -5599,7 +5599,7 @@
     <!-- Instruction step for choosing a new default sms app -->
     <string name="ChooseANewDefaultSmsAppFragment__choose_another_app_to_use_for_sms_messaging">選擇使用另一個短訊應用程式</string>
     <!-- Instruction step for choosing a new default sms app -->
-    <string name="ChooseANewDefaultSmsAppFragment__return_to_signal">返回 V.Call</string>
+    <string name="ChooseANewDefaultSmsAppFragment__return_to_signal">返回 Vconnct</string>
     <!-- Instruction step for choosing a new default sms app -->
     <string name="ChooseANewDefaultSmsAppFragment__open_your_phones_settings_app">開啟手機的「設定」應用程式</string>
     <!-- Instruction step for choosing a new default sms app -->
@@ -5611,9 +5611,9 @@
     <!-- Action button to remove messages -->
     <string name="RemoveSmsMessagesDialogFragment__remove_messages">移除訊息</string>
     <!-- Title of dialog -->
-    <string name="RemoveSmsMessagesDialogFragment__remove_sms_messages">要移除來自 V.Call 的短訊嗎？</string>
+    <string name="RemoveSmsMessagesDialogFragment__remove_sms_messages">要移除來自 Vconnct 的短訊嗎？</string>
     <!-- Message of dialog -->
-    <string name="RemoveSmsMessagesDialogFragment__you_can_now_remove_sms_messages_from_signal">你現在可以從 V.Call 中移除短訊，以騰出儲存空間。移除後，你仍可在其他短訊應用程式內找到該短訊紀錄。</string>
+    <string name="RemoveSmsMessagesDialogFragment__you_can_now_remove_sms_messages_from_signal">你現在可以從 Vconnct 中移除短訊，以騰出儲存空間。移除後，你仍可在其他短訊應用程式內找到該短訊紀錄。</string>
 
     <!-- ReExportSmsMessagesDialogFragment -->
     <!-- Action button to re-export messages -->
@@ -5627,9 +5627,9 @@
 
     <!-- SetSignalAsDefaultSmsAppFragment -->
     <!-- Title of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">將 V.Call 設定為預設短訊應用程式</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__set_signal_as_the_default_sms_app">將 Vconnct 設定為預設短訊應用程式</string>
     <!-- Message of the screen -->
-    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">如要匯出短訊，你需要將 V.Call 設定為預設短訊應用程式。</string>
+    <string name="SetSignalAsDefaultSmsAppFragment__to_export_your_sms_messages">如要匯出短訊，你需要將 Vconnct 設定為預設短訊應用程式。</string>
     <!-- Button label to start export -->
     <string name="SetSignalAsDefaultSmsAppFragment__next">下一步</string>
 
@@ -5653,13 +5653,13 @@
 
     <!-- SmsExportMegaphoneActivity -->
     <!-- Phase 2 title of full screen megaphone indicating sms will no longer be supported in the near future -->
-    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">V.Call 將不再支援短訊服務</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_no_longer_support_sms">Vconnct 將不再支援短訊服務</string>
     <!-- Phase 3 title of full screen megaphone indicating sms is longer supported  -->
-    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">V.Call 不再支援短訊服務</string>
+    <string name="SmsExportMegaphoneActivity__signal_no_longer_supports_sms">Vconnct 不再支援短訊服務</string>
     <!-- Phase 2 message describing that sms is going away soon -->
-    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">V.Call 即將停止支援短訊傳送，專注提供經端對端加密過的 V.Call 通訊服務，加強隱私保障。這將協助我們改善 V.Call 通訊體驗。</string>
+    <string name="SmsExportMegaphoneActivity__signal_will_soon_remove_support_for_sending_sms_messages">Vconnct 即將停止支援短訊傳送，專注提供經端對端加密過的 Vconnct 通訊服務，加強隱私保障。這將協助我們改善 Vconnct 通訊體驗。</string>
     <!-- Phase 3 message describing that sms has gone away -->
-    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">V.Call 已停止支援短訊傳送，專注提供經端對端加密過的 V.Call 通訊服務，加強隱私保障。這將協助我們改善 V.Call 通訊體驗。</string>
+    <string name="SmsExportMegaphoneActivity__signal_has_removed_support_for_sending_sms_messages">Vconnct 已停止支援短訊傳送，專注提供經端對端加密過的 Vconnct 通訊服務，加強隱私保障。這將協助我們改善 Vconnct 通訊體驗。</string>
     <!-- The text on a button in a popup that, when clicked, will take the user to a screen to export their SMS messages -->
     <string name="SmsExportMegaphoneActivity__export_sms">匯出短訊</string>
     <!-- The text on a button in a popup that, when clicked, will dismiss the popup and schedule the prompt to occur at a later time. -->
@@ -5670,7 +5670,7 @@
     <!-- Phase 1 Small megaphone title indicating sms is going away -->
     <string name="SmsExportMegaphone__sms_support_going_away">系統即將停止支援短訊服務</string>
     <!-- Phase 1 small megaphone description indicating sms is going away -->
-    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">不用擔心，V.Call 加密訊息將可繼續使用。</string>
+    <string name="SmsExportMegaphone__dont_worry_encrypted_signal_messages_will_continue_to_work">不用擔心，Vconnct 加密訊息將可繼續使用。</string>
     <!-- Phase 1 small megaphone button that takes the user to the sms export flow -->
     <string name="SmsExportMegaphone__continue">繼續</string>
     <!-- Title for screen shown after sms export has completed -->
@@ -5708,7 +5708,7 @@
     <!-- Continue button label -->
     <string name="DonateToSignalFragment__continue">繼續</string>
     <!-- Description below title -->
-    <string name="DonateToSignalFragment__private_messaging">我們是由你贊助的私密通訊軟體。無廣告、無追蹤、而且絕不妥協。請立即捐款支持 V.Call。</string>
+    <string name="DonateToSignalFragment__private_messaging">我們是由你贊助的私密通訊軟體。無廣告、無追蹤、而且絕不妥協。請立即捐款支持 Vconnct。</string>
     <!-- Donation pill toggle monthly text -->
     <string name="DonationPillToggle__monthly">每月</string>
     <!-- Donation pill toggle one-time text -->
@@ -5716,11 +5716,11 @@
 
     <!-- GatewaySelectorBottomSheet -->
     <!-- Sheet title when subscribing -->
-    <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">每月向 V.Call 捐款 %1$s</string>
+    <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">每月向 Vconnct 捐款 %1$s</string>
     <!-- Sheet summary when subscribing -->
     <string name="GatewaySelectorBottomSheet__get_a_s_badge">獲取一枚「%1$s」徽章</string>
     <!-- Sheet title when giving a one-time donation -->
-    <string name="GatewaySelectorBottomSheet__donate_s_to_signal">捐款 %1$s 給 V.Call</string>
+    <string name="GatewaySelectorBottomSheet__donate_s_to_signal">捐款 %1$s 給 Vconnct</string>
     <!-- Sheet summary when giving a one-time donation -->
     <plurals name="GatewaySelectorBottomSheet__get_a_s_badge_for_d_days">
         <item quantity="other">獲取為期 %2$d 天的 %1$s 徽章</item>
@@ -5747,7 +5747,7 @@
     <!-- The title of a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_title">系統無法處理聯絡人</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
-    <string name="CdsPermanentErrorBottomSheet_body">你手機的聯絡人超出 V.Call 可以處理的數量。如要在 V.Call 上尋找聯絡人，請考慮從同步大量聯絡人的手機中刪除聯絡人或帳戶。</string>
+    <string name="CdsPermanentErrorBottomSheet_body">你手機的聯絡人超出 Vconnct 可以處理的數量。如要在 Vconnct 上尋找聯絡人，請考慮從同步大量聯絡人的手機中刪除聯絡人或帳戶。</string>
     <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
     <string name="CdsPermanentErrorBottomSheet_learn_more">了解更多</string>
     <!-- A button label in a bottom sheet that will navigate the user to their contacts settings. -->
@@ -5763,9 +5763,9 @@
 
     <!-- YourInformationIsPrivateBottomSheet -->
     <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">你的資料已保密</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">當你捐款時，V.Call 不會收集或儲存任何個人資料。</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">當你捐款時，Vconnct 不會收集或儲存任何個人資料。</string>
     <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">我們使用 Stripe 作為接收捐款的付款處理商。我們不會存取、保存或儲存你向他們提供的任何資料。</string>
-    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">V.Call 不會也無法將你的捐款連接到你的 V.Call 帳戶。</string>
+    <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Vconnct 不會也無法將你的捐款連接到你的 Vconnct 帳戶。</string>
     <string name="YourInformationIsPrivateBottomSheet__thank_you">多謝您的支持！</string>
 
     <!-- GroupStoryEducationSheet -->
@@ -5796,19 +5796,19 @@
     <!-- Title for screen describing that sms support is going to be removed soon -->
     <string name="SmsRemoval_title_going_away">系統即將停止支援短訊服務</string>
     <!-- Bullet point message shown on describing screen as first bullet why sms is being removed, placeholder with be date of removal (e.g., March 21st) -->
-    <string name="SmsRemoval_info_bullet_1">V.Call 應用程式即將停止支援短訊服務。</string>
+    <string name="SmsRemoval_info_bullet_1">Vconnct 應用程式即將停止支援短訊服務。</string>
     <!-- Bullet point message shown on describing screen as second bullet why sms is being removed -->
-    <string name="SmsRemoval_info_bullet_2">短訊與 V.Call 訊息不同。<b>這不會影響 V.Call 加密通訊，有關服務將可繼續使用。</b></string>
+    <string name="SmsRemoval_info_bullet_2">短訊與 Vconnct 訊息不同。<b>這不會影響 Vconnct 加密通訊，有關服務將可繼續使用。</b></string>
     <!-- Bullet point message shown on describing screen as third bullet why sms is being removed -->
     <string name="SmsRemoval_info_bullet_3">你可匯出短訊，並選擇新的短訊應用程式。</string>
     <!-- Bullet point message shown on describing screen as first bullet variant why sms is being removed when user is locked out of sms -->
-    <string name="SmsRemoval_info_bullet_1_phase_3">V.Call 已停止支援短訊傳送。</string>
+    <string name="SmsRemoval_info_bullet_1_phase_3">Vconnct 已停止支援短訊傳送。</string>
     <!-- Button label on sms removal info/megaphone to start the export SMS flow -->
     <string name="SmsRemoval_export_sms">匯出短訊</string>
 
     <!-- Set up your username megaphone -->
     <!-- Displayed as a title on a megaphone which prompts user to set up a username -->
-    <string name="SetUpYourUsername__set_up_your_signal_username">設定你的 V.Call 用戶名稱</string>
+    <string name="SetUpYourUsername__set_up_your_signal_username">設定你的 Vconnct 用戶名稱</string>
     <!-- Displayed as a description on a megaphone which prompts user to set up a username -->
     <string name="SetUpYourUsername__usernames_let_others">用戶名稱讓其他人無需透過電話號碼也可以向你傳送訊息</string>
     <!-- Displayed as an action on a megaphone which prompts user to set up a username -->
@@ -5834,7 +5834,7 @@
     <!-- Continue button which takes the user to the add a username screen -->
     <string name="UsernameEducationFragment__continue">繼續</string>
     <!-- Displayed as a title on the username education screen -->
-    <string name="UsernameEducationFragment__set_up_your_signal_username">設定你的 V.Call 用戶名稱</string>
+    <string name="UsernameEducationFragment__set_up_your_signal_username">設定你的 Vconnct 用戶名稱</string>
     <!-- Displayed as body text in the username education screen -->
     <string name="UsernameEducationFragment__usernames_are_paired_with_a_set_of_digits">用戶名稱與一組數字配對，並且不會在你的個人檔案上公開</string>
     <!-- Displayed as body text in the username education screen -->
@@ -5976,21 +5976,21 @@
     <!-- Call link creation item title on calls tab -->
     <string name="CreateCallLink__create_a_call_link">建立通話連結</string>
     <!-- Call link creation item description on calls tab -->
-    <string name="CreateCallLink__share_a_link_for">分享 V.Call 通話的連結</string>
+    <string name="CreateCallLink__share_a_link_for">分享 Vconnct 通話的連結</string>
 
     <!-- CreateCallLinkBottomSheetDialogFragment -->
     <!-- Fragment title -->
     <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">建立通話連結</string>
     <!-- Displayed as a default name for the signal call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">V.Call 通話</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Vconnct 通話</string>
     <!-- Displayed on a small button to allow user to instantly join call -->
     <string name="CreateCallLinkBottomSheetDialogFragment__join">加入</string>
     <!-- Option to open a full screen dialog to enter a call name -->
     <string name="CreateCallLinkBottomSheetDialogFragment__add_call_name">新增通話名稱</string>
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__approve_all_members">批准全部成員</string>
-    <!-- Row label to share the link via V.Call -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">透過 V.Call 分享連結</string>
+    <!-- Row label to share the link via Vconnct -->
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">透過 Vconnct 分享連結</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">複製連結</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -6021,9 +6021,9 @@
     <!-- Title shown at top of bottom sheet dialog for displaying a message\'s edit history -->
     <string name="EditMessageHistoryDialog_title">編輯歷史紀錄</string>
     <!-- Title of dialog shown alerting user that edit message is in beta only -->
-    <string name="SendingEditMessageBetaOnlyDialog_title">只限 V.Call 測試版</string>
+    <string name="SendingEditMessageBetaOnlyDialog_title">只限 Vconnct 測試版</string>
     <!-- Body of dialog shown alerting user that edit message is in beta only and only sent to beta users. -->
-    <string name="SendingEditMessageBetaOnlyDialog_body">編輯訊息僅適用於 V.Call 測試版用戶。只有使用最新 V.Call 測試版的用戶才能看到你的編輯訊息。</string>
+    <string name="SendingEditMessageBetaOnlyDialog_body">編輯訊息僅適用於 Vconnct 測試版用戶。只有使用最新 Vconnct 測試版的用戶才能看到你的編輯訊息。</string>
     <!-- Button to cancel sending edit message as it is beta only -->
     <string name="SendingEditMessageBetaOnlyDialog_cancel">取消</string>
     <!-- Button to continue sending edit message despite it being beta only -->
