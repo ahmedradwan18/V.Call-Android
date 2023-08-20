@@ -51,11 +51,12 @@ class RegistrationCompleteFragment : LoggingFragment() {
       val isProfileNameEmpty = Recipient.self().profileName.isEmpty
       val isAvatarEmpty = !AvatarHelper.hasAvatar(activity, Recipient.self().id)
       val needsProfile = isProfileNameEmpty || isAvatarEmpty
-      val needsPin = !SignalStore.svr().hasPin() && !viewModel.isReregister
+      // val needsPin = !SignalStore.svr().hasPin() && !viewModel.isReregister
 
-      Log.i(TAG, "Pin restore flow not required. Profile name: $isProfileNameEmpty | Profile avatar: $isAvatarEmpty | Needs PIN: $needsPin")
+      Log.i(TAG, "Pin restore flow not required. Profile name: $isProfileNameEmpty | Profile avatar: $isAvatarEmpty ")
 
-      if (!needsProfile && !needsPin) {
+      if (!needsProfile ) {
+      // if (!needsProfile && !needsPin) {
         ApplicationDependencies.getJobManager()
           .startChain(ProfileUploadJob())
           .then(listOf(MultiDeviceProfileKeyUpdateJob(), MultiDeviceProfileContentUpdateJob()))
@@ -65,9 +66,14 @@ class RegistrationCompleteFragment : LoggingFragment() {
 
       var startIntent = MainActivity.clearTop(activity)
 
-      if (needsPin) {
-        startIntent = chainIntents(CreateSvrPinActivity.getIntentForPinCreate(activity), startIntent)
-      }
+
+
+
+      //! 
+
+      // if (needsPin) {
+      //   startIntent = chainIntents(CreateSvrPinActivity.getIntentForPinCreate(activity), startIntent)
+      // }
 
       if (needsProfile) {
         startIntent = chainIntents(EditProfileActivity.getIntentForUserProfile(activity), startIntent)
