@@ -151,12 +151,15 @@
 
   <string-array name="pref_theme_entries" tools:ignore="InconsistentArrays">
       <item>@string/preferences__light_theme</item>
-      <item>@string/preferences__dark_theme</item>
+<!-- ( variiance ) => *theme*     -->
+<!--      <item>@string/preferences__dark_theme</item>-->
   </string-array>
 
   <string-array name="pref_theme_values" translatable="false" tools:ignore="InconsistentArrays">
       <item>light</item>
-      <item>dark</item>
+      <!-- ( variiance ) => *theme*     -->
+
+      <!--      <item>dark</item>-->
   </string-array>
 
   <string-array name="pref_led_color_entries">

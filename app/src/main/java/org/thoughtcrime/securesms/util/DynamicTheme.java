@@ -57,6 +57,8 @@ public class DynamicTheme {
 
     if (theme == Theme.SYSTEM) {
       Log.d(TAG, "Setting to follow system expecting: " + ConfigurationUtil.getNightModeConfiguration(context.getApplicationContext()));
+      //! ( variiance ) => to follow the system theme
+      AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
       AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
     } else if (DynamicTheme.isDarkTheme(context)) {
       Log.d(TAG, "Setting to always night");

@@ -17,9 +17,9 @@ import org.thoughtcrime.securesms.util.navigation.safeNavigate
 class AppearanceSettingsFragment : DSLSettingsFragment(R.string.preferences__appearance) {
 
   private lateinit var viewModel: AppearanceSettingsViewModel
-
-  private val themeLabels by lazy { resources.getStringArray(R.array.pref_theme_entries) }
-  private val themeValues by lazy { resources.getStringArray(R.array.pref_theme_values) }
+//  <!-- ( variiance ) => *theme*     -->
+//  private val themeLabels by lazy { resources.getStringArray(R.array.pref_theme_entries) }
+//  private val themeValues by lazy { resources.getStringArray(R.array.pref_theme_values) }
 
   private val messageFontSizeLabels by lazy { resources.getStringArray(R.array.pref_message_font_size_entries) }
   private val messageFontSizeValues by lazy { resources.getIntArray(R.array.pref_message_font_size_values) }
@@ -51,15 +51,16 @@ class AppearanceSettingsFragment : DSLSettingsFragment(R.string.preferences__app
           viewModel.setLanguage(languageValues[it])
         }
       )
+//      <!-- ( variiance ) => *theme*     -->
 
-      radioListPref(
-        title = DSLSettingsText.from(R.string.preferences__theme),
-        listItems = themeLabels,
-        selected = themeValues.indexOf(state.theme.serialize()),
-        onSelected = {
-          viewModel.setTheme(activity, SettingsValues.Theme.deserialize(themeValues[it]))
-        }
-      )
+//      radioListPref(
+//        title = DSLSettingsText.from(R.string.preferences__theme),
+//        listItems = themeLabels,
+//        selected = themeValues.indexOf(state.theme.serialize()),
+//        onSelected = {
+//          viewModel.setTheme(activity, SettingsValues.Theme.deserialize(themeValues[it]))
+//        }
+//      )
 
       clickPref(
         title = DSLSettingsText.from(R.string.preferences__chat_color_and_wallpaper),
