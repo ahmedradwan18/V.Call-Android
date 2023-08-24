@@ -1413,6 +1413,11 @@
     </receiver>
 
     <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-
+        <activity
+            android:name="io.flutter.embedding.android.FlutterActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize"
+            />
 </application>
 </manifest>

@@ -50,6 +50,7 @@ import org.thoughtcrime.securesms.util.runRevealAnimation
 import org.thoughtcrime.securesms.util.views.Stub
 import org.thoughtcrime.securesms.util.visible
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState
+import io.flutter.embedding.android.FlutterActivity;
 
 class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_fragment), ConversationListFragment.Callback, Material3OnScrollHelperBinder, CallLogFragment.Callback {
 
@@ -167,15 +168,21 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
   }
 
   private fun goToStateFromDiscover(state: ConversationListTabsState, navController: NavController) {
-    when (state.tab) {
-//      ConversationListTab.STORIES -> return
 
-      ConversationListTab.DISCOVER -> return
-      ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-      ConversationListTab.ROOMS -> navController.navigate(R.id.action_discoverFragment_to_roomsFragment)
-      ConversationListTab.CALLS -> navController.navigate(R.id.action_discoverFragment_to_callLogFragment)
-      ConversationListTab.APPS -> navController.navigate(R.id.action_discoverFragment_to_appsFragment)
-    }
+
+    val intent =  FlutterActivity.withNewEngine().build(requireContext())
+    startActivity(intent)
+
+
+    /*    when (state.tab) {
+    //      ConversationListTab.STORIES -> return
+
+          ConversationListTab.DISCOVER -> return
+          ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
+          ConversationListTab.ROOMS -> navController.navigate(R.id.action_discoverFragment_to_roomsFragment)
+          ConversationListTab.CALLS -> navController.navigate(R.id.action_discoverFragment_to_callLogFragment)
+          ConversationListTab.APPS -> navController.navigate(R.id.action_discoverFragment_to_appsFragment)
+        }*/
   }
   private fun goToStateFromApps(state: ConversationListTabsState, navController: NavController) {
     when (state.tab) {

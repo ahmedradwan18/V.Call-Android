@@ -619,7 +619,7 @@ dependencies {
     implementation libs.rxjava3.rxandroid
     implementation libs.rxjava3.rxkotlin
     implementation libs.rxdogtag
-
+    implementation project(':flutter')
     androidTestUtil testLibs.androidx.test.orchestrator
 
     implementation project(':core-ui')
