@@ -1,5 +1,6 @@
 package org.thoughtcrime.securesms.main
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
@@ -12,6 +13,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.children
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.NavDestination
@@ -19,6 +21,11 @@ import androidx.navigation.Navigator
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.recyclerview.widget.RecyclerView
+import io.flutter.embedding.android.FlutterFragment
+import io.flutter.embedding.engine.FlutterEngine
+import io.flutter.embedding.engine.FlutterEngineCache
+import io.flutter.embedding.engine.dart.DartExecutor
+import io.reactivex.rxjava3.annotations.NonNull
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.SimpleTask
@@ -50,13 +57,18 @@ import org.thoughtcrime.securesms.util.runRevealAnimation
 import org.thoughtcrime.securesms.util.views.Stub
 import org.thoughtcrime.securesms.util.visible
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState
-import io.flutter.embedding.android.FlutterActivity;
 
-class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_fragment), ConversationListFragment.Callback, Material3OnScrollHelperBinder, CallLogFragment.Callback {
+
+class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_fragment), ConversationListFragment.Callback,
+  Material3OnScrollHelperBinder, CallLogFragment.Callback {
 
   companion object {
     private val TAG = Log.tag(MainActivityListHostFragment::class.java)
+    private const val TAG_FLUTTER_FRAGMENT = "flutter_fragment"
+
   }
+
+  private var flutterFragment: FlutterFragment? = null
 
   private val conversationListTabsViewModel: ConversationListTabsViewModel by viewModels(ownerProducer = { requireActivity() })
   private val disposables: LifecycleDisposable = LifecycleDisposable()
@@ -99,19 +111,115 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
     (requireActivity() as AppCompatActivity).setSupportActionBar(_toolbar)
 
+
+    // Get a reference to the Activity's FragmentManager to add a new FlutterFragment, or find an existing one.
+    val fragmentManager: FragmentManager = parentFragmentManager
+
+    // Attempt to find an existing FlutterFragment, in case this is not the first time that onCreate() was run.
+    flutterFragment = fragmentManager.findFragmentByTag(TAG_FLUTTER_FRAGMENT) as FlutterFragment?
+
+    val flutterEngine = FlutterEngine(requireContext())
+
+    // Start executing Dart code in the FlutterEngine.
+    flutterEngine.getDartExecutor().executeDartEntrypoint(
+      DartExecutor.DartEntrypoint.createDefault()
+    )
+
+    // Cache the pre-warmed FlutterEngine to be used later by FlutterFragment.
+    FlutterEngineCache
+      .getInstance()
+      .put("my_engine_id", flutterEngine)
+
+
     disposables += conversationListTabsViewModel.state.subscribeBy { state ->
       val controller: NavController = requireView().findViewById<View>(R.id.fragment_container).findNavController()
+
       when (controller.currentDestination?.id) {
 
-        R.id.conversationListFragment -> goToStateFromConversationList(state, controller)
+        R.id.conversationListFragment ->{
+          if (flutterFragment != null) {
+            flutterFragment!!.onStop()
+          }
+          goToStateFromConversationList(state, controller)
+        }
+
+
         R.id.conversationListArchiveFragment -> Unit
-        R.id.roomsFragment -> goToStateFromRooms(state, controller)
-        R.id.callLogFragment -> goToStateFromCalling(state, controller)
-        R.id.discoverFragment -> goToStateFromDiscover(state, controller)
-        R.id.appsFragment -> goToStateFromApps(state, controller)
+
+        R.id.roomsFragment ->{
+          goToStateFromRooms(state, controller)
+        }
+
+
+        R.id.callLogFragment ->{
+
+          if (flutterFragment != null ) {
+            flutterFragment!!.onStop()
+          }
+          goToStateFromCalling(state, controller)
+        }
+        R.id.discoverFragment ->{
+
+          if (flutterFragment != null) {
+            flutterFragment!!.onStop()
+          }
+          goToStateFromDiscover(state, controller)
+        }
+        R.id.appsFragment ->{
+          if (flutterFragment != null) {
+            flutterFragment!!.onStop()
+          }
+          goToStateFromApps(state, controller)
+        }
       }
+
     }
   }
+
+  override fun onBackPressed() {
+    flutterFragment!!.onBackPressed()
+  }
+
+  override fun onNewIntent(@NonNull intent: Intent) {
+    flutterFragment!!.onNewIntent(intent)
+  }
+
+  override fun onPostResume() {
+    flutterFragment!!.onPostResume()
+  }
+
+  override fun onRequestPermissionsResult(
+    requestCode: Int,
+    permissions: Array<String?>,
+    grantResults: IntArray
+  ) {
+    flutterFragment!!.onRequestPermissionsResult(
+      requestCode,
+      permissions,
+      grantResults
+    )
+  }
+  override fun onActivityResult(
+    requestCode: Int,
+    resultCode: Int,
+    data: Intent?
+  ) {
+    super.onActivityResult(requestCode, resultCode, data)
+    flutterFragment!!.onActivityResult(
+      requestCode,
+      resultCode,
+      data
+    )
+  }
+
+  override fun onUserLeaveHint() {
+    flutterFragment!!.onUserLeaveHint()
+  }
+
+  override fun onTrimMemory(level: Int) {
+    flutterFragment!!.onTrimMemory(level)
+  }
+
 
   private fun goToStateFromConversationList(state: ConversationListTabsState, navController: NavController) {
     if (state.tab == ConversationListTab.CHATS) {
@@ -132,25 +240,45 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
         )
       }
 
-      val destination = if (state.tab == ConversationListTab.ROOMS) {
-        R.id.action_conversationListFragment_to_roomsFragment
-      } else if(state.tab == ConversationListTab.DISCOVER){
-        R.id.action_conversationListFragment_to_discoverFragment
+      if (state.tab == ConversationListTab.ROOMS) {
+
+
+
+        var newFlutterFragment = FlutterFragment.withCachedEngine("my_engine_id").build<FlutterFragment>()
+
+
+//        var newFlutterFragment = FlutterFragment.createDefault()
+        flutterFragment = newFlutterFragment
+        fragmentManager
+          ?.beginTransaction()
+          ?.add(
+            R.id.fragment_container,
+            newFlutterFragment,
+            TAG_FLUTTER_FRAGMENT
+          )
+          ?.commit()
+
+
+      }
+      else{
+        val destination =if(state.tab == ConversationListTab.DISCOVER){
+          R.id.action_conversationListFragment_to_discoverFragment
+        }
+        else if(state.tab == ConversationListTab.APPS){
+          R.id.action_conversationListFragment_to_appsFragment
+        }
+        else {
+          R.id.action_conversationListFragment_to_callLogFragment
+        }
+        navController.navigate(
+          destination,
+          null,
+          null,
+          extras
+        )
       }
 
-      else if(state.tab == ConversationListTab.APPS){
-        R.id.action_conversationListFragment_to_appsFragment
-      }
-      else {
-        R.id.action_conversationListFragment_to_callLogFragment
-      }
 
-      navController.navigate(
-        destination,
-        null,
-        null,
-        extras
-      )
     }
   }
 
@@ -158,66 +286,118 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
     when (state.tab) {
 
       ConversationListTab.CALLS -> return
-//      ConversationListTab.STORIES -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-//      ConversationListTab.DISCOVER -> navController.popBackStack(R.id.discoverFragment, false)
       ConversationListTab.DISCOVER -> navController.navigate(R.id.action_callLogFragment_to_discoverFragment)
-      ConversationListTab.ROOMS -> navController.navigate(R.id.action_callLogFragment_to_roomsFragment)
       ConversationListTab.APPS -> navController.navigate(R.id.action_callLogFragment_to_appsFragment)
+      ConversationListTab.ROOMS -> {
+        var newFlutterFragment = FlutterFragment.withCachedEngine("my_engine_id").build<FlutterFragment>()
+
+//        var newFlutterFragment = FlutterFragment.createDefault()
+        flutterFragment = newFlutterFragment
+        fragmentManager
+          ?.beginTransaction()
+          ?.add(
+            R.id.fragment_container,
+            newFlutterFragment,
+            TAG_FLUTTER_FRAGMENT
+          )
+          ?.commit()
+      }
     }
   }
 
   private fun goToStateFromDiscover(state: ConversationListTabsState, navController: NavController) {
 
+    when (state.tab) {
+      ConversationListTab.DISCOVER -> return
+      ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
+      ConversationListTab.CALLS -> navController.navigate(R.id.action_discoverFragment_to_callLogFragment)
+      ConversationListTab.APPS -> navController.navigate(R.id.action_discoverFragment_to_appsFragment)
+      ConversationListTab.ROOMS -> {
+        var newFlutterFragment = FlutterFragment.createDefault()
+        flutterFragment = newFlutterFragment
+        fragmentManager
+          ?.beginTransaction()
+          ?.add(
+            R.id.fragment_container,
+            newFlutterFragment,
+            TAG_FLUTTER_FRAGMENT
+          )
+          ?.commit()
+      }
 
-    val intent =  FlutterActivity.withNewEngine().build(requireContext())
-    startActivity(intent)
-
-
-    /*    when (state.tab) {
-    //      ConversationListTab.STORIES -> return
-
-          ConversationListTab.DISCOVER -> return
-          ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-          ConversationListTab.ROOMS -> navController.navigate(R.id.action_discoverFragment_to_roomsFragment)
-          ConversationListTab.CALLS -> navController.navigate(R.id.action_discoverFragment_to_callLogFragment)
-          ConversationListTab.APPS -> navController.navigate(R.id.action_discoverFragment_to_appsFragment)
-        }*/
+    }
   }
   private fun goToStateFromApps(state: ConversationListTabsState, navController: NavController) {
+
+
     when (state.tab) {
-//      ConversationListTab.STORIES -> return
 
       ConversationListTab.APPS -> return
       ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-      ConversationListTab.ROOMS -> navController.navigate(R.id.action_appsFragment_to_roomsFragment)
       ConversationListTab.CALLS -> navController.navigate(R.id.action_appsFragment_to_callLogFragment)
       ConversationListTab.DISCOVER -> navController.navigate(R.id.action_appsFragment_to_discoverFragment)
+      ConversationListTab.ROOMS -> {
+        var newFlutterFragment = FlutterFragment.withCachedEngine("my_engine_id").build<FlutterFragment>()
+
+//        var newFlutterFragment = FlutterFragment.createDefault()
+        flutterFragment = newFlutterFragment
+        fragmentManager
+          ?.beginTransaction()
+          ?.add(
+            R.id.fragment_container,
+            newFlutterFragment,
+            TAG_FLUTTER_FRAGMENT
+          )
+          ?.commit()
+      }
+
+
     }
   }
 
 
   private fun goToStateFromRooms(state: ConversationListTabsState, navController: NavController) {
+
     when (state.tab) {
       ConversationListTab.ROOMS -> return
-//      ConversationListTab.STORIES -> return
 
-      ConversationListTab.CHATS -> navController.popBackStack(R.id.conversationListFragment, false)
-      ConversationListTab.CALLS -> navController.navigate(R.id.action_roomsFragment_to_callLogFragment)
-      ConversationListTab.DISCOVER -> navController.navigate(R.id.action_roomsFragment_to_discoverFragment)
-      ConversationListTab.APPS -> navController.navigate(R.id.action_roomsFragment_to_appsFragment)
+      ConversationListTab.CHATS ->{
 
+        navController.popBackStack(R.id.conversationListFragment, false)
+      }
+
+      ConversationListTab.CALLS ->{
+
+
+        navController.navigate(R.id.action_roomsFragment_to_callLogFragment)
+
+      }
+      ConversationListTab.DISCOVER ->{
+
+        navController.navigate(R.id.action_roomsFragment_to_discoverFragment)
+
+      }
+      ConversationListTab.APPS ->{
+
+        navController.navigate(R.id.action_roomsFragment_to_appsFragment)
+
+      }
     }
   }
 
+
+
   override fun onResume() {
     super.onResume()
+
     SimpleTask.run(viewLifecycleOwner.lifecycle, { Recipient.self() }, ::initializeProfileIcon)
 
     requireView()
       .findViewById<View>(R.id.fragment_container)
       .findNavController()
       .addOnDestinationChangedListener(destinationChangedListener)
+
   }
 
   override fun onPause() {
@@ -274,6 +454,12 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
       _basicToolbar.get().visible = false
     }
   }
+
+
+
+
+
+
 
   override fun onDestroyView() {
     previousTopToastPopup = null
@@ -458,4 +644,7 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
       viewLifecycleOwner
     ).attach(recyclerView)
   }
+
+
 }
+

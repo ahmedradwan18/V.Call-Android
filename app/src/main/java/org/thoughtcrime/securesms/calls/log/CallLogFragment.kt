@@ -1,6 +1,7 @@
 package org.thoughtcrime.securesms.calls.log
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.content.res.Resources
 import android.os.Bundle
 import android.view.Menu
@@ -484,5 +485,10 @@ class CallLogFragment : Fragment(R.layout.call_log_fragment), CallLogAdapter.Cal
   interface Callback {
     fun onMultiSelectStarted()
     fun onMultiSelectFinished()
+    fun onBackPressed()
+    fun onNewIntent(intent: Intent)
+    fun onPostResume()
+    fun onUserLeaveHint()
+    fun onTrimMemory(level: Int)
   }
 }
