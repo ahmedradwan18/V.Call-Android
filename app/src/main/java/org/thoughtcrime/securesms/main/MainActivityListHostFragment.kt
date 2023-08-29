@@ -22,9 +22,6 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.recyclerview.widget.RecyclerView
 import io.flutter.embedding.android.FlutterFragment
-import io.flutter.embedding.engine.FlutterEngine
-import io.flutter.embedding.engine.FlutterEngineCache
-import io.flutter.embedding.engine.dart.DartExecutor
 import io.reactivex.rxjava3.annotations.NonNull
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
@@ -92,6 +89,12 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
     }
   }
 
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    FlutterFragment.withCachedEngine("flutter_engine").build<FlutterFragment>()
+
+  }
+
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     disposables.bindTo(viewLifecycleOwner)
 
@@ -118,18 +121,18 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
     // Attempt to find an existing FlutterFragment, in case this is not the first time that onCreate() was run.
     flutterFragment = fragmentManager.findFragmentByTag(TAG_FLUTTER_FRAGMENT) as FlutterFragment?
 
-    val flutterEngine = FlutterEngine(requireContext())
-
-    // Start executing Dart code in the FlutterEngine.
-    flutterEngine.getDartExecutor().executeDartEntrypoint(
-      DartExecutor.DartEntrypoint.createDefault()
-    )
-
-    // Cache the pre-warmed FlutterEngine to be used later by FlutterFragment.
-    FlutterEngineCache
-      .getInstance()
-      .put("my_engine_id", flutterEngine)
-
+    if (flutterFragment == null) {
+      var newFlutterFragment = FlutterFragment.withCachedEngine("flutter_engine").build<FlutterFragment>()
+      flutterFragment = newFlutterFragment
+      fragmentManager
+        .beginTransaction()
+        .add(
+          R.id.fragment_container,
+          newFlutterFragment,
+          TAG_FLUTTER_FRAGMENT
+        )
+        .commit()
+    }
 
     disposables += conversationListTabsViewModel.state.subscribeBy { state ->
       val controller: NavController = requireView().findViewById<View>(R.id.fragment_container).findNavController()
@@ -176,49 +179,6 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
     }
   }
 
-  override fun onBackPressed() {
-    flutterFragment!!.onBackPressed()
-  }
-
-  override fun onNewIntent(@NonNull intent: Intent) {
-    flutterFragment!!.onNewIntent(intent)
-  }
-
-  override fun onPostResume() {
-    flutterFragment!!.onPostResume()
-  }
-
-  override fun onRequestPermissionsResult(
-    requestCode: Int,
-    permissions: Array<String?>,
-    grantResults: IntArray
-  ) {
-    flutterFragment!!.onRequestPermissionsResult(
-      requestCode,
-      permissions,
-      grantResults
-    )
-  }
-  override fun onActivityResult(
-    requestCode: Int,
-    resultCode: Int,
-    data: Intent?
-  ) {
-    super.onActivityResult(requestCode, resultCode, data)
-    flutterFragment!!.onActivityResult(
-      requestCode,
-      resultCode,
-      data
-    )
-  }
-
-  override fun onUserLeaveHint() {
-    flutterFragment!!.onUserLeaveHint()
-  }
-
-  override fun onTrimMemory(level: Int) {
-    flutterFragment!!.onTrimMemory(level)
-  }
 
 
   private fun goToStateFromConversationList(state: ConversationListTabsState, navController: NavController) {
@@ -242,12 +202,7 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
       if (state.tab == ConversationListTab.ROOMS) {
 
-
-
-        var newFlutterFragment = FlutterFragment.withCachedEngine("my_engine_id").build<FlutterFragment>()
-
-
-//        var newFlutterFragment = FlutterFragment.createDefault()
+        var newFlutterFragment = FlutterFragment.withCachedEngine("flutter_engine").build<FlutterFragment>()
         flutterFragment = newFlutterFragment
         fragmentManager
           ?.beginTransaction()
@@ -257,7 +212,6 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
             TAG_FLUTTER_FRAGMENT
           )
           ?.commit()
-
 
       }
       else{
@@ -290,9 +244,8 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
       ConversationListTab.DISCOVER -> navController.navigate(R.id.action_callLogFragment_to_discoverFragment)
       ConversationListTab.APPS -> navController.navigate(R.id.action_callLogFragment_to_appsFragment)
       ConversationListTab.ROOMS -> {
-        var newFlutterFragment = FlutterFragment.withCachedEngine("my_engine_id").build<FlutterFragment>()
 
-//        var newFlutterFragment = FlutterFragment.createDefault()
+        var newFlutterFragment = FlutterFragment.withCachedEngine("flutter_engine").build<FlutterFragment>()
         flutterFragment = newFlutterFragment
         fragmentManager
           ?.beginTransaction()
@@ -314,7 +267,8 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
       ConversationListTab.CALLS -> navController.navigate(R.id.action_discoverFragment_to_callLogFragment)
       ConversationListTab.APPS -> navController.navigate(R.id.action_discoverFragment_to_appsFragment)
       ConversationListTab.ROOMS -> {
-        var newFlutterFragment = FlutterFragment.createDefault()
+
+        var newFlutterFragment = FlutterFragment.withCachedEngine("flutter_engine").build<FlutterFragment>()
         flutterFragment = newFlutterFragment
         fragmentManager
           ?.beginTransaction()
@@ -338,10 +292,12 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
       ConversationListTab.CALLS -> navController.navigate(R.id.action_appsFragment_to_callLogFragment)
       ConversationListTab.DISCOVER -> navController.navigate(R.id.action_appsFragment_to_discoverFragment)
       ConversationListTab.ROOMS -> {
-        var newFlutterFragment = FlutterFragment.withCachedEngine("my_engine_id").build<FlutterFragment>()
 
-//        var newFlutterFragment = FlutterFragment.createDefault()
+
+        var newFlutterFragment = FlutterFragment.withCachedEngine("flutter_engine").build<FlutterFragment>()
+
         flutterFragment = newFlutterFragment
+
         fragmentManager
           ?.beginTransaction()
           ?.add(
@@ -350,6 +306,7 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
             TAG_FLUTTER_FRAGMENT
           )
           ?.commit()
+
       }
 
 
@@ -388,9 +345,57 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
 
 
+  override fun onBackPressed() {
+    flutterFragment!!.onBackPressed()
+  }
+
+  override fun onNewIntent(@NonNull intent: Intent) {
+    flutterFragment!!.onNewIntent(intent)
+  }
+
+  override fun onPostResume() {
+    println("radwan=> onPostResume")
+    flutterFragment!!.onPostResume()
+  }
+
+  override fun onTrimMemory(level: Int) {
+    println("radwan=> onTrimMemory")
+
+    flutterFragment!!.onTrimMemory(level)
+  }
+
+
+  override fun onRequestPermissionsResult(
+    requestCode: Int,
+    permissions: Array<String?>,
+    grantResults: IntArray
+  ) {
+    flutterFragment!!.onRequestPermissionsResult(
+      requestCode,
+      permissions,
+      grantResults
+    )
+  }
+  override fun onActivityResult(
+    requestCode: Int,
+    resultCode: Int,
+    data: Intent?
+  ) {
+    super.onActivityResult(requestCode, resultCode, data)
+    flutterFragment!!.onActivityResult(
+      requestCode,
+      resultCode,
+      data
+    )
+  }
+
+  override fun onUserLeaveHint() {
+    flutterFragment!!.onUserLeaveHint()
+  }
+
   override fun onResume() {
     super.onResume()
-
+println("radwan=> onResume")
     SimpleTask.run(viewLifecycleOwner.lifecycle, { Recipient.self() }, ::initializeProfileIcon)
 
     requireView()
@@ -402,6 +407,8 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
   override fun onPause() {
     super.onPause()
+    println("radwan=> onPause")
+
     requireView()
       .findViewById<View>(R.id.fragment_container)
       .findNavController()

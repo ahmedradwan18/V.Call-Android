@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
@@ -30,6 +31,10 @@ import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
 import org.thoughtcrime.securesms.util.DynamicTheme;
 import org.thoughtcrime.securesms.util.SplashScreenUtil;
 import org.thoughtcrime.securesms.util.WindowUtil;
+
+import io.flutter.embedding.engine.FlutterEngine;
+import io.flutter.embedding.engine.FlutterEngineCache;
+import io.flutter.embedding.engine.dart.DartExecutor;
 
 public class MainActivity extends PassphraseRequiredActivity implements VoiceNoteMediaControllerOwner {
 
@@ -59,6 +64,26 @@ public class MainActivity extends PassphraseRequiredActivity implements VoiceNot
     super.onCreate(savedInstanceState, ready);
 
     setContentView(R.layout.main_activity);
+
+
+    FlutterEngine flutterEngine = new FlutterEngine(getBaseContext());
+
+// Start executing Dart code in the FlutterEngine.
+    flutterEngine.getDartExecutor().executeDartEntrypoint(
+        DartExecutor.DartEntrypoint.createDefault()
+    );
+
+// Cache the pre-warmed FlutterEngine to be used later by FlutterFragment.
+
+    if(!FlutterEngineCache.getInstance().contains("flutter_engine")){
+      FlutterEngineCache
+          .getInstance()
+          .put("flutter_engine", flutterEngine);
+
+      Log.d("Flutter_Engine", "onCreate: Flutter Engine Cached");
+    }
+
+
     final View content = findViewById(android.R.id.content);
     content.getViewTreeObserver().addOnPreDrawListener(
         new ViewTreeObserver.OnPreDrawListener() {
