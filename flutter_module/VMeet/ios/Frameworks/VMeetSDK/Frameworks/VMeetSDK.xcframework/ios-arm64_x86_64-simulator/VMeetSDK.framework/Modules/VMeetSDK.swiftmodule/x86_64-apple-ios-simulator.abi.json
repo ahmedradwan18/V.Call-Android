@@ -1,0 +1,1015 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VMeetSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PiPViewCoordinatorDelegate",
+        "printedName": "PiPViewCoordinatorDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "exitPictureInPicture",
+            "printedName": "exitPictureInPicture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VMeetSDK26PiPViewCoordinatorDelegateP013exitPictureInH0yyF",
+            "mangledName": "$s8VMeetSDK26PiPViewCoordinatorDelegateP013exitPictureInH0yyF",
+            "moduleName": "VMeetSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : VMeetSDK.PiPViewCoordinatorDelegate>",
+            "sugared_genericSig": "<Self where Self : VMeetSDK.PiPViewCoordinatorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8VMeetSDK26PiPViewCoordinatorDelegateP",
+        "mangledName": "$s8VMeetSDK26PiPViewCoordinatorDelegateP",
+        "moduleName": "VMeetSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PiPViewCoordinator",
+        "printedName": "PiPViewCoordinator",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Position",
+            "printedName": "Position",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "lowerRightCorner",
+                "printedName": "lowerRightCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VMeetSDK.PiPViewCoordinator.Position.Type) -> VMeetSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                        "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VMeetSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                            "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO16lowerRightCorneryA2EmF",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8PositionO16lowerRightCorneryA2EmF",
+                "moduleName": "VMeetSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "upperRightCorner",
+                "printedName": "upperRightCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VMeetSDK.PiPViewCoordinator.Position.Type) -> VMeetSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                        "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VMeetSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                            "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO16upperRightCorneryA2EmF",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8PositionO16upperRightCorneryA2EmF",
+                "moduleName": "VMeetSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "lowerLeftCorner",
+                "printedName": "lowerLeftCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VMeetSDK.PiPViewCoordinator.Position.Type) -> VMeetSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                        "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VMeetSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                            "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO15lowerLeftCorneryA2EmF",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8PositionO15lowerLeftCorneryA2EmF",
+                "moduleName": "VMeetSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "upperLeftCorner",
+                "printedName": "upperLeftCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VMeetSDK.PiPViewCoordinator.Position.Type) -> VMeetSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                        "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "VMeetSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                            "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO15upperLeftCorneryA2EmF",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8PositionO15upperLeftCorneryA2EmF",
+                "moduleName": "VMeetSDK"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                    "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                    "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8PositionO2eeoiySbAE_AEtFZ",
+                "moduleName": "VMeetSDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO9hashValueSivp",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8PositionO9hashValueSivp",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO9hashValueSivg",
+                    "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8PositionO9hashValueSivg",
+                    "moduleName": "VMeetSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8PositionO4hash4intoys6HasherVz_tF",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8PositionO",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dragBoundInsets",
+            "printedName": "dragBoundInsets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeH0Vvp",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeH0Vvp",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeH0Vvg",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeH0Vvg",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeH0Vvs",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeH0Vvs",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeH0VvM",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeH0VvM",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "initialPositionInSuperView",
+            "printedName": "initialPositionInSuperView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0G0Ovp",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0G0Ovp",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "VMeetSDK.PiPViewCoordinator.Position",
+                    "usr": "s:8VMeetSDK18PiPViewCoordinatorC8PositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0G0Ovg",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0G0Ovg",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "c",
+            "printedName": "c",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvp",
+            "moduleName": "VMeetSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvg",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvs",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvM",
+                "moduleName": "VMeetSDK",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "VMeetSDK.PiPViewCoordinatorDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC8delegateAA0cdE8Delegate_pSgvp",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8delegateAA0cdE8Delegate_pSgvp",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VMeetSDK.PiPViewCoordinatorDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PiPViewCoordinatorDelegate",
+                        "printedName": "VMeetSDK.PiPViewCoordinatorDelegate",
+                        "usr": "s:8VMeetSDK26PiPViewCoordinatorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8delegateAA0cdE8Delegate_pSgvg",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8delegateAA0cdE8Delegate_pSgvg",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VMeetSDK.PiPViewCoordinatorDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PiPViewCoordinatorDelegate",
+                        "printedName": "VMeetSDK.PiPViewCoordinatorDelegate",
+                        "usr": "s:8VMeetSDK26PiPViewCoordinatorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8delegateAA0cdE8Delegate_pSgvs",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8delegateAA0cdE8Delegate_pSgvs",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC8delegateAA0cdE8Delegate_pSgvM",
+                "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8delegateAA0cdE8Delegate_pSgvM",
+                "moduleName": "VMeetSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(withView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PiPViewCoordinator",
+                "printedName": "VMeetSDK.PiPViewCoordinator",
+                "usr": "s:8VMeetSDK18PiPViewCoordinatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC8withViewACSo6UIViewC_tcfc",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC8withViewACSo6UIViewC_tcfc",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configureAsStickyView",
+            "printedName": "configureAsStickyView(withParentView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC21configureAsStickyView010withParentI0ySo6UIViewCSg_tF",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC21configureAsStickyView010withParentI0ySo6UIViewCSg_tF",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC4show10completionyySbcSg_tF",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC4show10completionyySbcSg_tF",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hide",
+            "printedName": "hide(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC4hide10completionyySbcSg_tF",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC4hide10completionyySbcSg_tF",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enterPictureInPicture",
+            "printedName": "enterPictureInPicture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC014enterPictureInG0yyF",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC014enterPictureInG0yyF",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exitPictureInPicture",
+            "printedName": "exitPictureInPicture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC013exitPictureInG0yyF",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC013exitPictureInG0yyF",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetBounds",
+            "printedName": "resetBounds(bounds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC11resetBounds6boundsySo6CGRectV_tF",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC11resetBounds6boundsySo6CGRectV_tF",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopDragGesture",
+            "printedName": "stopDragGesture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC15stopDragGestureyyF",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC15stopDragGestureyyF",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureExitPiPButton",
+            "printedName": "configureExitPiPButton(target:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8VMeetSDK18PiPViewCoordinatorC013configureExitC7PButton6target6actionSo8UIButtonCyp_10ObjectiveC8SelectorVtF",
+            "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC013configureExitC7PButton6target6actionSo8UIButtonCyp_10ObjectiveC8SelectorVtF",
+            "moduleName": "VMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8VMeetSDK18PiPViewCoordinatorC",
+        "mangledName": "$s8VMeetSDK18PiPViewCoordinatorC",
+        "moduleName": "VMeetSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VMeetSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mahmoud\/Projects\/jitsi-sdk\/jitsi-meet\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1354,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/mahmoud\/Projects\/jitsi-sdk\/jitsi-meet\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1424,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mahmoud\/Projects\/jitsi-sdk\/jitsi-meet\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1495,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mahmoud\/Projects\/jitsi-sdk\/jitsi-meet\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1565,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mahmoud\/Projects\/jitsi-sdk\/jitsi-meet\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "FloatLiteral",
+      "offset": 1891,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mahmoud\/Projects\/jitsi-sdk\/jitsi-meet\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1992,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

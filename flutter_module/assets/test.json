@@ -1,0 +1,13 @@
+{
+            "promo_code": "O6B7H8",
+            "valid_till": "2022-01-18",
+            "discount_type": "Fixed Amount",
+            "amount": 50,
+            "percentage": 0,
+            "max_discount_limit": 0,
+            "expired": 0,
+            "redeemed": 1,
+            "number_of_uses": 1,
+            "maximum_usage": 0,
+            "rules_text": "This offer can be applied to Course Round, VLC Packages, and Capacity Packages items only."
+        }

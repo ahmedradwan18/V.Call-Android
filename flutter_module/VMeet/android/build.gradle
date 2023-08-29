@@ -1,0 +1,54 @@
+group 'com.variiance.v_meet'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.5.20'
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        // Todo: Change Path
+        maven { url  '$buildDir/../../../VMeet/android/Android/AndroidSDK' }
+        
+        maven { url 'https://www.jitpack.io' }
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 33
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+    defaultConfig {
+        minSdkVersion 23
+    }   
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    namespace 'com.example.vmeet'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation ('org.vmeet.react:v-meet-sdk:+') { transitive = true }
+}

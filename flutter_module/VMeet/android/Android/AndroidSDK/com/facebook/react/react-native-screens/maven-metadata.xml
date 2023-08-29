@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native-screens</artifactId>
+  <versioning>
+    <latest>3.13.1-jitsi-12946869</latest>
+    <release>3.13.1-jitsi-12946869</release>
+    <versions>
+      <version>3.13.1-jitsi-12810010</version>
+      <version>3.13.1-jitsi-12946869</version>
+    </versions>
+    <lastUpdated>20230207103136</lastUpdated>
+  </versioning>
+</metadata>

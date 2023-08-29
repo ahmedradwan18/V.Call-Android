@@ -1,0 +1,3 @@
+rootProject.name = 'v_meet'
+include ':react-native-mydependency'
+project(':eact-native-mydependency').projectDir = new File(rootProject.projectDir, '../node_modules/@somenamespace/eact-native-mydependency/android')

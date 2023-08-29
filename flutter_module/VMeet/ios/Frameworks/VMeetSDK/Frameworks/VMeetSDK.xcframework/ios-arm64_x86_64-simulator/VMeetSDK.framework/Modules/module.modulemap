@@ -1,0 +1,6 @@
+framework module VMeetSDK {
+  umbrella header "VMeetSDK.h"
+
+  export *
+  module * { export * }
+}
