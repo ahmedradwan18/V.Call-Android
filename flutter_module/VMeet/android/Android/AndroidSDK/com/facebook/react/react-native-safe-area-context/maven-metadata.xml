@@ -3,12 +3,13 @@
   <groupId>com.facebook.react</groupId>
   <artifactId>react-native-safe-area-context</artifactId>
   <versioning>
-    <latest>3.3.2-jitsi-12946869</latest>
-    <release>3.3.2-jitsi-12946869</release>
+    <latest>4.4.1-jitsi-14103423</latest>
+    <release>4.4.1-jitsi-14103423</release>
     <versions>
-      <version>3.3.2-jitsi-12810010</version>
-      <version>3.3.2-jitsi-12946869</version>
+      <version>4.4.1-jitsi-13974095</version>
+      <version>4.4.1-jitsi-13975268</version>
+      <version>4.4.1-jitsi-14103423</version>
     </versions>
-    <lastUpdated>20230207103136</lastUpdated>
+    <lastUpdated>20230621071036</lastUpdated>
   </versioning>
 </metadata>

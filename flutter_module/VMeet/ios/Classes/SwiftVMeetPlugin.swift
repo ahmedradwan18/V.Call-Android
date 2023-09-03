@@ -1,6 +1,6 @@
 import Flutter
 import UIKit
-import VMeetSDK
+import JitsiMeetSDK
 
 public class SwiftVMeetPlugin: NSObject, FlutterPlugin, FlutterStreamHandler {
     var window: UIWindow?

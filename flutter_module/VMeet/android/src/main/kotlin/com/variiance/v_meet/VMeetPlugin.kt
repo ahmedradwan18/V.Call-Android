@@ -13,8 +13,8 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry.Registrar
-import org.v.meet.sdk.VMeetConferenceOptions
-import org.v.meet.sdk.VMeetUserInfo
+import org.jitsi.meet.sdk.JitsiMeetConferenceOptions
+import org.jitsi.meet.sdk.JitsiMeetUserInfo
 import java.net.URL
 
 
@@ -110,7 +110,7 @@ public class VMeetPlugin() : FlutterPlugin, MethodCallHandler, ActivityAware {
 
         Log.d(VMeet_PLUGIN_TAG, "Joining Room: $room")
 
-        val userInfo = VMeetUserInfo()
+        val userInfo = JitsiMeetUserInfo()
         userInfo.displayName = call.argument("userDisplayName")
         userInfo.email = call.argument("userEmail")
         if (call.argument<String?>("userAvatarURL") != null) {
@@ -121,7 +121,7 @@ public class VMeetPlugin() : FlutterPlugin, MethodCallHandler, ActivityAware {
         val serverURL = URL(serverURLString)
         Log.d(VMeet_PLUGIN_TAG, "Server URL: $serverURL, $serverURLString")
 
-        val optionsBuilder = VMeetConferenceOptions.Builder()
+        val optionsBuilder = JitsiMeetConferenceOptions.Builder()
 
         // Set meeting options
         optionsBuilder

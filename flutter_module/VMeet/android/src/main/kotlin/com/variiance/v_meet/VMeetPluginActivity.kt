@@ -12,20 +12,19 @@ import android.util.Log
 import android.view.WindowManager
 import com.variiance.v_meet.VMeetPlugin.Companion.V_MEETING_CLOSE
 import com.variiance.v_meet.VMeetPlugin.Companion.VMeet_PLUGIN_TAG
-import org.v.meet.sdk.VMeetActivity
-import org.v.meet.sdk.VMeetConferenceOptions
+import org.jitsi.meet.sdk.*
 
 /**
  * Activity extending VMeetActivity in order to override the conference events
  */
-class VMeetPluginActivity : VMeetActivity() {
+class VMeetPluginActivity : JitsiMeetActivity() {
     companion object {
         @JvmStatic
         fun launchActivity(context: Context?,
-                           options: VMeetConferenceOptions) {
+                           options: JitsiMeetConferenceOptions) {
             var intent = Intent(context, VMeetPluginActivity::class.java).apply {
-                action = "org.v.meet.CONFERENCE"
-                putExtra("VMeetConferenceOptions", options)
+                action = "org.jitsi.meet.CONFERENCE"
+                putExtra("JitsiMeetConferenceOptions", options)
             }
             context?.startActivity(intent)
         }
@@ -74,13 +73,13 @@ class VMeetPluginActivity : VMeetActivity() {
         VMeetEventStreamHandler.instance.onConferenceWillJoin(data)
         super.onConferenceWillJoin(data)
     }
-    
-    
-    override fun onScreenShareToggled(data: HashMap<String, Any>) {
-        Log.d(VMeet_PLUGIN_TAG, String.format("VMeetPluginActivity.onScreenShareToggled: %s", data))
-        VMeetEventStreamHandler.instance.onScreenShareToggled(data)
-        super.onScreenShareToggled(data)
-    }
+
+
+//    override fun onScreenShareToggled(data: HashMap<String, Any>) {
+//        Log.d(VMeet_PLUGIN_TAG, String.format("VMeetPluginActivity.onScreenShareToggled: %s", data))
+//        VMeetEventStreamHandler.instance.onScreenShareToggled(data)
+//        super.onScreenShareToggled(data)
+//    }
 
     override fun onConferenceJoined(data: HashMap<String, Any>) {
         Log.d(VMeet_PLUGIN_TAG, String.format("VMeetPluginActivity.onConferenceJoined: %s", data))

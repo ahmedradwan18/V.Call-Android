@@ -1,5 +1,5 @@
 import UIKit
-import VMeetSDK
+import JitsiMeetSDK
 
 class VMeetViewController: UIViewController {
     
@@ -109,7 +109,7 @@ class VMeetViewController: UIViewController {
     }
 }
 
-extension VMeetViewController: VMeetViewDelegate {
+extension VMeetViewController: JitsiMeetViewDelegate {
     
     func conferenceWillJoin(_ data: [AnyHashable : Any]!) {
                print("CONFERENCE WILL JOIN")

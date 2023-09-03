@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'app/core/helpers/helpers.dart';
 import 'app/core/utils/localization_service.dart';
@@ -12,13 +11,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Helpers.initApp();
-
-
-   const platform = const MethodChannel('channel_radwan');
-  platform.setMethodCallHandler((call)async{
-    // you can get hear method and passed arguments with method
-    print("init state setMethodCallHandler ${call.arguments}");
-  });
 
   // to init the firebase connection.
   runApp(
