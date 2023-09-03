@@ -9,6 +9,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
+import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
@@ -22,6 +24,7 @@ import org.thoughtcrime.securesms.conversationlist.RelinkDevicesReminderBottomSh
 import org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceExitActivity;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.net.DeviceTransferBlockingInterceptor;
+import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
 import org.thoughtcrime.securesms.stories.tabs.ConversationListTabRepository;
 import org.thoughtcrime.securesms.stories.tabs.ConversationListTabsViewModel;
 import org.thoughtcrime.securesms.util.AppStartup;
@@ -35,6 +38,7 @@ import org.thoughtcrime.securesms.util.WindowUtil;
 import io.flutter.embedding.engine.FlutterEngine;
 import io.flutter.embedding.engine.FlutterEngineCache;
 import io.flutter.embedding.engine.dart.DartExecutor;
+import io.flutter.plugin.common.MethodChannel;
 
 public class MainActivity extends PassphraseRequiredActivity implements VoiceNoteMediaControllerOwner {
 
@@ -42,10 +46,10 @@ public class MainActivity extends PassphraseRequiredActivity implements VoiceNot
 
   private final DynamicTheme  dynamicTheme = new DynamicNoActionBarTheme();
   private final MainNavigator navigator    = new MainNavigator(this);
-
+  private RegistrationViewModel viewModel;
   private VoiceNoteMediaController      mediaController;
   private ConversationListTabsViewModel conversationListTabsViewModel;
-
+  FlutterEngine flutterEngine;
   private boolean onFirstRender = false;
 
   public static @NonNull Intent clearTop(@NonNull Context context) {
@@ -66,7 +70,7 @@ public class MainActivity extends PassphraseRequiredActivity implements VoiceNot
     setContentView(R.layout.main_activity);
 
 
-    FlutterEngine flutterEngine = new FlutterEngine(getBaseContext());
+    flutterEngine = new FlutterEngine(getBaseContext());
 
 // Start executing Dart code in the FlutterEngine.
     flutterEngine.getDartExecutor().executeDartEntrypoint(
@@ -75,13 +79,34 @@ public class MainActivity extends PassphraseRequiredActivity implements VoiceNot
 
 // Cache the pre-warmed FlutterEngine to be used later by FlutterFragment.
 
-    if(!FlutterEngineCache.getInstance().contains("flutter_engine")){
+    if (!FlutterEngineCache.getInstance().contains("flutter_engine")) {
       FlutterEngineCache
           .getInstance()
           .put("flutter_engine", flutterEngine);
 
       Log.d("Flutter_Engine", "onCreate: Flutter Engine Cached");
     }
+
+
+//    if(viewModel!=null){
+//      if(viewModel.getNumber().isValid()){
+//
+//        System.out.println("radwan=> "+viewModel.getNumber());
+//
+//      }
+//      else{
+//        System.out.println("radwan=> not valid number");
+//
+//      }
+//
+//    }
+//
+
+    var testChannel = new MethodChannel(flutterEngine.getDartExecutor().getBinaryMessenger(), "channel_radwan");
+
+    testChannel.invokeMethod("getRadwan", "yaaarb");
+
+
 
 
     final View content = findViewById(android.R.id.content);
@@ -115,6 +140,9 @@ public class MainActivity extends PassphraseRequiredActivity implements VoiceNot
     conversationListTabsViewModel = new ViewModelProvider(this, factory).get(ConversationListTabsViewModel.class);
     updateTabVisibility();
   }
+
+
+
 
   @Override
   public Intent getIntent() {

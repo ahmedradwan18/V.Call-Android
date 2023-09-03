@@ -15,6 +15,7 @@ import androidx.core.view.children
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.NavDestination
 import androidx.navigation.Navigator
@@ -40,6 +41,7 @@ import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
 import org.thoughtcrime.securesms.notifications.profiles.NotificationProfiles
 import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel
 import org.thoughtcrime.securesms.stories.tabs.ConversationListTab
 import org.thoughtcrime.securesms.stories.tabs.ConversationListTabsState
 import org.thoughtcrime.securesms.stories.tabs.ConversationListTabsViewModel
@@ -62,6 +64,7 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
   companion object {
     private val TAG = Log.tag(MainActivityListHostFragment::class.java)
     private const val TAG_FLUTTER_FRAGMENT = "flutter_fragment"
+    private const val CHANNEL = "com.example.myapp/data_channel"
 
   }
 
@@ -80,6 +83,7 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
   private lateinit var _unreadPaymentsDot: View
 
   private var previousTopToastPopup: TopToastPopup? = null
+  private var viewModel: RegistrationViewModel? = null
 
   private val destinationChangedListener = DestinationChangedListener()
 
@@ -113,7 +117,7 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
     initializeSettingsTouchTarget()
 
     (requireActivity() as AppCompatActivity).setSupportActionBar(_toolbar)
-
+//    viewModel = ViewModelProvider(requireActivity()).get(RegistrationViewModel::class.java)
 
     // Get a reference to the Activity's FragmentManager to add a new FlutterFragment, or find an existing one.
     val fragmentManager: FragmentManager = parentFragmentManager
@@ -150,6 +154,7 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
         R.id.conversationListArchiveFragment -> Unit
 
         R.id.roomsFragment ->{
+
           goToStateFromRooms(state, controller)
         }
 
@@ -178,7 +183,6 @@ class MainActivityListHostFragment : Fragment(R.layout.main_activity_list_host_f
 
     }
   }
-
 
 
   private fun goToStateFromConversationList(state: ConversationListTabsState, navController: NavController) {

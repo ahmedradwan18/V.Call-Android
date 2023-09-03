@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="?android:windowBackground"
     android:layout_height="match_parent">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -30,17 +31,29 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+
+
+
+
+
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/signal_colorBackground"
+        android:background="@color/vcall_conversationListBg"
         android:clipToPadding="false"
         android:paddingBottom="80dp"
         android:scrollbars="vertical"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:listitem="@layout/conversation_list_item_view" />
+
+
+
+
+
 
     <LinearLayout
         android:id="@+id/empty_state"
