@@ -84,28 +84,17 @@ public class MainActivity extends PassphraseRequiredActivity implements VoiceNot
           .getInstance()
           .put("flutter_engine", flutterEngine);
 
-      Log.d("Flutter_Engine", "onCreate: Flutter Engine Cached");
     }
 
 
-//    if(viewModel!=null){
-//      if(viewModel.getNumber().isValid()){
-//
-//        System.out.println("radwan=> "+viewModel.getNumber());
-//
-//      }
-//      else{
-//        System.out.println("radwan=> not valid number");
-//
-//      }
-//
-//    }
-//
+    String localNumber = SignalStore.account().getE164();
+    if(localNumber!=null){
+      System.out.println("number is  "+ localNumber);
 
-    var testChannel = new MethodChannel(flutterEngine.getDartExecutor().getBinaryMessenger(), "channel_radwan");
+      var testChannel = new MethodChannel(flutterEngine.getDartExecutor().getBinaryMessenger(), "vlc_channel");
 
-    testChannel.invokeMethod("getRadwan", "yaaarb");
-
+      testChannel.invokeMethod("getLocalNumber", localNumber);
+    }
 
 
 
