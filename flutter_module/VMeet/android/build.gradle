@@ -16,15 +16,18 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        // Todo: Change Path
-        //  maven { url  'file:Users/mahmoud/Documents/V.Call-Android/flutter_module/VMeet/android/Android/AndroidSDK' }
-        maven {
-            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
-        }
-
-        maven { url 'https://www.jitpack.io' }
         google()
         jcenter()
+        // Todo: Change Path
+//        maven { url  '$buildDir/../../../VMeet/android/Android/AndroidSDK' }
+          maven { url  'flutter_module/VMeet/android/Android/AndroidSDK' }
+//          maven { url  'V.Call-Android/flutter_module/VMeet/android/Android/AndroidSDK' }
+//        maven {
+//            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+//        }
+
+        maven { url 'https://www.jitpack.io' }
+
 
     }
 }
@@ -54,8 +57,10 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation ('org.jitsi.react:jitsi-meet-sdk:+') {
+
+    implementation ('org.jitsi.react:jitsi-meet-sdk:99.0.0') {
         transitive = true
-        exclude group:'org.webrtc'
+        exclude group:'org.jitsi' , module: 'webrtc'
     }
+
 }

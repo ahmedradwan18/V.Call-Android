@@ -146,6 +146,9 @@ android {
     }
 
     packagingOptions {
+
+//        jniLibs.pickFirsts.add("org.signal:ringrtc")
+
         resources {
             excludes += ['LICENSE.txt', 'LICENSE', 'NOTICE', 'asm-license.txt', 'META-INF/LICENSE', 'META-INF/LICENSE.md', 'META-INF/NOTICE', 'META-INF/LICENSE-notice.md', 'META-INF/proguard/androidx-annotations.pro', 'libsignal_jni.dylib', 'signal_jni.dll']
         }
@@ -166,7 +169,7 @@ android {
 
         versionCode canonicalVersionCode * postFixSize
         versionName canonicalVersionName
-        minSdkVersion signalMinSdkVersion
+        minSdkVersion 24
         targetSdkVersion signalTargetSdkVersion
 
         multiDexEnabled true
@@ -539,7 +542,10 @@ dependencies {
         exclude group: 'com.google.protobuf'
     }
 
-    implementation libs.signal.ringrtc
+    implementation (libs.signal.ringrtc) {
+        exclude group: 'org.signal', module: 'webrtc'
+        transitive = true}
+
     implementation libs.leolin.shortcutbadger
     implementation libs.emilsjolander.stickylistheaders
     implementation libs.apache.httpclient.android

@@ -1,6 +1,7 @@
 package org.thoughtcrime.securesms.util
 
 import okhttp3.HttpUrl
+import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 import org.thoughtcrime.securesms.stickers.StickerUrl
 import java.util.Objects
 import java.util.regex.Pattern
@@ -37,7 +38,7 @@ object LinkUtil {
       return false
     }
 
-    return HttpUrl.parse(linkUrl)?.scheme() == "https"
+    return linkUrl.toHttpUrlOrNull()?.scheme == "https"
   }
 
   /**
